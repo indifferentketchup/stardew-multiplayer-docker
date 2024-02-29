@@ -43,7 +43,7 @@ services:
 
       ## Unlimited Players mod
       # Removing this will limit game players to 4
-      - ENABLE_UNLIMITEDPLAYERS_MOD=${ENABLE_UNLIMITEDPLAYERS_MOD-true}
+      - ENABLE_UNLIMITEDPLAYERS_MOD=${ENABLE_UNLIMITEDPLAYERS_MOD-false}
       - UNLIMITED_PLAYERS_PLAYER_LIMIT=${UNLIMITED_PLAYERS_PLAYER_LIMIT-10}
 
       ## Auto Load Game mod
