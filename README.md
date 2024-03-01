@@ -1,4 +1,4 @@
-# Stardew Valley Multiplayer Docker Compose
+# Stardew Valley Multiplayer Docker Compose (SVE Enabled)
 
 This project aims to autostart a Stardew Valley Multiplayer Server as easy as possible.
 
