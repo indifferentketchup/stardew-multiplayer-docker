@@ -1,0 +1,21 @@
+{
+  "AcceptPet": true,
+  "EnableCropSaver": true,
+  "PurchaseJojaMembership": false,
+  "FarmName": "Fucking Work",
+  "StartingCabins": 1,
+  "CabinLayout": "separate",
+  "ProfitMargin": "normal",
+  "MoneyStyle": "shared",
+  "FarmType": "standard",
+  "CommunityCenterBundles": "normal",
+  "GuaranteeYear1Completable": false,
+  "MineRewards": "normal",
+  "SpawnMonstersOnFarmAtNight": true,
+  "RandomSeed": null,
+  "PetSpecies": "dog",
+  "PetBreed": 0,
+  "PetName": "Apples",
+  "MushroomsOrBats": "Mushrooms",
+  "MoveBuildPermission": "on"
+}
