@@ -23,11 +23,11 @@
    },
    {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-      "IsRequired": false,
+      "IsRequired": true,
    },
    {
       "UniqueID": "flashshifter.immersivefarm2remastered",
-      "IsRequired": false,
+      "IsRequired": true,
    },
    {
       "UniqueID": "zander.immersivefarm2",
@@ -63,7 +63,7 @@
    },
    {
       "UniqueID": "Bouhm.NPCMapLocations",
-      "IsRequired": false,
+      "IsRequired": true,
    },
    {
       "UniqueID": "Tarniyar.CP.WalkToDesert",
