@@ -1,9 +1,10 @@
 {
-    "Name": "Console Commands",
-    "Author": "SMAPI",
-    "Version": "3.18.6",
-    "Description": "Adds SMAPI console commands that let you manipulate the game.",
-    "UniqueID": "SMAPI.ConsoleCommands",
-    "EntryDll": "ConsoleCommands.dll",
-    "MinimumApiVersion": "3.18.6"
+  "Name": "Remote Control",
+  "Author": "Sebbity",
+  "Version": "1.0.1",
+  "Description": "Remotely control a stardew valley host ",
+  "UniqueID": "Sebbity.RemoteControl",
+  "EntryDll": "RemoteControl.dll",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": [ "GitHub:Novex/stardew-remote-control"]
 }
