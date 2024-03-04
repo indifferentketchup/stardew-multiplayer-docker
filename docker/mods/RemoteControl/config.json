@@ -1,0 +1,16 @@
+{
+  "everyoneIsAdmin": false,
+  "admins": [
+    {
+      "id": -8262465746846469000,
+      "name": ""
+    },
+    {
+      "id": -4915028863879815000,
+      "name": ""
+    }
+  ],
+  "shouldAssignAdminToFirstCabinFarmer": false,
+  "shouldReAssignAdminToPlayersOnModUpdate": false,
+  "maxPlayers": 7
+}
