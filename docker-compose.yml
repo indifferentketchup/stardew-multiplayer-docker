@@ -135,6 +135,10 @@ services:
       - ENABLE_DEDICATEDSERVER_MOD=${ENABLE_DEDICATEDSERVER_MOD-true}
       - ENABLE_CABINSTACKER_MOD=${ENABLE_CABINSTACKER_MOD-true}
       - ENABLE_BETTERRANCHING_MOD=${ENABLE_BETTERRANCHING_MOD-true}
+      - ENABLE_ADVENTURERSGUILDEXPANDED_MOD=${ENABLE_ADVENTURERSGUILDEXPANDED_MOD-true}
+      - ENABLE_ERRORHANDLER_MOD=${ENABLE_ERRORHANDLER_MOD-true}
+      - ENABLE_MAPEDIT_MOD=${ENABLE_MAPEDIT_MOD-true}
+      - ENABLE_SAATADVENTURERSGUILDEXPANDED_MOD=${ENABLE_SAATADVENTURERSGUILDEXPANDED_MOD-true}
     ports:
       # VNC
       - 5902:5900
@@ -145,7 +149,5 @@ services:
     volumes:
       # Saves go here now
       - ./valley_saves:/config/xdg/config/StardewValley/Saves
-      # If you'd like to set an existing savegame before the first start otherwise this file will be edited when starting the first game
-      - ./configs/autoload.json:/data/Stardew/Stardew Valley/Mods/AutoLoadGame/config.json
 
       
