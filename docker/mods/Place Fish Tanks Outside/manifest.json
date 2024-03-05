@@ -1,0 +1,13 @@
+{
+  "Name": "Place Fish Tanks Outside (Furniture Anywhere Redux) by glymr",
+  "Author": "glymr",
+  "Version": "1.1.0",
+  "Description": "Allows you to place fish tank furniture outside.",
+  "UniqueID": "glymr.FishTanksOutside",
+  "UpdateKeys": [
+    "Nexus:18534",
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
