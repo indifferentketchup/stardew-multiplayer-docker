@@ -1,0 +1,10 @@
+{
+  "BiggerCraftables": [
+    {
+      "Name": "Terrarium",
+      "Image": "assets/terrarium.png" ,
+      "Width": 3,
+      "Length": 3,
+	}
+  ]
+}

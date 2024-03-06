@@ -1,0 +1,42 @@
+{
+    "Changes": [
+       	//  __  __                            _   _   _     _          ___    _   ____           _                
+		// |  \/  |   ___   _ __    ___    __| | (_) | |_  | |__      / _ \  ( ) | __ )   _ __  (_)   ___   _ __  
+		// | |\/| |  / _ \ | '__|  / _ \  / _` | | | | __| | '_ \    | | | | |/  |  _ \  | '__| | |  / _ \ | '_ \ 
+		// | |  | | |  __/ | |    |  __/ | (_| | | | | |_  | | | |   | |_| |     | |_) | | |    | | |  __/ | | | |
+		// |_|  |_|  \___| |_|     \___|  \__,_| |_|  \__| |_| |_|    \___/      |____/  |_|    |_|  \___| |_| |_|
+		{
+			"LogName": "Meredith antisocial flag",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"MeredithOBrien": true,
+			},
+		},
+		{
+			"LogName": "Meredith Sprites",
+			"Action": "Load",
+			"Target": "Characters/MeredithOBrien",
+			"FromFile": "assets/Characters/MeredithOBrien.png"
+		},
+		{
+			"LogName": "Meredith Rodney 10H Sprites",
+			"Action": "Load",
+			"Target": "Characters/MeredithOBrien_MeredithEvent",
+			"FromFile": "assets/Characters/MeredithOBrien.png" //When doing seasonals, remember to keep this for Rodney 10hP1
+		},
+		{
+			"LogName": "Meredith Portraits",
+			"Action": "Load",
+			"Target": "Portraits/MeredithOBrien",
+			"FromFile": "assets/Image/Portraits/Portraits-Meredith.png"
+		},
+		{
+			"LogName": "Child Meredith Sprite",
+			"Action": "Load",
+			"Target": "Characters/MeredithOBrien_ChildMeredith",
+			"FromFile": "Assets/Characters/ChildMeredith.png",
+		},
+
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney GIMA groups",
+            "Action": "EditData",
+            "Target": "Mods/atravita_Ginger_Island_Adjustments_groups",
+            "Entries": {
+                "RodAndGus": "RodneyOBrien, Gus",
+            },
+            "When": {
+                "HasMod": "atravita.GingerIslandMainlandAdjustments",
+            },
+        },
+        {
+            "LogName": "Rodney GIMA groups explorers",
+            "Action": "EditData",
+            "Target": "Mods/atravita_Ginger_Island_Adjustments_groups",
+            "Entries": {
+                "RodAndElliott": "RodneyOBrien, Elliott",
+            },
+            "When": {
+                "HasMod": "atravita.GingerIslandMainlandAdjustments",
+            },
+        },
+        {
+            "LogName": "Rodney GI remainder schedule", //Determines how the character will spend the rest of the day when returning from the resort.
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "GIRemainder_Spring": "1800 Beach 54 6 2 frontsit/1930 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "GIRemainder_Summer": "1800 Beach 54 6 2 frontsit/2030 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2430 Custom_RodneysHouse 13 13 0 sleep",
+                "GIRemainder_Fall": "1800 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "GIRemainder_Winter": "1930 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+            },
+            "When": {
+                "HasMod": "atravita.GingerIslandMainlandAdjustments",
+            },
+        },
+        {
+            "LogName": "Rodney GIMA dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RodneyOBrien",
+            "Entries": {
+                "Resort_Approach": "{{i18n:Resort_Approach}}",
+                "Resort_Left": "{{i18n:Resort_Left}}",
+                "winterResort_Lef": "{{i18n:winterResort_Lef}}",
+                "Resort_Adventure": "{{i18n:Resort_Adventure}}",
+                "Resort_Adventure_2": "{{i18n:Resort_Adventure_2}}",
+            }
+        },
+    ]
+}

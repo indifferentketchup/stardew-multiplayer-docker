@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Fievel's Hat for Fashion Sense",
+  "Author": "DestyNova & ES Dev Team",
+  "Version": "1.1.2",
+  "Description": "Allows you to wear Fievel's Hat through Fashion Sense.",
+  "UniqueID": "EastScarp.FGES.FievelFashionSensePack",
+  "UpdateKeys": [],
+    "Dependencies": [
+      {
+         "UniqueID": "EastScarp.FGES"
+      },
+    ],  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "5.5.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+   "Name": "Krobus Marriage Dialogue Mod",
+   "Author": "MelindaC",
+   "Version": "1.0.4",
+   "Description": "A mod that features more 'marriage' dialogue from our favourite shadow creature.",
+   "UniqueID": "MelindaC.KrobusMarriageDialogueMod",
+   
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+"Dependencies": [
+    { "UniqueID": "gizzymo.canonfriendlyexpansion",
+}
+  ],
+
+}

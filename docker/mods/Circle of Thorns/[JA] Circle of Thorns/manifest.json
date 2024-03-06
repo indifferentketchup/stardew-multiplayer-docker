@@ -1,0 +1,16 @@
+{
+    "Name": "[JA] Circle of Thorns - Ancient Crops",
+    "Author": "DestyNova",
+    "Version": "1.0.2",
+    "Description": "Adds Hector's custom ancient crops.",
+    "UniqueID": "DestyNova.COTJA",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [
+      {
+         "UniqueID": "DestyNova.Hector.CP"
+      },
+    ],
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Prunus Crown",
+	"Description": "An official replica of the Crown worn by Arcana Catcher Prunus in a novel by author Rodney O'Brien.",
+	"PurchasePrice": 3000,
+    "PurchaseFrom": "STF.RodneyShop",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+    "PurchaseRequirements": null,
+	"TranslationKey": "item.prunus-crown"
+
+}

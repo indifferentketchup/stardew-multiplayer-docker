@@ -1,0 +1,42 @@
+{
+  "WeatherForYesterday": "Snow",
+  "LNOSCounter": {
+    "Secret Cave": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_LK_FairyPool",
+      "Name": null,
+      "Tile": "13, 33",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_LK_FairyPool",
+      "Name": null,
+      "Tile": "8, 30",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_LK_FairyPool",
+      "Name": null,
+      "Tile": "8, 33",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+   "Name": "Krobus Marriage Dialogue Mod - SVE",
+   "Author": "MelindaC",
+   "Version": "1.2.1",
+   "Description": "A mod that features more 'marriage' dialogue from our favourite shadow creature. SVE Version.",
+   "UniqueID": "MelindaC.KrobusMarriageDialogueModSVE",
+   
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+"Dependencies": [
+	{ "UniqueID": "gizzymo.canonfriendlyexpansion",
+},
+
+    
+	{ "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+}
+],
+}

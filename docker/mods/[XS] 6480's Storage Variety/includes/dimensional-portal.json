@@ -1,0 +1,55 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/DimensionalPortal",
+      "FromFile": "assets/dimensional-portal.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "DimensionalPortal": {
+          "DisplayName": "{{i18n: dimensional-portal.name}}",
+          "Description": "{{i18n: dimensional-portal.description}}",
+          "Image": "6480.StorageVariety/DimensionalPortal",
+          "PlayerColor": false,
+          "OpenSound": "Ship",
+          "IsPlaceable": false,
+          "SpecialChestType": "JunimoChest",
+          "BetterChestsData": {
+            "CustomColorPicker": "Disabled",
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 24
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "DimensionalPortal": "768 25 769 25 386 10/Home/256/true/null/{{i18n: dimensional-portal.name}}"
+      }
+    },
+    
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "DimensionalPortal": {
+          "ShopID": "ShadowShop",
+          "Price": 15000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

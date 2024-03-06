@@ -1,0 +1,24 @@
+{
+"Changes":[
+{	"LogName": "Loads sprites",   "Action": "Load",  
+    "Target": "Characters/MisterGinger",
+    "FromFile": "assets/Characters/{{TristanVariant}}/Tristan_fall.png"            
+                    },
+{	"LogName": "Loads sprites",   "Action": "Load",  
+    "Target": "Portraits/MisterGinger",
+    "FromFile": "assets/Portraits/{{TristanVariant}}/Tristan_fall.png"            
+                    },
+{   "LogName": "Loads Dialogue",   "Action": "Load",  
+    "Target": "Characters/Dialogue/MisterGinger",
+    "FromFile": "assets/Characters/Dialogue/blank.json"              
+                    },
+{   "LogName": "Loads schedules",   "Action": "Load",  
+    "Target":  "Characters/schedules/MisterGinger",
+    "FromFile": "assets/Characters/schedules/blank.json"           
+                    },
+{   "LogName": "Loads Dialogue",   "Action": "Load",  
+    "Target": "Characters/Dialogue/MarriageDialogueMisterGinger",
+    "FromFile": "assets/Characters/Dialogue/blank.json"             
+                    }
+	]
+}

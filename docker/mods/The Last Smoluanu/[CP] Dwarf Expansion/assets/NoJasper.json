@@ -1,0 +1,75 @@
+{
+    "Changes": [
+        {
+            "LogName": "NPC Gift Tastes - Dwarf likes milk",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        3
+                    ], // spring
+                    "Value": "-6",
+                    "Delimiter": " "
+                },
+            ],
+            "When": {
+                "HasSeenEvent": "55990007"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                "GiftReaction_Milk": "{{i18n:dialogue.giftreaction.milk}}",
+                "GiftReaction_Large_Milk": "{{i18n:dialogue.giftreaction.largemilk}}"
+            },
+            "When": {
+                "HasSeenEvent": "55990007"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mine",
+            "FromFile": "assets/Maps/MineDwarf.tmx",
+            "ToArea": {
+                "X": 37,
+                "Y": 2,
+                "Width": 13,
+                "Height": 13
+            },
+            "When": {
+                "HasMod |contains=DaisyNiko.SVR2, delloti.mine": false,
+                "HasMod |contains=DaisyNiko.Tilesheets": true,
+                "Relationship:Dwarf |contains=married": false
+            }
+        },
+        {
+            "LogName": "Mine Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "55990007/i -6": "EarthMine/41 11/farmer 35 8 1 Dwarf 43 6 2/skippable/pause 500/move farmer 7 0 0/jump Dwarf 4/move Dwarf 0 1 2/speak Dwarf \"{{i18n:55990007.01}}\"/quickQuestion {{i18n:55990007.q0}}(break)speak Dwarf \"{{i18n:55990007.q1}}\"(break)speak Dwarf \"{{i18n:55990007.q2}}\"(break)speak Dwarf \"{{i18n:55990007.q3}}\"/pause 500/speak Dwarf \"{{i18n:55990007.02}}\"/emote farmer 60/pause 1500/speak Dwarf \"{{i18n:55990007.03}}\"/emote farmer 40/faceDirection farmer 1/addObject 43 8 186/removeItem -6/pause 500/emote Dwarf 16/speak Dwarf \"{{i18n:55990007.04}}\"/pause 500/quickQuestion {{i18n:55990007.q4}}(break)speak Dwarf \"{{i18n:55990007.q5}}\"(break)speak Dwarf \"{{i18n:55990007.q6}}\"(break)speak Dwarf \"{{i18n:55990007.q7}}\"/pause 500/removeSprite 43 8/playSound sipTea/pause 500/jump Dwarf 5/emote Dwarf 20/speak Dwarf \"{{i18n:55990007.05}}\"/emote farmer 32/pause 1000/end"
+            },
+            "When": {
+                "HasWalletItem |contains=DwarvishTranslationGuide": true
+            }
+        },
+        {
+            "LogName": "Strings from Maps",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "DwarfCave.1": "{{i18n:strings.dwarfcave.1}}",
+                "DwarfCave.2": "{{i18n:strings.dwarfcave.2}}",
+                "DwarfCave.3": "{{i18n:strings.dwarfcave.3}}",
+                "DwarfCave.4": "{{i18n:strings.dwarfcave.4}}",
+                "DwarfCave.5": "{{i18n:strings.dwarfcave.5}}",
+                "DwarfCave.6": "{{i18n:strings.dwarfcave.6}}",
+            }
+        }
+    ]
+}

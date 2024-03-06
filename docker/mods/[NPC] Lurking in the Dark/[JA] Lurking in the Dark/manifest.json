@@ -1,0 +1,14 @@
+{
+    "Name": "Lurking in the Dark - Json Assets",
+    "Author": "7thAxis",
+    "Description": "Json Assets for Lurking in the Dark",
+    "Version": "1.2.2",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "7thAxis.LitD.JA",
+    "UpdateKeys": [],
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [{"UniqueID": "7thAxis.LitD.CP", "IsRequired": true}]
+}

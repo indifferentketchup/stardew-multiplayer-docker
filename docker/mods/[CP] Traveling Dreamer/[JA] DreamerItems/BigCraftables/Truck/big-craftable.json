@@ -1,0 +1,9 @@
+{
+  "Name": "Red Truck",
+  "Price": 2000,
+  "ProvidesLight": false,
+  "Description": "Spoil your childern this this toy.",
+  "ProvidesLight": false,
+  "CanPurchase": false,
+  "TranslationKey": "big-craftables",
+}

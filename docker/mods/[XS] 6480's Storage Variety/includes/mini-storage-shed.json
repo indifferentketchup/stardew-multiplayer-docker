@@ -1,0 +1,55 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/MiniStorageShed",
+      "FromFile": "assets/mini-storage-shed.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "MiniStorageShed": {
+          "DisplayName": "{{i18n: mini-storage-shed.name}}",
+          "Description": "{{i18n: mini-storage-shed.description}}",
+          "Image": "6480.StorageVariety/MiniStorageShed",
+          "PlayerColor": true,
+          "OpenNearby": 1,
+          "OpenSound": "doorCreak",
+          "Height": 64,
+          "Width": 32,
+          "Depth": 16,
+          "BetterChestsData": {
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 96
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "MiniStorageShed": "709 10 388 100/Home/232/true/null/{{i18n: mini-storage-shed.name}}"
+      }
+    },
+    
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "MiniStorageShed": {
+          "ShopID": "Carpenter",
+          "Price": 20000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

@@ -1,0 +1,355 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sen Dialogue for Krobus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "Reveal": "{{i18n:Krobus.SenS.Reveal.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                //"Reveal_SenS4": "",
+                "LitD_CT_SenMet": "{{i18n:Krobus.SenS.SenMet}}",
+                "LitD_CT_DreamReveal": "{{i18n:Krobus.SenS.DreamReveal}}",
+                "LitD_CT_ShadowPlay": "{{i18n:Krobus.SenS.ShadowPlay}}",
+                "LitD_CT_GardenWaitTime": "{{i18n:Krobus.SenS.GardenWaitTime}}",
+                "LitD_CT_GardenCompleted": "{{i18n:Krobus.SenS.GardenCompleted}}",
+                "LitD_CT_FamilyFlashback": "{{i18n:Krobus.SenS.FamilyFlashback}}",
+                "LitD_CT_MineFlashback": "{{i18n:Krobus.SenS.MineFlashback}}",
+                "LitD_CT_TheConfrontation": "{{i18n:Krobus.SenS.TheConfrontation}}",
+                "LitD_CT_SkrellEpilogue": "{{i18n:Krobus.SenS.SkrellEpilogue}}",
+                "LitD_CT_SensFlowers": "{{i18n:Krobus.SenS.SensFlowers}}"
+            },
+            "When": {
+                "DayOfWeek |contains=Friday": false
+            }  
+        },
+        {
+            "LogName": "Sen Dialogue for Dwarf",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                "LitD_CT_SenMet": "{{i18n:Dwarf.SenS.SenMet.Dwarvish}}",
+                "LitD_CT_DreamReveal": "{{i18n:Dwarf.SenS.DreamReveal.Dwarvish}}",
+                "LitD_CT_ShadowPlay": "{{i18n:Dwarf.SenS.ShadowPlay.Dwarvish}}",
+                "LitD_CT_GardenWaitTime": "{{i18n:Dwarf.SenS.GardenWaitTime.Dwarvish}}",
+                "LitD_CT_GardenCompleted": "{{i18n:Dwarf.SenS.GardenCompleted.Dwarvish}}",
+                "LitD_CT_FamilyFlashback": "{{i18n:Dwarf.SenS.FamilyFlashback.Dwarvish}}",
+                "LitD_CT_MineFlashback": "{{i18n:Dwarf.SenS.MineFlashback.Dwarvish}}",
+                "LitD_CT_TheConfrontation": "{{i18n:Dwarf.SenS.TheConfrontation.Dwarvish}}",
+                "LitD_CT_SkrellEpilogue": "{{i18n:Dwarf.SenS.SkrellEpilogue.Dwarvish}}",
+                "LitD_CT_SensFlowers": "{{i18n:Dwarf.SenS.SensFlowers.Dwarvish}}"
+            },
+            "When": {
+                "HasWalletItem |contains=DwarvishTranslationGuide": false
+            }  
+        },
+        {
+            "LogName": "Sen Dialogue for Dwarf",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                "LitD_CT_SenMet": "{{i18n:Dwarf.SenS.SenMet.Translated}}",
+                "LitD_CT_DreamReveal": "{{i18n:Dwarf.SenS.DreamReveal.Translated}}",
+                "LitD_CT_ShadowPlay": "{{i18n:Dwarf.SenS.ShadowPlay.Translated}}",
+                "LitD_CT_GardenWaitTime": "{{i18n:Dwarf.SenS.GardenWaitTime.Translated}}",
+                "LitD_CT_GardenCompleted": "{{i18n:Dwarf.SenS.GardenCompleted.Translated}}",
+                "LitD_CT_FamilyFlashback": "{{i18n:Dwarf.SenS.FamilyFlashback.Translated}}",
+                "LitD_CT_MineFlashback": "{{i18n:Dwarf.SenS.MineFlashback.Translated}}",
+                "LitD_CT_TheConfrontation": "{{i18n:Dwarf.SenS.TheConfrontation.Translated}}",
+                "LitD_CT_SkrellEpilogue": "{{i18n:Dwarf.SenS.SkrellEpilogue.Translated}}",
+                "LitD_CT_SensFlowers": "{{i18n:Dwarf.SenS.SensFlowers.Translated}}"
+            },
+            "When": {
+                "HasWalletItem |contains=DwarvishTranslationGuide": true
+            }  
+        },
+        {
+            "LogName": "Sen Dialogue for Wizard",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "LitD_CT_SenMet": "{{i18n:Wizard.SenS.SenMet}}",
+                "LitD_CT_DreamReveal": "{{i18n:Wizard.SenS.DreamReveal}}",
+                "LitD_CT_ShadowPlay": "{{i18n:Wizard.SenS.ShadowPlay}}",
+                "LitD_CT_GardenWaitTime": "{{i18n:Wizard.SenS.GardenWaitTime}}",
+                "LitD_CT_GardenCompleted": "{{i18n:Wizard.SenS.GardenCompleted}}",
+                "LitD_CT_FamilyFlashback": "{{i18n:Wizard.SenS.FamilyFlashback}}",
+                "LitD_CT_MineFlashback": "{{i18n:Wizard.SenS.MineFlashback}}",
+                "LitD_CT_TheConfrontation": "{{i18n:Wizard.SenS.TheConfrontation}}",
+                "LitD_CT_SkrellEpilogue": "{{i18n:Wizard.SenS.SkrellEpilogue}}",
+                "LitD_CT_SensFlowers": "{{i18n:Wizard.SenS.SensFlowers}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Haley",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Haley.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Alex",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Alex.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Elliott.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Harvey.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Sam.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Abigail.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Leah",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Leah.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Maru",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Maru.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Penny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Penny.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Caroline",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Caroline.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Demetrius.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Clint",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Clint.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Evelyn",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Evelyn.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for George",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:George.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Gus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Gus.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Jas.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Jodi.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Kent.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Lewis",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Lewis.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Linus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Linus.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Marnie.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Pam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Pam.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Pierre",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Pierre.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Robin.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Vincent.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Willy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Willy.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Sebastian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Sebastian.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Shane.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Emily",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:Emily.SenS.ShadowPlay}}"
+            } 
+        },
+        {
+            "LogName": "Sen Dialogue for Gunther(SVE)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/GuntherSilvian",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:GuntherSilvian.SenS.ShadowPlay}}"
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }  
+        },
+        {
+            "LogName": "Sen Dialogue for Marlon(SVE)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarlonFay",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:MarlonFay.SenS.ShadowPlay}}"
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }  
+        },
+        {
+            "LogName": "Sen Dialogue for Morris(SVE)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MorrisTod",
+            "Entries": {
+                "LitD_CT_ShadowPlay": "{{i18n:MorrisTod.SenS.ShadowPlay}}"
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }  
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "TriedToMarryButKrobus": "{{i18n:Krobus.SenS.TriedToMarryButKrobus}}"
+            }
+        }
+    ]
+}

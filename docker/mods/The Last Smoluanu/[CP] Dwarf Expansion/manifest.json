@@ -1,0 +1,20 @@
+{
+  "Name": "Dwarf Expansion",
+  "Author": "Lemurkat",
+  "Description": "Adds more events, dialogue and personality to Dwarf and allows you to invite them to live with you",
+  "Version": "1.0.6",
+  "UniqueID": "Lemurkat.Dwarf.CP",
+  "UpdateKeys": [
+    "Nexus:9642"
+  ],
+  "Dependencies": [
+
+    {
+      "UniqueID": "Lemurkat.NPCJasper",
+      "IsRequired": false
+    },
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

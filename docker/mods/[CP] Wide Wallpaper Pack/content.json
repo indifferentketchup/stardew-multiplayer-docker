@@ -1,0 +1,227 @@
+{
+	"Format": "1.25.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/AdditionalWallpaperFlooring",
+			"Entries": {
+				"aedenthorn.Aquarium": {
+					"ID": "aedenthorn.Aquarium",
+					"Texture": "aedenthorn.Aquarium/Wallpaper",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.HarveyBalloon": {
+					"ID": "aedenthorn.HarveyBalloon",
+					"Texture": "aedenthorn.HarveyBalloon/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.MovieTheaterJoja": {
+					"ID": "aedenthorn.MovieTheaterJoja",
+					"Texture": "aedenthorn.MovieTheaterJoja/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.MovieTheaterJoja2": {
+					"ID": "aedenthorn.MovieTheaterJoja2",
+					"Texture": "aedenthorn.MovieTheaterJoja2/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.nightSceneMaru": {
+					"ID": "aedenthorn.nightSceneMaru",
+					"Texture": "aedenthorn.nightSceneMaru/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.nightSceneMaru2": {
+					"ID": "aedenthorn.nightSceneMaru2",
+					"Texture": "aedenthorn.nightSceneMaru2/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.sebastianMountain": {
+					"ID": "aedenthorn.sebastianMountain",
+					"Texture": "aedenthorn.sebastianMountain/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.sebastianRide": {
+					"ID": "aedenthorn.sebastianRide",
+					"Texture": "aedenthorn.sebastianRide/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.tropical_boat": {
+					"ID": "aedenthorn.tropical_boat",
+					"Texture": "aedenthorn.tropical_boat/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				},
+				"aedenthorn.tropical_no_boat": {
+					"ID": "aedenthorn.tropical_no_boat",
+					"Texture": "aedenthorn.tropical_no_boat/WallpaperIcon",
+					"IsFlooring": false,
+					"Count": 1
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.Aquarium/Wallpaper",
+			"FromFile": "assets/aquarium.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.HarveyBalloon/Wallpaper",
+			"FromFile": "assets/HarveyBalloon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.HarveyBalloon/WallpaperIcon",
+			"FromFile": "assets/HarveyBalloonIcon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.MovieTheaterJoja/Wallpaper",
+			"FromFile": "assets/MovieTheaterJoja.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.MovieTheaterJoja2/Wallpaper",
+			"FromFile": "assets/MovieTheaterJoja2.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.MovieTheaterJoja/WallpaperIcon",
+			"FromFile": "assets/MovieTheaterJojaIcon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.MovieTheaterJoja2/WallpaperIcon",
+			"FromFile": "assets/MovieTheaterJoja2Icon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.nightSceneMaru/WallpaperIcon",
+			"FromFile": "assets/nightSceneMaruIcon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.nightSceneMaru/Wallpaper",
+			"FromFile": "assets/nightSceneMaru.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.nightSceneMaru2/WallpaperIcon",
+			"FromFile": "assets/nightSceneMaru2Icon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.nightSceneMaru2/Wallpaper",
+			"FromFile": "assets/nightSceneMaru2.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.sebastianMountain/WallpaperIcon",
+			"FromFile": "assets/sebastianMountainIcon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.sebastianMountain/Wallpaper",
+			"FromFile": "assets/sebastianMountain.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.sebastianRide/WallpaperIcon",
+			"FromFile": "assets/sebastianRideIcon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.sebastianRide/Wallpaper",
+			"FromFile": "assets/sebastianRide.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.tropical_boat/Wallpaper",
+			"FromFile": "assets/tropical_boat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.tropical_no_boat/Wallpaper",
+			"FromFile": "assets/tropical_no_boat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.tropical_boat/WallpaperIcon",
+			"FromFile": "assets/tropical_boatIcon.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.tropical_no_boat/WallpaperIcon",
+			"FromFile": "assets/tropical_no_boatIcon.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "aedenthorn.CustomWallpaperFramework/dictionary",
+			"Entries": {
+				"aedenthorn.Aquarium": {
+					"id": "aedenthorn.Aquarium",
+					"texturePath": "aedenthorn.Aquarium/Wallpaper",
+					"width": 3
+				},
+				"aedenthorn.HarveyBalloon": {
+					"id": "aedenthorn.HarveyBalloon",
+					"texturePath": "aedenthorn.HarveyBalloon/Wallpaper",
+					"width": 10,
+					"scale": 1
+				},
+				"aedenthorn.MovieTheaterJoja": {
+					"id": "aedenthorn.MovieTheaterJoja",
+					"texturePath": "aedenthorn.MovieTheaterJoja/Wallpaper",
+					"width": 6
+				},
+				"aedenthorn.MovieTheaterJoja2": {
+					"id": "aedenthorn.MovieTheaterJoja2",
+					"texturePath": "aedenthorn.MovieTheaterJoja2/Wallpaper",
+					"width": 6
+				},
+				"aedenthorn.nightSceneMaru": {
+					"id": "aedenthorn.nightSceneMaru",
+					"texturePath": "aedenthorn.nightSceneMaru/Wallpaper",
+					"width": 7,
+					"scale": 1
+				},
+				"aedenthorn.nightSceneMaru2": {
+					"id": "aedenthorn.nightSceneMaru2",
+					"texturePath": "aedenthorn.nightSceneMaru2/Wallpaper",
+					"width": 10,
+					"scale": 2
+				},
+				"aedenthorn.sebastianMountain": {
+					"id": "aedenthorn.sebastianMountain",
+					"texturePath": "aedenthorn.sebastianMountain/Wallpaper",
+					"width": 16,
+					"scale": 1
+				},
+				"aedenthorn.sebastianRide": {
+					"id": "aedenthorn.sebastianRide",
+					"texturePath": "aedenthorn.sebastianRide/Wallpaper",
+					"width": 7,
+					"scale": 1
+				},
+				"aedenthorn.tropical_boat": {
+					"id": "aedenthorn.tropical_boat",
+					"texturePath": "aedenthorn.tropical_boat/Wallpaper",
+					"width": 2
+				},
+				"aedenthorn.tropical_no_boat": {
+					"id": "aedenthorn.tropical_no_boat",
+					"texturePath": "aedenthorn.tropical_no_boat/Wallpaper",
+					"width": 2
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "Name": "Forage Settings Fairy Pool",
+  "Author": "Lemurkat",
+  "Description": "Controls forage in the Fairy Pool",
+    "Version": "1.3.4",
+  "UniqueID": "Lemurkat.Tristan.FTM",
+   "UpdateKeys": ["Nexus:???"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.4.4"
+                }
+   
+}

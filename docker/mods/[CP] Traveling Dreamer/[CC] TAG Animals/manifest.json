@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Fellowclown.BarronsAnimals",
+  "Author": "Fellowclown",
+  "Version": "1.0.0",
+  "Description": "Adds a few of barron's animals.",
+  "UniqueID": "Fellowclown.BarronsAnimals",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "1.6.5"
+  }
+}

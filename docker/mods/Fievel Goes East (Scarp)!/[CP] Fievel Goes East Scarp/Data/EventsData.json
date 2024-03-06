@@ -1,0 +1,107 @@
+{
+    "Changes": [
+        {
+            "LogName": "Fievel 0H Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries": {
+          
+              "17315000/t 0800 1800/w sunny/F": "playful/-100 -100/farmer 6 72 1 Fievel 16 83 0/speed Fievel 3/skippable/speed farmer 3/addTemporaryActor Munchboi 32 32 22 72 3 false/addConversationTopic FievelIntro 1/viewport 16 72 clamp true/globalFadeToClear/advancedMove farmer false 10 0 2 10/advancedMove Fievel false 0 -9 4 10/pause 500/emote farmer 8/pause 1500/emote Fievel 16 true/jump Fievel 5 true/jump farmer 5/changeName Fievel ???/speak Fievel \"{{i18n:Fievel.0Heart.01}}\"/emote farmer 32 true/pause 250/changeName Fievel Fievel/speak Fievel \"{{i18n:Fievel.0Heart.02}}$2\"/faceDirection Fievel 2/emote Fievel 12/pause 250/faceDirection Fievel 0/quickQuestion {{i18n:Fievel.0Heart.03}}(break)friendship Fievel 25\\speak Fievel \"{{i18n:Fievel.0Heart.04}}$1\"(break)friendship Fievel 25\\speak Fievel \"{{i18n:Fievel.0Heart.05}}$1\"/pause 250/emote farmer 40/pause 250/speak Fievel \"{{i18n:Fievel.0Heart.06}}$2\"/pause 250/emote Fievel 28/pause 500/jump farmer 5 true/emote farmer 16/pause 250/speak Fievel \"{{i18n:Fievel.0Heart.07}}$1\"/pause 250/emote farmer 32/pause 250/advancedMove Fievel false 0 -2 -19 0 3 10/pause 100/advancedMove farmer false -19 0 3 10/pause 2000/textAboveHead Fievel \"{{i18n:Fievel.0Heart.08}}\"/advancedMove Munchboi false -15 0 3 10/pause 200/emote Munchboi 40/pause 2000/warp farmer 999 999/warp Fievel 999 999/emote Munchboi 20/pause 1000/fade/viewport -999 -999/stopAdvancedMoves/end position 7 72"
+      
+            }
+      
+          },
+
+          {
+            "LogName": "Fievel 2H Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries": {
+          
+              "17315001/e 17315000/f Fievel 500/t 0800 1800/w sunny/F": "{{season}}_day_ambient/-100 -100/farmer 78 79 1 Fievel 80 79 3/skippable/speed farmer 3/addTemporaryActor Munchboi 32 32 80 84 0 false/positionOffset Munchboi -5 0/addConversationTopic Fievel2H 1/viewport 80 80 clamp true/globalFadeToClear/pause 250/speak Fievel \"{{i18n:Fievel.2heart.01}}$2\"/pause 250/emote farmer 40 true/emote Fievel 28 true/faceDirection Fievel 2/advancedMove Munchboi false 0 -3 4 10/playSound cat/advancedMove farmer false 0 1 2 0 2 10/changeName Munchboi Munchington/speak Munchboi \"{{i18n:Fievel.2heart.02}}\"/jump farmer 5 true/emote farmer 16/shake Fievel 1000/pause 1000/speak Fievel \"{{i18n:Fievel.2heart.03}}\"/pause 250/speak Munchboi \"{{i18n:Fievel.2heart.04}}\"/pause 250/speak Fievel \"{{i18n:Fievel.2heart.05}}$2\"/pause 250/speak Munchboi \"{{i18n:Fievel.2heart.06}}\"/emote Fievel 40/pause 250/speak Fievel \"{{i18n:Fievel.2heart.07}}$2\"/pause 250/speak Munchboi \"{{i18n:Fievel.2heart.08}}\"/pause 250/jump Fievel 5/speak Fievel \"{{i18n:Fievel.2heart.09}}$2\"/pause 250/speak Munchboi \"{{i18n:Fievel.2heart.10}}$1\"/pause 250/speak Fievel \"...{{i18n:Fievel.2heart.11}}\"/fade/viewport -999 -999/speak Munchboi \"{{i18n:Fievel.2heart.12}}\"/warp farmer 97 20/faceDirection farmer 0/warp Munchboi 95 20/faceDirection Munchboi 0/warp Fievel 98 20/faceDirection Fievel 0/viewport 97 19 clamp true/globalFadeToClear/emote Fievel 16/pause 250/speak Fievel \"{{i18n:Fievel.2heart.13}}\"/advancedMove farmer false 0 -1 2 10/faceDirection Munchboi 1 true/faceDirection Fievel 3 true/pause 250/speak Munchboi \"{{i18n:Fievel.2heart.14}}\"/pause 250/speak Fievel \"{{i18n:Fievel.2heart.15}}\"/pause 250/changeName Munchboi Munchie/speak Munchboi \"{{i18n:Fievel.2heart.16}}\"/pause 250/speak Fievel \"{{i18n:Fievel.2heart.17}}\"/fade/viewport -999 -999/speak Fievel \"{{i18n:Fievel.2heart.18}}$1\"/pause 250/warp Munchboi 999 999 true/warp farmer 5 16 true/warp Fievel 6 16 true/faceDirection Fievel 3/faceDirection farmer 1/changeToTemporaryMap Custom_MouseHole/viewport 12 20 clamp true/globalFadeToClear/pause 250/emote farmer 40 true/emote Fievel 40 true/pause 500/emote Fievel 20/speak Fievel \"{{i18n:Fievel.2heart.19}}\"/pause 250/emote farmer 32/pause 250/speak Fievel \"{{i18n:Fievel.2heart.20}}$1\"/pause 200/emote farmer 20/pause 350/stopAdvancedMoves/end"
+              
+            }
+      
+          },
+
+          {
+            "LogName": "Fievel 4H Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries": {
+          
+              "17315002/e 17315001/f Fievel 1000/t 0800 1800/w sunny/F": "{{season}}_day_ambient/-100 -100/farmer 63 22 0 Fievel 57 18 3/skippable/addTemporaryActor Munchboi 32 32 55 18 2 false/changeName Munchboi Munchie/addConversationTopic Fievel4H 1/showFrame Munchboi 28/showFrame Fievel 30/viewport 55 16 clamp true/globalFadeToClear/emote farmer 8/pause 250/advancedMove farmer false 0 -4 -2 0 3 10/speak Fievel \"{{i18n:Fievel.4heart.01}}$1\"/pause 250/speak Munchboi \"{{i18n:Fievel.4heart.02}}\"/pause 250/textAboveHead Fievel \"{{i18n:Fievel.4heart.03}}\"/pause 250/speak Munchboi \"{{i18n:Fievel.4heart.04}}\"/pause 250/speak Fievel \"{{i18n:Fievel.4heart.05}}\"/pause 250/textAboveHead Munchboi \"{{i18n:Fievel.4heart.03}}\"/pause 250/speak Munchboi \"{{i18n:Fievel.4heart.07}}\"/pause 250/emote Fievel 40/pause 250/speak Fievel \"{{i18n:Fievel.4heart.08}}\"/emote Munchboi 20/pause 250/speak Munchboi \"{{i18n:Fievel.4heart.03}}\"/speak Fievel \"{{i18n:Fievel.4heart.10}}$1\"/speak Munchboi \"{{i18n:Fievel.4heart.11}}\"/emote farmer 20/advancedMove farmer false 1 0 0 -11 12 0 0 -12 4 10/speak Munchboi \"{{i18n:Fievel.4heart.12}}\"/speak Fievel \"{{i18n:Fievel.4heart.13}}$1\"/speak Munchboi \"{{i18n:Fievel.4heart.14}}\"/speak Fievel \"{{i18n:Fievel.4heart.15}}\"/fade/viewport -999 -999/message \"{{i18n:Fievel.4heart.16}}\"/stopAdvancedMoves/pause 250/end"
+      
+            }
+      
+          },
+
+          {
+            "LogName": "Fievel 6H Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries": {
+          
+              "17315003/e 17315002/f Fievel 1500/t 0800 1800/w sunny/F": "playful/-100 -100/{{FievelOutside_Setup}}/skippable/addTemporaryActor Munchboi 32 32 69 78 1 false/changeName Munchboi Munchie/animate Fievel false true 100 22 22 23 23 24 24 25 25 25 26 26 27 27 28 28 29 29 22/viewport 71 78 clamp true/globalFadeToClear/emote farmer 8/addConversationTopic Fievel6H 1/advancedMove farmer false 5 0 1 10/pause 500/emote farmer 40/pause 500/speak Fievel \"{{i18n:Fievel.6heart.01}}$1\"/emote Munchboi 20 true/pause 250/speak Munchboi \"{{i18n:Fievel.6heart.02}}\"/pause 250/speak Fievel \"{{i18n:Fievel.6heart.03}}\"/pause 250/emote farmer 16/speak LadySheba \"{{i18n:Fievel.6heart.04}}\"/stopAnimation Fievel/showFrame Fievel 26/textAboveHead Fievel \"{{i18n:Fievel.6heart.05}}\"/pause 250/playSound eat/pause 250/animate Fievel false true 250 16 16 16 17 17 18 18 16 16/pause 250/speak Munchboi \"{{i18n:Fievel.6heart.06}}\"/pause 250/emote LadySheba 16 true/emote farmer 40/pause 250/speak LadySheba \"{{i18n:Fievel.6heart.07}}\"/pause 250/speak Fievel \"{{i18n:Fievel.6heart.08}}$1\"/pause 250/emote farmer 16 true/jump farmer 5/speed farmer 4/emote farmer 28/pause 250/advancedMove farmer false -7 0 0 -5 5 0 0 -15 4 10/pause 500/speak Munchboi \"{{i18n:Fievel.6heart.09}}$1\"/pause 250/speak LadySheba \"{{i18n:Fievel.6heart.10}}\"/emote farmer 60/speak Fievel \"{{i18n:Fievel.6heart.11}}\"/pause 250/speak Munchboi \"{{i18n:Fievel.6heart.12}}$1\"/pause 250/speak LadySheba \"{{i18n:Fievel.6heart.13}}\"/emote Fievel 40/pause 250/speak Fievel \"{{i18n:Fievel.6heart.14}}\"/pause 250/emote LadySheba 20 true/emote Munchboi 20/fade/viewport -999 -999/message \"{{i18n:Fievel.6heart.15}}\"/stopAdvancedMoves/end"
+      
+            }
+      
+          },
+          {
+            "LogName": "Fievel 8H Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_MouseHole",
+            "Entries": {
+              "17315004/e 17315003/f Fievel 2000/t 0800 1800/w sunny/F": "{{season}}_day_ambient/-100 -100/{{FievelInside_Setup}}/skippable/addTemporaryActor Munchboi 32 32 6 17 1 false/changeName Munchboi Munchie/addConversationTopic Fievel8H 1/viewport 12 20 clamp true/globalFadeToClear/emote farmer 16/textAboveHead Fievel \"{{i18n:Fievel.8heart.01}}\"/jump Fievel 5/advancedMove farmer false -2 0 0 -3 4 10/pause 500/emote farmer 8/pause 500/speak Fievel \"{{i18n:Fievel.8heart.02}}$1\"/emote Munchboi 20 true/emote LadySheba 20/pause 250/speak LadySheba \"{{i18n:Fievel.8heart.03}}\"/pause 250/speak Munchboi \"{{i18n:Fievel.8heart.04}}\"/pause 250/emote Fievel 16/speak Fievel \"{{i18n:Fievel.8heart.05}}$1\"/pause 250/emote farmer 32/pause 250/fade/viewport -999 -999/stopMusic/speak LadySheba \"{{i18n:Fievel.8heart.06}}\"/speak Munchboi \"{{i18n:Fievel.8heart.07}}\"/speak Fievel \"{{i18n:Fievel.8heart.08}}$1\"/message \"{{i18n:Fievel.8heart.09}}\"/changeToTemporaryMap Custom_MouseHoleRenovated/viewport 12 20 clamp true/globalFadeToClear/playMusic playful/emote farmer 20 true/emote Fievel 20 true/emote Munchboi 20 true/emote LadySheba 20/pause 250/speak Fievel \"{{i18n:Fievel.8heart.10}}$1\"/pause 250/speak LadySheba \"{{i18n:Fievel.8heart.11}}\"/pause 250/speak Munchboi \"{{i18n:Fievel.8heart.12}}$1\"/pause 250/speak Fievel \"{{i18n:Fievel.8heart.13}}$1\"/pause 250/emote farmer 28/fade/stopAdvancedMoves/end"
+      
+            }
+      
+          },
+          {
+            "LogName": "Fievel 10H Event", 
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_MouseHoleRenovated",
+            "Entries": {
+          
+              "17315005/e 17315004/f Fievel 2500/t 0800 1800/w sunny/F": "{{season}}_day_ambient/-100 -100/{{FievelInside_Setup}}/skippable/addTemporaryActor MunchboiHat 32 32 6 17 1 false/addTemporaryActor FievelFinale 16 32 999 999 2 false/changeName MunchboiHat Munchie/viewport 12 20 clamp true/advancedMove farmer false -2 0 0 -3 4 10/emote farmer 56/addConversationTopic Fievel10H 1/speak Fievel \"{{i18n:Fievel.10heart.01}}$1\"/pause 250/emote farmer 8/pause 250/speak MunchboiHat \"{{i18n:Fievel.10heart.02}}$1\"/pause 250/speak LadySheba \"{{i18n:Fievel.10heart.03}}\"/pause 250/emote farmer 20/speak Fievel \"{{i18n:Fievel.10heart.04}}\"/stopMusic/playMusic elliottPiano/jump farmer 5 true/emote farmer 16/pause 250/warp FievelFinale 8 16/warp Fievel 999 999/changeName FievelFinale Fievel/speak FievelFinale \"{{i18n:Fievel.10heart.05}}$1\"/giveHat {{spacechase0.JsonAssets/HatId: Fievel's Hat}}/faceDirection farmer 2/showFrame farmer 57/playSound discoverMineral/addTemporaryActor FievelHat 16 16 8 16 2 false/pause 2000/warp FievelHat 999 999/faceDirection farmer 0/speak FievelFinale \"{{i18n:Fievel.10heart.06}}$1\"/pause 250/emote farmer 32/pause 250/speak MunchboiHat \"{{i18n:Fievel.10heart.07}}$1\"/pause 250/speak FievelFinale \"{{i18n:Fievel.10heart.08}}$1\"/pause 250/emote farmer 60 true/emote LadySheba 56 true/emote MunchboiHat 32 true/emote FievelFinale 20/fade/viewport -999 -999/speak FievelFinale \"{{i18n:Fievel.10heart.09}}\"/pause 250/message \"{{i18n:Fievel.10heart.10}}\"/stopAdvancedMoves/end"
+      
+            }
+      
+          },
+
+/* 
+
+(0 = up, 1 = right, 2 = down, 3 = left) 74 20
+
+advancedMove true/false (loop) parameters
+
+parameters:
+x y x y x y = move without pause
+
+x y z t x y z t = move with pauses
+
+x y x y z t x y = move with mix of mentioned above
+
+x = how many tiles move in x axis (+ = right, - = left)
+y = how many tiles move in y axis (+ = down, - = up)
+z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
+t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)
+
+4- empty can
+8- question mark
+12- angry
+16- exclamation
+20- heart
+24- sleep
+28- sad
+32- happy
+36- x
+40- pause
+52- video game
+56- music note
+60- blush 
+
+*/ 
+          
+    ]
+}

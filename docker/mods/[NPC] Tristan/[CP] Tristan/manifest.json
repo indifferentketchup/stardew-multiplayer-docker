@@ -1,0 +1,29 @@
+{
+   "Name": "NPC Tristan",
+   "Author": "Lemurkat",
+   "Description": "Unlocks the NPC Tristan",
+   "Version": "1.3.4",
+   "UniqueID": "Lemurkat.Tristan.CP",
+   "UpdateKeys": ["Nexus:6675"],
+   "Dependencies": [
+      
+      {
+         "UniqueID": "LemurKat.EastScarpe.CP"
+      },
+      {
+         "UniqueID": "lemurkat.Jasmineno",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "LemurKat.Mr.Ginger.NPC",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "tenthousandcats.ImmersiveCShane",
+         "IsRequired": false
+      }
+   ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,127 @@
+{
+    "Changes": [
+    
+    //Egg Festival
+    
+    {
+   	 "LogName": "Egg Festival",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/spring13",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Egg}}"
+   		 
+   	 }
+    },
+    
+    //Flower Dance
+    
+    {
+   	 "LogName": "Flower Dance",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/spring24",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Flower}}"
+   	 }
+    },
+    
+    //Luau
+    
+    {
+   	 "LogName": "Luau",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/summer11",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Luau}}"
+   	 }
+    },
+    
+    //Moonlight Jellies
+    
+    {
+   	 "LogName": "Moonlight Jellies",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/summer28",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Jellies}}"
+   	 }
+    },
+    
+    //Fair
+    
+    
+    {
+   	 "LogName": "Fair",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/fall16",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Fair}}",
+   	 }
+    },
+    
+    //Spirit's Eve
+    
+    {
+   	 "LogName": "Spirit's Eve",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/fall27",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Spirit}}",
+   	 }
+    },
+    
+    //Ice Festival
+    
+    {
+   	 "LogName": "Ice Festival",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/winter8",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Ice}}",
+   	 }
+    },
+   		 
+    //Winter Star
+    
+    {
+   	 "LogName": "Winter Star",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/winter25",
+   	 "Entries": {
+   		 
+   		 "Fievel": "{{i18n:Fievel.Festival.Winter}}",
+   	 }
+    },
+
+    //Ridgeside Village Gathering
+
+    {
+   	 "LogName": "Ridgeside Village Gathering",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/fall20",
+   	 "When": { "HasMod |contains=Rafseazz.RSVCP": true },
+   	 "Entries": {
+
+   		 "Fievel": "{{i18n:Fievel.Festival.RSVGathering}}"
+   	 }
+    },
+
+    {
+   	 "LogName": "Fireworks Festival",
+   	 "Action": "EditData",
+   	 "Target": "Data/Festivals/summer20",
+   	 "When": { "HasMod |contains=violetlizabet.FireworksFestival": true},
+   	 "Entries": {
+
+   		 "Fievel": "{{i18n:Fievel.Festival.Fireworks}}"
+   	 }
+    }
+    
+    ]
+}

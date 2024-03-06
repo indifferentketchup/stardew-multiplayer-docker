@@ -1,0 +1,11 @@
+{
+    "Name": "[CC] Never Ending Adventure - Emeritus",
+    "Author": "DestyNova",
+    "Description": "The guild's mascot, a Pepper Rex.",
+    "Version": "1.9.9",
+    "UniqueID": "DestyNova.NEACC",
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "2.5.0"
+    }
+}   

@@ -1,0 +1,15 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Eli Strings",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Fievel",
+			"Entries": {
+	
+				"STRINGS": "GO HERE"
+
+			}
+		}
+	]
+}

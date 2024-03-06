@@ -1,0 +1,156 @@
+{
+    "Changes": [
+    {
+    "LogName": "Egg Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/spring13",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.Egg.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Flower Dance",
+    "Action": "EditData",
+    "Target": "data/festivals/spring24",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.FlowerDance.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Luau",
+    "Action": "EditData",
+    "Target": "data/festivals/summer11",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.Luau.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Moonlight Jelly",
+    "Action": "EditData",
+    "Target": "data/festivals/summer28",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.MoonlightJelly.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Fair",
+    "Action": "EditData",
+    "Target": "data/festivals/fall16",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.SDVFair.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Spirit's Eve",
+    "Action": "EditData",
+    "Target": "data/festivals/fall27",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.SpiritsEve.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Ice Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/winter8",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.IceFestival.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Winter Star",
+    "Action": "EditData",
+    "Target": "data/festivals/winter25",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.WinterStar.{{Random:1++2++3|inputSeparator=++}}}}"
+    }
+},
+{
+    "LogName": "Ridgeside Gathering",
+    "Action": "EditData",
+    "Target": "data/festivals/fall20",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.RidgesideGathering.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": true
+    }
+},
+{
+    "LogName": "Ridgeside Ember",
+    "Action": "EditData",
+    "Target": "data/festivals/winter28",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.EmberOfResolution.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": true
+    }
+},
+{
+    "LogName": "Surfing Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/summer5",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.SurfingFestival.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=spacechase0.SurfingFestival": true
+    }
+},
+{
+    "LogName": "Fashion Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/spring19",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.FashionFestival.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=UNA.FF.CP": true
+    }
+},
+{
+    "LogName": "Love Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/winter13",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.LoveFestival.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=AvalonMFX.LoveFestival": true
+    }
+},
+{
+    "LogName": "Marketpalooza",
+    "Action": "EditData",
+    "Target": "data/festivals/fall3",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.Marketpalooza.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=Fellowclown.Nikolai": true
+    }
+},
+{
+    "LogName": "Fireworks Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/summer20",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.FireworksFestival.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=violetlizabet.FireworksFestival": true
+    }
+},
+{
+    "LogName": "Dialogue - Fireworks Festival",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/SenS",
+    "Entries": 	{ 
+        "fall_27": "{{i18n:Festivals.SenS.FestivalOfTheMundane.{{Random:1++2++3|inputSeparator=++}}}}"
+    },
+    "When": {
+        "HasMod: |contains=MouseyPounds.ShadowFestival": true 
+     }
+}
+]
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "[JA] JA items for Rodney",
+    "Author": "TheFrenchDodo",
+    "Version": "1.0.0",
+    "Description": "Add a few items including the invaluable autographed photo of Author Rodney O'Brien.",
+    "UniqueID": "TheFrenchDodo.RodneyOBrien.JA",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [
+      {
+         "UniqueID": "TheFrenchDodo.RodneyOBrien"
+      },
+    ],
+}

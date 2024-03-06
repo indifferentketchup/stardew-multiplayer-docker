@@ -1,0 +1,474 @@
+{
+	"Changes": [
+
+		{   // SENDS AN INTRODUCTION LETTER. 
+			"LogName": "Hector's Pentacle Quest - Pre Intro Letter Load",
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {"HectorIntroLetter":"{{i18n:Mail.Hector.Letter0}}"},
+			"When": {"HasSeenEvent |contains=112": true}
+	    },
+		{
+			"LogName": "Hector's Pentacle Quest - Pre Intro Silent Event",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+	  
+			  "16032008/e 112/t 610 2500/z summer/z fall/z winter": "none/-100 -100/farmer -999 -999 2/mail HectorIntroLetter/end"
+			}
+	  
+		},
+		{
+			"LogName": "Hector's Pentacle Quest - Spring",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": { // PENTACLE QUESTLINE PT 1 - SPRING - EARTH - EVENT 
+	  
+			  "16032000/e 112/n HectorIntroLetter/t 610 2500/z summer/z fall/z winter": "none/-100 -100/farmer -999 -999 2/atravita_addSpecialOrder CAGQuest.UntimedSpecialOrder.Pentacle1/playSound discoverMineral/message \"{{i18n:Events.COT.Pentacle1.Message}}\"/end"
+			}
+	  
+		},
+		{
+			"LogName": "Hector's Pentacle Quest - Summer",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": { // PENTACLE QUESTLINE PT 2 - SUMMMER - FIRE - EVENT 
+	  
+			  "16032001/t 610 2500/z spring/z fall/z winter": "none/-100 -100/farmer -999 -999 2/atravita_addSpecialOrder CAGQuest.UntimedSpecialOrder.Pentacle2/playSound discoverMineral/message \"{{i18n:Events.COT.Pentacle1.Message}}\"/end"
+			}
+	  
+		},
+		{
+			"LogName": "Hector's Pentacle Quest - Fall",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": { // PENTACLE QUESTLINE PT 3 - FALL - AIR - EVENT 
+	  
+			  "16032002/t 610 2500/z spring/z summer/z winter": "none/-100 -100/farmer -999 -999 2/atravita_addSpecialOrder CAGQuest.UntimedSpecialOrder.Pentacle3/playSound discoverMineral/message \"{{i18n:Events.COT.Pentacle1.Message}}\"/end"
+			}
+	  
+		},
+		{
+			"LogName": "Hector's Pentacle Quest - Winter",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": { // PENTACLE QUESTLINE PT 4 - WINTER - WATER - EVENT 
+	  
+			  "16032003/t 610 2500/z spring/z summer/z fall": "none/-100 -100/farmer -999 -999 2/atravita_addSpecialOrder CAGQuest.UntimedSpecialOrder.Pentacle4/playSound discoverMineral/message \"{{i18n:Events.COT.Pentacle1.Message}}\"/end"
+			}
+	  
+		},
+		{   // SENDS A LETTER TELLING THE PLAYER TO FINISH MATEO'S STORYLINE BEFORE CONTINUING. 
+            "LogName": "Hector's Pentacle Quest - Aether",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {"AetherQuest":"{{i18n:Mail.Hector.Letter1}}"},
+			"When": {"HasFlag |contains=Hector_SpecialOrders_Pentacle4": true}	
+        },
+		{   // SENDS A LETTER AFTER THE GUILD HAS BEEN BUILT TO INVITE THE PLAYER TO THE TOWER. 
+			"LogName": "Hector's Pentacle Quest - Aether pt 2",
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {"AetherQuest2":"{{i18n:Mail.Hector.Letter2}}"},
+			"When": {"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail, Hector_SpecialOrders_Pentacle4": true}	
+		},
+		{
+			"LogName": "Pentacle Quest pt 1",
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"CAGQuest.UntimedSpecialOrder.Pentacle1": {
+
+					// PENTACLE QUESTLINE PT 1 - SPRING - EARTH - SPECIAL ORDER
+
+					"Name": "[CAGQuest.UntimedSpecialOrder.Pentacle1_Name]",
+					"Requester": "Hector",
+					"Repeatable": "false",
+					"RequiredTags": "event_16032000, !dropbox_DruidAltar",
+					"OrderType": "SwordSorcery",
+					"SpecialRule": "",
+					"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle1_Text]",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_0_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_parsnip"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_1_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_daffodil"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_2_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_leek"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_3_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_strawberry"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_4_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_spring_onion"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Hector_SpecialOrders_Pentacle1",
+								"NoLetter": "true"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Pentacle Quest pt 2",
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"CAGQuest.UntimedSpecialOrder.Pentacle2": {
+
+					// PENTACLE QUESTLINE PT 2 - SUMMER - FIRE - SPECIAL ORDER
+
+					"Name": "[CAGQuest.UntimedSpecialOrder.Pentacle2_Name]",
+					"Requester": "Hector",
+					"Repeatable": "false",
+					"RequiredTags": "event_16032001, !dropbox_DruidAltar",
+					"OrderType": "SwordSorcery",
+					"SpecialRule": "",
+					"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle2_Text]",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_0_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_blueberry"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_1_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_spice_berry"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_2_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_sweet_pea"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_3_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_corn"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_4_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_red_mushroom"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Hector_SpecialOrders_Pentacle2",
+								"NoLetter": "true"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Pentacle Quest pt 3",
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"CAGQuest.UntimedSpecialOrder.Pentacle3": {
+
+					// PENTACLE QUESTLINE PT 3 - FALL - AIR - SPECIAL ORDER
+
+					"Name": "[CAGQuest.UntimedSpecialOrder.Pentacle3_Name]",
+					"Requester": "Hector",
+					"Repeatable": "false",
+					"RequiredTags": "event_16032002, !dropbox_DruidAltar",
+					"OrderType": "SwordSorcery",
+					"SpecialRule": "",
+					"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle3_Text]",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_0_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_bok_choy"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_1_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_amaranth"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_2_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_wild_plum"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_3_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_blackberry"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_4_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_cranberries"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Hector_SpecialOrders_Pentacle3",
+								"NoLetter": "true"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Pentacle Quest pt 4",
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"CAGQuest.UntimedSpecialOrder.Pentacle4": {
+
+					// PENTACLE QUESTLINE PT 4 - WINTER - WATER - SPECIAL ORDER
+
+					"Name": "[CAGQuest.UntimedSpecialOrder.Pentacle4_Name]",
+					"Requester": "Hector",
+					"Repeatable": "false",
+					"RequiredTags": "event_16032003, !dropbox_DruidAltar",
+					"OrderType": "SwordSorcery",
+					"SpecialRule": "",
+					"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle4_Text]",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_0_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_winter_root"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_1_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_crystal_fruit"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_2_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_snow_yam"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_3_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_crocus"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_4_Text]",
+							"RequiredCount": "3",
+							"Data": {
+								"DropBox": "DruidAltar",
+								"DropBoxGameLocation": "Custom_ESDeepMountains",
+								"DropBoxIndicatorLocation": "14 15",
+								"AcceptedContextTags": "item_holly"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Hector_SpecialOrders_Pentacle4",
+								"NoLetter": "true"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+
+				// PENTACLE QUESTLINE PT 1 - SPRING - EARTH - TEXT
+
+				"CAGQuest.UntimedSpecialOrder.Pentacle1_Name":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Name}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle1_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Text}}", 
+				"CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_0_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Objective.0.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_1_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Objective.1.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_2_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Objective.2.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_3_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Objective.3.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle1.Objective_4_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle1.Objective.4.Text}}",
+				
+				// PENTACLE QUESTLINE PT 2 - SUMMER - FIRE - TEXT
+
+				"CAGQuest.UntimedSpecialOrder.Pentacle2_Name":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Name}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle2_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Text}}", 
+				"CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_0_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Objective.0.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_1_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Objective.1.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_2_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Objective.2.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_3_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Objective.3.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle2.Objective_4_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle2.Objective.4.Text}}",
+
+				// PENTACLE QUESTLINE PT 2 - FALL - AIR - TEXT
+
+				"CAGQuest.UntimedSpecialOrder.Pentacle3_Name":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Name}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle3_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Text}}", 
+				"CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_0_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Objective.0.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_1_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Objective.1.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_2_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Objective.2.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_3_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Objective.3.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle3.Objective_4_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle3.Objective.4.Text}}",				
+
+				// PENTACLE QUESTLINE PT 2 - WINTER - WATER - TEXT
+
+				"CAGQuest.UntimedSpecialOrder.Pentacle4_Name":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Name}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle4_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Text}}", 
+				"CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_0_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Objective.0.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_1_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Objective.1.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_2_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Objective.2.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_3_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Objective.3.Text}}",
+				"CAGQuest.UntimedSpecialOrder.Pentacle4.Objective_4_Text":"{{i18n:Quests.Hector.SpecialOrders.Pentacle4.Objective.4.Text}}",				
+			}
+		}
+	]
+}

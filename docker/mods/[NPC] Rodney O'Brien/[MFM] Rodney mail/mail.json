@@ -1,0 +1,73 @@
+[
+	{
+		"Id": "WriterWitchWardrobe.RodneyBookLaunchInvite", 
+		"Title": "RodneyBookLaunchInvite.title",
+		"Text": "RodneyBookLaunchInvite.mail",
+		"Attachments": [{"Type": "Object", "Name": "An autographed photo", "Stack": 10},],
+		"LetterBG": "RodneyLetterBG.png",
+        "TextColor": -8, 
+        "Repeatable": false,
+
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "RodneyOBrien", 
+				"FriendshipLevel": 8
+			}
+		],
+		"EventsSeen": [134371006], 
+		"RequireAllEventsSeen":  true,
+    },
+		{
+		"Id": "WriterWitchWardrobe.RodneyLibraryTalkInvite", 
+		"Title": "RodneyLibraryTalkInvite.title",
+		"Text": "RodneyLibraryTalkInvite.mail", 
+		"Attachments": [
+			{
+				"Type": "Object", 
+				"Name": "An autographed photo",
+				"Stack": 20
+
+			},
+		],
+		"LetterBG": "RodneyLetterBG.png",
+        "TextColor": -8, 
+        "Repeatable": false,
+
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "RodneyOBrien",
+				"FriendshipLevel": 10
+			}
+		],
+		"EventsSeen": [134371012],
+		"RequireAllEventsSeen":  true, 
+    },
+	{
+		"Id": "WriterWitchWardrobe.NationalLibraryInvite", 
+		"Title": "NationalLibraryInvite.title",
+		"Text": "NationalLibraryInvite.mail", 
+		"Attachments": [
+			{
+				"Type": "Object", 
+				"Name": "An autographed photo",
+				"Stack": 40
+
+			},
+		],
+		"LetterBG": "RodneyLetterBG.png",
+        "TextColor": -8, 
+        "Repeatable": false,
+
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "RodneyOBrien",
+				"FriendshipLevel": 10
+			}
+		],
+		"EventsSeen": [134371015],
+		"RequireAllEventsSeen":  true, 
+    },
+]

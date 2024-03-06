@@ -1,0 +1,47 @@
+{
+	"Format": "1.21",
+
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/pencilstabhairstyles",
+			"FromFile": "assets/hairstyles.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/HairData",
+			"Entries": {
+				"91000": "pencilstabhairstyles/0/0/true/-1/true",
+				"91001": "pencilstabhairstyles/1/0/true/-1/true",
+				"91002": "pencilstabhairstyles/2/0/true/-1/true",
+				"91003": "pencilstabhairstyles/3/0/true/-1/true",
+				"91004": "pencilstabhairstyles/4/0/true/-1/true",
+				"91005": "pencilstabhairstyles/5/0/true/-1/true",
+				"91006": "pencilstabhairstyles/6/0/true/-1/true",
+				"91007": "pencilstabhairstyles/7/0/true/-1/true",
+				"91008": "pencilstabhairstyles/0/8/true/-1/true",
+				"91009": "pencilstabhairstyles/1/8/true/-1/true",
+				"91010": "pencilstabhairstyles/2/8/true/-1/true",
+				"91011": "pencilstabhairstyles/3/8/true/-1/true",
+				"91012": "pencilstabhairstyles/4/8/true/-1/true",
+				"91013": "pencilstabhairstyles/5/8/true/-1/true",
+				"91014": "pencilstabhairstyles/6/8/true/-1/true",
+				"91015": "pencilstabhairstyles/7/8/true/-1/true",
+				"91016": "pencilstabhairstyles/0/16/true/-1/true",
+				"91017": "pencilstabhairstyles/1/16/true/-1/true",
+				"91018": "pencilstabhairstyles/2/16/true/-1/true",
+				"91019": "pencilstabhairstyles/3/16/true/-1/true",
+				"91020": "pencilstabhairstyles/4/16/true/-1/true",
+        	},
+		},
+	]
+}
+
+
+
+
+
+
+
+
+

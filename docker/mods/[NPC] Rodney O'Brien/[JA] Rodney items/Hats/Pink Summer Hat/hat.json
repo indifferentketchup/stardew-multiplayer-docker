@@ -1,0 +1,11 @@
+{
+	"Name": "Pink Summer Hat",
+	"Description": "Rodney has the exact same hat.",
+	"PurchasePrice": 2000,
+    "PurchaseFrom": "STF.RodneyShop",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+    "PurchaseRequirements": null,
+	"TranslationKey": "item.pink-summer-hat"
+
+}

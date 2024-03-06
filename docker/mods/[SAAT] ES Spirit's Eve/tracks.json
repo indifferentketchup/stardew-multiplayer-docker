@@ -1,0 +1,11 @@
+[
+    {
+      // Cavern Echoes (A Goblin Dance)
+      "Id": "ESGoblinDance",
+      "Filepath": "Cavern_Echoes.wav",
+      "Category": "Music",
+      "Settings": {
+        "Loop": true
+      }
+    }
+]

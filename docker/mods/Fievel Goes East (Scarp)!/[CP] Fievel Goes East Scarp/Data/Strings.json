@@ -1,0 +1,17 @@
+{
+    "Changes": 
+
+        [
+
+{
+    "LogName": "Map Strings",
+    "Action": "EditData",
+    "Target": "strings/StringsFromMaps",
+    "Entries": 
+        {
+			"Eventually": "{{i18n:Fievel.Strings.01}}"
+        }
+}
+    ]
+
+}

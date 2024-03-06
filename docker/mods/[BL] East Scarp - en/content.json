@@ -1,0 +1,9 @@
+{
+	"mapname":"Custom_EastScarpe",
+	"displayname":"East Scarp",
+	"destinationX":14,
+	"destinationY":70,
+	"arrivalFacing":2,
+	"ticketPrice":50
+		//Korean Name: 이스트 스카프 마을
+}

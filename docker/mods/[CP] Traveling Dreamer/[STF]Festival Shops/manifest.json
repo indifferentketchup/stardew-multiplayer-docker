@@ -1,0 +1,11 @@
+﻿{
+  "Name": "DreamerShops",
+  "Author": "Fellowclown",
+  "Version": "1.0.0",
+  "Description": "shops for Traveling Dreamer.",
+  "UniqueID": "Fellowclown.DreamerShop",
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Content Patcher pack for Fievel's Hat",
+  "Author": "DestyNova & ES Dev Team",
+  "Version": "1.1.2",
+  "Description": "Allows you to wear Fievel's Hat through Fashion Sense but locks it before a certain event.",
+  "UniqueID": "PeacefulEnd.ContentPatcherForFashionSense.Fievel",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+    "UniqueID": "PeacefulEnd.FashionSense",
+	  "UniqueID": "EastScarp.FGES",
+	  "UniqueID": "EastScarp.FGES.FievelFashionSensePack",
+
+    }
+  ]
+}

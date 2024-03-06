@@ -1,0 +1,51 @@
+{
+    "Name": "An autographed photo",
+    "Description": "An autographed photo of two-time award winner, author Rodney O'Brien.", 
+    "Category": "Junk", 
+    "CategoryTextOverride": "Collector's item",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 10,
+	"PurchasePrice": 200,
+    "PurchaseFrom": "STF.RodneyShop",
+
+    "GiftTastes": 
+    {
+		"Love": [ "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe" ],
+        "Like": [ "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest"],
+        "Neutral": ["Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn"],
+        "Dislike": ["Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples"],
+        "Hate": ["Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"]
+    },
+    "TranslationKey": "object.an-autographed-photo",
+    "HideFromShippingCollection": true,
+
+  /*      "NameLocalization":
+    {
+       // "es": "",
+       // "ko": "",
+       // "de": "",
+        "fr": "Photo dédicacée",
+       // "hu": "",
+       // "it": "",
+       // "ja": "",
+       // "pt": "",
+       // "ru": "",
+       // "tr": "",
+       // "zh": "",
+    },
+  "DescriptionLocalization": {
+       // "es": "",
+       // "ko": "",
+       // "de": "",
+       "fr": "Une photo dédicacée de l'auteur doublement récompensé, Rodney O'Brien.",
+       // "hu": "",
+       // "it": "",
+       // "ja": "",
+       // "pt": "",
+       // "ru": "",
+       // "tr": "",
+       // "zh": "", 
+  },*/
+}
+

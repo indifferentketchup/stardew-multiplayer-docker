@@ -1,0 +1,25 @@
+{
+    "Name": "Artifact or cutlery",
+    "Description": "A guide for the scholar to distinguish a genuine artifact from old and rusty cutlery, by Gunther.", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+ //   "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [  "RodneyOBrien", "Demetrius", "Maru", "Dwarf", "Clint", "Marlon", "MarlonFey", "Lance", "SenS", "Justine", "APTAshida", "Sondra" ], //"Mateo",
+        "Like": [ "Universal" ],
+        "Neutral": [ "Gunnar", "Gudrun" ],
+        "Hate": [ "Gunther", "GuntherSilvian" ],
+    },
+    "TranslationKey": "object.artifact-or-cutlery",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+// "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest", "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

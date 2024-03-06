@@ -1,0 +1,13 @@
+{
+    //crops
+    "crop.sens-crocus-plant.name": "Sen's Crocus",
+    "crop.sens-crocus-plant.description": "A lovely magenta blooming flower.",
+    "crop.sens-crocus-seed.name": "Sen's Crocus Seeds",
+    "crop.sens-crocus-seed.description": "Grows year round. Takes 9 days to produce a purple flower.",
+
+    //Objects
+    "object.sens-crocus-flower.name": "Sen's Crocus",
+    "object.sens-crocus-flower.description": "A flower born from the seeds Sen threw to the wind."
+
+    
+}

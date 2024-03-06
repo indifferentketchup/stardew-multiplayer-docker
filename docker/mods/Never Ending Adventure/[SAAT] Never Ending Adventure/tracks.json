@@ -1,0 +1,18 @@
+[
+    {
+        "Id": "NEATheme",
+        "Filepath": "Music/NEATheme.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true
+        }
+    },
+    {
+        "Id": "COTheme",
+        "Filepath": "Music/COTheme.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true
+        }
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Fievel Mail",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "FievelLetter1": "MAILTEXTHERE"
+      }
+    }
+  ]
+}

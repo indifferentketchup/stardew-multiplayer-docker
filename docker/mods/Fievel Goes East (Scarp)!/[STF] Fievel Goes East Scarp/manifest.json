@@ -1,0 +1,17 @@
+{
+   "Name": "Fievel's Cheese-Trade Shop",
+   "Author": "DestyNova & ES Dev Team",
+   "Version": "1.1.2",
+   "Description": "Adds Fievel's Cheese-Trade Shop (Shop Tile Framework)",
+   "UniqueID": "EastScarp.FGES.STF",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [ "Nexus:17315" ],
+   "ContentPackFor": {
+	  "UniqueID": "Cherry.ShopTileFramework",
+  },
+  "Dependencies": [
+    {
+       "UniqueID": "EastScarp.FGES"
+    },
+  ],
+}

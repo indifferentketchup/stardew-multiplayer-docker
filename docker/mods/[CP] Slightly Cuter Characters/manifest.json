@@ -1,0 +1,10 @@
+{
+    "Name": "Slightly Cuter Characters",
+    "Author": "Poltergeister",
+    "Version": "3.0.1",
+    "MinimumApiVersion": "3.0.1",
+    "Description": "Makes all character sprites slightly cuter.",
+    "UniqueID": "Poltergeister.CuteSprites",
+	"UpdateKeys": ["Nexus:1437"],
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

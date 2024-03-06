@@ -1,0 +1,238 @@
+{
+    "Changes": [
+    {
+           "Action": "EditData",
+           "Target": "Data/ConcessionTastes",
+           "Entries": {
+           "Fievel": {
+                  "Name": "Fievel",
+                  "LovedTags": [
+                  "Cappuccino Mousse Cake",
+                  "Chocolate Popcorn",
+                  "Personal Pizza"
+                  ],
+                  "LikedTags": [
+                  "Sweet",
+                  "Healthy"
+                  ],
+                  "DislikedTags": [
+                  "JojaCorn",
+                  "Salted Peanuts",
+                  "Joja Cola"
+                  ]
+           }
+            
+           }
+    },
+    {
+           "Action": "EditData",
+           "Target": "Data/MoviesReactions",
+           "Entries": {
+           "Fievel": {
+                  "NPCName": "Fievel",
+                  "Reactions": [
+                  {
+                         "Tag": "spring_movie_0", //Brave Little Sapling
+                         "Response": "love", //Responses are love/like/hate.
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": { //What the NPC says in the lobby.
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Sapling.01}}$1"                                    },
+                                "DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
+                                "ResponsePoint": null,
+                                "Script": "message \"{{i18n:Fievel.Movies.Sapling.02}}",
+                                "Text": "{{i18n:Fievel.Movies.Sapling.03}}"
+                                },
+                                "AfterMovie": { //What the NPC says in the lobby after the movie.
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Sapling.04}}$1"
+                                }
+                         },
+                         "ID": "reaction_3"
+
+
+                  },
+                  {
+                         "Tag": "spring_movie_1", //Natural Wonders
+                         "Response": "love",
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Wonders.01}}$1"
+                                },
+                                "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "message \"{{i18n:Fievel.Movies.Wonders.02}}",
+                                "Text": null
+                                },
+                                "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Wonders.03}}",
+                                }
+                         },
+                         "ID": "reaction_1"
+                  },
+                  {
+                         "Tag": "summer_movie_0", //Prairie King
+                         "Response": "like",
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Prairie.01}}$1"
+                                },
+                                "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "message \"{{i18n:Fievel.Movies.Prairie.02}}",
+                                "Text": "{{i18n:Fievel.Movies.Prairie.03}}"
+                                },
+                                "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Prairie.04}}$1"
+                                }
+                         },
+                         "ID": "reaction_3"
+                  },
+                  {
+                         "Tag": "summer_movie_1", //Wumbus
+                         "Response": "love",
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Wumbus.01}}$1"
+                                },
+                                "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "message \"{{i18n:Fievel.Movies.Wumbus.02}}",
+                                "Text": "{{i18n:Fievel.Movies.Wumbus.03}}$1"
+                                },
+                                "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Wumbus.04}}$1"
+                                }
+
+                         },
+                         "ID": "reaction_7"
+                  },
+                  {
+                         "Tag": "fall_movie_0", //Mysterium
+                         "Response": "hate",
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Mysterium.01}}$2"
+                                },
+                                "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Mysterium.02}}$1",
+                                },
+                                "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Mysterium.03}}$2"
+                                }
+                         },
+                         "ID": "reaction_4"
+                  },
+                  {
+                         "Tag": "fall_movie_1", //It Howls In The Rain
+                         "Response": "hate",
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Howls.01}}$2"
+                                },
+                                "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "message \"{{i18n:Fievel.Movies.Howls.02}}",
+                                "Text": null,
+                                },
+                                "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Howls.03}}$5"
+                                }
+                         },
+                         "ID": "reaction_5"
+                  },
+                  {
+                         "Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+                         "Response": "love",
+                         "Whitelist": [],
+                         "SpecialResponses": {
+                                "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Coldstar.01}}"
+                         },
+                         "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "message \"{{i18n:Fievel.Movies.Coldstar.01}}",
+                                "Text": null,
+                         },
+                         "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Coldstar.01}}$2"
+                         }
+                  },
+                  "ID": "reaction_4"
+                  },
+                  {
+                  "Tag": "winter_movie_1", //Zuzu City Express
+                  "Response": "hate",
+                  "Whitelist": [],
+                  "SpecialResponses": {
+                         "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Express.01}}$1"
+                         },
+                         "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script":null,
+                                "Text": "{{i18n:Fievel.Movies.Express.02}}$1"
+                         },
+                         "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Fievel.Movies.Express.03}}$1"
+                         }
+                  },
+                   "ID": "reaction_5"
+                  }
+                  ]
+           }
+
+           //Entries for other NPCs can be added here. Just repeat all of the above!
+           }
+    }
+    ]
+    }
+ 
+           //spring_movie_0 Brave Little Sapling - family, comedy
+           //spring_movie_1 NAtural Wonders - documentary, family
+           //summer_movie_0 Prairie King - action
+           //summer_movie_1 Wumbus - sci-fi, comedy, family
+           //fall_movie_0 Mysterium - horror, art
+           //fall_movie_1 Howls in the rain - horror
+           //winter_movie_0 Miracle at Coldstar Ranch - family, romance
+           //winter_movie_1 Zuzu City Express - classic, romance
+
+

@@ -1,0 +1,147 @@
+{
+  "Format": "1.24.0",
+  "Quests": [
+
+
+
+//KROBUS AND THE SPIRIT'S EVE
+    {
+      "Name": "Krobushalloween",
+      "Type": "ItemDelivery",
+      "Title": "Krobus and the Spirit's Eve",
+      "Description": "Krobus wants to partake in human Spirit's Eve traditions. Give him his own jack-o'-lantern.",
+      "Objective": "Deliver a jack-o'-lantern to Krobus",
+      "Reward": 500, // 500g
+      "Cancelable": false,
+      "Trigger": "Krobus 746", 
+      "ReactionText": "Oh. So a 'jack-o-lantern' is a pumpkin... with a candle inside...?#$b#It is very beautiful. Thank you, @!$h#$e#%Krobus is too mesmerized by the jack-o'-lantern to pay much attention to you anymore.",
+	  "FriendshipGain": {
+			"Krobus": 150 
+      }
+    },
+
+//DWARF'S INSULT
+
+{
+      "Name": "Krobusinsult",
+      "Type": "ItemDelivery",
+      "Title": "Dwarf's Insult",
+      "Description": "Dwarf disrespected Krobus' people. Krobus wants you to help him settle the score.",
+      "Objective": "Give Dwarf a carp",
+      "Reward": 150, // 150g
+      "Cancelable": true,
+      "Trigger": "Dwarf 142", 
+      "ReactionText": "...what's the meaning of this?#$b#Hmph. So that shadow person from the sewers put you up to this? Despicable!#$b#Do you have any other humiliating gifts for me?#$b#Go away!",
+	  "FriendshipGain": {
+			"Krobus": 150,
+			"Dwarf": -50, 
+      			 },
+"ConversationTopic": {
+        "AddWhenQuestCompleted": "DwarfInsultResponse 3 KrobusInsultRensponse 4",
+    }
+},
+
+
+//CROWS
+{
+      "Name": "Krobuskrows",
+      "Type": "ItemDelivery",
+      "Title": "New Friends",
+      "Description": "Krobus wants to befriend the crows. Help him find some food the birds will like.",
+      "Objective": "Bring Krobus a hazelnut",
+      "Reward": 300,
+	"RewardType": "Money",
+      "Cancelable": true,
+      "Trigger": "Krobus 408",
+      "ReactionText": "Thank you so much, @!#$b#I can't wait to see if the crows will like this.$h",
+"FriendshipGain": {
+			"Krobus": 150, 
+      			 },
+"AddMailOnComplete": "Krobushzl",
+    }
+
+
+  ],
+
+//---------
+//OFFERS   
+//---------
+
+  "Offers": [
+    {
+      "QuestName": "Krobushalloween",
+      "OfferedBy": "Mail",
+      "OfferDetails": {
+        "Topic": "Krobus and the Spirit's Eve",
+        "Text": "@,^I overheard human children talk about an item called a 'jack-o'-lantern'... I don't know what this word means, but the children said it is the most important part of the Spirit's Eve.^If it's not too inconvenient, I would like to request one of those, please.^^   -Krobus",
+      },
+      "When": {
+      "Date": "25 fall",
+		"FriendshipLevel": "Krobus 3",
+		"QuestNeverCompleted": "yes",
+		"not:HasMod": "haywrites.mpno | haywrites.KrobusNarrative",
+      }
+	},
+	  //hawrites compatibility ver
+	  {
+      "QuestName": "Krobushalloween",
+      "OfferedBy": "Mail",
+      "OfferDetails": {
+        "Topic": "Krobus and the Spirit's Eve",
+        "Text": "@,^I overheard human children talk about an item called a 'jack-o'-lantern'... I don't know what this word means, but the children said it is the most important part of the Spirit's Eve.^If it's not too inconvenient, I would like to request one of those, please.^^   -Krobus",
+      },
+      "When": {
+      "Date": "25 fall",
+		"FriendshipLevel": "Krobus 7",
+		"QuestNeverCompleted": "yes",
+		"HasMod":"haywrites.mpno | haywrites.KrobusNarrative",
+      }
+	  },
+
+	{
+		"QuestName": "Krobusinsult",
+		"OfferedBy": "Mail",
+		"OfferDetails": {
+			"Topic": "Dwarf's Insult",
+			"Text": "@,^sometimes I hear Dwarf from the sewers, skulking around your town in the dark and talking to themselves. Last night they were saying terribly insulting things about shadow people... I can’t let Dwarf talk about us that way, but I mustn't break the promise I gave to the Wizard.^Everyone knows that there are few things dwarves hate as much as carps... Can you please give Dwarf a carp from me? I'm sure that will teach him to be more polite.^^   -Krobus",
+		},
+		"When": {
+		"QuestNeverCompleted": "yes",
+		"EventSeen": "691039",
+		"not:EventSeen": "177533",
+		"FriendshipLevel": "Krobus 4 Dwarf 4",
+		"not:HasMod":"haywrites.mpno | haywrites.KrobusNarrative",
+		},
+	},
+		  //hawrites compatibility ver
+{
+		"QuestName": "Krobusinsult",
+		"OfferedBy": "Mail",
+		"OfferDetails": {
+			"Topic": "Dwarf's Insult",
+			"Text": "@,^sometimes I hear Dwarf from the sewers, skulking around your town in the dark and talking to themselves. Last night they were saying terribly insulting things about shadow people... I can’t let Dwarf talk about us that way, but I mustn't break the promise I gave to the Wizard.^Everyone knows that there are few things dwarves hate as much as carps... Can you please give Dwarf a carp from me? I'm sure that will teach him to be more polite.^^   -Krobus",
+		},
+		"When": {
+		"QuestNeverCompleted": "yes",
+		"EventSeen": "691039",
+		"not:EventSeen": "177533",
+		"FriendshipLevel": "Krobus 8 Dwarf 6",
+		"HasMod":"haywrites.mpno | haywrites.KrobusNarrative",
+		},
+	},
+
+{
+      "QuestName": "Krobuskrows",
+      "OfferedBy": "Mail",
+      "OfferDetails": {
+		"Topic": "New Friends",
+			"Text": "@,^I try not to, but I still miss Blinky very much... I hope her journey is going well.^^In the meantime, I'm going to try befriending the crows again. Perhaps they will enjoy hazelnuts more than seeds. Do you think you could bring me some, please?^^   -Krobus", 
+},
+"When": {
+		"QuestNeverCompleted": "yes",
+		"EventSeen": "177532", 
+		},
+	},
+
+  ]
+}

@@ -1,0 +1,336 @@
+{
+    "Changes": [
+        //If Jasper not installed
+        {
+            "LogName": "If Jasper not installed",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "When": {
+                "guntherorjasper": "gunther"
+            },
+            "Entries": {
+                "96420097/f Dwarf 2500/t 1000 1800": "libraryTheme/-100 -100/Elliott 15 9 1 Penny 16 9 3 farmer 3 14 0 Gunther 6 8 2/skippable/viewport 7 10 clamp true/pause 500/move farmer 0 -3 1/move farmer 3 0 0/jump Gunther 5/textAboveHead Gunther \"{{i18n:96420097.01.gunther}}\"/pause 500/emote farmer 8/pause 500/speak Gunther \"{{i18n:96420097.02.gunther}}\"/pause 500/move farmer 0 -1 0/pause 500/speak Gunther \"{{i18n:96420097.03.gunther}}\"/jump farmer 5/emote farmer 16/pause 500/question fork0 \"{{i18n:96420097.04.gunther}}#{{i18n:96420097.05.gunther}}#{{i18n:96420097.06.gunther}}#\"/fork DwarfRoommate_1/pause 500/speak Gunther \"{{i18n:96420097.07.gunther}}\"/pause 500/emote farmer 60/pause 1000/end",
+                "DwarfRoommate_1": "pause 500/addMailReceived DwarfRoommate_2/textAboveHead Gunther \"{{i18n:96420097.DwarfRoommate_1.01.gunther}}\"/pause 500/speak Gunther \"{{i18n:96420097.DwarfRoommate_1.02.gunther}}\"/pause 500/emote farmer 32/pause 1000/end",
+            }
+        },
+        //If Jasper is installed
+        {
+            "LogName": "If Jasper is installed",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "When": {
+                "guntherorjasper": "jasper"
+            },
+            "Entries": {
+                "96420097/n Dwarf_Friend/o Jasper/f Dwarf 2500/t 1000 1800": "libraryTheme/15 11/Jasper 17 9 2 farmer 10 13 1 {{GuntherPosition}}/skippable/addObject 17 10 451 1/showFrame Jasper 27/move farmer 5 0 0/move farmer 0 -4 1/showFrame Jasper 0/jump Jasper 5/pause 500/faceDirection Jasper 3/textAboveHead Jasper \"{{i18n:96420097.01}}{{playername}}!\"/pause 500/speak Jasper \"{{i18n:96420097.02}}\"/emote farmer 40/speak Jasper \"{{i18n:96420097.03}}\"/emote farmer 8/move farmer 1 0 1/speak Jasper \"{{i18n:96420097.04}}\"/jump farmer 5/emote farmer 16/speak Jasper \"{{i18n:96420097.05}}\"/pause 500/question fork0 \"{{i18n:96420097.06}}#{{i18n:96420097.07}}#{{i18n:96420097.08}}#\"/fork DwarfRoommate_1/speak Jasper \"{{i18n:96420097.09}}\"/pause 500/emote farmer 60/pause 1000/end",
+                "DwarfRoommate_1": "pause 500/addMailReceived DwarfRoommate_2/speak Jasper \"{{i18n:96420097.DwarfRoommate_1.01}}\"/emote farmer 32/pause 1000/end"
+            }
+        },
+        //different version if married to Jasper!
+        {
+            "LogName": "Farmhouse Event if married to Jasper part 1",
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "HasMod": "aedenthorn.FreeLove",
+                "HasMod |contains=Lemurkat.NPCJasper": true
+            },
+            "Entries": {
+                "96420096/n Dwarf_Friend/O Jasper/f Dwarf 2500": "libraryTheme/-100 -100/Jasper 39 16 2 farmer 35 16 1/ignoreCollisions farmer/skippable/addObject 39 17 451 1/showFrame Jasper 27/viewport 35 15 clamp true/pause 1000/move farmer 3 0 1/showFrame Jasper 0/jump Jasper 5/pause 500/faceDirection Jasper 3/textAboveHead Jasper \"{{i18n:96420096.01}}{{playername}}!\"/pause 500/speak Jasper \"{{i18n:96420096.02}}\"/emote farmer 40/speak Jasper \"{{i18n:96420096.03}}\"/emote farmer 8/speak Jasper \"{{i18n:96420096.04}}\"/jump farmer 5/emote farmer 16/speak Jasper \"{{i18n:96420096.05}}\"/pause 500/question fork0 \"{{i18n:96420096.06}}#{{i18n:96420096.07}}#{{i18n:96420096.08}}#\"/fork DwarfRoommate_1/speak Jasper \"{{i18n:96420096.09}}\"/pause 500/emote farmer 60/pause 1000/end",
+                "DwarfRoommate_1": "pause 500/emote Jasper 32/addMailReceived DwarfRoommate_2/pause 500/speak Jasper \"{{i18n:96420096.DwarfRoommate_1.01}}\"/emote farmer 32/pause 1000/end",
+            }
+        },
+        {
+            "LogName": "Farmhouse Event if married to Jasper part 2",
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": true,
+                "HasMod": "aedenthorn.FreeLove",
+                "HasFlag": "DwarfRoommate_2"
+            },
+            "Entries": {
+                "96420094/e 96420096/O Jasper/n DwarfRoommate_2": "libraryTheme/-100 -100/Jasper 39 16 2 farmer 35 16 1/addCraftingRecipe Dwarf Bracer/ignoreCollisions farmer/skippable/addObject 39 17 451 1/viewport 35 15 clamp true/move farmer 3 0 1/faceDirection Jasper 3/jump Jasper 5/speak Jasper \"{{i18n:96420094.01}}\"/emote farmer 8/pause 500/showFrame Jasper 27/speak Jasper \"{{i18n:96420094.02}}\"/showFrame Jasper 0/faceDirection Jasper 3/speak Jasper \"{{i18n:96420094.03}}\"/pause 500/speak Jasper \"{{i18n:96420094.04}}\"/emote farmer 56/pause 1000/playSound reward/message \"{{i18n:96420094.05}}\"/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Sends the letter",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "96420095/e 96420097/o Jasper/n DwarfRoommate_2/x DwarfBracerRecipe": "null",
+            },
+            "When": {
+                "HasFlag": "DwarfRoommate_2",
+            }
+        },
+        {
+            "LogName": "Mail recipe",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "DwarfBracerRecipe": "{{i18n:mail.dwarfcraftingrecipe.{{guntherorjasper}}}}%item craftingRecipe Dwarf_Bracer %%[#]Dwarf Crafting Recipe",
+            }
+        },
+        //----------------------------------------------------------------------------------------------
+        { //learn how to craft the Dwarf Bracer: Recipe only exists if you show an interest in cohabiting with Dwarf
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Dwarf Bracer": "68 1 64 1 62 1 336 1/Home/{{spacechase0.JsonAssets/ObjectId:Dwarf Bracer}} 1/false/null"
+            },
+            "When": {
+                "HasMod |contains=spacechase0.JsonAssets": true,
+                "HasFlag": "DwarfRoommate_2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Dwarf Bracer"
+                    ],
+                    "Value": "propose_roommate_dwarf",
+                    "Delimiter": ", "
+                },
+            ]
+        },
+        //Dwarf Roommate stuff
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Dwarf_EngagedRoommate": "{{i18n:dwarfroommate.engaged}}"
+            }
+        },
+        {
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "DwarfRoommate0": "{{i18n:dwarfroommate.0}}",
+                "DwarfRoommate1": "{{i18n:dwarfroommate.1}}"
+            }
+        },
+        { //This does NOTHING. The MovieInvite code is generic, and if you change it here, it will break everyone else who doesn't want to attend the movies. Sadly, it seems they will only look puzzle.
+            "Action": "EditData",
+            "Target": "Strings/Characters",
+            "Entries": {
+                "MovieInvite_Spouse_Dwarf": "{{i18n:movieinvite_spouse_dwarf}}"
+            }
+        },
+        //Spouse Room
+        {
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Dwarf": "Lemurkat_Dwarf_SpouseRoom/0"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Lemurkat_Dwarf_SpouseRoom",
+            "FromFile": "assets/maps/SpouseRoomDwarf.tmx"
+        },
+        {
+            "LogName": "Location Messages",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "DwarfSpouse.1": "{{i18n:strings.dwarfspouse.1}}",
+                "DwarfSpouse.2": "{{i18n:strings.dwarfspouse.2}}",
+                "DwarfSpouse.3": "{{i18n:strings.dwarfspouse.3}}"
+            }
+        },
+        //Adds the shop to Dwarf's chest in the mines so you can still buy from them.
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mine",
+            "Update": "OnLocationChange",
+            "When": {
+                "HasSeenEvent:AnyPlayer |contains= 96420015": "true"
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 44,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Shop": "Vanilla!DwarfShop"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "House-mate Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueDwarfRoommate",
+            "FromFile": "assets/blank.json"
+        },
+        {
+            "LogName": "House-mate Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueDwarfRoommate",
+            "Entries": {
+                "spouseRoom_Dwarf": "{{i18n:spouseRoom_Dwarf}}",
+                "Rainy_Day_0": "{{i18n:Rainy_Day_0}}",
+                "Rainy_Day_1": "{{i18n:Rainy_Day_1}}",
+                "Rainy_Day_2": "{{i18n:Rainy_Day_2}}",
+                "Rainy_Day_3": "{{i18n:Rainy_Day_3}}",
+                "Rainy_Day_4": "{{i18n:Rainy_Day_4}}",
+                "patio_Dwarf": "{{i18n:patio_Dwarf}}",
+                "Rainy_Day_Dwarf": "{{i18n:Rainy_Day_Dwarf}}",
+                "Rainy_Night_0": "{{i18n:Rainy_Night_0}}",
+                "Rainy_Night_1": "{{i18n:Rainy_Night_1}}",
+                "Rainy_Night_2": "{{i18n:Rainy_Night_2}}",
+                "Rainy_Night_3": "{{i18n:Rainy_Night_3}}",
+                "Rainy_Night_4": "{{i18n:Rainy_Night_4}}",
+                "Rainy_Night_5": "{{i18n:Rainy_Night_5}}",
+                "Rainy_Night_Dwarf": "{{i18n:Rainy_Night_Dwarf}}",
+                "Indoor_Day_0": "{{i18n:Indoor_Day_0}}",
+                "Indoor_Day_1": "{{i18n:Indoor_Day_1}}",
+                "Indoor_Day_2": "{{i18n:Indoor_Day_2}}",
+                "Indoor_Day_3": "{{i18n:Indoor_Day_3}}",
+                "Indoor_Day_4": "{{i18n:Indoor_Day_4}}",
+                "Indoor_Day_Dwarf": "{{i18n:Indoor_Day_Dwarf}}",
+                "Indoor_Night_0": "{{i18n:Indoor_Night_0}}",
+                "Indoor_Night_1": "{{i18n:Indoor_Night_1}}",
+                "Indoor_Night_2": "{{i18n:Indoor_Night_2}}",
+                "Indoor_Night_3": "{{i18n:Indoor_Night_3}}",
+                "Indoor_Night_4": "{{i18n:Indoor_Night_4}}",
+                "Indoor_Night_Dwarf": "{{i18n:Indoor_Night_Dwarf}}",
+                "Outdoor_0": "{{i18n:Outdoor_0}}",
+                "Outdoor_1": "{{i18n:Outdoor_1}}",
+                "Outdoor_2": "{{i18n:Outdoor_2}}",
+                "Outdoor_3": "{{i18n:Outdoor_3}}",
+                "Outdoor_4": "{{i18n:Outdoor_4}}",
+                "Outdoor_Dwarf": "{{i18n:Outdoor_Dwarf}}",
+                "funLeave_Dwarf": "{{i18n:funLeave_Dwarf}}",
+                "OneKid_0": "{{i18n:OneKid_0}}",
+                "OneKid_1": "{{i18n:OneKid_1}}",
+                "OneKid_2": "{{i18n:OneKid_2}}",
+                "OneKid_3": "{{i18n:OneKid_3}}",
+                "TwoKids_0": "{{i18n:TwoKids_0}}",
+                "TwoKids_1": "{{i18n:TwoKids_1}}",
+                "TwoKids_2": "{{i18n:TwoKids_2}}",
+                "TwoKids_3": "{{i18n:TwoKids_3}}",
+                "Good_0": "{{i18n:Good_0}}",
+                "Good_1": "{{i18n:Good_1}}",
+                "Good_2": "{{i18n:Good_2}}",
+                "Good_3": "{{i18n:Good_3}}",
+                "Good_4": "{{i18n:Good_4}}",
+                "Good_5": "{{i18n:Good_5}}",
+                "Good_6": "{{i18n:Good_6}}",
+                "Good_7": "{{i18n:Good_7}}",
+                "Good_8": "{{i18n:Good_8}}",
+                "Good_9": "{{i18n:Good_9}}",
+                "Neutral_0": "{{i18n:Neutral_0}}",
+                "Neutral_1": "{{i18n:Neutral_1}}",
+                "Neutral_2": "{{i18n:Neutral_2}}",
+                "Neutral_4": "{{i18n:Neutral_4}}",
+                "Neutral_6": "{{i18n:Neutral_6}}",
+                "Neutral_7": "{{i18n:Neutral_7}}",
+                "Neutral_8": "{{i18n:Neutral_8}}",
+                "Neutral_9": "{{i18n:Neutral_9}}",
+                "Bad_0": "{{i18n:Bad_0}}",
+                "Bad_1": "{{i18n:Bad_1}}",
+                "Bad_2": "{{i18n:Bad_2}}",
+                "Bad_3": "{{i18n:Bad_3}}",
+                "Bad_4": "{{i18n:Bad_4}}",
+                "Bad_5": "{{i18n:Bad_5}}",
+                "Bad_6": "{{i18n:Bad_6}}",
+                "Bad_7": "{{i18n:Bad_7}}",
+                "Bad_8": "{{i18n:Bad_8}}",
+                "Bad_9": "{{i18n:Bad_9}}",
+                "spring_1": "{{i18n:spring_1}}",
+                "fall_15": "{{i18n:fall_14}}",
+                "fall_26": "{{i18n:fall_26}}",
+                "summer_8": "{{i18n:summer_8}}",
+                "summer_15": "{{i18n:summer_15}}",
+                "NPC.cs.4462": "{{i18n:NPC.cs.4462}}",
+                "NPC.cs.4463": "{{i18n:NPC.cs.4463}}",
+                "NPC.cs.4474": "{{i18n:NPC.cs.4474}}",
+                "NPC.cs.4481": "{{i18n:NPC.cs.4481}}",
+                "NPC.cs.4440": "{{i18n:NPC.cs.4440}}",
+                "NPC.cs.4441": "{{i18n:NPC.cs.4441}}",
+                "NPC.cs.4442": "{{i18n:NPC.cs.4440}}",
+                "NPC.cs.4443": "{{i18n:NPC.cs.4440}}",
+            }
+        },
+        {
+            "LogName": "Add Jasper",
+            "Action": "EditData",
+            "Target": "Data/Festivals/Summer20",
+            "Entries": {
+                "Dwarf": "{{i18n:dwarf.festival.summer20}}",
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dwarf 33 20 down",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod": "Lemurkat.NPCJasper",
+                "Relationship:Dwarf": "married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Dwarf": "{{i18n:dwarf.festival.summer28}}",
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dwarf 64 7 down",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent |contains=5599014": true,
+                "HasMod": "Lemurkat.NPCJasper",
+                "Relationship:Dwarf": "married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Dwarf": "{{i18n:dwarf.festival.summer28}}",
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dwarf 90 39 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent |contains=5599014": false,
+                "HasMod": "Lemurkat.NPCJasper",
+                "Relationship:Dwarf": "married"
+            }
+        }
+    ]
+}

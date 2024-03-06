@@ -1,0 +1,37 @@
+{
+    // Storages
+    "adventurers-pack.name": "Adventurer's Pack",
+    "adventurers-pack.description": "Go trawling through dark dungeons and caverns with this bag to hold rare treasures in!",
+    "cigar-box.name": "Cigar Box",
+    "cigar-box.description": "A small wooden box to leave your valuables in.",
+    "dimensional-portal.name": "Dimensional Portal",
+    "dimensional-portal.description": "You can store items in a pocket dimension. How convenient!",
+    "ice-cooler.name": "Ice Cooler",
+    "ice-cooler.description": "A cooler full of ice to keep perishables fresh!",
+    "lumber-pile.name": "Lumber Pile",
+    "lumber-pile.description": "A sturdy shelf to keep all your building materials in one spot.",
+    "mini-storage-shed.name": "Mini Storage Shed",
+    "mini-storage-shed.description": "A small shed, just for keeping stuff in.",
+    "wooden-cabinet.name": "Wooden Cabinet",
+    "wooden-cabinet.description": "A tall mahogany cabinet with plenty of room inside.",
+    "wrought-iron-cellar.name": "Wrought-Iron Cellar",
+    "wrought-iron-cellar.description": "This staircase leads down to a roomy cellar with plenty of space for items.",
+
+    // Config
+    "config.EnableAdventurersPack.name": "Enable Adventurer's Pack",
+    "config.EnableAdventurersPack.description": "Add the Adventurer's Pack to the game.",
+    "config.EnableCigarBox.name": "Enable Cigar Box",
+    "config.EnableCigarBox.description": "Add the Cigar Box to the game.",
+    "config.EnableDimensionalPortal.name": "Enable Dimensional Portal",
+    "config.EnableDimensionalPortal.description": "Add the Dimensional Portal to the game.",
+    "config.EnableIceCooler.name": "Enable Ice Cooler",
+    "config.EnableIceCooler.description": "Add the Ice Cooler to the game.",
+    "config.EnableLumberPile.name": "Enable Lumber Pile",
+    "config.EnableLumberPile.description": "Add the Lumber Pile to the game.",
+    "config.EnableMiniStorageShed.name": "Enable Mini Storage Shed",
+    "config.EnableMiniStorageShed.description": "Add the Mini Storage Shed to the game.",
+    "config.EnableWoodenCabinet.name": "Enable Wooden Cabinet",
+    "config.EnableWoodenCabinet.description": "Add the Wooden Cabinet to the game.",
+    "config.EnableWroughtIronCellar.name": "Enable Wrought-Iron Cellar",
+    "config.EnableWroughtIronCellar.description": "Add the Wrought-Iron Cellar to the game."
+}

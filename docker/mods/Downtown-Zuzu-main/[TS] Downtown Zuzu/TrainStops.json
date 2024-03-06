@@ -1,0 +1,15 @@
+{
+	"TrainStops": [
+		{
+			"TargetMapName": "Custom_DTZ_TrainStation",
+			"LocalizedDisplayName": {
+				"en": "Zuzu Forest"
+			},
+			"TargetX": 7,
+			"TargetY": 5,
+			"Cost": 500,
+			"FacingDirectionAfterWarp":2,
+			"Conditions": null
+		}
+	]
+}

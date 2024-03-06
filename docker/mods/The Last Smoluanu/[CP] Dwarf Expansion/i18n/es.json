@@ -1,0 +1,594 @@
+{ //Translation by FranDwight
+//Events ********************************************************
+    //Dwarf caught "Collecting" in town
+    //2 hearts
+    "96420002.01": "Ah, maldita sea. Me asustaste.$5", //Dwarf
+    "96420002.02": "Lo siento. Fue un accidente.",
+    "96420002.03": "Estás robandole a Lewis?",
+    "96420002.04": "No se veía bien de todas maneras. No es una gran perdida.$1#$b#Pero hey? Tal vez mires por donde vas la proxima vez.", //Dwarf
+    "96420002.05": "Robando? Lo dices como si fuera algo malo.#$b#Estaba tirado por ahí, nadie lo estaba usando.$5", //Dwarf
+    "96420002.06": "Y ahora está roto... pobre cosa. Hmmm, tal vez podría arreglarlo.$3", //Dwarf
+    "96420002.07": "Cuidate, amigo.^Cuidate, amiga.", //Dwarf
+    "96420002.08": "Hola amigo. Hey, ya he arreglado esa cosa^Hola amiga. Hey, ya he arreglado esa cosa.$1#$b#Aún es muy feo. Puedes tenerlo.[461]", //Dwarf
+    //Spirit's Eve: Krobus and Dwarf encounter each other after the festival
+    //3 hearts
+    "96420003.01": "Yum.", //Dwarf
+    "96420003.02": "Aún queda tanta comida. A los habitantes del sol les encanta desperdiciar.$3", //Dwarf
+    "96420003.03": "Buena comida.", //Dwarf
+    "96420003.04": "Hah. Esqueletos. Crees que eres tan aterrador.$1", //Dwarf
+    "96420003.05": "Que crees que pasará con ellos?$2", //Krobus
+    "96420003.06": "Tú otra vez?", //Dwarf
+    "96420003.07": "Ellos nos pusieron en una jaula tambien, sabes?.", //Krobus
+    "96420003.08": "No lo harían conmigo. No soy un monstruo.$1", //Dwarf
+    "96420003.09.vanilla": "Ellos tampoco lo harían. Alguna vez fueron personas.$2", //Krobus
+    "96420003.09.SVE": "Te equivocas. Algunos eran personas, algunos SON personas.$2", //Krobus
+    "96420003.10": "Y si los pueden poner en una jaula por entretenimiento... imagina que podrian hacer con nosotros.$3", //Krobus
+    "96420003.11": "Hah.", //Dwarf
+    "96420003.12": "Imaginaré lo que ellos podrian hacer contido. Eso me ayudará a dormir.$1", //Dwarf
+    "96420003.13": "Amigo^Amiga.", //Dwarf (to farmer)
+    "96420003.14": "Parece ser la noche para merodear por los alrededores. Has venido por las sobras también?", //Dwarf
+    "96420003.15": "...",
+    "96420003.16": "Eso fue realmente malo. Krobus estaba siendo amigable.",
+    "96420003.17": "Las sombras son demonios, no amigos. Ahora si me disculpas, Estoy ocupado.$5",
+    "96420003.18": "Gracias por intentarlo, @.$4", //Krobus
+    "96420003.19": "Qué crees que pasará con ellos?$2",
+    //Dwarf 4-heart (bombs and vengence)
+    "96420004.01": "Tomen eso, idiotas.", //Dwarf
+    "96420004.02": "Y buen viaje tambien.$1", //Dwarf
+    "96420004.03": "Hola amigo. Ha sido una larga noche.^Hola amiga. ha sido una larga noche.$2#$b#Solo ando limpiando algunas alimañas molestas.$3", //Dwarf
+    "96420004.04": "Oh, no te preocupes por mí. Acabo de tener un encuentro con un par de estupidas sombras.$5#$b#Criaturas desagradables, pero les he demostrado quien es el jefe. Mientras ellos se queden ahí abajo, todo está bien, si?$3", //Dwarf
+    "96420004.05": "Hey...", //Dwarf
+    "96420004.06": "Acabo de tener una brillante idea.$1", //Dwarf
+    "96420004.07": "Todavía tengo algunas bombas.$3", //Dwarf
+    "96420004.08": "Deberiamos ir a hacerle una visita a esa sombra de las cloacas.$1#$b#Que dices, amigo?^Que dices, amiga?", //Dwarf
+    "96420004.09": "No olvides tu promesa con el mago.",
+    "96420004.10": "No. Krobus es mi amigo tambien.",
+    "96420004.11": "Sabes, Krobus estaba dispuesto a una tregua. Por qué tu no?",
+    "96420004.12": "Ugh, no me lo recuerdes... No quiero sentir ese fuego haciendome cosquillas en los pies otra vez.$5",
+    "96420004.13": "Tienes suerte de ser mi mejor cliente, amigo.^Tienes suerte de ser mi mejor cliente, amiga.$5#$b#O sospecharía mucho sobre tu asociacion con ese... ese demonio.$2", //Dwarf
+    "96420004.14": "Por qué debería? Su deseo de ser amable no cambiará el pasado.#$b#No cambiará el hecho de que mi seto y mi liepu están muertos.$2", //Dwarf
+    //"96420004.14.sve": "Por qué debería? Su deseo de ser amables no cambiará el pasado.#$b#No cambiará el hecho de que mi seto y mi liepu están muertos.$2", //Dwarf
+    "96420004.15": "Bien...", //Dwarf
+    "96420004.16": "Pero tú no tienes idea de lo que su gente le hizo a la mía...$5#$b#Señor gran-sombrero manos-brillosas podrá mantenerme su 'sello de juramento' pero él no podrá hacerme cambiar de opinión.$3#$b#Y ni siquiera tú.#$b#Sombras y Smoluanu son enemigos. Fin de la historia.", //Dwarf
+    //"96420004.16.SVE": "Pero tú no tienes idea de lo que su gente le hizo a la mía...$5#$b#Señor gran-sombrero manos-brillosas podrá mantenerme su 'sello de juramento' pero él no podrá hacerme cambiar de opinión.$3#$b#Y ni siquiera tú.#$b#Sombras y Smoluanu son enemigos. Fin de la historia.", 
+    //Dwarf receives a lemon stone from Krobus
+    // 6 hearts part 2
+    "96420004.17": "Buen Dia.", //Dwarf
+    "96420008.01": "Esa sombra de la cloaca me envío esto, amigo.^Esa sombra de la cloaca me envío esto, amiga.#$b#Pero no entiendo, por qué haría tal cosa?$3", //Dwarf
+    //"96420008.01.SVE": "Esas sombras de la cloaca me envíaron esto, amigo.^Esas sombras de la cloaca me envíaron esto, amiga.#$b#Pero no entiendo, por qué harían tal cosa?$3", //Dwarf
+    "96420008.02": "Crees que esté envenenado?$2#$b#O tal vez pueda explotar?", //Dwarf
+    "96420008.03": "Es numasnau. Lo preparamos usando recetas secretas Smoluanu, para hacer numasonn.#$b#Que es muy sabroso cuando se espolvorea sobre estofado de zanahoria cavernaria.$1", //Dwarf
+    "96420008.04": "Pero como un enemigo de nuestra gente sabría esto? Por qué me da esto a mí?", //Dwarf
+    //"96420008.04.SVE": "Pero como enemigos de nuestra gente sabrían esto? Por qué me darían esto a mí?", //Dwarf
+    "96420008.05": "Un regalo?", //Dwarf
+    "96420008.06": "Esa maldita criatura está tratando de hacerme olvidar lo que su especie le ha hecho a la mía.$5#$b#Bueno, si él me está dando regalos... entonces yo tambien le daré un regalo.$1#$b#Un regalo que no va a olvidar...$3", //Dwarf
+    "96420008.07": "Tu lo conoces amigo. Así que dime, Que desprecia ese monstruo?^Tu lo conoces amiga. Así que dime, Que desprecia ese monstruo?$2", //Dwarf
+    //"96420008.06.SVE": "Esas malditas criaturas están tratando de hacerme olvidar lo que su especie le ha hecho a la mía.$5#$b#Bueno, si ellos me están dando regalos... entonces yo tambien les daré un regalo.$1#$b#Un regalo que no van a olvidar...$3", //Dwarf
+    //"96420008.07.SVE": "Tu los conoces amigo. Así que dime, Que desprecian esos monstruos?^Tu los conoces amiga. Así que dime, Que desprecian esos monstruos?$2", //Dwarf
+    "96420008.08": "Rábano Silvestre.",
+    "96420008.09": "Las mismas cosas que tú",
+    "96420008.10": "La guerra entre tu gente",
+    "96420008.11": "Hmmm, Rábano Silvestre... Eso es como una zanahoria cavernaria picante, cierto?#$b#He visto algunos alrededor.", //Dwarf
+    "96420008.12": "Ridiculo. Como sería posible que ambos odiemos las mismas cosas? No somos nada parecidos.$5", //Dwarf
+    "96420008.13": "Hah", //Dwarf
+    "96420008.14": "Verdad... Pero no puedo darle eso como un regalo. Tendré que pensar en algo más...", //Dwarf
+    "96420008.15": "Gracias por darme la idea, amigo. Esto será divertido.^Gracias por darme la idea, amiga. Esto será divertido.$1", //Dwarf
+    // Krobus and Dwarf meet on the Mountain
+    //5 heart event - late at night
+    "96420005.01": "Prometiste que te quedarías en las alcantarillas.", //Dwarf
+    "96420005.02": "No, no lo hice. Tengo tanto derecho a estar aquí como tú. Enclenque.$a", //Krobus
+    "96420005.03": "No me llames así... aliento de fiemo.", //Dwarf
+    "96420005.04": "Aliento de FIEMO?", //Krobus
+    "96420005.05": "Te destrozaré.", //Dwarf
+    "96420005.06": "Pah, Magos entrometidos.... y sus estupidos sellos.", //Dwarf
+    "96420005.07": "No estoy aquí para pelear, smoluanu.$2", //Krobus
+    "96420005.08": "No? Por qué estarias en mí montaña entonces?", //Dwarf
+    "96420005.09": "TU montaña?", //Krobus
+    "96420005.10": "Se murió?", //Krobus
+    "96420005.11": "No... está durmiendo. Es una cosa muy extraña.#$b#Cuando se hace tarde, los granjeros caen dormidos.#$b#Están parados, y de un momento a otro se duermen.", //Dwarf
+    "96420005.12": "Los humanos son raros.", //Dwarf
+    "96420005.13": "Qué hacemos ahora?$2", //Krobus
+    "96420005.14": "Hmmm, aveces busco en sus bolsillos.#$b#Te sorprendería la cantidad de cosas que lleva mi amigo^Te sorprendería la cantidad de cosas que lleva mi amiga.", //Dwarf
+    "96420005.15": "Qué?", //Krobus
+    "96420005.16": "Podemos tocarle con un palo?$1", //Krobus
+    "96420005.17": "Lo intenté una vez. No funcionó. Eché agua sobre su cabeza también. No hubo suerte.#$b#Nuestro amigo duerme como los muertos.^Nuestra amiga duerme como los muertos.", //Dwarf
+    "96420005.18": "Hmmm. No podemos dejarlo aquí. Algo se lo podría comer.^Hmmm. No podemos dejarla aquí. Algo se la podría comer.$2", //Krobus
+    "96420005.19": "Que? Como uno de los tuyos?", //Dwarf
+    "96420005.20": "Habla por ti, enclenque.", //Krobus
+    "96420005.21": "No, mí gente no son el peligro, ellos son más felices en las cuevas. Son las otras cosas...", //Krobus
+    "96420005.22": "Ugh", //Dwarf
+    "96420005.23": "Supongo será mejor que le llevemos a casa... Tomaré los brazos, tú las piernas.", //Dwarf
+    "96420005.24": "Quieres que... trabajemos juntos?$3", //Krobus
+    "96420005.25": "Si. Para ayudar a un amigo mútuo. No hagas un gran problema al respecto, si?^Si. Para ayudar a una amiga mútua. No hagas un gran problema al respecto, si?", //Dwarf
+    "96420005.26": "Ooof, si que pesa.", //Krobus
+    "96420005.27": "Ahora a la cama. Cuidado con su cabeza.", //Dwarf
+    "96420005.28": "Huh, raro, ni siquiera abrió un ojo.", //Krobus
+    "96420005.29": "Una sombra y un smoluanu trabajando juntos, quien lo hubiera visto venir?$1", //Krobus
+    "96420005.30": "Nunca volveremos a hablar de esto.", //Dwarf
+    "96420005.31": "Ya lo veremos.", //Krobus
+    "96420005.32": "Bueno, al menos estás durmiendo bien por la noche ('salta' ahora para despertar.)",
+    //Sewer event with Krobus - 
+    //6 hearts
+    "96420006.02": "Es bueno verte otra vez, @.$1#$b#Espero las cosas estén bien en la superficie", //Krobus
+    "96420006.03": "Es bueno oir eso. Hay algo de lo que me gustaría hablar contigo.", //Krobus
+    "96420006.04": "Esto es dificil para mí...$3", //Krobus
+    "96420006.05": "Es sobre tu amigo, el Enano.", //Krobus
+    "96420006.06": "Los Smoluanu y sombras han sido enemigos durante un largo tiempo.$2#$b#Los humanos tampoco, no son amigos de las sombras. Nos han cazado, matado.$5#$b#Como nosotros, a su vez, los hemos asesinado.$2", //Krobus
+    "96420006.07": "Mi madre me llamó Krobus, 'Cruzador De Puentes', y me encargó construir los puentes quemados por nuestros antepasados.", //Krobus
+    "96420006.08": "Y a pesar de la enemistad, nos hicimos amigos, tú y yo.$1", //Krobus
+    "96420006.09": "Ahora, quiero construir un puente entre nosotros y ellos. Los smoluanu.", //Krobus
+    "96420006.10": "El enano solo conoce el odio alimentado por sus antepasados.$2#$b#Dime, @, como se hicieron amigos?", //Krobus
+    "96420006.11": "Lo impresioné con mis habilidades mineras.",
+    "96420006.12": "Le dí piedras brillantes.",
+    "96420006.13": "Creo que él mayormente disfruta tener a alguien que lo entienda.",
+    "96420006.14": "Oh... No creo que eso funcione conmigo.#$b#No estoy hecho exactamente para minar...", //Krobus
+    "96420006.15": "Oh. probablmente podría encontrar algunas de esas. Te sorprendería lo que se cae a las alcantarillas.$1", //Krobus
+    "96420006.16": "Yo tambien, nosotros las sombras tenemos una habilidad especial para los idiomas, es algo realmente bueno tener a alguien con quien hablar.#$b#Solo... Siempre que el enano y yo hablamos terminamos peleando.$2", //Krobus
+    "96420006.17": "No será facil, @ - es difícil cambiar años de ira.$2#$b#Pero tengo que intentarlo. No podemos continuar la guerra eterna de nuestros ancestros.", //Krobus
+    //Dwarf tries to prank Krobus and fails
+    //6 heart part 3
+    "96420010.01": "shhhh", //Dwarf
+    "96420010.02": "Hey, mira. He colocado estas horribles raíces picantes fuera de la casa de Krobus.#$b#Cuando él salga y las vea, sabrá como me siento por su regalo.$1", //Dwarf
+    //"96420010.02.SVE": "Hey, mira. He colocado estas horribles raíces picantes fuera de la casa de Krobus.#$b#Cuando ellos salgan y las vean, sabrán como me siento por su regalo.$1", //Dwarf
+    "96420010.03": "En realidad, era bastante delicioso... pero ese no es el punto.$5", //Dwarf
+    "96420010.04": "Como sé que saldrá pronto?#$b#Oh, lo he estado mirando. Es bueno saber los habitos de tu enemigo.$3", //Dwarf
+    "96420010.05": "Está viniendo.", //Dwarf
+    "96420010.06": "(Que está haciendo? Los odia? No puedo ver. Estupidas plantas...)", //Dwarf
+    //"96420010.04.SVE": "Como sé que saldran pronto?#$b#Oh, los estuve mirando. es bueno saber los habitos de tu enemigo.$3", //Dwarf
+    //"96420010.05.SVE": "Están viniendo.", //Dwarf
+    //"96420010.06.SVE": "(Que están haciendo? Los oidan? No puedo ver. Estupidas plantas...)", //Dwarf
+    "96420010.07": "Hola?", //Krobus
+    "96420010.08": "@? Eres tú?", //Krobus
+    "96420010.09": "(Don't answer.)", //Dwarf
+    "96420010.10": "Enano?", //Krobus
+    "96420010.11": "Ugh", //Dwarf
+    "96420010.12": "@. Entonces tú estabas detras de esto. Es maravilloso.$1", //Krobus
+    "96420010.13": "Maravilloso?", //Dwarf
+    "96420010.14": "Estás diciendome que este demonio realmente le gustan estas raíces picantes?$5", //Dwarf
+    "96420010.15": "Ugh... estás diciendo que hice algo bueno?$2", //Dwarf
+    //Dwarf stargazing event
+    //8 hearts has reached caldera
+    "96420099.01": "Hey.", //Dwarf
+    "96420099.02": "Seto y yo solíamos visitar la gran caverna y nos parábamos debajo de las luciérnagas.#$b#Seto me hablaba de las constelaciones. Dijo que un día me mostrarían la estrella que era 'casa'.#$b#Jamas tuvo la oportunidad.$2#$b#Esas estrellas, las reales. Me hacen sentir tan pequeño. Así que... nada.$5#$b#Aveces me pregunto, amigo, hay mas como yo por ahi?^Aveces me pregunto, amiga, hay mas como yo por ahi?", //Dwarf
+    "96420099.03": "Los hay?", //Dwarf
+    "96420099.04": "Debes llevarme amigo. Llevame a visitarlos.^Debes llevarme amiga. Llevame a visitarlos.$3", //Dwarf
+    "96420099.05": "...",
+    "96420099.06": "Claro que lo haré.",
+    "96420099.07": "Me encantaría.",
+    "96420099.08": "Bueno, si insistes.",
+    "96420099.09": "Nos vemos en la playa mañana al anochecer?$3#$b#Por supuesto amigo, si, lo haré.^Por supuesto amiga, si, lo haré.$4", //Dwarf
+    "96420099.10": "Enano vino de algún lugar allá arriba?",
+    //Dwarf goes to visit the island
+    "96420098.01": "Hey niño, estás perdido?", //Alex
+    "96420098.02": "Vaya sombrero cool.", //Alex
+    "96420098.03": "Amigo.^Amiga.", //Dwarf
+    "96420098.04": "Amigo. Estoy tan feliz de verte.^Amiga. Estoy tan feliz de verte.#$b#Vamos, vamos.", //Dwarf
+    "96420098.05": "Entonces esto es lo que tu gente llama 'bote'?#$b#Se mueve de arriba a abajo. Esto es raro.$2", //Dwarf
+    "96420098.06": "No mucho ahora, joven, estarás bien.", //Willy
+    "96420098.07": "El suelo sigue moviéndose.$2", //Dwarf
+    "96420098.08": "Gracias señor capitán.", //Dwarf
+    "96420098.09": "Diviertete, @. Cuida del jovencito.$1#$b#Estaré haciendo algo de pesca nocturna, pero regresa antes de la medianoche si quieres que te lleve a casa.", //Willy
+    "96420098.10": "Vamos.", //Dwarf
+    "96420098.11": "Esta es una antigua fortaleza Smoluanu, Puedo sentirlo.$3", //Dwarf
+    "96420098.12": "Esto está lleno de monstruos? Vine preparado, si.$1", //Dwarf
+    "96420098.13": "Esto será divertido.$1", //Dwarf
+    "96420098.14": "Quien va ahí?", //Sentinel Dwarf
+    "96420098.15": "Oh, eres tú, granjero. Has venido a comprar mercancías para tu viaje a través de las minas?^Oh, eres tú, granjera. Has venido a comprar mercancías para tu viaje a través de las minas?", //Sentinel Dwarf
+    "96420098.16": "Saludos joven. De donde vienes?", //Sentinel Dwarf
+    "96420098.17": "Tenemos mucho de que hablar, amigo. Deberías ir a casa antes de que caigas dormido en tus pies.^Tenemos mucho de que hablar, amiga. Deberías ir a casa antes de que caigas dormida en tus pies.#$b#Creo que puedo encontrar el camino de regreso a mi cueva.", //Dwarf
+    "96420098.18": "Espera, habitante del continente.$1", //Sentinel Dwarf
+    "96420098.19": "Gracias por traer a este joven a mi encuentro.#$b#Han pasado muchos años desde que vi a alguien de mi familia.", //Sentinel Dwarf
+    //Caldera event
+    "96420000.01": "'Nuestros ancestros vienen del cielo'", //Dwarf
+    "96420000.02": "'...e hicieron un nuevo hogar bajo las rocas.'", //Dwarf
+    "96420000.03": "Y tú estabas ahí, Centinela?$3", //Dwarf
+    "96420000.04": "Lo estaba.", //Sentinel Dwarf
+    "96420000.05": "Nuestro planeta estaba muriendo; nosotros estábamos en un viaje para encontrar un nuevo mundo, un nuevo hogar.#$b#Llegamos aquí. Y encontramos guerra.", //Sentinel Dwarf
+    "96420000.06": "No con los humanos; Ellos estaban ocupados peleando entre ellos, sino de... esos que viven bajo las piedras.", //Sentinel Dwarf
+    "96420000.07": "La gente sombra.", //Dwarf
+    "96420000.08": "Si, la gente sombra.#$b#Una podredumbre se había instalado, envenenando a su gente. Echaron la culpa sobre nosotros.", //Sentinel Dwarf
+    "96420000.09": "Y por eso deben morir.$5", //Dwarf
+    "96420000.10": "No.", //Sentinel Dwarf
+    "96420000.11": "He estado aquí mucho tiempo, joven, vigilando nuestro último bastión, esta forga.#$b#Me ha dado mucho tiempo para la contemplación.", //Sentinel Dwarf
+    "96420000.12": "El miedo conduce a la ira y la muerte. es una pendiente resbaladiza.", //Sentinel Dwarf
+    "96420000.13": "Nuestro futuro, creo, no está en el odio, sino en la unidad y la esperanza.", //Sentinel Dwarf
+    "96420000.14": "Amigo.^Amiga.", //Dwarf
+    "96420000.15": "Saludos, habitante del continente, que ha decidido pasarse a espiar.", //Sentinel Dwarf
+    "96420000.16": "Hah.", //Dwarf
+    "96420000.17": "Has aprendido nuestro idioma, sobreviviste a nuestras trampas y compraste nuestros productos.#$b#Por favor, amigo, únetenos.^Por favor, amiga, únetenos.", //Sentinel Dwarf
+    //9 heart event
+    "96420012.01": "Maravillosa, no lo es?$4", //Dwarf
+    "96420012.02": "Se ve genial!",
+    "96420012.03": "Bueno, es muy verde.",
+    "96420012.04": "Me parece basura.",
+    "96420012.05": "Lo sé amigo. Estaba tan feliz de encontrarla.^Lo sé amiga. Estaba tan feliz de encontrarla.$4", //Dwarf
+    "96420012.06": "Lo es. Es un buen color, como el musgo.", //Dwarf
+    "96420012.07": "Creo que tus ojos necesitan atención, amigo, si no puedes distinguir la basura del tesoro.^Creo que tus ojos necesitan atención, amiga, si no puedes distinguir la basura del tesoro.$5", //Dwarf
+    "96420012.08": "La encontré tirada en la hierba alta detrás de la casa del gremio.#$b#Ya nadie la ama.$2#$b#Bueno, nadie excepto yo. Voy a ayudarla a volar de nuevo.$1", //Dwarf
+    "96420012.09": "Otra vez?",
+    "96420012.10": "Pero las bañeras no vuelan.",
+    "96420012.11": "No lo hacen?", //Dwarf
+    "96420012.12": "Bueno, esta lo hará, ya lo verás.$1", //Dwarf
+    //10 heart event 
+    //Dwarf and Krobus
+    "96420011.01": "Amigo.^Amiga.", //Dwarf
+    "96420011.02": "Linda tarde, no es así?.$1", //Dwarf
+    "96420011.03": "Oh, pensé en hacerle una visita a ese demonio, Krobus. Hay mucha agua bajando de la montaña.", //Dwarf
+    "96420011.04": "No seas tonto. no me preocupa el.$5#$b#Espero que se ahogue.", //Dwarf
+    //"96420011.04.SVE": "No seas tonto. no estoy preocupado por ellos.$5#$b#Espero que se ahoguen.", //Dwarf
+    "96420011.05": "Hola? Hay alguien ahí?", //Krobus
+    "96420011.06": "Ayuda?", //Krobus
+    "96420011.07": "Krobus.", //Dwarf
+    "96420011.08": "Krobus?", //Dwarf
+    "96420011.09": "Puede la gente sombra nadar?$2", //Dwarf
+    "96420011.10": "Puedes nadar?$2", //Dwarf
+    "96420011.11": "Hay una resaca fuerte.",
+    "96420011.12": "Hola? @? Alguien?#$b#Se está poniendo bastante húmedo aquí...$2", //Krobus
+    "96420011.13": "Ya voy.", //Dwarf
+    "96420011.14": "Vamos.", //Dwarf
+    "96420011.15": "viniste a ayudarme.$1", //Krobus
+    "96420011.16": "Si, bueno, con quien mas discutiria, Aliento de fiemo?$1#$b#Ahora, ven antes de que cambie de opinión.", //Dwarf
+    "96420011.17": "Ooof, cuida tus codos.$1", //Dwarf
+    "96420011.18": "Que codos?$3", //Krobus
+    "96420011.19": "Gracias por salvarme, enano.$4", //Krobus
+    "96420011.20": "Bueno... Quien más podría ser mí enemigo mortal?$4", //Dwarf
+    //14 heart event
+    //Invitation
+    "96420013.01": "Leche?",
+    "96420013.02": "Amigo. Has vuelto.^Amiga. Has vuelto.$1#$b#Me trajiste algo divertido?",
+    "96420013.03": "Está bien. Encontré cosas interesantes en la casa de todos modos.$1",
+    "96420013.04": "Hemos estado viviendo juntos un tiempo, amigo...^Hemos estado viviendo juntos un tiempo, amiga...$4",
+    "96420013.05": "Y me gustaría llevarte a un lugar especial para mí... Hay algo que quiero darte.$3",
+    "96420013.06": "No puedes sostenerlo, tocarlo o comerlo - así que te puede parecer una tontería...#$b#...pero para mí, es algo grande, ok?",
+    "96420013.07.false": "Encuéntrame en el camino de hierro tarde en la noche, de acuerdo?$1#$b#Y no traigas a Krobus. No aún...$5",
+    "96420013.07.true": "Encuéntrame en el camino de hierro tarde en la noche, de acuerdo? Puedes traer a Jasper, si tú quieres.#$b#me gustaria que él tambien lo tenga.$1#$b#Pero no traigas a Krobus. No aún...$5",
+    "96420013.07.true.spouse": "Encuéntrame en el camino de hierro tarde en la noche, de acuerdo? Y Jasper debería venir también.$1#$b#Estaría molesto si se lo perdiera.#$b#Pero no traigas a Krobus. No aún...$5",
+    "96420013.08": "Te veo esta noche, amigo.^Te veo esta noche, amiga.$4",
+    //Multiple versions for if Jasper is and is not installed.
+    "96420014.01": "Amigo.^Amiga.", //Dwarf
+    "96420014.02": "Estoy contento de que estés aquí.", //Dwarf
+    "96420014.03": "Pero no hay tiempo que perder. Tenemos una gran subida por delante.$1#$b#sigue si puedes.", //Dwarf
+    "96420014.04": "Casi llegamos.",
+    "96420014.DwarfSummitEvent.01": "Esto es lo más cerca que puedo estar de mi hogar ancestral.$2", //Dwarf
+    "96420014.DwarfSummitEvent.02": "Nací en este mundo, crecí con la Madre Tierra... pero aún así mi corazón todavía cantaba por el Padre Cielo.$2", //Dwarf
+    "96420014.DwarfSummitEvent.03": "La fractura me quitó mi clan, y llenó mí corazón con ira.$5", //Dwarf
+    "96420014.DwarfSummitEvent.04": "Vine aquí, buscando respuestas, pero solo encontré miedo, soledad. Y monstruos.$2#$b#Y entonces te conocí, @.", //Dwarf
+    "96420014.DwarfSummitEvent.06": "Y a Krobus también... supongo...$2", //Dwarf
+    "96420014.DwarfSummitEvent.07": "Nosotros los smoluanu somos reservados acerca de nuestros nombres, y lo compartimos solo con nuestra familia.#$b#Pero tú? Tú eres mi familia ahora.$4", //Dwarf
+    "96420014.DwarfSummitEvent.08": "Mí seto y liepu eligieron mi nombre... lo eligieron porque esperaban un futuro más brillante.#$b#Un futuro libre de miedo y oscuridad.$2", //Dwarf
+    "96420014.DwarfSummitEvent.09": "El nombre que eligieron para mi, 'Dteluotu'... 'Portador de la paz'.$1#$b#Y ahora, contigo, realmente puedo llamar este planeta, 'Hogar'", //Dwarf
+    //with Jasper
+    "96420014.DwarfSummitEvent.05": "...Y fuí presentado ante el profesor Jasper.$1#$b#Un habitante del sol que arriesgó todo para descubrir la verdad de mi gente.$4", //Dwarf
+    "96420014.DwarfSummitEvent.10": "Jasper", //Dwarf
+    //Changes Dwarf's name
+    "DwarfName": "Dteluotu",
+    //*********************************************************************
+    //Roommate stuff ******************************************************
+    //If Jasper not installed
+    "96420097.01.gunther": "Hola!",
+    "96420097.02.gunther": "Esto? Oh, es el último numero de 'Criptozoología hoy'. Tengo una subscripción.#$b#La mayor parte es sosa, pero aveces mí viejo colega, el Profesor Jasper, escribe para eso.#$b#Y hoy se ha superado!",
+    "96420097.03.gunther": "Ha escrito un artículo que describe cómo se podría invitar a un enano a vivir contigo.",
+    "96420097.04.gunther": "...",
+    "96420097.05.gunther": "Eso suena fascinante! Me encantaría saber más.",
+    "96420097.06.gunther": "No creo que esa sea una muy buena idea.",
+    "96420097.07.gunther": "No, No puedo imaginar como sería. Además, ellos no han sido reportados en décadas.#$b#Si todavía hay alguno por ahí, se están reservando mucho para ellos mismos.",
+    "96420097.DwarfRoommate_1.01.gunther": "Tú lo harías?",
+    "96420097.DwarfRoommate_1.02.gunther": "Oh, quieres que te mande el articulo?#$b#Voy a hacer una copia, y lo colocaré en tu buzón. Suena bien?",
+    //With Jasper installed
+    //Event if not married to Jasper (Jasper in game)
+    "96420097.01": "Oh ", //please do not remove the space //Jasper
+    "96420097.02": "Mis disculpas, Estaba bastante perdido en mis pensamientos.$2",
+    "96420097.03": "Oh, algunos rollos que nuestro amigo, Enano, me dió. Esperábamos que pudieran arrojar luz sobre su pasado - pero en cambio he encontrado mucho más.$1",
+    "96420097.04": "Relatan de una antigua tradición Smoluanu.#$b#Un regalo que se da entre dos amigos que desean entablar un vínculo de convivencia y amistad para toda la vida.$1",
+    "96420097.05": "Oh, no es matrimonio. los Smoluanu, parece, no forman asociaciones románticas a la manera de nosotros los humanos.#$b#Sus lazos se desarrollan en la amistad, la confianza, la lealtad: todos los elementos del amor, sin la urm... parte romántica.$4",
+    "96420097.06": "te gustaria saber la receta?",
+    "96420097.07": "Suena asombroso. Me encantaría que Enano viniera a vivir conmigo.",
+    "96420097.08": "Podrías invitarlo a vivir contigo.",
+    "96420097.09": "Oh @. Tan fascinante como sería, solo estoy alquilando este apartamento.$2#$b#Y no estoy seguro de que Gunther aprobaría que tuviera un compañero de habitación, especialmente uno con una inclinación por ser un poco... ladronzuelo.$1",
+    "96420097.DwarfRoommate_1.01": "Yo tambien estoy fascinado. Todavía tengo que hacer una traducción y me temo que puede llevar algunos días.#$b#Te enviaré la información, si?",
+    //event if married to Jasper AND Free Love installed
+    "96420096.01": "Oh ",
+    "96420096.02": "Mis disculpas, cariño, estaba bastante perdido en mis pensamientos.$2",
+    "96420096.03": "Oh, algunos rollos que nuestro amigo, Enano, me dió. Esperábamos que pudieran arrojar luz sobre su pasado - pero en cambio he encontrado mucho más.$1",
+    "96420096.04": "Relatan de una antigua tradición Smoluanu.#$b#Un regalo que se da entre dos amigos que desean entablar un vínculo de convivencia y amistad para toda la vida.$1",
+    "96420096.05": "Oh, no es matrimonio. los Smoluanu, parece, no forman asociaciones románticas a la manera de nosotros los humanos.#$b#Sus lazos se desarrollan en la amistad, la confianza, la lealtad: todos los elementos del amor, aunque sin naturaleza romántica.$4#$b#Y mi amor, Enano a menudo parece aislado y solitario, así que...",
+    "96420096.06": "...Me preguntaba si, podríamos invitarlos a vivir con nosotros?",
+    "96420096.07": "Suena asombroso. Vamos a hacerlo.",
+    "96420096.08": "No, gracias. Está mejor en su cueva.",
+    "96420096.09": "Muy bien entonces. Eso tiene sentido.$2#$b#Está más cerca de su hábitat natural, después de todo.",
+    "96420096.DwarfRoommate_1.01": "Gracias, mi amor.$4#$b#Ahora, todavía tengo una traducción por hacer. me temo que puede llevar algunos días.#$b#Te dejaré saber lo que descubra.",
+    //If married to Jasper
+    "96420094.01": "Buenos días mi amor! He terminado de traducir los rollos.$1",
+    "96420094.02": "Para invitar a un Smoluanu a compartir tu hogar y corazón, regalale joyería, elaborada por tus propias manos.#$b#Se describe como una cubierta del antebrazo. - un brazalete - fundido en oro y decorado con piedras preciosas.",
+    "96420094.03": "Para nuestro amigo, Enano, He determinado que un topacio, una aguamarina y un rubí formarán la combinación más agradable.$1",
+    "96420094.04": "Confío en que tienes algunos de esos alrededor.$3",
+    "96420094.05": "Has aprendido a fabricar 'Brazalete Enano'",
+    //Dwarf "engagement" dialogue
+    "dwarfroommate.engaged": "Tienes muchas cosas, verdad? Creo que disfrutaré vivir contigo.",
+    "dwarfroommate.0": "Solo tengo que juntar mis cosas. Voy a necesitar algunos sacos más.",
+    "dwarfroommate.1": "Necesito arreglar mi tienda. no tardaré mucho.",
+    "dwarfroommate.no": "Una casa? Estoy feliz en mi cueva, muchas gracias.",
+    //***********************************************************************
+    //strings ***************************************************************
+    "strings.dwarfcave.1": "Está cerrado",
+    "strings.dwarfcave.2": "Parece que se ha arrugado mucho:^\"Querida Marnie,^Hace mucho tiempo que quería decirte cómo me siento, pero mi lengua se enreda. Me temo que he estado demasiado tiempo sin compañía, y ya no encuentro las palabras.\" no está firmado, pero estás bastante seguro de que no fue escrito por Enano.",
+    "strings.dwarfcave.3": "Está muy rayado y desgastado, Y semi-desinflado. Probablemente alguien lo tiró.",
+    "strings.dwarfcave.4": "se ve bastante bien hecho, y tiene un nombre escrito con tinta a lo largo del costado: Elliot? Tal vez le perteneció una vez.",
+    "strings.dwarfcave.5": "El relleno se le escapa por las orejas, y el pelaje ha sido masticada por polillas.",
+    "strings.dwarfcave.6": "No funciona. De hecho, parece que ha sido destripado por partes.",
+    "strings.dwarfspouse.1": "Wow, hay un montón de cosas aquí. Y la mayor parte es basura: juguetes rotos, canicas, plumas y conchas. Parece que Enano es bastante coleccionista.",
+    "strings.dwarfspouse.2": "Es un jarrón dorado y una gran variedad de joyería. un poco pegajoso.",
+    "strings.dwarfspouse.3": "Es una copia inédita de M.Jasper 'secretos de los Smouluanu'. Me pregunto dónde encontró esto Enano?",
+    //*************************************************************************
+    //Events from Jasper Mod if not installed *********************************
+    //Dwarf given milk
+    "55990007.01": "Saludos habitante del sol. Que tesoro me has traído hoy?", //Dwarf
+    "55990007.q0": "#El jugo de una vaca.#El espeso y cremoso liquido que llamamos \"Leche\"#Una bebida rica en calcio",
+    "55990007.q1": "Ah, jugo de vaca. Una bebida que me ha intrigado durante mucho tiempo.", //Dwarf
+    "55990007.q2": "Ah, leche. Mi curiosidad está a punto de ser saciada.", //Dwarf
+    "55990007.q3": "Está hecho de hueso en polvo...O dientes?#$b#Eso suena ...arenoso.", //Dwarf
+    "55990007.02": "Dime... como se extrae?", //Dwarf
+    "55990007.03": "Eso no suena muy higiénico.#$b#Oh, pero también, sigo con curiosidad.", //Dwarf
+    "55990007.04": "Hay cosas flotando en él.", //Dwarf
+    "55990007.q4": "#esa es la crema. es lo mejor.#Así es como sabes que está fresca.#Mira, la quieres tomar o no? Puedo hacer un buen dinero con esto.",
+    "55990007.q5": "Crema? Si, Creo que me gustará mucho probar esto.", //Dwarf
+    "55990007.q6": "Oh. Pensé que significiaba que era vieja. La comida de la superficie es rara.", //Dwarf
+    "55990007.q7": "tu vendes este... jugo de vaca? Bueno, Estoy agradecido de que me lo traigas.", //Dwarf
+    "55990007.05": "Este... Este jugo de vaca... es delicioso.#$b#Me gustaria probar mas. Me traeras más, verdad?", //Dwarf
+    //************************************************************************ 
+    //Mail *******************************************************************
+    "mail.dwarfcraftingrecipe.jasper": "Querido(a) @,^Para invitar a un Smoluanu a compartir tu hogar y corazón, regalale joyería, elaborada por tus propias manos. Se describe como una cubierta del antebrazo, fundida en oro y decorado con piedras preciosas. Las piedras preciosas seleccionadas deben personalizarse específicamente para el destinatario previsto. Para nuestro amigo, Enano, He determinado que un topacio, una aguamarina y un rubí formarán la combinación más agradable.^^Una precaución, sin embargo: Mientras que la convivencia Smoluanu es completamente platoncia, el obsequio de dicho artículo se considerará sumamente significativo y vinculante - no debe ser tomado a la ligera.^^Si cambias de opinión acerca de invitar a Enano, daría la bienvenida a un brazalete como regalo, y prometo que no lo consideraré como una invitación.  -Professor Jasper",
+    "mail.dwarfcraftingrecipe.gunther": "Los Smoluanu, o 'enanos' como son nombrados normalmente, establecen lazos a largo plazo basados en amistad, lealtad y confianza. Estos no son lazos románticos; smoluanu buscan lo que los humanos podríamos considerar un compañero de vida platónico.^^Cuando estos buscan invitar a otro a compartir su hogar y corazón, les regalan una joya hecha a mano. Traditionally, este es un brazalete, fundido en mineral de oro y decorado con piedras preciosas elegidas específicamente para el receptor.^^Estos lazos de compañerismo a largo plazo se consideran significativos y vinculantes, y no deben tomarse a la ligera.",
+    "krobuslemonstone": "@, Rasmodius y yo hemos hablado de mis planes. Me ha advertido que no tenga demasiadas esperanzas, pero también ofreció apoyo.^Escuché que a los smoluanu les gusta especialmente una roca amarilla llamada 'Limonita' y me preguntaba si podrías traerme una?^^   -Krobus",
+    "krobuslemonstone.title": "Solicitud de Krobus",
+    "DwarfKrobusGift": "(Un mensaje garabateado en Smoluanu)^^Tengo una sorpresa para Krobus.^^La próxima vez que llueva, encuéntrame junto a la rejilla de la cloaca a medianoche.",
+    "DwarfKrobusGift.title": "Una 'sorpresa para Krobus?",
+    //LemonStone Request
+    "quest.964201.1": "Krobus pide Limonita",
+    "quest.964201.2": "Krobus necesita ayuda para ser amigo de Enano, y necesita tu ayuda para encontrarle un regalo.",
+    "quest.964201.3": "Llevale una Limonita Krobus.",
+    "quest.964201.4.notSunday": "Gracias, @. Espero que Enano acepte este regalo.",
+    "quest.964201.4.Sunday": "%Krobus acepta la limonita solemnemente, y asiente la cabeza en agradecimiento.",
+    //Dwarf Invitation Quest
+    "quest.964202.1": "Encuentra a Enano en el bosque",
+    "quest.964202.2": "Enano ha planeado una 'sorpresa' para Krobus.",
+    "quest.964202.3": "Ve con Enano a la rejilla de las alcantarillas del bosque tizón a la medianoche.",
+    //Dwarf Invitation to the Railroad
+    "quest.964203.1": "Enano tiene un regalo para ti?",
+    "quest.964203.2": "Enano quiere darte algo, y te ha invitado a verlo en el 'camino de hierro'.",
+    "quest.964203.3": "Ve con Enano al ferrocarril a la medianoche.",
+    //*************************************************************************
+    //DIALOGUE and GIFT TASTE RESPONSES ***************************************
+    //Dwarvish words: Seto (sire) and Liepu (mentor) - change as you see fit.
+    //Dteluotu = bringer of peace (shortened)
+    //*************************************************************************
+    "dialogue.giftreaction.milk": "Ah, delicioso. y de calidad, verdad?",
+    "dialogue.giftreaction.largemilk": "Este jugo de vaca ciertamente da en el clavo.",
+    "Introduction": "Hey, eres bastante bueno en la minería, para un humano.",
+    "Mon": "Tengo todas estas cosas de la superficie. Solo lo tomo de tu gente durante la noche.$1#$e#Hmm? Qué es ese concepto que llamas \"propiedad privada\"?$2",
+    "Mon2": "Es raro lo que la gente deja tirada. No sé para qué es la mayor parte, pero... te gusta mí colección?$1",
+    "Mon6": "A veces sueño con el cielo. Qué tan alto crees que llega, amigo?^A veces sueño con el cielo. Qué tan alto crees que llega, amiga?",
+    "Mon8": "Mi gente se ha ido. Perdido. Y si soy el ultimo?$2",
+    "Mon10": "Hey amigo, verte me hace sentir más feliz que mirar mis tesoros.^Hey amiga, verte me hace sentir más feliz que mirar mis tesoros.#$b#Es eso raro?",
+    "Tue": "Ah... estofado de zanahoria cavernaria, zanahoria cavernaria asada, sopa de zanahoria cavernaria y zanahorias cavernarias gratinadas.#$e#...Y un ramekin de zanahoria cavernaria brulée para endulzar la noche.$1#$e#What?",
+    "Tue2": "Las mejores bombas de este lado de la Montaña. Harán que todas las rocas hagan boom.",
+    "Tue6": "Mi seto me contó historias de la gente sombra. Historias aterradoras que quitaban el sueño.#$b#Los puedo sentir aquí, en lo profundo de las minas: Rotos, perdidos, y llenos de ira.$2",
+    "Tue4": "Has visto mi dispositivo portátil para hacer ruido, amigo?^Has visto mi dispositivo portátil para hacer ruido, amiga?#$b#He estado jugando con él, pero todo lo que dice es hisssss, hisssss, hisssss.$2",
+    "Tue10": "Crees que Krobus también se siente solo?$2",
+    "Wed": "Hey, quieres comprar algo?$1",
+    "Wed2": "Estas minas, son un lugar bastante peligroso. Vas a necesitar suminitros.#$b#Tengo bombas y también paletas. De la mejor clase. Zanahoria cavernaria confitada.$1",
+    "Wed6": "Hace mucho tiempo, mi gente conocía los secretos de la tecnología más avanzada. La evidencia arqueológica lo demuestra.#$e#Pero de donde vino? Y adónde fue todo? Algunas preguntas nunca serán respondidas...$2",
+    "Wed10": "Alguna vez has oído o visto más de mi clase, amigo? Si encuentras alguna señal... me dirías, no?^Alguna vez has oído o visto más de mi clase, amiga? Si encuentras alguna señal... me dirías, no?",
+    "Thu": "No eres una clase de espía de la gente sombra, verdad?#$e#Mantendré mis ojos en ti.$5",
+    "Thu4": "Me siento más cómodo bajo tierra.#$e#Cuanto más profundo mejor.$1",
+    "Thu6": "Mis hermanos se enamoraron del sol; les quemó los ojos. Recuerda, no se puede confíar en el sol.",
+    "Thu8": "Aveces por la noche, deambulo por el pueblo. Los humanos tienen las cosas más raras.#$b#Y simplemente lo dejan tirado como si no importara.",
+    "Thu10": "El humano con el sombrero ridiculo sigue vigilandome. No creo que él confíe en mi.$2#$b#Tú confías en mi, verdad amigo?^Tú confías en mi, verdad amiga?",
+    "Fri": "Nunca habías visto a un Smoluanu antes, verdad?",
+    "Fri2": "La mayoría de humanos le temen a lo desconocido... es por eso que escondí mi tienda aqui.#$e#Tus habilidades mineras demuestran que eres confiable.",
+    "Fri4": "Mi Seto me enseñó a fabricar bombas. Conoces los trucos?#$b#Ah, pero por qué hacerlas tú, cuando puedes comprarmelas.",
+    "Fri6": "Tengo un nombre, pero lo escondo para que nadie pueda herirme.#$b#Los nombres son poderosos, amigo, cuidado a quien le confías el tuyo.^Los nombres son poderosos, amiga, cuidado a quien le confías el tuyo.",
+    "Fri10": "Te diré un secreto, amigo. Hice esta tienda para ti. Quien más compraría mis cosas?^Te diré un secreto, amiga. Hice esta tienda para ti. Quien más compraría mis cosas?$1",
+    "Sat": "Estar en las minas es peligroso. Por qué no compras algunas cosas de mi tienda para garantizar tu seguridad?$1",
+    "Sat4": "Las minas pueden ser traicioneras. Ten cuidado, habitante del sol.$2#$b#Mis productos te ayudarán a mantenerte con vida.$1",
+    "Sat6": "Las minas son un lugar traicionero. Ve con cuidado, amigo.^Las minas son un lugar traicionero. Ve con cuidado, amiga.",
+    "Sat8": "Vengo desde muy lejos de las montañas. Escapando de... No, no necesitas oír mi triste historia.#$b#El valle me llamó a casa. El fin.",
+    "Sat10": "Las guerras elementales fueron terribles. Mi Seto contó historias sobre la matanza.$2#$b#Se aseguraron de que recordara los crímenes de esas sombras.",
+    "Sun": "$1 Dwarf_Milk#Algún día tendrás que hablarme de esa bebida a la que llamas \"leche\".$1$k#$e#La comida humana me intriga. Es verdad que drenas los jugos de otros animales para beber?",
+    "Sun8": "Esa mujer humana con los ojos de marco de alambre, la que huele a metal y aceite. La he visto mirar las estrellas.#$b#Seto dijo que venimos de las estrellas. No estoy seguro si creerle.",
+    "Sun10": "Eres un buen amigo. Me alegro de haber confíado en ti.^Eres una buena amiga. Me alegro de haber confíado en ti.$1",
+    "summer_Mon": "Ugh, un insecto entró aquí el otro día. Buzzz buzzz buzzz... no se callaba por horas.$5",
+    "summer_Tue": "Vi a dos habitantes en la oscuridad, riendo como cachorros y susurrando en los arbustos.$1#$b#Por qué están afuera cuando tienen guaridas perfectas? Los habitantes del sol son raros.",
+    "summer_Wed": "Alguna vez te quedaste mirando las estrellas y te sentiste muy pequeño, amigo?^Alguna vez te quedaste mirando las estrellas y te sentiste muy pequeño, amiga?$2#$b#Me hacen sentir tan solo. Es mejor estar bajo tierra.",
+    "summer_Thu": "Hey, si encuentras algo de los Smoluanu en las minas, podrías traermelo, amigo?^Hey, si encuentras algo de los Smoluanu en las minas, podrías traermelo, amiga?",
+    "summer_Thu4": "Es agradable y fresco aquí, verdad?#$b#Tal vez te gustaría quedarte un rato?$3",
+    "summer_Fri": "Los habitantes del sol nos llaman 'Enanos' porque somos mas pequeños que ellos, y vivimos bajo tierra.#$b#No es mi nombre, pero es todo lo que puedo darte. Por ahora.",
+    "summer_Sat": "Ese barba gris en la montaña? El que lleva harapos?#$b#Crees que es un espía de la gente sombra?$5",
+    "summer_Sun": "Hay algo hecho de oro detrás de la gran casa solariega. Intenté tomarlo... pero era muy pesado.$2",
+    "summer_Mon4": "El sol no es amigo de mi especie, habitante del sol. Su mirada quema nuestra piel.",
+    "summer_Mon10": "Creo que un dia, si, voy a confiarte mí verdadero nombre.#$b#Pero ese día... no es hoy, amigo.^Pero ese día... no es hoy, amiga.$1",
+    "summer_Tue4": "La tierra es nuestra Madre y nuestra guardiana, habitante del sol. Me siento seguro en su abrazo.",
+    "summer_Tue8": "Has oído la canción de la tierra, amigo? No, por supuesto que no. Los oídos humanos no son muy buenos.^Has oído la canción de la tierra, amiga? No, por supuesto que no. Los oídos humanos no son muy buenos.",
+    "summer_Wed10": "Lo siento pero estoy un poco sucio, amigo. he estado haciendo un pequeño retoque.^Lo siento pero estoy un poco sucio, amiga. he estado haciendo un pequeño retoque.$1#$b#Heh, se me da mejor desmontar que volver a montar. Aunque es divertido.",
+    "summer_Wed2": "has visto algún rollo enano, amigo?^has visto algún rollo enano, amiga?#$b#Liepu habló de un barco lleno de conocimiento. Se estrelló aquí, hace muchos eones.",
+    "summer_Wed4": "El guerrero vino fisgoneando anoche, oliendo a muerte y tristeza.#$b#Me escondí de él, habitante del sol - había sangre en su hoja.$2",
+    "summer_Sat6": "Tienes hermanos, amigo?^Tienes hermanos, amiga?#$b#Debo tener, alguno, creo. Se perdieron durante la Fractura. Todos estaban perdidos.$2#$b#Ahora, estoy solo yo, y mi miedo.$2",
+    "summer_Mon8": "Mí liepu llenó mi corazón con historias de nuestro reino. Vataku, la ciudad en el cielo.#$b#Y ahora aquí, nos escondemos en lo bajo. Este mundo no ha sido amable con nosotros, amigo.^Y ahora aquí, nos escondemos en lo bajo. Este mundo no ha sido amable con nosotros, amiga.$2",
+    "summer_Thu10": "Estoy feliz de que seas mi amigo. Es bueno tener a alguien con quien hablar. Gracias.^Estoy feliz de que seas mi amiga. Es bueno tener a alguien con quien hablar. Gracias.$1",
+    "summer_Fri10": "Mis padres? Hmmm...#$b#La tierra es nuestra madre y el cielo nuestro padre, amigo.^La tierra es nuestra madre y el cielo nuestro padre, amiga.#$b#Biologicamente? Oh, no estoy seguro a qué te refieres.$2",
+    "fall_Mon": "Anoche estaba liberando botín de un cobertizo, y alguien gritó 'ladrón.'$5#$b#Los habitantes del sol son tan posesivos con las cosas.",
+    "fall_Tue": "Por qué el habitante del sol con ruedas siempre está mirando su caja de imágenes en movimiento?#$b#Está hipnotizado?",
+    "fall_Wed": "Es más difícil escabullirse en la temporada naranja.#$b#El suelo hace mucho ruido.$2",
+    "fall_Thu": "Vas por los botes de basura, amigo?^Vas por los botes de basura, amiga?#$b#Es increíble lo que tiran los habitantes del sol.$1",
+    "fall_Sat": "Puedo interesarte en mis productos?#$b#Una bomba al día mantiene alejados a los monstruos.$1",
+    "fall_Sun": "La tierra es la madre, el cielo es el padre. Enano es... Smoluanu.#$b#No estoy seguro de entender la pregunta$2",
+    "fall_Wed2": "Has encontrado rocas bonitas últimamente, amigo?^Has encontrado rocas bonitas últimamente, amiga?#$b#Hay cosas buenas en esta cueva.",
+    "fall_Tue4": "Mi clan solía intercambiar tecnología por semillas y suministros, Para que puedan vivir en tu mundo.#$b#Los habitantes del sol los traicionaron, y usaron nuestras armas para luchar entre nosotros.$2#$b#Tu no me vas a traicionar, cierto amigo?^Tu no me vas a traicionar, cierto amiga?",
+    "fall_Sat6": "Eres bueno para mí, amigo, pues este es un lugar solitario.^Eres buena para mí, amiga, pues este es un lugar solitario.#$b#Si alguna vez ves más de mi gente, me lo harás saber, verdad?",
+    "fall_Mon8": "Has visto las cascadas de la montaña, amigo?^Has visto las cascadas de la montaña, amiga?#$b#Yo nací ahí, en la cueva de las estrellas.$1#$b#Mi gente... vive bajo tierra, pero sueña en el cielo.",
+    "fall_Thu10": "Hola, amigo. Quieres unirte a mí por un rato? Podría prepararte un batido de zanahoria cavernaria.^Hola, amiga. Quieres unirte a mí por un rato? Podría prepararte un batido de zanahoria cavernaria.$1",
+    "fall_Fri6": "Some of the villagers leave stuff out for me, friend.$1#$b#Bowls of milk, baked bread. I overheard the blue-haired one talking, once... what does 'offering for the fae' mean?$1",
+    "fall_Fri10": "Me pregunto amigo... podrías enseñarme tu lenguaje?^Me pregunto amiga... podrías enseñarme tu lenguaje?",
+    "fall_Fri8": "A veces, cuando llueve, me escabullo para escuchar a la mujer con el cabello amatista.#$b#Hay magia en su musica... me hace pensar en casa.",
+    "winter_24_2": "Escuché que, hay algún tipo de fiesta mañana? Donde los humanos comen, beben y son alegres.$1#$b#Parece... placentero...$2#$b#Podrías venir a verme, amigo? Por favor^Podrías venir a verme, amiga? Por favor$3",
+    "winter_25_2": "Escuché que es costumbre dar regalos hoy, amigo.^Escuché que es costumbre dar regalos hoy, amiga.#$b#Así que, aquí hay algo para tí.[330 535 72 74 80 60 62 64]#$b#Espero te guste.$1",
+    "winter_Mon": "Ese lobo en el pueblo es aterrador, amigo. Me alegra que esté en una celda.^Ese lobo en el pueblo es aterrador, amiga. Me alegra que esté en una celda.",
+    "winter_Tue": "Oh, esa pared de roca? eso fue una prueba. No estaba atrapado aquí.$1#$b#Felicidades, la superaste.$1",
+    "winter_Wed": "Ugh, odio la nieve... tienes suerte de tener piernas largas.$2",
+    "winter_Mon8": "No fue solo tu habilidad en la minería lo que demostró que eres digno de confianza, amigo. La Madre piensa muy bien de ti.^No fue solo tu habilidad en la minería lo que demostró que eres digno de confianza, amiga. La Madre piensa muy bien de ti.",
+    "winter_Tue8": "No quisimos lastimar a la gente sombra y volar su hogar por los aires.$2#$b#Eso fue un accidente. Un terrible, horrible accidente.$5",
+    "winter_Wed8": "Encuentro cosas en las minas que me hacen pensar en mi gente. Me hacen sentir triste.$2#$b#Donde está mi especie, amigo?^Donde está mi especie, amiga?",
+    "winter_Sun": "Vi una figura sombría anoche mientras recolectaba.$2#$b#Apuesto a que es uno de esos desagradables demonios sombra. Si lo ves lo matas, cierto amigo?^Apuesto a que es uno de esos desagradables demonios sombra. Si lo ves lo matas, cierto amiga?$1",
+    "winter_Thu": "Aprendiste mi idioma de un libro? No me extraña que tu acento sea atroz.#$b#Aún así, es bueno tener a alguien con quien hablar.$1",
+    "winter_Fri": "Cuidado en las minas. Hay montónes de cosas peligrosas ahí abajo.#$b#Será mejor que compres algunas cosas para protegerte.$1",
+    "winter_Sat": "Los pajaros son extraños. Me pregunto... en qué estarán pensando?",
+    "winter_Wed2": "Encontré algunas revistas en el contenedor afuera del rancho hoy...#$b#No entiendo los simbolos, pero las fotos son bonitas.$1",
+    "winter_Tue4": "Has oído de M.Jasper, amigo?^Has oído de M.Jasper, amiga?#$b#Aparentemente es una especie de experto de mi especie de alguna forma. Lo dudo.",
+    "winter_Sat6": "Krobus es extraño para un demonio sombra, no lo es, amigo?^Krobus es extraño para un demonio sombra, no lo es, amiga?#$b#Los otros son malévolos, pero él habla conmigo.#$b#Es raro.$3",
+    "winter_Thu10": "Seto hablaba seguido de Vataku: torres de cristal reluciente, y máquinas voladoras que zumbaban como abejas.#$b#Debe haber sido una vista maravillosa.$1",
+    "winter_Wed6": "Hay una araña que hizo un nido en la esquina de mi cueva.#$b#por favor no la lastimes.$2",
+    "winter_Fri10": "Necesitas ayuda en la granja?#$b#Qué? Se vuelve aburrido aquí, ok? Además, estoy seguro de que tienes un montón de cosas geniales que no necesitas, verdad?$1",
+    //**********************************************************
+    // ROOM MATE DIALOGUE
+    //**********************************************************
+    "spouseRoom_Dwarf": "Hey amigo. Pensé que podría hacer algunas bombas hoy.^Hey amiga. Pensé que podría hacer algunas bombas hoy.#$b#Oh, no me mires con tanta preocupación - Nunca exploté nada accidentalmente.$2#$b#Bueno, CASI nunca.",
+    "Rainy_Day_0": "Ugh, hay agua goteando desde el techo del cielo. Por qué quieres salir?",
+    "Rainy_Day_1": "Ese sonido de agua salpicando en el techo fue realmente molesto al principio. Pero estoy un poco acostumbrado a eso ahora.",
+    "Rainy_Day_2": "Hey, puedes dejar tu hacha hoy? quiero hacer una hoguera. es un buen dia para cocinar.",
+    "Rainy_Day_3": "está horrible ahí fuera. La lluvia es rara. Hey, tengo una gran idea.$1#$b#Puedes quedarte en casa conmigo y podemos aprender cosas sobre mi gente. No suena divertido?",
+    "Rainy_Day_4": "Diviértete afuera hoy. Aquí hay algo para que no mueras en las minas. [286 287 205 732]",
+    "patio_Dwarf": "Así que, estas son las 'Buenas vistas' entonces. Bueno... Es grande. Y está lleno de insectos.#$b#Sabes, Prefiero estar dentro.$2",
+    "Rainy_Day_Dwarf": "Hey, amigo, Tienes algún mineral y carbón que pueda usar?^Hey, amiga, Tienes algún mineral y carbón que pueda usar?$1#$b#Por ninguna razón...",
+    "Rainy_Night_0": "Revisé todos tus cofres hoy. Hay muchas cosas buenas.#$b#Gran tesoro, amigo.^Gran tesoro, amiga.$1",
+    "Rainy_Night_1": "Oh hey, estás en casa. Pasé todo el día mirando esa caja de fotos en la esquina, y ahora estoy cansado. Raro.",
+    "Rainy_Night_2": "He estado pensando, amigo. Eres genial y todo eso, pero debe haber otros de mi especie también. Como los encontraré?^He estado pensando, amiga. Eres genial y todo eso, pero debe haber otros de mi especie también. Como los encontraré?",
+    "Rainy_Night_3": "Había una película, sobre unos enanos y una pálida habitante del sol.#$b#Todo estaba mal. nunca he cantado 'Hi ho. Hi hi.' en mi vida.$3",
+    "Rainy_Night_4": "Hey, sabías que a los enanos realmente les gusta el oro? Escuché eso en alguna parte. Es incorreccto.#$b#Quiero decir, el oro está bien y todo eso, pero no escribiría una canción sobre él.$2",
+    "Rainy_Night_5": "Mataste a mucha gente sombra hoy? Se lo merecen. Bueno... excepto Krobus, súpongo. El está bien. Tal vez no lo mate",
+    "Rainy_Night_Dwarf": "puedes tener esto, @. Puedes chuparlo por horas y horas y horas.[554]#$b#Solo no lo muerdas, o te romperás los dientes.$2",
+    "Indoor_Day_0": "Quieres jugar un juego tradicional de mi especie? Se llama 'Nhip'.#$b#Es divertido. Solo necesitas una docena de minibombas y... por qué me miras asi?",
+    "Indoor_Day_1": "Vas a ir a las minas hoy? Quieres traerme algunas zanahorias cavernarias?#$b#Podría hacer un estofado. Eso es lo que hacen los compañeros de casa, cierto? Cocinar para el otro?",
+    "Indoor_Day_2": "hoy te seré de mucha ayuda. Voy a cocinar. Voy a limpiar.#$b#Haha, estoy bromenado... Probablemente miraré la caja mágica parlante en su lugar.$1",
+    "Indoor_Day_3": "Tienes madera que no estás usando, amigo?^Tienes madera que no estás usando, amiga?#$b#Quiero hacer una escalera.$1",
+    "Indoor_Day_4": "Hey, si te diriges al pueblo mañana, puedes traerme algo?#$b#Cómo qué? Oh, no lo se... algo divertido?$1",
+    "Indoor_Day_Dwarf": "Me levante temprano y te hice algo. Esta es una buena comida para romper el ayuno, verdad? [199 218 219 727 730]",
+    "Indoor_Night_0": "Perdona el desorden. habia un raton.$2#$b#Fue %pet, no yo. Lo persiguió. Bueno... tal vez fui yo, solo un ratito.",
+    "Indoor_Night_1": "Lavé los platos hoy. En noticias completamente ajenas, vamos a necesitar nuevas cosas para comer.",
+    "Indoor_Night_2": "Espero que hayas tenido un gran día, amigo. Mira lo ordenada y limpia que está la casa.^Espero que hayas tenido un gran día, amiga. Mira lo ordenada y limpia que está la casa.#$b#le quité el polvo y todo. Es lo que hacen los buenos compañeros de casa, no?$1",
+    "Indoor_Night_3": "Las estrellas son muy lindas. Setu siempre decía que veníamos de las estrellas.#$b#Pero parece que están muy lejos. No creo que vuelva nunca allí.$2",
+    "Indoor_Night_4": "Tuviste una aventura hoy, amigo? Ciertamente no pasé todo el día probándome tu ropa.^Tuviste una aventura hoy, amiga? Ciertamente no pasé todo el día probándome tu ropa.#$b#No, eso seria raro. Solo fue un día perezoso y aburrido aquí.",
+    "Indoor_Night_Dwarf": "Oh, estás buscando la cosa del palo erizado?#$b#Lo usé para limpiarme las uñas de los pies. Es para eso, verdad?",
+    "Outdoor_0": "Hey. Encontré algo que te puede gustar. [768 767 769 428 66 82]#$b#Qué? No es mi culpa si la gente deja cosas tiradas donde cualquiera pueda encontrarlas.", // choose from a pool of items
+    "Outdoor_1": "Esa estrella de día? Es realmente brillante, no es así? Hace que mis ojos se llenen de lágrimas.$2",
+    "Outdoor_2": "Hay muchas cosas divertidas en tu granja.#$b#Solo tienes que aprender a buscarlo.",
+    "Outdoor_3": "Tienes planes para hoy? Si, yo tambien. %pet y yo tenemos algo que hacer.#$b#Qué cosa? Es un secreto.",
+    "Outdoor_4": "Tu cueva es genial. No tan espaciosa como la mia, por supuesto - pero menos posibilidades de ser comido por monstruos. Entonces eso es una victoria.",
+    "Outdoor_Dwarf": "Hay tantos colores aquí. Tu mundo de caminante diurno es tan brillante y chillón.",
+    "funLeave_Dwarf": "Hah, sí, no es que pueda ir a ningún lado. la estrella del día arde, así que estoy fuera mientras duermes.",
+    //"funReturn_Dwarf": "",
+    "OneKid_0": "Tu cachorro humano estaba gruñón hoy. Le dí una de esas latas azules de líquido.#$b#Parece que le gustó.",
+    "OneKid_1": "Tu idioma de habitante del sol es tan primitivo. Quieres que le enseñe a tu cachorro uno adecuado?",
+    "OneKid_2": "No te preocupes, me aseguraré de que %kid1 se alimente hoy. Le gusta el pure de zanahoria cavernaria, cierto?.",
+    "OneKid_3": "Los cachorros de los habitantes del sol son tan aburridos. Cuando %kid1 va a hacer más que ruidos raros de balbuceo y olores extraños?",
+    "TwoKids_0": "Hola amigo. He estado enseñandole a los cachorros cómo hacer bombas, tal como mi Setu me enseñó cuando tenía su edad.^Hola amiga. He estado enseñandole a los cachorros cómo hacer bombas, tal como mi Setu me enseñó cuando tenía su edad.",
+    "TwoKids_1": "Los cachorros y yo estamos jugando a las escondidas.#$b#No puedes jugar. Eres demasiado grande.",
+    "TwoKids_2": "Tus cachorros cuentan las mejores historias. Les estoy enseñando algunas de las mías.",
+    "TwoKids_3": "Hice rápido la comida para tus cachorros. %kid1 machacó la suya en el cabello de %kid2. Vaya desperdicio.",
+    "Good_0": "Tu casa es genial, amigo.^Tu casa es genial, amiga.$1#$b#Y yo también soy muy aficionado a ti!",
+    "Good_1": "Gracias por dejarme vivir contigo, amigo.^Gracias por dejarme vivir contigo, amiga.#$b#Esto es mucho más interesante que mi agujero en el suelo.#$b#Menos posibilidades de ser devorados por murcielagos también. Ugh.",
+    "Good_2": "La vida contigo nunca es aburrida, amigo.^La vida contigo nunca es aburrida, amiga.",
+    "Good_3": "¿Me cuentas una historia? Ya sabes, 'misterios de los enanos'? Escuché que es graciosa.",
+    "Good_4": "Hey, tú sabes mi idioma... estaba pensando, podrías enseñarme un poco el tuyo?",
+    "Good_5": "Es bueno tener amigos. Incluso mas grandes que tú. Quizás algún día te diga mi verdadero nombre.#$b#Pero hoy no es ese día amigo.^Pero hoy no es ese día amiga.",
+    "Good_6": "Hmmm... Oh, Estaba aburrido, así que puse en orden tus cosas. espero que haya estado bien.",
+    "Good_7": "Por favor, trata de no morir en las minas, amigo. te extrañaría demasiado.^Por favor, trata de no morir en las minas, amiga. te extrañaría demasiado.",
+    "Good_8": "No te preocupes por mi... Estoy bien aquí.$1#$b#No explotaré nada, lo prometo.",
+    "Good_9": "Aburrido? Hah, no es probable. No cuando tienes tantas cosas geniales para divertirte.#$b#Sal y diviértete. Y tráeme algo brillante.",
+    "Neutral_0": "A veces extraño mi cueva. Entonces recuerdo que estaba solo y a veces las cosas salían del suelo y trataban de comerme.#$b#Entonces estoy feliz de estar aquí en su lugar.",
+    "Neutral_1": "Hey, do you think that shadow-guy in the sewer gets lonely too? I bet his house must smell really bad.",
+    "Neutral_2": "Escuché que los caminantes del sol atrapan palabras en los libros. eso parece poco amable.",
+    "Neutral_4": "Quieres que lave algo de tu ropa?#$b#Qué? Oh, no estoy diciendo que apestas, pero hueles un poco... a tierra.$3",
+    "Neutral_6": "Hah, esperas que cocine y limpie? No es como si pudiera alcanzar todo...#$b#Esta casa fue hecha para gigantes.",
+    "Neutral_7": "No, fui yo, no hice nada. Fue %pet.",
+    "Neutral_8": "Hey, cuál es la mejor manera de quitar las manchas de la alfombra?#$b#Sin razón. Solo curiosidad, es todo.",
+    "Neutral_9": "Y si soy el último, amigo? No más smouluanu?^Y si soy el último, amiga? No más smouluanu?#$b#Oh... ahora estoy triste.",
+    "Bad_0": "...Aveces siento que no te gusta que esté aquí contigo...$s",
+    "Bad_1": "*sigh*... Estoy molestandote? Lo siento, moví todas tus cosas... otra vez.$s",
+    "Bad_2": "Sigues feliz conmigo?$s",
+    "Bad_3": "Hice algo malo? Tienes el ceño fruncido.$s",
+    "Bad_4": "Alguna vez te has preguntado qué más hay allá afuera?$s",
+    "Bad_5": "Solía pensar que eramos amigos... pero ahora ni siquiera me hablas.$2",
+    "Bad_6": "Jamas pensé que me sentiría mas solitiario que en mi cueva.$2#$b#Estaba equivocado.",
+    "Bad_7": "Tal vez debería volver a mi cueva. Al menos ahí sí me sentía apreciado.",
+    "Bad_8": "No me estoy comportando como un niño pedante. Ni siquiera sé lo que eso significa.",
+    "Bad_9": "Oye amigo, cuál de tus muchas cosas extrañarías más?^Oye amiga, cuál de tus muchas cosas extrañarías más?#$b#Por qué pregunto? Oh, por nada.",
+    "fall_14": "Hay una feria mañana, cierto? Lo he escuchado de los caminantes del sol.#$b#Puedes ganarme algún premio, amigo? Algo brillante, quizás?^Puedes ganarme algún premio, amiga? Algo brillante, quizás?$1",
+    "fall_26": "Escuché que los caminantes del sol se disfrazan y hacen cosas mañana. Y el mago hace un laberinto mágico.#$b#Puedo ir, amigo? Me portaré bien. De verdad.^Puedo ir, amiga? Me portaré bien. De verdad.",
+    "summer_8": "Siempre hace tanto calor aquí, amigo?^Siempre hace tanto calor aquí, amiga?",
+    //********************************************************
+    //Jasper Dialogue etc
+    "jasper.invitejasperdwarf.true": "Tú y tu huésped desean invitarme a una expedición?$1#$b#Sería un honor. Aunque espero que no involucre demasiado el escalar.$2",
+    "jasper.invitejasperdwarf.true.spouse": "Debo decir que estoy muy entusiasmado con la invitación de Enano.$1#$b#Aunque espero que no involucre demasiado el escalar.$2",
+    //********************************************************
+    //Festivals
+    "dwarf.festival.summer20": "Están lanzando bombas al cielo? Están usando un lanzador muy potente?",
+    "dwarf.festival.summer28": "La medusa? Teníamos algo como ellos en nuestro mundo natal.#$b#El nuestro vagó por el cielo y cazó cachorros traviesos.$1#$b#Bueno, es lo que mi liepu decía, de todas formas.",
+    "dwarf.festival.fall27": "Estos esqueletos tienen un hueso para tocar contigo.$1#$b#Heh, es un juego de palabras. Jasper me lo enseñó.",
+    //********************************************************
+    //Gift Dialogue
+    "dialogue.giftreaction.dwarfscrolli": "Estos rollos pasaron entre compañeros cercanos.$2#$b#Gracias, mantendré su memoria a salvo.",
+    "dialogue.giftreaction.dwarfscrollii": "Oooh, bocetos de nuestro hogar estelar. Es... maravilloso.$1",
+    "dialogue.giftreaction.dwarfscrolliii": "Oooh, planos! Perfecto.#$b#Tendré algo de diversión con ellos.$1",
+    "dialogue.giftreaction.dwarfscrolliv": "Este era un rollo muy importante. La cadena dorada? Eso significa que fue escrito por un maestro escriba.#$b#Ahora tal vez, no valga mucho. Pero lo cuidaré, lo prometo.$1",
+    "dialogue.giftreaction.dwarfgadget": "La tecnología enana es bastante buena, no es así? No, yo tampoco sé cómo funciona.#$b#Si lo averiguas, me lo harás saber, verdad?",
+    "dialogue.giftreaction.raredisc": "Esto no debería estar cerca de seres orgánicos. Puede tener... efectos secundarios desagradables.$2#$b#No te preocupes, te mantendré a salvo de eso.$1",
+    "dialogue.giftreaction.cavecarrot": "Oh, gracias. Estaba tratando de decidir qué hacer para la cena.#$b#Ahora que haré con esto? Hmmm...",
+    "dialogue.giftreaction.lemonstone": "mi guarnición favorita!$1#$b#Gracias, lo disfrutaré con mi cena.",
+    "dialogue.giftreaction.ccbrulee": "Ooh! Rico y cremoso, tal como me gusta.$1#$b#Gracias amigo.^Gracias amiga.$4",
+    "dialogue.giftreaction.ccroast": "Mi liepu me cocinaba esto en las noches largas y frías, cuando polvo blanco cayó del cielo.#$b#Esto me hace pensar en casa. Gracias amigo.^Esto me hace pensar en casa. Gracias amiga.$4",
+    "dialogue.giftreaction.ccsoup": "Picante! Esto sin duda me mantendrá caliente.$1#$b#Gracias amigo.^Gracias amiga.$1",
+    "dialogue.giftreaction.ccstew": "Seto solía preparar esto cuando me sentía triste. Lo llamaba 'comida comfortable'.#$b#Gracias amigo.^Gracias amiga.$1",
+    "dialogue.giftreaction.ccaugratin": "Esto se ve quesudo y delicioso. Justo como mi Seto lo preparaba.#$b#Gracias amigo.^Gracias amiga.$4",
+    "dialogue.giftreaction.dwarvishhelm": "Me pregunto a quién perteneció esto una vez. Puedes saber mucho sobre un smoluanu por su casco.#$b#Que te dijeron las minas, amigo?^Que te dijeron las minas, amiga?",
+    "dialogue.giftreaction.plushdwarf": "Un muñeco que se ve como yo? Me encanta.$4#$b#Yo tuve uno igual de cachorro; Tuvimos muchas aventuras juntos.$1",
+    "dialogue.giftreaction.plushshadowspirit": "Por qué me das esto, una efigie de mi enemigo mortal?$5#$b#Tal vez podría clavarle alfileres?$1",
+    //***********************************************
+    //If married to Jasper and living with Dwarf 
+    //Jasper
+    "jasper.marriage.twokids0.spring": "Ah, cariño, mis disculpas por el desastre.$2#$b#Me temo que es posible que nos hayamos involucrado en un poco de... err, ciencia en la cocina.#$b#Puede que Enano se haya dejado llevar un poco por nuestro volcán doméstico.$2",
+    "jasper.marriage.twokids0.summer": "Que día tan glorioso es hoy. Me siento triste que Enano no pueda unirse a nosotros en la playa...$2#$b#...pero los niños han prometido traerle algo brillante.$1",
+    "jasper.marriage.twokids0.fall": "Dwarf seems to take almost as much delight in romping in the leaves as the children do.#$b#I'm glad we've given them a chance for a family life.",
+    "jasper.marriage.twokids0.winter": "Encontré a Enano contándoles a los niños historias sobre su vida en las cascadas de la montaña.#$b#Parecen estar aprendiendo sus idiomas entre ellos.$1",
+    "jasper.marriage.spouseroom.A": "Ah cielo, Tengo mucha información nueva sobre la cultura y la historia Smoluanu.#$b#Pero me pregunto si alguien me creerá.$2",
+    "jasper.marriage.spouseroom.B": "Has visto mi pluma especial, @? Oh amor... Parece que Enano la 'tomó prestada' otra vez...$2#$b#Un día tendremos que enseñarle el significado de 'propiedad personal'.",
+    "jasper.marriage.spouseroom.C": "Recibí otra carta de rechazo de Peasbody. Maldito sea.$a^Recibí otra carta de rechazo de Peasbody. Maldita sea.$a#$b#Oh, no te preocupes cariño, No estoy profundamente molesto.#$b#Cómo puedo estarlo contigo a mi lado?",
+    "jasper.marriage.spouseroom.D": "Ah, buenos días, mi amor.#$b#Enano y yo estuvimos estudiando pergaminos durante la mitad de la noche...#$b#La inspiración y el sueño no son buenos compañeros.$2",
+    "jasper.marriage.spouseroom.spring": "Ah un lugar para llamar mío. El olor de la tinta y el papel, @. Ese es el aroma del hogar.$1#$b#Pero no sería un verdadero hogar sin ti, mi amor.$4",
+    "jasper.marriage.spouseroom.summer": "Buenos días, cielo. Solo dando los últimos toques a mi último trabajo.",
+    "jasper.marriage.spouseroom.fall": "Buenos días hermosura. He estado despierto desde el amanecer, demasiado inspirado para dormir.$1#$b#Por qué las epifanías siempre llegan de madrugada?",
+    "jasper.marriage.spouseroom.winter": "Estas mañanas frías han despertado mi inspiración! Hoy, papeleo. Mañana el mundo!$1",
+    "jasper.marriage.outdoor.spring": "Otra mañana gloriosa, mi amor. Oh, Enano y nos levantamos antes del amanecer.#$b#Dijo algo sobre patrullar en busca de espías de la gente sombras$2",
+    "jasper.marriage.outdoor.summer": "Enano insistió en que nos levantáramos temprano para buscar tesoros... Encontré esto.#$b#Es un poco divertido, no? La gente que solía vivir aquí debe haber amado mucho a los pollos.[113].",
+    "jasper.marriage.outdoor.winter": "Enano y yo intentamos nuestro paseo matutino, cariño, pero me temo que la nieve era demasiado profunda.$2",
+    "jasper.marriage.outdoor.fall": "Enano y yo vimos el amanecer. Tal vez te gustaría unirte a nosotros mañana?#$b#Es una vista verdaderamente gloriosa.$1",
+    //Dwarf
+    "dwarf.marriage.twokids0.spring": "Jasper y los cachorros están haciendo esta cosa llamada 'ciencia en la cocina'.#$b#Es como fabricar bombas, puro desastre.$1",
+    "dwarf.marriage.twokids0.summer": "Ugh, la estrella del día es demasiado brillante como para salir.$2#$b#Oh, no te preocupes amigo.^Oh, no te preocupes amiga.#$b#Tus cachorros se han ofrecido a traerme un tesoro.$1",
+    "dwarf.marriage.twokids0.fall": "Tu cónyuge nos hizo crear lo que se llama un 'colegio' hoy, amigo.^Tu cónyuge nos hizo crear lo que se llama un 'colegio' hoy, amiga.#$b#Se trata de pegar hojas al papel.#$b#No lo entiendo. Cuál es el punto?$2",
+    "dwarf.marriage.twokids0.winter": "Los cachorros me presentaron hoy algo llamado 'pelea de nieve'.#$b#Fue divertido; tus cachorros son luchadores feroces, amigo.^Fue divertido; tus cachorros son luchadores feroces, amiga.$1#$b#Los apruebo.",
+    "dwarf.marriage.spouseroom.A": "Hola amigo. Pensé que podría hacer algunas bombas hoy.^Hola amiga. Pensé que podría hacer algunas bombas hoy.#$b#Oh, no te preocupes tanto - nunca exploté accidentalmente nada.#$b#Bueno, CASI nunca.",
+    "dwarf.marriage.spouseroom.B": "Your mate's asked me if he can 'pick my brain' today...$2#$b#What does that mean, friend? It sounds painful.",
+    "dwarf.marriage.spouseroom.C": "Jasper es tan curioso acerca de mi gente. Pero tengo muchas preguntas sobre la tuya, amigo.^Jasper es tan curioso acerca de mi gente. Pero tengo muchas preguntas sobre la tuya, amiga.#$b#Como... por qué adoran a los gatos?$1",
+    "dwarf.marriage.spouseroom.D": "Estoy haciendo un léxico de todas las palabras largas que usa tu cónyuge, amigo.^Estoy haciendo un léxico de todas las palabras largas que usa tu cónyuge, amiga.$1#$b#Es justo que si él sabe mi idioma, yo sepa el suyo.#$b#Te gustaría ayudarme?",
+    "dwarf.marriage.outdoor.spring": "Jasper y yo salimos temprano, buscando a espías de la gente sombra.#$b#Habla mucho, debe haberlos asustado a todos.$a",
+    "dwarf.marriage.outdoor.summer": "Your mate and I went hunting for treasure.#$b#We didn't find any.$2",
+    "dwarf.marriage.outdoor.winter": "Jasper y yo tratamos de salir a caminar. Mala idea.$2#$b#Tuvo que sacarme de un monticulo de nieve. Fue humillante.$a",
+    "dwarf.marriage.outdoor.fall": "Tu cónyuge me sugirió ver el amanecer.#$b#La estrella del día es muy bonita, aunque me hace daño en los ojos.",
+    //strings
+    "NPC.cs.4462": "Hey, eché un poco de agua en los cultivos para ti. Eso ayuda, cierto?$1",
+    "NPC.cs.4463": "#$e#Oh, y le puse un poco de ague en el bol de {0} también. parecía tener mucha sed.",
+    "NPC.cs.4474": "Hey! He estado jugando con tus animales. Creo que lo disfrutaron. Tal vez?",
+    "NPC.cs.4481": "@! Había un hueco en la valla, así que lo clavé. Eso debería mantener alejados a los monstruos.$1",
+    "NPC.cs.4500": "Oh hey! Estoy un poco atascado aquí... seguro que tienes muchas cosas.$2",
+    "NPC.cs.4488": "Encontré esto anoche. nadie parecía quererlo, así que pensé que tú si lo querrías.#$b#Te gusta?$1",
+}

@@ -1,0 +1,28 @@
+﻿[
+	{
+        "ProducerName": "Recycling Machine",
+		"InputIdentifier": "An autographed photo",
+		"InputStack": 1, //The required stack of the input. Default value is 1.
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier": "Cloth", //The identifier of the output. Can be the Index or the Name of the object. Required.
+		"OutputStack": 1, //Set the output stack. Default is 1.
+		"OutputMaxStack": 3, 
+        "AdditionalOutputs": [
+            {
+                "OutputProbability": 0.25,
+                "OutputIdentifier": "Soggy Newspaper",
+                "OutputStack": 2,
+                "OutputMaxStack": 5
+            },
+            {
+                "OutputProbability": 0.05,
+                "OutputIdentifier": "A genuine autograph",
+                "OutputStack": 1,
+                "OutputMaxStack": 1
+            },
+        ],
+        "Sounds": [ "trashcan" ],
+		"IncrementStatsOnInput": [ "PiecesOfTrashRecycled" ],
+	}
+]
+ // {{spacechase0.JsonAssets/ObjectId:An autographed photo}}

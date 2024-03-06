@@ -1,0 +1,18 @@
+{
+   "Name": "Krobus Dialogue Mod",
+   "Author": "MelindaC",
+   "Version": "1.2.1",
+   "Description": "A mod that features more dialogue from our favourite shadow creature. SVE Version.",
+   "UniqueID": "MelindaC.KrobusDialogueModSVE",
+   
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+"Dependencies": [
+    { "UniqueID": "gizzymo.canonfriendlyexpansion",
+},
+	{ "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+}
+
+  ],
+}

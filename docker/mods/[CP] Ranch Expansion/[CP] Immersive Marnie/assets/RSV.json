@@ -1,0 +1,54 @@
+    {
+        "Changes": [
+            {
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Lenny",
+                "Entries": {
+                    "Tue8": "{{i18n:10heart.lenny.tue8}}",
+                    "Mon10": "{{i18n:10heart.lenny.mon10}}",
+                }
+            },
+            {
+                "Action": "EditData",
+                "Target": "Data/Festivals/winter28",
+                "Entries": {
+                    "Marnie": "{{i18n:winter28.marnie}}",
+                }
+            },
+            {
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Olga",
+                "Entries": {
+                    "Thu10": "{{i18n:10heart.olga}}",
+                }
+            },
+            {
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Naomi",
+                "Entries": {
+                    "Thu10": "{{i18n:10heart.naomi}}",
+                }
+            },
+            {
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Malaya",
+                "Entries": {
+                    "Thu10": "{{i18n:10heart.malaya}}",
+                }
+            },
+            {
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Kimpoi",
+                "Entries": {
+                    "Sat10": "{{i18n:10heart.kimpoi}}",
+                }
+            },
+            {
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Marnie",
+                "Entries": {
+                    "june_arrival": "{{i18n:marnie.junearrival}}",
+                }
+            }
+        ]
+    }

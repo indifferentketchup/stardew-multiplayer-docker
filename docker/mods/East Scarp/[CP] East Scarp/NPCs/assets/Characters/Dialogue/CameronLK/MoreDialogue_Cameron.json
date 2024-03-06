@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/CameronLK",
+            "When": {
+                "HasMod": "Lemurkat.NPCJasper"
+            },
+            "Entries": {
+                "Mon": "Gunther invited me to come here, you know. There wasn't any other reason...#$b#Well, perhaps there was an added incentive.",
+                "Mon2": "What do you mean? I'm didn't come here for Jasper! I'm doing research.$5#$b#But yeah, he's an added perk.$4",
+                "Mon6": "I'm still a little in love with Jasper. Yeah, I was a complete jerk to him... I didn't want to see him hurt!$4#$b#And so... I hurt him myself. Yoba, I'm a dumbass.$2",
+                "Mon8": "Jasper and I go way back. He's so reserved and uptight... I tried to get him to learn how to live a little.#$b#I guess that didn't turn out so well for him. Did it...$2",
+                "Sat6": "Heh, back in our student days, I scaled the height of the Astronomy Tower to hang Jasper's boxers like a flag.#$b#He wasn't impressed.$1",
+                "Sun2": "I really miss Jasper, you know. Yeh, I treated him badly... I was an ass and I've been repenting it ever since.#$b#I won't blame him if he never forgives me.#$b#Oh, why am I telling you all this? It's not like we even really know each other.",
+                "Sun4": "Jasper and I were always both friends and rivals. How we'd debate for hours!#$b#I do wish I hadn't pushed him away. You probably won't believe this, but I really did - do! - care for him.",
+                "Sun6": "Yes, Jasper has some crazy ideas. It's one of the things I like - liked - about him.$4#$b#Plus he's actually kinda hot if you like professor nerd types. And well, I do!$1",
+                "Sun10": "Sometimes, late at night, the guilt claws at me, @. If I hadn't of challenged him so mercilessly...#$b#Well, our charming professor friend wouldn't have done what he did...#$b#But that's life isn't it? Regrets for what you did do, and what you didn't...$2", //Jasper related dialogue
+                "Mon_inlaw_Jasper": "I'm glad things worked out for you. I am! Jealous as heck, but Jasper and I? We were like oil and water.#$b#Or possibly oil and an open flame...$1",
+                "Sun_inlaw_Jasper": "Well, I guess you like professor nerd types too. I wish happiness upon you both!#$b#Still going on about the dwarves? I thought so.#$b#I miss him.$2",
+            }
+        }
+    ]
+}

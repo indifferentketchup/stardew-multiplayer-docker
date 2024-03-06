@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/LumberPile",
+      "FromFile": "assets/lumber-pile.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "LumberPile": {
+          "DisplayName": "{{i18n: lumber-pile.name}}",
+          "Description": "{{i18n: lumber-pile.description}}",
+          "Image": "6480.StorageVariety/LumberPile",
+          "Frames": 1,
+          "PlayerColor": false,
+          "OpenSound": "Ship",
+          "BetterChestsData": {
+            "CustomColorPicker": "Disabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList":  [
+              "category_gem",
+              "category_crafting",
+              "category_minerals",
+              "category_metal_resources",
+              "category_building_resources",
+              "category_equipment",
+              "item_sap",
+              "item_geode",
+              "item_frozen_geode",
+              "item_magma_geode",
+              "item_omni_geode"
+            ],
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 48
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "LumberPile": "388 30 390 10/Home/232/true/null/{{i18n: lumber-pile.name}}"
+      }
+    },
+    
+    // Add Unlockable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Unlock",
+      "Entries": {
+        "LumberPile": "true"
+      },
+      "When": {
+        "query: {{SkillLevel:Foraging}} >= 1": true
+      }
+    }
+  ] 
+}

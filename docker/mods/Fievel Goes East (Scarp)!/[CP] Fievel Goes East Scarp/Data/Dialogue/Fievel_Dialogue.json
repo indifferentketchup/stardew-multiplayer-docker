@@ -1,0 +1,66 @@
+{
+  "Changes": [
+  
+  {
+    "LogName": "Fievel",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Fievel",
+    "Entries": {
+
+"Introduction": "{{i18n:Fievel.Dialogue.Intro}}",
+
+//Weekdays  
+
+"Mon": "{{i18n:Fievel.Dialogue.01}}", 
+"Mon2": "{{i18n:Fievel.Dialogue.02}}", 
+"Mon4": "{{i18n:Fievel.Dialogue.03}}",
+"Mon8": "{{i18n:Fievel.Dialogue.04}}",
+"Mon10": "{{i18n:Fievel.Dialogue.05}}",
+
+"Tue": "{{i18n:Fievel.Dialogue.06}}",
+"Tue2": "{{i18n:Fievel.Dialogue.07}}",
+"Tue4": "{{i18n:Fievel.Dialogue.08}}",
+"Tue6": "{{i18n:Fievel.Dialogue.09}}",
+"Tue8": "{{i18n:Fievel.Dialogue.10}}$2",
+"Tue10": "{{i18n:Fievel.Dialogue.11}}",
+
+"Wed": "{{i18n:Fievel.Dialogue.12}}",
+"Wed2": "{{i18n:Fievel.Dialogue.13}}",
+"Wed4": "{{i18n:Fievel.Dialogue.14}}",
+"Wed6": "{{i18n:Fievel.Dialogue.15}}$1", 
+"Wed8": "{{i18n:Fievel.Dialogue.16}}$1",
+"Wed10": "{{i18n:Fievel.Dialogue.17}}$1",
+
+"Thu": "{{i18n:Fievel.Dialogue.18}}",
+"Thu2": "{{i18n:Fievel.Dialogue.19}}",
+"Thu4": "{{i18n:Fievel.Dialogue.20}}",
+"Thu6": "{{i18n:Fievel.Dialogue.21}}$2",
+"Thu8": "{{i18n:Fievel.Dialogue.22}}$1",
+"Thu10": "{{i18n:Fievel.Dialogue.23}}",
+
+"Fri": "{{i18n:Fievel.Dialogue.24}}",
+"Fri2": "{{i18n:Fievel.Dialogue.25}}",
+"Fri4": "{{i18n:Fievel.Dialogue.26}}",
+"Fri6": "{{i18n:Fievel.Dialogue.27}}",
+"Fri8": "{{i18n:Fievel.Dialogue.28}}",
+"Fri10": "{{i18n:Fievel.Dialogue.29}}",
+
+"Sat": "{{i18n:Fievel.Dialogue.30}}",
+"Sat2": "{{i18n:Fievel.Dialogue.31}}",
+"Sat4": "{{i18n:Fievel.Dialogue.32}}",
+"Sat6": "{{i18n:Fievel.Dialogue.33}}",
+"Sat8": "{{i18n:Fievel.Dialogue.34}}",
+"Sat10": "{{i18n:Fievel.Dialogue.35}}",
+
+"Sun": "{{i18n:Fievel.Dialogue.36}}",
+"Sun2": "{{i18n:Fievel.Dialogue.37}}",
+"Sun4": "{{i18n:Fievel.Dialogue.38}}",
+"Sun6": "{{i18n:Fievel.Dialogue.39}}",
+"Sun8": "{{i18n:Fievel.Dialogue.40}}",
+"Sun10": "{{i18n:Fievel.Dialogue.41}}",
+
+    }
+  }
+  ]
+}
+

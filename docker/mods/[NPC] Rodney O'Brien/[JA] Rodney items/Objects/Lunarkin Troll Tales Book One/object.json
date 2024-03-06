@@ -1,0 +1,23 @@
+{
+    "Name": "Lunarkin Troll Tales Book One",
+    "Description": "The first installment of the critically acclaimed children's' books series by author Vivienne Trenton.", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+//    "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [ "Sens", "RodneyOBrien", "Vincent", "Jas", "RodneyOBrien", ],
+        "Like": [ "Universal" ],
+    },
+    "TranslationKey": "object.lunarkin-troll-tales",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+// "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest", "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

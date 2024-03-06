@@ -1,0 +1,89 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RodneyOBrien",
+            "Entries": {
+                "GiftReaction_Quartz": "{{i18n:GiftReaction_Quartz}}",
+                "GiftReaction_Quartz~1": "{{i18n:GiftReaction_Quartz~1}}",
+                "GiftReaction_Banana": "{{i18n:GiftReaction_Banana}}",
+                "GiftReaction_Banana~1": "{{i18n:GiftReaction_Banana~1}}",
+                "GiftReaction_Banana~2": "{{i18n:GiftReaction_Banana~2}}",
+                "GiftReaction_Triple_Shot_Espresso": "{{i18n:GiftReaction_Triple_Shot_Espresso}}",
+                "GiftReaction_Triple_Shot_Espresso~1": "{{i18n:GiftReaction_Triple_Shot_Espresso~1}}",
+                "GiftReaction_Triple_Shot_Espresso~2": "{{i18n:GiftReaction_Triple_Shot_Espresso~2}}",
+                "GiftReaction_Triple_Shot_Espresso~3": "{{i18n:GiftReaction_Triple_Shot_Espresso~3}}",
+                "GiftReaction_Pale_Ale": "{{i18n:GiftReaction_Pale_Ale}}",
+                "GiftReaction_Pale_Ale~1": "{{i18n:GiftReaction_Pale_Ale~1}}",
+                "GiftReaction_Duck_Feather": "{{i18n:GiftReaction_Duck_Feather}}",
+                "GiftReactionCategory_-2": "{{i18n:GiftReactionCategory_-2}}",
+                "GiftReactionCategory_-2~1": "{{i18n:GiftReactionCategory_-2~1}}",
+                "GiftReactionCategory_-2~2": "{{i18n:GiftReactionCategory_-2~2}}",
+                "GiftReactionCategory_-2~3": "{{i18n:GiftReactionCategory_-2~3}}",
+                "GiftReactionCategory_-2~4": "{{i18n:GiftReactionCategory_-2~4}}",
+                "GiftReactionCategory_-80": "{{i18n:GiftReactionCategory_-80}}",
+                "GiftReactionCategory_-80~1": "{{i18n:GiftReactionCategory_-80~1}}",
+                "GiftReactionCategory_-80~2": "{{i18n:GiftReactionCategory_-80~2}}",
+                "GiftReactionCategory_-80~3": "{{i18n:GiftReactionCategory_-80~3}}",
+                "GiftReaction_Joja_Cola": "{{i18n:GiftReaction_Joja_Cola}}",
+                "GiftReaction_Joja_Cola~1": "{{i18n:GiftReaction_Joja_Cola~1}}",
+                "GiftReaction_Coffee": "{{i18n:GiftReaction_Coffee}}",
+                "GiftReaction_Coffee~1": "{{i18n:GiftReaction_Coffee~1}}",
+                "GiftReaction_Cheese": "{{i18n:GiftReaction_Cheese}}",
+                "GiftReaction_Cheese~1": "{{i18n:GiftReaction_Cheese~1}}",
+                "GiftReaction_Goat_Cheese": "{{i18n:GiftReaction_Goat_Cheese}}",
+                "GiftReaction_Beer": "{{i18n:GiftReaction_Beer}}",
+                "GiftReaction_Beer~1": "{{i18n:GiftReaction_Beer~1}}",
+                "GiftReactionCategory_-4": "{{i18n:GiftReactionCategory_-4}}",
+                "GiftReactionCategory_-4~1": "{{i18n:GiftReactionCategory_-4~1}}",
+                "GiftReactionCategory_-4~2": "{{i18n:GiftReactionCategory_-4~2}}",
+                "GiftReactionCategory_-4~3": "{{i18n:GiftReactionCategory_-4~3}}",
+                "GiftReactionCategory_-4~4": "{{i18n:GiftReactionCategory_-4~4}}",
+                "GiftReaction_Bread": "{{i18n:GiftReaction_Bread}}",
+                "GiftReaction_Bread~1": "{{i18n:GiftReaction_Bread~1}}",
+                "GiftReaction_Stone": "{{i18n:GiftReaction_Stone}}",
+                "GiftReaction_Cave_Carrot": "{{i18n:GiftReaction_Cave_Carrot}}",
+                "GiftReaction_Cave_Carrot~1": "{{i18n:GiftReaction_Cave_Carrot~1}}",
+                "GiftReaction_Cave_Carrot~2": "{{i18n:GiftReaction_Cave_Carrot~2}}",
+                "GiftReactionCategory_-21": "{{i18n:GiftReactionCategory_-21}}",
+                "GiftReactionCategory_-20": "{{i18n:GiftReactionCategory_-20}}",
+                "GiftReaction_Rabbit's_Foot": "{{i18n:GiftReaction_Rabbit's_Foot}}",
+                "GiftReaction_An_autographed_photo": "{{i18n:GiftReaction_An_autographed_photo}}",
+                "GiftReaction_An_autographed_photo~1": "{{i18n:GiftReaction_An_autographed_photo~1}}",
+                "GiftReaction_Rabbit_Floof": "{{i18n:GiftReaction_RabbitFloof}}",
+                "GiftReaction_Stardrop_Flower": "{{i18n:GiftReaction_StardropFlower}}",
+                "GiftReaction_Rabbit_Clover": "{{i18n:GiftReaction_RabbitClover}}",
+                "GiftReaction_Mayonnaise": "{{i18n:GiftReaction_Mayonnaise}}",
+                "GiftReaction_Mayonnaise~1": "{{i18n:GiftReaction_Mayonnaise~1}}",
+            }
+        },
+ //       {
+ //           "LogName": "Rodney Stardrop Flower",
+   //         "Action": "EditData",
+     //       "Target": "Characters/Dialogue/RodneyOBrien",
+       //     "Entries": {
+         //       "GiftReaction_Rabbit's_Foot": "{{i18n:GiftReaction_StardropFlower}}",
+           // },
+        //    "//HasMod": "PurpleChickadee.StardropFlower"
+       // },
+        //{
+        //    "LogName": "Rodney Rabbit Floof",
+          //  "Action": "EditData",
+            //"Target": "Characters/Dialogue/RodneyOBrien",
+//            "Entries": {
+  //              "GiftReaction_Rabbit's_Foot": "{{i18n:GiftReaction_RabbitFloof}}",
+    //        },
+      //      "HasMod": "DaisyNiko.RabbitFloof"
+   //     },
+     //   {
+       //     "LogName": "Rodney Rabbit Clover",
+         //   "Action": "EditData",
+           // "Target": "Characters/Dialogue/RodneyOBrien",
+           // "Entries": {
+             //   "GiftReaction_Rabbit's_Foot": "{{i18n:GiftReaction_RabbitClover}}"
+            //},
+          //  "HasMod": "LorenOlson.RabbitClovers"
+       // },
+    ]
+}

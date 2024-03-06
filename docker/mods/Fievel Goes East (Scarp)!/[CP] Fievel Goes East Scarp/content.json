@@ -1,0 +1,281 @@
+/*
+███████╗██╗███████╗██╗   ██╗███████╗██╗          ██████╗  ██████╗ ███████╗███████╗    ███████╗ █████╗ ███████╗████████╗    ███╗███████╗ ██████╗ █████╗ ██████╗ ██████╗ ███╗
+██╔════╝██║██╔════╝██║   ██║██╔════╝██║         ██╔════╝ ██╔═══██╗██╔════╝██╔════╝    ██╔════╝██╔══██╗██╔════╝╚══██╔══╝    ██╔╝██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗╚██║
+█████╗  ██║█████╗  ██║   ██║█████╗  ██║         ██║  ███╗██║   ██║█████╗  ███████╗    █████╗  ███████║███████╗   ██║       ██║ ███████╗██║     ███████║██████╔╝██████╔╝ ██║
+██╔══╝  ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║         ██║   ██║██║   ██║██╔══╝  ╚════██║    ██╔══╝  ██╔══██║╚════██║   ██║       ██║ ╚════██║██║     ██╔══██║██╔══██╗██╔═══╝  ██║
+██║     ██║███████╗ ╚████╔╝ ███████╗███████╗    ╚██████╔╝╚██████╔╝███████╗███████║    ███████╗██║  ██║███████║   ██║       ███╗███████║╚██████╗██║  ██║██║  ██║██║     ███║
+╚═╝     ╚═╝╚══════╝  ╚═══╝  ╚══════╝╚══════╝     ╚═════╝  ╚═════╝ ╚══════╝╚══════╝    ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝       ╚══╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══╝
+
+
+CREDITS
+DestyNova: Project Lead, Events, STF Shop 
+Tenebrous Nova: Maps, Movie/Concession Tastes, Festival Positions, Template
+TheFrenchDodo: Sprites, JA/FS Code, Schedules
+FellowClown: Dialogue, Portraits, Sprites
+Lemurkat: Dialogue, Portraits, Sprites
+JayJayDub: Dialogue
+Orthorn: Dialogue 
+KittyCatCasey: Last Minute Rescue! 
+Gnadi: Bug Hunting!
+Atravita: Emotional Support! 
+*/
+
+{
+"Format": "1.28.0",
+  //Adds the interior maps.
+ "CustomLocations": [
+{
+  "Name": "Custom_MouseHole",
+  "FromMapFile": "Assets/Maps/MouseHole.tmx"
+},
+{
+  "Name": "Custom_MouseHoleRenovated",
+  "FromMapFile": "Assets/Maps/MouseHoleRenovated.tmx"
+}
+],
+
+"DynamicTokens": [
+{ 
+  "Name": "FievelSpawn",
+  "Value": "Custom_EastScarpe 42 57 2",
+  "When": {"HasSeenEvent |contains=17315001": false},
+  "Update": "OnLocationChange",
+},
+{ 
+  "Name": "FievelSpawn",
+  "Value": "Custom_MouseHole 10 8 2",
+  "When": {
+      "HasSeenEvent |contains=17315001": true,
+      "HasSeenEvent |contains=17315004": false,
+  },
+  "Update": "OnLocationChange",
+},
+{ 
+  "Name": "FievelSpawn",
+  "Value": "Custom_MouseHoleRenovated 10 8 2",
+  "When": {
+      "HasSeenEvent |contains=17315001": true,
+      "HasSeenEvent |contains=17315004": true,
+  },
+  "Update": "OnLocationChange",
+},
+{ 
+    "Name": "FievelOutside_Setup",
+    "Value": "farmer 60 78 1 Fievel 71 78 2 LadySheba 72 78 3"
+},
+{
+  "Name": "FievelOutside_Setup",
+  "Value": "{{FievelOutside_Setup}} MisterGinger 71 79 0",
+  "When": {
+      "HasMod": "LemurKat.Mr.Ginger.NPC",
+      "HasSeenEvent |contains=5295000": false,
+  }
+},
+{
+  "Name": "FievelOutside_Setup",
+  "Value": "{{FievelOutside_Setup}} JortsCat 70 79 0 JeanCat 72 79 0",
+  "When": {
+      "HasMod": "tiakall.jortsandjean",
+  }
+},
+{ 
+    "Name": "FievelInside_Setup",
+    "Value": "farmer 10 21 3 Fievel 8 16 2 LadySheba 9 17 3"
+},
+{
+  "Name": "FievelInside_Setup",
+  "Value": "{{FievelInside_Setup}} MisterGinger 7 16 1",
+  "When": {
+      "HasMod": "LemurKat.Mr.Ginger.NPC",
+      "HasSeenEvent |contains=5295000": false,
+  }
+},
+{
+  "Name": "FievelInside_Setup",
+  "Value": "{{FievelInside_Setup}} JortsCat 4 19 1 JeanCat 5 19 3",
+  "When": {
+      "HasMod": "tiakall.jortsandjean",
+  }
+},
+
+],
+"Changes": [
+
+  //Map Stuff
+ //Exterior patch.
+
+ {
+  "LogName": "Fievel Map Patch",
+  "Action": "EditMap",
+  "Target": "Maps/Custom_EastScarpe",
+  "FromFile": "assets/Maps/FievelExteriorPatch.tmx",
+  "ToArea": {
+    "X": 96,
+    "Y": 15,
+    "Width": 3,
+    "Height": 4
+  },
+ /* "TextOperations": [
+    {
+      "Operation": "Append",
+      "Target": [
+        "MapProperties",
+        "Warp"
+      ],
+      "Value": "97 18 Custom_MouseHole 16 9",
+     "Delimiter": " "
+   }
+  ],*/
+  "PatchMode": "Replace"
+ },
+
+  {
+  "LogName": "Add NPC warp for MouseHole",
+  "Action": "EditMap",
+  "Target": "Maps/Custom_MouseHole",
+  "MapProperties": {
+    "NPCWarp": "16 9 Custom_EastScarpe 97 19",
+  }
+},
+ {
+  "LogName": "Add NPC warp for MouseHole Renovated",
+  "Action": "EditMap",
+  "Target": "Maps/Custom_MouseHoleRenovated",
+  "MapProperties": {
+    "NPCWarp": "16 9 Custom_EastScarpe 97 19",
+  }
+},
+
+ {
+  "LogName": "MouseHole Warp",
+  "Action": "EditMap",
+  "Target": "Maps/Custom_EastScarpe",
+  "TextOperations": [
+    {
+      "Operation": "Append",
+      "Target": [
+        "MapProperties",
+        "Warp"
+      ],
+      "Value": "97 18 Custom_MouseHole 16 9",
+      "Delimiter": " "
+    }
+  ],
+  "When": {
+    "HasSeenEvent |contains=17315004": false
+   },
+  "Update": "OnLocationChange",
+ },
+ {
+  "LogName": "MouseHoleRenovated Warp",
+  "Action": "EditMap",
+  "Target": "Maps/Custom_EastScarpe",
+  "TextOperations": [
+    {
+      "Operation": "Append",
+      "Target": [
+        "MapProperties",
+        "Warp"
+      ],
+      "Value": "97 18 Custom_MouseHoleRenovated 16 9",
+      "Delimiter": " "
+    }
+  ],
+  "When": {
+    "HasSeenEvent |contains=17315004": true
+   },
+  "Update": "OnLocationChange",
+ },
+
+ //Loads Portraits/Sprites/TempActors
+
+  {
+    "LogName": "Fievel (Hat)",
+    "Action": "Load",
+    "Target": "Characters/Fievel, Portraits/Fievel",
+    "FromFile": "Assets/{{Target}}/Fievel.png",
+    "When": {"HasSeenEvent |contains=17315005": false},
+  },
+  {
+    "LogName": "Fievel (No Hat)",
+    "Action": "Load",
+    "Target": "Characters/Fievel, Portraits/Fievel",
+    "FromFile": "Assets/{{Target}}/Fievel_NoHat.png",
+    "When": {"HasSeenEvent |contains=17315005": true},
+  },
+  {
+    "Action": "Load",
+    "Target": "Portraits/MunchboiHat",
+    "FromFile": "assets/TemporaryActors/Portraits/Munchboi_hat.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Portraits/Munchboi",
+    "FromFile": "assets/TemporaryActors/Portraits/Munchboi_nohat.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Characters/MunchboiHat",
+    "FromFile": "assets/TemporaryActors/Characters/Munchboi_hat.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Characters/FievelFinale",
+    "FromFile": "assets/TemporaryActors/Characters/Fievel_NoHat.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Portraits/FievelFinale",
+    "FromFile": "assets/TemporaryActors/Portraits/Fievel_NoHat.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Characters/FievelHat",
+    "FromFile": "assets/TemporaryActors/Characters/FievelHat.png"
+  },
+
+
+   //Includes
+
+   {
+		"LogName": "Dialogue Load",
+		"Action": "Load",
+		"Target": "Characters/Dialogue/Fievel, Characters/Schedules/Fievel, Strings/schedules/Fievel",
+		"FromFile": "Data/Blank.json"
+    },
+
+    {
+      "LogName": "MouseHole Events Load",
+      "Action": "Load",
+      "Target": "Data/Events/Custom_MouseHole, Data/Events/Custom_MouseHoleRenovated",
+      "FromFile": "Data/Blank.json"
+    },
+
+    {
+      "Action": "Include",
+      "FromFile": "Data/Movies.json, Data/Mail.json, Data/Dialogue/CustomGiftDialogue.json, Data/Dialogue/Fievel_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/Festivals.json, Data/Strings.json, Data/Fievel_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/EventsData.json, Data/Dialogue/FievelStrings.json, Data/Animations.json"
+    },
+  
+  //Dispositions 
+	
+	{
+		"LogName": "NPC Dispositions",
+		"Action": "EditData",
+		"Target": "Data/NPCDispositions",
+		"Entries": {
+			"Fievel": "child/polite/shy/positive/male/not-datable/null/town/fall 6//{{FievelSpawn}}/{{i18n:Fievel.Name}}"
+		}
+	},
+	
+	//Gifts
+	
+	{
+		"LogName": "Gift Tastes",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"Fievel": "{{i18n:Fievel.GiftTastes.Love}}/424 426/{{i18n:Fievel.GiftTastes.Like}}/197 215 206 220 221 233/{{i18n:Fievel.GiftTastes.Dislike}}/225 226 227 228/{{i18n:Fievel.GiftTastes.Hate}}/-2/{{i18n:Fievel.GiftTastes.Neutral}}/-81 -75/"
+		}
+	}
+]
+}

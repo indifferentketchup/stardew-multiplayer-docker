@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        //  ____    _                               _   _     _                 
+		// |  _ \  (_)  ___   _ __     ___    ___  (_) | |_  (_)   ___    _ __  
+		// | | | | | | / __| | '_ \   / _ \  / __| | | | __| | |  / _ \  | '_ \ 
+		// | |_| | | | \__ \ | |_) | | (_) | \__ \ | | | |_  | | | (_) | | | | |
+		// |____/  |_| |___/ | .__/   \___/  |___/ |_|  \__| |_|  \___/  |_| |_|
+		//                   |_|                                                
+		{
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"RodneyOBrien": "adult/polite/outgoing/neutral/male/{{RodneyDatability}}/null/Town/summer 3/Elliott '{{i18n:ElliottRelationship}}'/Custom_RodneysHouse 13 13/{{i18n:RodneyDisplayName}}",
+				"MeredithOBrien": "adult/neutral/neutral/neutral/female/non-datable/null/Other/null/null/Custom_ES_TNPCWaitingWarpRoom 5 13/{{i18n:MeredithDisplayName}}",
+			},
+		},
+
+    ]
+}

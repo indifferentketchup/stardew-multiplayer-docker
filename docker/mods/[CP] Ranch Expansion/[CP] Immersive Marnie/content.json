@@ -1,0 +1,808 @@
+{
+    "Format": "1.25.0",
+    "ConfigSchema": {
+        "HarshOnLewis": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Decription": "Portrays Lewis in a worse light in the 10-heart scene."
+        },
+        "MarlonPortraitChange": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "MarnieFestivalChanges": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Moves Marnie's position in several festivals after seeing her 10-heart event."
+        },
+        "MarnieSpriteChange": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Removes Marnie's rictus grin"
+        }
+    },
+    "DynamicTokens": [
+        //changes personality for Marlon if he is "real"
+        {
+            "Name": "marlon",
+            "Value": "core",
+            "When": {
+                "HasMod |contains=Wolf.Marlon": false
+            }
+        },
+        {
+            "Name": "marlon",
+            "Value": "real",
+            "When": {
+                "HasMod |contains=Wolf.Marlon": true
+            }
+        },
+        {
+            "Name": "MMrivalhearts",
+            "Value": true
+        },
+        {
+            "Name": "MMrivalhearts",
+            "Value": "false",
+            "When": {
+                "Relationship:Marnie": "Dating,Married"
+            }
+        },
+        {
+            "Name": "MMrivalhearts",
+            "Value": "false",
+            "When": {
+                "Relationship:Marlon": "Dating,Married"
+            }
+        }
+    ],
+    "Changes": [
+        //Temporary Actors for cut scenes
+        {
+            "Action": "Load",
+            "Target": "Characters/Goose",
+            "FromFile": "assets/goose.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/WhiteRescue",
+            "FromFile": "assets/whiterescuehen.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Rescue",
+            "FromFile": "assets/rescuehen.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Marlon_walking",
+            "FromFile": "assets/MarlonSprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Marlon_walking",
+            "FromFile": "assets/Marlon_Portrait.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/VoidGolem",
+            "FromFile": "assets/VoidGolem.png"
+        },
+        //Removes that horrible smile. Disable if using SVO or DSVO
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/Marnie.png",
+            "When": {
+                "MarnieSpriteChange": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marnie_Beach",
+            "FromFile": "assets/Marnie_Beach.png",
+            "When": {
+                "MarnieSpriteChange": "true"
+            }
+        },
+        // Fixes the bush so goose has somewhere to hide
+        {
+            "LogName": "Places bush for Goose event",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 35,
+                        "Y": 27
+                    },
+                    "Layer": "Buildings",
+                    "SetTileSheet": "Landscape",
+                    "SetIndex": "113"
+                },
+                {
+                    "Position": {
+                        "X": 36,
+                        "Y": 27
+                    },
+                    "Layer": "Buildings",
+                    "SetTileSheet": "Landscape",
+                    "SetIndex": "114"
+                },
+                {
+                    "Position": {
+                        "X": 35,
+                        "Y": 26
+                    },
+                    "Layer": "Front",
+                    "SetTileSheet": "Landscape",
+                    "SetIndex": "88"
+                },
+                {
+                    "Position": {
+                        "X": 36,
+                        "Y": 26
+                    },
+                    "Layer": "Front",
+                    "SetTileSheet": "Landscape",
+                    "SetIndex": "89"
+                }
+            ],
+            "When": {
+                "HasMod |contains=DaisyNiko.SVR2": true
+            }
+        },
+        //Heart Events 
+        {
+            "LogName": "Town Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "50706101/f Shane 1750/z winter/z summer/z fall/u 28/t 1400 1800": "nightTime/45 89/farmer 47 95 0 Shane 47 87 0/skippable/faceDirection Shane 2/emote Shane 28/pause 600/speak Shane \"{{i18n:28Spring.1}}\"/pause 500/move farmer -1 0 0/pause 400/move farmer 0 -8 1/speak Shane \"{{i18n:28Spring.2}}\"/pause 500/emote Shane 40/pause 250/faceDirection Shane 3/pause 400/playMusic echos/speak Shane \"{{i18n:28Spring.3}}\"/emote farmer 20/pause 400/faceDirection Shane 0/pause 300/speak Shane \"{{i18n:28Spring.4}}\"/pause 400/faceDirection Shane 0/speak Shane \"{{i18n:28Spring.5}}\"/emote farmer 28/pause 500/speak Shane \"{{i18n:28Spring.6}}\"/emote Shane 32/pause 500/emote farmer 28/speak Shane \"{{i18n:28Spring.7}}\"/end",
+                "50706104/f Marnie 1000/w sunny/t 1000 1600": "jaunty/23 36/farmer 19 38 0 Marnie 19 35 2 Lewis 43 25 2/skippable/pause 500/emote Marnie 28/pause 500/speak Marnie \"{{i18n:4hearts.1}}\"/pause 500/move farmer 0 -2 0/emote farmer 16/pause 500/speak Marnie \"{{i18n:4hearts.2}}\"/pause 500/speed Marnie 4/move Marnie 5 0 1/speed farmer 4/move farmer 5 0 1/stopMusic/globalfade/viewport -1000 -1000/warp Marnie 40 33/faceDirection Marnie 0/warp farmer 39 33/faceDirection farmer 0/viewport 41 26/pause 1000/pause 500/playSound leafrustle/emote Lewis 8/pause 500/faceDirection Marnie 3/emote Marnie 8/pause 500/faceDirection Marnie 0/faceDirection Lewis 3/emote Lewis 16/jump Lewis/pause 500/faceDirection farmer 1/emote farmer 16/faceDirection farmer 0/pause 500/speed Lewis 6/move Lewis 10 0 0/speed Lewis 6/move Lewis 0 -5 0/pause 500/warp Lewis -30 -30/playsound doorClose/pause 1000/playSound leafrustle/addTemporaryActor Goose 16 32 35 25 1 false/pause 500/move Goose 5 0 1/animate Goose false false 250 18 19 20 21 20 21 20 21/playSound Duck/textAboveHead Goose \"{{i18n:4hearts.3}}\"/pause 500/animate Goose false false 250 18 19 20 21 20 21 20 21/playSound Duck/textAboveHead Goose \"{{i18n:4hearts.4}}\"/pause 500/animate Goose false false 250 18 19 20 21 20 21 20 21/playSound Duck/textAboveHead Goose \"{{i18n:4hearts.5}}\"/pause 500/showFrame Goose 21/animate Marnie false true 200 33 34/animate farmer false true 200 102 103/pause 5000/end"
+            }
+        },
+        {
+            "LogName": "Animal Shop Events",
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "50706102/f Marnie 500/p Jas": "distantBanjo/27 14/farmer 22 15 1 Jas 30 14 2 Marnie -1000 -1000 0/skippable/addConversationTopic RescueChickens_Marnie 14/pause 1000/faceDirection Jas 3/move farmer 8 0 0/faceDirection Jas 2/speak Jas \"{{i18n:2hearts.1}}\"/pause 500/faceDirection Jas 0/pause 500/playSound doorClose/warp Jas -1000 -1000/pause 800/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addObject 8 3 178 0/addObject 9 3 178 0/addObject 10 3 178 0/addObject 11 3 178 0/addTemporaryActor WhiteRescue 16 16 7 5 1 false/addTemporaryActor Rescue 16 16 13 4 2 false/warp Marnie 10 4/faceDirection Marnie 0/viewport 5 7 true/warp Jas 3 8/move Jas 0 -1 0/move Jas 0 -3 1 true/pause 500/warp farmer 3 8/playSound doorClose/pause 500/pause 1000/pause 1000/pause 1000/speak Marnie \"{{i18n:2hearts.2}}\"/pause 500/faceDirection Marnie 3/speak Marnie \"{{i18n:2hearts.3}}\"/stopMusic/pause 1000/move farmer 0 -3 1/faceDirection farmer 1/move Jas 1 0 1/speak Marnie \"{{i18n:2hearts.4}}\"/pause 500/faceDirection WhiteRescue 2/move Rescue -2 0 3/speak Jas \"{{i18n:2hearts.5}}\"/pause 500/move WhiteRescue -3 0 0/pause 500/animate WhiteRescue false false 200 12 13 12 13 12 13 12 13/faceDirection WhiteRescue 0/speak Jas \"{{i18n:2hearts.6}}\"/pause 500/faceDirection WhiteRescue 2/speak Marnie \"{{i18n:2hearts.7}}\"/pause 1000/faceDirection Jas 2/pause 500/faceDirection farmer 0/speak Jas \"{{i18n:2hearts.8}}\"/faceDirection farmer 1/playSound cluck/pause 500/speak Jas \"{{i18n:2hearts.9}}\"/pause 250/playSound cluck/emote farmer 20/pause 1000/end",
+                "50706103/f Marnie 750/e 50706102/A RescueChickens_Marnie/p Marnie": "playful/27 14/farmer 22 15 1 Marnie 30 14 2/skippable/pause 100/faceDirection Marnie 3/move farmer 5 0 1/faceDirection Marnie 2/speak Marnie \"{{i18n:3hearts.1}}\"/pause 500/faceDirection Marnie 0/pause 500/playSound doorClose/warp Marnie -1000 -1000/pause 800/move farmer 3 0 0/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/addObject 8 3 178 0/addObject 9 3 178 0/addObject 10 3 178 0/addObject 11 3 178 0/warp Marnie 8 4/faceDirection Marnie 3/addTemporaryActor Brown_Chicken 16 16 13 4 3 false Animal rescue1/addTemporaryActor White_Chicken 16 16 7 5 3 false Animal rescue2/addTemporaryActor BabyWhite_Chicken 16 16 4 4 1 false Animal chick1/addTemporaryActor BabyWhite_Chicken 16 16 12 4 3 false Animal chick2/addTemporaryActor BabyWhite_Chicken 16 16 8 9 0 false Animal chick3/addTemporaryActor Void_Chicken 16 16 1 4 1 false Animal void/viewport 5 7 true/pause 250/animate void false true 450 18 19 18 19/pause 250/textAboveHead Marnie \"{{i18n:3hearts.2}}\"/playSound cluck/move chick1 2 0 1/move chick2 -2 0 3/move chick3 0 -3 0/playSound cluck/pause 250/speak Marnie \"{{i18n:3hearts.3}}\"/warp farmer 3 8/playSound doorClose/pause 500/speak Marnie \"{{i18n:3hearts.4}}\"/pause 250/move chick1 1 0 1/playSound cluck/pause 250/move chick2 -1 0 3/playSound cluck/pause 250/move chick3 0 -1 0/playSound cluck/pause 250/move farmer 0 -3 1/pause 250/faceDirection rescue2 3/playSound cluck/pause 100/playSound cluck/move rescue2 -1 0 3/pause 250/playSound cluck/move rescue2 -1 0 3/pause 250/playSound cluck/pause 100/playSound cluck/animate rescue1 false true 350 24 25 26 27/pause 250/speak Marnie \"{{i18n:3hearts.5}}\"/pause 250/move rescue2 -1 0 3/playSound cluck/speak Marnie \"{{i18n:3hearts.6}}\"/pause 250/emote farmer 8/playSound cluck/speak Marnie \"{{i18n:3hearts.7}}\"/playSound cluck/pause 250/emote farmer 16/pause 250/speak Marnie \"{{i18n:3hearts.8}}\"/pause 250/playSound cluck/emote farmer 20/pause 250/warp chick1 -1000 -1000/warp chick2 -1000 -1000/warp chick3 -1000 -1000/animate Marnie false true 250 28 29 30 31/pause 2000/end"
+            }
+        },
+        {
+            "LogName": "Cindersap Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "50706108/f Marnie 2000/w rainy/t 1700 2000": "nightTime/58 15/farmer 68 16 3 Marnie 59 16 3 Marlon -100 -100 2/skippable/addTemporaryActor VoidGolem 16 24 34 11 0 false/showFrame VoidGolem 18/emote Marnie 28/pause 1000/textAboveHead Marnie \"{{i18n:8hearts.1}}\"/pause 1000/textAboveHead Marnie \"{{i18n:8hearts.2}}\"/pause 1000/playSound grassyStep/faceDirection Marnie 1/jump Marnie 4/pause 500/speak Marnie \"{{i18n:8hearts.3}}\"/speed farmer 4/move farmer -7 0 3/pause 500/speak Marnie \"{{i18n:8hearts.4}}\"/speed Marnie 3/move Marnie -4 0 3/textAboveHead Marnie \"{{i18n:8hearts.5}}\"/globalfade/viewport -1000 -1000/warp Marnie 38 13/faceDirection Marnie 3/warp farmer 46 14/faceDirection farmer 3/changeSprite Marlon walking/viewport 37 14/pause 1000/pause 500/playSound cow/pause 500/emote Marnie 8/faceDirection Marnie 0/textAboveHead Marnie \"{{i18n:8hearts.6}}\"/playSound cow/pause 1500/addTemporaryActor White_Cow 32 32 33 10 1 true Animal Belinda/emote Marnie 16/pause 500/move Marnie -3 0 3/animate VoidGolem false false 250 18 19 20/jump Marnie/animate VoidGolem false false 250 21 22 23 24 0/playSound shadowHit/speed Marnie 8/move Marnie 7 0 3 false/pause 200/shake Marnie 250/speed VoidGolem 4/move VoidGolem 0 2 2 true/emote farmer 16/move farmer -6 0 3/addObject 39 13 388 0/speed VoidGolem 4/move VoidGolem 5 0 1 true/speed farmer 3/move farmer 2 0 3/animate VoidGolem false true 250 28 29/pause 250/emote Marnie 28/pause 250/textAboveHead Marnie \"{{i18n:8hearts.7}}\"/move Marnie -2 0 3 true/textAboveHead Marnie \"{{i18n:8hearts.8}}\"/pause 1000/warp Marlon 38 6/speed Marlon 4/move Marlon 0 7 2 true/showFrame Marlon 16/stopAnimation VoidGolem/faceDirection VoidGolem 3/pause 250/animate VoidGolem false true 250 30 31/pause 500/animate Marlon false false 250 25 24/specificTemporarySprite swordswipe 37 11/playSound swordswipe/pause 250/playSound shadowHit/pause 250/animate Marlon false false 250 25 24/pause 250/specificTemporarySprite swordswipe 37 11/playSound swordswipe/pause 250/playSound shadowHit/pause 250/pause 250/pause 250/animate Marlon false false 250 25 24/specificTemporarySprite swordswipe 37 11/playSound swordswipe/pause 250/showFrame VoidGolem 25/pause 250/playSound shadowDie/warp VoidGolem -1000 -1000/pause 750/showFrame Marlon 19/pause 250/showFrame Marlon 0/speak Marlon \"{{i18n:8hearts.{{marlon}}.9}}\"/shake Marnie 1000/speak Marnie \"{{i18n:8hearts.10}}\"/speak Marlon \"{{i18n:8hearts.{{marlon}}.11}}\"/speak Marnie \"{{i18n:8hearts.12}}\"/move Marnie -5 0 0/faceDirection Marlon 3/move Marnie 0 -3 3/playSound cow/pause 1500/speak Marnie \"{{i18n:8hearts.13}}\"/playSound cow/emote Marnie 20/move Marlon 0 -4 3/move Marlon -2 0 2/faceDirection Marnie 1/speak Marnie \"{{i18n:8hearts.14}}\"/speak Marlon \"{{i18n:8hearts.{{marlon}}.15}}\"/emote Marnie 32/pause 500/speak Marlon \"{{i18n:8hearts.{{marlon}}.16}}\"/pause 500/pause 500/move Marlon 0 2 0/move Marnie 0 1 0/playSound cow/emote farmer 8/pause 250/emote farmer 16/message \"{{i18n:8hearts.17}}\"/end dialogue Marnie \"{{i18n:8hearts.{{marlon}}.18}}\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farmhouse",
+            "Entries": {
+                "50706109/f Marnie 2502/e 639373/e 50706108/x LeaveLewis": "null"
+            },
+            "When": {
+                "HasMod |contains=nraittanna.LifeCycleMarnieLewis, IMS.CP.MarnieDeservesBetter": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "LeaveLewis": "{{i18n:LeaveLewis}}"
+            }
+        },
+        {
+            "LogName": "Saloon Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "50706110/f Marnie 2500/n LeaveLewis/t 1800 2300/d Tue Wed Thu Fri Sat Sun": "breezy/8 20/farmer 14 24 0 Marnie 2 20 1 Emily 11 11 2 Gus 10 18 0 Shane 7 18 1 Lewis -1000 -1000 0/skippable/animate Gus false true 350 18 19 20/move farmer 0 -3 3/pause 250/move farmer -3 0 0/move farmer 0 -1 3/move farmer -4 0 3/emote Marnie 20/pause 500/move farmer -2 0 3/speak Marnie \"{{i18n:10hearts.1}}\"/emote farmer 32/pause 500/speak Marnie \"{{i18n:10hearts.2}}\"/pause 500/playSound doorClose/warp Lewis 14 24 0/pause 250/move Lewis 0 -3 0/move Lewis -3 0 3/move Lewis 0 -1 0/move Lewis -3 0 3/pause 250/faceDirection Shane 2/move farmer 0 -1 3/move farmer -1 0 2/move Lewis -3 0 3/pause 500/move Emily -3 0 3/speak Lewis \"{{i18n:10hearts.3}}\"/faceDirection Lewis 0/pause 500/faceDirection Lewis 3/emote Lewis 40/pause 250/speak Lewis \"{{i18n:10hearts.4}}\"/pause 500/emote Marnie 28/pause 250/faceDirection Shane 3/speak Lewis \"{{i18n:10hearts.5}}\"/pause 500/move Emily -4 0 3/speak Marnie \"{{i18n:10hearts.6}}\"/pause 250/emote Lewis 28/pause 500/speak Lewis \"{{i18n:10hearts.7}}\"/speak Marnie \"{{i18n:10hearts.8}}\"/pause 250/emote Lewis 12/pause 250/faceDirection Lewis 0/speak Lewis \"{{i18n:10hearts.9.{{HarshOnLewis}}}}\"/emote farmer 36/pause 250/move Emily 0 1 2/move Emily -1 0 2/speak Marnie \"{{i18n:10hearts.10.{{HarshOnLewis}}}}\"/faceDirection Lewis 3/pause 250/speak Marnie \"{{i18n:10hearts.11.{{HarshOnLewis}}}}\"/pause 250/move Emily 0 4 2/faceDirection Lewis 0/pause 250/pause 500/faceDirection Lewis 3/speak Lewis \"{{i18n:10hearts.12.{{HarshOnLewis}}}}\"/faceDirection Lewis 1/pause 250/speak Lewis \"{{i18n:10hearts.13.{{HarshOnLewis}}}}\"/doAction 4 16/playSound openBox/move Emily 0 1 2/faceDirection Lewis 0/speak Lewis \"{{i18n:10hearts.14.{{HarshOnLewis}}}}\"/pause 250/emote farmer 12/emote Lewis 40/pause 250/speak Lewis \"{{i18n:10hearts.15.{{HarshOnLewis}}}}\"/move Lewis 6 0 2/move Lewis 0 1 3/move Lewis 3 0 2/pause 250/faceDirection Lewis 3/shake Lewis 350/pause 250/move Lewis 0 3 2/warp Lewis -1000 -1000 2/playSound doorClose/pause 600/emote Marnie 28/shake Marnie 500/move Emily 0 1 2/move Emily -1 0 2/move Emily 0 1 2/speak Emily \"{{i18n:10hearts.16}}\"/move Shane -1 0 2/move Shane 0 2 2/move Shane -1 0 3/speak Shane \"{{i18n:10hearts.17}}\"/faceDirection Shane 1/pause 500/faceDirection Shane 3/speak Shane \"{{i18n:10hearts.18.{{HarshOnLewis}}}}\"/pause 250/faceDirection Shane 0/pause 250/speak Shane \"{{i18n:10hearts.19.{{HarshOnLewis}}}}\"/pause 250/speak Emily \"{{i18n:10hearts.20}}\"/pause 500/faceDirection Shane 3/emote Marnie 60/pause 1000/end dialogue Lewis \"{{i18n:10hearts.21}}\"/end"
+            }
+        },
+        //DIALOGUE
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Translations/{{Language}}.json",
+            "When": {
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Translations/en.json",
+            "When": {
+                "HasFile:assets/Translations/{{language}}.json": false
+            }
+        },
+        //FESTIVALS
+        //Flower Dance
+        {
+            "LogName": "Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Marnie": "{{i18n:spring24.1.Y2}}"
+            },
+            "When": {
+                "Year": "2"
+            }
+        },
+        {
+            "LogName": "Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Marnie": "{{i18n:spring24.2.Y2}}"
+            },
+            "When": {
+                "Hearts:Marnie": "6,7,8,9,10",
+                "HasMod |contains=nraittanna.LifeCycleMarnieLewis, IMS.CP.MarnieDeservesBetter": false
+            }
+        },
+        {
+            "LogName": "Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Marlon": "{{i18n:spring24.h10.{{marlon}}.1}}",
+                "Marnie": "{{i18n:spring24.h10.2}}",
+                "Jas": "{{i18n:spring24.h10.3}}",
+                "Vincent": "{{i18n:spring24.h10.4}}",
+                "Lewis": "{{i18n:spring24.h10.5}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        //Egg Festival
+        {
+            "LogName": "Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Marnie": "{{i18n:spring13.1}}"
+            }
+        },
+        {
+            "LogName": "Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Marlon": "{{i18n:spring13.h10.{{marlon}}.1}}",
+                "Marnie": "{{i18n:spring13.h10.2}}!",
+                "Jas": "{{i18n:spring13.h10.3}}",
+                "Lewis": "{{i18n:spring13.h10.4}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        {
+            "LogName": "Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Marnie": "{{i18n:summer11.h10.1}}",
+                "Jas": "{{i18n:summer11.h10.2}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MMrivalhearts": true
+            }
+        },
+        {
+            "LogName": "Beach Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Marlon": "{{i18n:summer28.h10.{{marlon}}.1}}",
+                "Marnie": "{{i18n:summer28.h10.2}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        {
+            "LogName": "Winter Star",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Marlon": "{{i18n:winter25.h10.{{marlon}}.1}}",
+                "Marnie": "{{i18n:winter25.h10.2}}",
+                "Jas": "{{i18n:winter25.h10.3}}",
+                "Lewis": "{{i18n:winter25.h10.4}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        {
+            "LogName": "Ice Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Marlon": "{{i18n:winter8.h10.{{marlon}}.1}}",
+                "Marnie": "{{i18n:winter8.h10.1}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        {
+            "LogName": "Fireworks Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20",
+            "Entries": {
+                "Marlon": "{{i18n:summer20.{{marlon}}.1}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MMrivalhearts": true
+            }
+        },
+        //Shane visits Mona's Grave
+        {
+            "LogName": "Shane Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "Entries": {
+                "spring_28": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 16 13 2/1800 Town 47 87 0 \"Strings\\schedules\\Shane:spring_28.000\"/2200 AnimalShop 27 4 1 shane_sleep"
+            }
+        },
+        {
+            "LogName": "Shane Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Shane",
+            "Entries": {
+                "spring_28.000": "{{i18n:spring28.1}}"
+            }
+        },
+        {
+            "LogName": "Shane Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Shane",
+            "Entries": {
+                "spring_28.000": "{{i18n:spring28.h4.1}}"
+            },
+            "When": {
+                "Hearts:Shane": "4,5,6,7,8,9,10"
+            }
+        },
+        //Lewis has dinner with Marnie
+        {
+            "LogName": "Lewis Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Lewis",
+            "Entries": {
+                "summer_2": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 SeedShop 6 19 0 \"Strings\\schedules\\Lewis:Tue.000\"/1600 AnimalShop 24 15 1 \"Strings\\schedules\\Lewis:Summer_2.000\"/2100 AnimalShop 11 5 3"
+            },
+            "When": {
+                "Year": "1"
+            }
+        },
+        {
+            "LogName": "Marnie Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "Entries": {
+                "summer_2": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1410 AnimalShop 25 16 0/1630 AnimalShop 25 15 3/2100 AnimalShop 12 5 3 marnie_sleep"
+            },
+            "When": {
+                "Year": "1"
+            }
+        },
+        {
+            "LogName": "Lewis Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Lewis",
+            "Entries": {
+                "Summer_2.000": "{{i18n:summer.2.0}}"
+            }
+        },
+        //After 10-heart event        
+        {
+            "Action": "Load",
+            "Target": "Portraits/Marlon",
+            "FromFile": "assets/Marlon_Portrait.png",
+            "When": {
+                "HasMod |contains=Wolf.Marlon": false,
+                "MarlonPortraitChange": true
+            }
+        },
+        {
+            "LogName": "Marnie Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "Entries": {
+                "Mon": "810 SeedShop 11 20 0/1130 Mountain 43 7 3/1330 AdventureGuild 7 12 3 \"Strings\\schedules\\Marnie:Guild.000\"/1600 Mountain 43 7 3/1630 AnimalShop 24 15 0/2200 AnimalShop 12 5 3 marnie_sleep",
+                "Fri": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 3 21 0/2300 AnimalShop 12 5 3 marnie_sleep"
+            },
+            "When": {
+                "HasSeenEvent": "50706110",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        //Stops Lewis from visiting Marnie in SVE  
+        {
+            "LogName": "Marnie Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "Entries": {
+                "Mon": "810 SeedShop 11 20 0/1100 AdventureGuild 7 12 3 \"Strings\\schedules\\Marnie:Guild.000\"/1800 AnimalShop 12 5 3 marnie_sleep",
+                // "Mon": "700 Forest 55 27 0/900 Forest 51 24 1/1000 Forest 55 21 2/1020 Forest 56 21 0/1100 Forest 59 21 0/1130 Forest 61 23 3/1200 Forest 80 15 0/1330 MarnieShed 7 5 0/1600 MarnieShed 14 7 0/1700 MarnieShed 12 5 0/1800 MarnieShed 11 6 0/2100 Town 32 106 2/2430 AnimalShop 12 5 3 marnie_sleep",
+                "Fri": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 3 21 0/2300 AnimalShop 12 5 3 marnie_sleep",
+                "Sat": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2130 Town 32 106 2/2430 AnimalShop 12 5 3 marnie_sleep",
+                "10": null,
+                "17": null
+            },
+            "When": {
+                "HasSeenEvent": "50706110",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "Remove Marnie from Lewis event",
+            "Action": "EditData",
+            "Target": "Data/Events/ManorHouse",
+            "When": {
+                "HasMod": "flashshifter.GrandpasFarm",
+                "HasSeenEvent": "50706110"
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "When": {
+                        "HasSeenEvent |contains=6665293": false
+                    },
+                    "Target": [
+                        "Fields",
+                        "8033859/e 8033758/H",
+                        4
+                    ],
+                    "Value": "Warp Marnie -400 -400",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "characters/schedules/Lewis",
+            "When": {
+                "Weather": "Sun",
+                "HasSeenEvent": "50706110",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            },
+            "Entries": {
+                "10": null,
+                "17": null
+            }
+        },
+        //schedules dialogue
+        {
+            "LogName": "Marnie Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Marnie",
+            "Entries": {
+                "Guild.000": "{{i18n:monday.h10.{{MMRivalHearts}}}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        //stops Lewis visiting Marnie on Fall 9
+        {
+            "LogName": "Lewis Schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedule/Lewis",
+            "Entries": {
+                "fall_9": "900 AnimalShop 17 5 0/1030 Hospital 12 14 0/1330 Hospital 4 6 1 \"Strings\\schedules\\Lewis:fall_9.000\"/1600 ManorHouse 7 5 0 square_5_1_0/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        {
+            "LogName": "Lewis Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Lewis",
+            "Entries": {
+                "3.000": "{{i18n:season3.h10}}"
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        //Moves the characters during festivals
+        {
+            "LogName": "Move Marnie for Winter Star",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Christmas",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 23,
+                        "Y": 49
+                    },
+                    "Layer": "Set-Up",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 37,
+                        "Y": 56
+                    },
+                    "Layer": "Set-Up",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 52
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": "81"
+                },
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 52
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": "78"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true
+            }
+        },
+        {
+            "LogName": "Move Marnie for Flower Festival",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-FlowerFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 24
+                    },
+                    "Layer": "MainEvent",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 21
+                    },
+                    "Layer": "MainEvent",
+                    "SetTileSheet": "Characters",
+                    "SetIndex": "82"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true
+            }
+        },
+        {
+            "LogName": "Move Marnie for Egg Festival",
+            "Action": "EditMap",
+            "Target": "Maps/Town-EggFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 30,
+                        "Y": 67
+                    },
+                    "Layer": "Set-Up",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 62
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": "82"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true
+            }
+        },
+        {
+            "LogName": "Move Marnie for Jellyfish",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 24,
+                        "Y": 22
+                    },
+                    "Layer": "Set-Up",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 85,
+                        "Y": 25
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 82
+                },
+                {
+                    "Position": {
+                        "X": 84,
+                        "Y": 25
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 78
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true
+            }
+        },
+        {
+            "LogName": "Brings Marlon to Luau",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Luau",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 39,
+                        "Y": 10
+                    },
+                    "Layer": "MainEvent",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 78
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true
+            }
+        },
+        {
+            "LogName": "Brings Marlon to Ice Festival",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-IceFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 60,
+                        "Y": 44
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 78
+                },
+                {
+                    "Position": {
+                        "X": 65,
+                        "Y": 44
+                    },
+                    "Layer": "Main-Event",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 78
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP, Wolf.Marlon": false
+            }
+        },
+        {
+            "LogName": "Moves grumpy Marlon",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-IceFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 57,
+                        "Y": 53
+                    },
+                    "Layer": "Set-Up",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 60,
+                        "Y": 44
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 78
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true,
+                "HasMod |contains=Wolf.Marlon": true
+            }
+        },
+        {
+            "LogName": "Brings Marlon to Ice Festival",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-FireworksFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 84,
+                        "Y": 22
+                    },
+                    "Layer": "Set-Up",
+                    "SetTileSheet": "characters",
+                    "SetIndex": 78
+                },
+            ],
+            "When": {
+                "HasSeenEvent": "50706110",
+                "MarnieFestivalChanges": true,
+                "HasMod |contains=violetlizabet.CP.FireworksFestival": true
+            }
+        },
+        {
+            "LogName": "Adds in rare phone dialogue string",
+            "Action": "EditData",
+            "Target": "Strings/Characters.json",
+            "Entries": {
+                "Phone_Marlon_Open": "Hey Marns, how's every- Oh, it's you, @. *clears throat*#$b#Marlon Speaking... Did you lose something in the mines again? Yes, yes... I'm willing to fetch it... for a price."
+            },
+            "When": {
+                "HasSeenEvent": "50706110",
+                "Random: 1, 0, 0, 0": "1"
+            }
+        },
+        {
+            "LogName": "Adds in rare phone dialogue string",
+            "Action": "EditData",
+            "Target": "Strings/Characters.json",
+            "Entries": {
+                "Phone_Marnie_Open_Rare": "Lewis! For the last time, please stop call- Oh, hah, @ ... Heyyy!$2#$b#Yup, I'm open right now. Please come by if you need anything! *click* $1",
+            },
+            "When": {
+                "HasSeenEvent": "50706110"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Mountain_BridgeFix.tmx",
+            "ToArea": {
+                "X": 46,
+                "Y": 7,
+                "Width": 4,
+                "Height": 1
+            },
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/RSV.json",
+            "When": {
+                "HasSeenEvent": "50706110",
+                "HasMod":"Rafseazz.RSVCP"
+            }
+        }
+    ]
+}

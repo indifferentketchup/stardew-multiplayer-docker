@@ -1,0 +1,12 @@
+{
+   "Name": "[FS] Lumisteria's Clothes",
+   "Author": "Lumisteria",
+   "Version": "1.0.0",
+   "Description": "New hats and clothes for Fashion Sense.",
+   "UniqueID": "Lumisteria.FS.LumisteriaClothes",
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.FashionSense",
+		"MinimumVersion": "4.11.3"
+    },
+  "UpdateKeys": [ "Nexus:15086" ],
+}

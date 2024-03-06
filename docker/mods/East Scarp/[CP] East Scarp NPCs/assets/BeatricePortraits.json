@@ -1,0 +1,70 @@
+{
+    "Changes": [
+        {
+            "LogName": "Beatrice Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/Portraits/Beatrice/Beatrice_{{season}}.png",
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/portraits/Beatrice_EggFestival.png",
+            "When": {
+                "DayEvent": "egg festival",
+                "LocationName": "Temp",
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/Portraits/Beatrice/Beatrice_FlowerDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName": "Temp",
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/Portraits/Beatrice/Beatrice_Luau.png",
+            "When": {
+                "DayEvent": "luau",
+                "LocationName": "Temp",
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/Portraits/Beatrice/Beatrice_IceFestival.png",
+            "When": {
+                "DayEvent": "festival of ice",
+                "LocationName": "Temp",
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/Portraits/Beatrice/Beatrice_SVFair.png",
+            "When": {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "Temp",
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Beatrice",
+            "FromFile": "assets/Portraits/Beatrice/Beatrice_WinterStar.png",
+            "When": {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "Temp",
+            }
+        },
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "[JA] Fievel's hat",
+    "Author": "DestyNova & ES Dev Team",
+    "Version": "1.1.2",
+    "Description": "Adds Fievel's hat to the game.",
+    "UniqueID": "EastScarp.FGES.JA",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [
+      {
+         "UniqueID": "EastScarp.FGES"
+      },
+    ],
+}

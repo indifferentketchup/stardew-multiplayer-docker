@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        //STAT CHANGES
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Shadow Guy": "125/0/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/2/.01/1/3/.0/true/15/Shadow Shaman",
+                "Shadow Brute": "160/0/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/1/3/.0/true/15/Shadow Shaman",
+                "Shadow Shaman": "80/0/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/0/3/.0/true/15/Shadow Shaman",
+                "Shadow Sniper": "300/0/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/0/3/.0/true/15/Shadow Shaman"
+            },
+            "When": {
+                "HasSeenEvent: |contains=1077010013": true,
+                "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
+                "Pacifist Mode": false
+             }
+        },
+        //STAT CHANGES, PACIFISTMODE:TRUE
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Shadow Guy": "99999/20/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/99999/.01/1/3/.0/true/15/Shadow Shaman",
+                "Shadow Brute": "99999/18/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/99999/.01/1/3/.0/true/15/Shadow Shaman",
+                "Shadow Shaman": "99999/17/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/99999/.01/0/3/.0/true/15/Shadow Shaman",
+                "Shadow Sniper": "99999/18/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/99999/.01/0/3/.0/true/15/Shadow Shaman"
+            },
+            "When": {
+                "HasSeenEvent: |contains=1077010013": false,
+                "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
+                "Pacifist Mode": true
+            }
+        },
+            //STAT CHANGES, PACIFISTMODE:TRUE, POST EPILOGUE
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Shadow Guy": "99999/0/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/99999/.01/1/3/.0/true/15/Shadow Shaman",
+                "Shadow Brute": "99999/0/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/99999/.01/1/3/.0/true/15/Shadow Shaman",
+                "Shadow Shaman": "99999/0/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/99999/.01/0/3/.0/true/15/Shadow Shaman",
+                "Shadow Sniper": "99999/0/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/99999/.01/0/3/.0/true/15/Shadow Shaman"
+            },
+            "When": {
+                "HasSeenEvent: |contains=1077010013": true,
+                "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
+                "Pacifist Mode": true
+            }
+        }
+    ]
+}

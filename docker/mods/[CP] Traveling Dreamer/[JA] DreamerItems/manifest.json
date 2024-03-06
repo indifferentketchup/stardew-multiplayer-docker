@@ -1,0 +1,16 @@
+{
+    "Name": "[JA] JA items for ToyShop",
+    "Author": "Fellowclown",
+    "Version": "1.0.0",
+    "Description": "Toys for toy shop.",
+    "UniqueID": "Fellowclown.DreamerItemws",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [
+      {
+         "UniqueID": "Fellowclown.TravelingDreamer"
+      },
+    ],
+}

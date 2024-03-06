@@ -1,0 +1,61 @@
+﻿{
+  "Shops": [
+{
+    "ShopName": "EastScarpToyStore",
+    "StoreCurrency": "Money",
+    "ItemStocks": [
+        {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Pink Squid" ],
+            "StockPrice": 1500,
+        },
+        {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Cowboy" ],
+            "StockPrice": 360,
+ }, 
+       {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Purple Car" ],
+            "StockPrice": 200,
+ }, 
+       {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Doll Set" ],
+            "StockPrice": 400,
+ }, 
+       {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Blue Dino" ],
+            "StockPrice": 360,
+ }, 
+       {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Drum Set" ],
+            "StockPrice": 360,
+ }, 
+       {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Fector" ],
+            "StockPrice": 360,
+ }, 
+       {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Game Console" ],
+            "StockPrice": 10000,
+ },  
+      {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Plane" ],
+            "StockPrice": 500,
+ },
+      {
+            "ItemType": "BigCraftable",
+            "ItemNames": [ "Red Truck" ],
+            "StockPrice": 2000,
+ },
+
+      ]
+    },
+  ]
+}

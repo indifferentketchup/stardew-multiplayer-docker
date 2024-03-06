@@ -1,0 +1,9 @@
+{
+	"Name": "Smoluanu Friendship Helm",
+	"Description": "A helm gifted from one smoluanu to another as a symbol of their friendship.",
+	"CanPurchase": "false",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true, 
+	//"TranslationKey": "smoluanu-friendship-helm"
+
+}

@@ -1,0 +1,29 @@
+{
+  "Format": "1.26.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/PeacefulEnd/FashionSense/AppearanceData",
+      "Fields": {
+        "EastScarp.FGES.FievelFashionSensePack/Hat/Fievel's Hat": {
+          "IsLocked": true
+        }
+      },
+	"When": {
+			"HasSeenEvent |contains=17315005": false,
+		}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/PeacefulEnd/FashionSense/AppearanceData",
+      "Fields": {
+        "EastScarp.FGES.FievelFashionSensePack/Hat/Fievel's Hat": {
+          "IsLocked": false
+        }
+      },
+	"When": {
+			"HasSeenEvent": "17315005",
+		}
+    },
+  ]
+}

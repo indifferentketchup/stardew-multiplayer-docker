@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"MeredithOBrien": "All",
+			},
+			"When": {
+				"HasMod": "Esca.CustomNPCExclusions",
+			},
+		}
+	]
+}

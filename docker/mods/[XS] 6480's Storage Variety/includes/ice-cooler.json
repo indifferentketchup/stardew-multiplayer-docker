@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/IceCooler",
+      "FromFile": "assets/ice-cooler.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "IceCooler": {
+          "DisplayName": "{{i18n: ice-cooler.name}}",
+          "Description": "{{i18n: ice-cooler.description}}",
+          "Image": "6480.StorageVariety/IceCooler",
+          "PlayerColor": true,
+          "BetterChestsData": {
+            "CarryChest": "Enabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList":  [
+              "category_fish",
+              "category_egg",
+              "category_milk",
+              "category_cooking",
+              "category_meat",
+              "category_sell_at_pierres",
+              "category_sell_at_pierres_and_marnies",
+              "item_joja_cola",
+              "category_bait",
+              "category_sell_at_fish_shop",
+              "category_ingredients",
+              "category_artisan_goods",
+              "category_syrup",
+              "category_vegetable",
+              "category_fruits",
+              "category_flowers",
+              "category_greens"
+            ],
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 36
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "IceCooler": "167 1 390 20/Home/232/true/null/{{i18n: ice-cooler.name}}"
+      }
+    },
+    
+    // Add Unlockable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Unlock",
+      "Entries": {
+        "IceCooler": "true"
+      },
+      "When": {
+        "query: {{SkillLevel:Farming}} >= 1": true
+      }
+    }
+  ] 
+}

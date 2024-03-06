@@ -1,0 +1,25 @@
+{
+    "Name": "Mysteries of the Dwarves",
+    "Description": "A book compiling the research of M.Jasper about the Dwarves, also known as the Smoluanu.", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+//    "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [ "RodneyOBrien", "Wizard", "Gunther", "GuntherSilvian", "Marlon", "MarlonFey", "PlumForrest" ], //"Mateo"
+        "Like": [ "Universal" ],
+        "Neutral": [ "Dwarf", "Demetrius", "Sondra", "Gudrun" ],
+        "Hate": [ "Krobus", "SenS" ]
+    },
+    "TranslationKey": "object.mysteries-of-the-dwarves",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+// "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest", "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

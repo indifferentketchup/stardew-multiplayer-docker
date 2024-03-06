@@ -1,0 +1,194 @@
+{
+    "Changes": [
+        //ConversationTopic Dialogue
+        {
+            "LogName": "Marnie reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "Tristan_Discuss": "His name was Tristan. He and Mona were inseperable.#$b#When we lost him in the caves, it was like she lost a part of herself as well.$s#$b#She held herself together, was strong for Jas...but even that wasn't enough.$s#$b#Tristan was a bit wild, and far too reckless, but he had a good heart. We all miss him.$s#$b#I wish Jas had got to meet her father.",
+                "TristanReturns": "Oh @! Thank you for helping bring Tristan back. Jas has been telling us for years that the cat was more than a cat.#$b#We thought she was being creative, but... well, he's here now.#$b#Shane's none too happy about it.$2#$b#I hope the two of them can come to some sort of truce.$2"
+            }
+        },
+        {
+            "LogName": "Jas reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "Tristan_Discuss": "I'm so glad you believe us, farmer @! Shane says it's all nonsense, and he loves me like I'm his own kid...And I love him too!#$b#Even if he's not always been much of a dad. But it's still not fair! I'm glad you're going to help us break the curse.$2",
+                "TristanReturns": "Thanks for helping us, farmer @.",
+                "EastScarpe_53_89": "Look at all the starfish!",
+                "ESHouse1_6_20": "Oh I won again! You're not letting me win are you Dad?$3",
+            }
+        },
+        {
+            "LogName": "Jas reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "Sun10": "Shane was friends with my dad once. Do you ever think they'll be friends again?$2",
+                "winter_Thu10": "Dad and me have talked a lot about Mom. He must miss her heaps.#$b#I wish I remembered her better.$2",
+                "winter_Mon10": "Do you think Mr. Rasmodius is anything like Chrestomanci$3?#$b#Uncle Shane and I have been reading the books together. I think he likes them more than I do!$1",
+                "fall_Mon8": "Dad visits Mr. Rasmodius sometimes. I'm glad. It must get lonely living in that tower all by himself.#$b#Maybe we should bake him cookies!$1",
+                "FutureJob_Explore": "Oh! I'm not brave enough for that, I'd need someone to adventure with me.$3",
+               
+            },
+            "When": {
+                "HasSeenEvent": "5295000"
+            }
+        },
+        {
+            "LogName": "Jas reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "Sun10": "I'm so happy Dad and Shane are friends again!$1"
+            },
+            "When": {
+                "HasSeenEvent": "5295004"
+            }
+        },
+        {
+            "LogName": "Jas reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "Sun10": "Do you think Dad and Shane might get married one day?$1#$b#I hope I get to be the flower girl!",
+                "Sun10_inlaw_Shane": "I'm so glad you and Shane got married! We're like a big family now.$1",
+                "Sun10_inlaw_MisterGinger": "I'm so glad you and Dad got married! We're like a big family now.$1"
+            },
+            "When": {
+                "HasSeenEvent": "5295016"
+            }
+        },
+        {
+            "LogName": "Mr Ginger reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MisterGinger",
+            "Entries": {
+                "Tristan_Discuss": "Would you have believed us if we'd told you sooner?#$B#Well, maybe you would have, you're very perceptive. For a human.$4"
+            }
+        },
+        {
+            "LogName": "Shane reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "Tristan_Discuss": "You mean Tristan? Don't talk to me about that... that... (Shane clenches his fists)$a#$b#He abandoned my pregnant sister, alright? Yeah, I know they said he must've died in the caves...$2#$b#...but if you ask me, he jumped ship and ran off to Zuzu to make a new life for himself.$a",
+                "TristanReturns": "So... Tristan's back.$2#$b#I know I haven't always been the best guardian to Jas, but I was just starting to feel like an actual dad...#$b#And now her real dad walks back into her life, with some crazy BS story about being turned into a cat.#$b#Funny thing is, none of us have seen Mr. Ginger recently, and Tristan knows stuff, stuff about me, that he shouldn't...$2#$b#But it makes no sense. He must be lying. He must!$a",
+                "ShaneTrissRH2": "I hope Tristan's okay. Concussion's no laughing matter. Happened to our quarterback; he never played again.$2",
+                "ShaneTrissL": "You really think so? Gah... now how to talk to him about it?#$b#I'm not good at this sort of stuff...$2",
+                "ShaneTrissN": "Yeah, you're probably right. No sense in digging up the past.#$b#And, really?$4#$b#Hey, do you want to split a pizza at the saloon sometime?$1",
+                "ShaneTrissG": "Well, I appreciate the honesty. I guess.$5#$b#And you're probably right. It's gross and weird. And I've given the townsfolk enough ammunition to sting me with.$5"
+            }
+        },
+        {
+            "LogName": "Wizard reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "Tristan_Discuss": "You seek knowledge of Tristan? Ah, he was a wildcard. Perceived himself as invincible, and quite led young Mona astray. Or perhaps she led him astray? Hmm... nevermind.#$b#%He leans forward to whisper in your ear.#$b#If you desire further knowledge, visit me in the tower. For the forest has ears, and she may hear us."
+            },
+            "When": {
+                "HasSeenEvent |contains=5295006": false
+            }
+        },
+        {
+            "LogName": "Wizard reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "TristanReturns": "I fear it may take some time for young Tristan to adapt to life as a human.#$b#I trust you shall help him adjust, @, for I fear that it is not just Her who will resent his return."
+            }
+        },
+        {
+            "LogName": "Abigail reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "Tristan_Discuss": "Oh, Tristan! Of course I remember Tristan! He was cute, if you're into bad boy rebels. Not that I was anything more than a kid to him.$1#$b#Why are you asking about him anyway? He's been gone for years. The monsters in the mines ate him.$2#$b#Didn't they?$3",
+                "TristanReturns": "I always thought there was more to Pumpkin than met the eye. He had this knowing look in his eyes.#$b#Probably a good thing Dad wouldn't let me bring him into my house. Imagine if he'd been in my room!$3#$b#Dad would freak!$1"
+            }
+        },
+        {
+            "LogName": "Caroline reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "Tristan_Discuss": "Tristan... oh, that name brings back memories. He and Mona. Troublemakers through and through. Abigail... well, she had quite the school-girl crush on him.$2#$b#I wouldn't go asking too many folks about him though. His death, then Mona a few years later... well, they caused a lot of discord around town.$2",
+                "TristanReturns": "I hear Jas's father's returned. Finally decided to face up to familial responsiblities.#$b#Or perhaps there's some truth to the stranger rumors, that he's been here all the time. What do you think, @?$3"
+            }
+        },
+        {
+            "LogName": "Lewis reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "Tristan_Discuss": "Right... those kids... they were quite the hellraisers. I'd really rather not talk about them. Best to let them rest in peace, @.$2",
+                "TristanReturns": "It appears Tristan wasn't dead at all. I wonder where he's been hiding.#$b#Probably larking around, causing chaos. Selfish of him not to let us know sooner.$4#$b#Poor Marnie has been grieving for he and Mona all these years.$2"
+            }
+        },
+        {
+            "LogName": "Jasper reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jasper",
+            "Entries": {
+                "Tristan_Discuss": "Oh yes, Tristan. Poor kid. He was a few years younger than I, and friends with Shane, I believe.$3#$b#We trained for the Adventurer's Guild together, back in the days when it was all a bit of a lark.$1#$b#I joined Marlon and Rasmodius on the search of the caves. It sorrows me greatly that we never managed to bring him home.$2",
+                "TristanReturns": "I'm pleased Jas has her father back. I imagine Marlon will have him back on patrol again soon.#$b#Tristan was quite the competent warrior; he could certainly best me in a duel!$1"
+            }
+        },
+        {
+            "LogName": "Juliet reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Juliet",
+            "Entries": {
+                "TristanReturns": "So, it turns out all this time that ginger cat was really a man?$3#$b#Well, that's awkward. He did love his chin rubs!$1#$b#He's kinda hot though, don't you think?"
+            }
+        },
+        {
+            "LogName": "Rosa reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Rosa",
+            "Entries": {
+                "TristanReturns": "Seriously? Is it true that Jas's Dad had been turned into a cat? That's so weird.#$b#You know, if I were turned into a cat, I'm not sure I'd ever want to turn back. Who doesn't want to nap all day and be lavished with attention?$1"
+            }
+        },
+        {
+            "LogName": "Aideen reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Aideen",
+            "When": {
+                "Spouse |contains=Shane": false
+            },
+            "Entries": {
+                "TristanReturns": "A gentleman has contacted me in regards to my available rooms. He wishes to rent both of them.#$b#I must confess, I was at first reluctant, but he proved rather charming - and Baron Munchington seems unusually fond of him!$1"
+            }
+        },
+        {
+            "LogName": "Emily reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "TristanReturns": "Amazing, isn't it? About Mr Ginger and Tristan.#$b#I always knew there was something special about him, that he was her guardian angel!$1"
+            }
+        },
+        {
+            "LogName": "Eloise reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Eloise",
+            "Entries": {
+                "TristanReturns": "Jas's real dad seems pretty cool. Does this mean she has two dads now?$3#$b#When I asked Tristan, he laughed, but Shane scowled at me.$2#$b#I don't think they want to share.$3",
+                "EastScarpe_55_89": "Did you know that {{random: if a starfish loses its arm it grows back?, some starfish can release venom so you've got to be careful not to touch them!, starfish eat by pushing their stomach out their mouth and over the prey!, starfish aren't fish at all so the name's silly!, starfish have no brain or blood?, starfish can live for 35 years!}}",
+            }
+        },
+        {
+            "LogName": "Jacob dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jacob",
+            "Entries": {
+                "ESHouse1_19_20": "Don't tell Tristan that I'm onto him, but Marnie prepared most of these meals.",
+                "EastScarpe_54_85": "One day, Ellie brought home a {{random: hermit crab living in a bottle top - she wanted to give it a better home., bird skull., beautiful rainbow shell.}}#$b#She's got quite the collection of beach detritus!"
+            }
+        },
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Format": "1.29.0",
+	"Changes": [
+	
+	{          
+	"Action": "EditData",
+	"Target": "Data/Furniture",
+	"TextOperations": [
+	{
+		"Operation": "Append",
+		"Target": ["Fields", "2304", "5"],
+		"Value": "2",
+		"Delimiter": "/",
+	},
+	{
+		"Operation": "Append",
+		"Target": ["Fields", "2312", "5"],
+		"Value": "2",
+		"Delimiter": "/",
+	},
+	{
+		"Operation": "Append",
+		"Target": ["Fields", "2322", "5"],
+		"Value": "2",
+		"Delimiter": "/",
+	},
+	{
+		"Operation": "Append",
+		"Target": ["Fields", "2400", "5"],
+		"Value": "2",
+		"Delimiter": "/",
+	},
+	{
+		"Operation": "Append",
+		"Target": ["Fields", "2414", "5"],
+		"Value": "2",
+		"Delimiter": "/",
+	},
+	]
+	},
+ ]
+}

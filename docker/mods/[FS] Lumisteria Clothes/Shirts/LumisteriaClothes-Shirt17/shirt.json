@@ -1,0 +1,100 @@
+{
+    "Name": "LumisteriaClothes-Shirt17",
+    "Description": "An outfit for the flower dance",
+	"FrontShirt": {
+	"DisableGrayscale": true,
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 198, 198, 198 ]
+    ],
+    "SleeveColors": [
+      [ 77, 58, 153 ],
+      [ 202, 198, 255 ],
+      [ 255, 252, 252 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  },
+  "RightShirt": {
+	"DisableGrayscale": true,
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 198, 198, 198 ]
+    ],
+    "SleeveColors": [
+      [ 77, 58, 153 ],
+      [ 202, 198, 255 ],
+      [ 255, 252, 252 ]
+    ],
+	"StartingPosition": {
+	  "X": 0,
+      "Y": 8
+	},
+	"BodyPosition": {
+	  "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  },
+	"LeftShirt": {
+	"DisableGrayscale": true,
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 198, 198, 198 ]
+    ],
+    "SleeveColors": [
+      [ 77, 58, 153 ],
+      [ 202, 198, 255 ],
+      [ 255, 252, 252 ]
+    ],
+	"StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  },
+  "BackShirt": {
+	"DisableGrayscale": true,
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 198, 198, 198 ]
+    ],
+    "SleeveColors": [
+      [ 77, 58, 153 ],
+      [ 202, 198, 255 ],
+      [ 255, 252, 252 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 24
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  }
+}

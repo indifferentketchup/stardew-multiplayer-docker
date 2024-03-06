@@ -1,0 +1,24 @@
+{
+    "Name": "Herpetology of Ferngill",
+    "Description": "A publication about the many reptiles and amphibians of the Ferngill Republic, by Nora Chambers.", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+//    "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [ "SenS", "Abigail", "Sebastian", "Aziraphale", "Vincent", "Gunther", "GuntherSilvian", "Demetrius", "Maru" ],
+        "Like": [ "Universal" ],
+        "Neutral": [ "Dwarf", "Harvey", ],
+    },
+    "TranslationKey": "object.herpetology",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+// "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest", "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

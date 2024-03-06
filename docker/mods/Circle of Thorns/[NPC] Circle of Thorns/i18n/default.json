@@ -1,0 +1,1421 @@
+{
+
+/*
+   _____ ______ _   _ ______ _____  _____ _____   _____ _____          _      ____   _____ _    _ ______ 
+  / ____|  ____| \ | |  ____|  __ \|_   _/ ____| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |  __| |__  |  \| | |__  | |__) | | || |      | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ | | |_ |  __| | . ` |  __| |  _  /  | || |      | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |__| | |____| |\  | |____| | \ \ _| || |____  | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+  \_____|______|_| \_|______|_|  \_\_____\_____| |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+
+// NAME & INTRO 
+"Core.Hector.Name": "Hector",
+"Core.Biróg.Name": "Biróg",
+"Core.Hector.Introduction": "You have no idea what I'm capable of, farmer. Nor of what I've got in mind for you.", 
+
+// COMMUNITY CENTER BUNDLES  
+"Core.Hector.JojaBegin": "You're a traitor! I needed you, and you've gone and given in to Morris? Of course I know it was you, everyone else who would've bought a membership already!$27#$b#You're not who I thought you were! I can't trust you, get out of my face.$21",
+"Core.Hector.CCBegin": "Good job, @! Morris and his warehouse can go eat some rocks.$1#$b#What? You want help with the community center? Nah. I'm confident you can handle it.$8#$b#Besides, I've got OTHER plans for us.$9",
+"Core.Hector.CCBus": "Accessible public transport is invaluable to a maintaining an environmentally conscious, considerate community. Nice job, @.$7#$b#And, as a bonus, you've got Pam driving. That'll keep things exciting, huh!?$9",
+"Core.Hector.CCMinecart": "I'm going to cause so many problems using those minecarts. Thanks, @!$9",
+"Core.Hector.CCComplete": "The Community Center looks really good, @. And you did it all on your own. You've worked really hard.$7#$b#...I'm really proud of you, and the choices you make.$12",
+"Core.Hector.MovieTheater": "A movie theater!? That's rad, let's go!$9#$b#I promise I won't talk all the way through it. I LOVE movies.$17",
+
+// BIRTHDAYS
+"Core.Hector.Fall25": "It's Mateo's birthday today.$14#$b#Bully that bastard extra!$9",
+
+// END OF SEASON
+"Core.Hector.SpringEnd":"In springtime, the only pretty ring time, when birds do sing, hey ding! A ding a ding; sweet lovers love... the Spring!$3",
+"Core.Hector.SummerEnd": "I got that summertime, summertime sadness! Su-su-summertime, summertime sadness-$3",
+"Core.Hector.FallEnd": "Hiding from the weather, tea and toasted! Buttered currant buns, can't compensate for lack of sun because the summer's all gone...!$3",
+"Core.Hector.WinterEnd": "And the sky is a hazy shade of winter! Hang on to your hopes, my friend. That's an easy thing to say, but if your hopes should pass away - simply pretend that you can build them again!$3",
+
+// SVE COMMUNITY DAY
+"Core.Hector.CommunityCenter4": "Mateo said this would be a good idea. I disagree.$24",
+"Core.Hector.CommunityCenter6": "Being here makes me feel like I want to throw up, but also, it's kind of nice. I guess, maybe.$8",
+"Core.Hector.CommunityCenter8": "Everyone's so involved with so many different activities. Leah's art is great, and I feel like Maru's brilliance is getting kind of slept on-$6#$b#What? No, I'm having a terrible time. For sure!$5",
+"Core.Hector.CommunityCenter10": "Alright, alright. I'll bite. This is nice. Okay? This is nice.$14#$b#I'm just an old dog learning new tricks, alright?$13",
+
+// FESTIVALS
+"Core.Hector.EggFestival": "What? You think I'm here to cause trouble? Do I look like an amateur to you? No, I'm here to eat free food.$6#$b#I took care of that at the end of last FALL for MAXIMUM STINK!$9",
+"Core.Hector.FlowerDance": "Oh, I hate the Flower Dance. The only thing I like less than being told what to wear is doing a stupid jig on a full stomach.$16",
+"Core.Hector.Luau": "I actually grew something for tomorrow. I'm sure you're expecting it to be terrible.$0#$b#But, the only thing I love more than mischief is eating, so it'll be good.$1",
+"Core.Hector.MoonlightJelly": "I love when the Jellies visit, actually. No whim of nature goes unappreciated by me.$8#$b#But it's definitely different, not watching them alone...$24",
+"Core.Hector.SDVFair":"Oh, a competition! Do you want me to help you cheat?$9#$b#Aw, actually, you probably don't need to cheat. I've seen what you can do. Good luck.$0",
+"Core.Hector.SpiritsEve": "I'm sure Mateo has talked your ears off about the 'rules' of Spirit's Eve by now, and that's all well and good, but...$24#$b#The real rule is to do mischief, not harm. Pranks aren't fun if they hurt or upset someone.$14#$b#That being said, I have lots of mischief planned! Watch out!$9",
+"Core.Hector.IceFestival": "It would be more ethical and environmentally conscious to just COOK the fish rather than hooking them and throwing them back.$26#$b#It causes stress, skin damage, and it tires them out! Just eat them instead of pretending to do the 'moral' thing when it's not moral at all! What a stupid festival.$27",
+"Core.Hector.NightMarket": "Are you going to the Night Market? I'm going to stand back at the wood line and watch the boats.$7",
+"Core.Hector.WinterStar": "Winter Star is kind of another stupid festival, isn't it? Well, I got Mateo some animal hide so they can fix up their armor. I hope they like it.$13#$b#Nobody can say that I don't try.$14",
+
+// ROMANTIC (POSITIVE)
+"Core.Hector.GiveFlowersA":"These look too nice for you to have grown them. Did Aideen make this for you?$9#$b#Oh, shit, they're for me? Uh, uh-$4#$b#Thanks. I uh, return the sentiment. I think. Yeah.$11",
+"Core.Hector.GiveFlowersB":"These look too nice for you to have grown them. Did Aideen make this for you?$9#$b#Oh, shit, they're for me? Uh, uh-$4#$b#Thanks. I uh, return the sentiment. I think. Yeah.$11",
+"Core.Hector.GivePendant":"You're really committed to making bad decisions, huh?$11#$b#Well, I'm committed to making bad decisions with you.$10",
+"Core.Hector.StardropGiftA": "Did you know that Stardrops only grow on the inside of meteorites, occasionally hurtling towards us from space?$0#$b#That's bullshit, but I did manage to find you one.$11",
+"Core.Hector.StardropGiftB":"Did you know that Stardrops only grow off of weird, horizontal palm trees, which can only grow partially submerged in water?$0#$b#That's bullshit, but I did manage to find you one.$11",
+
+// ROMANTIC (NEGATIVE)
+"Core.Hector.DanceRejection": "No thanks, I've got four left paws.$18",
+"Core.Hector.Divorced": "I'd rather be alone again than have to look at YOUR mug any longer.$26",
+"Core.Hector.BreakUp": "@-?$20#$b#Okay, yeah. I get it. It's fine. It's fine!$21",
+"Core.Hector.DumpedGuys": "It doesn't take LITERALLY being a CANINE to have a modicum of loyalty.",
+"Core.Hector.SecondChanceGuys":"I don't think I can do this... I don't understand how we got here in the first place.$21#$b#But I'll try, I guess. Just don't mess up again, or I'll... I'll eat you!$26",
+"Core.Hector.Reject2HA": "Those are real pretty. It's cool that you grow more than just fruits and veggies.$0#$b#What? Those are for me? No thanks!$4",
+"Core.Hector.Reject2HB":"Aw, did you make that yourself? It's adorable.$1",
+"Core.Hector.Reject4HA":"No thanks! I don't feel that way about you. Or anyone, really!$4",
+"Core.Hector.Reject4HB":"These flowers are really pretty, but I'm not into you, @. Sorry.$8", 
+"Core.Hector.EngageA":"Uhhhhhhhhhhhhhhhh, no.$18",
+"Core.Hector.EngageB":"Can you do me a favor and stop proving that humanity kind of sucks, please?$19",
+"Core.Hector.MarriedA":"You made a commitment! You'd best oblige it!$27",
+"Core.Hector.MarriedB":"Stop it. Don't think I don't know what you're doing. You're better than this.$26",
+"Core.Hector.RefusalNoHeartsA":"Oooh, pretty necklace!$1",
+"Core.Hector.RefusalNoHeartsB":"Hehe, are you gonna get it with someone? Good luck!$9",
+"Core.Hector.RefusalKnownA":"Sorry, this doesn't really fit with my aesthetic.$8",
+"Core.Hector.RefusalKnownB":"Am I supposed to be flattered? Uh, I'm kinda not?$4",
+"Core.Hector.RefusalBotherA":"No means no, @.",
+"Core.Hector.RefusalBotherB":"I said no! I'd threaten to eat you, but I feel like you'd make it weird.$18",
+
+// PLAYER DEATH
+"Core.Hector.PlayerKilled.Mines.01": "@!",
+"Core.Hector.PlayerKilled.Mines.02": "@, Why would you put yourself in danger like this?!",
+"Core.Hector.PlayerKilled.Mines.03": "What did this?! I'll eat it whole!$21",
+ 
+"Core.Hector.PlayerKilled.Skull.01": " ...{0}?",
+"Core.Hector.PlayerKilled.Skull.02": "Easy, now... take it slow.",
+"Core.Hector.PlayerKilled.Skull.03": "You're awake! Thank goodness. Hector found you all bent out of shape in the Skull Cave!$2",
+"Core.Hector.PlayerKilled.Skull.04": "I was so worried about you, @...$21",
+"Core.Hector.PlayerKilled.Skull.05": "Harvey, they'll be fine, right? Tell me they'll be fine.$2",
+"Core.Hector.PlayerKilled.Skull.06": "Yes, but they need to be a little more careful next time.$2",
+"Core.Hector.PlayerKilled.Skull.07": "I'll leave you two to talk; let me know if you need anything.$2",
+"Core.Hector.PlayerKilled.Skull.08": "I don't know what I would've done if something more permanent had happened to you, @.#$b#Jaws first, questions later. Please protect yourself better, alright?$17",
+
+/*
+  _    _ ______          _____ _______   _____ _____          _      ____   _____ _    _ ______ 
+ | |  | |  ____|   /\   |  __ \__   __| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |__| | |__     /  \  | |__) | | |    | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ |  __  |  __|   / /\ \ |  _  /  | |    | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |  | | |____ / ____ \| | \ \  | |    | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+ |_|  |_|______/_/    \_\_|  \_\ |_|    |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+
+// 0 HEARTS - SPRING
+"Core.Hector.Spring.Monday.0h": "@! Is there something on your face? Oh. It's dirt. Nothing like good ol' farm stench, huh?$8",
+"Core.Hector.Spring.Tuesday.0h": "I made burger patties out of some bugs today. Do you want some?$1#$b#No? Boo, you stinker, boooooooo!$16",
+"Core.Hector.Spring.Wednesday.0h": "Got big plans today, @. Most of them involve my ass and that couch over there.$6",
+"Core.Hector.Spring.Thursday.0h": "Need to get a t-shirt that says 'sorry I'm late, I hate leaving my tower and didn't want to show up.'$8#$b#What, too specific?$7", 
+"Core.Hector.Spring.Friday.0h": "I sleep so much, but I'm so tired all the time. Who designed human bodies this way? I'd like to file a complaint.$16",	
+"Core.Hector.Spring.Saturday.0h": "Look. If you see someone rooting around in a trash can, leave them alone. Don't be a narc.$22",
+"Core.Hector.Spring.Sunday.0h": "I would be so mysterious and cool if I was physically capable of shutting up at any given point.$1",
+
+// 0 HEARTS - SUMMER
+"Core.Hector.Summer.Monday.0h": "Who conceptualized humidity, anyway? What a scam.$18",
+"Core.Hector.Summer.Tuesday.0h": "I really need to install air conditioning in this tower, otherwise I'm going to melt. Yikes.$16",
+"Core.Hector.Summer.Wednesday.0h": "Book's really into metal music, so we blast it all day.$0", 
+"Core.Hector.Summer.Thursday.0h": "For the love of all that's good and holy, I wish it would rain. That way, the heat would pass.$19",
+"Core.Hector.Summer.Friday.0h": "Any amount is a normal amount of ice cream! Even if it's four cones.$1",
+"Core.Hector.Summer.Saturday.0h": "All my joints feel swollen...$19", 
+"Core.Hector.Summer.Sunday.0h": "Wait, too much ice cream is BAD for you? What even is the point of Summer, then?$20", 
+
+// 0 HEARTS - FALL
+"Core.Hector.Fall.Monday.0h":"You're covered in dirt, which is exactly how you should be. Become one with the earth! Wear her as your second skin! Earth stink is good stink!$1",
+"Core.Hector.Fall.Tuesday.0h": "Ah, yes. The time of year when everyone starts arbitrarily arguing about Pumpkin Spice or Apple Cinnamon. Why not both? You can contain multitudes.$0",
+"Core.Hector.Fall.Wednesday.0h":"Tis the season for mischief, you know.$6",
+"Core.Hector.Fall.Thursday.0h":"Ghosts are real. Cryptids, aliens, all of it. You have no clue what we share our world with.$22",
+"Core.Hector.Fall.Friday.0h":"Yeah, yeah. The scenery is pretty. I know. I don't need to go leaf-peeping.$16",
+"Core.Hector.Fall.Saturday.0h":"Half of a rhythm, half deity. Glitches in the cold or gaps in a strange dream.$3",
+"Core.Hector.Fall.Sunday.0h":"@, you already proved yourself. Why do you keep coming around? It couldn't possibly be that you enjoy my company.$16",
+
+// 0 HEARTS - WINTER
+"Core.Hector.Winter.Monday.0h": "I love when it gets cold! Everything feels so refreshing!$1",
+"Core.Hector.Winter.Tuesday.0h": "I'm sure you've heard it a bunch of times - 'do you want to build a snowman?'. Well, do you?$12",
+"Core.Hector.Winter.Wednesday.0h": "It's so quiet! I love the quiet, unless it's the sound of my own voice - in which case, keep it coming.$7",
+"Core.Hector.Winter.Thursday.0h": "I could do without the summer heat. Makes my bits and pieces feel all rusted. Not a problem now, though.$24",
+"Core.Hector.Winter.Friday.0h": "Book and I left the tower today. The ledge just outside is a nice sitting spot.$12",
+"Core.Hector.Winter.Saturday.0h": "Go throw a snowball at the Mayor's head. Do it, you won't!$9",
+"Core.Hector.Winter.Sunday.0h": "It sucks that a lot of stuff doesn't grow in the Winter, but that's okay. The earth needs a break, too.$0",
+
+// 2 HEARTS - SPRING
+"Core.Hector.Spring.Monday.2h": "@! Are you excited for it to be growing-time, again? I sure am!$1", 
+"Core.Hector.Spring.Tuesday.2h": "Here you go, @. %farm deserves some pretty flowers.$13[427]",
+"Core.Hector.Spring.Wednesday.2h": "Take off your shoes. Bury your toes in the dirt outside. And just, like, shut up for a minute and enjoy being grounded to the earth.$14",
+"Core.Hector.Spring.Thursday.2h": "I cleaned the tower, because it's that time of year.$0#$b#It wasn't particularly messy to begin with, so I'm giving myself more credit than is owed.$8",
+"Core.Hector.Spring.Friday.2h": "Sometimes Book will hover by the window and just look outside. I wonder what she thinks about.$16",  
+"Core.Hector.Spring.Saturday.2h": "Do you do adventure stuff? Like, in the mines? That sounds dangerous, and also like it takes effort.$2",
+"Core.Hector.Spring.Sunday.2h": "Mateo hates crabs. So, naturally, I let like thirty of them into their silly little guild!$9",
+
+// 2 HEARTS - SUMMER
+"Core.Hector.Summer.Monday.2h": "What if I just shape-shifted into a naked mole rat for the whole summer? Then I'd be less uncomfortable.$18",
+"Core.Hector.Summer.Tuesday.2h": "You know what can go die in a fire, actually? The entire concept of a desert. Just, sand? Why? Sand and sadness. I hate sand.$24",
+"Core.Hector.Summer.Wednesday.2h": "Sometimes I like to sit on the edge of the little pond in my greenhouse and kick my little feets. Life's simple pleasures, am I right?$8",
+"Core.Hector.Summer.Thursday.2h": "Nice, melons! You know what's terrible, though? Honeydew.$0[479]",
+"Core.Hector.Summer.Friday.2h": "It's awful outside. I hate this, thanks. Don't know how you put up with actually working in this weather.$18",
+"Core.Hector.Summer.Saturday.2h": "I could go swimming, but - eh, never mind. Then there'd be a chance of like, being seen. By people. I hate that.$25",
+"Core.Hector.Summer.Sunday.2h": "You ever simultaneously hate being alone, but cringe at the thought of company? No? Just me?$24",
+
+// 2 HEARTS - FALL
+"Core.Hector.Fall.Monday.2h": "I tried baking a pie, once! It was while I was shape-shifted as a snake. Baking without thumbs is very challenging.$1", 
+"Core.Hector.Fall.Tuesday.2h": "Book said something about me about how my isolation was making me crazy. But she's a grimoire, what does she know?$23",
+"Core.Hector.Fall.Wednesday.2h": "Uh, here. I found this wedged in the couch.$16[491]",
+"Core.Hector.Fall.Thursday.2h": "So, like. Your farm. Is it real pretty? Honestly, I bet it's real pretty. You seem to be good at that sort of thing.$12",
+"Core.Hector.Fall.Friday.2h": "Do you need the trees to tell you that the season has changed? Isn't that what you have calenders for?$25",
+"Core.Hector.Fall.Saturday.2h": "Grow back your sharpest teeth, you know my desire. I will travel far beyond the path of reason - take me back to Eden.$3",
+"Core.Hector.Fall.Sunday.2h": "Does a town this small really need a mayor? Maybe I should be mayor, instead. And then I'd immediately make a new rule: No mayors. Vote B- Hector!$9",
+
+// 2 HEARTS - WINTER
+"Core.Hector.Winter.Monday.2h": "I guess with nothing to grow, you go down into those mines a lot. I don't need to tell you to be careful, you're your own person.$25",
+"Core.Hector.Winter.Tuesday.2h": "People often ask me, 'Hector, do you go to a vet, or a doctor?' The answer is neither, also, nobody has ever asked me that.$16",
+"Core.Hector.Winter.Wednesday.2h": "Today, I made and ate three cheeseburgers. I think I've still got a wolf's appetite.$8",
+"Core.Hector.Winter.Thursday.2h":"Is visiting me how you keep busy, or do you, like... run around just talking to everyone? That's a LOT of socializing. Wowie-zowie.$16",
+"Core.Hector.Winter.Friday.2h":"My plants don't get a lot of sunlight this time of year, so I have to be careful and do a lil' extra magic to keep them alive.$23",
+"Core.Hector.Winter.Saturday.2h":"Do you think anyone would be upset if I staged like, some kind of horrific snowman massacre?$6",
+"Core.Hector.Winter.Sunday.2h": "It gets dark very early, which is fine. That leaves more time to cause problems for folks on purpose.$9",
+
+// 4 HEARTS - SPRING
+"Core.Hector.Spring.Monday.4h":"Oh. Hey, @. It's nice to see you.$0#$b#You don't look like you believe me.$16",
+"Core.Hector.Spring.Tuesday.4h": "I turned myself into a magpie out of curiosity, and then like... realized I didn't instinctively know how to fly. Oops.$4",
+"Core.Hector.Spring.Wednesday.4h":"I don't hinge on romantic language for everything like your guildmaster does...$12#$b#But I will say that Spring sunrises are particularly pretty.$13",
+"Core.Hector.Spring.Thursday.4h":"Honestly, I'm getting a little tired of being in here all the time...$18#$b#I don't want to people, though.$19",
+"Core.Hector.Spring.Friday.4h": "I'm a sloot for some strawbebbies.$8[745]", 
+"Core.Hector.Spring.Saturday.4h":"Have you taken any time just to sit, today? Connecting with nature is a really important thing to dedicate time to.$12", 
+"Core.Hector.Spring.Sunday.4h":"You know, @... I thought empathy intentionally hid from me, but here you are.$8",
+
+// 4 HEARTS - SUMMER
+"Core.Hector.Summer.Monday.4h":"The days in Summer are longer; the earth is telling us, in her own way, to enjoy what we've been given. 'Go touch grass', but like, nicer.$9",
+"Core.Hector.Summer.Tuesday.4h":"If I'm sweating, I want to have worked for it. This sucks.$18",
+"Core.Hector.Summer.Wednesday.4h":"Aren't fireflies a tragedy? They're here, so briefly. They exist to be beautiful and enjoyed. And then they're gone. How unfair.$24",
+"Core.Hector.Summer.Thursday.4h":"Mayonnaise... is for drinking, right? Right?$24#$b#It's NOT? You mean to tell me that people just go on the internet and LIE about stuff like this?$20",
+"Core.Hector.Summer.Friday.4h":"I went for a stupid little mental health walk today. It was nice, feet in the grass. Trying and failing to enjoy the heat. Ah, well. An attempt was made.$0",
+"Core.Hector.Summer.Saturday.4h":"It's the weekend! You know what that means!$9#$b#That's right! Doing the same thing I do every other day because I'm not a slave to capitalism.$1",
+"Core.Hector.Summer.Sunday.4h":"Not unlike this cake, I have layers. Yes, I baked it. No, it doesn't have a file hidden inside it.[220 221]",
+
+// 4 HEARTS - FALL
+"Core.Hector.Fall.Monday.4h":"The season of death. Not a bad thing, by any means. Everything has to die in order to be reborn. It's part of life.$7",
+"Core.Hector.Fall.Tuesday.4h": "Mateo came by and asked if I wanted some flavored coffee bullshit. I told them no, but they brought one for me anyway.$16#$b#It was delicious.$8",
+"Core.Hector.Fall.Wednesday.4h":"Book said you'd be stopping in and DEMANDED, yes - DEMANDED, that I made extra breakfast for you. I'm at her whims; can't say no. She'll get upset.$7[201]", 
+"Core.Hector.Fall.Thursday.4h": "It's getting cold enough out that I've started to bother wearing shoes again. It's disappointing, I feel less connected to the earth that way.$24",
+"Core.Hector.Fall.Friday.4h":"Would you consider your farming practices ethical? Is that the kind of thing you think about? You're effectively supporting a small community, that's admirable.$8",
+"Core.Hector.Fall.Saturday.4h":"The light of the sunrise, and you remember everything. Only 'til the sun recedes once again, and the night comes down.$3",
+"Core.Hector.Fall.Sunday.4h": "I appreciate that you visit. It gets lonely here, sometimes. I just really hope you believe me. Will you, if I say it more?$17#$b#That's kind of hard, but I guess I could try.$16",
+
+// 4 HEARTS - WINTER
+"Core.Hector.Winter.Monday.4h": "Maybe not everyone is such a fanatic for the cold. That's fine, I guess. Just uh. Take care of yourself, and whatever. Don't get sick.$6",
+"Core.Hector.Winter.Tuesday.4h":"Are you a spiritual person, @? It would be kind of weird if you weren't, I mean, you're friends with one.$7#$b#...We're friends, right? I haven't somehow been misunderstanding your consistent visits?$2",
+"Core.Hector.Winter.Wednesday.4h":"I think television is such an interesting glimpse into humanity's relationship with art.$7#$b#In particular, I like shows with a healthy converging of genres. Cowboys and robots, for example.$8",
+"Core.Hector.Winter.Thursday.4h": "Don't get the wrong idea. I didn't make this FOR you, I just had it. Laying around. For sure!$9[253]",
+"Core.Hector.Winter.Friday.4h":"Once in a while, I get a wild critter busting in here to escape the cold. That's alright, I just try and make a home for 'em.$1",
+"Core.Hector.Winter.Saturday.4h":"I've been doing, like, stretches and stuff. Exercise sucks though, actually. Who made human bodies so fragile? Who thought requiring so much maintenance was a good idea?$2",
+"Core.Hector.Winter.Sunday.4h":"I love how the sun glitters on fresh snow in the morning, don't you?$14#$b#Shut up, I wasn't being sentimental, I was just SAYING-$8",  
+
+// 6 HEARTS - SPRING
+"Core.Hector.Spring.Monday.6h": "I know the secret to winning everyone's heart, @. Cool rocks! [86]$1#$b#That's how it works, right? Nothing beats a nice little chunk of nature.",
+"Core.Hector.Spring.Tuesday.6h":"Ya'know, I'd like to go drinking with you, but I don't like the hopsy taste most beer has.$24#$b#I do love them when they're really fruity and sour, though.$8",
+"Core.Hector.Spring.Wednesday.6h":"The hurdy gurdy? Oh, it was a gift from a very dear friend and neighbor, the goat herder.$0#$b#I got really good at it so I could play it for him. I'd play for you too, if you wanted.$7",
+"Core.Hector.Spring.Thursday.6h":"How are things going on your farm, @? It's pretty amazing that you keep on top of that in addition to a town's worth of emotional labor.$7#$b#Mine included, sorry about that.$2",
+"Core.Hector.Spring.Friday.6h":"Honestly, I've never been outside of the Valley. But I've explored every inch of the surrounding forests and mountains...$23#$b#Maybe I'll show you some of nature's secrets sometime, @.", 
+"Core.Hector.Spring.Saturday.6h":"Why do people cut the grass in front of their houses? Just let it get big and wild, who cares.$8#$b#If there's an insistence on keeping it short, grow moss instead. Moss stays little.$22",
+"Core.Hector.Spring.Sunday.6h": "Have you considered abandoning society entirely and just living in the Deep Mountains? No?$8#$b#I mean, I guess you already kinda-sorta did that with the farm, huh? Okay, but, hear me out, take it a step further-$7",
+ 
+// 6 HEARTS - SUMMER
+"Core.Hector.Summer.Monday.6h":"Waaaaah, I'm all achy. You'd think I'm like, a hundred years old with how badly everything swells up when it gets hot.$18#$b#My age? How rude. I didn't have any reason to keep track before I started taking on a human shape.$16",
+"Core.Hector.Summer.Tuesday.6h":"Such a shame that I get these horrible bellyaches when I have ice cream. It's such a good treat for this time of year.$17#$b#Only thing that does me dirtier is chocolate. Can't eat it at all.$4",
+"Core.Hector.Summer.Wednesday.6h":"I'm this close to crawling under my bed and staying there, @. The heat is ridiculous.$24",
+"Core.Hector.Summer.Thursday.6h":"Have you ever seen a Starfruit tree? They grow sideways. You can sit on them.[268]$0#$b#Nature really is something to behold, huh?$8",
+"Core.Hector.Summer.Friday.6h": "I've never been to the desert, and I hope I never have a reason to. I hate the heat, I hate sand. It gets everywhere. Just, ugh. No thanks.$18",
+"Core.Hector.Summer.Saturday.6h":"Eloise's level of empathy is unbelievable. Jacob is a brilliant dad to have raised her that way.$14#$b#One day, I'll teach her everything I know. Book would love to be in her care.$13",
+"Core.Hector.Summer.Sunday.6h":"I cleaned the barn out really well, then got some of Jacob's inside-chores done as a surprise.$1#$b#He has so much to do, so I want to help in what little ways I can. That way, he can spend lots of time with Eloise.$12",
+
+// 6 HEARTS - FALL
+"Core.Hector.Fall.Monday.6h":"Ah, yes. That time of year where everything's cooled off, except Mateo's love for autumnal-themed snacks.$13",
+"Core.Hector.Fall.Tuesday.6h":"What if I just stacked a TON of pumpkins in the town square? Think that'd be fun?$23#$b#We'd be eating pumpkin-flavored stuff until next year.$13",
+"Core.Hector.Fall.Wednesday.6h":"Love a good chrumchy leaf. Stepping on them is okay, death is part of life and they've done their part by the time they're on the ground.$0",
+"Core.Hector.Fall.Thursday.6h": "Amaranth is actually one of my favorite things that grows this time of year. Maybe it's not the most profitable or whatever, but... here you go, @.$12[300]",
+"Core.Hector.Fall.Friday.6h":"One of these days, I should guide you through the mountains. I think you'd really appreciate the scenery. It's amazing.$14",
+"Core.Hector.Fall.Saturday.6h":"Is there something you give, that you'll never receive in return? Do you know what it is?$3",
+"Core.Hector.Fall.Sunday.6h":"If there was a costume contest for Spirit's Eve, I'd make sure Eloise won it.$9",
+
+// 6 HEARTS - WINTER
+"Core.Hector.Winter.Monday.6h":"Want to help me build a small army of snowmen? I figure, it'll look real spooky if we splatter red food dye all over them.$8",
+"Core.Hector.Winter.Tuesday.6h":"Take care of yourself, okay? Don't get sick. Drink water and dress warm. Whatever it takes. Put on a scarf or something.$7",
+"Core.Hector.Winter.Wednesday.6h":"It's not like the earth is giving up this time of year. Not at all.$7#$b#More like she's taking a long rest. Self-care is important, you know.$8",
+"Core.Hector.Winter.Thursday.6h": "I've got a stack of blankets that would make a mountain jealous.$8#$b#What? No, that's not an invitation.$4",
+"Core.Hector.Winter.Friday.6h":"Found this cozy corner by the window where the sunlight filters through the frost.$1#$b#I thought I'd lose out on my sun puddle for the Winter, but apparently not.$0", 
+"Core.Hector.Winter.Saturday.6h":"Winter nights are like a canvas splashed with stars. I'm looking forward to spending some time out and about to appreciate it.$12",
+"Core.Hector.Winter.Sunday.6h":"The earth sleeps. Nature's cycles mirror our own, don't you think?$23",
+
+// 8 HEARTS - SPRING
+"Core.Hector.Spring.Monday.8h": "There's so much more to this world than my tower, and the wood that surrounds it.$13#$b#I can't imagine being cooped up in there anymore, especially with Jacob and Eloise relying on me.$14",
+"Core.Hector.Spring.Tuesday.8h":"You know, @. You're in touch with druidics yourself - have you tried communing with nature?$23#$b#Pick your favorite tree, take off your shoes, and spend some time with it. It might have a lot to say, just not with words.$7",
+"Core.Hector.Spring.Wednesday.8h": "Spring is the season of renewal. As much as I love Winter, I can't deny feeling rejuvenated when the snow clears.$12#$b#I'm sure it's less romantic for you, you've got to go back to farm work.$9",
+"Core.Hector.Spring.Thursday.8h": "I have a private celebration twice a year, when the sun is at either it's highest or lowest point in the sky for the year.$12#$b#Would you be interested in joining-? It's a pretty important thing for me, actually.$4", 
+"Core.Hector.Spring.Friday.8h": "It's disappointing to me that so many people cut down their weeds.$16#$b#Dandelions, for example, make great tea. Just because something's a little uggo doesn't mean you should cut it away.$0[251]",
+"Core.Hector.Spring.Saturday.8h": "Eloise can talk for hours about birds. I asked her for magpie facts - those are my favorite, and she went on and on.$13#$b#Jacob will do the same if you ask him about his practice. I love them both.$14",
+"Core.Hector.Spring.Sunday.8h": "You rosin a hurdy gurdy wheel like you would a bow, and you play the instrument with a hand crank. The gurdy sounds a bit haunted compared to the violin, though.$8",
+
+//8 HEARTS - SUMMER
+"Core.Hector.Summer.Monday.8h":"I feel like most people get really excited during the Summer, but I mostly just whine about it.$8#$b#Think it'd be hard to get air conditioning in the tower?$9",
+"Core.Hector.Summer.Tuesday.8h":"Have you ever felt like you wanted to go home, but you're already there? What is this feeling?$23#$b#Must be a distinctly human thing.$22",
+"Core.Hector.Summer.Wednesday.8h":"Druids are deeply attuned to the phases of the moon. It's influence is subtle, but present.$7#$b#It effects crops and animal behaviors. I can't help but feel a little wilder when it's full.$8",
+"Core.Hector.Summer.Thursday.8h": "If Spring is the season of renewal, Summer is the season of abundance.$12#$b#I have a bad relationship with the heat, but I can acknowledge the harshness is beautiful in it's own way.$14",
+"Core.Hector.Summer.Friday.8h":"Sunflowers are intelligent, you know? They follow the sun's path during the day, but face eastward at night.$14#$b#Their seeds are also very tasty, roasted with some salt!$9[431]",
+"Core.Hector.Summer.Saturday.8h":"The more I think about it, the more I want to introduce Eloise to Book. She's already seen me shapeshift, after all.$12#$b#I think the Scarp would be very well-tended to, in her care. Maybe one day.$14",
+"Core.Hector.Summer.Sunday.8h":"Fir trees are my favorite. I'm definitely not just saying this because one is currently trying to eat my tower.$4#$b#That's nature for you, though. She'll do as she pleases, and take what she wants.$0",
+
+//8 HEARTS - FALL
+"Core.Hector.Fall.Monday.8h":"You seem to be a catalyst for change, @. You reintegrated Mateo, and now - well.$3#$b#I leave the tower, I have a job, I've made friends. I would've kept myself from these experiences if not for you.$8",
+"Core.Hector.Fall.Tuesday.8h":"I have a very specific belief that the changing colors of the foliage symbolize life, death, and rebirth; it's something deeply eternal.$6#$b#It's also, like, really aesthetic.$8",
+"Core.Hector.Fall.Wednesday.8h":"Fall is a tapestry woven from Summer's memories.$14", 
+"Core.Hector.Fall.Thursday.8h": "Plants and dirt are a means to communicate with the earth, herself. They may not speak the same language, but that doesn't mean they aren't listening.$13#$b#I encourage you to try, when you've got the chance.$14",
+"Core.Hector.Fall.Friday.8h": "I try not to let on to the folks in Pelican Town that's I'm actually a wolf-in-questionable-clothing, but I like wearing my armor to Spirit's Eve.$12#$b#That circlet means the world to me. Too bad it's been broken.$14",
+"Core.Hector.Fall.Saturday.8h":"I make the most of the turning tide, it just split what's left of the burning silence.$3#$b#Don't wait, cuz' this could be the last time you turn up in the reveries of my mind.$3",
+"Core.Hector.Fall.Sunday.8h":"Trees have a sweet tooth too, you know. They'll share if you just ask nicely.$8[724]",
+
+// 8 HEARTS - WINTER 
+"Core.Hector.Winter.Monday.8h": "Jacob has given me a few of these, but... I think you need them more.[349]$12#$b#I know you're probably in the mines more since the farm is dormant. Don't get hurt, alright?$13",
+"Core.Hector.Winter.Tuesday.8h":"When you get the chance, take a moment to appreciate the stillness of the earth. It's quiet out in a unique way right now.$8#$b#She's dormant right now, but she won't be for long.$7",
+"Core.Hector.Winter.Wednesday.8h":"I've never spent much time thinking about the future. It never seemed necessary; I took everything one sunrise at a time.$22#$b#Lately, I think about so many thinks. Jacob, Eloise, the health of the Scarp...$23",
+"Core.Hector.Winter.Thursday.8h":"@! I've picked up reading. Mateo's library is pretty substantial, ya'know?$7#$b#I've gotten really into this comic, Agent of As-something. It's about a God of Stories, it's real good.$6",
+"Core.Hector.Winter.Friday.8h":"Holly will make you sick if you eat it. Not sure why you would, but like..$8#$b#I've seen you pick stuff right up off the floor, or out of the garbage. So figured I'd give you the heads up.$9",
+"Core.Hector.Winter.Saturday.8h":"I can only change into what I already am. I'm certainly not a bear, and yet, nothing beats a nice long nap during Winter.$6",
+"Core.Hector.Winter.Sunday.8h":"Winter brings a certain darkness - I can understand how that impacts people who tend toward the light.$14#$b#I don't mind it at all, though.$13",    
+
+// 10 HEARTS PLATONIC - SPRING 
+"Core.Hector.Spring.Monday.10h.Platonic": "You're kind of like a sun puddle. You know that, @? Warm, and always welcomed.$12#$b#Don't look at me like that. I'm allowed to be sentimental sometimes, okay?$12", 
+"Core.Hector.Spring.Tuesday.10h.Platonic":"@, your cultivation skills really are something else. You started from nothing, but %farm is looking amazing despite the challenges.$8#$b#...Sorry not sorry for BEING one of said challenges, but I do appreciate your dedication.$9",
+"Core.Hector.Spring.Wednesday.10h.Platonic": "I found a cool rock. I thought you might like it.$4[577]#$b#That's the basis of how friendship works, right? Cool rocks?$8", 
+"Core.Hector.Spring.Thursday.10h.Platonic": "Jacob seems especially renewed this time of year, which is great. It bums me out when he's down.$12#$b#I just want him and Eloise to be happy, and lead an easy life. They deserve it.$14", 
+"Core.Hector.Spring.Friday.10h.Platonic": "Change is on the wind, I can feel it. The question is, what's coming-$23#$b#Oh, hi @. What's up?$6",
+"Core.Hector.Spring.Saturday.10h.Platonic": "Eloise was right to call me out when we first met. I think about it often; if she hadn't, I feel like I'd be different, somehow.$12#$b#Book agrees, and is excited to meet her some day. Not sure I can get Jacob in on it, though.$8",
+"Core.Hector.Spring.Sunday.10h.Platonic":"I martyr'd my character in Mateo's tabletop game, and have died several times since in less dramatic ways.$8#$b#Mainly because now I keep doing stupid concepts. Right now I'm playing a tiny granny with a frying pan. I hope she lives more than a session.$4", 
+
+// 10 HEARTS PLATONIC - SUMMER
+"Core.Hector.Summer.Monday.10h.Platonic":"I'll spare you the whining about how much I hate the heat. I'm looking into air conditioning options for the tower.$24#$b#Unfortunately, I don't have a magic trick to reduce the air temperature.$16",
+"Core.Hector.Summer.Tuesday.10h.Platonic":"Jacob and I took Eloise for some ice cream. It's very sweet she remembered I can't have chocolate.$7#$b#In related news, I'm now kind of addicted to sorbet.$6", 
+"Core.Hector.Summer.Wednesday.10h.Platonic":"I like to wear a little skirt as part of my bathing suit, no matter what I'm presenting as. Skirts are for everyone, and I deserve to feel pretty.$14",
+"Core.Hector.Summer.Thursday.10h.Platonic": "You know, if you share one of these with someone, you're destined to be together with them.$8[268]#$b#I'm kidding.$7#$b#Am I?$6",
+"Core.Hector.Summer.Friday.10h.Platonic":"Your company is like the growth of wildflowers. Unexpected, but delightful. You've upturned the soil of my solitude.$12", 
+"Core.Hector.Summer.Saturday.10h.Platonic":"The days are longer this time of year. More sunshine, more productivity.$7#$b#There's lots of reasons the turn of the season is so celebrated, and that's one of them.$8",
+"Core.Hector.Summer.Sunday.10h.Platonic":"Eloise let me borrow her spare binoculars so we can go birdwatching. It's hard to sit still and be quiet, but for her, I will.$14",
+
+// 10 HEARTS PLATONIC - FALL
+"Core.Hector.Fall.Monday.10h.Platonic":"Mateo's trying to get me to do some movie marathon with them. What kind of adrenaline junkie just watches scary stuff over and over?$23#$b#Of course I didn't say no. That's what being a friend is about, I think. Sometimes you just gotta do stuff you don't want to so the other person's happy.$8",
+"Core.Hector.Fall.Tuesday.10h.Platonic":"If I could breathe life back into every animal that Jacob loses during work, I would.$21#$b#Not because I don't adhere to the cycle of life, but because the loss makes him sad and I don't want him to be sad.$25",
+"Core.Hector.Fall.Wednesday.10h.Platonic":"Fall's beauty is quiet, I think. Maybe that's why it's so deeply appreciated.$23#$b#Or maybe it's just because it's not hot and sticky out anymore.$8",
+"Core.Hector.Fall.Thursday.10h.Platonic":"What does your farm look like this time of year? I bet it's very colorful. I might come by and see it sometime.$12", 
+"Core.Hector.Fall.Friday.10h.Platonic": "I made this for Mateo, but they'd get all sentimental about it and I'm not in the mood for that.[746]$9#$b#Go ahead, give it to them instead. Or keep it. Whatever you want.$14",
+"Core.Hector.Fall.Saturday.10h.Platonic":"White roses, black doves, Godmother, rise up. I need you to see me for what I have become.$3#$b#My, my, those eyes like fire. I'm a winged insect, you're a funeral pyre.$3",
+"Core.Hector.Fall.Sunday.10h.Platonic":"The season of decay. Mushrooms, dead grass. Dead leaves. It's kind of like being a reptile. You've got to shed your skin to grow.$7#$b#Does Emeritus shed?$23",
+
+// 10 HEARTS PLATONIC - WINTER 
+"Core.Hector.Winter.Monday.10h.Platonic":"Winter's icy grip chills to the bone, but your company warms me right back up.$7#$b#I feel like you look at me funny whenever I say something nice.$8", 
+"Core.Hector.Winter.Tuesday.10h.Platonic": "Book told me to get this to you. It's very important.[450]$13#$b#Don't get frostbite, or sick, or... whatever.$14",
+"Core.Hector.Winter.Wednesday.10h.Platonic":"Sometimes I think about how I wouldn't be who I am right now if not for you.$12#$b#Then I think about how you probably hear that from Mateo, too.$13#$b#That just means you're a very, very good person.$14", 
+"Core.Hector.Winter.Thursday.10h.Platonic":"You're very empathetic. Sometimes I worry - did someone hurt you in the past?$2#$b#You care so deeply for other people. I just wonder where it comes from.$23",
+"Core.Hector.Winter.Friday.10h.Platonic":"I know you don't have much farming to do, but you saw what happened to Mateo. Too much time in the mines will leave you sunstarved.$7", 
+"Core.Hector.Winter.Saturday.10h.Platonic":"Usually, I love the Winter. But maybe it was because I liked having a reason to be solitary.$7#$b#Can't help but look forward to Spring, when everyone's out and about.$1", 
+"Core.Hector.Winter.Sunday.10h.Platonic":"I've convinced Eloise to build a snowgoon army with me. I'm glad she's got a proclivity for pranks.$1#$b#Mateo's gonna wake up to such a scene.$9", 
+
+// DATING - SPRING 
+"Core.Hector.Spring.Monday.10h.Dating": "Oh, hey. It's my favorite sun puddle. When I see you, the world gets a little bit brighter. A little bit warmer. How are you doing?$12", 
+"Core.Hector.Spring.Tuesday.10h.Dating":"The way you tend to %farm is outright inspiring. The way you've coaxed life out of the Earth without magic...$14#$b#I guess you're more skilled than I am, since I cheat with my plants.$8",
+"Core.Hector.Spring.Wednesday.10h.Dating": "Eloise told me that not only do otters have pockets for their favorite rocks, but they hold hands so they don't float apart from each other when napping.$10[577]", 
+"Core.Hector.Spring.Thursday.10h.Dating": "Every time I see the flowers that grow around town, I think of you. Beautiful, delicate...$10#$b#How about you show me where the delicate stops tonight, @?$11", 
+"Core.Hector.Spring.Friday.10h.Dating": "Aideen brought Baron Munchington in for his shots today.$7#$b#He said he didn't need them due to his royal status. Well, I promptly informed him I skew anarchist.$9",
+"Core.Hector.Spring.Saturday.10h.Dating": "Book is requesting your company. Come visit her sometime, okay? Especially if you have some free time while I'm at work.$8",
+"Core.Hector.Spring.Sunday.10h.Dating":"We played tabletop the other night. I tried to flirt with a dragon. It didn't work. Mateo doesn't know what fun is. They wouldn't know romance if it hit them in the face.$16", 
+
+// DATING - SUMMER
+"Core.Hector.Summer.Monday.10h.Dating":"I could complain about how warm it is, or I could say how cool it is to be in your company.$11#$b#Ugh, that wasn't funny. I tried.$25",
+"Core.Hector.Summer.Tuesday.10h.Dating":"You. Me. Sorbet. Date night, let's do it.$8#$b#We can't go to the ice cream stand without bringing some back for Eloise though, that's the rule.$14", 
+"Core.Hector.Summer.Wednesday.10h.Dating":"Okay, one of the things I DO like about the Summertime is that my bathing suit makes me feel pretty and I like wearing it.$9",
+"Core.Hector.Summer.Thursday.10h.Dating": "You know, if you share one of these with someone, you're destined to be together with them.$10[268]#$b#It's just folklore, but... I wouldn't mind it being true.$11",
+"Core.Hector.Summer.Friday.10h.Dating":"Am I just feeling a little wolfish or do you look good enough to eat, @?$10", 
+"Core.Hector.Summer.Saturday.10h.Dating":"I really love your smile, @. Lights up a room.$12#$b#...What? Does an unprompted compliment feel weird coming from me?$8",
+"Core.Hector.Summer.Sunday.10h.Dating":"Eloise let me borrow her spare binoculars so we can go birdwatching. It's hard to sit still and be quiet, but for her, I will.$14#$b#I'd like for you to come along with us, @. I think it'd be nice.$12",
+
+// DATING - FALL
+"Core.Hector.Fall.Monday.10h.Dating":"If you give a mouse a cookie - I told Mateo I'd watch movies with them, and now they want to do matching Spirit's Eve's costumes. You, me, them - three musketeers? $8",
+"Core.Hector.Fall.Tuesday.10h.Dating":"If I could breathe life back into every animal that Jacob loses during work, I would.$21#$b#Not because I don't adhere to the cycle of life, but because the loss makes him sad and I don't want him to be sad.$25",
+"Core.Hector.Fall.Wednesday.10h.Dating":"It's the season of harvest, and I'm grateful for what you and I have cultivated together.$10#$b#I'd rather see you in my bed than a bed of sunflowers, though.$11",
+"Core.Hector.Fall.Thursday.10h.Dating":"Even as everything shifts and changes, I feel very grounded.$14#$b#Fall reminds us that death is part of life.", 
+"Core.Hector.Fall.Friday.10h.Dating": "I grew and carved this for Mateo, but they'll get all sappy about it. Can you give it to them instead?[746]",
+"Core.Hector.Fall.Saturday.10h.Dating":"Sugar, I've developed a taste for you now. Do you wanna see how far it goes?#$b#Do you want to test me now, my love? You must be crazy if you think I'll give in so easily.$3",
+"Core.Hector.Fall.Sunday.10h.Dating":"I wonder what Eloise will be for Spirit's Eve. Probably a bird, who am I kidding.$8#$b#Maybe I can convince her to be a dinosaur. They're, like, kind of birds? Right?$9",
+
+// DATING - WINTER 
+"Core.Hector.Winter.Monday.10h.Dating":"When I think of you, I think of... a really soft, cozy blanket that I never want to let go of.$12#$b#Thanks for bringing me such comfort.$10", 
+"Core.Hector.Winter.Tuesday.10h.Dating": "A little bit of coffee for my favorite person.[450]$13#$b#Don't go getting sick from the cold, now. Then I'd have to take care of you, and that'd be 'terrible'.$11",
+"Core.Hector.Winter.Wednesday.10h.Dating":"I wouldn't be who I am right now if not for you. I know that for sure.$12#$b#Bet you hear that from Mateo, too. That just means you're a very, very good person and I'm lucky to call you mine.$11", 
+"Core.Hector.Winter.Thursday.10h.Dating":"If anyone ever hurt your feelings, you know I'd just eat them. Right?$8#$b#And I'll pick my teeth with their bones. Violent? What? That's romantic!$9",
+"Core.Hector.Winter.Friday.10h.Dating":"You have a greenhouse, right? Maybe focus on that rather than the mines. You don't want to end up sunstarved like Mateo used to get.$12", 
+"Core.Hector.Winter.Saturday.10h.Dating":"I think I only liked Winter for the cold, and for how solitary it was when that's what I wanted.$7#$b#But now I look forward to Spring, when everyone's out and about.$1", 
+"Core.Hector.Winter.Sunday.10h.Dating":"I got you, Eloise, Jacob, and Mateo fun gifts for Winter Star... are they good, objectively? Probably not, but they're FUN! $9", 
+
+// MARRIED - SPRING 
+"Marriage.Hector.GoodWeather.Spring.1":"Oh, hey. It's my favorite sun puddle. When I see you, the world gets a little bit brighter. A little bit warmer. How are you doing?$12",
+"Marriage.Hector.GoodWeather.Spring.2":"The way you tend to %farm is outright inspiring. The way you've coaxed life out of the Earth without magic...$14#$b#I guess you're more skilled than I am, since I cheat with my plants.$8",
+"Marriage.Hector.GoodWeather.Spring.3":"Eloise told me that not only do otters have pockets for their favorite rocks, but they hold hands so they don't float apart from each other when napping.$10[577]",
+"Marriage.Hector.GoodWeather.Spring.4":"Every time I see the flowers that grow around town, I think of you. Beautiful, delicate...$10#$b#How about you show me where the delicate stops tonight, @?$11",
+"Marriage.Hector.GoodWeather.Spring.5":"Book is requesting your company. Come visit her sometime, okay? Especially if you have some free time while I'm at work.$8",
+"Marriage.Hector.GoodWeather.Spring.6":"We played tabletop the other night. I tried to flirt with a dragon. It didn't work. Mateo doesn't know what fun is. They wouldn't know romance if it hit them in the face.$16",
+"Marriage.Hector.GoodWeather.Spring.7":"Aideen brought Baron Munchington in for his shots today.$7#$b#He said he didn't need them due to his royal status. Well, I promptly informed him I skew anarchist.$9",
+"Marriage.Hector.GoodWeather.Spring.8":"Honestly, I love working at the vet. I can't see myself doing anything else.$1",
+"Marriage.Hector.GoodWeather.Spring.9":"I was considering hosting dinner for you, Jacob and Eloise, but I don't think Jacob would like the tower very much.$23",
+"Marriage.Hector.GoodWeather.Spring.10":"Hey, once I'm done clearing out Jacob's barn, want me to come help you? I figure you've got it under control, but just in case.$8", 
+"Marriage.Hector.GoodWeather.Spring.11":"Sprinklers are brilliant. I can't imagine trying to deal with watering everything you've got going on by hand.$7",
+"Marriage.Hector.GoodWeather.Spring.12":"How's my deer-ly beloved doing today?$1",
+"Marriage.Hector.GoodWeather.Spring.13":"Hope you're only working as much as you need to, and not enough to be super tired and miserable.$8",
+"Marriage.Hector.GoodWeather.Spring.14":"Hey, give %pet a extra kiss on the forehead from me. Okay?$8",
+"Marriage.Hector.GoodWeather.Spring.15":"You've got all of me, @ - heart, body, mind. What do you want to do about it?$11",
+"Marriage.Hector.GoodWeather.Spring.16":"You know, there are those hot springs up by the railroad. What if we...?$11",
+"Marriage.Hector.GoodWeather.Spring.17":"Bet you'd look really good pressed up against the tower windows, @.$11",
+"Marriage.Hector.GoodWeather.Spring.18":"@, I think you're more than just somebody I was destined to meet.$10",
+"Marriage.Hector.GoodWeather.Spring.19":"My love is an animal call. Cutting through the darkness, bouncing off the wall.$3",
+"Marriage.Hector.GoodWeather.Spring.20":"Would you follow me between the jaws of fate, @? Whatever that meant?$11",
+"Marriage.Hector.GoodWeather.Spring.21":"I want you to saturate me, @. I just can't get enough of you.$11", 
+"Marriage.Hector.GoodWeather.Spring.22":"Yeah, I think I'm done fighting off change. This is my life now, and I'm happy with it. Happy with you.$12",
+"Marriage.Hector.GoodWeather.Spring.23":"The Valley is a beautiful place. I know it seems to trap some people, but they just don't see it the same way I do.$14",
+"Marriage.Hector.GoodWeather.Spring.24":"Travel? Outside the valley? No, probably not. I don't know what being that far away from The Grove would do, even for a short period.$23",
+"Marriage.Hector.GoodWeather.Spring.25":"I like to go berry and mushroom foraging when the season's right. You should come along with me.$1",
+"Marriage.Hector.GoodWeather.Spring.26":"I'd only go into town if you were with me. I'm comfortable in The Scarp, but I don't really know anyone in Pelican Town.$4",
+"Marriage.Hector.GoodWeather.Spring.27":"You're my happy ending, @.$15",
+"Marriage.Hector.GoodWeather.Spring.28":"You know, @... I look at you, and I feel connected in my soul.$15",
+"Marriage.Hector.GoodWeather.Spring.29":"My deer-ly beloved. How are you doing today? Is there anything I can do for you?$12",
+"Marriage.Hector.GoodWeather.Spring.30":"There's a lot that I love about you.$12#$b#But... I also love how you've made me feel worthy OF love.$13",
+"Marriage.Hector.GoodWeather.Spring.31":"Sometimes I think that you don't realize how incredible you are, actually.$8#$b#You should start looking in the mirror and complimenting yourself! Works for me.$9", 
+"Marriage.Hector.GoodWeather.Spring.32":"The viscous cycle of self-doubt was over the moment you smiled at me.$10",
+"Marriage.Hector.GoodWeather.Spring.33":"There's probably some sexy metaphor, what with you shifting into a deer and me a wolf? I can't place it, though...$8",
+"Marriage.Hector.GoodWeather.Spring.34":"Is it a weird compliment to say that you make me feel... safe?$13",
+"Marriage.Hector.GoodWeather.Spring.35":"I wish the valley had a more robust music scene.$17#$b#I'd be taking you to shows all the time. We'll just have to deal with dancing to the radio for now, though.$19",
+"Marriage.Hector.GoodWeather.Spring.36":"%Hector tugs you into an unprompted, heady kiss before slinking off.",
+"Marriage.Hector.GoodWeather.Spring.37":"Since I already do a lot of chores for Jacob, feel free to let me know if you need me to do the same for the farmhouse. I can make time.$1",
+"Marriage.Hector.GoodWeather.Spring.38":"Every time I see the flowers that grow around town, I think of you. Beautiful, delicate...$10#$b#How about you show me where the delicate stops tonight, @?$11", 
+"Marriage.Hector.GoodWeather.Spring.39":"Your animals love you loads, @. We gossip often.$1",
+"Marriage.Hector.GoodWeather.Spring.40":"I'm feeling a nap. How 'bout you? Wanna join me?$8",
+"Marriage.Hector.GoodWeather.Spring.41":"The gurdy? It's not THE most romantic sounding thing, but I'd play for you. Wasn't sure if you were into that kind of thing.$4",
+"Marriage.Hector.GoodWeather.Spring.42":"I love you so much. But it's easier for me to show, rather than tell - so let me show you.$11", 
+"Marriage.Hector.GoodWeather.Spring.43":"%farm's looking great, you're really working that land. You're so impressive, @.$8",
+"Marriage.Hector.GoodWeather.Spring.44":"I find myself with a lot of energy. How about you help tire me back out, huh?$11",
+"Marriage.Hector.Spring1": "New year! Feeling renewed. Got lots of energy. Feeling kind of hyper. You know, we can do something about it if you're feeling the same.$11",
+"Marriage.Hector.Spring13": "Okay, so I've got this big plan to rig the festival tomorrow so that Eloise wins...$9",
+"Marriage.Hector.Spring23": "Of course I'll dance with you. Don't worry about me putting up a fuss.$12",
+"Marriage.Hector.Spring24": "Is dancing around with a bunch of dorks something I'd like to do? No. But would I do it for you? Yes.$10",   
+"Marriage.Hector.Spring28": "Hey, since it's almost Summer, does that mean you'll be wearing less clothes around-?$10#$b#What, can you blame me for asking?$11",
+
+
+// MARRIED - SUMMER
+"Marriage.Hector.GoodWeather.Summer.1":"I could complain about how warm it is, or I could say how cool it is to be in your company.$11#$b#Ugh, that wasn't funny. I tried.$25",
+"Marriage.Hector.GoodWeather.Summer.2":"You. Me. Sorbet. Date night, let's do it.$8#$b#We can't go to the ice cream stand without bringing some back for Eloise though, that's the rule.$14",
+"Marriage.Hector.GoodWeather.Summer.3":"Okay, one of the things I DO like about the Summertime is that my bathing suit makes me feel pretty and I like wearing it.$9",
+"Marriage.Hector.GoodWeather.Summer.4":"You know, if you share one of these with someone, you're destined to be together with them forever.$10[268]#$b#Do you wanna?$11",
+"Marriage.Hector.GoodWeather.Summer.5":"Am I just feeling a little wolfish or do you look good enough to eat, @?$10",
+"Marriage.Hector.GoodWeather.Summer.6":"I really love your smile, @. Lights up a room.$12#$b#...What? Does an unprompted compliment feel weird coming from me?$8",
+"Marriage.Hector.GoodWeather.Summer.7":"Eloise let me borrow her spare binoculars so we can go birdwatching. It's hard to sit still and be quiet, but for her, I will.$14#$b#I'd like for you to come along with us, @. I think it'd be nice.$12",
+"Marriage.Hector.GoodWeather.Summer.8":"Honestly, I love working at the vet. I can't see myself doing anything else.$1",
+"Marriage.Hector.GoodWeather.Summer.9":"I was considering hosting dinner for you, Jacob and Eloise, but I don't think Jacob would like the tower very much.$23",
+"Marriage.Hector.GoodWeather.Summer.10":"Hey, once I'm done clearing out Jacob's barn, want me to come help you? I figure you've got it under control, but just in case.$8", 
+"Marriage.Hector.GoodWeather.Summer.11":"Sprinklers are brilliant. I can't imagine trying to deal with watering everything you've got going on by hand.$7",
+"Marriage.Hector.GoodWeather.Summer.12":"How's my deer-ly beloved doing today?$1",
+"Marriage.Hector.GoodWeather.Summer.13":"Hope you're only working as much as you need to, and not enough to be super tired and miserable.$8",
+"Marriage.Hector.GoodWeather.Summer.14":"Hey, give %pet a extra kiss on the forehead from me. Okay?$8",
+"Marriage.Hector.GoodWeather.Summer.15":"You've got all of me, @ - heart, body, mind. What do you want to do about it?$11",
+"Marriage.Hector.GoodWeather.Summer.16":"You know, there are those hot Summers up by the railroad. What if we...?$11",
+"Marriage.Hector.GoodWeather.Summer.17":"Bet you'd look really good pressed up against the tower windows, @.$11",
+"Marriage.Hector.GoodWeather.Summer.18":"@, I think you're more than just somebody I was destined to meet.$10",
+"Marriage.Hector.GoodWeather.Summer.19":"My love is an animal call. Cutting through the darkness, bouncing off the wall.$3",
+"Marriage.Hector.GoodWeather.Summer.20":"Would you follow me between the jaws of fate, @? Whatever that meant?$11",
+"Marriage.Hector.GoodWeather.Summer.21":"I want you to saturate me, @. I just can't get enough of you.$11", 
+"Marriage.Hector.GoodWeather.Summer.22":"Yeah, I think I'm done fighting off change. This is my life now, and I'm happy with it. Happy with you.$12",
+"Marriage.Hector.GoodWeather.Summer.23":"The Valley is a beautiful place. I know it seems to trap some people, but they just don't see it the same way I do.$14",
+"Marriage.Hector.GoodWeather.Summer.24":"Travel? Outside the valley? No, probably not. I don't know what being that far away from The Grove would do, even for a short period.$23",
+"Marriage.Hector.GoodWeather.Summer.25":"I like to go berry and mushroom foraging when the season's right. You should come along with me.$1",
+"Marriage.Hector.GoodWeather.Summer.26":"I'd only go into town if you were with me. I'm comfortable in The Scarp, but I don't really know anyone in Pelican Town.$4",
+"Marriage.Hector.GoodWeather.Summer.27":"You're my happy ending, @.$15",
+"Marriage.Hector.GoodWeather.Summer.28":"You know, @... I look at you, and I feel connected in my soul.$15",
+"Marriage.Hector.GoodWeather.Summer.29":"My deer-ly beloved. How are you doing today? Is there anything I can do for you?$12",
+"Marriage.Hector.GoodWeather.Summer.30":"There's a lot that I love about you.$12#$b#But... I also love how you've made me feel worthy OF love.$13",
+"Marriage.Hector.GoodWeather.Summer.31":"Sometimes I think that you don't realize how incredible you are, actually.$8#$b#You should start looking in the mirror and complimenting yourself! Works for me.$9", 
+"Marriage.Hector.GoodWeather.Summer.32":"The viscous cycle of self-doubt was over the moment you smiled at me.$10",
+"Marriage.Hector.GoodWeather.Summer.33":"There's probably some sexy metaphor, what with you shifting into a deer and me a wolf? I can't place it, though...$8",
+"Marriage.Hector.GoodWeather.Summer.34":"Is it a weird compliment to say that you make me feel... safe?$13",
+"Marriage.Hector.GoodWeather.Summer.35":"I wish the valley had a more robust music scene.$17#$b#I'd be taking you to shows all the time. We'll just have to deal with dancing to the radio for now, though.$19",
+"Marriage.Hector.GoodWeather.Summer.36":"%Hector tugs you into an unprompted, heady kiss before slinking off.",
+"Marriage.Hector.GoodWeather.Summer.37":"Since I already do a lot of chores for Jacob, feel free to let me know if you need me to do the same for the farmhouse. I can make time.$1",
+"Marriage.Hector.GoodWeather.Summer.38":"Every time I see the flowers that grow around town, I think of you. Beautiful, delicate...$10#$b#How about you show me where the delicate stops tonight, @?$11", 
+"Marriage.Hector.GoodWeather.Summer.39":"Your animals love you loads, @. We gossip often.$1",
+"Marriage.Hector.GoodWeather.Summer.40":"I'm feeling a nap. How 'bout you? Wanna join me?$8",
+"Marriage.Hector.GoodWeather.Summer.41":"The gurdy? It's not THE most romantic sounding thing, but I'd play for you. Wasn't sure if you were into that kind of thing.$4",
+"Marriage.Hector.GoodWeather.Summer.42":"I love you so much. But it's easier for me to show, rather than tell - so let me show you.$11", 
+"Marriage.Hector.GoodWeather.Summer.43":"%farm's looking great, you're really working that land. You're so impressive, @.$8",
+"Marriage.Hector.GoodWeather.Summer.44":"I find myself with a lot of energy. How about you help tire me back out, huh?$11",
+"Marriage.Hector.Summer": "Between you and I, if I could just prattle around in my underwear to deal with the heat, I would.$4", 
+"Marriage.Hector.Summer1": "It's so sticky out! Doesn't matter, though. I'd love to get a bit stickier with you.$9",
+"Marriage.Hector.Summer11": "I'm going to put some of my ancient berries in the soup, actually. I could be really chaotic about it, but I think we'd both like not to get sick after.$8",
+"Marriage.Hector.Summer28": "Do you wanna... hold hands at the Moonlight Jellies festival?#4",
+
+// MARRIED DATING - FALL
+"Marriage.Hector.GoodWeather.Fall.1":"If you give a mouse a cookie - I told Mateo I'd watch movies with them, and now they want to do matching Spirit's Eve's costumes. You, me, them - three musketeers? $8",
+"Marriage.Hector.GoodWeather.Fall.2":"If I could breathe life back into every animal that Jacob loses during work, I would.$21#$b#Not because I don't adhere to the cycle of life, but because the loss makes him sad and I don't want him to be sad.$25",
+"Marriage.Hector.GoodWeather.Fall.3":"It's the season of harvest, and I'm grateful for what you and I have cultivated together.$10#$b#I'd rather see you in my bed than a bed of sunflowers, though.$11",
+"Marriage.Hector.GoodWeather.Fall.4":"Even as everything shifts and changes, I feel very grounded.$14#$b#Fall reminds us that death is part of life.", 
+"Marriage.Hector.GoodWeather.Fall.5":"I grew and carved this for Mateo, but they'll get all sappy about it. Can you give it to them instead?[746]",
+"Marriage.Hector.GoodWeather.Fall.6":"Sugar, I've developed a taste for you now. Do you wanna see how far it goes?#$b#Do you want to test me now, my love? You must be crazy if you think I'll give in so easily.$3",
+"Marriage.Hector.GoodWeather.Fall.7":"I wonder what Eloise will be for Spirit's Eve. Probably a bird, who am I kidding.$8#$b#Maybe I can convince her to be a dinosaur. They're, like, kind of birds? Right?$9",
+"Marriage.Hector.GoodWeather.Fall.8":"Honestly, I love working at the vet. I can't see myself doing anything else.$1",
+"Marriage.Hector.GoodWeather.Fall.9":"I was considering hosting dinner for you, Jacob and Eloise, but I don't think Jacob would like the tower very much.$23",
+"Marriage.Hector.GoodWeather.Fall.10":"Hey, once I'm done clearing out Jacob's barn, want me to come help you? I figure you've got it under control, but just in case.$8", 
+"Marriage.Hector.GoodWeather.Fall.11":"Sprinklers are brilliant. I can't imagine trying to deal with watering everything you've got going on by hand.$7",
+"Marriage.Hector.GoodWeather.Fall.12":"How's my deer-ly beloved doing today?$1",
+"Marriage.Hector.GoodWeather.Fall.13":"Hope you're only working as much as you need to, and not enough to be super tired and miserable.$8",
+"Marriage.Hector.GoodWeather.Fall.14":"Hey, give %pet a extra kiss on the forehead from me. Okay?$8",
+"Marriage.Hector.GoodWeather.Fall.15":"You've got all of me, @ - heart, body, mind. What do you want to do about it?$11",
+"Marriage.Hector.GoodWeather.Fall.16":"You know, there are those hot Falls up by the railroad. What if we...?$11",
+"Marriage.Hector.GoodWeather.Fall.17":"Bet you'd look really good pressed up against the tower windows, @.$11",
+"Marriage.Hector.GoodWeather.Fall.18":"@, I think you're more than just somebody I was destined to meet.$10",
+"Marriage.Hector.GoodWeather.Fall.19":"My love is an animal call. Cutting through the darkness, bouncing off the wall.$3",
+"Marriage.Hector.GoodWeather.Fall.20":"Would you follow me between the jaws of fate, @? Whatever that meant?$11",
+"Marriage.Hector.GoodWeather.Fall.21":"I want you to saturate me, @. I just can't get enough of you.$11", 
+"Marriage.Hector.GoodWeather.Fall.22":"Yeah, I think I'm done fighting off change. This is my life now, and I'm happy with it. Happy with you.$12",
+"Marriage.Hector.GoodWeather.Fall.23":"The Valley is a beautiful place. I know it seems to trap some people, but they just don't see it the same way I do.$14",
+"Marriage.Hector.GoodWeather.Fall.24":"Travel? Outside the valley? No, probably not. I don't know what being that far away from The Grove would do, even for a short period.$23",
+"Marriage.Hector.GoodWeather.Fall.25":"I like to go berry and mushroom foraging when the season's right. You should come along with me.$1",
+"Marriage.Hector.GoodWeather.Fall.26":"I'd only go into town if you were with me. I'm comfortable in The Scarp, but I don't really know anyone in Pelican Town.$4",
+"Marriage.Hector.GoodWeather.Fall.27":"You're my happy ending, @.$15",
+"Marriage.Hector.GoodWeather.Fall.28":"You know, @... I look at you, and I feel connected in my soul.$15",
+"Marriage.Hector.GoodWeather.Fall.29":"My deer-ly beloved. How are you doing today? Is there anything I can do for you?$12",
+"Marriage.Hector.GoodWeather.Fall.30":"There's a lot that I love about you.$12#$b#But... I also love how you've made me feel worthy OF love.$13",
+"Marriage.Hector.GoodWeather.Fall.31":"Sometimes I think that you don't realize how incredible you are, actually.$8#$b#You should start looking in the mirror and complimenting yourself! Works for me.$9", 
+"Marriage.Hector.GoodWeather.Fall.32":"The viscous cycle of self-doubt was over the moment you smiled at me.$10",
+"Marriage.Hector.GoodWeather.Fall.33":"There's probably some sexy metaphor, what with you shifting into a deer and me a wolf? I can't place it, though...$8",
+"Marriage.Hector.GoodWeather.Fall.34":"Is it a weird compliment to say that you make me feel... safe?$13",
+"Marriage.Hector.GoodWeather.Fall.35":"I wish the valley had a more robust music scene.$17#$b#I'd be taking you to shows all the time. We'll just have to deal with dancing to the radio for now, though.$19",
+"Marriage.Hector.GoodWeather.Fall.36":"%Hector tugs you into an unprompted, heady kiss before slinking off.",
+"Marriage.Hector.GoodWeather.Fall.37":"Since I already do a lot of chores for Jacob, feel free to let me know if you need me to do the same for the farmhouse. I can make time.$1",
+"Marriage.Hector.GoodWeather.Fall.38":"Every time I see the flowers that grow around town, I think of you. Beautiful, delicate...$10#$b#How about you show me where the delicate stops tonight, @?$11", 
+"Marriage.Hector.GoodWeather.Fall.39":"Your animals love you loads, @. We gossip often.$1",
+"Marriage.Hector.GoodWeather.Fall.40":"I'm feeling a nap. How 'bout you? Wanna join me?$8",
+"Marriage.Hector.GoodWeather.Fall.41":"The gurdy? It's not THE most romantic sounding thing, but I'd play for you. Wasn't sure if you were into that kind of thing.$4",
+"Marriage.Hector.GoodWeather.Fall.42":"I do quite like the mountains in the Fall. Mateo and I have taken to having jam sessions up there.",
+"Marriage.Hector.GoodWeather.Fall.43":"%farm's looking great, you're really working that land. You're so impressive, @.$8",
+"Marriage.Hector.GoodWeather.Fall.44":"I find myself with a lot of energy. How about you help tire me back out, huh?$11",
+"Marriage.Hector.Fall": "Something, something, pumpkin spice. Something, something, apple pie. Something, something, Mateo is insufferable this time of year.$8",
+"Marriage.Hector.Fall1": "What are you planning to grow this season, @? Anything fun? I mean, the staples are great. Cranberries, sunflowers, pumpkins...$12",
+"Marriage.Hector.Fall15": "Should I be sneaking you stuff for the fair? Probably not. Whatever, I'm no stranger to cheating in competitions.$7[454]",
+"Marriage.Hector.Fall16": "Good luck! I'm sure you'll slay today. If not, I'll blackmail the mayor!$9",
+"Marriage.Hector.Fall25": "It's Mateo's birthday. Go bully them or whatever.$12",
+"Marriage.Hector.Fall26": "You know, I can think of a few fun things we can do in that maze tomorrow.$11", 
+"Marriage.Hector.Fall27":"Are you excited for tonight? So am I.$10#$b#Not just because of the candy, festivities, whatever. I've got plans for you.$11",
+
+// MARRIED - WINTER 
+"Marriage.Hector.GoodWeather.Winter.1":"When I think of you, I think of... a really soft, cozy blanket that I never want to let go of.$12#$b#Thanks for bringing me such comfort.$10",
+"Marriage.Hector.GoodWeather.Winter.2":"A little bit of coffee for my favorite person.[450]$13#$b#Don't go getting sick from the cold, now. Then I'd have to take care of you, and that'd be 'terrible'.$11",
+"Marriage.Hector.GoodWeather.Winter.3":"I wouldn't be who I am right now if not for you. I know that for sure.$12#$b#Bet you hear that from Mateo, too. That just means you're a very, very good person and I'm lucky to call you mine.$11", 
+"Marriage.Hector.GoodWeather.Winter.4":"If anyone ever hurt your feelings, you know I'd just eat them. Right?$8#$b#And I'll pick my teeth with their bones. Violent? What? That's romantic!$9",
+"Marriage.Hector.GoodWeather.Winter.5":"You have a greenhouse, right? Maybe focus on that rather than the mines. You don't want to end up sunstarved like Mateo used to get.$12", 
+"Marriage.Hector.GoodWeather.Winter.6":"I think I only liked Winter for the cold, and for how solitary it was when that's what I wanted.$7#$b#But now I look forward to Spring, when everyone's out and about.$1", 
+"Marriage.Hector.GoodWeather.Winter.7":"I got you, Eloise, Jacob, and Mateo fun gifts for Winter Star... are they good, objectively? Probably not, but they're FUN! $9",
+"Marriage.Hector.GoodWeather.Winter.8":"Honestly, I love working at the vet. I can't see myself doing anything else.$1",
+"Marriage.Hector.GoodWeather.Winter.9":"I was considering hosting dinner for you, Jacob and Eloise, but I don't think Jacob would like the tower very much.$23",
+"Marriage.Hector.GoodWeather.Winter.10":"Hey, once I'm done clearing out Jacob's barn, want me to come help you? I figure you've got it under control, but just in case.$8", 
+"Marriage.Hector.GoodWeather.Winter.11":"Sprinklers are brilliant. I can't imagine trying to deal with watering everything you've got going on by hand.$7",
+"Marriage.Hector.GoodWeather.Winter.12":"How's my deer-ly beloved doing today?$1",
+"Marriage.Hector.GoodWeather.Winter.13":"Hope you're only working as much as you need to, and not enough to be super tired and miserable.$8",
+"Marriage.Hector.GoodWeather.Winter.14":"Hey, give %pet a extra kiss on the forehead from me. Okay?$8",
+"Marriage.Hector.GoodWeather.Winter.15":"You've got all of me, @ - heart, body, mind. What do you want to do about it?$11",
+"Marriage.Hector.GoodWeather.Winter.16":"You know, there are those hot Winters up by the railroad. What if we...?$11",
+"Marriage.Hector.GoodWeather.Winter.17":"Bet you'd look really good pressed up against the tower windows, @.$11",
+"Marriage.Hector.GoodWeather.Winter.18":"@, I think you're more than just somebody I was destined to meet.$10",
+"Marriage.Hector.GoodWeather.Winter.19":"My love is an animal call. Cutting through the darkness, bouncing off the wall.$3",
+"Marriage.Hector.GoodWeather.Winter.20":"Would you follow me between the jaws of fate, @? Whatever that meant?$11",
+"Marriage.Hector.GoodWeather.Winter.21":"I want you to saturate me, @. I just can't get enough of you.$11", 
+"Marriage.Hector.GoodWeather.Winter.22":"Yeah, I think I'm done fighting off change. This is my life now, and I'm happy with it. Happy with you.$12",
+"Marriage.Hector.GoodWeather.Winter.23":"The Valley is a beautiful place. I know it seems to trap some people, but they just don't see it the same way I do.$14",
+"Marriage.Hector.GoodWeather.Winter.24":"Travel? Outside the valley? No, probably not. I don't know what being that far away from The Grove would do, even for a short period.$23",
+"Marriage.Hector.GoodWeather.Winter.25":"I like to go berry and mushroom foraging when the season's right. You should come along with me.$1",
+"Marriage.Hector.GoodWeather.Winter.26":"I'd only go into town if you were with me. I'm comfortable in The Scarp, but I don't really know anyone in Pelican Town.$4",
+"Marriage.Hector.GoodWeather.Winter.27":"You're my happy ending, @.$15",
+"Marriage.Hector.GoodWeather.Winter.28":"You know, @... I look at you, and I feel connected in my soul.$15",
+"Marriage.Hector.GoodWeather.Winter.29":"My deer-ly beloved. How are you doing today? Is there anything I can do for you?$12",
+"Marriage.Hector.GoodWeather.Winter.30":"There's a lot that I love about you.$12#$b#But... I also love how you've made me feel worthy OF love.$13",
+"Marriage.Hector.GoodWeather.Winter.31":"Sometimes I think that you don't realize how incredible you are, actually.$8#$b#You should start looking in the mirror and complimenting yourself! Works for me.$9", 
+"Marriage.Hector.GoodWeather.Winter.32":"The viscous cycle of self-doubt was over the moment you smiled at me.$10",
+"Marriage.Hector.GoodWeather.Winter.33":"There's probably some sexy metaphor, what with you shifting into a deer and me a wolf? I can't place it, though...$8",
+"Marriage.Hector.GoodWeather.Winter.34":"Is it a weird compliment to say that you make me feel... safe?$13",
+"Marriage.Hector.GoodWeather.Winter.35":"I wish the valley had a more robust music scene.$17#$b#I'd be taking you to shows all the time. We'll just have to deal with dancing to the radio for now, though.$19",
+"Marriage.Hector.GoodWeather.Winter.36":"%Hector tugs you into an unprompted, heady kiss before slinking off.",
+"Marriage.Hector.GoodWeather.Winter.37":"Since I already do a lot of chores for Jacob, feel free to let me know if you need me to do the same for the farmhouse. I can make time.$1",
+"Marriage.Hector.GoodWeather.Winter.38":"Every time I see the flowers that grow around town, I think of you. Beautiful, delicate...$10#$b#How about you show me where the delicate stops tonight, @?$11", 
+"Marriage.Hector.GoodWeather.Winter.39":"Your animals love you loads, @. We gossip often.$1",
+"Marriage.Hector.GoodWeather.Winter.40":"I'm feeling a nap. How 'bout you? Wanna join me?$8",
+"Marriage.Hector.GoodWeather.Winter.41":"The gurdy? It's not THE most romantic sounding thing, but I'd play for you. Wasn't sure if you were into that kind of thing.$4",
+"Marriage.Hector.GoodWeather.Winter.42":"I love you so much. But it's easier for me to show, rather than tell - so let me show you.$11", 
+"Marriage.Hector.GoodWeather.Winter.43":"%farm's looking great, you're really working that land. You're so impressive, @.$8",
+"Marriage.Hector.GoodWeather.Winter.44":"I find myself with a lot of energy. How about you help tire me back out, huh?$11",
+"Marriage.Hector.Winter": "Hey, @. Keep warm and such, you hear? In the case you're not, my bed and my arms are both open to you.$10",
+"Marriage.Hector.Winter1": "Mateo's hosting more tabletop. I guess to stave off their depression. You should come along, @. That's what friends do.$7",
+"Marriage.Hector.Winter8": "I hate the fishing festival. It's shitty and stupid. I'm going to go bully your mayor about it.$23",
+"Marriage.Hector.Winter14": "I wonder if I can get any seed imports at the Night Market.$12",
+"Marriage.Hector.Winter24": "You're pretty hard to buy for, @. But don't worry. I've got a gift in mind for you.$10",
+"Marriage.Hector.Winter25": "Honestly, your gift is my presence at the festival. ...No, that's a joke. Your gift is AFTER the festival.$11",
+"Marriage.Hector.Winter28": "A whole 'nother year's gone by, huh? Well, if we're reflecting, I know my year was better with you in it.$15",
+
+// MARRIED - BAD WEATHER 
+"Marriage.Hector.BadWeather.1":"Do you carry an umbrella or do you just run around getting soaked to the bone all day long?$8",
+"Marriage.Hector.BadWeather.2":"Not to sound cheesy, but I love how the rain sounds against the tower windows. It's perfect.$14",
+"Marriage.Hector.BadWeather.3":"I could do with a little bit of reading today. It seems the mood, doesn't it?$12#$b#I'm getting through a biological horror novella about an inverted tower.$8",
+"Marriage.Hector.BadWeather.4":"I did a bunch of chores for Jacob and Eloise today. Do you want me to stop by the farmhouse and help you get cleaned up?$12", 
+"Marriage.Hector.BadWeather.5":"Unfortunate that the animals have to stay inside when the weather's poor. Aw, well. It's for their good health.$12",
+"Marriage.Hector.BadWeather.6":"Mateo's dinosaur - Emeritus? - is very afraid of thunder and lightning. Poor thing.$2",
+"Marriage.Hector.BadWeather.7":"I love you, you know. Even when you look like a cat dunked in a bathtub.$8",
+"Marriage.Hector.BadWeather.8":"The only thing I love more than the rain is being wet.$11",
+"Marriage.Hector.BadWeather.9":"I would be lying if I told you that I didn't like seeing you soaking wet at least a little.$11", 
+"Marriage.Hector.BadWeather.10":"It's stormy. How about we make some of our own noise, huh?$11",
+"Marriage.Hector.BadWeather.11":"Hm, @. I bet you taste as good as you look right now. Wanna let me have a bite?$11",
+"Marriage.Hector.BadWeather.12":"Let me get you out of those wet clothes, @. Oh, no. I don't have anything for you to change into. Tragic.$11",
+"Marriage.Hector.BadWeather.13":"You look busy.$10#$b#Get busy with me, instead.$11",
+"Marriage.Hector.BadWeather.14":"Let me bring you home tonight, @. Show me what you are; I'm desperate to know.$11",
+"Marriage.Hector.BadWeather.15":"I love you so much. But it's easier for me to show, rather than tell - so let me show you.$11", 
+
+// ENGAGEMENT DIALOGUE 
+"Marriage.Hector.Engagement.Hector0": "If you told me this is where we would've ended up when we met, I wouldn't have believed you. This feel like a dream, almost.$4",
+"Marriage.Hector.Engagement.Hector1": "Admittedly, getting hitched in front of a bunch of people I don't know is making me a little anxious.$4",
+"Marriage.Hector.Engagement.Hector2": "It's happening. Oh my gosh, tomorrow. Oh my gosh. I couldn't be happier, but boy, do I have a stomachache.$4",
+
+/*
+   _____ _____ ______ _______   _______        _____ _______ ______  _____ 
+  / ____|_   _|  ____|__   __| |__   __|/\    / ____|__   __|  ____|/ ____|
+ | |  __  | | | |__     | |       | |  /  \  | (___    | |  | |__  | (___  
+ | | |_ | | | |  __|    | |       | | / /\ \  \___ \   | |  |  __|  \___ \ 
+ | |__| |_| |_| |       | |       | |/ ____ \ ____) |  | |  | |____ ____) |
+  \_____|_____|_|       |_|       |_/_/    \_\_____/   |_|  |______|_____/ 
+
+*/
+
+// BASIC GIFT RESPONSES 
+"Gifts.Hector.GiftReaction.Love":"You... actually put some effort into this, huh? Wowie. Thank you, I mean that.",
+"Gifts.Hector.GiftReaction.Like":"Aw, that's nice of you. Thanks!",
+"Gifts.Hector.GiftReaction.Dislike": "Sure. I uh, promise not to trash this later.",
+"Gifts.Hector.GiftReaction.Hate": "Ew! Why would you even-?",
+"Gifts.Hector.GiftReaction.Neutral": "You know what? I don't hate this. I can use it.",
+
+// FISH
+"Gifts.Hector.GiftReaction.CategoryFish": "I don't like fish, because I don't like fishing outside of necessity.$24",
+"Gifts.Hector.GiftReaction.SeaUrchin": "I don't like fish, because I don't like fishing outside of necessity.$24",
+"Gifts.Hector.GiftReaction.Crab": "Give this to Mateo instead.$8[717]",
+"Gifts.Hector.GiftReaction.CrabCakes": "These are Mateo's favorite, so maybe give it to them instead. I'm not a seafood person, besides.$0[732]",
+
+// ARTISANAL GOODS
+"Gifts.Hector.GiftReaction.CategoryArtisanalGoods": "Oooh, this is some fancy shit! Thanks, @.$9",
+
+// TRASH
+"Gifts.Hector.GiftReaction.CategoryTrash": "Do you not have a recycling machine on that farm of yours? That's alright, I'll recycle it for you.$1",
+
+// MINERALS & GEMS
+"Gifts.Hector.GiftReaction.CategoryMinerals": "WooooOOOOah, rocks! Neat.$1",
+"Gifts.Hector.GiftReaction.CategoryGems": "WooooOOOOah, rocks! Neat.$1",
+
+// LOVES - PLATONIC
+"Gifts.Hector.GiftReaction.PrismaticShard": "Hey. I know they aren't easy to come by. Thanks, @. I'll treasure it, I promise.$13",
+"Gifts.Hector.GiftReaction.FiddleheadFern": "I love these so much. They only grow in summer, and they're a pain in the ass, but so tasty! Thank you!$1",
+"Gifts.Hector.GiftReaction.FiddleheadRisotto": "This is my favorite dish cuz' it's made with my favorite thing. It's extra special since you made it - thanks, @.$13",
+"Gifts.Hector.GiftReaction.Amaranth": "Caress the one, the never fading rain in your heart, the tears of snow-white sorrow! Caress the one, the hiding amaranth, in a land, of the daybreak!$3",
+
+// LOVES - ROMANTIC 
+     
+// LIKES
+"Gifts.Hector.GiftReaction.MapleBar": "Oh, these are great. I can feel the sugar crystallizing around my heart. Thanks, @!$9",
+"Gifts.Hector.GiftReaction.SolarEssence": "I bet you think I use this for magic, huh? Well, you'd be right. Thanks, @. This is actually very useful.$0",
+"Gifts.Hector.GiftReaction.VoidEssence": "I bet you think I use this for magic, huh? Well, you'd be right. Thanks, @. This is actually very useful.$0",   
+
+// ALCOHOL  
+"Gifts.Hector.GiftReaction.Beer": "Hops taste icky. I wish beer was a little easier to drink.$16",
+"Gifts.Hector.GiftReaction.PaleAle": "I feel like drinks shouldn't, like, taste bad on purpose. But I appreciate it.$16",
+"Gifts.Hector.GiftReaction.Wine": "This is great. I'll drink it all and then be a total wine aunt about it. Thanks, @!",
+
+// BIRTHDAY - PLATONIC
+"Gifts.Hector.GiftReaction.FiddleheadFern.Birthday": "I love these so much, and I really appreciate you thought to bring me my favorite thing on my birthday. Thank you, @.$13",
+"Gifts.Hector.GiftReaction.FiddleheadRisotto.Birthday": "I love this dish so much, and I really appreciate you thought to bring me my favorite meal on my birthday. Thank you, @.$13",
+"Gifts.Hector.GiftReaction.MapleBar.Birthday": "Oh, this is better than a birthday cake. I can feel the sugar crystallizing around my heart. Thanks, @!$9",
+"Gifts.Hector.GiftReaction.SolarEssence.Birthday": "This is actually a very useful birthday gift, @. Thank you.$13",
+"Gifts.Hector.GiftReaction.VoidEssence.Birthday": "This is actually a very useful birthday gift, @. Thank you.$13",  
+
+// BIRTHDAY - ROMANTIC
+
+// HATES 
+"Gifts.Hector.GiftReaction.RabbitsFoot": "I know it's just matted hair, and not actually a severed paw. But it's still weird, and I don't like it.$16",
+"Gifts.Hector.GiftReaction.ChocolateCake": "I'm a wolf, @! I can't have chocolate! Shame on you.$17",
+
+// ANCIENT CROPS
+"Gifts.Hector.GiftReaction.AncientAmaranth": "I'm so flattered you actually went through the trouble of growing this, @. Thank you.$13#$b#I'm so glad this Amaranth strain is getting a second chance! It's such a brilliant color.$1",
+"Gifts.Hector.GiftReaction.AncientFern": "These ferns are so beautiful. They can grow between stone, or anywhere really. It's so impressive how resilient they are.$12",
+"Gifts.Hector.GiftReaction.AncientHuckleberry": "Huckleberries are my favorite berries, so I spent a lot of time recovering this strain of them. Thank you for sharing with me, @!$1",
+"Gifts.Hector.GiftReaction.AncientMushroom": "If you eat this, your stomach will glow. I'm serious, @, don't try it.$6#$b#...Yeah, you got me. I'm fibbing. But wouldn't that be cool?$9",
+"Gifts.Hector.GiftReaction.AncientRose": "Out of the lot of the Ancient Crops, these roses are my favorite. Thank you for this, @. From the bottom of my heart.$13",
+
+/*
+  __  __  ______      _______ ______  _____ 
+ |  \/  |/ __ \ \    / /_   _|  ____|/ ____|
+ | \  / | |  | \ \  / /  | | | |__  | (___  
+ | |\/| | |  | |\ \/ /   | | |  __|  \___ \ 
+ | |  | | |__| | \  /   _| |_| |____ ____) |
+ |_|  |_|\____/   \/   |_____|______|_____/ 
+
+ */                                           
+
+ "Movies.Hector.BraveLittleSapling.1": "I identify with the sapling already.$0",
+ "Movies.Hector.BraveLittleSapling.2": "Is this supposed to be so relatable or is it just really specific?$23",
+ "Movies.Hector.BraveLittleSapling.3": "I feel personally called out, but I loved it a lot!$9", 
+ "Movies.Hector.NaturalWonders.1": "Is that me on screen, or is it just ANOTHER very handsome wolf?$16",
+ "Movies.Hector.NaturalWonders.2": "I mean, yeah, of course wolves aren't solitary. Eloise could've told you that.$6",
+ "Movies.Hector.NaturalWonders.3": "My favorite part was when the wolf reunited with his pack.$14",
+ "Movies.Hector.PrairieKing.1": "Oh. Mateo has a bunch of props from this movie, don't they?$23",
+ "Movies.Hector.PrairieKing.2": "I can see why they like it so much. It's very themcore.$0",
+ "Movies.Hector.PrairieKing.3": "Let's see it all together next time.$12",
+ "Movies.Hector.Wumbus.1": "Space. Space. Gonna go to space.$0",
+ "Movies.Hector.Wumbus.2": "Are we in space yet? What's the hold-up? Gotta go to space. Gotta go to SPACE.$1", 
+ "Movies.Hector.Wumbus.3": "SPAAACCCCCE!$9" , 
+ "Movies.Hector.Mysterium.1": "This is Mateo's favorite! I know because they don't shut up about it when I asked them.$8", 
+ "Movies.Hector.Mysterium.2": "What's going on? What's this weird occult nonsense? How are you supposed to know what's happening?$16",
+ "Movies.Hector.Mysterium.3":"What do you mean, there's a whole show to go with this? Now I've got to go binge it for context. See you later!$9",
+ "Movies.Hector.ItHowlsInTheRain.1": "It won't be that scary, right?$8",
+ "Movies.Hector.ItHowlsInTheRain.2": "Excuse me, but this is an inaccurate depiction of shapeshifters. I need write an angry letter.$16",
+ "Movies.Hector.ItHowlsInTheRain.3": "That was poor shapeshifter representation. Whatever, I loved it anyway.$1",
+ "Movies.Hector.MiracleAtColdstarRanch.1":"Oooh, I love cheesy holiday shit.$1",
+ "Movies.Hector.MiracleAtColdstarRanch.2":"I have that warm tingly feeling in my stomach. Or is that just a bellyache?$23",
+ "Movies.Hector.MiracleAtColdstarRanch.3":"That was very cute.$8",
+ "Movies.Hector.ZuzuCityExpress.1":"Awww, yeah. Romantic nonsense.$9",
+ "Movies.Hector.ZuzuCityExpress.2":"Jee. Ya'think they'll get together in the end?$8",
+ "Movies.Hector.ZuzuCityExpress.3":"Wait - it just, ends? What? That's garbage, I need to file a complaint, I need to know what happens-$2", 
+
+/*
+  ______ ______  _____ _______ _______      __     _       _____ 
+ |  ____|  ____|/ ____|__   __|_   _\ \    / /\   | |     / ____|
+ | |__  | |__  | (___    | |    | |  \ \  / /  \  | |    | (___  
+ |  __| |  __|  \___ \   | |    | |   \ \/ / /\ \ | |     \___ \ 
+ | |    | |____ ____) |  | |   _| |_   \  / ____ \| |____ ____) |
+ |_|    |______|_____/   |_|  |_____|   \/_/    \_\______|_____/
+
+*/
+
+// EGG FESTIVAL 
+"Festivals.Hector.EggFestival": "I bet I could kick these children's asses if your silly little Mayor would let me play.$9",
+
+// FLOWER DANCE 
+"Festivals.Hector.FlowerDance": "Ugh, this is disgusting. Look at everyone, having a great time, all dressed up. ...I'm lying, I love it, actually.$8",
+"Festivals.Hector.FlowerDance.Accept": "Sure, but like, gross.$1",
+
+// LUAU 
+"Festivals.Hector.Luau": "The birds are probably fine, Eloise. But I'm sure they appreciate you fretting for them.$0",  
+
+// MOONLIGHT JELLIES
+"Festivals.Hector.MoonlightJellies": "...This is just beautiful, actually...$13",
+
+// SDV FAIR
+"Festivals.Hector.SDVFair": "I wonder if I could do magic instead of that shoddy clown your Mayor is underpaying.$16",
+
+// SPIRIT'S EVE
+"Festivals.Hector.SpiritsEve": "Time to bust out the candles and chant ominously into the night!$9", 
+
+// ICE FESTIVAL 
+"Festivals.Hector.IceFestival": "This is stupid and I hate it. It's just fishing for excess, and that's wrong.$16#$b#Your Mayor will be receiving a snowball to the face about it.$9",
+
+// WINTER STAR 
+"Festivals.Hector.WinterStar": "I really don't know what to get anyone, so my presence will just have to be the gift.$1",
+
+// RSV GATHERING 
+"Festivals.Hector.RSVG": "Why is the competition gendered? I know Mateo feels left out, and Eloise doesn't like it. Seems like an oversight.$16",
+
+// RSV EMBER OF RESOLUTIONS 
+"Festivals.Hector.EmberOfResolutions": "I get the sentiment, but that's an awful lot of wood to just burn for the sake of it.$16",
+
+ /*
+   _____ _______ _____  _____ _   _  _____  _____ 
+  / ____|__   __|  __ \|_   _| \ | |/ ____|/ ____|
+ | (___    | |  | |__) | | | |  \| | |  __| (___  
+  \___ \   | |  |  _  /  | | | . ` | | |_ |\___ \ 
+  ____) |  | |  | | \ \ _| |_| |\  | |__| |____) |
+ |_____/   |_|  |_|  \_\_____|_| \_|\_____|_____/ 
+                                                                                                   
+*/
+
+// MAP STRINGS
+"Strings.Hector.PassiveAggressiveDoor": "The nature-consumed tower looms. You stand in its shadow, unable to enter. How very ominous.", 
+"Strings.Hector.WestworldScreenplay": "A copy of a script for some western sci-fi drama. It's flipped to a page focusing on a character named Hector, who appears to be a villain.",
+"Strings.Hector.BookRest": "This is where Book sleeps! Hector keeps it nicely polished for her.",
+"Strings.Hector.MundaneKitchen": "Considering how chaotic Hector is, you're surprised how tidy the kitchen is.",
+"Strings.Hector.HomemadeTea": "The tea is hot, and smells brilliantly earthy. You wonder if it's made with stuff from upstairs.",
+"Strings.Hector.OSHAViolation": "You question the architecture of this place for a few seconds before realizing it's a bad idea to think too hard about it.",
+"Strings.Hector.FashionTaste": "These boots are quite a fashion faux pas, yet, here they proudly sit.",
+"Strings.Hector.LovedAltar": "The candle at the center of this altar looks handmade. 'TAKE ME BACK TO EDEN' is carved into it.", 
+"Strings.Hector.WeirdPlants1": "You've seen giant crops before, but this one is new and has a sweet smell to it.",
+"Strings.Hector.WeirdPlants2": "It looks like a fern, but it's growing straight out of a rock.",
+"Strings.Hector.WeirdPlants3": "Ancient, like so many of the other plants in the room. Hector clearly cares deeply for everything growing here.",
+"Strings.Hector.WeirdPlants4": "Some of these mushrooms are unrecognizable.",
+"Strings.Hector.AnarchyGarden": "It would seem Hector did some damage to the floorboards in the name of introducing some plants to your home.",
+"Strings.Hector.TimeToHeal": "Hector visits sparingly, but he loves cuddling on this couch in the sun puddle.",
+"Strings.Hector.YoureMyHuckleberry": "These berries are huge, healthy, and glowing faintly.",
+"Strings.Hector.Annihilation": "You've been left a pile of Hector's favorite books. The most well-read is a cosmic horror story about a lighthouse and an inverted tower.",
+
+/*
+   _____ _    _  _____ _______ ____  __  __   ______ _______   ________ _____   
+  / ____| |  | |/ ____|__   __/ __ \|  \/  | |  ____|_   _\ \ / /  ____|  __ \  
+ | |    | |  | | (___    | | | |  | | \  / | | |__    | |  \ V /| |__  | |  | | 
+ | |    | |  | |\___ \   | | | |  | | |\/| | |  __|   | |   > < |  __| | |  | | 
+ | |____| |__| |____) |  | | | |__| | |  | | | |     _| |_ / . \| |____| |__| | 
+  \_____|\____/|_____/   |_|  \____/|_|  |_| |_|    |_____/_/ \_\______|_____/
+
+*/
+
+
+// GENDER NEUTRAL MARRIAGE EDITS
+"CFD.Hector.Utility.cs.5371": "@, strange person I've never met before... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners! Congratulations!$h",
+"CFD.Hector.Utility.cs.5373": "@, strange person I've never met before... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners! Congratulations!$h",
+"CFD.Hector.Utility.cs.5375": "@, strange person I've never met before... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners! Congratulations!$h",
+"CFD.Hector.Utility.cs.5377": "@, strange person I've never met before... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners! Congratulations!$h",
+"CFD.Hector.Utility.cs.5367": "There comes a time in everyone's life when we cross paths with someone unexpectedly.#$b#In this case, it seems to be EXTREMELY unexpectedly.$h#$b#It is my great? Honor on this day {0} of {1}, to unite @ and - what was their name again? - in the bonds of marriage.",
+"CFD.Hector.Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if they'd fit in with our community...#$b#And I suppose we're about to learn how this OTHER new person fits into the community.$h#$b#It is my great honor on this day {0} of {1}, to unite @ and uh, whatstheirname, in the bonds of marriage.",
+
+// GENDER NEUTRAL SOCIAL PAGE EDITS 
+"CFD.Hector.SocialPage.cs.11635": "(single)",
+"CFD.Hector.SocialPage.cs.11636": "(spouse)",
+"CFD.Hector.SocialPage.cs.11637": "(spouse)",
+"CFD.Hector.SocialPage.cs.11639": "(partner)",
+"CFD.Hector.SocialPage.cs.11640": "(partner)",
+"CFD.Hector.SocialPage.cs.11642": "(ex-spouse)",
+"CFD.Hector.SocialPage.cs.11643": "(ex-spouse)",
+
+// SUMMIT DIALOGUE 
+"CFD.Hector.ExtraDialogue_SummitEvent_Intro_Spouse": "My deer-ly beloved.",
+"CFD.Hector.ExtraDialogue_SummitEvent_Intro2_Spouse": "I'd say this is the second best view in the Valley, after looking at you.",
+"CFD.Hector.ExtraDialogue_SummitEvent_Dialogue1_Spouse": "It's been a long couple years. %year, right? $14\"/pause 1000/speak spouse \"It's been a journey well-traveled. And it's not even over yet. Only just starting, really.$13",
+"CFD.Hector.ExtraDialogue_SummitEvent_Dialogue2_Spouse": "Thank you for everything, @. I love you.$15",
+"CFD.Hector.ExtraDialogue_SummitEvent_closingmessage": "It's been a long road for you and Biróg...",
+
+// MOVIE INVITATION - SPOUSE 
+"MovieInvite.Spouse.Hector": "I'm always happy to see a flick with you, Sunshine.$19",
+
+
+/*
+  __  __          _____ _      
+ |  \/  |   /\   |_   _| |     
+ | \  / |  /  \    | | | |     
+ | |\/| | / /\ \   | | | |     
+ | |  | |/ ____ \ _| |_| |____ 
+ |_|  |_/_/    \_\_____|______|
+                               
+*/
+
+// PRE PENTACLE QUEST
+"Mail.Hector.Letter0": "@,^^Do you understand what you've been given?^^The wizard may have freely offered you nature's power, but you'll need me to help you hone it.^^Complete my challenges and I'll consider teaching you more about Druidics.^^ - B",
+
+// POST PENTACLE QUEST
+"Mail.Hector.Letter1": "^^You haven't earned my praises yet, @.^^Your final challenge is an unquestioning display of empathy where it may not be owed. Figure it out, and we'll take the next step.^^ - B",
+
+// POST GUILD BEING BUILT 
+"Mail.Hector.Letter2": "^^Good job, @.^^Come meet me at the tower where you've been making your offerings. Be warned. I tend toward the impatient!^^ - B",
+
+// ESSENCE RECIPE: ANCIENT AMARANTH
+"Mail.Hector.Letter3": "@,^^You can do a lot more with the essences than you think. Use your magic to propagate some of my nearly-extinct plants. Amaranth isn't acknowledged enough, and this particular strain grows in a beautiful color.^^-Hector %item craftingRecipe Ancient_Amaranth_Seeds %%",
+
+// ESSENCE RECIPE: ANCIENT EPIPHYTIC FERN
+"Mail.Hector.Letter4": "@!^^I'm trusting you to help me foster these.^^Like you and I, this fern is uniquely resilient. It grows straight out of stone. Beautiful, huh?^^- Hector %item craftingRecipe Ancient_Epiphytic_Fern_Seeds %%",
+
+// ESSENCE RECIPE: ANCIENT GLOWING POLYPORE MUSHROOMS
+"Mail.Hector.Letter5": "@,^^These were nearly gone from The Valley. Take good care of them.^^Be careful, sometimes they'll double the size of the stump they're growing on.^^- Hector %item craftingRecipe Ancient_Glowing_Polypore_Mushroom_Spores %%",
+
+// ESSENCE RECIPE: ANCIENT GLOWING HUCKLEBERRY VINE
+"Mail.Hector.Letter6": "@,^^The berries are a bit fickle, but they're delicious! This vine kind of grows like a tree, but it's smaller than one.^^- Hector %item craftingRecipe Ancient_Glowing_Huckleberry_Seeds %%",
+
+// ESSENCE RECIPE: ANCIENT WILD FAIRY ROSES
+"Mail.Hector.Letter7": "@,^^I'm glad to finally share these with you.^^They grow most of the year, and they'll occasionally burst into huge, thorny bushes. And they're a beautiful color that you don't really see in the modern strain.^^- Hector %item craftingRecipe Ancient_Wild_Fairy_Rose_Seeds %%",
+
+
+/*
+   ____  _    _ ______  _____ _______ _____ 
+  / __ \| |  | |  ____|/ ____|__   __/ ____|
+ | |  | | |  | | |__  | (___    | | | (___  
+ | |  | | |  | |  __|  \___ \   | |  \___ \ 
+ | |__| | |__| | |____ ____) |  | |  ____) |
+  \___\_\\____/|______|_____/   |_| |_____/ 
+
+*/
+
+// PENTACLE QUEST - SPRING 
+"Quests.Hector.SpecialOrders.Pentacle1.Name": "Offerings for Spring",
+"Quests.Hector.SpecialOrders.Pentacle1.Text": "Deliver to the altar outside of the dilapidated tower in the Deep Mountains.", 
+"Quests.Hector.SpecialOrders.Pentacle1.Objective.0.Text": "3 freshly-grown Parsnips.",
+"Quests.Hector.SpecialOrders.Pentacle1.Objective.1.Text": "3 Daffodils, lovingly picked.",
+"Quests.Hector.SpecialOrders.Pentacle1.Objective.2.Text": "3 Leeks, uncooked.",
+"Quests.Hector.SpecialOrders.Pentacle1.Objective.3.Text": "3 Strawberries, without chocolate.",
+"Quests.Hector.SpecialOrders.Pentacle1.Objective.4.Text": "3 Spring Onions from Cindersap.",
+
+// PENTACLE QUEST - SUMMER 
+"Quests.Hector.SpecialOrders.Pentacle2.Name": "Offerings for Summer",
+"Quests.Hector.SpecialOrders.Pentacle2.Text": "Deliver to the altar outside of the dilapidated tower in the Deep Mountains.", 
+"Quests.Hector.SpecialOrders.Pentacle2.Objective.0.Text": "3 freshly-grown Blueberries.",
+"Quests.Hector.SpecialOrders.Pentacle2.Objective.1.Text": "3 dirt-covered Spice Berries.",
+"Quests.Hector.SpecialOrders.Pentacle2.Objective.2.Text": "3 of the sweetest Sweet Peas.",
+"Quests.Hector.SpecialOrders.Pentacle2.Objective.3.Text": "3 lively ears of Corn.",
+"Quests.Hector.SpecialOrders.Pentacle2.Objective.4.Text": "3 Red Mushrooms, don't try them.",
+
+// PENTACLE QUEST - FALL
+"Quests.Hector.SpecialOrders.Pentacle3.Name": "Offerings for Fall",
+"Quests.Hector.SpecialOrders.Pentacle3.Text": "Deliver to the altar outside of the dilapidated tower in the Deep Mountains.", 
+"Quests.Hector.SpecialOrders.Pentacle3.Objective.0.Text": "3 Bok Choy, grown with love.",
+"Quests.Hector.SpecialOrders.Pentacle3.Objective.1.Text": "3 bunches of Amaranth.",
+"Quests.Hector.SpecialOrders.Pentacle3.Objective.2.Text": "3 Wild Plums. No dates!",
+"Quests.Hector.SpecialOrders.Pentacle3.Objective.3.Text": "3 Blackberries right off the bush.",
+"Quests.Hector.SpecialOrders.Pentacle3.Objective.4.Text": "3 Cranberries, from home.",
+
+// PENTACLE QUEST - Winter
+"Quests.Hector.SpecialOrders.Pentacle4.Name": "Offerings for Winter",
+"Quests.Hector.SpecialOrders.Pentacle4.Text": "Deliver to the altar outside of the dilapidated tower in the Deep Mountains.", 
+"Quests.Hector.SpecialOrders.Pentacle4.Objective.0.Text": "3 starchy Winter Roots.",
+"Quests.Hector.SpecialOrders.Pentacle4.Objective.1.Text": "3 Crystal Fruit sans Dust Sprites.",
+"Quests.Hector.SpecialOrders.Pentacle4.Objective.2.Text": "3 unearthed Snow Yams.",
+"Quests.Hector.SpecialOrders.Pentacle4.Objective.3.Text": "3 Crocuses, not in a bouquet.",
+"Quests.Hector.SpecialOrders.Pentacle4.Objective.4.Text": "3 bunches of Holly.",
+
+// RIVER QUESTS - Pt 1 
+"Quests.Hector.SpecialOrders.River1.Name": "Destroy the Leaking Pipe",
+"Quests.Hector.SpecialOrders.River1.Text": "Deliver to the altar outside of Hector's Tower.", 
+"Quests.Hector.SpecialOrders.River1.Objective.0.Text": "1 Prismatic Shard.",
+"Quests.Hector.SpecialOrders.River1.Objective.1.Text": "5 ripe pieces of Ancient Fruit.",
+"Quests.Hector.SpecialOrders.River1.Objective.2.Text": "3 distinctly orange Nautilus Shells.",
+"Quests.Hector.SpecialOrders.River1.Objective.3.Text": "10 of the most Fiddleheaded Ferns.",
+"Quests.Hector.SpecialOrders.River1.Objective.4.Text": "3 vials of Squid Ink, from Squid Kids.",
+
+// RIVER QUESTS - Pt 2 
+"Quests.Hector.SpecialOrders.River2.Name": "Collect Druidic Essences",
+"Quests.Hector.SpecialOrders.River2.Text": "Deliver to the altar outside of Hector's Tower. Essences can be earned by watering & harvesting crops, scything grass, and tilling soil.", 
+"Quests.Hector.SpecialOrders.River2.Objective.0.Text": "Collect Essences.",
+"Quests.Hector.SpecialOrders.River2.Objective.1.Text": "Return the Essences to the altar.",
+
+
+/*
+________      ________ _   _ _______ _____ 
+|  ____\ \    / /  ____| \ | |__   __/ ____|
+| |__   \ \  / /| |__  |  \| |  | | | (___  
+|  __|   \ \/ / |  __| | . ` |  | |  \___ \ 
+| |____   \  /  | |____| |\  |  | |  ____) |
+|______|   \/   |______|_| \_|  |_| |_____/ 
+
+*/
+
+// PENTACLE QUESTS EVENTS
+"Events.COT.Pentacle1.Message": "Something has been added to your journal.",
+
+// 0 HEARTS PT 1 
+"Events.COT.0H.Mateo.1": "I swear, the skeleton had a cape-",
+"Events.COT.0H.Linus.1": "Oh! Hello, @! You've got a friend with you.$1",
+"Events.COT.0H.Linus.2": "I was just looking for - ah!$3",
+"Events.COT.0H.Hector.1": "What are you doing here?$16",
+"Events.COT.0H.Linus.3": "I- I don't know, I was just scavenging -$3",
+"Events.COT.0H.Hector.2": "Oh, yeah? Is that so?$8#$b#Looks like I left that warp open again... Oops!$9",
+"Events.COT.0H.Hector.3": "Well, this wasn't how I'd planned for this to go, but I suppose it'll have to do.$23#$b#It's great to finally meet you, @. My name is...$8",
+"Events.COT.0H.Hector.4": "Ah, shit.",
+"Events.COT.0H.Hector.5": "Oh!",
+"Events.COT.0H.Hector.6": "My name is, uh... Hector! And you're @! I've kept you quite busy this past year, haven't I?",
+"Events.COT.0H.Hector.7": "This wasn't how I envisioned this initial meeting to go. I usually try and go for a little more of a dramatic flair. But that's, uh. Fine. I guess.$24#$b#Listen, @. I put you through all that for a reason. A good one! And I'm going to need more of your help.$22#$b#It's gonna be big! Wouldn't be reaching out if I couldn't handle it myself. Ain't that cryptic as hell? Though, I'm not sure what you'd expect at this point!$9",
+"Events.COT.0H.Q1.Answer.1": "What are you even talking about?",
+"Events.COT.0H.Q1.Answer.2": "Are you okay?",
+"Events.COT.0H.Q1.Response.1": "We're going to be agents of change, you and I. You'll see. Just be patient.$7",
+"Events.COT.0H.Q1.Response.2": "Yes. Obviously. I'm fine. Why are you asking? What a weird question.$16",
+"Events.COT.0H.Hector.8": "ANYWAY. Thanks for dropping in, but you've just about overstayed your welcome! My social battery is drained. So get out!$1#$b#I'll leave the door unlocked for you, though. Come visit. Or don't! I don't care.",
+"Events.COT.0H.Mateo.2": "Is that you, B-$26",
+"Events.COT.0H.Hector.9": "-Oh, look who's finally found their way in. What are you standing there for? Come sit down. We have a lot to talk about.$8",
+
+//1 HEART
+
+"Events.COT.1H.Hector.1": "Oh. Hello, @. Do you make a habit of just barging into people's homes?$8#$b#I know I said you could visit whenever, but I figured you'd like. Text or something first. Thought that was, you know, normal human behavior.$24#$b#Whatever, I'm just pulling your leg. I don't have a cell phone. What do you want?$9",
+"Events.COT.1H.Book.1": "...$3",
+"Events.COT.1H.Hector.2": "She's upset because I didn't introduce her properly. That's my b, she deserves it.$4#$b#This is Book, my grimoire! Keeper of all my most dastardly secrets, tantalizing rituals and instances of mischief! And also, the grocery list.$1",
+"Events.COT.1H.Hector.3": "I guess since you're here, I can show you around. Downstairs you've already seen, I kind of just. Live there, I guess?$0",
+"Events.COT.1H.Hector.4": "This is Book's room, we've got an altar, a cauldron, a ritual circle - all the witchy stuff you'd expect, I guess.$6",
+"Events.COT.1H.Hector.5": "Oh, she wants to show you the greenhouse.$4",
+"Events.COT.1H.Hector.6": "Well, come on up.",
+"Events.COT.1H.Hector.7": "I foster ancient plants, ones nearly lost to time. There are some responsibilities associated with druidics, and this is one of them.$13",
+"Events.COT.1H.Hector.8": "All right, that's enough confessing of personal information for today! I've got plants to water and stuff, now shoo!$9",
+"Events.COT.1H.Book.2": "...$2",
+"Events.COT.1H.Hector.9": "I was NOT 'too mean', I don't even know what you're talking about.$25",
+"Events.COT.1H.Book.3": "...$3",
+"Events.COT.1H.Hector.10": "Fine, fine. Maybe I'm a little much. MAYBE. I'll consider your feedback, Book.$16",
+"Events.COT.1H.Book.4": "...$1",
+
+//2 HEARTS
+
+"Events.COT.2H.Hector.1": "@! How SURPRISING of you to just show up unannounced in my tower again. How are you? How's, uh, farming and whatever?$8",
+"Events.COT.2H.Hector.2": "Good to hear it. No, really, I mean that. I'm glad things are going well. I wouldn't wish poorly on you for the sake of it.$7",
+"Events.COT.2H.Hector.3": "Actually, it's. Uh. Good you're here. I had something I wanted to share with you, since my mysterious initial appearance got kinda botched.$16",
+"Events.COT.2H.Hector.4": "Let's go outside. Thematic affairs need dramatic backdrops, after all. And I know just the place.$0",
+"Events.COT.2H.Hector.5": "It's very important for the atmosphere to be right when you're telling a story, @. That kind of thing really matters. Makes an impression, you know?$7",
+"Events.COT.2H.Hector.6": "ANYWAY. So. The humble town you now call East Scarp didn't always have a river running through it.$8#$b#That was entirely my doing!$9",
+"Events.COT.2H.Hector.7": "Don't worry. I can only change into what I already am, @.$6",
+"Events.COT.2H.Hector.8": "And I am... a man, a woman...$8#$b#A wolf...$9#$b#And so much more.$3",
+"Events.COT.2H.Hector.9": "I'm resourceful!",
+"Events.COT.2H.Hector.10": "Wily!",
+"Events.COT.2H.Hector.11": "Clever!",
+"Events.COT.2H.Hector.12": "Skilled!",
+"Events.COT.2H.Hector.13": "With a mighty claw, I drew a line down the Scarp from far up north toward the sea! I tore the landmass in two, just because I felt like it! Just to see if I could!$4#$b#I'd left it empty. But persistent rain eventually filled it. It falls quite often here, doesn't it?$5",
+"Events.COT.2H.Hector.14": "Now, I'm not telling you this JUST to brag. Though I did want to, just a little bit. Being proud of your accomplishments is okay.$2#$b#But...my river is in danger now, @. And I needed someone trustworthy to help me address it. I'll be keeping you updated as I plan things out.$1",
+"Events.COT.2H.Hector.15": "OH!",
+"Events.COT.2H.Hector.16": "I think I left the stove on. So that's all for today!$5",
+"Events.COT.2H.Message.1": "Hector walks back with you to the tower. When you're safely back in the Deep Mountains, they kick you out.",
+"Events.COT.2H.Hector.17": "That was WAY too much shifting. I'm not even sure showing off like that was worthwhile or necessary. I think it mostly just scared @.$18#$b#This isn't good. Gotta be more careful...$19",
+"Events.COT.2H.Book.1": "...$2",
+
+//3 HEARTS PART 1
+
+"Events.COT.3H1.Q1.Answer.1": "Are you OK?",
+"Events.COT.3H1.Q1.Answer.2": "Is Hector OK?",
+"Events.COT.3H1.Q1.Response.1": "...$1",
+"Events.COT.3H1.Q1.Response.2": "...$2",
+"Events.COT.3H1.Message.1": "Text scrawls before you, across blank pages.",
+"Events.COT.3H1.Book.1": "I'm okay, but thank you for asking!!! I'm glad for your company. Hector is out in the woods. I'm worried, though.",
+"Events.COT.3H1.Book.2": "Hector been isolated for so long, I fear for the state of their mind. They need socialization, like any other creature.",
+"Events.COT.3H1.Q2.Answer.1": "Do you need socialization, too?",
+"Events.COT.3H1.Q2.Answer.2": "What can I do about Hector?",
+"Events.COT.3H1.Q2.Response.1": "I do have Hector's company most of the time, but I do appreciate when you stop by to visit!$1",
+"Events.COT.3H1.Q2.Response.2": "Well, you see, I actually had an idea! So I'm happy to catch you alone.",
+"Events.COT.3H1.Book.3": "Could you, perhaps, dearest @, consider bringing Hector along on one of your trips into town? They do quite love the Scarp.",
+"Events.COT.3H1.Book.4": "Terribly afraid of people, though. Well, they're afraid of people being afraid - it's gauche. Either way, their tail is between their legs about it.",
+"Events.COT.3H1.Q3.Answer.1": "What do you suggest I do?",
+"Events.COT.3H1.Q3.Answer.2": "You think *I* can get him out and about?",
+"Events.COT.3H1.Q3.Response.1": "Sometimes, someone just needs a gentle push out of their shell! In this case, it may be quite literal.",
+"Events.COT.3H1.Q3.Response.2": "You've accomplished so much, @. I'm sure this is within the realms of what you can handle.",
+"Events.COT.3H1.Q3.Book.5": "Now, I'm sure he'll be very begrudging about it. But I promise; it's a ruse. He'll appreciate it terribly! I know he will.$1",
+"Events.COT.3H1.Q3.Book.6": "Thank you, @. This means more than you know.",
+
+//3 HEARTS PART 2
+
+"Events.COT.3H2.Hector.1": "Oh. It's you.$13#$b#There are plenty of other sun puddles to nap in. This is mine, go away.$14",
+"Events.COT.3H2.Hector.2": "You want do to what-? You don't need company to go into town, what are you getting at?$24",
+"Events.COT.3H2.Hector.3": "I can't deal with both of you ganging up on me like this. Book already guilt-trips, it's her toxic trait. And now I've got to put up with it from you, too?$25",
+"Events.COT.3H2.Book.1": "...!$3",
+"Events.COT.3H2.Hector.4": "Alright. Fine. I'll go, but I'm going to complain the whole time.$16",
+"Events.COT.3H2.Hector.5": "...Is that a barn?",
+"Events.COT.3H2.Hector.6": "I wanted to make sure the animals kept here were well cared for.$12#$b#Seems like Lord Sherbet thinks so, and he's singing the praises of someone named-$12",
+"Events.COT.3H2.Question.1": "Who's this, farmer?",
+"Events.COT.3H2.Q1.Answer.1": "This is Hector. They wanted to to meet the animals.",
+"Events.COT.3H2.Q1.Answer.2": "This is Hector, a good friend of mine.",
+"Events.COT.3H2.Q1.Response.1": "I see. Well, it's not like they don't enjoy the company.$0",
+"Events.COT.3H2.Q1.Response.2": "Nice to meet you, Hector. Welcome to East Scarp.$1",
+"Events.COT.3H2.Jacob.1": "My name is Jacob, I'm the vet technician here in town.",
+"Events.COT.3H2.Hector.7": "Nice to meet you too, Jacob. I, uh. Care a lot about livestock, and... uh, @ was showing me around, and I wanted to see...$4",
+"Events.COT.3H2.Jacob.2": "That's perfectly fine. You're welcome to visit whenever you'd like - will you be in town long?",
+"Events.COT.3H2.Hector.8": "...Yeah. I'll be around.",
+"Events.COT.3H2.Jacob.3": "That's great. They aren't going to turn down extra attention, by any means. Actually, if you're not doing anything - I could use a hand.$2",
+"Events.COT.3H2.Hector.9": "Sure. I'd love to help, actually...$12",
+"Events.COT.3H2.Message.1": "You walk with Hector back to the tower after you've helped Jacob.",
+"Events.COT.3H2.Hector.10": "I hated that. I plan to complain about it for the next two weeks, at minimum.$9#$b#...Thanks though, @. See you around.$8",
+
+//4 HEARTS
+
+"Events.COT.4H.Hector.1": "Hey. I just wanted to get things cleaned up for Jacob real quick, and say hi to-$7",
+"Events.COT.4H.Eloise.1": "Oh, hello! You must be the new friend Dad mentioned. I'm Eloise! And you're Hector, right?$1",
+"Events.COT.4H.Hector.2": "I am no friend! I am B- Hector, fiend of the forest, trickster unmatched, agent of the scarp, warden of the-$4",
+"Events.COT.4H.Eloise.2": "You stop that.$3#$b#Dad already said you were nice, and he's a good judge of character. So I think you're fibbing.$0",
+"Events.COT.4H.Hector.3": "Uh... sorry?$2",
+"Events.COT.4H.Eloise.3": "I accept your apology. Don't try and frighten me again though, please!$1",
+"Events.COT.4H.Hector.4": "You're very brave. @ gets real shaken every time I do that.$1",
+"Events.COT.4H.Eloise.4": "Wolves are pack animals! They need family and friends. You can't spook people just because.$0",
+"Events.COT.4H.Hector.5": "That's... very wise of you. You're very comfortable with a blatant display of druidics, which raises some questions-$16",
+"Events.COT.4H.Jacob.1": "Having a little party without me? Oh - everything's so clean...",
+"Events.COT.4H.Eloise.5": "Dad. Hector's very good at tidying. And nice to the animals. I think you should hire them as an assistant.",
+"Events.COT.4H.Hector.6": "I couldn't possibly-$4",
+"Events.COT.4H.Jacob.2": "Really? I think it's a great idea, if you have the time.",
+"Events.COT.4H.Hector.7": "Actually, I...$24",
+"Events.COT.4H.Eloise.6": "...$2",
+"Events.COT.4H.Hector.8": "You know what? Sure, I'll do it.$14#$b#Just tell me when you need me around, and what you need help with.$13",
+"Events.COT.4H.Jacob.3": "If you're free a few days a week, I could use some help in the office, and keeping the barn clean...",
+"Events.COT.4H.Message.1": "Hector will be at the Vet's Office three days a week! He'll also start begrudgingly visiting festivals.",
+
+//5 HEARTS PART 1
+
+"Events.COT.5H1.Hector.1": "-I do feel like I owe you an apology. When you'd wandered into my woods so many years ago, I thought you were a little boy.$24",
+"Events.COT.5H1.Mateo.1": "I can't blame you, honestly. I looked like one, I just didn't feel like one. Still don't.$32",
+"Events.COT.5H1.Hector.2": "Care to explain? You don't have to. I'm curious, but also, I'm looking to... empathize with you, I suppose.$12",
+"Events.COT.5H1.Mateo.2": "No, it's quite alright. I don't get asked often, and it's not information I offer out - it's personal.$12",
+"Events.COT.5H1.Mateo.3": "I've never identified as a man. I reduced my chest because the image I had for myself didn't match what I actually looked like.#$b#Think staring at a stranger in the mirror.$0#$b#For me, it's that simple. I was never at odds with being assigned female, otherwise.$1#$b#I just don't feel particularly masculine, or feminine - just, deeply, myself. 'Neither' is most comfortable for me.$32",
+"Events.COT.5H1.Mateo.4": "Are you alright?",
+"Events.COT.5H1.Hector.3": "Yeah. Just thinking. ...Humans are so courageous. It makes my shape-shifting feel like a privilege, and I hadn't considered that before.",
+"Events.COT.5H1.Mateo.5": "I think it's your turn for a vulnerable explanation.$14",
+"Events.COT.5H1.Hector.4": "In contrast to your relationship with gender, I feel the opposite. I identify strongly with masculinity and feminity, just on different days.$8#$b#I'll wake up and know how I want to be perceived. Sometimes it depends on confidence, or self-assurance. It's very... hm.$23",
+"Events.COT.5H1.Mateo.6": "Fluid.",
+"Events.COT.5H1.Hector.5": "Yes. Thank you.$12#$b#I feel very...seen.$14",
+"Events.COT.5H1.Mateo.7": "Even though we identify very differently, there's something universal about being queer that can foster these kinds of connections.$32",
+"Events.COT.5H1.Hector.6": "...A genderfluid druid, and their friend, who is neither man nor woman.$1",
+"Events.COT.5H1.Mateo.8": "Oh, we're friends now? You're finally acknowledging it?$36",
+"Events.COT.5H1.Hector.7": "Don't ruin the moment. I'll kick you right off this cliff.$9",
+"Events.COT.5H1.Mateo.9": "Don't you dare-!",
+"Events.COT.5H1.Mateo.10": "Hector.$49",
+"Events.COT.5H1.Hector.8": "Ehehehehehehehehehehe!$1",
+
+//5 HEARTS PART 2
+
+"Events.COT.5H2.Hector.1": "Hello!~",
+"Events.COT.5H2.Q1.Answer.1": "How are you enjoying work, Hector?",
+"Events.COT.5H2.Q1.Answer.2": "Are you having fun and making friends?",
+"Events.COT.5H2.Q1.Response.1": "Believe it or not, I love working here, actually.$1#$b#It's not very hard, but it's very satisfying. Moreso than staying in the tower all day, every day.$0",
+"Events.COT.5H2.Q1.Response.2": "I've been having loads of fun, actually. Being satisfied by a job well done outweighs the difficulty of the work by far.$1#$b#And since I've been around town, people have struck up conversations of their own initiative. It's been nice.$0",
+"Events.COT.5H2.Hector.2": "I keep everything clean, and I don't mind doing house chores at all. It's kind of relaxing.$7",
+"Events.COT.5H2.Hector.3": "I've even got company most of the day...how great.$24#$b#Listen, I do have to get the barn cleaned up. You go keep doing farmer stuff or whatever.$8#$b#I'll see you around, okay?$7",
+"Events.COT.5H2.Hector.4": "What awful timing. My body's aching, I've got no energy to keep faking it today.$19",
+"Events.COT.5H2.Richie.1": "Liar, Liar! Pants on fire.",
+"Events.COT.5H2.Hector.5": "Hey - cut it out, you.$18",
+"Events.COT.5H2.Richie.2": "Hiding the truth is still lying! Hiding the truth is still lying!",
+"Events.COT.5H2.Hector.6": "I said, cut it out!$18#$b#Please...$19",
+"Events.COT.5H2.Hector.7": "I really have to get the ball rolling, don't I? Can't put it off the inevitable any longer. I just can't.$18",
+
+//5 HEARTS PART 3
+
+"Events.COT.5H3.Mateo.1": "You're confronted, finally, by a magnificent beast-$14",
+"Events.COT.5H3.Mateo.2": "A brilliant winged serpent towers over you, casting the party in shadow.$15",
+"Events.COT.5H3.Mateo.3": "With a sweep of it's tail, it knocks all of you back. The creature roars, guttural and horrific!$13#$b#...Roll for initiative.$36",
+"Events.COT.5H3.Message.1": "You watch the encounter; the party struggles, wearing the boss down but not quite making it to the end. Eloise's ranger is nearly out of health, Jacob's cleric is currently downed, and Hector's warlock is the only left standing. The atmosphere is tense.",
+"Events.COT.5H3.Mateo.4": "It's your turn, Hector. Things are getting pretty grim - what would you like to do?$0",
+"Events.COT.5H3.Hector.1": "I'd like to cut a deal with my patron.$23",
+"Events.COT.5H3.Mateo.5": "What are you trying to do?$24",
+"Events.COT.5H3.Hector.2": "I'd like to trade my character's body for a big surge of magical energy.",
+"Events.COT.5H3.Mateo.6": "I love a dramatic out as much as the next game master, but the story isn't going to end after this fight. Are you sure this is something you want to do?$37",
+"Events.COT.5H3.Hector.3": "Yeah. That way, the story can continue for everyone else.$22",
+"Events.COT.5H3.Eloise.1": "...$2",
+"Events.COT.5H3.Jacob.1": "...$2",
+"Events.COT.5H3.Mateo.7": "Alright. We're going to improvise this a little bit and fudge the rules in the name of story. Roll a d20.$35",
+"Events.COT.5H3.Hector.4": "That's a 20!$9",
+"Events.COT.5H3.Mateo.8": "Considering that's the first time you've rolled well when it's mattered this entire campaign, you're going out with a bang. You ready?$13",
+"Events.COT.5H3.Hector.5": "Uh-huh.",
+"Events.COT.5H3.Mateo.9": "Alright, so. You negotiate with your patron; it feels like time crawls to a halt as you do so. It seems to imply there will be consequences wherever you end up next.$15#$b#You feel a surge of the magical energy that's been lent to you. Eldritch electricity crackles at your fingertips.$14#$b#You raise your hands toward the waning monster before you. Everything goes white, and you're all deafened by an explosive noise.$14#$b#When you open your eyes, both the warlock and the boss are gone, and the area that had surrounded them is blackened with spent magic.$35",
+"Events.COT.5H3.Hector.6": "I'm satisfied with that.$14",
+"Events.COT.5H3.Eloise.2": "I'm not!$2",
+"Events.COT.5H3.Jacob.2": "I already want to try and bring our warlock back. There has to be a way.$0",
+"Events.COT.5H3.Aideen.1": "Oh, that's always how these stories go, is it not?$0",
+"Events.COT.5H3.Mateo.10": "We'll have to wait for next session to find out, won't we? That's it for today. I'm calling it.$35",
+"Events.COT.5H3.Hector.7": "What-!?",
+"Events.COT.5H3.Eloise.3": "Unfair!",
+"Events.COT.5H3.Jacob.3": "Oh, I hate cliffhangers...",
+"Events.COT.5H3.Aideen.2": "Mateo! That's rude!",
+"Events.COT.5H3.Hector.8": "Best I'd start working on my next character, huh? Wouldn't want to miss next week's game.$8",
+
+//6 HEARTS
+
+"Events.COT.6H.Hector.1": "About time you show- sorry. I'm glad you're here.$18#$b#Look, it's no secret that I've been a little guarded. But I know exactly what help I need, now. I mentioned my river, right? Well. It's about high time I show it to you.$16",
+"Events.COT.6H.Hector.2": "Yikes. It's pretty bad, isn't it? This has gotten out of control.$19",
+"Events.COT.6H.Hector.3": "I've been trying to manage by myself, but it gets worse faster than I can address it. I need a second set of hands, but I didn't know who to ask until you came along.$25",
+"Events.COT.6H.Q1.Answer.1": "How come you didn't ask the townsfolk for help?",
+"Events.COT.6H.Q1.Answer.2": "Don't worry, we can get this done together!",
+"Events.COT.6H.Q1.Response.1": "I was afraid to leave my tower, @. Much less rely on strangers for something so important to me.$22#$b#Though, I don't think I would've made the strides I have with socializing without your help anyway. So, thanks. But I think I'd like to keep this between us.$12",
+"Events.COT.6H.Q1.Response.2": "I figured that I could trust someone willing to give up the pleasantries of modern, civilized life for something more rustic. Thanks, @. My instincts seemed to be right.",
+"Events.COT.6H.Hector.4": "There's so much - even with help, this is taxing.$19",
+"Events.COT.6H.Hector.5": "That was a lot, but...$18#$b#We did it! There's no trash in sight!$1#$b#Except for that pipe! You're next, buddy!$5",
+"Events.COT.6H.Hector.6": "Okay, @. The next step is going to be a little harder. I need some supplies from around the valley. I'll give you a list.$22#$b#I promise, it's not groceries this time. This is the real deal.$4#$b#With these components, the river will return to normal in due time.$23",
+"Events.COT.6H.Q2.Answer.1": "You can't collect these yourself?",
+"Events.COT.6H.Q2.Answer.2": "Thanks for letting me help, Hector. I'll do my best!",
+"Events.COT.6H.Q2.Response.1": "I have other tasks to work on to get this ready, and this is what I'm willing to put in your hands.$8",
+"Events.COT.6H.Q2.Response.2": "I know you will.$14",
+"Events.COT.6H.Hector.7": "It's really difficult for me to ask for help, @. But you make it easy. Easier, at least.$14",
+
+//7 HEARTS PART 1
+
+"Events.COT.7H1.Mateo.1": "-so I just picked the lock. I ribbed Lewis about it a little, but it made @ laugh, and that was worth it.$1",
+"Events.COT.7H1.Eloise.1": "I'm sure they're around somewhere!",
+"Events.COT.7H1.Hector.1": "Mateo, you- you make me real self-conscious, you know?$22",
+"Events.COT.7H1.Mateo.2": "What do you mean?",
+"Events.COT.7H1.Hector.2": "I mean, you do these things - you help people, and it all comes naturally. Everything that comes out of your mouth is poetic.$16#$b#I compare myself to you, and then I get... upset. It feels unfair. I have to try very hard not to be unkind, and even then-$19#$b#I still fail. I lie when I get nervous. I say rude things. I don't mean it, I'm just - I'm still learning.$21",
+"Events.COT.7H1.Eloise.2": "Oh no, Hector...$2",
+"Events.COT.7H1.Mateo.3": "Thank you for sharing that with me. I know that must have been a very challenging thing to bring up.$78",
+"Events.COT.7H1.Hector.3": "You're literally doing the thing right now. That I just complained about.$16",
+"Events.COT.7H1.Mateo.4": "I know, and I can't help that. But I think you're being too hard on yourself, Hector. I recognize it because I was the same way.$76",
+"Events.COT.7H1.Hector.4": "Right. Sure. Yeah.$18",
+"Events.COT.7H1.Mateo.5": "No, really. The trick is believing people when they tell you that they care. When they compliment or acknowledge you. It's hard. It takes practice.$80",
+"Events.COT.7H1.Hector.5": "But-$17#$b#...$19",
+"Events.COT.7H1.Hector.6": "How am I supposed to accept that blind kind of love when I struggle so much to offer it out?$21",
+"Events.COT.7H1.Eloise.3": "Hector!",
+"Events.COT.7H1.Eloise.4": "Dad sent me with @ to come find you. We're having dinner at home. Come on!",
+"Events.COT.7H1.Hector.7": "For real?$20",
+"Events.COT.7H1.Eloise.5": "Yes, for real. He's always got extra, too. So the both of you can come.$1",
+"Events.COT.7H1.Mateo.6": "Aw, thanks Eloise!",
+"Events.COT.7H1.Eloise.6": "Let's go! No dawdling, please.$1",
+"Events.COT.7H1.Hector.8": "Maybe, maybe, maybe...$13",
+"Events.COT.7H1.Eloise.7": "Come on!",
+"Events.COT.7H1.Message.1": "Jacob sent you home with a plate of leftovers.",
+
+//7 HEARTS PART 2
+
+"Events.COT.7H2.Hector.1": "Ah, @- glad you could make it. I was just working on something pertaining to our project. Thanks for collecting all those components.$13",
+"Events.COT.7H2.Hector.2": "...Do you trust me?$14",
+"Events.COT.7H2.Question.1": "I said, do you trust me?",
+"Events.COT.7H2.Q1.Answer.1": "I do, but, why, what are you doing-",
+"Events.COT.7H2.Q1.Answer.2": "I did before you asked me like that-",
+"Events.COT.7H2.Q1.Response.1": "You'll see. I'd never do anything to hurt you, but you know that.$28",
+"Events.COT.7H2.Q1.Response.2": "It'll be fine. You'll see. I'd never do anything to hurt you.$28",
+"Events.COT.7H2.Message.1": "Your forest magic has been deeply enhanced! You can now collect Druidic Essences as you farm.",
+"Events.COT.7H2.Hector.3": "Let me share something beautiful with you.$29",
+"Events.COT.7H2.Hector.4": "In order to pull this off, I need the very essence of nature itself in a pretty substantial amount.$22#$b#You're a farmer before anything else, @. There's no better person to collect it.$8",
+"Events.COT.7H2.Hector.5": "Now, I hate to ritualistically empower you and then kick you out, but I've still got stuff to prepare for when we finally fire this off for real.$9#$b#Thank you for your help! Now, get goin'! Shoo!$9",
+"Events.COT.7H2.Hector.6": "There they go...",
+"Events.COT.7H2.Hector.7": "I'm so tired... I can't...$19",
+
+//8 HEARTS
+
+"Events.COT.8H.Hector.1": "Thank you for gathering everything up, @. I wouldn't have been able to do any of this without you.$13",
+"Events.COT.8H.Hector.2": "No, really. I need you to believe me when I tell you this wouldn't have been possible otherwise.$14#$b#Now, let's get going. Time to put a bow on this.$7",
+"Events.COT.8H.Hector.3": "First thing's first. Let's deal with that pipe!$9",
+"Events.COT.8H.Hector.4": "Now that the river's got no chance of being poisoned again, let's restore the forest around it-$18",
+"Events.COT.8H.Q1.Answer.1": "Hector, you don't look so good, I'm worried-",
+"Events.COT.8H.Q1.Answer.2": "You're pushing yourself too hard-",
+"Events.COT.8H.Q1.Response.1": "Thanks for fretting about me, @. But there's no need, I'll be fine.$29",
+"Events.COT.8H.Q1.Response.2": "Sometimes the only way out of a problem is through it.$29",
+"Events.COT.8H.Hector.5": "It's done. The river is clear, the air tastes good, and the flora is thriving. Things should finally start feeling normal again...$14",
+"Events.COT.8H.Q2.Answer.1": "Is there anything else you'd like to talk about?",
+"Events.COT.8H.Q2.Answer.2": "Hector, are you keeping something from me?",
+"Events.COT.8H.Q2.Response.1": "No, @. What makes you say that?$4",
+"Events.COT.8H.Q2.Response.2": "What? Me? No, never.$4",
+"Events.COT.8H.Hector.6": "I did need your help though, @. Don't go thinking I'm exaggerating about that. Look at the impact you've made.$12",
+"Events.COT.8H.Hector.7": "I know I've given you a hard time. Thanks for bearing with me through it all. This was weighing really heavily, and I can't help but act out when I'm under pressure.$13",
+"Events.COT.8H.Q3.Answer.1": "Are you really okay?",
+"Events.COT.8H.Q3.Answer.2": "If you need anything, you know you can ask.",
+"Events.COT.8H.Q3.Response.1": "...#24#$b#I will be.$6",
+"Events.COT.8H.Q3.Response.2": "I know! Gosh, stop pressing. I'm going to start thinking you like me or something. Gross!$9",
+"Events.COT.8H.Hector.8": "It should be fine, now.$18#$b#I just need some time to recover and everything will stop hurting all the time.$19",
+
+//9 HEARTS
+
+"Events.COT.9H.Mateo.1": "Look, I've been meaning to talk to you about something.$21#$b#I'm worried about Hector. Something seems off, but I can't place it. Every time I bring it up, it gets brushed off.$37",
+"Events.COT.9H.Q1.Answer.1": "Something's been off since the beginning.",
+"Events.COT.9H.Q1.Answer.2": "It has gotten pretty bad, hasn't it?",
+"Events.COT.9H.Q1.Response.1": "Yeah, but I don't think it's necessarily something bad. Maybe if you and I approach them about it together, we can figure out what's going on. I'm worried.$16",
+"Events.COT.9H.Q1.Response.2": "Yeah. If we approach them about it together, maybe they'll be a little more receptive. We're just trying to help, after all.$21",
+"Events.COT.9H.Q2.Answer.1": "Are you approaching this as the Guild Master, or as a friend?",
+"Events.COT.9H.Q2.Answer.2": "What if Hector doesn't want to talk?",
+"Events.COT.9H.Q2.Response.1": "Having a little empathy for someone you care about doesn't require a title.$78",
+"Events.COT.9H.Q2.Response.2": "We can't make him, but I'd feel terrible. All we can do is hope he trusts us enough, as friends, to let us help.$16",
+"Events.COT.9H.Mateo.2": "Let's get going. I'm not sure if Hector's working or not, so we'll have to find them.$37",
+"Events.COT.9H.Hector.1": "Local farmer and ex-rogue bother kindly druid, more at eleven.$8",
+"Events.COT.9H.Mateo.3": "Actually, Hector. We wanted to check in on you, make sure you're doing alright.$16",
+"Events.COT.9H.Hector.2": "I'm doing fine. Everything with the river has been sorted and the land is healthy, so I'm happy. Nothing more to it than that.$24",
+"Events.COT.9H.Q3.Answer.1": "Hector, are you lying?",
+"Events.COT.9H.Q3.Answer.2": "It's okay to tell us if you're struggling.",
+"Events.COT.9H.Q3.Response.1": "I've never lied my entire life!$9#$b#...$18",
+"Events.COT.9H.Q3.Response.2": "I'm not struggling!$18#$b#Interacting with you two is the struggle!$19",
+"Events.COT.9H.Hector.3": "Stop!",
+"Events.COT.9H.Hector.4": "Leave me alone!$26#$b#Don't come any closer!$27",
+"Events.COT.9H.Hector.5": "I said to stay back-",
+"Events.COT.9H.Hector.6": "I don't need any more help, nor pity, nor sympathy-$6",
+"Events.COT.9H.Hector.7": "I said to leave me alone, don't touch me, cut it out, I-$1#$b#I'll bite you, I'll-$2#$b#...That's a lie, I would never...$1",
+"Events.COT.9H.Eloise.1": "Hector?$2",
+"Events.COT.9H.Hector.8": "I'm sorry Eloise... I'm in a bad way.$2",
+"Events.COT.9H.Eloise.2": "We're here for you, Hector. It's okay.$2",
+"Events.COT.9H.Eloise.3": "It would help you start if you told us what was wrong.$2",
+"Events.COT.9H.Hector.9": "My body got sick when my river got sick. It's caused a lot of pain, and I expected it to go away after @ helped me. But it hasn't.$1",
+"Events.COT.9H.Mateo.4": "So you've just been aching this whole time and haven't told anyone?$16",
+"Events.COT.9H.Hector.10": "Yeah. I don't know what's had it's teeth in me, but it's made me want to bite back. I've been so tired, so angry.$21",
+"Events.COT.9H.Eloise.4": "You just have to give it time to heal, okay?$1#$b#It's alright to be angry when you're hurting. But you have people who care about you who want to help.$0#$b#Maybe you should talk to my dad.$1",
+"Events.COT.9H.Hector.11": "But that's so embarrassing.$21",
+"Events.COT.9H.Eloise.5": "No it's not. That's just what being part of a pack is, if you want to think of it that way.$0",
+"Events.COT.9H.Hector.12": "I'm - I'm sorry.$17",
+"Events.COT.9H.Mateo.5": "Don't be sorry. Being vulnerable is hard, especially when you're not used to having a support system.$80",
+"Events.COT.9H.Hector.13": "I'll give it some time. And I'll see Jacob, too. If not for myself, for you three.$12",
+"Events.COT.9H.Hector.14": "Thank you, @. I appreciate your role in this.$13",
+
+//10 HEARTS PART 1
+
+"Events.COT.10H1.Hector.1": "Thanks for dinner, Jacob.$1",
+"Events.COT.10H1.Jacob.1": "You're welcome. You and @ can stop in whenever you're up for it.",
+"Events.COT.10H1.Hector.2": "That'll be often!",
+"Events.COT.10H1.Eloise.1": "Have you been feeling better lately, Hector?",
+"Events.COT.10H1.Hector.3": "Well, uh. I've been drinking more water?$4",
+"Events.COT.10H1.Jacob.2": "Hector? What's going on?$2",
+"Events.COT.10H1.Q1.Answer.1": "It's okay. You can be honest; don't be afraid.",
+"Events.COT.10H1.Q1.Answer.2": "Time to heal, Hector.",
+"Events.COT.10H1.Q1.Response.1": "Thank you, @.$13",
+"Events.COT.10H1.Q1.Response.2": "You're right, @. Time to heal.$14",
+"Events.COT.10H1.Hector.4": "I've been in pain on and off. Like my body is sick, but my mind isn't. I'm tired all the time, and I keep lashing out.$24#$b#It's gotten harder and harder to deal with, because exertion is as bad as lethargy.$25",
+"Events.COT.10H1.Jacob.3": "Is work adding to it?$0",
+"Events.COT.10H1.Hector.5": "Yeah, but being here makes me really happy.$17",
+"Events.COT.10H1.Message.1": "Eloise whispers in Jacob's ear.",
+"Events.COT.10H1.Jacob.4": "That's a great idea, sweetheart.",
+"Events.COT.10H1.Jacob.5": "There's a lot of paperwork involved with my job. How about you do that instead of working the counter and the barn for a few weeks?$0#$b#I'll show you how, and then you'll give your body some time to rest while still being helpful.$2",
+"Events.COT.10H1.Hector.6": "I didn't know that was something I could do.$2",
+"Events.COT.10H1.Jacob.6": "It's okay. You didn't know to ask.$2",
+"Events.COT.10H1.Hector.7": "Okay, I'll do it. Thank you, Jacob.$12",
+"Events.COT.10H1.Jacob.7": "No, thank you - for being honest with me.$1",
+"Events.COT.10H1.Hector.8": "Come on, @. Help me with the dishes. Jacob cooked, after all.$14",
+"Events.COT.10H1.Hector.9": "Why don't you walk home with me, @? I'll brew tea or something.$12",
+"Events.COT.10H1.Richie.1": "Time to heal! Time to heal!",
+"Events.COT.10H1.Hector.10": "Mateo?",
+"Events.COT.10H1.Mateo.1": "Oh! There you are.$26",
+"Events.COT.10H1.Hector.11": "Were you picking the lock to my tower?$8",
+"Events.COT.10H1.Mateo.2": "Maybe.$9",
+"Events.COT.10H1.Hector.12": "...Why?$24",
+"Events.COT.10H1.Mateo.3": "I have something for you!$1",
+"Events.COT.10H1.Hector.13": "And you were going to break in to give it to me?$8",
+"Events.COT.10H1.Mateo.4": "I just finished it. I'm really excited to give it to you.$78",
+"Events.COT.10H1.Message.2": "Mateo hands Hector a silver badge, lovingly forged in the shape of a shield.",
+"Events.COT.10H1.Hector.15":"Mateo, I-$17",
+"Events.COT.10H1.Mateo.5": "Hector, do you swear under oath, to watch over the Deep Mountains...$76#$b#and to do everything in your power to focus on your health, and take care of your friends and family?$32",
+"Events.COT.10H1.Hector.16": "This is embarrassing. Besides, I was already doing that first part.$8",
+"Events.COT.10H1.Mateo.6": "Just say the thing, Hector.$82",
+"Events.COT.10H1.Hector.17": "Fine, I do.$7",
+"Events.COT.10H1.Mateo.7": "Then on behalf of Stardew Valley, I officially induct you as the 3rd Coastal Adventurer's Guild member!$1",
+"Events.COT.10H1.Hector.18": "I'm still not convinced it's not just a glorified nerd club.$8",
+"Events.COT.10H1.Mateo.8": "Don't ruin the moment, Hector.$82",
+
+//10 HEARTS PART 2
+
+"Events.COT.10H2.Hector.1": "@ ... We've got a long walk, so let's get going.",
+"Events.COT.10H2.Hector.2": "Welcome to The Grove, @. Seeded at the very heart of The Scarp, this place is the root of everything magical I've ever shown you.$12#$b#No human has set foot here for over a century - I haven't let them.$6",
+"Events.COT.10H2.Hector.3": "They spilled my blood the last time; marksmen, in cloaks. I thought them early settlers, maybe having stumbled onto this place on accident.$24",
+"Events.COT.10H2.Hector.4": "I'd carved the river for them! I'd loved them - But they didn't know. And they turned their arrows on me.$22#$b#I never blamed them, really. For being afraid. It's just instinct, when confronted with a beast. But I did internalize it.$24",
+"Events.COT.10H2.Hector.5": "You helped me unravel that. The trials, they weren't superfluous, I was protecting myself and I was protecting The Grove.$2",
+"Events.COT.10H2.Hector.6": "Had the river continued to suffer, so would this place. It's all connected that way.$24#$b#I hope you can forgive me for being so disingenuous.$14",
+"Events.COT.10H2.Hector.7": "I couldn't address the river's sickness on my own, and it hit my pride to need the help of those who'd cut my tail so long ago.$25",
+"Events.COT.10H2.Hector.8": "But I've long since learned that a justified instance of fear doesn't represent the lot of you.$14#$b#Thanks for that. Sincerely, with my whole heart.$13",
+"Events.COT.10H2.Hector.9": "My true name - the one I was made with - is Biróg.$13",
+"Events.COT.10H2.Hector.10": "Names have power. I wasn't sure who I could lend that power to.$12",
+"Events.COT.10H2.Hector.11": "@. The Scarp itself has a gift for you, and I brought you here to receive it. Are you ready?",
+"Events.COT.10H2.Message.1": "You've mastered forest magic! Use tab (configurable) to shapeshift into a deer. Longpress to change between stag or doe. Increases speed and recovers health & stamina when resting. Use it wisely!",
+"Events.COT.10H2.Hector.12": "Now, come on - let's get the good view.$8",
+"Events.COT.10H2.Hector.13": "I've always been fascinated by humanity, and you represent such an amazing part of it.$12",
+"Events.COT.10H2.Hector.14": "Let me know if there's ever anything I can do for you in return. Not just in regards to Druidics, but...$14",
+"Events.COT.10H2.Q1.Answer.1": "...but as a partner. (ROMANTIC)",
+"Events.COT.10H2.Q1.Answer.2": "...but as a friend. (PLATONIC)",
+"Events.COT.10H2.Q1.Response.1": "Partner? Like, partner-partner? Like, you like me? You LIKE me, like me?$4#$b#Gross. I feel the same way, though. Just wasn't sure if you were into shape-shifting forest hermits and honestly I was too afraid to ask.$10",
+"Events.COT.10H2.Response.2": "I'm happy to explore that with you, @.$10",
+"Events.COT.10H2.Hector.15": "Actually, I'd be happy to explore... you.$11",
+"Events.COT.10H2.Hector.16": "Exactly. Eloise has been right this whole time. Wolves are pack animals - they need socialization. Family, friends. Things to care for.$14#$b#I'm so thankful she, and you, taught me that. I look back on where I started, when we'd met... everything feels so differently.$12#$b#You're something else, @. I hope you know that.$7",
+"Events.COT.10H2.Message.2": "I hope you enjoyed Hector's story as much as I loved telling it! This and my future works are dedicated to LoreSeeker's memory. May your heart swell with mischief and mayhem. Signed with love, Desty Nova.",
+
+//HECTOR'S PENDANT RESPONSE
+
+"Events.COT.Engaged.Hector.1": "My deer~ly beloved!",
+"Events.COT.Engaged.Q1.Answer.1": "Let's take our relationship to the next level.",
+"Events.COT.Engaged.Q1.Answer.2": "Do you know what a mermaid pendant is?",
+"Events.COT.Engaged.Q1.Response.1": "Wait, for real? I mean, obviously, yes, but, here's the thing...$4",
+"Events.COT.Engaged.Q1.Response.2": "I've been around long enough to be familiar with your traditions, yes.$11#$b#Wait, are you saying what I think you're saying? Obviously, yes, but, here's the thing...",
+"Events.COT.Engaged.Hector.2": "I can't move in with you. It's important to me to be near The Grove, and you live on the other side of The Valley.$22#$b#But if you're okay with that, then... you have my whole heart, @. For as long as you want it.$11",
+"Events.COT.Engaged.Hector.3": "Oh, come on Richie, give me a break-$4",
+"Events.COT.Engaged.Jacob.1": "Hey. What's happening in here?$0",
+"Events.COT.Engaged.Hector.4": "Uh, we're engaged?$4",
+"Events.COT.Engaged.Jacob.2": "Congratulations!$1",
+"Events.COT.Engaged.Eloise.1": "Dad, you owe me an ice cream.$1",
+
+//12 HEARTS
+"Events.COT.12H.Jacob.1": "Thanks for staying late, Hector.",
+"Events.COT.12H.Hector.1": "No worries. I'm sure @ was worried sick, though.$8",
+"Events.COT.12H.Jacob.2": "It's only been an hour.$1",
+"Events.COT.12H.Jacob.3": "I have been meaning to ask you something.",
+"Events.COT.12H.Hector.2": "What's on your mind?$12",
+"Events.COT.12H.Jacob.4": "Would you be interested in working with me full-time? I know you and @ live separately, and I don't want to take up more of your time if it's not reasonable.",
+"Events.COT.12H.Q1.Answer.1": "If you're up to it, follow your passion.",
+"Events.COT.12H.Q1.Answer.2": "Working here brings you joy, which brings ME joy!",
+"Events.COT.12H.Q1.Response.1": "Thank you, @. I love you so much.$15",
+"Events.COT.12H.Q1.Response.2": "Thank you, @. I love you so much.$15",
+"Events.COT.12H.Hector.3": "I'll do it, Jacob.$12",
+"Events.COT.12H.Jacob.5": "Thanks, Hector. It helps a lot, and I'm sure everyone will be glad to have you around more often.$1",
+"Events.COT.12H.Message.1": "Hector will now work at the vet full-time, with more of a variety of tasks!",
+"Events.COT.12H.Hector.4": "Thank you for supporting me, my deer~ly belo-$10",
+
+//14 HEARTS
+"Events.COT.14H.Hector.1": "@, as always. Your timing's impeccable.$8",
+"Events.COT.14H.Hector.2": "I wanted to share something with you. Another part of me that I haven't yet.$12",
+"Events.COT.14H.Hector.Message.1": "This fragment of Hector's circlet will double the drop rate of Druidic Essences.",
+"Events.COT.14H.Hector.3": "It broke during a conflict long ago - it's of no consequence, now. But I've held onto it out of sentiment...$12#$b#I'd like you to have it. This way, you'll think of me when we're apart. Like how I wear your pendant, and think of you.$13#$b#Maybe it's not the grandest thing, but-$15",
+"Events.COT.14H.Hector.4": "I love you, @. If you reach for the sky and can't quite make it, I'll bring it down for you. You are the parallel I'd lay my life on.$13", 
+"Events.COT.14H.Hector.Message.2": "I hope you enjoyed Hector's story as much as I loved telling it! This and my future works are dedicated to LoreSeeker's memory. May your heart swell with mischief and mayhem. Signed with love, Desty Nova.",
+
+
+/*
+   _____ ____  _   _     _______ ____  _____ _____ _____  _____ 
+  / ____/ __ \| \ | |   |__   __/ __ \|  __ \_   _/ ____|/ ____|
+ | |   | |  | |  \| |      | | | |  | | |__) || || |    | (___  
+ | |   | |  | | . ` |      | | | |  | |  ___/ | || |     \___ \ 
+ | |___| |__| | |\  |_     | | | |__| | |    _| || |____ ____) |
+  \_____\____/|_| \_(_)    |_|  \____/|_|   |_____\_____|_____/ 
+
+*/
+
+// Hector
+"CT.Hector.HectorIntro": "I sure hope that other guy's alright. Someone should check on him. Not me, though.$0",
+"CT.Hector.HectorBookIntro": "If you don't come visit Book on the regular, she'll be really upset.$9",
+"CT.Hector.HectorShapeshift": "Is it just me, or are you really tired for no reason? ... No, it IS just me? Okay.$18",
+"CT.Hector.HectorBookQuest": "Have you ever seen a book cry? I don't know how Book does it, either.$23",
+"CT.Hector.HectorVet": "Eloise is a smart cookie, isn't she?$8",
+"CT.Hector.HectorVet2": "Jacob's got a real good head on his shoulders. Must be tough, raising a kid by himself.$24",
+"CT.Hector.HectorGender": "I saw you eavesdropping on the bridge, you stinker.$9",
+"CT.Hector.HectorVet3": "Hey, having a work ethic is just as surprising to you as it is to me.$8",
+"CT.Hector.HectorDND": "Maybe I'll play a bard next. Think Mateo will let me have a keytar?",
+"CT.Hector.HectorRiver1": "Don't let me down, @. I'm counting on you, no pressure.$9",
+"CT.Hector.HectorDinner": "Jacob sure cooks well, huh?$12",
+"CT.Hector.HectorRiver2": "Thanks for all your help so far, @... sorry, I'm really tired today.$18",
+"CT.Hector.HectorRiver3": "Did you say something? Sorry, I need a nap.$19",
+"CT.Hector.HectorHeal": "Thank you again, for... you know.$13",
+"CT.Hector.HectorHeal2": "I don't know what I'd do without you, Jacob, Eloise, and Mateo...$13",
+"CT.Hector.HectorTrueGrove": "Don't overdo it on the shapeshifting, okay? You've seen the consequences.$22",
+"CT.Hector.HectorEngaged": "Holy shit, holy shit, holy shit, holy shit, holy sh-$4",
+
+"CT.Hector.SterlingDrugs": "Sterling's been off. If you're close with him, you should check in on him, @.$17",
+"CT.Hector.SterlingRelapse": "I haven't seen Sterling at the market. I hope everything is alright. He's not been having an easy time of things, by the sounds of it.$17",
+"CT.Hector.SterlingApology": "Saw Sterling back at work. Good for him! Poor guy really went through the wringer.$11",
+"CT.Hector.SterlingRiver": "Sobriety doesn't come easy... it's difficult to claw your way up from the bottom. But I'm glad he did.$10",
+"CT.Hector.JunaBeachBallet": "Juna? Oh, I'd love to be her friend. She causes problems on purpose. But she intimidates the shit out of me.$12",
+"CT.Hector.LucikielArrives": "The demon? Yeah, he's hot. Listen, don't judge me. I'm just saying what everyone is thinking.$9",
+"CT.Hector.ReputationIncreased": "I heard Lucikiel has an 8-pack. He started with six, but got the other two from being A Good Noodle around town.$8",
+"CT.Hector.JasperGone2": "Jasper? Jasper Thomas? What did he do-? ... I was close with his father. Let me know when he turns up.$24",
+"CT.Hector.JasperHomeA": "Glad he made it home safely. I lost one Thomas already.$24",
+"CT.Hector.PTJ03": "More crab-related pranks is MORE BETTER.$9",
+"CT.Hector.MeetTheCats": "I was going to joke about Jean and Jorts talking shit about you, but they would never because they're actually perfect.$14",
+"CT.Hector.ButteredJorts": "HAHAHAHAHAHAHAHAHAHAHA Pam did WHAT-?$1",
+"CT.Hector.JortsZoomies": "I support the anti-capitalist cats.$8",
+"CT.Hector.wedding": "Congratulations on your union. No, seriously. That's lovely.$4",
+"CT.Hector.luauBest": "Why... did the soup... taste like fabric?$23",
+"CT.Hector.Baby": "You now have a SPAWN. Enjoy it, I guess!$9",
+"CT.Hector.jojaMartStruckByLightning": "Oh, the lightning? Yeah, that was me. I don't care, Joja can eat my shorts.$8",
+"CT.Hector.willyBoatRepaired": "Heads up, those parrots on Ginger Island talk a LOT of smack.$7",
+"CT.Hector.islandResortUnlocked": "Not much of a beach party person, but I do like wearing my swimsuit.$9",
+"CT.Hector.leoValleyArrival": "I'm going to start a club, specifically for people who live in trees. So, me and Leo, I guess.$0",
+"CT.Hector.railroadEarthquake": "Huh, something made the earth angry.$23",
+"CT.Hector.AnewCoupleInTown": "Have you ever seen something so cute, it makes you kind of aggressive? That's how I feel when I see Trace and Anew.$16",
+"CT.Hector.AnewBookClub": "Anew has a book club. I wonder if they'd let me join...$23",
+"CT.Hector.EliIntro": "I love how Eli is quite literally surrounded by magical creatures and doesn't know it. Yet.$9",
+"CT.Hector.MeetDND": "I wandered too far west once and ended up in the woods surrounding a town called Sunberry.$8",
+"CT.Hector.AideenGarden": "I think Aideen's a druid. She just hasn't noticed yet.$23",
+
+// Mateo
+"CT.Mateo.HectorIntro": "I went and checked on Linus. He's alright, just very shaken.$78",
+"CT.Mateo.HectorBookIntro": "Book is something else, huh? I've never seen anything like her.$1",
+"CT.Mateo.HectorShapeshift": "Doesn't rapidly changing your body seem like it would be... I don't know, taxing somehow?$37",
+"CT.Mateo.HectorBookQuest": "I love how much Book obviously cares about Hector.$80",
+"CT.Mateo.HectorVet": "I'm so glad you got Hector out and about. But I wouldn't expect anything less of you.$82",
+"CT.Mateo.HectorVet2": "Jacob and Eloise are going to be really good for Hector. I've just got a gut feeling.$76",
+"CT.Mateo.HectorGender": "I don't talk about my presentation much. It was nice to have the chance with Hector.$78",
+"CT.Mateo.HectorVet3": "I'm glad Hector's happy, but have the seemed a little... off, to you? No?$34",
+"CT.Mateo.HectorDND": "I was surprised by Hector's choice. Don't worry, I've got really big plans for their next character. It'll be awesome.$32",
+"CT.Mateo.HectorRiver1": "Woah, Hector has you doing what-? That's amazing!$26",
+"CT.Mateo.HectorDinner": "Jacob's a big huge sweetheart, isn't he? It's no wonder, with how Eloise is.$78",
+"CT.Mateo.HectorRiver2": "I know Hector's very skilled, but they seem... I don't know, so worn down lately.$37",
+"CT.Mateo.HectorRiver3": "@, Hector doesn't seem to be doing so well. I'm worried.$21",
+"CT.Mateo.HectorHeal": "I'm so glad Hector's on the road to recovery. I really empathize with their situation, but a little familial love goes a long way.$32",
+"CT.Mateo.HectorHeal2": "Hector seemed in really good spirits, much better than recently. I'm so glad.$32",
+"CT.Mateo.HectorTrueGrove": "Oh, deer! We've got another shapeshifter in the valley!$82",
+"CT.Mateo.HectorEngaged": "Congratulations, @! I'm so happy for you both!$1",
+
+/*
+   ____ _______ _    _ ______ _____  
+  / __ \__   __| |  | |  ____|  __ \ 
+ | |  | | | |  | |__| | |__  | |__) |
+ | |  | | | |  |  __  |  __| |  _  / 
+ | |__| | | |  | |  | | |____| | \ \ 
+  \____/  |_|  |_|  |_|______|_|  \_\
+
+*/
+
+"AncientSeed.Hector.Amaranth": "Ancient Amaranth Seed", 
+"AncientSeed.Hector.Fern": "Ancient Epiphytic Fern Seed",
+"AncientSeed.Hector.Huckleberry": "Ancient Glowing Huckleberry Seed",
+"AncientSeed.Hector.Mushroom": "Ancient Glowing Polypore Mushroom Spores",
+"AncientSeed.Hector.FairyRose": "Ancient Wild Fairy Rose Seeds",
+
+}

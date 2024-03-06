@@ -1,0 +1,13 @@
+{
+    "Name": "Dwarven Objects",
+    "Author": "LemurKat",
+    "Version": "1.0.6",
+    "MinimumApiVersion": "3.2.0",
+    "Description": "Adds Dwarf Proposal item",
+    "UniqueID": "LemurKat.Dwarf.JA",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus:???"]
+}

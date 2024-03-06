@@ -1,0 +1,26 @@
+{
+    "Name": "Arcana Catcher Prunus",
+    "Description": "A novel about a young girl who captures magical tarot cards to save her father, by Rodney O'Brien", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+//    "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [ "SenS", "Haley", "MeredithOBrien", "Maru", "OliverK" ], //"Anew", "Mateo", "Hector", "Dex", "Gabe",
+        "Like": [ "Universal" ],
+        "Neutral": [ "Dwarf", "Gunnar", "Sig" ],
+        "Dislike": [ "EdwinaOBrien", "RodneyOBrien" ],
+        "Hate": [ "Wizard", "Lewis", "Clint", "Pam", "Demetrius", "Marlon", "MarlonFey", "Andy", "Victor", "Lance" ],
+    },
+    "TranslationKey": "object.arcana-catcher-prunus",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+// "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest", "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

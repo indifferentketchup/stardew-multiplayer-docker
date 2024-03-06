@@ -1,0 +1,13 @@
+{
+  "Name": "More Krobus quests",
+  "Author": "yuhvy",
+  "Version": "1.0.0",
+  "Description": "more quests for krobus",
+  "UniqueID": "yuhvy.morekrobusquests",
+  "MinimumApiVersion": "3.6.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework", 
+    "MinimumVersion": "1.4.0" 
+  },
+}

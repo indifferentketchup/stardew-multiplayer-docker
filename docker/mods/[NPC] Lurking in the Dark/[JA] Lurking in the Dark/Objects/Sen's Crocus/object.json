@@ -1,0 +1,20 @@
+{
+    "Name": "Sen's Crocus",
+    "Description": "A flower born from the seeds Sen threw to the wind.",
+    "Category": "Flower",
+    "Edibility": 18,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "HideFromShippingCollection": true,
+    "GiftTastes":
+    {
+        "Love": ["Emily", "Abigail", "Wizard"],
+        "Like": ["Leah", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Haley", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Sandy"]
+    },
+    "ContextTags": [
+        "color_purple",
+        "flower_item"
+    ],
+    "TranslationKey": "object.sens-crocus-flower"
+}

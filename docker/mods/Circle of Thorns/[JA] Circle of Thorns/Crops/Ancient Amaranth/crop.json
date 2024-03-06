@@ -1,0 +1,23 @@
+{
+	"Name": "Ancient Amaranth",
+	"Price": 400,
+    "Product": "Ancient Amaranth",
+	"SeedName": "Ancient Amaranth Seeds",
+	"SeedDescription": "Previously dormant. Grown in Summer and Fall, takes seven days. Does not regrow.",
+	"Type": "Vegetable", 
+	"CropType": "Normal",
+	"Seasons": [ "summer", "fall" ],
+	"Phases": [1, 2, 2, 2],
+	"RegrowthPhase": -1,
+	"HarvestWithScythe": true, 
+	"TrellisCrop": false,
+	"MinimumPerHarvest": 1,
+	"MaximumPerHarvest": 2,
+	"MaxIncreasePerFarmLevel": 31, 
+	"ExtraChance:": 0.03,
+	"TranslationKey": "crop.ancient-amaranth",
+	"SeedTranslationKey": "crop.ancient-amaranth.seed",
+
+}
+
+

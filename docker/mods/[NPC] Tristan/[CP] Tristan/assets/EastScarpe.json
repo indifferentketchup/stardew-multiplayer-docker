@@ -1,0 +1,246 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edits Jas schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jas",
+            "Entries": {
+                "Sat": "1000 Forest 91 22 1/1030 Town 31 89 1/1200 Town 24 12 2 jas_jumprope/1600 Town 17 14 2/1620 Town 53 72 0/1740 Custom_ESHouse1 18 22 1/2050 Custom_ESHouse1 15 4 3 jas_sleep",
+                "summer_Sun": "0900 Town 47 87 0/1200 Custom_EastScarpe 53 89 2/1600 Custom_ESHouse1 22 22 3/1900 Custom_ESHouse1 15 4 3 jas_sleep",
+                "spring_Sun": "GOTO summer_Sun",
+                "winter_Sun": "0900 Town 47 87 0/1200 Custom_ES_Playhouse 6 5 3 jas_read/1800 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 15 4 3 jas_sleep",
+                "fall_Sun": "GOTO winter_Sun"
+            }
+        },
+        {
+            "LogName": "Edits Jas schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jas",
+            "When": {
+                "HasMod": "tenthousandcats.ImmersiveCShane"
+            },
+            "Entries": {
+                "13": "1000 Forest 91 22 1/1030 Town 31 89 1/1200 Town 24 12 2 jas_jumprope/1600 Town 17 14 2/1620 Town 53 72 0/1740 Custom_ESHouse1 18 22 1/2050 Custom_ESHouse1 15 4 3 jas_sleep",
+                "27": "1000 Forest 91 22 1/1030 Town 31 89 1/1200 Town 24 12 2 jas_jumprope/1600 Town 17 14 2/1620 Town 53 72 0/1740 Custom_ESHouse1 18 22 1/2050 Custom_ESHouse1 15 4 3 jas_sleep"
+            }
+        },
+        {
+            "LogName": "Edits Eloise schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Eloise",
+            "Entries": {
+                "winter_Sun": "700 Custom_ESVetHouse 30 14 1/800 Custom_EastScarpe 55 89 2/1200 Custom_EastScarpe 18 55 2/1400 Custom_ES_Playhouse 5 4 2 Eloise_read_high/1800 Custom_ESVetHouse 30 14 1/2100 Custom_ESVetHouse 33 23 2",
+                "fall_Sun": "GOTO winter_Sun",
+                "summer_Sun": "700 Custom_ESVetHouse 30 14 1/900 Custom_ESVetHouse 30 25 3 \"Strings\\schedules\\Eloise:vethouse.000\"/1100 Custom_EastScarpe 54 41 2/1210 Custom_EastScarpe 55 89 2/1600 Custom_EastScarpe 18 55 2/1800 Custom_ESVetHouse 30 14 1/2100 Custom_ESVetHouse 33 23 2",
+                "spring_Sun": "GOTO summer_Sun"
+            }
+        },
+        {
+            "LogName": "Edits Eloise schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/PepperPup",
+            "When": {
+                "HasSeenEvent": "57870020"
+            },
+            "Entries": {
+                "winter_Sun": "700 Custom_ESVetHouse 23 14 square 5_2/800 Custom_EastScarpe 54 87 2 square_7_1/1200 Custom_EastScarpe 19 55 0/1400 Custom_EastScarpe 20 31 square_5_5/1800 Custom_ESVetHouse 23 14 square 5_2/2100 Custom_ESVetHouse 31 24 pepper_sleep",
+                "fall_Sun": "GOTO winter_Sun",
+                "summer_Sun": "700 Custom_ESVetHouse 23 14 square 5_2/1030 Custom_ESBirdHide 5 4 pepper_nap/1200 Custom_EastScarpe 25 36 1/1300 Custom_EastScarpe 54 87 square_7_1/1800 Custom_ESVetHouse 31 24 pepper_sleep",
+                "spring_Sun": "GOTO summer_Sun"
+            }
+        },
+        {
+            "LogName": "Edits Lavril schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Lavril",
+            "Entries": {
+                "winter_Sun": "610 Custom_ESOrchardHouse 2 4 2/620 Custom_ESOrchardHouse 3 4 2 lavril_rest/830 Custom_ESOrchardHouse 1 22 1/950 Custom_ESOrchardHouse 6 22 2/1000 Custom_ESOrchardHouse 4 22 2 lavril_meditation \"Strings\\schedules\\Lavril:absorb.000\"/1210 Custom_ESOrchard 47 20 2/1240 Custom_ES_Playhouse 6 6 3 lavril_read/1800 Custom_ESOrchardHouse 7 5 2/1900 Custom_ESOrchardHouse 7 5 2 lavril_read/2040 Custom_ESOrchardHouse 2 4 2/2050 Custom_ESOrchardHouse 3 4 2/2100 Custom_ESOrchardHouse 3 4 2 lavril_sleep",
+                "fall_Sun": "GOTO winter_Sun",
+                "summer_Sun": "610 Custom_ESOrchardHouse 2 4 2/620 Custom_ESOrchardHouse 3 4 2 lavril_rest/830 Custom_ESOrchardHouse 1 22 1/950 Custom_ESOrchardHouse 6 22 2/1000 Custom_ESOrchardHouse 4 22 2 lavril_meditation \"Strings\\schedules\\Lavril:absorb.000\"/1100 Custom_ESOrchard 47 20 2/1210 Custom_EastScarpe 56 89 2/1600 Custom_ESOrchardHouse 4 22 2 lavril_meditation \"Strings\\schedules\\Lavril:absorb.000\"/1800 Custom_ESOrchardHouse 7 5 2/1900 Custom_ESOrchardHouse 7 5 2 lavril_read/2040 Custom_ESOrchardHouse 2 4 2/2050 Custom_ESOrchardHouse 3 4 2/2100 Custom_ESOrchardHouse 3 4 2 lavril_sleep",
+                "spring_Sun": "GOTO summer_Sun"
+            },
+            "When": {
+                "HasMod": "Arknir27.Lavril",
+                "HasSeenEvent": "63070012"
+            }
+        },
+        {
+            "LogName": "Edits Lavril schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Void",
+            "Entries": {
+                "winter_Sun": "610 Custom_ESOrchard 38 10 0/1220 Custom_ESOrchard 46 20 2/1300 Custom_ES_Playhouse 4 6 void_read/1800 Custom_ESOrchard 38 10 0",
+                "fall_sun": "GOTO winter_Sun",
+                "summer_Sun": "610 Custom_ESOrchard 38 10 0/1100 Custom_ESOrchard 46 20 2/1210 Custom_EastScarpe 56 90 2/1600 Custom_ESOrchard 38 10 0",
+                "spring_Sun": "GOTO summer_Sun"
+            },
+            "When": {
+                "HasMod": "Arknir27.Lavril",
+                "HasSeenEvent": "63070012"
+            }
+        },
+        {
+            "LogName": "Edits Jacob schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jacob",
+            "Entries": {
+                "winter_Sun": "700 Custom_ESVetHouse 34 14 3/800 Custom_EastScarpe 54 88 2/1200 Custom_EastScarpe 20 55 2/1340 Custom_EastScarpe 41 45 0/1400 Custom_EastScarpe 25 9 0/1600 Custom_ESVetHouse 31 5 0/2200 Custom_ESVetHouse 22 5",
+                "fall_Sun": "GOTO winter_Sun",
+                "summer_Sun": "700 Custom_ESVetHouse 34 14 3/900 Custom_EastScarpe 25 9 0/1130 Custom_EastScarpe 53 41 2/1210 Custom_EastScarpe 54 85 2/1600 Custom_EastScarpe 20 55 2/1700 Custom_ESVetHouse 34 14 2/1900 Custom_ESVetHouse 22 5",
+                "spring_Sun": "GOTO summer_Sun"
+            }
+        },
+        {
+            "LogName": "Edits Tristan schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/MisterGinger",
+            "Entries": {
+                "rain": "0900 Custom_ESHouse1 20 19 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/1900 Custom_ESHouse1 24 7 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "spring_28": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "summer_Mon": "800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1800 AnimalShop 17 16 0/1830 AdventureGuild 9 16 1",
+                "Mon": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 AdventureGuild 9 16 1",
+                "Tue": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1200 Custom_EastScarpe 30 117 2/1400 Custom_EastScarpe 55 40 2 misterginger_knit/1700 Saloon 20 19 3/2200 AdventureGuild 9 16 1",
+                "Wed": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1300 Custom_EastScarpe 30 117 2/1600 AnimalShop 3 7 2/2000 AdventureGuild 9 16 1",
+                "spring_Thu": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 AdventureGuild 9 16 1",
+                "summer_Thu": "800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1800 WizardHouse 2 17 2",
+                "fall_Thu": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 AdventureGuild 9 16 1",
+                "winter_Thu": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 AdventureGuild 9 16 1",
+                "winter_15": "0800 Forest 41 10 2/1300 Town 47 87 0/1600 Beach 22 24 2 \"Strings\\schedules\\MisterGinger:winter_15.000\"/2330 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "winter_18": "GOTO Tue",
+                "Fri": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1300 Custom_EastScarpe 30 117 2/1600 AnimalShop 5 6 2/2100 AnimalShop 3 7 2/2120 AdventureGuild 9 16 1",
+                "Sat": "610 Forest 92 23 0/1030 Town 32 91 0/1200 Custom_EastScarpe 55 84 misterginger_knit/1740 Custom_EastScarpe 23 62 2/1900 Custom_EastScarpe 15 69 2/2000 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 13 4 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "fall_Sat": "700 Forest 92 23 0/1030 Town 32 91 0/1200 Custom_EastScarpe 54 84 misterginger_knit/1640 Custom_EastScarpe 15 69 2/2000 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 13 4 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "Sun": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/1900 Custom_ESHouse1 7 19 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "Thu": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 AdventureGuild 9 16 1",
+                "summer_Sun": "800 Town 48 87 0/1200 Custom_EastScarpe 55 84 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/1900 Custom_ESHouse1 7 19 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "spring_Sun": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "fall_Sun": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "marriage_Fri:": "900 Forest 21 29 2/1300 Town 86 103 2/1620 Town 18 94 0/1750 AnimalShop 7 16 2/2430 BusStop -1 23 3",
+                "marriage_Mon": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 BusStop -1 23 3",
+                "spring": "610 Forest 92 23 0/1030 Town 32 91 0/1200 Custom_EastScarpe 55 84 misterginger_knit/1740 Custom_EastScarpe 23 62 2/1900 Custom_EastScarpe 15 69 2/2000 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 13 4 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+            }
+        },
+        {
+            "LogName": "Edits Tristan schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/MisterGinger",
+            "Entries": {
+                "summer_Mon": "800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1730 AnimalShop 17 16 0/1800 Forest 33 25/1930 AdventureGuild 9 16 1",
+                "Mon": "0800 Forest 37 10 2/1500 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/1800 Forest 33 25/1930 AdventureGuild 9 16 1"
+            },
+            "When": {
+                "HasSeenEvent": "5295004",
+                "HasMod": "tenthousandcats.ImmersiveCShane"
+            }
+        },
+        {
+            "LogName": "Edits Tristan schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/MisterGinger",
+            "Entries": {
+                "Sat": "610 Forest 92 23 0/1030 Town 32 91 0/1200 Custom_EastScarpe 55 84 misterginger_knit/1740 Custom_EastScarpe 23 62 2/1900 Custom_EastScarpe 15 69 2/1940 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 13 4 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "fall_Sat": "610 Forest 92 23 0/1030 Town 32 91 0/1200 Custom_EastScarpe 54 84 misterginger_knit/1740 Custom_EastScarpe 23 62 2/1900 Custom_EastScarpe 15 69 2/1940 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 13 4 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+            },
+            "When": {
+                "HasMod": "DaisyNiko.SVR3"
+            }
+        },
+        {
+            "LogName": "Edits Belos schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Belos",
+            "Entries": {
+                "Mon": "0610 Woods 12 7 2 Belos_rest2/0800 Woods 7 18 2 Belos_rest1/1000 Forest 41 10 2/1130 Town 50 68 1/1600 Forest 54 54 2/2000 Forest 41 10 2 Belos_Sleep",
+                "Tue": "GOTO Mon"
+            },
+            "When": {
+                "HasSeenEvent": "5295004",
+                "HasMod |contains=tenthousandcats.ImmersiveCShane": true,
+                "HasMod |contains=fire1": true
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/MisterGinger",
+            "Entries": {
+                "22": "800 Custom_ESHouse1 20 19 0/1000 CommunityCenter 9 5 2/1400 CommunityCenter 1 6 1/1730 CommunityCenter 13 19 2/1900 AnimalShop 3 7 3/2140 AdventureGuild 9 16 1"
+            },
+            "When": {
+                "HasSeenEvent |contains=191393": true,
+                "HasSeenEvent |contains=5295000": true,
+                "HasMod": "FlashShifter.StardewValleyExpandedALL"
+            }
+        },
+        {
+            "LogName": "Tristan's House exterior",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "FromFile": "assets/Maps/EastScarpeTristan2.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 36,
+                "Width": 14,
+                "Height": 11
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 42
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 7 Custom_ES_Playhouse 900 1800 Jas 1000"
+                    }
+                }
+            ]
+        },
+        /*  {
+            "LogName": "Tristan's House Interior 1",
+            "Action": "EditMap",
+            "Target": "Maps/ESHouse1",
+            "FromFile": "assets/Maps/TristanHouse3.tmx",
+            "FromArea": {
+                "X": 9,
+                "Y": 0,
+                "Width": 21,
+                "Height": 14
+            },
+            "ToArea": {
+                "X": 9,
+                "Y": 0,
+                "Width": 21,
+                "Height": 14
+            },
+            "When": {
+                "HasSeenEvent |contains=5295000": true
+            }
+        },*/
+        /* {
+            "LogName": "Tristan's House Interior 2",
+            "Action": "EditMap",
+            "Target": "Maps/ESHouse1",
+            "FromFile": "assets/Maps/TristanHouse2.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 14,
+                "Width": 25,
+                "Height": 10
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 14,
+                "Width": 25,
+                "Height": 10
+            },
+            "When": {
+                "HasSeenEvent |contains=5295000": true
+            }
+        }*/
+    ]
+}

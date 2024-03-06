@@ -1,0 +1,160 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/MisterGinger_date",
+            "FromFile": "assets/Characters/{{TristanVariant}}/Tristan_date.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/MisterGinger_date",
+            "FromFile": "assets/Portraits/{{TristanVariant}}/Tristan_date.png"
+        },
+        //Forest with Shane
+        {
+            "LogName": "Talking to Shane",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "5295004/e 5295002/t 1730 2000/w sunny": "nightTime/-1000 -1000/MisterGinger 33 18 2 Shane 34 25 2 farmer -100 -100 1/addConversationTopic ShaneTrissRH1 5/skippable/addLantern 735 35 24 1/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/viewport 34 25 true/move MisterGinger 0 7 1/pause 500/textAboveHead MisterGinger \"Hello Shane.\"/stopAnimation Shane/pause 500/jump Shane 5/faceDirection Shane 3/pause 1000/emote Shane 12/pause 500/speak Shane \"What are you doing here?$3#$b#Come to judge me too?$5\"/pause 500/faceDirection Shane 2/pause 500/speak Shane \"It's only one can. Or maybe two...or three... anyway...$2#$b#It's none of your business.$5\"/pause 500/speak MisterGinger \"Shane... I'm worried about you.$2#$b#May I join you for a while?\"/pause 500/faceDirection Shane 1/pause 500/emote Shane 40/pause 2000/speak Shane \"Yeah... whatever... Like I could ever stop you doing anything you wanted.$5\"/pause 500/textAboveHead MisterGinger \"Thanks.\"/faceDirection MisterGinger 2/pause 500/move MisterGinger 0 1 2/animate MisterGinger false true 480 16 17/pause 500/faceDirection Shane 3/pause 500/emote Shane 16/pause 500/speak Shane \"Are you... knitting?$3\"/pause 500/speak MisterGinger \"Yep. I've found it helps to keep my hands busy. Helps to keep the demons at bay.\"/pause 500/faceDirection Shane 2/pause 500/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/pause 2000/stopAnimation Shane/faceDirection Shane 3/emote Shane 40/pause 2000/faceDirection Shane 2/speak Shane \"You're not going to nag me about drinking again?$2\"/textAboveHead MisterGinger \"Nope.\"/pause 2000/faceDirection Shane 3/textAboveHead Shane \"Why not?\"/pause 500/stopAnimation MisterGinger/move MisterGinger 0 -1 2/speak MisterGinger \"Figured it's my fault. No sooner have you finally started to get your life back together then Jas's father returns from beyond the grave.#$b#... And not only is he devilishly handsome, but he's suddenly a major part of her life...$3#$b#...and yours.$2\"/faceDirection MisterGinger 1/pause 500/speak Shane \"'Devilishly handsome'?$1\"/pause 500/speak MisterGinger \"You better believe it. Ladies dig redheads.$1\"/pause 500/speak Shane \"Just as up yourself as I remember.\"/pause 500/speak MisterGinger \"Oh, I seem to recall you had your share of the admirers too, Shane.\"/pause 500/faceDirection Shane 1/pause 500/speak Shane \"Those days are long gone. \"/pause 500/speak MisterGinger \"Oh, I dunno... you might be surprised.#$b#Pretty sure @ has their eyes on you.\"/pause 500/speak Shane \"@? Nah. We're just friends. Good friends. They threw me a rope when the abyss all but swallowed me.$4\"/pause 500/speak MisterGinger \"I'm sorry I didn't do more. Try harder. Spill more beer.#$b#But I'm back now, Shane.\"/pause 500/faceDirection Shane 3/pause 500/speak MisterGinger \"I know things got weird between us... and we'll never be the same as we were...#$b#But... I'm here for you, okay?$2\"/pause 500/emote Shane 32/pause 1500/speak MisterGinger \"Now, do you want some help finishing off that six-pack?$6\"/pause 500/speak Shane \"You can have it, if you like. Not really in the mood for it anymore.\"/pause 500/move Shane 1 0 3/pause 500/addObject 34 25 167 1/jump MisterGinger 5/textAboveHead MisterGinger \"Joja cola?!\"/pause 500/speak Shane \"Yeah, I won a year's supply in some dumb competition.#$b#What? You thought I was back on the booze?$5\"/move Shane -1 0 3/pause 500/speak Shane \"Just proof nobody trusts me to pull my life together.$5\"/pause 500/emote Shane 12/faceDirection Shane 0/move Shane 0 -10 0 true/faceDirection MisterGinger 0/pause 500/textAboveHead MisterGinger \"Shane... wait...\"/pause 1000/speak MisterGinger \"I didn't doubt you... you meathead.$2\"/faceDirection Shane 2/pause 500/end warpOut",
+                "5295013/e 5295004/A ShaneTrissRH1/w sunny/t 2000 2500": "nightTime/-1000 -1000/MisterGinger -100 -100 3 Shane 34 25 2 Harvey -100 -100 3 Marnie -100 -100 1 Jas -100 -100 1 farmer -100 -100 1/addConversationTopic ShaneTrissRH2 3/skippable/addLantern 735 35 24 1/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/viewport 31 21 true/pause 1000/playSound swordswipe/pause 1000/playSound stoneCrack/pause 1000/playSound rabbit/pause 500/stopAnimation Shane/faceDirection Shane 0/textAboveHead Shane \"Who's there?\"/pause 500/warp MisterGinger 20 12/move MisterGinger 4 0 1/move MisterGinger 0 1 2/move MisterGinger 3 0 1/textAboveHead Shane \"Tristan?\"/move MisterGinger 0 -1 1/move MisterGinger 3 0 2/move MisterGinger 0 3 1/move MisterGinger 4 0 2/emote MisterGinger 40/pause 1000/shake MisterGinger 3000/pause 500/pause 500/jump Shane 5/speed Shane 5/move Shane 0 -7 0/speak Shane \"Tristan? Are you okay?$2\"/pause 500/speak MisterGinger \"I'm... I'm fine... jusht fine...$10\"/pause 500/emote Shane 12/pause 500/speak Shane \"Are you... drunk?$a\"/pause 500/speak MisterGinger \"No... I don't... I don't think so...$10\"/pause 500/showFrame MisterGinger 0/speak MisterGinger \"Who? ... Sh-Shane?$10#$b#My... my head hurts... Wha-what's going on?$10\"/shake MisterGinger 500/showFrame MisterGinger 20/pause 500/move Shane 0 -1 0/fade/stopMusic/viewport -1000 -1000/changeLocation AnimalShop/viewport -1000 -1000/warp MisterGinger 27 4/warp Shane 25 4/warp Jas 1 7/warp Marnie 24 15/warp Harvey 25 15/showFrame MisterGinger 0/faceDirection Shane 1/viewport 22 9 true/pause 500/emote Shane 28/pause 500/faceDirection MisterGinger 3/textAboveHead MisterGinger \"Shane?\"/pause 500/jump Shane 3/pause 500/speak Shane \"You're awake! Thank Yoba.$3\"/playMusic shaneTheme/pause 500/speak MisterGinger \"Wha... what happened?$10\"/speak Shane \"The doc says you hit your head. You have a concussion.$2#$b#What were you doing?$3\"/pause 500/speak MisterGinger \"I... fuh-fighting monsters... It's... Itsh my job.$10#$b#Keep-keeping the town safe... for... for Jas...$10#$b#I sh-should get back out there...$10\"/move MisterGinger -1 0 3/pause 500/speak Shane \"You're to rest. Doctor's orders.$2#$b#Though it surprises me how a blow could get through that thick skull of yours.$3\"/pause 500/speak MisterGinger \"Hah! Well, I wasn't intending to get into your bed so easily.$11\"/pause 500/emote Shane 40/pause 1500/emote MisterGinger 60/pause 1000/faceDirection Shane 3/pause 500/speak Shane \"Doc says you're allowed to sleep. Just try not to die, okay?$2#$b#Jas'd never forgive me.$4\"/speak MisterGinger \"Promise. But if you're gonna to be my nurse, you need to work on your bedside manner.$10#$b#And maybe get a cute little outfit?$11\"/emote Shane 12/pause 500/speak Shane \"You're delirious. I'm gonna sleep on the couch.$2\"/pause 500/move Shane 0 3 3/pause 500/textAboveHead MisterGinger \"Shane?\"/pause 1000/faceDirection Shane 0/pause 1500/textAboveHead MisterGinger \"Thank you.\"/pause 500/emote Shane 32/pause 500/speak Shane \"Goodnight Tristan.\"/pause 1000/end warpOut",
+                "5295014/e 5295013/A ShaneTrissRH2/w sunny": "none/90 24/Shane 90 17 2 farmer 96 23 3/skippable/pause 500/move Shane 0 5 2 true/move farmer -5 0 3 true/pause 1500/textAboveHead Shane \"Hey there\"/pause 1500/speak Shane \"@? I'd like to talk to you about something... it's personal, and awkward.$2\"/faceDirection Shane 3/pause 500/faceDirection Shane 1/pause 500/faceDirection Shane 2/question fork1 \"...#Sure, what's up?#No, sort your own issues out.\"/fork NoHelpShaneTriss/pause 500/speak Shane \"Not here though. Come on.\"/faceDirection Shane 3/fade/viewport -1000 -1000/warp Shane 34 25/warp farmer 33 25/faceDirection farmer 1/positionOffset farmer 0 20/viewport 34 25 true/pause 1000/playMusic shaneTheme/speak Shane \"Remember this spot? Yeh, I do a lot of thinking here. About the past. The future...#$b#...And recently I've been thinking a lot about Tristan.\"/emote farmer 8/pause 500/faceDirection Shane 1/pause 500/speak Shane \"We were buds back in college. Really good buds, practically inseparable. Sometimes I'd imagine we were more than...#$b#...nevermind that.$2#$b#Then he met Mona, and swept her off her feet with his irrepressible charm.#$b#I hated him for that: for stealing my sister, abandoning me, then ditching us both.#$b#Yeh, I know everyone said he was dead, but I didn't believe that. Didn't want to believe that.#$b#Cos if he was dead... well...$2\"/pause 500/faceDirection Shane 3/pause 500/emote Shane 40/pause 1500/speak Shane \"And now he's back. And I tried to hate him... But I don't. I can't.#$b#$q 529515 null#What should I do?#$r 529516 50 ShaneTrissL#Tell him how you feel. I bet he feels the same way.#$r 529517 100 ShaneTrissN#It's better to move on, Shane. Date someone else (maybe me).#$r 529517 -100 ShaneTrissG#Yuck! He dated your sister. Are you crazy??!\"/pause 500/faceDirection Shane 1/emote Shane 40/pause 500/speak Shane \"Well, thanks for listening, @. See ya round, okay?\"/pause 500/end warpOut",
+                "NoHelpShaneTriss": "pause 500/emote Shane 12/speak Shane \"Sorry to bother you.$5#$b#I mean, I only valued your opinion, but whatever...$2\"/pause 500/move Shane 0 2 1/faceDirection farmer 2/speak Shane \"See you around, @.\"/move Shane 7 0 1 true/pause 1000/emote farmer 40/end"
+            }
+        },
+        {
+            "LogName": "Shane drops by",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_ESHouse1",
+            "Entries": {
+                "5295015/e 5295013/t 900 1300/q 529516/p MisterGinger": "none/14 18/farmer 10 24 0 MisterGinger 7 18 2 Shane -100 -100 0/addConversationTopic TrissShaneDate 7/skippable/animate MisterGinger false true 480 16 17/pause 500/textAboveHead MisterGinger \"Welcome\"/move farmer 0 -2 0/speak MisterGinger \"It's good to see you, @.\"/move farmer -5 0 0/move farmer 0 -2 0/stopAnimation MisterGinger 0/move MisterGinger 0 1 2/speak MisterGinger \"Jas and me have been playing checkers. She's a smart lass. Got that from her Mom, obviously.$4\"/move farmer 1 0 1/pause 500/speak MisterGinger \"Fancy a game?\"/pause 500/emote farmer 40/pause 500/playSound stairsdown/pause 500/jump MisterGinger 5/pause 500/speak MisterGinger \"Another visitor! My, aren't I the popular one today.$1#$b#It's probably Marnie dropping by with more food.#$b#She spoils me.$4\"/speed MisterGinger 4/move MisterGinger 3 0 2/textAboveHead MisterGinger \"Come in!\"/pause 1000/playSound doorOpen/pause 500/warp Shane 10 24 0/pause 500/textAboveHead MisterGinger \"Shane!\"/pause 500/speak MisterGinger \"Welcome to my humble abode. A bit of a step up from a jacket on the floor, don't you think?$3\"/pause 500/move Shane 0 -3 0/pause 500/emote Shane 28/pause 500/faceDirection Shane 1/pause 1000/faceDirection Shane 3/emote farmer 32/emote Shane 60/speak Shane \"Um, sorry. Didn't mean to intrude. Didn't know you had guests already. I'll... I'll come back later.$2\"/faceDirection Shane 2/pause 500/speed Shane 4/move Shane 0 3 2 true/textAboveHead MisterGinger \"Shane... wait!\"/pause 1000/warp Shane -100 -100/pause 500/move MisterGinger 0 1 3/pause 500/emote MisterGinger 28/quickQuestion #What are you waiting for? Go after him!#Well... that was weird. Now, how about that game?#don't worry about him... I'm sure it's nothing important.(break)pause 500\\jump MisterGinger 5\\speak MisterGinger \"Of course!$3\"(break)pause 500\\emote MisterGinger 40\\pause 1000\\speak MisterGinger \"I'd better go. It could be important!$2\"(break)pause 500\\emote MisterGinger 12\\pause 1000\\speak MisterGinger \"I'd better find out.$5\"/pause 500/speed MisterGinger 5/move MisterGinger 0 4 2/warp MisterGinger -100 -100/pause 500/question fork0 \"...?#Follow him.#Wait.\"/fork FollowTriss/pause 1000/faceDirection farmer 3/pause 500/move farmer 0 -1 1/move farmer 2 0 0/pause 500/message \"There's some sort of cheesy soap opera on.\"/pause 500/fade/pause 100/viewport -1000 -1000/message \"It's oddly compelling.\"/pause 500/playSound thudStep/warp MisterGinger 9 19/faceDirection MisterGinger 3/speak MisterGinger \"@?#$b#@!\"/pause 500/viewport 14 18/pause 500/speak MisterGinger \"You're still here?! Well, guess what?\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 8/pause 500/speak MisterGinger \"Shane's invited me to a gridball game! Next week!$1\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"Which, as far as I can tell, is a bunch of heavily padded grown men chasing a funny shaped ball around a field...$3#$b#Can't say I understand any of it, but hey, there'll be hotdogs and, most importantly, Shane!$1#$b#I think we're friends again, @!#$b#And maybe... maybe something more?\"/pause 500/emote farmer 20/pause 500/emote MisterGinger 60/pause 1500/end warpOut",
+                "FollowTriss": "pause 500/speed farmer 3/move farmer 0 -1 1/move farmer 4 0 1/fade/viewport -1000 -1000/changeLocation Custom_EastScarpe/viewport -1000 -1000/warp Shane 32 100/warp MisterGinger 32 88/warp farmer 24 97/faceDirection farmer 2/viewport 30 101 true/emote Shane 28/move MisterGinger 0 10 2 true/pause 500/textAboveHead Shane \"Chicken...\"/pause 2000/speak MisterGinger \"Chickens are pretty fierce, actually. As you damned well know.$3\"/jump Shane 5/faceDirection Shane 0/pause 500/emote Shane 28/pause 2000/faceDirection Shane 2/speak Shane \"You weren't supposed to follow me.$2\"/pause 500/move MisterGinger -1 0 2/move MisterGinger 0 2 2/pause 500/positionOffset MisterGinger 0 20/speak MisterGinger \"I thought you knew, Shane. I do a lot of things I'm not supposed to.\"/pause 500/faceDirection MisterGinger 1/faceDirection Shane 3/jump Shane 3/move Shane 1 0 3/pause 500/emote Shane 28/pause 500/speak MisterGinger \"So what were you coming to ask me?#$b#You were coming to ask me something, weren't you?\"/pause 500/emote Shane 40/pause 1500/faceDirection Shane 1/pause 500/faceDirection Shane 3/textAboveHead Shane \"*gulp*\"/pause 1500/speak Shane \"I've got tickets for a gridball game next week. Zuzu City Tunnelers versus the Grampleton Tigers.\"/pause 500/emote MisterGinger 40/pause 500/emote Shane 28/speak Shane \"Do you want to join me?\"/pause 1000/speak MisterGinger \"Gridball, right? That's when grown men chase a funny-shaped ball around a field, and occasionally jump on one another?\"/emote Shane 12/speak Shane \"That's one way to describe it. I guess.$2\"/pause 500/speak MisterGinger \"Sounds fun. I'm in! It's a date.$1\"/pause 500/emote Shane 60/pause 500/emote farmer 32/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Shane and Tristan's 'date'",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "5295016/e 5295015/t 1700 2000/A TrissShaneDate": "continue/-1000 -1000/MisterGinger 12 19 0 Shane 13 10 2 Alex 15 21 3 Pam 10 10 2 farmer 14 23 0/skippable/changePortrait MisterGinger date/changeSprite MisterGinger date/viewport 12 11 clamp true/move MisterGinger 0 -6 0/move Alex 0 -4 0/speak Shane \"Oh. You made it.\"/speak MisterGinger \"Oh, don't sound too excited. I could be curled up in front of the fire right now.#$b#Instead, I've chosen to watch a bunch of men chase each other around a field and fight over a ball.\"/emote Alex 8/speak Shane \"You don't have to come you know, if it's too much trouble.$2\"/pause 500/emote MisterGinger 28/speak MisterGinger \"I want to, Shane, you know I do! Gridball might not be my thing...#$b#But I do want to spend time with you.$1\"/emote Shane 60/pause 1000/speak Shane \"You look ridiculous, by the way. It's a Gridball game, not a dinner party!$1\"/speak MisterGinger \"Oh, you silver-tongued flatterer you.$6#$b#But seriously, what do you think?$2\"/pause 500/emote Shane 40/pause 1500/TextAboveHead Shane \"(Ilikeit.)\"/pause 1500/speak MisterGinger \"I'm glad. Now, let's go before Pam starts asking questions.\"/pause 500/emote Pam 12/faceDirection Shane 3/move MisterGinger 0 -2 0 true/move Alex 0 -2 0 true/pause 1000/move MisterGinger 0 -1 0/playSound thudStep/warp MisterGinger -100 -100/move Shane -1 0 0/move Shane 0 -1 0/playSound thudStep/warp Shane -100 -100/move farmer 0 -8 0/faceDirection Alex 3/faceDirection farmer 1/speak Alex \"So, Shane and Tristan? What's going on there?$2\"/pause 500/quickQuestion #Pretty sure they're dating.#No idea.#It's none of your business.#Who cares?(break)speak Alex \"Ah. Cool.$1\"(break)speak Alex \"Really? I thought you were pretty close with that lot?\"(break)speak Alex \"Wow. Maybe not. But no need to be nasty about it.$5\"(break)speak Alex \"Just curious, that's all. Nothing much interesting goes on around here.\"/pause 500/question fork0 \"Hey, are you coming to the game too?#No way. Gridball's for losers.#Of course I am!\"/fork Tristan_NoGame/pause 500/textAboveHead Alex \"Cool\"/move Alex 0 -5 0 true/move farmer 0 -5 0 true/pause 3000/fade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap Stadium false/pause 1000/playMusic Stadium_ambient/warp farmer 13 12/warp Alex 14 12/faceDirection farmer 2/faceDirection Alex 2/warp MisterGinger 19 16/faceDirection MisterGinger 2/positionOffset MisterGinger 0 12/warp Shane 22 9/advancedMove Shane false 0 7 -2 0/viewport 22 18 clamp true/proceedPosition Shane/positionOffset Shane 0 12/faceDirection Shane 2/speak Shane \"Hey, I got you a cold one.\"/showFrame Shane 25/pause 1000/playSound coin/showFrame Shane 0/emote MisterGinger 8/speak Shane \"Yeah, it's ginger beer. If I remember rightly, you loved that stuff.$1\"/emote MisterGinger 32/speak Shane \"And I got myself a Joja cola, don't worry.\"/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/pause 1000/speak MisterGinger \"I'm not worried, Shane. You've turned your life back around.$1\"/faceDirection MisterGinger 1/stopAnimation Shane/faceDirection Shane 3/pause 1000/speak MisterGinger \"I'm proud of you.#$b#I realize now, finally, that Mona chose the right man to raise our daughter.$4\"/emote Shane 60/pause 500/speak MisterGinger \"Oh, it took a bit of convincing, I have to say.\"/pause 500/speak Shane \"Yeah, I almost messed that up royally. I'm just lucky I've got Marnie, Jas, @. And now you. I guess?\"/speak MisterGinger \"Yeah Shane... you've got me.\"/positionOffset MisterGinger 2 0/pause 10/positionOffset MisterGinger 2 0/pause 10/positionOffset MisterGinger 2 0/pause 10/positionOffset MisterGinger 2 0/showFrame MisterGinger 28/pause 1000/showFrame Shane 34/pause 1000/playSound Stadium_cheer/pause 1000/faceDirection Shane 2/jump Shane 5/showFrame MisterGinger 4/speak Shane \"Gahh!! Look, the Tunnelers are on the attack!$10\"/faceDirection MisterGinger 2/emote MisterGinger 12/pause 1000/playSound Stadium_cheer/pause 1000/textAboveHead Shane \"Goal!!\"/jump Alex/pause 100/textAboveHead Alex \"Goal!\"/pause 2500/end dialogue MisterGinger \"Did I enjoy the gridball game? Well...I can't say I understand the sport at all....#$b#But yeah, I had a good time.$1\"",
+                "Tristan_NoGame": "pause 500/emote Alex 12/pause 1000/speak Alex \"You know what, @?#$b#Sometimes you're a real jerk.$5\"/pause 500/faceDirection Alex 0/move Alex 0 -3 0 true/pause 2500/end dialogue MisterGinger \"Did I enjoy the gridball game? Well...I can't say I understand the sport at all....#$b#But yeah, I had a good time.$1\""
+            }
+        },
+        //Changes schedules on Tuesdays, 9 and 23
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "HasSeenEvent|contains=5295016": true,
+                "HasSeenEvent |contains=191393": false
+            },
+            "Entries": {
+                "9": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 2 shane_work/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Custom_ESHouse1 18 22 1/2000 Custom_ESHouse1 6 20 1/2300 Custom_ESHouse1 22 4 1 shane_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "HasSeenEvent|contains=5295016": true,
+                "HasSeenEvent |contains=191393": true
+            },
+            "Entries": {
+                "9": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1300 Saloon 11 20 0/1600 Custom_ESHouse1 18 22 1 \"Strings\\schedules\\Shane:TristanHouse_{{Random:ST1, ST2, ST3 |key=dinner}}/2000 Custom_ESHouse1 6 20 1 \"Strings\\schedules\\Shane:TristanHouse_{{Random:ST4, ST5, ST6 |key=game}}\"/2300 Custom_ESHouse1 22 4 1 shane_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "HasSeenEvent|contains=5295016": true,
+                "HasSeenEvent |contains=191393": true,
+                "HasMod": "tenthousandcats.ImmersiveCShane",
+		"Weather":"Rain, Storm"
+            },
+            "Entries": {
+                "9": "700 AnimalShop 24 15 0/850 AnimalShop 24 5 0/1200 AnimalShop 24 15 0/1600 Custom_ESHouse1 18 22 1 \"Strings\\schedules\\Shane:TristanHouse_{{Random:ST1, ST2, ST3 |key=dinner}}\"/2000 Custom_ESHouse1 6 20 1 \"Strings\\schedules\\Shane:TristanHouse_{{Random:ST4, ST5, ST6 |key=game}}\"/2300 Custom_ESHouse1 22 4 1 shane_sleep",
+                "23": "GOTO 9"
+            }
+        },
+ {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "HasSeenEvent|contains=5295016": true,
+                "HasSeenEvent |contains=191393": true,
+                "HasMod": "tenthousandcats.ImmersiveCShane",
+		"Weather":"Sun,Wind"
+            },
+            "Entries": {
+                "9": "700 AnimalShop 24 15 0/850 AnimalShop 12 14 2/1600 Custom_ESHouse1 18 22 1 \"Strings\\schedules\\Shane:TristanHouse_{{Random:ST1, ST2, ST3 |key=dinner}}\"/2000 Custom_ESHouse1 6 20 1 \"Strings\\schedules\\Shane:TristanHouse_{{Random:ST4, ST5, ST6 |key=game}}\"/2300 Custom_ESHouse1 22 4 1 shane_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/MisterGinger",
+            "When": {
+                "HasSeenEvent|contains=5295016": true
+            },
+            "Entries": {
+                "9": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1200 Custom_EastScarpe 30 117 2/1400 Custom_EastScarpe 55 40 2 misterginger_knit/1500 Custom_ESHouse1 20 19 0/1900 Custom_ESHouse1 19 20 2 \"Strings\\schedules\\MisterGinger:TristanHouse_{{Random:ST1, ST2, ST3 |key=dinner}}\"/2000 Custom_ESHouse1 7 19 \"Strings\\schedules\\MisterGinger:TristanHouse_{{Random:ST4, ST5, ST6 |key=game}}\"/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        {
+            "LogName": "Marnie Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "HasSeenEvent|contains=5295016": true
+            },
+            "Entries": {
+                "winter_Fri10":  "I'm glad Shane and Tristan found each other. He seems so much happier nowadays.#$b#Sometimes, when they were in college, I wondered, you know?$3"
+            }
+        },
+        {
+            "LogName": "Strings - Shane",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Shane",
+            "Entries": {
+                "TristanHouse_ST1": "I can't believe Tristan actually learned to cook. This pizza's actually halfway decent: spicy AND cheesy. Just the way I like it.$1",
+                "TristanHouse_ST2": "Hmmm, these pepper poppers taste like the ones Marnie makes. Coincidence? Not likely! Delicious? Definitely!#1",
+                "TristanHouse_ST3": "Pepper Popper Pizza?!... this is gonna haunt my dreams, you know.$2",
+                "TristanHouse_ST4": "Welp, if this is what it takes to get to watch the game...$1",
+                "TristanHouse_ST5": "Yeh, I figured I'd let him win. Chess isn't really my game, you know.",
+                "TristanHouse_ST6": "No, don't talk. I'm gonna wipe that smug, condescending smile off his face.$2"
+            }
+        },
+        {
+            "LogName": "Strings - Tristan",
+            "Action": "EditData",
+            "Target": "Strings/schedules/MisterGinger",
+            "Entries": {
+                "TristanHouse_ST1": "Hey pizza's easy. A spread of chili sauce, a large handful of cheese. Yeah, Marnie made the bases.$1 ",
+                "TristanHouse_ST2": "What can I say? Shane sure does love things spicy. I can barely feel my tongue!$2",
+                "TristanHouse_ST3": "Oh Shane's easy to cook for: he likes things hot, and cheesy. I guess that's why he likes me.$6",
+                "TristanHouse_ST4": "Yeh, we're watching a gridball game and playing chess. This is the life, right?",
+                "TristanHouse_ST5": "Hah, my knight jumps your queen, if you know what I mean.$6",
+                "TristanHouse_ST6": "Aww, doesn't Shane get the cutest furrow in his brow when he's concentrating?$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "MisterGinger": "I asked Shane if we should dance. But apparently he's got to dance with Emily. Tradition or some-such nonsense.#$b#Ah well, his loss. I'd have looked rather fetching in the dress, don't you think?$1"
+            },
+            "When": {
+                "HasSeenEvent": "5295016"
+            }
+        },
+    ]
+}

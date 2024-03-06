@@ -1,0 +1,184 @@
+{
+	"Format": "1.23.0",
+	"Changes": [
+		{
+	"LogName": "Krobus Marriage Dialogue",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueKrobus",
+        "Entries":
+        {
+
+            "Rainy_Day_0": "Ah rain - the perfect weather for us shadow creatures.$b Here I brought you something. [203 305 308 795]",
+        "Rainy_Day_1": "The sewers should be filling with water by now.",
+        "Rainy_Day_2": "I know that your crops must love it when it rains. Yoba's gift to them for life.",
+        "Rainy_Day_3": "If you hear a knock at the door, it's probably just Marlon checking up on me so don't worry.",
+        "Rainy_Day_4": "It's a perfect day for fishing...$e Here I got you this.[142]#$b# There's plenty of them in the sewers.",
+        "Rainy_Day_Krobus": "Ah, it's more humid today with the rain... It feels so nice.",
+        "Rainy_Night_0": "On nights like this, those who gaze out windows sometimes see shadowy figures.#$b# Not that I would ever do that of course!$u",
+        "Rainy_Night_1": "If the other shadow people knew about our marriage, they would...'punish' me.#$b# Most of them still despise humans, sadly.$s",
+        "Rainy_Night_2": "You're soaking wet! You can dry by the fireplace if you want.",
+        "Rainy_Night_3": "I tried to make peace with the other shadow creatures but it's such a long process...",
+        "Rainy_Night_4": "So do you feel like doing something mischievous? Sometimes I can't help myself...heh heh...$6.",
+        "Rainy_Night_5": "It's said that my people came here long ago, when a great rainstorm caused the void to open up and we came into existence.",
+        "Rainy_Night_Krobus": "The sound of the rain reminds me of the sewers... it's comforting.#$b# I love it here but I do miss the sewers on nights like this.",
+        "Indoor_Day_0": "Good morning, @. May Yoba bless you today.$h",
+        "Indoor_Day_1": "I made you some food... [194 211 236 240 651]$b I hope this helps you today...",
+        "Indoor_Day_2": "I am content to stay here.#$b# But I understand if you want to go out.",
+        "Indoor_Day_3": "I'm considering spending my day outside...$b I have some duties to attend to with Marlon. Don't worry I will not be out long.",
+        "Indoor_Day_4": "On Fridays, I stay silent out of respect for Yoba. I hope you don't mind.",
+        "Indoor_Day_Krobus": "I wish I could help you on the farm, but I can't go out when it's sunny it's just too bright...",
+        "Indoor_Night_0": "I cleaned the house today! Please let me know if I need to do anything else.",
+        "Indoor_Night_1": "I wonder what Marlon is doing. He often comes out at night to check up on things.",
+        "Indoor_Night_2": "Have you meet the junimos?#$b#I befriend one but there's a lot more in the forest south of here.",
+        "Indoor_Night_3": "Sometimes I stop and think about all what I know about humans from observing you...#$b# I wish all my fellow shadow people could do the same.",
+        "Indoor_Night_4": "I want to be a good companion for you, but I never know if I'm doing well... *sigh*$s#$b# I have a hard time understanding human expression sometimes. #$e# Oh... you're happy living with me?#$b# That's great!$h",
+        "Indoor_Night_Krobus": "Welcome home, @. I hope your day was as good as ever!$h",
+        
+        "Outdoor_0": "I'm just stepping outside for a bit! Don't worry - I'll go inside if I sense another person coming!",
+        "Outdoor_1": "What a beautiful day today!$h",
+        "Outdoor_2": "I like how busy you are even if it's raining...",
+        "Outdoor_3": "If you meet Magnus, be sure to say hello. Marlon too if you go to the mountain.",
+		"Outdoor_4": "Even us shadow creatures need some fresh air.",
+        "Outdoor_Krobus": "I'll wait here for a bit. I enjoy watching you. I hope you don't mind.",
+        "OneKid_0": "I am not sure having a child around is a good idea.$b But at least it can't talk.",
+        "TwoKids_0": "I already made the children some breakfast so don't worry about feeding them.",
+        "TwoKids_2": "I do worry when they grow up. Will they still accept me?",
+        "TwoKids_3": "It seems that this is a real family now. May Yoba bless us!$h",
+		"Good_0": "Just remember to visit my shop if you need something. No I wouldn't give you a discount just because I am living with you now!",
+        "Good_1": "I feel a sudden sensation in my body... is this... 'love'?$b Oh wait... it's gone now.$s",
+        "Good_2": "I've learned to trust humans... but I still can't trust dwarves.$a",
+        "Good_3": "You started mumbling in the night but I couldn't comprehend what you said.$b You don't remember? I see. $3",
+        
+        "Good_4": "I was just admiring our lovely home... you made it a wonderful place.",
+        "Neutral_0": "I won't ever grow old, I simply will cease to exist. Sometimes it makes me sad... but that's alright.$s",
+        "Neutral_1": "Do you think your family would approve of having a monster as your companion?",
+        "Neutral_2": "Do you think others would accept us for living together?$s",
+        "Neutral_3": "It's so bright in here... I might close my eyes for a rest.",
+        "Neutral_4": "I hope I am not a bother, @. It would make me sad if something happens because of me.$s",
+        "Neutral_5": "Magnus sometimes checks up on me if you don't mind.",
+        "Neutral_6": "I don't sleep...I just close my eyes and stay still to conserve energy.",
+        "Neutral_7": "You're a strange human, no offense.",
+        "Neutral_8": "I'm going to clean the house today! Helping you is fun.",
+        "Neutral_9": "I wonder if we'll live here for our entire lives? Moving would probably just be too dangerous for me...",
+		"Bad_0": "Do you still love me?$s",
+        "Bad_1": "*sigh*... I just feel lousy today.$s",
+        
+        "Bad_2": "Are you still happy being with me?$s",
+        "Bad_3": "Maybe you'd be happier living with another human...$s",
+        "Bad_4": "I've detected a change in your behavior... what does that mean? *sigh*$s",
+        "Bad_5": "You only have one short life to live... are you certain you want to spend it with a creature like me?$s",
+        "Bad_6": "Maybe a relationship like this is destined to fail...$s",
+        "Bad_7": "You seem so depressed lately...Am I doing anything wrong? $s",
+        "Bad_8": "Am I just a pet to you?...$s",
+        	"spring_5": "...",
+		"spring_12": "...",
+		"spring_19": "...",
+		"spring_26": "...",
+		"summer_5": "...",
+		"summer_12": "...",
+		"summer_19": "...",
+		"summer_26": "...",
+		"fall_5": "...",
+		"fall_12": "...",
+		"fall_19": "...",
+		"fall_26": "...",
+		"winter_5": "...",
+		"winter_12": "...",
+		"winter_19": "...",
+		"winter_26": "...",
+	"spring_1": "What are your plans this year, @?",
+	"spring_3": "Have you seen any wild horseradish so far, @?",
+	"spring_12": "So let me get straight. You hunt for eggs and you get a prize?#$b# You humans have some strange customs!",
+	"spring_15": "I found a red berry bush on my walk this morning. [296]",
+		
+        "spring_23": "I heard there's a flower dance tomorrow! I wish I could come and see you dance! $h",
+        "summer_1": "Ah summer the warmest season. I just wish I was not so sensitive to light it's so bright...",
+		"summer_8": "You have a lovely smell. Must be from the hard work.",
+        "summer_10": "I heard there's a loo-ah, whatever that is...#$b#It's a food feast?!$u#$b#That sounds yummy! Hope you give something good to share!$h",
+		"summer_15": "The house is full of flies. Don't worry I'll take care of that.",
+		
+        "summer_27": "I heard the town is sending off the moonlight lunaloos tomorrow. #$b# I just wish I could go to watch it! It should be a good day for it!$h",
+		"fall_1": "Fall is always a colorful season. I may go out a bit and watch the trees.",
+        "fall_8": "How have your farm work been doing? I know it's harvest season. Can you pick at least a few blackberries for me?",
+        "fall_15": "I heard there's a fall fair where you can play games and win prizes? Are you going to take part in anything?$h",
+		
+        "fall_24": "I would like to go to the Spirits Eve festival with you but I can't be seen with you.#$b# I'll be at the sewers away from the lights if you wish to see me.",
+        "winter_1": "I suppose I turned another year today!",
+	"winter_7": "There's a fishing contest tomorrow? Oh I wish I could come! I bet you would be very good at it!$h",
+	"winter_15": "I heard from Magnus that there'll be a night market for the next few days. Might be a good time to get some seeds or seasonal decor. Just a thought!$h",
+	"winter_21": "It's getting very cold out. I wish I could go somewhere warm. #$b# There's a tropical island with a resort you can take me?$u#$b#Oooohhhh...that sounds like fun!$h",
+
+		
+		"winter_25": "We shadow creatures look forward to this time of year in preparation for spring. I have something for you. [72 221 348 797]",
+		"winter_28": "Ah the last day of the year. Be sure to pick a wild horseradish for me if you see one tomorrow.",
+        "spouseRoom_Krobus": "I hope the humidity in this room isn't a bother to you?#$b# We both have to compromise in order to live together, right?",
+        "spring_Krobus": "Ah, spring... I can smell the aroma of wild horseradish already!",
+        "summer_Krobus": "Ah, summer...the warmth and humidity is nice but I wish it wasn't so bright outside.",
+        "fall_Krobus": "Ah, fall...the time of change. I hope your farm is very productive this month.",
+        "winter_Krobus": "Ah, winter. The season for us shadow creatures! Just wish it didn't snow so much!",
+	"divorced": "....",
+	
+
+    },
+},
+{
+		"LogName": "Extra Dialogue",
+		"Action": "EditData",
+		"Target": "Data/ExtraDialogue",
+		"Entries": {
+
+
+		"Mines_PlayerKilled_Spouse_PlayerMale": "I received a letter that you were hurt at the mines... I just wish I could help you.$s",
+        "Mines_PlayerKilled_Spouse_PlayerFemale": "I received a letter that you were hurt at the mines... I just wish I could help you.$s",
+
+},
+},
+{
+		"LogName": "StringsFromCSFiles - Krobus",
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"Entries": {
+
+
+"Krobus_Engaged": "Is that what I think it is?! How did you know...?$3#$b# Yes!!!$h... I mean I accept, I'll come live with you but we need to keep it a secret from everyone. I will try to explain later.#$b# I'll be at your house in a few days... just need to prepare my shop, okay?# #$b I am so excited!$h",
+        "Krobus_AfterWedding": "Good morning, @... I snuck in during the night if you don't mind.#$b# This is very different from the sewers so allow me some time to adjust, okay?$1",
+        "Krobus_Stardrop": "I wanted to give you this as a 'thank you' for letting me live here with you. I am so happy right now!$h",
+        
+        "KrobusShopGone": "I'm away. Please leave your payment in the box. I'll collect it the next day. -Love, Krobus",
+},
+},
+		{
+		"LogName": "Post Krobus Marriage Dialogue - Dwarf",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Dwarf",
+		"When": {
+			"Relationship:Krobus": "Married"
+			},
+
+        "Entries":
+        {
+"Dwarf": "I heard that the shadow creature is living with you yet you dare to come here asking for bombs? $b Are you planning on blowing him up or something?$1",
+
+},
+
+
+},
+{
+	"LogName": "Post Krobus Marriage Dialogue - Wizard",
+	"Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+	"When": {
+			"Relationship:Krobus": "Married"
+			},
+
+        "Entries":
+        {
+
+"Wizard": "Yes I do visit Krobus from time to time in your farm. Rest assured it's for his own safety from that dwarf and his fellow shadow creatures that would consider him a traitor. It's unfortunate but a necessity.$1",
+},
+
+},
+
+
+]
+}

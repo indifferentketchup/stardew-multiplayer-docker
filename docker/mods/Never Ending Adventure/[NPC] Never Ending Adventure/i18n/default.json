@@ -1,0 +1,1478 @@
+{
+
+/*
+   _____ ______ _   _ ______ _____  _____ _____   _____ _____          _      ____   _____ _    _ ______ 
+  / ____|  ____| \ | |  ____|  __ \|_   _/ ____| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |  __| |__  |  \| | |__  | |__) | | || |      | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ | | |_ |  __| | . ` |  __| |  _  /  | || |      | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |__| | |____| |\  | |____| | \ \ _| || |____  | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+  \_____|______|_| \_|______|_|  \_\_____\_____| |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+
+// NAME & INTRO 
+"Core.Mateo.Name": "Mateo",
+"Core.Mateo.Introduction": "Hey there, farmer. Why did the archaeologist go bankrupt?$0#$b#Because his career was in ruins.$1", 
+
+// COMMUNITY CENTER BUNDLES  
+"Core.Mateo.JojaBegin": "I can't believe Joja's tearing down the Community Center, those capitalist traitors.$11#$b#Letting them step over small communities like this is exactly how they continue to grow.$9",
+"Core.Mateo.CCBegin": "Are you starting to revitalize the Community Center, farmer? That's a noble effort. Good luck.$32",
+"Core.Mateo.CCBus": "The bus will make it so much easier to get to the desert.$1#$b#It's such a long way otherwise...Good job on it, @! You're really restoring the town to it's former glory.$32",
+"Core.Mateo.CCMinecart": "Now that you've got the minecarts back up, things must be so much easier on you.$14#$b#Even with a horse, you've still got so much ground to cover. Great job, @.$1",
+"Core.Mateo.CCComplete": "The Community Center's looking fantastic! And that was all your handiwork, @? $1#$b#Incredible. You've done an amazing job! It's great to see it being used again.$80",
+"Core.Mateo.MovieTheater": "Wanna go see a flick, @? It's my treat, since you're the one who went through all the trouble to rebuild from those ruins.$1#$b#Nothing does your arteries as good as an evening full of Flavacol popcorn!$32",
+
+// BIRTHDAYS
+"Core.Mateo.Winter12": "It's Gunther's birthday today. He's the type that I have no clue how to buy for...$34#$b#What do you get the type of guy who gets himself everything? His 'to be read' list is a mile long.$21",
+"Core.Mateo.Winter19": "It's Marlon's birthday today! I have no idea what the old man would want.$8#$b#He's got access to all the best gear, so maybe something to help maintain it... maybe I'll just make him a nice dinner.$32",
+
+// END OF SEASON
+"Core.Mateo.SpringEnd":"Spring's over and done with already, huh? Did you have a productive open to the year?$1#$b#Guess you'll be busy preparing the fields for Summer, huh?$14",
+"Core.Mateo.SummerEnd": "Suppose your summer crops are about ready to die off, @? That's alright. Just means it's time for a change; hardly a bad thing.$0",
+"Core.Mateo.FallEnd": "Winter's coming, huh? Can't say I'm looking forward to it, but Spring will come back to us eventually.$23",
+"Core.Mateo.WinterEnd": "Thank goodness we're almost done with this shit weather. The sun will shine on us again soon enough.$10",
+
+// SVE COMMUNITY DAY
+"Core.Mateo.CommunityCenter4": "I'm so glad the everyone makes the effort to spend time together here. It's such a wholesome gesture.$0",
+"Core.Mateo.CommunityCenter6": "It's so nice to be here, spending time with the townsfolk. I feel so welcome, and there's so much joy in the air.$32",
+"Core.Mateo.CommunityCenter8": "Honestly, it's nice to be able to catch up with Marlon.$11#$b#Me and the old man don't get to hang out much outside of work.$1#$b#This is like, the only time I don't get a lecture on safe dungeon delving.$1",
+"Core.Mateo.CommunityCenter10": "Good to see you here, @. Just doing the rounds and catching up with everyone.$14#$b#Sometimes it's hard to make time to see your friends, so I'm glad the townsfolk are committed to gathering together like this once a season.$1",
+
+// FESTIVALS
+"Core.Mateo.EggFestival": "The egg festival is tomorrow! The first big event to ring in the new year, huh?$15#$b#Hope your egg-hunting skills are sharp, @, I hear you've got some pretty tough competition.$14",
+"Core.Mateo.FlowerDance": "I love dancing, actually. I was big into the club scene back in college, but -$12#$b#Well, that's a very different sort of dancing, usually with a lot more liquor.$13",
+"Core.Mateo.Luau": "I really appreciate the sentiment of the luau - tradition is a really important thing, of course -$10#$b#But doesn't it just seem really short sighted to blindly throw a ton of different things into one soup? I love taking risks, but that seems a little much.$9",
+"Core.Mateo.MoonlightJelly": "Tomorrow's celebration is my second favorite, next to Spirit's Eve.$0#$b#I can see the Jellies from the cove. It's breathtaking.$12",
+"Core.Mateo.SDVFair":"The fair is tomorrow, @! Are you going to bring pumpkins?$11#$b#And...Other...important...produce?$21#$b#I'm just saying, if I was voting and it was all pumpkins, you'd win.$15",
+"Core.Mateo.SpiritsEve": "So, there are a few rules to be followed on Spirit's Eve, back from when I was a kid.$19#$b#One, always check your candy. Two, always wear a costume. Three, always have treats on hand to give out.$11#$b#Finally, never blow out a Jack o' Lantern before midnight. That's the most important one.$19",
+"Core.Mateo.IceFestival": "Festival of Ice tomorrow, huh?$14#$b#I'm not one for fishing, by any means. But I can throw a mean snowball - and, hey, if you can dodge an Iridium Bat...$15",
+"Core.Mateo.NightMarket": "Oh, that's right. The Night Market's going on.$3#$b#I forgot. Maybe I'll stop by and see if they've got anything from Gotoro for sale. Someone's bound to have smuggled in something interesting, huh?$36",
+"Core.Mateo.WinterStar": "There's so much pressure for the Feast of the Winter Star.$22#$b#I don't know what to get anyone! Except you, Marlon and Gunther... Guess it's not just the gifts, but the spirit of the season.$23",
+
+// ROMANTIC (POSITIVE) 
+"Core.Mateo.GiveFlowersA":"...Is this us going steady, Sunshine? Yes! The answer is a resounding yes.$27#$b#You're my guiding firelight, @, and I consider myself lucky to have earned your affection.$4",
+"Core.Mateo.GiveFlowersB":"Damn, @. You beat me to it.$30#$b#Of course I'll be yours, as long as you're mine just the same.$31#$b#Thank you, Sunshine. I haven't felt like this in... well, in a really long time.$4",
+"Core.Mateo.GivePendant":"%Mateo stares at the pendant, taking it from you with a shaking hand and putting it around their neck.#$b#I do.$4#$b#%They tug you into a kiss, dipping you with a dramatic flair.$18#$b#I've stolen your heart away, but I promise, @ - I'll take good care of it.$31",
+"Core.Mateo.StardropGiftA": "Morning, Sunshine! You won't believe what I found in the Deep Dark.$1#$b#I know it'll put an extra pep in your step, and you work so hard - you deserve it.$32#$b#Have an amazing day, okay?$11#$b#%Mateo leans forward and kisses your forehead.",
+"Core.Mateo.StardropGiftB":"Morning, Sunshine! You won't believe what I found in the Skull Cave.$1#$b#I know it'll put an extra pep in your step, and you work so hard - you deserve it.$32#$b#Have an amazing day, okay?$11#$b#%Mateo leans forward and kisses your forehead.",
+
+// ROMANTIC (NEGATIVE)
+"Core.Mateo.DanceRejection": "Sorry @, I'd rather not embarrass either of us.$21",
+"Core.Mateo.Divorced": "...I was committed to you. You were my everything. And you just threw that all away, and for what? To continue antagonizing me after all's said and done?$6#$b#Please, just stay out of the rest of my life.$5",
+"Core.Mateo.BreakUp": "Oh...guess I didn't get a good read of the room, huh? I'm sorry about that, Suns- @.$16#$b#I'll leave you alone, I just thought that, after everything, we had something real.$19",
+"Core.Mateo.DumpedGirls": "Guess you aren't the person I thought you were, @.$8#$b#I expected better. Everyone's got their baggage. I just refuse to carry it for you.$9",
+"Core.Mateo.SecondChanceGirls":"...Consider yourself lucky I don't easily let go of what's mine, @.$4#$b#Just don't mess it up again, alright? My heart can only take so much.$28",
+"Core.Mateo.Reject2HA": "No thanks, farmer. I don't want the town coming after you with torches and pitchforks.$24",
+"Core.Mateo.Reject2HB":"Farmer, do you know what a bad idea looks like? This, it looks like this right here.$10",
+"Core.Mateo.Reject4HA":"@, I appreciate this, and I appreciate you, but it's a no for now - I have to work on myself first.$21",
+"Core.Mateo.Reject4HB":"Sorry, @. I can't. It'll be a mess for the both of us. I'm not ready for a relationship and the last thing I want to do is hurt my closest friend.$16", 
+"Core.Mateo.EngageA":"...Aren't you betrothed? I'm not into this. And I didn't think you were the disingenuous sort.$34",
+"Core.Mateo.EngageB":"Your wedding is in a few days, and this is how you're acting? I should tell your spouse, lest you break their heart.$22",
+"Core.Mateo.MarriedA":"This kind of stuff comes back around to haunt you, @. What comes around goes around. Your spouse deserves better.$23",
+"Core.Mateo.MarriedB":"The hell is wrong with you, @? Your partner deserves better. I didn't expect a cheater out of you.$33",
+"Core.Mateo.RefusalNoHeartsA":"The mermaid pendant tradition goes back centuries. Good for whoever you're giving it to.$32",
+"Core.Mateo.RefusalNoHeartsB":"We had a pretty different tradition in the Fern Islands. This is very cute, though - good luck!$32",
+"Core.Mateo.RefusalKnownA":"This would be cute if it wasn't so weird. Thanks but no thanks, I guess?$34",
+"Core.Mateo.RefusalKnownB":"You're really looking to get into some trouble, huh? I'm flattered, sort of. But no.$37",
+"Core.Mateo.RefusalBotherA":"It wasn't funny or cute the first time, what makes you think this is any better?$22",
+"Core.Mateo.RefusalBotherB":"Cut it out, @. It takes a lot to get here but you're crossing a line into making me uncomfortable.$23",
+
+// RESORT
+"Core.Mateo.ResortEntering":"This place is amazing! It makes me feel like I'm back in the Fern Islands. Man, how nostalgic.$1",
+"Core.Mateo.ResortLeaving":"Today was a good day, but I've had my fill. Nothing beats a post-beach shower. Gotta wash all the sunscreen off.$0",
+"Core.Mateo.ResortShore":"I've visited a lot of different islands, @. But one thing to keep in mind: all of them share the same sky.$4",
+"Core.Mateo.ResortUmbrella":"Just taking a little break from running around, @. Be sure to put on some sunscreen if you're going to spend a lot of time out and about.$32",
+"Core.Mateo.ResortWander":"I know I live on a beach, but there's still something special about visiting a different one.$1",
+"Core.Mateo.ResortWander.2":"I need a good pair of sunglasses. The big ones, that the bougie city girls wear.$35",
+"Core.Mateo.ResortChair":"I could probably fall asleep here, but I snooze like a rock and I'd probably miss the boat back.$6",
+"Core.Mateo.ResortBar":"We should toast to your hard work, @. Without you, this wouldn't have been set up.$12",
+"Core.Mateo.ResortTowel":"%Mateo seems completely relaxed.", 
+"Core.Mateo.ResortTowel.2":"I spent many a day in college drinking at the beach instead of writing papers...$15",
+"Core.Mateo.Resort_Towel.3":"This would be a great place to have a party.$13",
+"Core.Mateo.Resort":"Did you build a house here, @? A home away from home. Nice!$1",
+
+// ADDITIONAL LOCATIONAL DIALOGUE
+"Core.Mateo.Saloon.4h":"It's so nice to be back here, @. I love being around people. Everyone's so jovial and it's so easy to feel relaxed right alongside them. I feel welcome, and whole.$4",
+"Core.Mateo.Saloon.6h": "I love spending time here because it's a great way to see everyone at once. People watching is a lot of fun...$0#$b#Demetrius has two left feet, and Marnie is way too good for Lewis. I wish Marlon would work up the courage to make a move.$36",
+"Core.Mateo.Saloon.8h":"There's no better way to spend an evening than among friends. I'm so glad you convinced me it was worth re-integrating, @. I love hanging out with everyone.$12#$b#I owe you a drink. Hell, I owe you a few.$14",
+"Core.Mateo.Saloon.10h.Platonic":"Hey, @. How about you and I hang out a while? You probably need some r&r after a long day. Some time to rest is earned.$1",
+"Core.Mateo.Saloon.10h.Romantic":"Hey, Sunshine. How about you and I have a few drinks and get a little bit slovenly? Thank goodness the farm isn't that far off, if we even make it there.$31",
+
+"Core.Mateo.ArchaeologyHouse.4h":"It's so nostalgic in here... it's like spending time in my childhood home.$12#$b#I didn't realize how badly I missed this place until I came back to it.$32",
+"Core.Mateo.ArchaeologyHouse.6h": "Haven't read for leisure in a really long time, so I'm starting over with some of my favorites.#$b#Having to read for school really sucks the fun out of it.",
+"Core.Mateo.ArchaeologyHouse.8h":"I love watching everyone come in and out, learning, reading, relaxing. Nothing makes me happier than seeing folks engage with academia.$32#$b#Especially the kids; they're all so eager to learn, and I love that. Bless Penny and her neverending patience.$1",
+"Core.Mateo.ArchaeologyHouse.10h.Platonic":"I know you're busy @, but a good book is worth making time for. I'm re-reading The Great Gatsbish, it's one of my favorites.$4",
+"Core.Mateo.ArchaeologyHouse.10h.Romantic":"I'm re-reading the Great Gatsbish; it's my comfort book. I've always related deeply to it, like it was the script for how my life was supposed to play out, but...$2#$b#Gats got caught in the tide of his own misguided vision, and couldn't row forward. But I don't identify so much with his struggle anymore, because I was able to leave the past where it belonged.$12#$b#That doesn't mean I love the novel any less. But maybe I should start looking for a new favorite.$32",
+
+"Core.Mateo.AdventureGuild.4h": "Hail and well met, adventurer! Gosh, that sounds cheesy, doesn't it?$1",
+"Core.Mateo.AdventureGuild.6h": "Hail and well met, adventurer!$1#$b#Hah, that's really growing on me. Though maybe I should leave the greetings to Marlon.$32",
+"Core.Mateo.AdventureGuild.8h":"Hey there, @! Hail and well met. Here to get some new equipment? Or maybe offload some old stuff?$36#$b#Marlon's got you covered. Stay safe down below, alright?$32",
+"Core.Mateo.AdventureGuild.10h.Platonic":"Hey, @, hail and well met. Are you doing a little exploring? Have you got everything you need?$32#$b#Are your weapons taken care of? Just stay safe down there, all right? Be careful.$1",
+"Core.Mateo.AdventureGuild.10h.Romantic":"Hail and well met, Sunshine! Have you got everything you need? Are your weapons taken care of?$31#$b#Stay safe if you're heading down into the mines, alright? I love you.$29",
+
+// PLAYER DEATH
+"Core.Mateo.PlayerKilled.Mines.01": "Sunshine!",
+"Core.Mateo.PlayerKilled.Mines.02": "Sunshine, what happened? I'm so sorry!",
+"Core.Mateo.PlayerKilled.Mines.03": "Please be more careful! Even skilled adventurers like yourself can get seriously hurt!$2#$b#Maybe go home and get some rest before heading back down, okay?$21",
+ 
+"Core.Mateo.PlayerKilled.Skull.01": " ...{0}?",
+"Core.Mateo.PlayerKilled.Skull.02": "Easy, now... take it slow.",
+"Core.Mateo.PlayerKilled.Skull.03": "You're awake! Thank goodness. Mateo found you all bent out of shape in the Skull Cave!$2",
+"Core.Mateo.PlayerKilled.Skull.04": "Sunshine!$18#$b#I was so worried, you getting hurt is my worst nightmare!$19",
+"Core.Mateo.PlayerKilled.Skull.05": "Are they going to be alright, Harv?$29",
+"Core.Mateo.PlayerKilled.Skull.06": "They'll be fine, but they need to be a little more careful next time.$2",
+"Core.Mateo.PlayerKilled.Skull.07": "I'll leave you two to talk; let me know if you need anything.$2",
+"Core.Mateo.PlayerKilled.Skull.08": "I was so afraid of losing you, @. I don't know what I'd do without my best friend, the love of my life.$17#$b#Please ask for help if you need it next time, Sunshine! I'd rather be in danger with you than have you go at the Skull Cave alone!$19",
+
+/*
+  _    _ ______          _____ _______   _____ _____          _      ____   _____ _    _ ______ 
+ | |  | |  ____|   /\   |  __ \__   __| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |__| | |__     /  \  | |__) | | |    | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ |  __  |  __|   / /\ \ |  _  /  | |    | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |  | | |____ / ____ \| | \ \  | |    | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+ |_|  |_|______/_/    \_\_|  \_\ |_|    |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+
+// 0 HEARTS - SPRING
+"Core.Mateo.Spring.Monday.0h": "Hey, farmer. Have a good day today, alright? Keep your chin up.$0",
+"Core.Mateo.Spring.Tuesday.0h": "Hey, farmer. What do you call an emergency in the Spring? May Day.$14",
+"Core.Mateo.Spring.Wednesday.0h": "I found this while exploring. Be sure to pass it along to Gunther for me, okay? [96 97 98 99]$15",
+"Core.Mateo.Spring.Thursday.0h": "It's getting warmer out. You can tell by the Spring in folks' step.$14", 
+"Core.Mateo.Spring.Friday.0h": "What do you grow, anyway? Parsnips, potatoes, what else? I'm not the agricultural sort.$0",	
+"Core.Mateo.Spring.Saturday.0h": "I found this while exploring. Be sure to pass it along to Gunther for me, okay? [100 101 103]$15",
+"Core.Mateo.Spring.Sunday.0h": "Hey, farmer. Hope you're doing alright. Keep working hard, but not too hard.$1",
+
+// 0 HEARTS - SUMMER
+"Core.Mateo.Summer.Monday.0h": "Hey, farmer. It's really humid out... be careful, stay hydrated.$0",
+"Core.Mateo.Summer.Tuesday.0h": "It's cooler in the mines than it is on the surface right now. Pass this along for me, okay? [100 101 103]$14",
+"Core.Mateo.Summer.Wednesday.0h": "Please excuse my resting beach face, farmer. $15", 
+"Core.Mateo.Summer.Thursday.0h": "Seen anything interesting on your adventures lately, @? I'd love to hear about what you're up to.$0",
+"Core.Mateo.Summer.Friday.0h": "Howdy, farmer. Will I sea you on the beach this season?$14",
+"Core.Mateo.Summer.Saturday.0h": "It's cooler in the mines than it is on the surface right now. Pass this along for me, okay? [96 97 98 99]$15", 
+"Core.Mateo.Summer.Sunday.0h": "Hope you're doing alright since that little encounter with those slimes.$32", 
+
+// 0 HEARTS - FALL
+"Core.Mateo.Fall.Monday.0h":"Nothing beats a brisk mountain walk in the Fall. Don't you just love that crispness in the air?$4",
+"Core.Mateo.Fall.Tuesday.0h": "I need a few more pumpkins for the tent... Once you harvest, I might buy a bunch off you.$13",
+"Core.Mateo.Fall.Wednesday.0h":"I try to minimize how much time I spend down below during this time of year, but I did find this.[100 101 103]$14",
+"Core.Mateo.Fall.Thursday.0h":"Bet the farm looks amazing this time of year. Lots of sunflowers and pumpkins, right?$12",
+"Core.Mateo.Fall.Friday.0h":"I really love how everything gets gold-toned this time of year. It's so nice to just wander around.$32",
+"Core.Mateo.Fall.Saturday.0h":"I try to minimize how much time I spend down below during this time of year, but i did find this. [96 97 98 99]$15",
+"Core.Mateo.Fall.Sunday.0h":"I could go for some mulled cider right now, or pumpkin spice anything, or apple pie with some ice cream...$36",
+
+// 0 HEARTS - WINTER
+"Core.Mateo.Winter.Monday.0h": "Winter is the worst season, but don't coat me on that.$23",
+"Core.Mateo.Winter.Tuesday.0h": "It's a good time of year for adventuring, farmer. Found this; can you pass it along? [100 101 103].$14",
+"Core.Mateo.Winter.Wednesday.0h": "Do you spend a lot of time down below during the Winter? Keep your wits about you, farmer.$10",
+"Core.Mateo.Winter.Thursday.0h": "I get so tired when it gets colder and darker... just gotta keep looking forward, Spring'll come soon enough.$37",
+"Core.Mateo.Winter.Friday.0h": "It's a good time of year for adventuring, farmer. Found this; can you pass it along? [96 97 98 99]$14",
+"Core.Mateo.Winter.Saturday.0h": "Glad you don't have to work the fields when there's this much of a chill in the air. Stay in and read instead, maybe.$7",
+"Core.Mateo.Winter.Sunday.0h": "The end of the year can't come quickly enough. I miss the sunshine.$6",
+
+// 2 HEARTS - SPRING
+"Core.Mateo.Spring.Monday.2h": "Hey @! I found this down below, can you get it to Gunther for me? Thanks! [110 111 112]$14", 
+"Core.Mateo.Spring.Tuesday.2h": "What did the florist say during springtime, @? $1#$b#Business is blooming.$32",
+"Core.Mateo.Spring.Wednesday.2h": "Watch out, farmer. Wilderness Golems get particularly ornery in the Spring, in the case they turn up on your land.$34#$b#At least they're easier to manage than Stone Golems - there's two types of those, keep an eye out for the sturdier ones. They're bigger, with horns.$9",
+"Core.Mateo.Spring.Thursday.2h": "Spring must be really busy for you. Lots of work to do. Be sure to take it easy on occasion, you owe it to yourself.$24",
+"Core.Mateo.Spring.Friday.2h": "Hey @! I found this down below, can you get it to Gunther for me? Thanks! [117 118 119 120]$14",  
+"Core.Mateo.Spring.Saturday.2h": "Are you a sword, hammer, or dagger sort of person?$0#$b#I'm good with a longsword, but I'm better with a pair of daggers. Be sure to maintenance any weapons you used over the Winter.$1",
+"Core.Mateo.Spring.Sunday.2h": "It's a good time of year to look for fossils, if you're interested in that sort of thing. Crabs and frogs, specifically, seem really common around here.$36",
+
+// 2 HEARTS - SUMMER
+"Core.Mateo.Summer.Monday.2h": "It's the best time of the year to go swimming. Be careful, though. If you get scratched up by something in the caves, salt water will just irritate it.$24",
+"Core.Mateo.Summer.Tuesday.2h": "The trader out in the desert has these artifact troves; they've got things like Dwarven Gadgets and other relics inside.$34#$b#I'm not sure how it's all being sourced, though. I know the woman in the traveling cart gets her goods from Gotoro, which is...extremely risky.$37",
+"Core.Mateo.Summer.Wednesday.2h": "Frost Bats have trouble surviving in humid temperatures, so you're not likely to see them up on the surface. There's several colonies of regular Fruit Bats in the Valley, though.$12",
+"Core.Mateo.Summer.Thursday.2h": "Split a stone and found this - here you go, @! Thanks for getting it to Gunther for me. [110 111 112]$14",
+"Core.Mateo.Summer.Friday.2h": "Hey, farmer. What do you say when your fishing line gets tangled? That something a-piers to be wrong.$15",
+"Core.Mateo.Summer.Saturday.2h": "Did you know air conditioning was first used in movie theaters? It's part of the reason we have summertime blockbusters - people go in droves to keep cool.$1",
+"Core.Mateo.Summer.Sunday.2h": "Split a stone and found this - here you go, @! Thanks for getting it to Gunther for me. [117 118 119 120]$15",
+
+// 2 HEARTS - FALL
+"Core.Mateo.Fall.Monday.2h": "We use pumpkins here in the Ferngill Republic, but a lot of root vegetables can be carved for Jack o' Lanterns. Anything with a face can ward off a malicious spirit!$1#$b#If you don't have a vegetable, a bucket of water will do in a pinch.$36", 
+"Core.Mateo.Fall.Tuesday.2h": "It's just a hypothesis, but I'm convinced there's a connection between Spirit's Eve and the various Ghosts that haunt the mines; maybe they come to the surface and cause mischief...$35",
+"Core.Mateo.Fall.Wednesday.2h": "What do you do with all the pumpkins you grow...? Oh! By the way. I found this, maybe you can donate it. [110 111 112]$14",
+"Core.Mateo.Fall.Thursday.2h": "Are you an apple cider person, a pumpkin spice person, or a hot chocolate person? What's your autumnal drink of choice, and why is it pumpkin spice?$36",
+"Core.Mateo.Fall.Friday.2h": "I know it's very cheesy, but the seasons don't visibly change in the Fern Islands, so I really love when the leaves change color. It serves as a reminder that time actually passes.$4",
+"Core.Mateo.Fall.Saturday.2h": "The mountains are so pretty this time of year. It's hard to justify being in the mines so much when all I want to be doing is laying in the grass outside...$4",
+"Core.Mateo.Fall.Sunday.2h": "Are you growing sunflowers? Do you cook the seeds? Oh! By the way. I found this, maybe you can donate it. [117 118 119 120]$15",
+
+// 2 HEARTS - WINTER
+"Core.Mateo.Winter.Monday.2h": "In the case you spend time in the mines this Winter, be really careful with the Shadow Snipers. I don't know where those Shadow Brutes are getting crossbows, but I took a bolt to the hip and it was pretty terrible.$37",
+"Core.Mateo.Winter.Tuesday.2h": "When I first started delving as a kid, I was particularly fascinated by the Dust Sprites. Cute little things, aren't they?$12",
+"Core.Mateo.Winter.Wednesday.2h": "The cold's cutting a little deep today, isn't it? Aw, well. Better with your company. Here you go, @. [110 111 112]$0",
+"Core.Mateo.Winter.Thursday.2h":"Besides the mines, what do you do to keep busy during Winter? Animal husbandry for sure, but what else? Fishing? Or is this the closest you get to vacation?$6",
+"Core.Mateo.Winter.Friday.2h":"Metal blades usually aren't embrittled by the cold, just be careful with how you store the tools you aren't using over the Winter.$7#$b#Nothing would be worse than something going wrong when it's too tumultuous to fix.$10",
+"Core.Mateo.Winter.Saturday.2h":"The cold's cutting a little deep today, isn't it? Aw, well, better with your company. Here you go, @, [117 118 119 120]$0",
+"Core.Mateo.Winter.Sunday.2h": "You learn real quick to appreciate the daylight when it starts getting dark before dinnertime...$16",
+
+// 4 HEARTS - SPRING
+"Core.Mateo.Spring.Monday.4h":"Hey, @. Here's my latest find. Monsters drop the strangest things sometimes, don't they? [113 115 116]$14",
+"Core.Mateo.Spring.Tuesday.4h": "I want to get more involved in the community, but I haven't worked out how yet. Maybe Marnie needs some help around the ranch.$8",
+"Core.Mateo.Spring.Wednesday.4h":"I've traveled a lot, but the season changes aren't nearly as dramatic elsewhere as they are in the Valley. It's one of the things I love about living here. Time moves forward even when you're feeling stuck, and the scenery change is a reminder of that.$1",
+"Core.Mateo.Spring.Thursday.4h":"Have you ever seen a Squid Kid? I'm not sure why they're even called that. The little bastards shoot fireballs, so just be careful if you run into them. Take care of yourself when adventuring, @.$32",
+"Core.Mateo.Spring.Friday.4h": "Hey, @. Here's my latest find. Monsters drop the strangest things sometimes, don't they? [104 105 106]$15", 
+"Core.Mateo.Spring.Saturday.4h":"I think the Golden Masks you can occasionally find in the desert are ceremonial versions of the ones worn by Shadow Shamans. I wonder if they lived there at some point in time, or if it's just a weird coincidence.$37", 
+"Core.Mateo.Spring.Sunday.4h":"If you need to show your sword a little bit of care, go ahead and use mineral oil. Rem oil works, too, which is for sewing machines. That might be a little easier to find locally. Be safe in your adventures, @.$0",
+
+// 4 HEARTS - SUMMER
+"Core.Mateo.Summer.Monday.4h":"I picked a scab from a wound I got fighting monsters. The one downside to wearing an open shirt, I guess. Everyone sees what a mess I make of myself.$8#$b#Some days it bothers me, and some days it doesn't. But it's never enough that I want to wear long sleeves or a closed top in the Summer.$13",
+"Core.Mateo.Summer.Tuesday.4h":"When the sun pervades through the tent flap in the morning, it's always worth getting up and watching it rise. There's just something about it in the summer that's particularly magical - maybe it's the way the light hits the water.$4",
+"Core.Mateo.Summer.Wednesday.4h":"I pulled this up from a Duggy den. And now it's yours! [113 115 116]$15",
+"Core.Mateo.Summer.Thursday.4h":"The Metal Heads that live in the mines are a lucky sort. If they were up on the surface for a Valley summer, they'd boil in their little helmets.$9",
+"Core.Mateo.Summer.Friday.4h":"Do you go to the hot springs in the mountains often? I've been up that way a few times, mostly at night. It's good for the muscles. You exert yourself a lot, be sure to practice some self-care once in a while.$32",
+"Core.Mateo.Summer.Saturday.4h":"You know, we haven't ever even found physical remains of an Elf. That doesn't mean they're truly gone - it's wise to hide, with all the conflict going on.$37#$b#Their jewelry is beautiful, though. Clearly the lot of them are talented craftsmen.$35",
+"Core.Mateo.Summer.Sunday.4h":"I pulled this up from a Duggy den. And now it's yours! [104 105 106]$14",
+
+// 4 HEARTS - FALL
+"Core.Mateo.Fall.Monday.4h":"I don't know about you, @, but I feel so much more content in the Fall. Maybe it's the atmosphere, or maybe it's just all the really good food and festivities.$32",
+"Core.Mateo.Fall.Tuesday.4h": "I found this for the museum, @. Thanks for passing it along! I'm trying to spend less time in the mines right now, since it's so nice out.[113 115 116]$14",
+"Core.Mateo.Fall.Wednesday.4h":"One of the only species we know less about than the Elves are the Fae - merpeople, fairies - those sorts. I tend to think that they're more likely to show themselves around this time of year.$35#$b#Could've sworn I saw a sea creature by the cove recently, but that could've been my imagination.$34", 
+"Core.Mateo.Fall.Thursday.4h": "A skeleton nicked me real good in the shoulder the other day. Do they use the bones of their fallen brethren to throw at their opponents? That's gotta be it. How morbid.$11",
+"Core.Mateo.Fall.Friday.4h":"Getting to bundle up with a fashionable coat is one of my favorite parts of Fall, and the only thing I like about Winter.$10#$b#I'm not very aesthetically forward, but I try to look nice when I can. It's just not a common occurrence - who am I dressing up for, the monsters in the caverns?$11",
+"Core.Mateo.Fall.Saturday.4h":"I found this for the museum, @. Thanks for passing it along! I'm trying to spend less time in the mines right now, since it's so nice out.[104 105 106]$15",
+"Core.Mateo.Fall.Sunday.4h": "Honestly, I think I'd trade an arm and a leg for some home-roasted pumpkin seeds. Toss them in spices and you've got yourself an excellent seasonal treat.$32#$b#As much as I love jams, jellies and wines - seeds win my favor.$1",
+
+// 4 HEARTS - WINTER
+"Core.Mateo.Winter.Monday.4h": "Dug this up, @. It's yours. Hey, and... be a little kind to your self this time of year, alright? [113 115 116]$16",
+"Core.Mateo.Winter.Tuesday.4h":"Maybe it was all the time spent out on digs, or in exceptionally warm climates, but the frigid weather really gets me down.$8#$b#The cove gets really lonely this time of year, too. Moreso than normal. It's a little difficult to deal with, so thank you for being around.$0",
+"Core.Mateo.Winter.Wednesday.4h":"Winter bothers me because it's so desolate. There's no color, everyone's more prone to being emotionally exhausted - I don't know, it makes me feel manic.$16#$b#Being in the mines all the time probably doesn't really...help with this. Don't fall into this trap, @. Keep your mind busy, but be good to your body. You only get one of each.$8",
+"Core.Mateo.Winter.Thursday.4h": "Dug this up, @. It's yours. Hey, and... be a little kind to your self this time of year, alright? [113 115 116]$16",
+"Core.Mateo.Winter.Friday.4h":"Some hot chocolate would be great right now. The best I can do in the tent is a hot plate- anything else would be a fire hazard.$16#$b#I don't keep a lot of food in there at a time lest any wild critters break in.$8",
+"Core.Mateo.Winter.Saturday.4h":"What I wouldn't do to be but a humble little Pepper Rex. Warm, safely isolated in prehistoric cave systems, and without emotional baggage and student loans.$16",
+"Core.Mateo.Winter.Sunday.4h":"When was the last time you saw the doctor for a routine visit, @? You can't keep checking in on me without expecting me to do the same for you.$37#$b#Stay hydrated, dress warm, eat well, and don't hurt yourself working through the mines. I know you're probably spending a lot of time down there because you've got no crops to tend to. I understand, but just be careful, alright?$16",  
+
+// 6 HEARTS - SPRING
+"Core.Mateo.Spring.Monday.6h": "Do you know what the bottom half of a Duggy looks like? It's been on my mind all day. For all we know, they can be serpentine, and nobody's bothered to pull one up out of the hole and check. What would the academic community do without people like us, @? $1",
+"Core.Mateo.Spring.Tuesday.6h":"Maybe you and I can go grab a few beers, if you're feeling up to it. It's good to occasionally kick back and take a break from work, be that adventuring or farming.$32",
+"Core.Mateo.Spring.Wednesday.6h":"Hey, @! I met with the desert trader - I had some unusual minerals they were looking for, so we did a little exchange. This is an excellent study piece! [124 125]$14",
+"Core.Mateo.Spring.Thursday.6h":"I want to go to the museum, but I think my library card is about ten years expired. I might have to twist Gunther's arm a little to let me have a new one. At least I don't owe any overdue book fees - those I could never convince him to waive.$8",
+"Core.Mateo.Spring.Friday.6h":"In the Fern Islands, Glass Shards turn up on the beaches pretty often. They're made by the ocean tide smoothing out stones over a period of time. They get made into jewelry, and the final result often resembles what we've sourced as Elvish.$36#$b#It's probably a coincidence, but I think it's perfectly reasonable to assume that the Elves occupied the forests as well as the scattered islands.$32", 
+"Core.Mateo.Spring.Saturday.6h":"When I was still in school, Spring was always stressful. The start of a new semester had me wanting to do my best. I'm glad it's over. My liver was probably about as grateful for graduation as I was.$9",
+"Core.Mateo.Spring.Sunday.6h": "I'm not sold on it yet, but there's a substantial amount of anthropological evidence supporting the hypothesis that Goblins and Dwarves are related.$34#$b#I think it's interesting but a lot of it's circumstantial. Personally, lean into the idea that they cohabited before the Elemental Wars rather than stem from the same exact ancestor.$36#$b#It's just a theory, though. Speaking of Dwarves, @, here you go! [121 122]$35",
+ 
+// 6 HEARTS - SUMMER
+"Core.Mateo.Summer.Monday.6h":"Hey, @. Would you want to grab some ice cream sometime? I mean, there's that stand right by the library, and an afternoon of eating and reading sounds pretty fantastic to me.$0#$b#Although, maybe not at the same time - we'll get chased out of town with torches and pitchforks for turning pages sticky-handed.$1",
+"Core.Mateo.Summer.Tuesday.6h":"I'm not sold on it yet, but there's a substantial amount of anthropological evidence supporting the hypothesis that Goblins and Dwarves are related.$34#$b#I think it's interesting but a lot of it's circumstantial. Personally, lean into the idea that they cohabited before the Elemental Wars rather than stem from the same exact ancestor.$36#$b#It's just a theory, though. Speaking of Dwarves, @, here you go! [121 122]$35",
+"Core.Mateo.Summer.Wednesday.6h":"Back in college, it was pretty common to lose your keys on the way back to the dorm or leave them at the bar when you were tipsy. I made a lot of friends just by knowing how to pick locks.$13",
+"Core.Mateo.Summer.Thursday.6h":"Hey, @. I've got a bunch of scars and in the heat they itch something terrible. Kind of like wearing a cast, I guess. Some of these are really old, I'm not sure why they still feel like this. Harvey says they're fine, though.$16",
+"Core.Mateo.Summer.Friday.6h": "Hey, @! I met with the desert trader - I had some unusual minerals they were looking for, so we did a little exchange. This is an excellent study piece! [124 125]$14",
+"Core.Mateo.Summer.Saturday.6h":"I'm going to try and keep busy today - go places, talk to people. That sort of thing. Changing is just making a series of different little choices, so consider this me putting in the effort.$1#$b#Thanks for being in my corner, @. I wouldn't even be attempting if it wasn't for you.$4",
+"Core.Mateo.Summer.Sunday.6h":"I really want to know how a Treasure Chest can wind up in a Ghost Fish pond. Ponds are man-made, so where are they getting them from? They can't go treasure hunting, fish don't even have thumbs.$9#$b#Am I overthinking? I might be overthinking.$9",
+
+// 6 HEARTS - FALL
+"Core.Mateo.Fall.Monday.6h":"It's that time of the year again, when everything starts to change. Be respectful of your surroundings, @, especially this season. You never know what spirits may or may not be looking over your shoulder.$15",
+"Core.Mateo.Fall.Tuesday.6h":"I wonder what everyone's doing for Spirit's Eve this season. I'm used to it being kind of a big deal. I'm sure some of the younger kids have pranks planned...Maybe I should show them up.$36",
+"Core.Mateo.Fall.Wednesday.6h":"You're looking a little cold, @. Do you want to borrow my coat?$0#$b#I could just pick it back up from you the next time we hang out, it's not a big deal. You need to take care of yourself, people depend on you and your farm.$32",
+"Core.Mateo.Fall.Thursday.6h": "I feel like all I ever want to do in the Fall is eat. If I didn't spend the majority of my waking hours swinging a sword around, I'd be pumpkin-shaped.$8",
+"Core.Mateo.Fall.Friday.6h":"Hey, @. I found this pretty deep in the mines. It might've belonged to someone Marlon knew, but I'm not sure. It does look pretty familiar. Take it to Gunther with great care, okay?[109]$8",
+"Core.Mateo.Fall.Saturday.6h":"I love walking through the mountains this time of year. It's so pretty, and something is different every time you pass through. The mines don't ever change, so it's easy to feel like you're getting trapped down there if you don't remember to come up for air once in a while.$12#$b#I get so sentimental, and drawn out of my usual routine. Not to say I'm slacking, but I don't spend nearly as much time in the mines in the Fall.$32",
+"Core.Mateo.Fall.Sunday.6h":"I spent some time at Marnie's, just doing some chores. It's messy work, but at least it's outside, and I get to pet as many of the animals as I want. I might ask Jacob if he needs a volunteer, too.$32",
+
+// 6 HEARTS - WINTER
+"Core.Mateo.Winter.Monday.6h":"All I wanted to do today was lay around in the tent and read. And yet, here we are, on another dreary Monday. Things will get better, it's just a matter of waiting it out and finding things to do to stay busy.$8",
+"Core.Mateo.Winter.Tuesday.6h":"Hey, @. Sorry, it feels like the cold is getting to me already this week. Getting up this morning was a challenge I wasn't ready for. But hey, you've just gotta push through, right? Some days just wind up being better than others, and that's okay.$10",
+"Core.Mateo.Winter.Wednesday.6h":"Hey, @. I found this in the sand pretty far down in the mines - get it to Gunther for me, will you?$0 [108]",
+"Core.Mateo.Winter.Thursday.6h": "Thanks for sticking around and checking in on me, @. I know I'm a little more difficult to get along with when the frost sets in, but I really appreciate your efforts to keep me grounded. I owe you a dinner sometime in the near future, okay? When I'm in less of a bitey mood.$21",
+"Core.Mateo.Winter.Friday.6h":"Howdy, @. Are you keeping busy? I feel like I'm losing my mind. My mood just completely sours when everything ices over.$17#$b#We should hang out, soon. Your company always cheers me up. Thanks for checking in - keep your spirits up, alright?$0", 
+"Core.Mateo.Winter.Saturday.6h":"In this weather, Frost Jellies would have no trouble surviving on the surface and causing mischief. I actually love the little things, but they're difficult when you're trying to explore and they make every effort to slow you down.$8",
+"Core.Mateo.Winter.Sunday.6h":"All I want to do is sleep. Like a bear. Hibernation should be an option. I'm filing a formal complaint.$16#$b#It's a little rough, though. It gets uncomfortable in the tent this time of year.$17",
+
+// 8 HEARTS - SPRING
+"Core.Mateo.Spring.Monday.8h": "We don't know much about how Mummies animate, since the only way to incapacitate them is with bombs and that doesn't leave much to study.$9#$b#Capturing a live Mummy seems needlessly cruel, so unfortunately the best we can do is study the strange tombs they tend to wander after they've been dealt with.$8#$b#I'd love to take it a step further than that, but I don't want to get cursed.$34",
+"Core.Mateo.Spring.Tuesday.8h":"Hey, @! I dug up a fossil, check it out. Feel free to pass it along to Gunther for me, I'm not sure if we've found this particular one yet. [586 587 588 589]$14",
+"Core.Mateo.Spring.Wednesday.8h": "Got quite a bit on the agenda today, but I'm more than happy to make time for my best friend. If you need anything, you just let me know, alright? I've got you.$1",
+"Core.Mateo.Spring.Thursday.8h": "Have you ever seen those Dwarvish Sentries inside the volcano on Ginger Island? For all that they're slow, they come at you with reckless abandon.$3#$b#Clearly, the Dwarves had something they want to protect somewhere in there, so it's worth exploring, but...$34#$b#Be careful navigating that place, @, I wouldn't want to hear secondhand about anything happening to you.$37",
+"Core.Mateo.Spring.Friday.8h": "There are way too many bugs down in the mines. Big ol' Spiders, Stick Bugs, and more variants of Cave Flies and Grubs than we can count - it's gross.$11#$b#I guess it's a good thing that, for the most part, they stay down below. Well, that's due largely to the Adventurer's Guild, huh?$0",
+"Core.Mateo.Spring.Saturday.8h": "Hey, @! I dug up a fossil, check it out. Feel free to pass it along to Gunther for me, I'm not sure if we've found this particular one yet. [586 587 588 589]$14",
+"Core.Mateo.Spring.Sunday.8h": "Did you know that skeletons can do magic? I didn't either, until one of them froze my feet to the floor.$7#$b#He even had a cape on. It billowed dramatically behind him as he charged at me.$9#$b#Goes to show it's always worth approaching the mines with caution. Stay safe, @.$24",
+
+//8 HEARTS - SUMMER
+"Core.Mateo.Summer.Monday.8h":"It feels like my scars get really swollen when it gets hot out like this, though it could be my imagination. I try not to let it put me in a bad mood, it's just very uncomfortable. I'd take that over still being self-conscious, though.$37#$b#I've always thought myself roguish, but 'scarred from ankle to forehead' was not on my bingo card.$36",
+"Core.Mateo.Summer.Tuesday.8h":"All I can think about right now is laying out on a towel, listening to the waves crash against the cove's cliffs. Maybe toss a frizbee or something.$0#$b#Do you think I can get Marlon and Gunther to join me? They need a bit of R&R, honestly. They work too hard and too often. So do you.$32",
+"Core.Mateo.Summer.Wednesday.8h":"Hey, @! I dug up a fossil, check it out. Feel free to pass it along to Gunther for me, I'm not sure if we've found this particular one yet. [586 587 588 589]$14",
+"Core.Mateo.Summer.Thursday.8h": "I can't imagine going into the Volcano this time of year. Between the various Magma creatures and the Tiger Slimes, I'll just stick to the more frigid spots in the Pelican Town mine.$9#$b#The best part of Ginger Island is just hanging out at the beach. One of my old professors works out there, I wonder how he's been doing.$37",
+"Core.Mateo.Summer.Friday.8h":"There are way too many bugs down in the mines. Big ol' Spiders, Stick Bugs, and more variants of Cave Flies and Grubs than we can count - it's gross.$17#$b#I guess it's a good thing that, for the most part, they stay down below. Well, that's due largely to the Adventurer's Guild, huh?$1",
+"Core.Mateo.Summer.Saturday.8h":"I suspect there are variants of Pepper Rexes we haven't seen yet. For example, a lot of the bones we find in prehistoric spaces don't match the living specimens, but they're dated within the last twenty years.$35#$b#This is what happens when a 'dinosaur kid' grows up, @. I turned a childhood infatuation into an incredibly dangerous day job.$36",
+"Core.Mateo.Summer.Sunday.8h":"Dr. Harvey's been keeping on top of my medical care. I get beat up in the mines an awful lot, and things have been going so much better since I started seeking him out.$15#$b#No more waking up and rolling out of bed to a chorus of my joints making funny noises.$14",
+
+//8 HEARTS - FALL
+"Core.Mateo.Fall.Monday.8h":"Hey, @. Take a chicken or duck egg and run it along the doorframe of your farmhouse. It's supposed to be good luck around this time of year.$1#$b#Maybe it'll even keep the monsters away, if you have issues with them wandering onto your farm at night.$32",
+"Core.Mateo.Fall.Tuesday.8h":"One dude in ZuZu City messes with Spirit's Eve candy, and now it's a unspoken rule to check it all before you eat it...$11#$b#I don't like assuming malice in people, but it's a story I was told so often as I kid that I still check my treats as an adult.$16",
+"Core.Mateo.Fall.Wednesday.8h":"Hey, @...I found this in a creepy little box in the Skull Cave, maybe Gunther will know what to do with it. [126 127]$23", 
+"Core.Mateo.Fall.Thursday.8h": "Gus makes fantastic desserts around this time of year. Apple pie, pecan pie, the homemade ice cream to go with it...#$b#He actually made me a whole pumpkin pie when I started coming into town more often. I was so flattered.$1",
+"Core.Mateo.Fall.Friday.8h": "Are you going to bring something to the Spirit's Eve celebration, @? I don't know if they do it here in the Valley, but in more densely populated areas, passing out treats is a really important part of the holiday festivities.$32",
+"Core.Mateo.Fall.Saturday.8h":"Don't blow a Jack o' Lantern out before midnight, @. They're to keep away creatures of the night. I think that myth stems all the way back from when we had to contend with monsters on the surface more often.$35#$b#It was a practice to keep them away because we naturally fear the unknown.$36",
+"Core.Mateo.Fall.Sunday.8h":"I don't think anyone ever really ages out of Spirit's Eve. It's the one time of year where you can express yourself with a costume, and I think that's good for the soul.$1#$b#It's a tradition that has existed in some form for over a thousand years, across multiple different cultures. I could babble on about it for days.$32",
+
+// 8 HEARTS - WINTER 
+"Core.Mateo.Winter.Monday.8h": "I'm seeing Dr. Harvey a lot more around this time of year. Not just for injuries, but... to get a handle on the seasonal depression.$8#$b#Thanks for being patient with me, though. I know it's not easy to deal with, but I appreciate that you've stuck with me for this long.$21",
+"Core.Mateo.Winter.Tuesday.8h":"Hey, @! I've got a bone to pick with- nah, just kidding. Just found something down below you might need for the museum. [439 440 441 442 443 444 445]$0",
+"Core.Mateo.Winter.Wednesday.8h":"I'm trying to appreciate the Winter the same way I do the Fall. It's not working. But I'm trying to make the effort to see beauty in the dismal.$8#$b#Sorry if I seem a little irate; I'm not trying to give you the cold shoulder on purpose.$16",
+"Core.Mateo.Winter.Thursday.8h":"I've been reading a lot of good books lately, now that I'm spending so much time in the library again. I can make some suggestions, if you've got the time.$0#$b#What kind of stuff do you like to read, @? Action, sci-fi, adventure?$1",
+"Core.Mateo.Winter.Friday.8h":"Hey, @! I've got a bone to pick with- nah, just kidding. Just found something down below you might need for the museum. [439 440 441 442 443 444 445]$0",
+"Core.Mateo.Winter.Saturday.8h":"As it turns out, Dr. Harvey thinks I have a Vitamin D deficiency because I spent too much time in the mines and don't get enough sun. It gets worse in the winter because there's even less natural light than normal.$16#$b#It makes me prone to shitty moods, so he suggested some supplements and spending more time outside and around other people... I think I can handle that now.$4",
+"Core.Mateo.Winter.Sunday.8h":"Hey, @. Thanks for checking up on me all the time, I really appreciate you, and I hope you're keeping busy. I'm trying, but some days are harder than others.$16#$b#Be sure to reach out if you're not feeling your best, alright? There's a bunch of people in this town who care about you, myself included.$0",    
+
+// 10 HEARTS PLATONIC - SPRING 
+"Core.Mateo.Spring.Monday.10h.Platonic": "The miniature library in the guild is something I'd always dreamed of having as a kid. Kind of like in the movies.$80#$b#I mean, it's a mix of textbooks, fiction and tabletop supplements, but books are books. It doesn't matter what you read as long as you enjoy it.$32", 
+"Core.Mateo.Spring.Tuesday.10h.Platonic":"Emeritus keeps taking all my socks and burying them in the sand outside. He also leaves his stable at night to sleep at the foot of the bed.$9#$b#He's about 300 pounds and thinks he weighs a quarter of that. Not that I mind having a cuddly dinosaur.$76",
+"Core.Mateo.Spring.Wednesday.10h.Platonic": "I was in the Volcano Dungeon the other day, and found this while exploring the area. Maybe you could find a use for it? [820 821 822 823 824]$14", 
+"Core.Mateo.Spring.Thursday.10h.Platonic": "There are difficult to decipher messages on the walls of the Skull Cavern. Have you ever noticed them, @?$34#$b#Something about heroes. Maybe we can go together and have a look; I'm sure there's something interesting to be discovered there.$32", 
+"Core.Mateo.Spring.Friday.10h.Platonic": "I don't do much in the way of decorating in Spring and Summer. But I'm very prepared for when Fall rolls around, especially since I'm no longer 'borrowing' electricity from the neighbors.$13",
+"Core.Mateo.Spring.Saturday.10h.Platonic": "@! Just the person I wanted to see. Here, I had Gus cook this up for you. [205 207 231 236 237 238 239 243]$1#$b#Stay safe if you go dungeon delving. Make sure you're well fed and watered.$78",
+"Core.Mateo.Spring.Sunday.10h.Platonic":"I'm running a tabletop game at The Guild for some of the more nerdy folks in town. If you're free, we could roll something up for you.$1#$b#What kind of character would you like to play, @? You're so kind-hearted, you'd make a great paladin.$76", 
+
+// 10 HEARTS PLATONIC - SUMMER
+"Core.Mateo.Summer.Monday.10h.Platonic":"Emeritus seems to get especially lazy when it's hot. Usually, when it's sunny out, he'll wander the beach looking for crabs to eat.$13#$b#But when it's sweltering like this, he'll lay on the wooden flooring instead. Must be cooler. He really is a big dog in a dinosaur body.$32",
+"Core.Mateo.Summer.Tuesday.10h.Platonic":"I've been doing some research on the Shadow Folk, and the more I read into it, the more it seems like the information we have is inaccurate.$34#$b#A lot of it seems written from a fearful perspective rather than an academic one, which I empathize with. But that doesn't make it right, accurate, or fair.$37", 
+"Core.Mateo.Summer.Wednesday.10h.Platonic":"Valley Summers aren't anything like Port of Plenty Summers, thank goodness. In the Islands, when it got really hot, it also got really humid - so it felt like you were walking through soup.$9#$b#I hated it, honestly. We're right by the ocean, so I thought the weather would be just as bad, but maybe it has something to do with the mountains nearby.$0",
+"Core.Mateo.Summer.Thursday.10h.Platonic": "I've never seen a snake fossil with this particular shape, @. Do you know someone who might know more? [825 826]$14",
+"Core.Mateo.Summer.Friday.10h.Platonic":"So I climbed through the hatch on the roof of The Guild and watched the sunset last night. Beer in hand, just listening to the waves.$1#$b#It was amazing. There's something really special about The Valley, @.$78", 
+"Core.Mateo.Summer.Saturday.10h.Platonic":"I got bitten up by one of those flying Serpants in the Skull Cave. Those things are fierce, aren't they?$22#$b#I'd rather deal with an entire horde of skeletons. Take this, in case you run into the same problem. [349]$10",
+"Core.Mateo.Summer.Sunday.10h.Platonic":"20 some-odd years adventuring will leave you with a lot of scars. I was self-conscious of them at first, but now they're a point of pride.$35#$b#Even the new ones. That particular series of injuries set me on a path I never would have expected.$76",
+
+// 10 HEARTS PLATONIC - FALL
+"Core.Mateo.Fall.Monday.10h.Platonic":"I have a list of movies I watch this time of year. I love a good slasher, but monster movies are my favorite. Part of what makes the season special is the healthy dose of artificial fear.$13",
+"Core.Mateo.Fall.Tuesday.10h.Platonic":"Now that I've got a door to knock on, I hope the kids stop by for treats. I'm a little worried my costume might be too scary for them, though. Maybe I can get Emeritus to hold the candy bucket in his mouth.$13",
+"Core.Mateo.Fall.Wednesday.10h.Platonic":"@! I found this mummified creature while digging around on Ginger Island. If I didn't know better, I'd use it as a creepy Spirit's Eve decoration. [827 828]$14",
+"Core.Mateo.Fall.Thursday.10h.Platonic":"What are your favorite things to grow, @? Do you tend to go with what's profitable, or do you have an artisanal pipeline going?$35#$b#Sunflowers, cranberries, and pumpkins all must look so nice clustered together in your fields.$32", 
+"Core.Mateo.Fall.Friday.10h.Platonic": "Life starts all over again when it gets crisp in the Fall. I'm grateful for everything I have, and for everything that'll come along in the future. Thank you for contributing to that, @.$76",
+"Core.Mateo.Fall.Saturday.10h.Platonic":"@! Just the person I wanted to see. Here, I had Gus cook this up for you. [205 207 231 236 237 238 239 243]$1#$b#Stay safe if you go dungeon delving. Make sure you're well fed and watered.$32",
+"Core.Mateo.Fall.Sunday.10h.Platonic":"Sometimes I find old arms deep in the mines. Swords, hammers and the like.$34#$b#I can't help but wonder if the ghosts that haunt those spaces are just trying to warn newer adventurers, like they don't want them to share the same fate.$37",
+
+// 10 HEARTS PLATONIC - WINTER 
+"Core.Mateo.Winter.Monday.10h.Platonic":"I'm really trying to stay on top of my vitamins these days. I have a few deficiencies that contribute to my mood.$7#$b#It's a little difficult to remember to take them every day, but I want to tackle my seasonal lows head-on.$80", 
+"Core.Mateo.Winter.Tuesday.10h.Platonic": "It's pretty chilly out, but I guess it could be worse. Even then, maybe snow days aren't that bad. You can stay inside and study all day, and nobody would expect anything else of you.$1",
+"Core.Mateo.Winter.Wednesday.10h.Platonic":"Now that I have a kitchen, I've been trying to cook more. Here you go, @! I've got a full thermos.[236]$1#$b#Gus taught me, but I don't think it'll be nearly as good as his yet. But it'll keep you warm!$32", 
+"Core.Mateo.Winter.Thursday.10h.Platonic":"Watching snow fall from behind a window rather than through an open tent flap is an unexpected bonus of living in an actual building. Much more comfortable that way, too. I used to get so cold all the time.$1",
+"Core.Mateo.Winter.Friday.10h.Platonic":"Harvey's determined that it's no longer healthy for me to spend time in the mines during the Winter.$10#$b#It's hard enough to get Vitamin D due to the lack of natural sunlight, but spending the day down below only makes it worse.$16#$b#Instead, he wants me to focus on doing research and hanging out with my friends.$32", 
+"Core.Mateo.Winter.Saturday.10h.Platonic":"Everyone seems to have less to do this time of year, so we've been playing tabletop a bit more often.$1#$b#It's really nice to have the group together doing something we love, and I like focusing on writing extra content for them.$32", 
+"Core.Mateo.Winter.Sunday.10h.Platonic":"I'm exhausted, @. But that's alright. Tomorrow's another day. How are you?$76#$b#Are you sleeping and eating well? Getting plenty of rest? It's a hard time of year, so be kind to yourself.$1", 
+
+// 10 HEARTS ROMANTIC - SPRING 
+"Core.Mateo.Spring.Monday.10h.Romantic": "Howdy, Sunshine. I know you're very skilled, but please be careful in the Dangerous Mines. The stronger monsters make it more precarious, and there's a lot of radioactive material down there too.$29#$b#Just watch yourself, alright? Goes without saying I'd be beside myself if anything happened to you.$27",
+"Core.Mateo.Spring.Tuesday.10h.Romantic":"I know Spring is a big season for you, like you're trying to play catchup after a slow Winter, but that doesn't mean you should overexert.$28#$b#Sorry I can't be of more use to you than as a pretty set piece.$31",
+"Core.Mateo.Spring.Wednesday.10h.Romantic": "I've taken more trips to the desert lately. Besides the Skull Cave, there's a lot to research.$34#$b#I've been really interested in the giant skeleton that's just half dug up. Have you ever seen it? The thing's a sight to behold. If you have the time, maybe you and I could go together.$30",
+"Core.Mateo.Spring.Thursday.10h.Romantic": "Sunshine, if you're going to do any adventuring, take this along with you.[205 207 231 236 237 238 239 243]$27#$b#I've been getting a little experimental with the Guild's kitchen. Honestly, you don't realize how much you'll miss a stove until you're without for a while.$1",
+"Core.Mateo.Spring.Friday.10h.Romantic": "Want to see if those trees on your farm are as comfortable as they are pretty? I'll press you against one, and you can let me know.$28",
+"Core.Mateo.Spring.Saturday.10h.Romantic": "@, why don't you and I head to the Saloon or the Inn tonight? We'll have a few drinks and spend the evening getting caught up on what life's been like for you.$1#$b#Maybe after, we can top off the night in the Guild. Emeritus is missing you.$32", 
+"Core.Mateo.Spring.Sunday.10h.Romantic":"I had the party fight a rock crab beast for our monster of the week game. They had a really good time.$1#$b#It was satisfying on a few different levels, and they earned some grit for it.$32",
+
+// 10 HEARTS ROMANTIC - SUMMER
+"Core.Mateo.Summer.Monday.10h.Romantic":"Hot out today, isn't it Sunshine? Do you want to hang out at the cove with me for a while?$31#$b#Maybe we can do a little sparring. After all, you're my favorite person to work up a sweat with.$30",
+"Core.Mateo.Summer.Tuesday.10h.Romantic": "I love being at the beach with other people. Honestly, I didn't go through surgery for a flat chest not to show it off at every opportunity.$13#$b#Some of the other scars make me self-conscious, but I completely forget that feeling when I've got your hands on me.$28",
+"Core.Mateo.Summer.Wednesday.10h.Romantic":"I'm glad you got away from Joja and found your way to the Valley, Sunshine. It's a company that tends toward bringing out the worst in people.$8#$b#I'm proud of you for taking such a dramatic leap of faith; I understand how difficult that is, especially now.$4", 
+"Core.Mateo.Summer.Thursday.10h.Romantic":"Hon? Uh, Emeritus laid an egg.[107]$3#$b#You can give it to Gunther if you haven't already, but you can breed a whole coop of them if you put it in the incubator.$35#$b#You can probably find more on the prehistoric floors of the Skull Cave, if you're looking to build a dinosaur army. Or, uh, a dino-mayo empire.$36",
+"Core.Mateo.Summer.Friday.10h.Romantic":"I visited Krobus the other day, seems like he's doing alright! Checked out some books for him from Gunther.$1#$b#Maybe, eventually, we'll be able to get him his very own library card.$12",
+"Core.Mateo.Summer.Saturday.10h.Romantic":"Have you ever seen me throw knives, Sunshine? I'll prove I don't miss a mark. Maybe cold steel won't be the only thing pinned to a dartboard tonight.$30",
+"Core.Mateo.Summer.Sunday.10h.Romantic":"Why 'Sunshine'? Oh. It's because it's always dark in the mines, @. You make it worth fighting to come back up every time. Don't forget, alright? I love you.$78",
+
+// 10 HEARTS ROMANTIC - FALL
+"Core.Mateo.Fall.Monday.10h.Romantic":"Hey, Sunshine! I carved you this in case you're too busy to make your own.[746]$4#$b#Don't forget to toss it at the end of the season, though. Otherwise it'll get gross.$2",
+"Core.Mateo.Fall.Tuesday.10h.Romantic":"Lots more ghosts in the mines this time of year, I swear. It's like they know it's the season for it.$6#$b#Be careful if you go exploring, Sunshine. Let me know if you want company.$76",
+"Core.Mateo.Fall.Wednesday.10h.Romantic":"You know, it's pretty nice out. Crisp, refreshing. How do you feel about some time spent?$28#$b#You, me, the beach, some candlelight, a healthy appreciation of the season...and each other.$31", 
+"Core.Mateo.Fall.Thursday.10h.Romantic":"Am I superstitious? Maybe. But I think a healthy dose of fear does the body good. It begets courage, after all.$1#$b#You're the bravest person I know, though. Does that mean you're afraid of a lot of things, or nothing at all?$36",
+"Core.Mateo.Fall.Friday.10h.Romantic": "Not very long ago, I really didn't have a grasp on what happiness looked like. I spent a lot of time struggling to figure out what I wanted out of life.$8#$b#Turns out it's farmer-shaped. Thank you for that, Sunshine.$27", 
+"Core.Mateo.Fall.Saturday.10h.Romantic":"I'm running an especially spooky session this week for my tabletop group. Shooting for a sense of existential dread by exploiting their character's deepest fears!$13#$b#It's going to be really fun, if a little traumatizing for the PCs themselves. But that's alright, it's part of the experience.$32",
+"Core.Mateo.Fall.Sunday.10h.Romantic":"You're just the person I wanted to see, Sunshine. I've had something I've been meaning to tell you.$30#$b#Actually, how about I show you instead, if you're not busy later? It's a message best delivered horizontal.$28",
+
+// 10 HEARTS ROMANTIC - WINTER 
+"Core.Mateo.Winter.Monday.10h.Romantic":"Oh, look. My very own ray of Sunshine! How are you doing, hon? Hope the chill isn't getting to you.$32#$b#You can borrow my coat, if you'd like. You look good in it, and it'll keep you plenty warm.$31",
+"Core.Mateo.Winter.Tuesday.10h.Romantic": "Hm? Oh, yes. I did remember to take my vitamins, and I'm feeling pretty okay. Thank you for asking, dear.$4#$b#I love you. Don't work yourself too hard - Guildmaster's orders.$28",
+"Core.Mateo.Winter.Wednesday.10h.Romantic":"Doc Harvey said to avoid going in the mines during Winter. Which is fair, everything considered. But I've got to keep in shape one way or another.$35#$b#Maybe you and I can get some extra cardio in to make up for it, huh?$30", 
+"Core.Mateo.Winter.Thursday.10h.Romantic": "Howdy, Sunshine! How about you and I take advantage of the cold?$31#$b#We'll get curled up under a blanket and indulge in a movie... and maybe some other stuff, too.$30",
+"Core.Mateo.Winter.Friday.10h.Romantic":"You should come by the Guild, dear. Emeritus is missing you, and so am I.$76#$b#I'll make some coffee and we'll settle up in the loft. How's that sound?$4", 
+"Core.Mateo.Winter.Saturday.10h.Romantic":"There's a raunchy joke on the tip of my tongue about the vitamin D deficiency... Maybe if you kiss me, you'll find it.$31",
+"Core.Mateo.Winter.Sunday.10h.Romantic":"I feel so unbothered by the weather, which is crazy. Wintertime used to loom at the back of my mind all year.$12#$b#Now I can appreciate it for what it is. By the way, Sunshine - I made this for you. It'll keep you warm when I can't.[236]$4",  
+
+/*
+  __  __          _____  _____  _____          _____ ______ 
+ |  \/  |   /\   |  __ \|  __ \|_   _|   /\   / ____|  ____|
+ | \  / |  /  \  | |__) | |__) | | |    /  \ | |  __| |__   
+ | |\/| | / /\ \ |  _  /|  _  /  | |   / /\ \| | |_ |  __|  
+ | |  | |/ ____ \| | \ \| | \ \ _| |_ / ____ \ |__| | |____ 
+ |_|  |_/_/    \_\_|  \_\_|  \_\_____/_/    \_\_____|______|
+
+*/ 
+
+// PATIO   
+"Marriage.Mateo.Patio.1": "%Mateo yawns, handing you a cup of coffee in your favorite mug.[395]#$b#Good morning, Sunshine! Have an excellent day, alright? Love you.$4",
+"Marriage.Mateo.Patio.2": "%Mateo caresses your cheek as you pass, pressing a kiss to your temple.#$b#I had something to say about the beauty of the landscape, but then you came outside and stole my breath away.$4",
+"Marriage.Mateo.Patio.3": "It's amazing, getting to wake up and watch %pet run around. Watch the livestock wander, and the crops grow.$12#$b#Thanks for letting me be part of your life, Sunshine.$4",
+"Marriage.Mateo.Patio.4": "%Mateo kisses your cheek before you head off.#$b#Kick some ass today, Sunshine. I love you, I'll see you tonight.$4",
+"Marriage.Mateo.Patio.5": "For all that Clint is socially awkward, he makes for a great teacher. I feel like he missed his calling; when he's talking about something he's confident in, he's great!$1",
+"Marriage.Mateo.Patio.6": "Thank you for giving me a space outside, Sunshine, and for encouraging my wayward interests.$12",
+
+// SPOUSE ROOM 
+"Marriage.Mateo.SpouseRoom.1":"You know... I didn't have a clear picture of what my life would be like until you found your way to me.$29#$b#And now, I share a future with you. I couldn't ask for anything more.$27",
+"Marriage.Mateo.SpouseRoom.2":"I've gone through a lot of apartments over the years. Dorms, too. Nothing with a sense of permanence.$8#$b#But I've got a home now, and a guild. Something a bad storm won't just wreck. And I appreciate that a terrible lot. Thank you, @.$1", 
+"Marriage.Mateo.SpouseRoom.3":"A lot of my books are on the more boring side. I'm not sure how much help they'll be to you, in the case you decide to crack one open.$37#$b#But, you're welcome to anything here, okay? Especially if you find that you're suddenly interested in long dead people and things.$32",
+"Marriage.Mateo.SpouseRoom.4":"%Mateo is staring at their doctorate, hung up on the wall. They look really proud, even if it's something they don't seem to talk about often.#$b#Hey, Sunshine. Sorry, just feeling really good about being past my college years. I'm doing what I love, and a lot of people can't say the same. I'm a very lucky person.$4",
+"Marriage.Mateo.SpouseRoom.5":"%You go in to press a kiss to Mateo's cheek, who suddenly turns their head to meet your lips instead.",
+
+// FUN LEAVE & FUN RETURN
+"Marriage.Mateo.funLeave.1":"I'm heading out, Sunshine. I'm going to check up on Emeritus, Krobus and the guild. But I'll be back soon, I promise. Love you!$4#$b#%Mateo takes your face in both hands, pressing a tender kiss to your lips.",
+"Marriage.Mateo.funLeave.2": "Sunshine, I'm going to check on things over at the guild. Probably going to make the rounds and visit Gunther and Marlon, too.$0#$b#I'll see you for dinner, alright? Love you.$4",
+"Marriage.Mateo.funLeave.3": "I might get back late today, Sunshine, but I'll just be spending some extra time with Emeritus.$0#$b#Let me know if you want me to pick something up while I'm out and about. Love you!$1",
+
+"Marriage.Mateo.funReturn.1": "Hey, Sunshine, glad to be home. I missed you something fierce.$30",
+"Marriage.Mateo.funReturn.2": "Hey, Sunshine, glad you're home. I've been thinking about you all day.$28",
+"Marriage.Mateo.funReturn.3": "Hey, Sunshine. How are you feeling? Maybe we can kick back and relax for a while.$4",
+
+// SPECIAL DATES - SPRING
+"Marriage.Mateo.Spring": "I always feel really hyped at the top of a new year, like I've got a lot of dormant energy to work out. Do you feel like helping with that, Sunshine?$28",
+"Marriage.Mateo.Spring1": "It's the start of a new year, and nothing makes me happier than the thought of spending it all with you. I love you, Sunshine, forever and always.$4",
+"Marriage.Mateo.Spring13": "Lewis asked me to help him hide eggs, but if I did, nobody would ever find them. We should've rigged it, @. I could've put them in really weird spots that only you'd know about.$13#$b#That's not very fair to the kids though, is it? Aw, well. Good luck today, Sunshine.$1",
+"Marriage.Mateo.Spring23": "Tomorrow's the flower dance - got your outfit ready? I'm looking forward to seeing you all dressed up.$27",
+"Marriage.Mateo.Spring24": "It's nice to have someone worth dressing up for, isn't it? I didn't wear the suit the first time I went to the Flower Dance, but I'm looking forward to it now.$4",   
+"Marriage.Mateo.Spring28": "It's almost Summer! And then after that, it'll almost be Fall! I know, I'm excited already. I just love seeing how everything changes.$1",
+
+// SPECIAL DATES - SUMMER
+"Marriage.Mateo.Summer": "It's that time of year where I can justifiably wear an open shirt! Not that anyone has ever bothered me about it, but I've always been a little nervous that all the scars will scare the kids or something.$14#$b#Plus, I know you appreciate the view, Sunshine.$15", 
+"Marriage.Mateo.Summer1": "It's already so hot out. Don't let the humidity get to you, Sunshine. Be sure to drink lots of water.$0",
+"Marriage.Mateo.Summer11": "I've got a little bit of pumpkin puree for the Luau today! I'm sure anything from %farm will be a fantastic addition - you've got a taste for these sorts of things.$0#$b#I do wonder how that soup manages to taste good with all the different stuff thrown in it, though.$37",
+"Marriage.Mateo.Summer28": "The moonlight jellies are an ecological wonder, aren't they? I'm excited to see them every year.$4#$b#Their faint glow means that Fall is coming soon, and besides that, nothing makes me happier than getting to spend an evening on the beach with everyone. Especially you, @.$27",
+
+// SPECIAL DATES - FALL
+"Marriage.Mateo.Fall": "It's the best time of year! Profitable for %farm, the air is crisp, I get to see you wearing my jacket - Look, I have a soft spot for sharing clothes. $30#$b#You, wearing something of mine, standing in your field of pumpkins, cranberries and sunflowers? That's what perfection looks like to me.$27",
+"Marriage.Mateo.Fall1": "It's the best time of year! Profitable for %farm, the air is crisp, I get to see you wearing my jacket - Look, I have a soft spot for sharing clothes. $30#$b#You, wearing something of mine, standing in your field of pumpkins, cranberries and sunflowers? That's what perfection looks like to me.$27",
+"Marriage.Mateo.Fall15": "@, I dug this up and had it cut for your festival display tomorrow.[72]$0#$b#Having a variety of high-quality items is the best way to win, ya'know? I'm sure you're prepared, I just wanted to help in what way I can.$1",
+"Marriage.Mateo.Fall16": "Good luck today, Sunshine! I know you've got this in the bag, you work so hard and %farm deserves all of the acknowledgement.$32#$b#And, of course, I've got my own display of appreciation planned for when we come home.$31", 
+"Marriage.Mateo.Fall25": "Good morning, Sunshine. There's only one thing better than waking up next to you on my birthday-$28#$b#-And that's gonna be seeing you bent over something later.$30#$b#%Mateo takes your face in their hands and kisses you; they seem more needy than usual.",
+"Marriage.Mateo.Fall26": "You know what tomorrow is, @. Second best day of the year only after our anniversary.[746]$1#$b#I've been getting ready all season, but now it's crunch time.$13", 
+"Marriage.Mateo.Fall27":"Remember the rules, @! Check your candy, wear a costume, hand out treats, and most importantly - Never blow out a Jack o' Lantern before midnight!$32#$b#So much to do tonight! Including you.$13#$b#%Mateo grabs your shoulders and kisses the tip of your nose.",
+
+// SPECIAL DATES - WINTER 
+"Marriage.Mateo.Winter": "%Mateo abruptly pulls a well-loved hoodie over your head before using the strings to tug you into a kiss.#$b#Stay safe and warm, Sunshine. Especially if you decide to spend some time adventuring.$4",
+"Marriage.Mateo.Winter1": "It's that time of the year already, where it gets all dreary. Let's make the effort to keep in touch with our friends.$12",
+"Marriage.Mateo.Winter8": "It's nice that everyone takes the time to gather in the Winter. It would feel really lonely, otherwise.$12#$b#Good luck fishing, Sunshine. I'll be cheering you on from the sidelines.$27",
+"Marriage.Mateo.Winter12": "It's Gunther's birthday today. He's the type that I have no clue how to buy for... What do you get the type of guy who gets himself everything?$37",
+"Marriage.Mateo.Winter14": "The Night Market starts tomorrow, @. Be sure to check out what the vendors there have - you never know what kind of stuff they'll turn up with.$1",
+"Marriage.Mateo.Winter19": "It's Marlon's birthday today! I have no idea what the old man would want. He's got access to all the best gear, so maybe something to help maintain it.$35",
+"Marriage.Mateo.Winter24": "You're already a gift, @. I don't need anything but your company tomorrow.$27",
+"Marriage.Mateo.Winter25": "Happy Feastday, Sunshine. I've got something for Marlon and Gunther, but your gift is going to have to wait until after the festival.$28",
+"Marriage.Mateo.Winter28": "Winter's finally almost over. I don't have as big an issue with it as I used to, but I'm still grateful for the season change.$32#$b#Soon your fields will be lush with crops, %pet will be running around outside, and things will feel normal again.$1#$b#Doesn't mean I won't make the best of tonight, though. You deserve a kiss worth remembering when the clock turns over.$31",
+
+// GENERIC DIALOGUE - RAINY
+"Marriage.Mateo.Rainy.Day.0": "Today's a really good day to go adventuring, Sunshine, since you don't have to water anything. Take this, in case you need it.$1#$b#And maybe I'll see you down there.$32[243]",
+"Marriage.Mateo.Rainy.Day.1": "I love the rain. Not just because you always seem a little more relaxed, but because it feels like things slow down.$0#$b#I'm going to check on Emeritus though. He tends to stay in when the weather is bad.$1",
+"Marriage.Mateo.Rainy.Day.2": "Nothing beats a glass of wine and a good book on days like this.$0#$b#I wrote some of my best papers during storms. I don't know what it is, the weather just sets my head straight.$1",
+"Marriage.Mateo.Rainy.Day.3": "I'm going to spend some time today getting some house stuff done. Not the usual chores, but some deep cleaning.$24#$b#I don't know what about the rain makes me want to wipe everything from the floors to the crown molding, but hey, it's a productive use of my time.$14", 
+"Marriage.Mateo.Rainy.Day.4": "Guess what I made for this perfectly dreary day? [236]$0#$b#Soup! Enjoy, @. I know it's hard to stay dry out there, but do your best. Don't work too hard. I'm going to bring some to Krobus, too.$1",
+"Marriage.Mateo.Rainy.Day.5": "Do the livestock feel any sort of way about the rain, since they get stuck inside?$16#$b#I hope they're not bored. Or maybe they appreciate the reprieve like we do. I should go check on Emeritus.$37",
+"Marriage.Mateo.Rainy.Day.6": "I love you, @. I wish you could just stay in with me, but I know you've got stuff to do. Just add me to the list for later, alright?$31",
+"Marriage.Mateo.Rainy.Night.0": "I found this exploring today, Sunshine. I was so excited to bring it back to you.[275]$1#$b#Now that we're both home, though, it's time for some rest and relaxation.$32", 
+"Marriage.Mateo.Rainy.Night.1": "Here's what I think our evening should look like: You, me, and a bottle of wine.$28#$b#But let's get you out of those soaking wet clothes first, huh?$30", 
+"Marriage.Mateo.Rainy.Night.2":"Oh, I agree. It's a little late for coffee, but I made it anyway.[395]$28#$b#Maybe I've got a reason to keep you up.$31",
+"Marriage.Mateo.Rainy.Night.3": "Hey, Sunshine. I cleaned and oiled up all your boots while you were gone, they should be a little more waterproofed now.$1#$b#Wear some thick socks with them and you should be good and comfy.$32",
+"Marriage.Mateo.Rainy.Night.4": "I checked on Krobus and Emeritus today. They're doing fine, I just get worried.$4",
+"Marriage.Mateo.Rainy.Night.5": "I spent the day with %pet, working on some academic stuff. It always feels really good to be busy, but I'm glad you're back.$4#$b#Let's cuddle up and spend some time together, Sunshine.$27",
+"Marriage.Mateo.Rainy.Night.6": "It's the love of my life, back from - oh, you're soaked. Let me help you with that.$30",
+"Marriage.Mateo.Rainy.Night.Mateo": "Sunshine, I made you a snack! $1[608]#$b#I know, a pie. How domestic. Well. Maybe I like being domestic.$80", 
+
+// GENERIC DIALOGUE - INDOOR & OUTDOOR
+"Marriage.Mateo.Indoor.Day.0":"I've been really busy working on my paper with Krobus' help. That whole scenario has really changed my perspective.$0",
+"Marriage.Mateo.Indoor.Day.1": "I should check in with Marlon. If the old man thinks he's rid of me just because I got hitched and got my own building, he's got another thing coming.$1#$b#I'm feeling more adventurous than I ever have been.$32",
+"Marriage.Mateo.Indoor.Day.2": "Good morning, Sunshine. I'm going to reach out to a few colleagues, put in some academic work.$0#$b#If %pet will let me, anyway. It's like they're trying to help, doing their best-$14#$b#-Their best just isn't very good.$15", 
+"Marriage.Mateo.Indoor.Day.3": "I'm not versed in anything remotely related to agriculture, but if the sprinkler pipes burst, I can fix them!$36#$b#I've picked up some weird handyman skills over the years. I can also get us back inside in the case we lock ourselves out, but that's neither here nor there...$7",
+"Marriage.Mateo.Indoor.Day.4": "It's a beautiful day. After getting some chores done, I'm going to take %pet out to spend some time outside, maybe take them to see Emeritus.$14#$b#You really learn to appreciate the sight of rolling fields and a cloudless sky when you spend so much time in the mines.$35",
+"Marriage.Mateo.Indoor.Day.5":"Get over here, Sunshine. Have an amazing day, alright? I'll be thinking of you.$27#$b#%Mateo tips up your chin, kissing you kindly.",
+"Marriage.Mateo.Indoor.Night.0": "%pet rolled around in some mud today, so I had to give them a bath. It wasn't fun.$9#$b#I got a little bit scratched up, will you kiss it better?$29",
+"Marriage.Mateo.Indoor.Night.1":"Sunshine, I missed you today, and I'm really glad you're home.$29#$b#Let's get some time in together. It's pretty late, I doubt there's anyone up at the hot springs...$31",
+"Marriage.Mateo.Indoor.Night.2": "I feel like I get so much work done in my office here. You don't really appreciate electricity until you lose it, I guess.$37#$b#I'm grateful for you, Sunshine. You set me back on the right track in so many ways.$32#$b#Though, if you'd like to go visit the guild and have some fun when nobody's around, I wouldn't be opposed.$36",
+"Marriage.Mateo.Indoor.Night.3": "Sometimes, when you get good at something, you think it's the only thing that makes you worthwhile.$8#$b#I felt that way about treasure hunting, about academia, about the guild.$2#$b#I'm starting to understand that's not true, though. I'm enough to be yours. Everything else comes second.$27",
+"Marriage.Mateo.Indoor.Night.4": "The only thing I like about you being gone is that I can blast embarrassing music really, really loudly.$32#$b#Wait, you can hear it outside?$3#$b#Oh, shit. I didn't realize it was THAT loud.$11#$b#...I'm not sorry, you signed up for this. No takesies-backsies.$13",
+"Marriage.Mateo.Indoor.Night.5": "%Mateo drapes their arms over your shoulders, leaning a little too heavily on you.#$b#Gravity is increasing on me, I can't hold myself up...$18#$b#Guess we're just going to be stuck like this, otherwise I'll fall over.$28", 
+"Marriage.Mateo.Indoor.Night.6":"I'm glad to have caught some of the light coming off you today, Sunshine. #Now...let's head to bed, huh?$31", 
+"Marriage.Mateo.Outdoor.0": "There are so many animals, I'm so impressed by how well you take care of them all on top of managing the fields, too.$32#$b#It's an amazing sight. You took this dilapidated plot of land and made it into something amazing.$1",
+"Marriage.Mateo.Outdoor.1": "This beautiful place, where the mountains meet the sea... it's so full of splendor, isn't it?$4#$b#For all the disarray, it's still so worthwhile to be alive.$27",
+"Marriage.Mateo.Outdoor.2":"I wonder if we could ever convince Krobus to come live on %farm...$37", 
+"Marriage.Mateo.Outdoor.3": "Here, take this please. I've had three cups today and I know I've gone past my limit. I'm going to have some serious jitters.$6[395]",
+"Marriage.Mateo.Outdoor.4":"After you're finished working, we should head out to town. Maybe to the Saloon, or over to the guild. $1#$b#Some warm food, some bad laughs, some nice friends. Sounds good to me!$32",
+"Marriage.Mateo.Outdoor": "%Mateo is staring off into the distance, not noticing that you're there.#$b#I can lay my sword down beside the flowers... what a happy ending.$12.",
+
+// GENERIC DIALOGUE - KIDS 
+"Marriage.Mateo.OneKid.0": "%kid1 climbed on top of the bookshelf this morning. Don't know how.$8#$b#They shouted that they were King Kang Jr and refused to come back down. No regrets showing them that movie, though.$32#$b#Maybe next we'll watch King Kang vs Modzilla and really mess with 'em.$15",
+"Marriage.Mateo.OneKid.1": "So the little kaiju has decided Bothra is their new favorite movie monster. $14#$b#Yesterday it was Daggerhead. I'm glad they've got taste.$15",
+"Marriage.Mateo.OneKid.2": "I tried to get %kid1's onesie off to wash it, today.$9#$b#They shouted, 'no, don't take my skin!'$25#$b#I acknowledge this is nobody's fault but my own. I hope you wanted baby Pepper Rexes, Sunshine, because that's what we've got.$25",
+"Marriage.Mateo.OneKid.3":"I left %kid1 alone for five minutes so I could do the dishes from lunch. I came back to the block city we built this morning destroyed.$9#$b#They stomped all over it and were chewing the head off an action figure. Should we be concerned?$26",
+"Marriage.Mateo.TwoKids.0": "I thought it would be cute to give the kids dinosaur-shaped chicken nuggets. Obviously, a childhood staple. They screamed at me that I was facilitating cannibalism.$20#$b#I didn't teach them that, I swear. I should probably check what books they've been reading.$11",
+"Marriage.Mateo.TwoKids.1":"If you're wondering why %kid2 is in time-out, it's because they threw a book at my head. %kid1 is in time-out with them because they told them to. Want to know why?$10#$b#I talked over their favorite part of Triassic Park, which they've watched three times today.$9",
+"Marriage.Mateo.TwoKids.2": "Did you buy %kid1 and %kid2 a ukulele? No? Where did they even-?...It's a new thing every day with these kids.$9#$b#Children who think they're dinosaurs that play musical instruments, okay. That's normal.$7", 
+"Marriage.Mateo.TwoKids.3": "I introduced the little kaijus to some music that I like. Thought it'd be cute, you know. Bond with them.$8#$b#I didn't realize how often they'd be repeating the lyrics. I've got my own little private performance of my favorite songs happening. Constantly.$9#$b#I should've expected this by now, honestly.$1",
+"Marriage.Mateo.TwoKids.4": "%kid1 and %kid2 learned what a 'mutiny' is. They've determined that you outrank me as an authority figure, so, good luck. This is your warning.$24#$b#Don't worry, I hid most of the weapons... I think.$37",
+
+// AFFECTION DIALOGUE
+"Marriage.Mateo.Good.0": "You're looking stunning this morning, Sunshine. One look at your face and I'm reminded what a damn lucky bastard I am.$30",
+"Marriage.Mateo.Good.1": "How's my favorite person doing today? I'm sure you've got a lot to do that'll keep you busy, but I just want you to know that I love you.$27#$b#I miss you when you're working, you know. It's like being without my shadow.$29",
+"Marriage.Mateo.Good.2":"%Mateo takes your face in both hands and presses a kiss to your forehead, your nose, and finally your lips.#$b#You're just so cute, I can't help but accost you with affection.$31",
+"Marriage.Mateo.Good.3": "You're my everything, Sunshine. When I look at you, I feel like I could take on the world.$28#$b#You're my reminder that things can get better. That things can change.$27", 
+"Marriage.Mateo.Good.4": "I've started getting back in contact with a few associates I had in college. I really think I'm going to be able to make headway and publish my research, especially with Krobus' help.$32",
+"Marriage.Mateo.Good.5": "%Mateo leans over and kisses your temple.#$b#Feeling a little quiet today, Sunshine. Why don't you come and loaf around with me, if you're not busy? I mean, we can -get- busy, but that won't be quiet.$31",
+"Marriage.Mateo.Good.6": "%Mateo hugs you unprompted. You're safe in their arms; it feels like home.",
+"Marriage.Mateo.Good.7": "I wish the valley had a more robust music scene. I'd be taking you to shows all the time. We'll just have to deal with dancing to the radio for now, though.$4",
+"Marriage.Mateo.Good.8": "Marlon says he's really proud of how far you've come as an adventurer, by the way.$0#$b#In the case he won't say it to your face, I figured you should know.$1", 
+"Marriage.Mateo.Neutral.0": "I think I should go tidy up the kitchen or something, maybe get some laundry done.$34#$b#Is there anything in particular you need help with? Don't be afraid to ask.$32",
+"Marriage.Mateo.Neutral.1":"I'm so tired today. I'm having a lot of trouble getting getting work done. Maybe I'll walk over to the guild and see Emeritus instead. I'm sorry, @.$8",
+"Marriage.Mateo.Neutral.2": "Since I've moved in with you, I haven't been so worried about the wintertime.$24#$b#Staying out of the mines and taking my vitamins is helping a lot, too.$0",
+"Marriage.Mateo.Neutral.3": "Why am I so tired? Are you tired?$16#$b#Maybe I should take a nap or something.$17",
+"Marriage.Mateo.Neutral.4": "I should go grab the violin. It's back at the guild right now.$4#$b#I can play some pretty mean cowboy folk, if that's your kind of thing. I'd serenade the heck out of you, Sunshine.$80", 
+"Marriage.Mateo.Neutral.5": "%Mateo leans forward and nips your lower lip, smirking before going about their business.",
+"Marriage.Mateo.Neutral.6": "%farm is looking pretty amazing today, Sunshine. I don't know how you manage to keep it all in order, but you never cease to impress.$32",
+"Marriage.Mateo.Neutral.7": "We should just crash on the couch and tune out to some monster movies tonight. How's that sound?$31",
+"Marriage.Mateo.Bad.0":"Sorry, Sunshine. Got a little beat down in the mines and the stress has me feeling a little bitey.$8#$b#No, not in the good way.$16",
+"Marriage.Mateo.Bad.1": "%Mateo looks a little melancholy, like they're not focused on anything.",
+"Marriage.Mateo.Bad.2": "If you have something to say to me, @, just say it. I'm not interested in playing games with you. Let's talk like adults.$17",
+"Marriage.Mateo.Bad.3": "Sunshine, I don't cope particularly well with being ignored. Please, let's talk out what's bothering you.$21",
+"Marriage.Mateo.Bad.4": "%Mateo is scrolling their phone, looking at pictures you've taken together.",
+"Marriage.Mateo.Bad.5": "Am I doing something wrong? If I was, you'd tell me, wouldn't you?...Wouldn't you?$21",
+"Marriage.Mateo.Bad.6": "Maybe Wyatt was right. I'm not a good judge of character...$18",
+"Marriage.Mateo.Bad.7": "I don't want to fight, Sunshine.$19",
+"Marriage.Mateo.Bad.8": "@, I'm starting to feel pretty unwelcome here. Do you want me to go to back to staying at the guild?$16",
+
+// ENGAGEMENT DIALOGUE 
+"Marriage.Mateo.Engagement.Mateo0": "I can't believe this is happening, Sunshine. It's like every dream I've ever had is coming true at once, and I couldn't be happier.$76",
+"Marriage.Mateo.Engagement.Mateo1": "We're doing this, Sunshine... I'm going to wake up and see your ceiling instead of my own every morning...$78",
+"Marriage.Mateo.Engagement.Mateo2": "Tomorrow's the big day, huh? It's the start of something new. Something beautiful. I can't wait.$80",
+
+/*
+   _____ _____ ______ _______   _______        _____ _______ ______  _____ 
+  / ____|_   _|  ____|__   __| |__   __|/\    / ____|__   __|  ____|/ ____|
+ | |  __  | | | |__     | |       | |  /  \  | (___    | |  | |__  | (___  
+ | | |_ | | | |  __|    | |       | | / /\ \  \___ \   | |  |  __|  \___ \ 
+ | |__| |_| |_| |       | |       | |/ ____ \ ____) |  | |  | |____ ____) |
+  \_____|_____|_|       |_|       |_/_/    \_\_____/   |_|  |______|_____/ 
+
+*/
+
+// BASIC GIFT RESPONSES 
+"Gifts.Mateo.GiftReaction.Love":"Wow, I feel like you really thought of me. Thank you.",
+"Gifts.Mateo.GiftReaction.Like":"You got this for me? Thanks so much, how sweet of you.",
+"Gifts.Mateo.GiftReaction.Dislike": "Different strokes for different folks, huh?",
+"Gifts.Mateo.GiftReaction.Hate": "This is thoughtless. I'm not sure why you're giving it to me.",
+"Gifts.Mateo.GiftReaction.Neutral": "Thanks for this, it's very kind of you.",
+
+// FISH
+"Gifts.Mateo.GiftReaction.CategoryFish": "I'm not a big fan of seafood, but thanks anyway.$37",
+"Gifts.Mateo.GiftReaction.SeaUrchin": "I'm not a big fan of seafood, but thanks anyway.$37",
+"Gifts.Mateo.GiftReaction.Crab": "I hate crabs. They trek sand everywhere, and they're a menace to East Scarp.$11#$b#The only thing they're good for is having their meat dunked in garlic butter.$9",
+"Gifts.Mateo.GiftReaction.CrabCakes": "I hate crabs. They trek sand everywhere, and they're a menace to East Scarp.$11#$b# The only thing they're good for is being served up, just like this. Thanks, @.$13",
+
+// ARTISANAL GOODS
+"Gifts.Mateo.GiftReaction.CategoryArtisanalGoods": "You made this yourself? That's so impressive, thank you.$1",
+
+// TRASH
+"Gifts.Mateo.GiftReaction.CategoryTrash": "...No thanks.$16",
+
+// MINERALS & GEMS
+"Gifts.Mateo.GiftReaction.CategoryMinerals": "This is beautiful, @! I love how it catches the light. Thank you.$1",
+"Gifts.Mateo.GiftReaction.CategoryGems": "This is beautiful, @! I love how it catches the light. Thank you.$1",
+
+// LOVES - PLATONIC
+"Gifts.Mateo.GiftReaction.PrismaticShard.Platonic": "My older brother, Raguel, was the last person to give me one of these.$1#$b# I had my sword made from it, and I understand the value of something this precious. Thank you.$4",
+"Gifts.Mateo.GiftReaction.Pumpkin.Platonic": "These are my favorite! Nothing beats carving a Jack o Lantern in the Fall. And besides that, they're tasty.$1",
+"Gifts.Mateo.GiftReaction.JackOLantern.Platonic": "This looks fantastic! And you carved it yourself? It looks perfectly spooky, great job!$1",
+"Gifts.Mateo.GiftReaction.GoldenPumpkin.Platonic": "You won this...and you're giving it to me?$26#$b#Thank you, @. I've got the perfect spot to display it.$1",
+"Gifts.Mateo.GiftReaction.FairyRose.Platonic": "How'd you know my favorite flower, @? This makes my favorite kind of honey... thank you so much.$1",
+"Gifts.Mateo.GiftReaction.Honey.Platonic": "I love sweet stuff like this! Thank you, @. We should share it over some crackers and cheese.$1",
+"Gifts.Mateo.GiftReaction.RainbowShell": "These catch the sunlight so beautifully when you find them on the beach in the morning. Thank you for sharing this with me, @.$1",
+"Gifts.Mateo.GiftReaction.MapleBar": "You know, I have really fond memories of getting homemade maple bars with close friends... they're my favorite baked good. Thank you, @.$1",
+"Gifts.Mateo.GiftReaction.AutographedPhoto": "How'd you get this-? I'm a huge fan of Rodney's work! Did you know he's won two awards? This is great, I'll treasure it! Thank you!$32",
+
+
+// LOVES - ROMANTIC 
+"Gifts.Mateo.GiftReaction.PrismaticShard.Romantic": "My older brother, Raguel, was the last person to give me one of these. I had my sword made from it, and I understand the value of something this precious.$4#$b#The only thing comparable to that... is you. Thank you, Sunshine.$27",
+"Gifts.Mateo.GiftReaction.Pumpkin.Romantic": "You know me so well, Sunshine. Why don't we go and carve it together, huh?$31#$b#%Mateo gives your sleeve a playful tug.",
+"Gifts.Mateo.GiftReaction.JackOLantern.Romantic": "I'll put this on display for everyone to see, Sunshine. And I'll proudly let everyone know you carved it for me.$27",
+"Gifts.Mateo.GiftReaction.GoldenPumpkin.Romantic": "You won this...and you're giving it to me? Thanks, Sunshine. Next time, how about you and I get lost in the maze together?$30",
+"Gifts.Mateo.GiftReaction.FairyRose.Romantic": "Thanks, Sunshine. You know, they make good honey, but I think I'm going to press these so I can hang them up.$27",
+"Gifts.Mateo.GiftReaction.Honey.Romantic": "Aw, Sunshine. You know I love sweet stuff. Yeah, sweet stuff like you.$30#$b#%Mateo kisses your forehead.",
+
+       
+// LIKES
+"Gifts.Mateo.GiftReaction.PumpkinSoup": "Pumpkin tastes so good, I'll eat it in just about anything! Thank you. $14",
+"Gifts.Mateo.GiftReaction.PumpkinPie": "Pumpkin tastes so good, I'll eat it in just about anything! Thank you. $14",
+"Gifts.Mateo.GiftReaction.Spaghetti": "Nothing beats a plate of Spaghetti, except when it's frozen for some reason. Thanks, @! $10",
+"Gifts.Mateo.GiftReaction.Clam": "I love collecting shells off the sand, and I'm glad you do too - I keep all the cute ones I find. Thanks for adding to my collection.$10",    
+
+// ALCOHOL  
+"Gifts.Mateo.GiftReaction.Beer.Platonic": "I drank a lot more in college than I do now, but I can't turn down a fruited sour. Thanks, @!$1",
+"Gifts.Mateo.GiftReaction.Beer.Romantic": "You know, @, I get a little randy when I drink. Is that what you're going for? $28",
+"Gifts.Mateo.GiftReaction.PaleAle.Platonic": "Not my favorite kind of drink, but I'm not one to turn down gifts. Thanks, @!$10",
+"Gifts.Mateo.GiftReaction.PaleAle.Romantic": "Careful, @. I was already feeling a little lascivious. $28",
+"Gifts.Mateo.GiftReaction.Wine.Platonic": "Nothing beats a little bit of wine and a warm evening on the beach. Thanks, @!$1",
+"Gifts.Mateo.GiftReaction.Wine.Romantic": "Couple glasses of this stuff and I'll get really uninhibited, @. Borderline disorderly.$28",
+
+// ARTIFACTS
+"Gifts.Mateo.GiftReaction.DwarfScrollI": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$0 [96]",
+"Gifts.Mateo.GiftReaction.DwarfScrollII": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$0[97]",
+"Gifts.Mateo.GiftReaction.DwarfScrollIII": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$0[98]",
+"Gifts.Mateo.GiftReaction.Dwarf_ScrollIV": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$0[99]",
+"Gifts.Mateo.GiftReaction.ChippedAmphora": "This is a relic of a culture we're still pretty unfamiliar with.$0[100]",
+"Gifts.Mateo.GiftReaction.Arrowhead": "This is a relic of a culture we're still pretty unfamiliar with.$0[101]",
+"Gifts.Mateo.GiftReaction.LostBook": "You shouldn't have this.$37[102]",
+"Gifts.Mateo.GiftReaction.AncientDoll": "To be honest, even I have no idea what this is - besides haunted.$37[103]",
+"Gifts.Mateo.GiftReaction.ElvishJewelry": "We don't know much about the Elves, they're incredibly elusive. Gunther might know more about them if you're interested. $0[104]",
+"Gifts.Mateo.GiftReaction.ChewingStick": "Honestly, I don't know what to make of this.$37[105]",
+"Gifts.Mateo.GiftReaction.OrnamentalFan": "This is a relic of a culture we're still pretty unfamiliar with.$0[106]",
+"Gifts.Mateo.GiftReaction.DinosaurEgg": "Did you dig this up or fight a Pepper Rex for it? Either way, if you aren't already breeding them on your farm, you should start![107]$25",
+"Gifts.Mateo.GiftReaction.RareDisc": "This is a relic of a culture we're still pretty unfamiliar with.$0[108]",
+"Gifts.Mateo.GiftReaction.AncientSword": "I think...this would mean a lot more to Gunther or Marlon.$16[109]",
+"Gifts.Mateo.GiftReaction.RustySpoon": "Don't try to bend that... it's impossible. Instead, just try to realize the truth.$36[110]",
+"Gifts.Mateo.GiftReaction.RustySpur": "Is that from your farm? Gunther might've wanted it, but...$37[111]",
+"Gifts.Mateo.GiftReaction.RustyCog": "Machine parts like this are pretty unusual.$0[112]",
+"Gifts.Mateo.GiftReaction.ChickenStatue": "I think this would look cute on the farm, if Gunther already has one.$1[113]",
+"Gifts.Mateo.GiftReaction.AncientSeed": "I'm flattered that you're giving this to me, since growing these is very profitable. But I think you could put it to better use.$0[114]",
+"Gifts.Mateo.GiftReaction.PrehistoricTool": "This is a relic of a culture we're still pretty unfamiliar with.$0[115]",
+"Gifts.Mateo.GiftReaction.DriedStarfish": "Don't star-t with me.$36[116]",
+"Gifts.Mateo.GiftReaction.Anchor": "This gives me a sinking feeling.$36[117]",
+"Gifts.Mateo.GiftReaction.GlassShards": "This is a relic of a culture we're still pretty unfamiliar with.$0[118]",
+"Gifts.Mateo.GiftReaction.BoneFlute": "This is a relic of a culture we're still pretty unfamiliar with.$0[119]",
+"Gifts.Mateo.GiftReaction.PrehistoricHandaxe": "This is a relic of a culture we're still pretty unfamiliar with.$0[120]", 
+"Gifts.Mateo.GiftReaction.DwarvishHelm": "I'm fascinated by Dwarvish relics, but we're still trying to understand them.$37[121]",
+"Gifts.Mateo.GiftReaction.DwarfGadget": "I'm fascinated by Dwarvish relics, but we're still trying to understand them.$37[122]",
+"Gifts.Mateo.GiftReaction.AncientDrum": "This has a substantial monetary and historical value, but it doesn't belong to you or I. $37[123]",
+"Gifts.Mateo.GiftReaction.GoldenMask": "This has a substantial monetary and historical value, but it doesn't belong to you or I. $37[124]",
+"Gifts.Mateo.GiftReaction.GoldenRelic": "This has a substantial monetary and historical value, but it doesn't belong to you or I. $37[125]",
+"Gifts.Mateo.GiftReaction.StrangeDoll": "To be honest, even I have no idea what this is - besides haunted.$37[126]",
+
+// BIRTHDAY - PLATONIC
+"Gifts.Mateo.GiftReaction.Pumpkin.Birthday.Platonic": "You remembered my birthday? #And is this this freshly grown? Thank you, I'll carve it up right away! $1",
+"Gifts.Mateo.GiftReaction.Jack-o-Lantern.Birthday.Platonic": "You remembered my birthday? And is this this freshly grown? Thank you, I'll display it right away! $1",
+"Gifts.Mateo.GiftReaction.PumpkinPie.Birthday.Platonic": "You remembered my birthday AND made a homemade pumpkin treat? You're the best, @. Thank you. $1",
+"Gifts.Mateo.GiftReaction.PumpkinSoup.Birthday.Platonic": "You remembered my birthday AND made a homemade pumpkin treat? You're the best, @. Thank you. $1",
+"Gifts.Mateo.GiftReaction.FairyRose.Birthday.Platonic": "You remembered my birthday...and got me my favorite flowers. I'll be sure to press these in my journal, things like this deserve to be kept.$4",
+
+// BIRTHDAY - ROMANTIC
+"Gifts.Mateo.GiftReaction.Pumpkin.Birthday.Romantic": "Let's carve it together, Sunshine. I can't think of a better way to spend my birthday.$4#$b#Well, I can, but we can get to that later.$31",
+"Gifts.Mateo.GiftReaction.Jack-o-Lantern.Birthday.Romantic": "Thanks, Sunshine! You carved this for me? I love it!$4#$b#The only thing I'd love more is some time spent together with you.$27",
+"Gifts.Mateo.GiftReaction.PumpkinPie.Birthday.Romantic": "A homemade pumpkin treat? For my birthday? You're the best, Sunshine. Thank you. $27",
+"Gifts.Mateo.GiftReaction.PumpkinSoup.Birthday.Romantic": "A homemade pumpkin treat? For my birthday? You're the best, Sunshine. Thank you. $27",
+"Gifts.Mateo.GiftReaction.FairyRose.Birthday.Romantic": "My favorite flowers! I'm going to press these and hang them near the bed. Thank you for such a thoughtful birthday gift, Sunshine.$27",
+
+/*
+  __  __  ______      _______ ______  _____ 
+ |  \/  |/ __ \ \    / /_   _|  ____|/ ____|
+ | \  / | |  | \ \  / /  | | | |__  | (___  
+ | |\/| | |  | |\ \/ /   | | |  __|  \___ \ 
+ | |  | | |__| | \  /   _| |_| |____ ____) |
+ |_|  |_|\____/   \/   |_____|______|_____/ 
+
+ */                                           
+
+ "Movies.Mateo.BraveLittleSapling.1": "There's no other adults... @, is this a kid's flick?$34",
+ "Movies.Mateo.BraveLittleSapling.2": "I'm getting really emotionally invested in this little sapling...$32",
+ "Movies.Mateo.BraveLittleSapling.3": "He became a tree! I'm so happy for him, he did his best!$1", 
+ "Movies.Mateo.NaturalWonders.1": "I'm glad you appreciate this sort of thing. I do, too.$0",
+ "Movies.Mateo.NaturalWonders.2": "If large animals are are so dangerous...why are they also so cute?$37",
+ "Movies.Mateo.NaturalWonders.3": "I just think it's really unfair that petting non-domesticated animals is a health hazard.$21",
+ "Movies.Mateo.PrairieKing.1": "I love westerns more than any other genre. Big fan of the game, too.$32",
+ "Movies.Mateo.PrairieKing.2": "%Mateo is shoveling popcorn into their mouth and watching, wide-eyed.",
+ "Movies.Mateo.PrairieKing.3": "When's the next showing? Wanna go again? That was great!$32",
+ "Movies.Mateo.Wumbus.1": "Hm... sci-fi isn't usually my thing.$37",
+ "Movies.Mateo.Wumbus.2": "I'm warming up to this, actually...$24", 
+ "Movies.Mateo.Wumbus.3": "If anything bad happens to Wumbus in the sequel, I will commit MORE crimes.$10" , 
+ "Movies.Mateo.Mysterium.1": "This is one of my favorites, actually. I'm always glad for them to re-run it. I watch the series it's from at least once a year.$32", 
+ "Movies.Mateo.Mysterium.2": "When this came out, I wasn't expecting to be so invested in Laura's part of the story.$34",
+ "Movies.Mateo.Mysterium.3":"I love weird, gauche nonsense like that. Thanks for firewalking with me, @.$13",
+ "Movies.Mateo.ItHowlsInTheRain.1": "The title sounds familiar...maybe I've seen this before.$36",
+ "Movies.Mateo.ItHowlsInTheRain.2": "I was thinking of a different 'Howl' movie-!!$25",
+ "Movies.Mateo.ItHowlsInTheRain.3": "I thought this was going to be a cute animated flick... I was so wrong...$7",
+ "Movies.Mateo.MiracleAtColdstarRanch.1":"Is this one of those movies made by that greeting card company?$37",
+ "Movies.Mateo.MiracleAtColdstarRanch.2":"I'm not really into the whole holiday warmth trope... I have too hard of a time during winter. It makes me kinda jealous that I don't feel the same way.$8",
+ "Movies.Mateo.MiracleAtColdstarRanch.3":"Definitely not my thing, but I'd be happy to see another one with you sometime.$0",
+ "Movies.Mateo.ZuzuCityExpress.1":"I love a good romance... I'm excited for this.$4",
+ "Movies.Mateo.ZuzuCityExpress.2":"%Mateo is engrossed in the movie. They've scooted up to the edge of their seat and are leaning forward.",
+ "Movies.Mateo.ZuzuCityExpress.3":"When's the sequel!? What the hell!? I need to see the rest - is there a book series? We need to check-$26", 
+
+/*
+  ______ ______  _____ _______ _______      __     _       _____ 
+ |  ____|  ____|/ ____|__   __|_   _\ \    / /\   | |     / ____|
+ | |__  | |__  | (___    | |    | |  \ \  / /  \  | |    | (___  
+ |  __| |  __|  \___ \   | |    | |   \ \/ / /\ \ | |     \___ \ 
+ | |    | |____ ____) |  | |   _| |_   \  / ____ \| |____ ____) |
+ |_|    |______|_____/   |_|  |_____|   \/_/    \_\______|_____/
+
+ */
+
+ // EGG FESTIVAL 
+"Festivals.Mateo.EggFestival.1": "Love a good egg hunt. I used to hide eggs around campus, but they'd be hidden too well and people wouldn't find them for days, until they started to smell.$1",
+"Festivals.Mateo.EggFestival.2":"Rooting for you, @. I used to be really good at this when Lewis still let me play as a kid. Not so much, now.$1",
+"Festivals.Mateo.EggFestival.Married": "Okay, so. There's one behind that tree right there. And another just out of sight under the bush.$14#$b#Ah, shit, Lewis is looking over here. Good luck, Sunshine.$15",
+
+// FLOWER DANCE 
+"Festivals.Mateo.FlowerDance.1": "I'm more of a club person, honestly. But this is really cute. $1",
+"Festivals.Mateo.FlowerDance.2": "I love big parties like this. They're so intimate. At smaller gatherings, there's no privacy.$32",
+"Festivals.Mateo.FlowerDance.Married": "When I see you all dressed up, everything slows down and nobody else matters. It reminds me of our wedding day. Love you, @.$4", 
+"Festivals.Mateo.FlowerDance.Accept": "I'd love to dance with you, @. Thank you for asking.$4",
+
+// LUAU 
+"Festivals.Mateo.Luau.1": "I love seeing everyone gathered together. It's so wholesome, honestly. Makes it feel like a real tight-knit community. Really, it's the magic of food, drink and dance.$1",
+"Festivals.Mateo.Luau.2": "I'm still stuck on how the soup doesn't taste like a disaster. Maybe it's just... the power of friendship, or something?$34#$b#I love it regardless. Wouldn't miss this for anything.$36",
+"Festivals.Mateo.Luau.Married": "Honestly, surviving the soup every year - especially with this many people throwing stuff in - seems like a challenge. Well, if we get sick, you and I are going down together.$32",  
+
+// MOONLIGHT JELLIES
+"Festivals.Mateo.MoonlightJellies.1": "I love the jellies. There's a type of them in the Fern Islands that sting something nasty, though. So, you don't want to go swimming too much when they're around.$32",
+"Festivals.Mateo.MoonlightJellies.2": "The water looks amazing when these little guys glow, doesn't it? I get a great view from the cove, but it's so much better spending the night together with everyone.$1",
+"Festivals.Mateo.MoonlightJellies.Married": "I never would've thought I'd have the chance to stand here together and watch this happen. The way the lights are reflecting off you is one of the most beautiful things I've ever seen.$4",
+
+// SDV FAIR
+"Festivals.Mateo.SDVFair.1": "Tch, that bell didn't stand a chance! I'm sorry, I couldn't hear you over the sound of these guns.$13#$b#%Mateo playfully flexes.",
+"Festivals.Mateo.SDVFair.2": "You're talking to the several-year bell ringing champion, @. Swinging a sword around all the time does the body a whole lotta good.$13",
+"Festivals.Mateo.SDVFair.Married":"You've got this in the bag, Sunshine. I'll win the strength contest, you'll win the display competition - and then we'll both go home and celebrate. Sounds good?$28",
+
+// SPIRIT'S EVE
+"Festivals.Mateo.SpiritsEve.1": "Tonight's the one night during the year where it's okay not to feel safe. You should want to be a little bit scared. Even if it's just for one night.$84#$b#If you don't survive being scared when you're young, how are you going to handle it when you're older? There's so much more to be afraid of later in life.$84", 
+"Festivals.Mateo.SpiritsEve.2": "Don't ever smash a Jack o' Lantern or steal a kid's candy. Tonight is about respecting the dead, because this is the one night that they, and all sorts of other things, roam free.$84#$b#All these traditions? The Jack o' Lantern, the costumes, handing out treats... they were all started to protect you.$84", 
+"Festivals.Mateo.SpiritsEve.Married":"I just want to be, want to bewitch you, in the moonlight~$84",
+
+// ICE FESTIVAL 
+"Festivals.Mateo.IceFestival.1": "%Mateo is patting down a snowball to perfection.#$b#Alright, Marlon... if you can dodge a monster's attack, you can dodge a snowball.$13",
+"Festivals.Mateo.IceFestival.2": "There's an old movie I really like, about how the snow came to be. $32#$b#A man with shears for hands carves ice sculptures, and the flurries result in our storms. This festival reminds me of that.$1",
+"Festivals.Mateo.IceFestival.Married": "I love you enough to let you know that you're not free of potentially getting hit with a snowball just because we're married.$14#$b#The conditions were 'till death do us part', not 'until my darling partner pelts me with snow'. Watch out.$15",
+
+// WINTER STAR 
+"Festivals.Mateo.WinterStar.1": "When I was a kid, Marlon got me a sword as a gift. Lewis was pissed.$13",
+"Festivals.Mateo.WinterStar.2": "The food, the gifts, the company - nothing beats this, really. Especially when Winter is otherwise such a bummer.$1#$b#Marlon and Gunther got me adventuring gear as I kid, and now I've got their backs with some pretty neat gifts.$32",
+"Festivals.Mateo.WinterStar.Married":"It's amazing to be part of something. Part of a community, a guild, a family. This whole festival really makes that all feel real.$4#$b#%Mateo kisses the tip of your nose.$18",
+
+// RSV GATHERING 
+"Festivals.Mateo.RSVG": "It's cool to watch everyone compete, but I wasn't sure which team to be on. Instead, I'm just gonna keep the ol' man company.$32",
+
+// RSV EMBER OF RESOLUTIONS 
+"Festivals.Mateo.EmberOfResolutions": "Change is a series of choices, made over time. You don't have to be the person you were yesterday if you don't want to.$80",
+
+
+ /*
+   _____ _______ _____  _____ _   _  _____  _____ 
+  / ____|__   __|  __ \|_   _| \ | |/ ____|/ ____|
+ | (___    | |  | |__) | | | |  \| | |  __| (___  
+  \___ \   | |  |  _  /  | | | . ` | | |_ |\___ \ 
+  ____) |  | |  | | \ \ _| |_| |\  | |__| |____) |
+ |_____/   |_|  |_|  \_\_____|_| \_|\_____|_____/ 
+                                                                                                   
+*/
+
+// MAP STRINGS
+"Strings.Mateo.AcademicSpace": "It's a little messy, but Mateo's been putting a lot of time into their research lately. Their degree hangs on wall:# Doctorate of Sociocultural Anthropology awarded from the University of Ember Islands in the name of Rafaela Mateo Luis.", 
+"Strings.Mateo.NotPapyrus": "Clearly, Mateo has a bone to pick with a certain skeleton...",
+"Strings.Mateo.NotFlowey": "There's something about this flower that makes you uneasy...",
+"Strings.Mateo.VoidCreatures": "Notes on Void Creatures. They've gotten very extensive. There's a little drawing of Krobus in the margins.",
+"Strings.Mateo.FeelingCrabby": "Mateo's way of dealing with unwanted guests is neither clean nor pleasant.",
+"Strings.Mateo.OverwhelmingBooks": "The collection gathered here is just short of being it's own library. Most of the books are on ethics, morals, and soft science - not on swordplay.",
+"Strings.Mateo.DungeonsDragons": "Evidently, Mateo is running a medieval fantasy tabletop game for the local nerds. It's called 'Dark Chronicle'.", 
+"Strings.Mateo.NotADigimon": "How many Pepper Rexes is Mateo planning to hatch..?",
+"Strings.Mateo.Chewtoy": "A stuffie as snuggled as often as it's nibbled on.",
+"Strings.Mateo.BabyEmeritus": "Is this a Pepper Rex egg? In an incubator!? And it's on!?!",
+"Strings.Mateo.CrabStab": "In hasty handwriting, it reads 'No Crabs Allowed'.",
+"Strings.Mateo.LittleForge": "It looks like Mateo is trying to learn to maintenance their own weapons... yours, as well. And your tools.",
+"Strings.Mateo.FairyRoses": "These Fairy Roses are surprisingly well cared for.",
+"Strings.Mateo.Destinium": "You've never seen this material before... the tools are well crafted, but seem ominous. You decide it's best not to touch them.",
+"Strings.Mateo.GameSupplements": "The shelf has a very well loved copy of The Great Gatsbish on it, in addition to numerous tabletop supplement books.",
+"Strings.Mateo.LongLiveTheKing": "A well cared for altar. On closer inspection, it looks like a pile of props from Journey of the Prairie King... but they're way too authentic for that...",
+"Strings.Mateo.UnderScarpe": "The door is locked. Mateo might still be working on whatever's downstairs.",
+"Strings.Mateo.BlahajBlast": "A plush shark. It's a little flat, and a bit dirty. But that's alright. To be loved is to be changed.",
+
+// GHOST RADIO
+"Strings.Mateo.GhostRadio.1": "When you turn the radio on, you catch it in the middle of a song:# 'I can feel the thunder that's breaking in your heart, I can see through the scars inside you...!'",
+"Strings.Mateo.GhostRadio.2": "When you turn the radio on, you catch it in the middle of a song:# 'It's the cruel beast that you feed, it's your burning yearning need to bleed through the spillways...!'",
+"Strings.Mateo.GhostRadio.3": "When you turn the radio on, you catch it in the middle of a song:# 'just wanna be, I wanna bewitch you all night...#just wanna be, wanna bewitch you in the moonlight...!'",
+"Strings.Mateo.GhostRadio.4": "When you turn the radio on, you catch it in the middle of a song:# 'I don't want my fangs too long...#If you have Ghost, you have everything...!'",
+"Strings.Mateo.GhostRadio.5": "When you turn the radio on, you catch it in the middle of a song:# 'The world is on fire, and you are here to stay and burn with me... our funeral pyre!'",
+"Strings.Mateo.GhostRadio.6": "When you turn the radio on, you catch it in the middle of a song:# 'If you had life eternal... this is the moment of letting go...'",
+"Strings.Mateo.GhostRadio.7": "When you turn the radio on, you catch it in the middle of a song:#'I don't wanna end like this...#but the sting in the way you kiss me, something within your eyes...!'",
+"Strings.Mateo.GhostRadio.8": "When you turn the radio on, you catch it in the middle of a song:#'And after all the sorrow, we'll be riding high...#And the truth of the matter is, I'll never let you go, let you go...!'",
+
+/*
+   _____ _    _  _____ _______ ____  __  __   ______ _______   ________ _____   
+  / ____| |  | |/ ____|__   __/ __ \|  \/  | |  ____|_   _\ \ / /  ____|  __ \  
+ | |    | |  | | (___    | | | |  | | \  / | | |__    | |  \ V /| |__  | |  | | 
+ | |    | |  | |\___ \   | | | |  | | |\/| | |  __|   | |   > < |  __| | |  | | 
+ | |____| |__| |____) |  | | | |__| | |  | | | |     _| |_ / . \| |____| |__| | 
+  \_____|\____/|_____/   |_|  \____/|_|  |_| |_|    |_____/_/ \_\______|_____/
+
+*/
+
+// GENDER NEUTRAL MARRIAGE EDITS
+"CFD.Mateo.Utility.cs.5371": "@, Mateo... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners in crime, haha!$h",
+"CFD.Mateo.Utility.cs.5373": "@, Mateo... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners in crime, haha!$h",
+"CFD.Mateo.Utility.cs.5375": "@, Mateo... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners in crime, haha!$h",
+"CFD.Mateo.Utility.cs.5377": "@, Mateo... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners in crime, haha!$h",
+"CFD.Mateo.Utility.cs.5367": "There comes a time in everyone's life when we cross paths with someone unexpectedly.#$b#And yet today, I find myself uniting two people who've decided to see their paths converge into one.$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Mateo in the bonds of marriage.",
+"CFD.Mateo.Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if they'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Mateo in the bonds of marriage.",
+
+
+// GENDER NEUTRAL PARENTAL EDITS 
+"CFD.Mateo.NPC.cs.4439": "I wonder how much the new baby will change things?$1",
+"CFD.Mateo.NPC.cs.4440": "{0}, all of the prep work is done. Now all we can do is cross our fingers and wait.$l",
+"CFD.Mateo.NPC.cs.4441": "{0}, do you think we've done enough to get ready? Our lives are about to change. $29",
+"CFD.Mateo.NPC.cs.4442": "{0}, we're going to have a baby soon, isn't that something?$27",
+"CFD.Mateo.NPC.cs.4443": "{0}, our family's getting bigger, can you believe it?$29",
+"CFD.Mateo.NPC.cs.4444": "{0}, I didn't think I'd ever be a parent... but I'm so excited.$27",
+"CFD.Mateo.NPC.cs.4445": "{0}, are you excited? I'm excited. I'm nervous, I'm... are we ready? $29",
+"CFD.Mateo.NPC.cs.4447": "{0}, we've got something of an odd family, don't we? Kids, pets, a Void Creature...$36",
+"CFD.Mateo.NPC.cs.4448": "{0}, we're gonna be parents... who would've guessed, huh? $31",
+
+// GENDER NEUTRAL BIRTH EDITS 
+"CFD.Mateo.BirthMessage.Adoption": "During the night, a new baby joined your family.",
+"CFD.Mateo.BirthMessage.PlayerMother": "During the night, a new baby joined your family.",
+"CFD.Mateo.BirthMessage.SpouseMother": "During the night, a new baby joined your family.",
+"CFD.Mateo.BirthMessage.SpouseNaming_Male": "{0} is naming your baby boy.",
+"CFD.Mateo.BirthMessage.SpouseNaming_Female": "{0} is naming your baby girl.",
+"CFD.Mateo.BabyNamingTitle.Male": "What should we name him?",
+"CFD.Mateo.BabyNamingTitle.Female": "What should we name her?",
+"CFD.Mateo.HaveBabyQuestion.Adoption": "Should we expand our family, {0}?",
+"CFD.Mateo.HaveBabyAnswer.Yes": "Yes!",
+"CFD.Mateo.HaveBabyAnswer.No": "Not now...",
+"CFD.Mateo.HavePlayerBabyQuestion": "Do you want to expand your family with {0}?",
+"CFD.Mateo.HavePlayerBabyQuestion.Adoption": "Do you want to expand your family with {0}?",
+"CFD.Mateo.BirthMessage_Adoption": "During the night, a new baby joined your family.",
+"CFD.Mateo.BirthMessage_PlayerMother": "During the night, a new baby joined your family.",
+"CFD.Mateo.BirthMessage_SpouseMother": "During the night, a new baby joined your family.",
+"CFD.Mateo.BirthMessage_SpouseNaming_Male": "{0} is naming your baby boy.",
+"CFD.Mateo.BirthMessage_SpouseNaming_Female": "{0} is naming your baby girl.",
+"CFD.Mateo.BabyNamingTitle_Male": "What should we name him?",
+"CFD.Mateo.BabyNamingTitle_Female": "What should we name her?",
+"CFD.Mateo.HaveBabyQuestion": "Should we expand our family, {0}?",
+"CFD.Mateo.HaveBabyQuestion_Adoption": "Should we expand our family, {0}?",
+"CFD.Mateo.HaveBabyAnswer_Yes": "Yes",
+"CFD.Mateo.HaveBabyAnswer_No": "Not now...",
+"CFD.Mateo.HavePlayerBabyQuestion_Adoption": "Do you want to expand your family with {0}?",
+
+// GENDER NEUTRAL SOCIAL PAGE EDITS 
+"CFD.Mateo.SocialPage.cs.11635": "(single)",
+"CFD.Mateo.SocialPage.cs.11636": "(spouse)",
+"CFD.Mateo.SocialPage.cs.11637": "(spouse)",
+"CFD.Mateo.SocialPage.cs.11639": "(partner)",
+"CFD.Mateo.SocialPage.cs.11640": "(partner)",
+"CFD.Mateo.SocialPage.cs.11642": "(ex-spouse)",
+"CFD.Mateo.SocialPage.cs.11643": "(ex-spouse)",
+
+// SUMMIT DIALOGUE 
+"CFD.Mateo.ExtraDialogue_SummitEvent_Intro_Spouse": "Hey, Sunshine.$4",
+"CFD.Mateo.ExtraDialogue_SummitEvent_Intro2_Spouse": "Have you ever seen such splendor?$1",
+"CFD.Mateo.ExtraDialogue_SummitEvent_Dialogue1_Spouse": "I can't help but think about the last %year years...$4\"/pause 1000/speak spouse \"We've been through a lot together, haven't we? And I wouldn't take back a second of it, not even the stressful parts.$14",
+"CFD.Mateo.ExtraDialogue_SummitEvent_Dialogue2_Spouse": "...Look at everything we've learned and accomplished together; how far we've come from where we started.$27",
+"CFD.Mateo.ExtraDialogue_SummitEvent_Dialogue3_Spouse": "And you know what? It's not over. There are still adventures to be had together.$4",
+"CFD.Mateo.ExtraDialogue_SummitEvent_closingmessage": "It's been a long road for you and Mateo...",
+
+// MOVIE INVITATION - SPOUSE 
+"MovieInvite.Spouse.Mateo": "I'm always happy to see a flick with you, Sunshine.$76",
+
+/*
+  __  __          _____ _      
+ |  \/  |   /\   |_   _| |     
+ | \  / |  /  \    | | | |     
+ | |\/| | / /\ \   | | | |     
+ | |  | |/ ____ \ _| |_| |____ 
+ |_|  |_/_/    \_\_____|______|
+                               
+*/
+
+// HOSPITAL LETTER 
+"Mail.Mateo.Letter1": "Hey, @.^^Thanks for turning up at the hospital when you did. Honestly, it would have been a lot scarier without you. They're holding me in ZuZu for a few days, but I'll be back soon. Be careful if you go exploring, okay? You're in my thoughts.^^Sincerely,^Mateo.",
+
+// DATE NIGHT INVITATION 
+"Mail.Mateo.Letter2": "Good morning, Sunshine.^^I know you're busy, but if you've got the time to spare - meet me in the mines. I'll wait around by the elevator for you.^^You don't have to bring anything, just your swimsuit and an inclination for mischief.^^Sincerely,^Mateo.",
+
+/*
+   ____  _    _ ______  _____ _______ _____ 
+  / __ \| |  | |  ____|/ ____|__   __/ ____|
+ | |  | | |  | | |__  | (___    | | | (___  
+ | |  | | |  | |  __|  \___ \   | |  \___ \ 
+ | |__| | |__| | |____ ____) |  | |  ____) |
+  \___\_\\____/|______|_____/   |_| |_____/ 
+
+*/
+
+// BUILDING THE COASTAL GUILD & ES SPECIAL ORDER BOARD 
+"Quests.Mateo.SpecialOrders.BuildGuild.Name": "Mateo's Request",
+"Quests.Mateo.SpecialOrders.BuildGuild.Text": "Marlon and I need some supplies for the building and order board!", 
+"Quests.Mateo.SpecialOrders.BuildGuild.Objective.0.Text": "Deposit 500 pieces of wood into the stockpile in Robin's house.",
+"Quests.Mateo.SpecialOrders.BuildGuild.Objective.1.Text": "Deposit 300 stones into the stockpile in Robin's house.",
+"Quests.Mateo.SpecialOrders.BuildGuild.Objective.2.Text": "Deposit 100 pieces of hardwood into the stockpile in Robin's house.",
+
+// COASTAL GUILD SPECIAL ORDERS - MONSTER NAMES
+"Quests.Mateo.SpecialOrders.AQ1.0.LocalizedName": "Serpents",
+"Quests.Mateo.SpecialOrders.AQ1.1.LocalizedName": "Iridium Bats",
+"Quests.Mateo.SpecialOrders.AQ1.2.LocalizedName": "Mummies",
+"Quests.Mateo.SpecialOrders.AQ1.3.LocalizedName": "Carbon Ghosts",
+"Quests.Mateo.SpecialOrders.AQ1.4.LocalizedName": "Rock Crabs",
+"Quests.Mateo.SpecialOrders.AQ1.5.LocalizedName": "Lava Lurks",
+"Quests.Mateo.SpecialOrders.AQ1.6.LocalizedName": "Lava Crabs",
+"Quests.Mateo.SpecialOrders.AQ1.7.LocalizedName": "Stone Golems",
+"Quests.Mateo.SpecialOrders.AQ1.8.LocalizedName": "Dwarvish Sentries",
+"Quests.Mateo.SpecialOrders.AQ2.0.LocalizedName": "Serpents",
+"Quests.Mateo.SpecialOrders.AQ2.1.LocalizedName": "Iridium Bats",
+"Quests.Mateo.SpecialOrders.AQ2.2.LocalizedName": "Mummies",
+"Quests.Mateo.SpecialOrders.AQ2.3.LocalizedName": "Carbon Ghosts",
+"Quests.Mateo.SpecialOrders.AQ2.4.LocalizedName": "Rock Crabs",
+"Quests.Mateo.SpecialOrders.AQ2.5.LocalizedName": "Lava Lurks",
+"Quests.Mateo.SpecialOrders.AQ2.6.LocalizedName": "Lava Crabs",
+"Quests.Mateo.SpecialOrders.AQ2.7.LocalizedName": "Stone Golems",
+"Quests.Mateo.SpecialOrders.AQ2.8.LocalizedName": "Dwarvish Sentries",
+"Quests.Mateo.SpecialOrders.AQ3.0.LocalizedName": "Serpents",
+"Quests.Mateo.SpecialOrders.AQ3.1.LocalizedName": "Iridium Bats",
+"Quests.Mateo.SpecialOrders.AQ3.2.LocalizedName": "Mummies",
+"Quests.Mateo.SpecialOrders.AQ3.3.LocalizedName": "Carbon Ghosts",
+"Quests.Mateo.SpecialOrders.AQ3.4.LocalizedName": "Rock Crabs",
+"Quests.Mateo.SpecialOrders.AQ3.5.LocalizedName": "Lava Lurks",
+"Quests.Mateo.SpecialOrders.AQ3.6.LocalizedName": "Lava Crabs",
+"Quests.Mateo.SpecialOrders.AQ3.7.LocalizedName": "Stone Golems",
+"Quests.Mateo.SpecialOrders.AQ3.8.LocalizedName": "Dwarvish Sentries",
+"Quests.Mateo.SpecialOrders.AQ4.0.LocalizedName": "Bats",
+"Quests.Mateo.SpecialOrders.AQ4.1.LocalizedName": "Bugs",
+"Quests.Mateo.SpecialOrders.AQ4.2.LocalizedName": "Flies",
+"Quests.Mateo.SpecialOrders.AQ4.3.LocalizedName": "Ghosts",
+"Quests.Mateo.SpecialOrders.AQ4.4.LocalizedName": "Duggies",
+"Quests.Mateo.SpecialOrders.AQ4.5.LocalizedName": "Metal Heads",
+"Quests.Mateo.SpecialOrders.AQ4.6.LocalizedName": "Green Slimes",
+"Quests.Mateo.SpecialOrders.AQ4.7.LocalizedName": "Stone Golems",
+"Quests.Mateo.SpecialOrders.AQ4.8.LocalizedName": "Squid Kids",
+
+// COASTAL GUILD SPECIAL ORDERS - BOARD OBJECTIVES
+"Quests.Mateo.SpecialOrders.AQ1.Name": "From the Guildmaster:",
+"Quests.Mateo.SpecialOrders.AQ1.Text": "I need an adventurer to slay 25 {Monster:LocalizedName} for a 10000g reward!",
+"Quests.Mateo.SpecialOrders.AQ1.Objective.0.Text": "Slay 25 {Monster:LocalizedName}.",
+
+"Quests.Mateo.SpecialOrders.AQ2.Name": "From the Guildmaster:",
+"Quests.Mateo.SpecialOrders.AQ2.Text": "I need an adventurer to slay 50 {Monster:LocalizedName} for a 20000g reward!",
+"Quests.Mateo.SpecialOrders.AQ2.Objective.0.Text": "Slay 50 {Monster:LocalizedName}.",
+
+"Quests.Mateo.SpecialOrders.AQ3.Name": "From the Guildmaster:",
+"Quests.Mateo.SpecialOrders.AQ3.Text": "I need an adventurer to slay 75 {Monster:LocalizedName} for a 30000g reward!", 
+"Quests.Mateo.SpecialOrders.AQ3.Objective.0.Text": "Slay 75 {Monster:LocalizedName}.",
+
+"Quests.Mateo.SpecialOrders.AQ4.Name": "From the Guildmaster:",
+"Quests.Mateo.SpecialOrders.AQ4.Text": "I need an adventurer to slay 50 {Monster:LocalizedName} for a 10000g reward!", 
+"Quests.Mateo.SpecialOrders.AQ4.Objective.0.Text": "Slay 50 {Monster:LocalizedName}.",
+
+/*
+________      ________ _   _ _______ _____ 
+|  ____\ \    / /  ____| \ | |__   __/ ____|
+| |__   \ \  / /| |__  |  \| |  | | | (___  
+|  __|   \ \/ / |  __| | . ` |  | |  \___ \ 
+| |____   \  /  | |____| |\  |  | |  ____) |
+|______|   \/   |______|_| \_|  |_| |_____/ 
+
+*/
+
+// 0 HEARTS PT 1 
+"Events.NEA.0H1.Gunther.1": "...the entire collection, Marlon! I don't believe you can write that off for sake of fondness.$5",
+"Events.NEA.0H1.Marlon.2": "We don't know what happened, Gunther-$5",
+"Events.NEA.0H1.Marlon.3": "Hmn.",
+"Events.NEA.0H1.Gunther.4": "We were just... discussing another newcomer.$0#$b#There's been quite a few fresh faces over in East Scarp.", 
+"Events.NEA.0H1.Marlon.5": "That there have.$0#$b#I may go pay them a visit.$3",
+"Events.NEA.0H1.Gunther.6": "...Oh, dear...$2", 
+
+// 0 HEARTS PT 2 
+"Events.NEA.0H2.Mateo.1": "Watch out!",
+"Events.NEA.0H2.Mateo.2": "Hail and well met! Haven't seen you around. My name's Mateo, and you are...$0",
+"Events.NEA.0H2.Mateo.3": "You're new to town too, huh? Good to know.$32",
+"Events.NEA.0H2.Mateo.4": "It gets a little wild down here. Are you prepared for a bit of dungeon delving? If you're just getting started, take one of these.[349]",
+"Events.NEA.0H2.Mateo.5": "The upper levels aren't too bad, but you're going to want to be more cautious the deeper you go.$0#$b#I spend most of my time here, though I live over in East Scarp in case you decide to visit. Tent on the beach, can't miss it.$1#$b#Speaking of, I'd best get going. Good luck. Be well. And watch the ceiling.$15",
+"Events.NEA.0H2.Mateo.6": "Oh, and farmer?$14", 
+"Events.NEA.0H2.Mateo.7": "What do you call a party of dedicated archaeologists?$35", 
+"Events.NEA.0H2.Mateo.8": "A real shindig.$36", 
+
+// 2 HEARTS 
+"Events.NEA.2H.Mateo.1": "Evenin', farmer. You a night owl? $16", 
+"Events.NEA.2H.Mateo.2": "Same. When you spend so much time spelunking, you really learn to appreciate the night air.$24#$b#It's so much less stale...$8",
+"Events.NEA.2H.Mateo.3": "I spent a lot of time here, as a kid. Mostly in the library, behind the counter. At the beach, too. Not sure why I'm feeling so nostalgic, though.$16", 
+"Events.NEA.2H.Mateo.Question.1": "Have you ever felt that way? An inexplicable need to recreate the past?", 
+"Events.NEA.2H.Mateo.Q1.Answer.1": "Sometimes, but I don't usually indulge it.", 
+"Events.NEA.2H.Mateo.Q1.Answer.2": "...You're an archeologist, isn't that your job?", 
+"Events.NEA.2H.Mateo.Q1.Answer.3": "I do. I feel that way about home sometimes.", 
+"Events.NEA.2H.Mateo.Q1.Response.1": "No shame in that. It's wiser to row toward the future rather than get caught in the current.$1", 
+"Events.NEA.2H.Mateo.Q1.Response.2": "That was pretty humerus, @. A real rib-tickler.$32",
+"Events.NEA.2H.Mateo.Q1.Response.3": "It's strange, isn't it? You don't want to go back to your old life, but you seek the comforts from it. Weird how that works.$0", 
+"Events.NEA.2H.Mateo.5": "Guess I should get going then, huh? It's a long walk back to East Scarp and it's getting pretty late.$0#$b# You should too, @. I'll walk over with you.$1", 
+"Events.NEA.2H.Mateo.6": "Thanks for keeping me company...", 
+"Events.NEA.2H.Gunther.7": "Perhaps...I need to be more careful in my considerations...$2#$b#Hmm.$3", 
+"Events.NEA.2H.Mateo.8": "Have a good night, don't let the Pepper Rex bite!$1", 
+
+// 4 HEARTS 
+"Events.NEA.4H.Mateo.1": "Hey, there!", 
+"Events.NEA.4H.Mateo.2": "Care to join me?", 
+"Events.NEA.4H.Mateo.3": "I know I tend toward the scarce.$6#$b#I'm sorry for that, @. You're a good friend, and I shouldn't be so avoidant.$22", 
+"Events.NEA.4H.Mateo.4": "I've just...I've got something of a louche history with Pelican Town.$10#$b#Gunther may have mentioned there was a curator prior to him; and I'm sure the townsfolk have mentioned it by now - his name was Wyatt.$8#$b#He and I are responsible for the museum being empty when you got here.$17", 
+"Events.NEA.4H.Mateo.5": "I was his mentee, and I spent every waking moment in either the library or the mines.$16#$b#He was trusted and respected by everyone in town, because he fostered a love for academia in just about anyone who sought him out.$10", 
+"Events.NEA.4H.Mateo.6": "Red flags are just flags through rose-tinted glasses, I guess. I was much too young to realize I was wearing them, besides.$16", 
+"Events.NEA.4H.Mateo.7": "It was the middle of the summer; Wyatt and I packed up everything really abruptly one night, and had it carted off by morning.$21#$b#We stole everything Pelican Town had - every relic, scroll, gem and bone. He'd traded away the entire collection to Joja for a lifetime of creature comforts.$17#$b#Boxed and sold the symbols of his intellectual integrity, with my help.$16", 
+"Events.NEA.4H.Mateo.8": "We retreated to the Fern Islands, but parted ways after that. I was left to fend for myself, so that's when I enrolled in school.$8#$b#I was lacking in other options, but that's something I don't regret.$23", 
+"Events.NEA.4H.Mateo.Q1.Answer.1": "You know that wasn't your fault. You were just a kid.",
+"Events.NEA.4H.Mateo.Q1.Answer.2": "That's in the past, though. Don't get caught in the tide.",
+"Events.NEA.4H.Mateo.Q1.Answer.3": "None of this means you have to keep looking backwards; you're not irredeemable.",
+"Events.NEA.4H.Mateo.Q1.Response.1": "It was my fault, @. I made that choice. It was the wrong one, I own that.$16",
+"Events.NEA.4H.Mateo.Q1.Response.2": "But...!$18#$b#It feels like I'm already drowning!$19",
+"Events.NEA.4H.Mateo.Q1.Response.3": "But it feels that way.$17#$b#I look back on what I did, as the person I am now... Nobody's more disappointed in me, than me.$16#$b#Blame doesn't matter. Everything's still gone. All I can do now is help restore it.$24",
+"Events.NEA.4H.Mateo.10":"I can't face Pelican Town. I'm a thief and I owe them all an apology, but they have no reason not to expect an ulterior motive.$17#$b#You're the only person that's approached me so far, but you didn't know who I was.$8", 
+"Events.NEA.4H.Mateo.Question.2": "Though, gossip flows like wine from a cask, doesn't it?",
+"Events.NEA.4H.Mateo.Q2.Answer.1": "You're self-imposing your loneliness. Nobody deserves that.",
+"Events.NEA.4H.Mateo.Q2.Answer.2": "You can't predict how everyone will feel about you. Being emotionally unavailable is self-sabotage.", 
+"Events.NEA.4H.Mateo.Q2.Answer.3": "Stop punishing yourself just because Wyatt never faced any consequences.",
+"Events.NEA.4H.Mateo.Q2.Response.1": "It feels like getting weighed down by chains I can't unravel. I don't want to be this way, but I can't help it.$19",
+"Events.NEA.4H.Mateo.Q2.Response.2": "You're right, but it's easier than the alternative. I'm afraid, @.$16", 
+"Events.NEA.4H.Mateo.Q2.Response.3": "You see right through me... you make me feel like a piece of glass, almost. Like I can be safely vulnerable.$21#$b#That doesn't make the truth any more difficult to swallow, though.$16",
+"Events.NEA.4H.Mateo.12":"You're a great friend. For hearing me out, for being patient with me.$4", 
+"Events.NEA.4H.Mateo.Question.3": "It feels like a lot to unload on someone, but I really appreciate you lending an ear.",
+"Events.NEA.4H.Mateo.Q3.Answer.1": "The best way to help yourself is to get back out there, and re-integrate with the community. This isn't sustainable behavior.",
+"Events.NEA.4H.Mateo.Q3.Answer.2": "Continuing to self-isolate won't do you any good. Show them all who you really are, like you've shown me.",
+"Events.NEA.4H.Mateo.Q3.Response.1": "You're right, @. I can't stew in this forever. I've got to take my chances and let people make judgments on their own.$24",
+"Events.NEA.4H.Mateo.Q3.Response.2": "You're right, @. Thank you for trusting me, and seeing me through this... I'll make an effort, I promise.$12",
+"Events.NEA.4H.Message.1":"Mateo will now attend festivals, and you can expect to see them around town more often!", 
+
+// 5 HEARTS PT 1
+"Events.NEA.5H1.Mateo.1":"Howdy, @. It's a little late to get started down there tonight, isn't it? $0#$b#I know you're a competent adventurer, but I'd be pretty devastated if anything happened to you; let's make sure you're geared and ready to go.$1",
+"Events.NEA.5H1.Mateo.2": "You've got food? I've got extra supplies if you need them. Let me see your blade, I have a whetstone - oh, take this.$24[243]",
+"Events.NEA.5H1.Marlon.3": "Mateo...$5",
+"Events.NEA.5H1.Marlon.4": "How long were you planning on avoiding us?$2",
+"Events.NEA.5H1.Mateo.5": "Until I was convinced you didn't have a bone to pick with me.$9",
+"Events.NEA.5H1.Gunther.6": "Please don't. $5",
+"Events.NEA.5H1.Marlon.7": "It's been almost a decade. Where have you been hiding this whole time, kid?$5",
+"Events.NEA.5H1.Mateo.8": "I was getting my PhD in obscuring my feelings with humor. $8",
+"Events.NEA.5H1.Gunther.9": "Do you want to try that again? $5",
+"Events.NEA.5H1.Mateo.10": "Alright, alright. It's in Sociocultural Anthropology. $9",
+"Events.NEA.5H1.Gunther.11": "And what about Wyatt? $5",
+"Events.NEA.5H1.Mateo.12": "I haven't spoken to him since before I started college.$8",
+"Events.NEA.5H1.Marlon.13": "Are you lyin' to me? $2",
+"Events.NEA.5H1.Mateo.14": "No, it's just been so long, and...Guess you could say I wanted to bury it.$16#$b#I'm shouldering the consequences of his actions while he rides out his life on Joja's dollar.$8",
+"Events.NEA.5H1.Gunther.15": "Is that what happened? He sold out?$2",
+"Events.NEA.5H1.Mateo.16": "Yeah. I don't know the details, but- $24",
+"Events.NEA.5H1.Marlon.17": "...But you helped pack the crates.$5",
+"Events.NEA.5H1.Mateo.18": "You're right. I did. And I carry the weight of those crates every day.$37",
+"Events.NEA.5H1.Mateo.19": "I understand what I did was wrong, now. But I didn't then. $16#$b#I trusted Wyatt, and he failed me just the same as he did everyone else. $17#$b#That's no excuse, though. And I know that.$18#$b#And I know I owe you an apology, I just hadn't figured out where to start yet...$16",
+"Events.NEA.5H1.Marlon.20": "You just did, kid. We just shouldn't have had to corner you to talk about it. $1",
+"Events.NEA.5H1.Gunther.21": "Mateo, we don't hold you responsible for Wyatt's choices.$2#$b#Marlon and I just wanted to make sure you didn't continue down his path.$0",
+"Events.NEA.5H1.Mateo.Q1.Answer.1": "You can't change the past, but you can turn towards the future.",
+"Events.NEA.5H1.Mateo.Q1.Answer.2": "You said you were going to make the effort to be better, this is your chance.",
+"Events.NEA.5H1.Mateo.Q1.Response.1": "You're right, @. Thank you for seeing this through with me.$4", 
+"Events.NEA.5H1.Mateo.Q1.Response.2": "You're right, @. Thanks for holding me accountable.$4",
+"Events.NEA.5H1.Gunther.23": "It sounds like we've got a lot to catch up on. $1",
+"Events.NEA.5H1.Marlon.24": "How about tomorrow, at the saloon. First round's on me, aye? $1",
+"Events.NEA.5H1.Mateo.25": "That sounds great. $1",
+"Events.NEA.5H1.Mateo.26": "You're more than welcome to come along, @. We won't wait up forever, though!$32",
+"Events.NEA.5H1.Mateo.27": "In the case you're not able to meet us, thank you again, for everything. $0#$b# And...stay safe down there, alright? I meant what I said earlier.$32",
+
+// 5 HEARTS PT 2
+"Events.NEA.5H2.Gus.1": "Hey, farmer!",
+"Events.NEA.5H2.Gus.2": "They're in the back.",
+"Events.NEA.5H2.Mateo.1": "Hey, @! Glad you could make it.$1",
+"Events.NEA.5H2.Gunther.1": "Mateo was just telling us about their studies. You'd said Ember Island University?$1",
+"Events.NEA.5H2.Mateo.2": "Mhm. Got through that doctorate, bottle in hand. It was rough.$9",
+"Events.NEA.5H2.Marlon.1": "You watchin' your liver, now?$5",
+"Events.NEA.5H2.Mateo.3": "Yes sir, thanks for asking.$1",
+"Events.NEA.5H2.Mateo.4": "Uh...",
+"Events.NEA.5H2.Marlon.2": "Right, so...",
+"Events.NEA.5H2.Gunther.2": "The elephant in the room.",
+"Events.NEA.5H2.Marlon.3": "Now that @ is here, why don't you just start by telling us what happened?",
+"Events.NEA.5H2.Mateo.5": "Fair enough. Honestly, the most I had noticed was that Wyatt was on the phone a lot more for a week or so. He didn't start acting shifty until the night we pulled the trigger.$16#$b#He asked me to load everything up, and we met with a Joja representative by the bus stop. Once everything was in, he and I joined the driver.$8#$b#We went with him to Zuzu. Presumably, that's where money changed hands, because we were en route to the Fern Islands after that.$16",
+"Events.NEA.5H2.Gunther.3": "Why didn't you say no to him, or go to Marlon or Lewis for help?$2",
+"Events.NEA.5H2.Mateo.6": "I was afraid I'd have nowhere to go if he left.$17#$b# Besides, I had no idea of what the long term consequences would be. I didn't expect Wyatt to completely close off afterward.$16",
+"Events.NEA.5H2.Marlon.4": "Kid, I... I wish you'd come to me sooner.$2",
+"Events.NEA.5H2.Mateo.7": "I'm sorry-",
+"Events.NEA.5H2.Marlon.5": "It's not your fault.",
+"Events.NEA.5H2.Mateo.8": "I just didn't know what would happen-$19",
+"Events.NEA.5H2.Gunther.4": "Mateo.",
+"Events.NEA.5H2.Gunther.5": "You mentioned he didn't seem himself.$2",
+"Events.NEA.5H2.Mateo.9": "Right. He didn't treat me poorly, but he wasn't the same.$16",
+"Events.NEA.5H2.Marlon.6": "Greed changes a man.",
+"Events.NEA.5H2.Mateo.10": "I spent some time with him, but then I left for school and haven't seen him since.$8",
+"Events.NEA.5H2.Marlon.7": "What's your plan now, kid? The air is clear, you've got nothing to worry about from neither of us.$2",
+"Events.NEA.5H2.Gunther.6": "Nor the townsfolk. You've already done so well getting reacquainted.$0",
+"Events.NEA.5H2.Q1.Answers": "#It's okay. You don't have to decide right now. #What will bring you the most joy?",
+"Events.NEA.5H2.Q1.Response.1": "Thanks, @. But I think I know. I'm going to keep putting my heart into adventuring, but it feels different now.$1#$b#Like I've got something new and worth protecting all of a sudden.$32",
+"Events.NEA.5H2.Q1.Response.2": "Adventuring. But it feels different now, like I've got something worth protecting all of a sudden.$32",
+"Events.NEA.5H2.Marlon.8": "Lookit' you, kid!",
+"Events.NEA.5H2.Gunther.7": "No more frowning, no more sad faces. Okay?$1",
+"Events.NEA.5H2.Mateo.11": "Yeah!$1",
+"Events.NEA.5H2.Gunther.8": "All for one, one for all, and that sort of thing.$3",
+"Events.NEA.5H2.Marlon.9": "Does that mean you'll be coming with us on patrols, Gunther?$3",
+"Events.NEA.5H2.Gunther.9": "Absolutely not. I'm perfectly fine behind my counter, thank you.$1",
+"Events.NEA.5H2.Mateo.12": "%You spend some time with Marlon, Gunther and Mateo before heading out for the evening. Everyone seems to be in relaxed spirits after a few drinks and a heartfelt chat.#$b#Thank you for coming along, @. You didn't have to, but it meant a lot to me to have your company.$4",
+
+// 5 HEARTS PT 3
+"Events.NEA.5H3.Marlon.1": "You're just in time, @.$1",
+"Events.NEA.5H3.Mateo.1": "I'm glad you're here.$1",
+"Events.NEA.5H3.Marlon.2": "Gunther and I spent some time talkin' things out, and working on a way to deal with the guilt that Mateo's carryin' around. $3",
+"Events.NEA.5H3.Gunther.1": "A little bit of extra validation to quell an anxious mind never hurt anyone.$1",
+"Events.NEA.5H3.Marlon.3": "This is exactly why we've decided to have a formal ceremony to renew Mateo's membership, good n' proper.$1",
+"Events.NEA.5H3.Gunther.2": "That way, they'll be able to feel like they're part of something again. Something good.$1",
+"Events.NEA.5H3.Marlon.4": "Now, let's get this underway.#$b#Do you swear under oath...#$b#to protect humanity from monsters and to do everything in your power to uphold the traditions, values, and ideology of the Adventurer's Guild?",
+"Events.NEA.5H3.Mateo.2": "I do!",
+"Events.NEA.5H3.Marlon.5": "On behalf of Stardew Valley, I officially reinstate you as the 13th Adventurer's Guild member!$1",
+"Events.NEA.5H3.Marlon.6": "You've been doing the job this whole time, kid. We're just trying to legitimize your efforts.$3",
+"Events.NEA.5H3.Gunther.3": "Between you and @, the museum is flourishing, and monster-related incidents have been at a minimum.$1",
+"Events.NEA.5H3.Mateo.3": "Speaking of @ - credit where credit is due. If it wasn't for them, I probably would've packed up and left town again ages ago.$1",
+"Events.NEA.5H3.Marlon.7": "You two make a good team.$1",
+"Events.NEA.5H3.Gunther.4": "There's not a doubt in my mind you'll both continue to do great things for the Valley.$3",
+"Events.NEA.5H3.Mateo.4": "Hopefully we don't get buried under your expectations.$14",
+"Events.NEA.5H3.Gunther.5": "Will you cut it out? $5",
+"Events.NEA.5H3.Mateo.5": "Nope, not until someone else is digging up my funny bones. $15",
+"Events.NEA.5H3.Marlon.8": "Mateo! I thought you were done with this! $5",
+"Events.NEA.5H3.Mateo.6": "Alright, alright. Since I'm officially part of the guild again, I'm going to start by 'protecting' the saloon.$36",
+"Events.NEA.5H3.Mateo.7": "C'mon, @. Let's go celebrate. Drinks are on me. $32",
+"Events.NEA.5H3.Gunther.6": "Have fun! Don't cause too much of a ruckus.$1",
+"Events.NEA.5H3.Marlon.9": "Be good, alright?$2",
+"Events.NEA.5H3.Message.1": "As you walk toward the Saloon, Mateo is beaming with unearthed confidence. They seem radiant compared to when you first met them!",
+
+// 6 HEARTS PT 1
+"Events.NEA.6H1.Mateo.1": "I'm telling you...",
+"Events.NEA.6H1.Mateo.2": "The Royal Serpant was THIS big!",
+"Events.NEA.6H1.Lewis.1": "Oh, dagnabbit!$4#$b#I locked myself out...$3",
+"Events.NEA.6H1.Mateo.3": "Hey, Lewis. Don't worry, I've got it...$1",
+"Events.NEA.6H1.Lewis.2": "Are those lockpicks-?",
+"Events.NEA.6H1.Mateo.4": "Come on...",
+"Events.NEA.6H1.Mateo.5": "Just another tumbler or two...",
+"Events.NEA.6H1.Mateo.6": "There you go, Lewis.$1",
+"Events.NEA.6H1.Lewis.3": "I appreciate that you did that for me, Mateo.$0#$b#But...Why do you know how to pick locks?$3#$b#Do I need to be concerned?$5",
+"Events.NEA.6H1.Mateo.7": "I learned to impress a guy I had a crush on.^I learned to impress a girl I had a crush on.$13",
+"Events.NEA.6H1.Lewis.4": "Are you serious?$5",
+"Events.NEA.6H1.Mateo.8": "I just got you back into your house, old man. Stop judging me.$35",
+"Events.NEA.6H1.Lewis.5": "Mateo, try and show a little bit of respect -",
+"Events.NEA.6H1.Mateo.9": "Did we just miss the part where I got your door open for you...?$36",
+
+// 6 HEARTS PT 2
+"Events.NEA.6H2.Mateo.1": "I'm glad you're here.$39",
+"Events.NEA.6H2.Mateo.2": "I was just thinking about you, actually. And how you're the crux of how everything's turned around recently. It's just that...$62",
+"Events.NEA.6H2.Mateo.3": "...Well, reserving judgement for someone is a matter of infinite hope, isn't it?$70",
+"Events.NEA.6H2.Mateo.4": "You showed me kindness even when I was convinced nobody had any for me. You took the time to chase me down when I was being intentionally scarce.$39#$b#You make me feel seen.$38",
+"Events.NEA.6H2.Mateo.5": "I wanted to say thank you for that. That I appreciate and acknowledge that effort. Going out of your way to prove someone wrong...$38#$b#To remind them that they're capable of being cared for... It shows how brilliant of a person you are.$50#$b#And that's something you deserve to hear.$70",
+
+// 7 HEARTS PT 1
+"Events.NEA.7H1.Harvey.1": "Mateo!",
+"Events.NEA.7H1.Mateo.1": "H-hey, @. Just the person I wanted to see...$43",
+"Events.NEA.7H1.Harvey.2": "Mateo, please. This is beyond what I'm able to treat here - this is a clinic, you need a hospital.$7",
+"Events.NEA.7H1.Mateo.2": "It's not that bad, Harv... besides, it's my own f-$38",
+"Events.NEA.7H1.Harvey.3": "That's not true and you know it, Mateo.$5",
+"Events.NEA.7H1.Mateo.3": "You don't understand... There were so many Shadow Folk, and they all looked like they were scared of me.$42",
+"Events.NEA.7H1.Mateo.4": "I've never seen them like that before, I feel like I was invading their home, I-$40#$b#I hesitated, I can't - I can't say they were wrong to defend themselves, I-$41",
+"Events.NEA.7H1.Mateo.5": "Fuck.",
+"Events.NEA.7H1.Harvey.4": "Mateo, you've taken too much of a beating. You need to lay down!$7",
+"Events.NEA.7H1.Mateo.6": "@, I'm serious...$39",
+"Events.NEA.7H1.Q1": "You have to believe me, the Shadow Folk... they're not just monsters, they're sentient.",
+"Events.NEA.7H1.Q1.Answers": "#Mateo, what's important right now is that you listen to Harvey and rest.#You won't be able to investigate anything if you don't take the time to recover.",
+"Events.NEA.7H1.Q1.Response.1": "...Thank you for caring about me, @, but...$40#$b#I'm just worried, like I've made another big mistake-$41",
+"Events.NEA.7H1.Mateo.7": "Yeah, I'm... I'm not alright. ...I'm sorry...$41",
+"Events.NEA.7H1.Harvey.5": "It's okay, Mateo - we'll get you fixed up, I just need you to cooperate with me.$2",
+"Events.NEA.7H1.Mateo.8": "You've got it, Harv...$39",
+"Events.NEA.7H1.Harvey.6": "It was lucky that somebody found you in time.$2",
+"Events.NEA.7H1.NovaEli.1": "Shit, shit, shit!",
+"Events.NEA.7H1.Mateo.9": "*Cough* Who...?",
+"Events.NEA.7H1.NovaEli.2": "Mateo... this - this is...!$7#$b#This is really bad.$9",
+"Events.NEA.7H1.NovaEli.3": "No, don't try to stand. I'll just have to carry you out. Hold on. I'll get you to the clinic.$22",
+"Events.NEA.7H1.NovaEli.4": "I've got to hurry. Please let them be okay...$11",
+"Events.NEA.7H1.Message.1": "You and Harvey get Mateo settled into bed while waiting for an ambulance from the city. They'll be gone for a short while during treatment.",
+"Events.NEA.7H1.Krobus.1": "@? Is the adventurer okay?$4#$b#I saw them s-shambling towards the doctor's office...",
+"Events.NEA.7H1.Krobus.1.2": "@? Is the adventurer okay?$4#$b#I saw Eli h-helping them towards the doctor's office...",
+"Events.NEA.7H1.NovaEli.5": "I'd like to know that as well. I've been waiting here for news ever since...$2",
+"Events.NEA.7H1.Krobus.2": "O-oh, okay. Good. $1#$b#I hope they're not... mad at us...$5",
+"Events.NEA.7H1.Krobus.3": "I can't stay out too long, @...$3#$b#But I hope the surface dweller comes back soon...$1",
+
+// 7 HEARTS PT 2
+"Events.NEA.7H2.Mateo.1": "Who goes?",
+"Events.NEA.7H2.Mateo.2": "Shit-!",
+"Events.NEA.7H2.Krobus.1": "I'm not going to hurt you...#$b#If you don't hurt me, anyway.$2",
+"Events.NEA.7H2.Mateo.3": "Do you know them, @?$24",
+"Events.NEA.7H2.Krobus.2": "My name is Krobus, I live just under the town...$3#$b#I heard you got hurt; people were talking about it...",
+"Events.NEA.7H2.Mateo.4": "I just got back from the hospital, yeah. Thought some time on the docks would clear my head.$22#$b#But... it's no fault of the Shadow Folk's own, Krobus. It's my own for being invasive.$33",
+"Events.NEA.7H2.Krobus.3": "...Really?$3",
+"Events.NEA.7H2.Mateo.5": "I know when I need to make changes.$16#$b#I was operating under the assumption that Shadow Folk were like any other monster, with ill-intent for the Valley. But that's wrong.$10#$b#This conversation proves that.$0",
+"Events.NEA.7H2.Krobus.4": "I'm so glad!$1#$b#I was worried for my people...#3#$b#That you'd come after us.$2",
+"Events.NEA.7H2.Mateo.6": "I would never.$21#$b#Krobus, would you consider sitting down with me sometime, and telling me more about you and your kind?$0#$b#We only have books, and the accounts within them clearly don't paint an accurate picture of Shadow Folk.$37",
+"Events.NEA.7H2.Krobus.5": "You'd like to... interview me?$3#$b#I'd love that!$1",
+"Events.NEA.7H2.Mateo.7": "You said you lived just below, right?$0",
+"Events.NEA.7H2.Krobus.6": "Yes! In the sewers.$7",
+"Events.NEA.7H2.Mateo.8": "I'll come find you, then. Just give me a few days to start getting back to routine...$21",
+"Events.NEA.7H2.Krobus.7": "Of course - Oh, I didn't get your name...$3",
+"Events.NEA.7H2.Mateo.9": "Mateo. It was good to meet you, Krobus.$0",
+"Events.NEA.7H2.Krobus.8": "Good to meet you, too!$1#$b#I'm going to get going, though, so you and @ can catch up!$7",
+"Events.NEA.7H2.Mateo.10": "...I wasn't ready for that so soon after...$37",
+"Events.NEA.7H2.Q1": "How's my face looking? Is it as bad as I think it is?",
+"Events.NEA.7H2.Q1.Answers": "#All you need now is a cape, mask, and musical aptitude. #You're just being self-concious; they healed well, and don't look bad at all. #Lots of folks find scars attractive, you know!",
+"Events.NEA.7H2.Q1.Response.1": "The first thing I thought when I looked in the mirror was, 'Oh, I should move into the basement of an opera house.'$1#$b#Thanks for easing my nerves, @. Laughing always does the trick.$32",
+"Events.NEA.7H2.Q1.Response.2": "Thank you, @. I have bunch of scars, but I'd managed to keep my face clear until now.$37#$b#Aw, well. If you're saying they aren't bad, they really must not be.$36",
+"Events.NEA.7H2.Q1.Response.3": "Is that so? Guess I've lucked out then, huh?$36",
+"Events.NEA.7H2.Mateo.11": "Your reassurance means a lot. And, if you hadn't been around... I don't know how that would've gone. I felt more at ease with you here.$32",
+"Events.NEA.7H2.Mateo.12": "Anyway, @, let me get you where you need to be. We can catch up on a few things - tell me what life's been like for you...$1",
+"Events.NEA.7H2.Mateo.13": "Hey, @? Thanks for being an incredible friend.$80",
+
+// 8 HEARTS PT 1
+"Events.NEA.8H1.Marlon.1": "You live like this?$6",
+"Events.NEA.8H1.Mateo.1": "Oh, come on. You sleep in a bunk bed.$6",
+"Events.NEA.8H1.Marlon.2": "Fair enough point. Our business isn't a very lucrative one, is it?$5#$b#Regardless, we have a lot of work that needs doing.",
+"Events.NEA.8H1.Mateo.2": "Hey, @. Good to see you.$0",
+"Events.NEA.8H1.Marlon.3": "Very good, actually. The hand of an experienced agriculturist will do us well.",
+"Events.NEA.8H1.Mateo.3": "Marlon and I are looking to expand the Adventurer's Guild and build a branch here on the beach.$1",
+"Events.NEA.8H1.Marlon.4": "Not only that, but East Scarp could use a Special Order board, as well.$3#$b#It would be a great service to the town.$1",
+"Events.NEA.8H1.Q1": "Would you be able to gather some materials for us?",
+"Events.NEA.8H1.Q1.Answers": "#Yeah, of course. Gotta do my part as a fellow Guild member, after all!#You can't pull together the resources between the two of you?",
+"Events.NEA.8H1.Q1.Response.1": "Thanks, @! I knew you wouldn't let us down.",
+"Events.NEA.8H1.Q1.Response.2A": "Kid, do I still look like I'm spry enough to fell a bunch of trees?$5",
+"Events.NEA.8H1.Q1.Response.2B": "It would help manage the costs, and neither Marlon nor I are particularly versed at that sort of thing.$1",
+"Events.NEA.8H1.Marlon.5": "Thanks, kid. Glad I could count on you.#$b#I'll leave you two to work out the details. You've made a fine team thus far.$3",
+"Events.NEA.8H1.Mateo.4": "Thanks for helping, @. It really does mean a lot.$78",
+"Events.NEA.8H1.Mateo.5": "Don't worry, though. I'm not turning my back on Krobus. I'm going to focus just as much attention on research.$32#$b#Thing is, there's still plenty of monsters out there who aren't sentient like they are, and it's our job to protect the Valley from them.$10",
+"Events.NEA.8H1.Mateo.6": "You, Gunther and Marlon have all put faith in me, and I acknowledge that. So I'm going to make good on it.$32",
+"Events.NEA.8H1.Mateo.7": "I can't believe this is really happening...$32",
+
+// 8 HEARTS PT 2
+"Events.NEA.8H2.Robin.1": "Looks like we're just about finished up here, folks.$1",
+"Events.NEA.8H2.Mateo.1": "It looks incredible, Robin. You did fantastic. Oh, @ - !#32",
+"Events.NEA.8H2.Marlon.1": "I think this calls for a celebration of sorts.$3",
+"Events.NEA.8H2.Mateo.2": "Gunther's inside. We'll drink to it now that @'s here.$0",
+"Events.NEA.8H2.Mateo.3": "As for the order board, I'll start getting quests posted up. There's plenty of stuff to clear down in the Skull Cave, and on Ginger Island.$0",
+"Events.NEA.8H2.Marlon.2": "Look at you, slipping so easily into your new role.$1",
+"Events.NEA.8H2.Mateo.4": "I'll make you proud, Marlon. I'll make everyone proud.$32",
+"Events.NEA.8H2.Robin.2": "Sounds like you already have, Mateo!$1",
+"Events.NEA.8H2.Mateo.5": "Everyone keeps saying it, so it's about time I start believing it myself.$0",
+"Events.NEA.8H2.Marlon.3": "Let's save the sentimental stuff for the party, aye?",
+"Events.NEA.8H2.Mateo.6": "Yeah, speaking of... Let's not keep Gunther waiting.$1",
+"Events.NEA.8H2.Mateo.7": "Thanks for coming along for this, @.$4",
+"Events.NEA.8H2.Gunther.1": "It would seem you have a knack for timing; I've just finished setting up the ledger.$1#$b#There was some legwork to be done getting The Guild licensed to handle artifacts, but with Marlon's blessing it came much easier.",
+"Events.NEA.8H2.Gunther.2": "The Coastal Guild branch is hereby authorized to exchange recovered artifacts for other pieces of archaeological faculty.$0#$b#Namely, bones! Of the animal and monster sort, of course.$1 We're not here to be disrespectful.",
+"Events.NEA.8H2.Marlon.4": "I suppose it's about time then, eh? Isn't it... Guildmaster Mateo?$1",
+"Events.NEA.8H2.Mateo.8": "That's going to take some getting used to.$32",
+"Events.NEA.8H2.Gunther.3": "We could call you Doctor-Guildmaster Mateo, if you'd like. Could stand to embarrass you a little more.$1",
+"Events.NEA.8H2.Marlon.5": "You didn't spend all that time with your nose to the grindstone for nothing, did ya?$1",
+"Events.NEA.8H2.Mateo.9": "You guys are great. Thank you for everything. Don't know what I'd do without you.$4",
+"Events.NEA.8H2.Gunther.4": "You'd probably forget to put orders up on the board...$1",
+"Events.NEA.8H2.Marlon.6": "No title comes without responsibilities, Mateo. And @, don't forget to check it once in a while. There's good money to be made.$5",
+"Events.NEA.8H2.Mateo.10": "Here's to us! Look at how far we've come!$1",
+"Events.NEA.8H2.Marlon.7": "Hear, hear!$1",
+"Events.NEA.8H2.Gunther.5": "Indeed.$3",
+"Events.NEA.8H2.Message.1": "You spend some time in The Guild with Marlon, Gunther, and Mateo. After some good times and some bad laughs, the former two head off.",
+"Events.NEA.8H2.Mateo.11": "Yeah, he hatched shortly after I set up the new incubator. No idea how he's this big already, though.$34",
+"Events.NEA.8H2.Mateo.12": "@, listen. I know I've said it a lot. You're probably sick of it. But, thank you.$0#$b#This is everything I've ever dreamed of, you know? I feel fulfilled for the first time in so long.$12#$b#I can finally contribute to East Scarp in a big way. Make a difference. Help people, be a leader. That sort of thing.$80",
+"Events.NEA.8H2.Mateo.13": "You know, @, I-$82",
+"Events.NEA.8H2.Mateo.14": "Emeritus! No fire in the house!$26",
+"Events.NEA.8H2.Emeritus.1": "Huuuuuurr?",
+"Events.NEA.8H2.Mateo.15": "He almost burned down the brand new building...$17",
+
+// BONUS 1 - GALAXY SWORD
+"Events.NEA.B1.Mateo.1": "@! I was just thinking of you.$1#$b#I was doing some exploring, and I came across something I thought you could put to use.$32",
+"Events.NEA.B1.Mateo.2": "This was meant for you, I knew it when I found it.[74]$1",
+"Events.NEA.B1.Mateo.3": "Since you went through the trouble of fixing up the bus, I figured you might be headed into the Skull Cave soon.$0#$b#It's dangerous, @. But this should help. You see, there are these pillars in the desert - offer that shard to them, and they'll judge you.$32#$b#It sounds ominous. I don't doubt your worthiness for a second. You're the kindest, most well-intended person I know.$0#$b#Trust me on this one, alright?$78",
+"Events.NEA.B1.Mateo.4": "Stay safe in your travels, @. And good luck! This is only the beginning of your career as an adventurer!$1",
+
+// 10 HEARTS PT 1
+"Events.NEA.10H1.Krobus.1": "So, uhm... I believe that, perhaps, part of the reason some of my people have gotten agitated...$2",
+"Events.NEA.10H1.Krobus.2": "...is because of the void, a dark magic that tends to...embolden what's already there. I don't think it makes anything...bad, though.$3#$b#I think it makes you experience the things you're feeling...bigger. The Shadow Folk are so scared, all the time, because of the war with the Dwarves...$2#$b#So some of them are driven to violence...out of fear.$0#$b#It may have ended, but it doesn't feel over...I don't think that's our fault... that we're afraid still.$2",
+"Events.NEA.10H1.Mateo.1": "It's not, Krobus. I promise - it's not.$21",
+"Events.NEA.10H1.Krobus.3": "It goes both ways. If you have a lot of fear, the void paves the way to aggression. But if you have a lot of empathy - A sort of passion for change...$3",
+"Events.NEA.10H1.Mateo.2": "...then it makes way for hope.",
+"Events.NEA.10H1.Krobus.4": "Yes!",
+"Events.NEA.10H1.Mateo.3": "You and I will keep working on this. We won't make progress overnight, but maybe we can keep working toward a better relationship that's not rooted in...$21#$b#Well. Generational trauma and needless suffering, let's call it what it is.$8",
+"Events.NEA.10H1.Krobus.5": "Mateo? I wanna go home. I've got some thinking I wanna do 'bout everything we talked about.$3",
+"Events.NEA.10H1.Mateo.4": "Wait a second.",
+"Events.NEA.10H1.Mateo.5": "Before you go, there was something I wanted to give you.$76",
+"Events.NEA.10H1.Message.1": "Mateo hands Krobus a silver badge, lovingly forged in the shape of a shield.",
+"Events.NEA.10H1.Krobus.6": "Mateo? Is this what I think it is?$3",
+"Events.NEA.10H1.Mateo.6": "Krobus, do you swear under oath...#$b#to bridge the gap between Humans and Monsters..#$b#and to do everything in your power to forge new traditions, values, and ideology for the Coastal Adventurer's Guild?$32",
+"Events.NEA.10H1.Krobus.7": "I do!",
+"Events.NEA.10H1.Mateo.7": "On behalf of Stardew Valley, I officially induct you as the 2nd Coastal Adventurer's Guild member!$1",
+"Events.NEA.10H1.Mateo.8": "Alright, Krobus. Do you want me to walk you back home?$0",
+"Events.NEA.10H1.Krobus.8": "No, I got it! I'm an adventurer now, after all! But thank you.$1",
+"Events.NEA.10H1.Krobus.9": "Mateo? ... I'm sorry about your injuries.$2",
+"Events.NEA.10H1.Mateo.9": "It's alright, Krobus. I'm sorry for misjudging you. But things can only get better from here.$32",
+"Events.NEA.10H1.Krobus.10": "Goodnight - both of you!",
+"Events.NEA.10H1.Mateo.10": "Goodnight.$10",
+"Events.NEA.10H1.Mateo.11": "There's a lot of work to be done to mend the relationship between us and the Shadow Folk... but it's work worth doing, for sure...$12",
+"Events.NEA.10H1.Mateo.12": "We just started talking and the time just flew by. Vulnerability can do that, I guess.$32",
+"Events.NEA.10H1.Mateo.13": "Speaking of vulnerability. How've you been, @? Are you doing alright?$37#$b#I know you're shouldering a lot of people's problems on top of maintaining your farm.$21",
+"Events.NEA.10H1.Mateo.14": "Well, @. I've got your back. If you ever need anything, just call me, alright?$1#$b#There will always be a seat at the table for you in the guild, and Emeritus will be eagerly expecting visits. Oh, and don't worry - I've got something for you, too!$32",
+"Events.NEA.10H1.Mateo.15": "Thank you for everything, @. May your sword always be sharp, and your adventures never ending.$1",
+"Events.NEA.10H1.Message.2": "I hope you enjoyed Mateo's story; I had a great time telling it! This mod and my future works are dedicated to the memory of TheLoreSeeker. May your adventures be never ending. Signed with love, Desty Nova.",
+
+// 10 HEARTS PT 1 (ROMANTIC FORK)
+"Events.NEA.10H1.Mateo.16": "What do you need, @? I'm all ears.$32",
+"Events.NEA.10H1.Q1.Answers": "#You, actually. I need you.#I don't need anything, but I want... you.",
+"Events.NEA.10H1.Q1.Response.1": "@? I'm flattered. I feel the same way, but I didn't want to chance our friendship. It means everything to me.$29",
+"Events.NEA.10H1.Mateo.17": "I have an idea. Meet me in the Deep Mountains, north of East Scarp. Late at night, in a day or so.$28",
+"Events.NEA.10H1.Mateo.18": "Just trust me.$31",
+
+// 10 HEARTS PT 2
+"Events.NEA.10H2.Mateo.1": "Thanks for coming, @. I wanted this to be something special.$27#$b#We're gonna go somewhere I spent a lot of time at as a kid. Pretty much one of the only places I could go to be alone.$31#$b#I'm eager to share it with you. Let's get going.$27",
+"Events.NEA.10H2.Mateo.2": "First, I wanted to say thank you - not just for returning my feelings, but for sticking with me for so long.$12#$b#You've been an amazing friend to me, and I'm overjoyed to be able to take the next step with you. I attribute my growth directly to your intervention.$29#$b#There's nobody else this side of the Gem Sea I'd rather call a partner. I'm honored, @.$27",
+"Events.NEA.10H2.Q1.Answers": "#I'm glad to have been part of your journey, Teo.#You've stolen my heart, you darling rogue.",
+"Events.NEA.10H2.Q1.Response.1": "And it'll continue on, Sunshine. Together.$27",
+"Events.NEA.10H2.Q1.Response.2": "I'll take good care of it, Sunshine. I promise.$27",
+"Events.NEA.10H2.Hector.1": "Fooling around?! In my forest?$9#$b#Darling? More like dasdardly! Whadda bastard!$5",
+"Events.NEA.10H2.Hector.2": "And they have the audacity to call ME a sly dog.$8",
+"Events.NEA.10H2.Hector.3": "At least they've got game, and I've certianly seen worse...$7",
+"Events.NEA.10H2.Hector.4": "Ehehehehehehehe! You know what? I think I'll cause problems for them on purpose!$5",
+
+// 12 HEARTS 
+"Events.NEA.12H.Mateo.1": "Hey, Sunshine!",
+"Events.NEA.12H.Q1.Answers": "#What are you up to today, babe?#You didn't get hurt down there, did you?",
+"Events.NEA.12H.Q1.Response.1": "Oh! I found something in the mines in East Scarp that I didn't recognize, I wanted to see if it was here too. Doesn't look like it.$37",
+"Events.NEA.12H.Q1.Response.2": "No, but thanks for asking. Oh. Wait. I should've said 'yes' so you'd kiss it better.$35",
+"Events.NEA.12H.Mateo.2": "Actually, since you're here, why don't we make something special out of today?$36",
+"Events.NEA.12H.Mateo.3": "I've asked you before to trust me, and you have. Will you extend that to me again?$35",
+"Events.NEA.12H.Mateo.4": "Let's get going, then!",
+"Events.NEA.12H.Mateo.5": "We've chosen to spend our lives together, and now, here we are.$28#$b#There's nothing more beautiful to me than sharing in an experience like this with my spouse.$4#$b#Maybe it's not the most conventional date, but the memorable ones aren't - and I want us to remember this. I want us to look back fondly on tonight.$27",
+"Events.NEA.12H.Mateo.6": "I think a bit of intimacy is warranted, don't you? To celebrate everything we've been through together.$68#$b#You've helped me grow, helped me change, helped me reconnect.$66#$b#You've been great to me, Sunshine. Let me be great to you.$68",
+"Events.NEA.12H.Mateo.7": "...I'm sorry, @. Is the water too cold?$66#$b#Don't worry, I'll keep us plenty warm.$69",
+"Events.NEA.12H.Mateo.8": "@? Being the guildmaster doesn't compare to being yours.$42",
+
+// 14 HEARTS
+"Events.NEA.14H.Mateo.1": "Hey, Sunshine. I was just collecting my thoughts. There's something humbling about the rain, isn't there?$39",
+"Events.NEA.14H.Q1.Answers": "Is there something on your mind?#You've been busy lately. Is there something you've been looking for?#You've been spending a lot of time dungeoneering. Have you caught onto something new?",
+"Events.NEA.14H.Q1.Response.1": "Actually, yes!$51",
+"Events.NEA.14H.Message.1": "Mateo tips your chin up with the edge of their blade, smiling, meeting your gaze.",
+"Events.NEA.14H.Mateo.2": "I found something underneath East Scarp. I've been fixated on it.$52#$b#It's a beautiful new material, imbued with power. Unlike anything I've ever seen before.$53",
+"Events.NEA.14H.Mateo.3": "I've been sharpening my smithing skills, and excavating what little I could of this stuff; I was inspired, Sunshine.$39#$b#I made you this, because I want you to be safe no matter where your adventures take you.$42",
+"Events.NEA.14H.Mateo.4": "You know, I never would have expected to make this much of a positive impact on the Valley.$38#$b#I feel like I've accomplished a lot that I thought I wouldn't be able to, like patch things up with Marlon and Gunther, or develop a friendship with Krobus.$70#$b#Even having the privilege of being married to you, @.$42#$b#It's been my greatest adventure, and I hope it never ends. I love you.$65",
+"Events.NEA.14H.Mateo.5": "The sun'll shine on us again tomorrow, and we'll work harder, stretch our arms out further.$70#$b#We'll beat on against the current and move ceaselessly into the future, together.$39",
+"Events.NEA.14H.Message.2": "I hope you enjoyed Mateo's story; I had a great time telling it! This mod and my future works are dedicated to the memory of TheLoreSeeker. May your adventures be never ending. Signed with love, Desty Nova.",
+
+/*
+   _____ ____  _   _     _______ ____  _____ _____ _____  _____ 
+  / ____/ __ \| \ | |   |__   __/ __ \|  __ \_   _/ ____|/ ____|
+ | |   | |  | |  \| |      | | | |  | | |__) || || |    | (___  
+ | |   | |  | | . ` |      | | | |  | |  ___/ | || |     \___ \ 
+ | |___| |__| | |\  |_     | | | |__| | |    _| || |____ ____) |
+  \_____\____/|_| \_(_)    |_|  \____/|_|   |_____\_____|_____/ 
+
+*/
+
+// MATEO
+"CT.Mateo.MateoRescue": "Glad you're alright after that encounter with the slimes, farmer. Hope you're doing okay otherwise.$0",
+"CT.Mateo.MateoLibrary": "Hey, farmer. Thanks for keeping me company the other night.$0#$b#It's weird being back in town, but I'm glad to have something of a friend already. Have a good one, you hear? Hang in there.$1",
+"CT.Mateo.MateoAdmission": "I can't really do anything about Wyatt, though I'd love to lose my boot up his ass.$11#$b#I should probably talk to Marlon and Gunther about the whole thing, but... I'm too nervous.$16",
+"CT.Mateo.MateoConfrontation": "I can't believe I thought they'd be angry with me, but I guess it's tough to see through an anxious fog.$21#$b#I don't have to avoid being in town anymore, since clearly nobody ever planned to chase me out with torches and pitchforks like I thought.$10#$b#Thanks for seeing this through with me, @. If it wasn't for you, I feel like this all would've gone down differently.$0",
+"CT.Mateo.MateoWyatt": "Thank you for hearing me out, @. I know it was a time consuming talk, but I appreciate you being there.$1",
+"CT.Mateo.MateoAcceptance": "It feels so good to be part of something real. Something tangible, that I can be proud of. Thank you, @. I'm part of the Adventurer's Guild again and it's all thanks to you.$1#$b#...We should meet up for drinks again, by the way. That was a lot of fun.$32",
+"CT.Mateo.MateoPain": "%Mateo isn't doing too well.",
+"CT.Mateo.MateoRecovery": "I really need to start thinking about what I'm going to do for Krobus and the Shadow Folk. There's a lot of potential to reconnect with them, but we've got to come to some sort of understanding first...$37#$b#It'll be a lot of work, but I think it can be done. What's a few scars in the name of progress?$36",
+"CT.Mateo.CGuildConstruction": "I can't believe we're doing this-! A real place to call home, not some OSHA violation cobbled together with driftwood...$1#$b#Not to mention, Krobus will have a safe spot to hang out, too. And anyone else who needs the refuge.$32",
+"CT.Mateo.CGuildComplete": "I don't think I've ever been so content in my entire life...$1#$b#Best start getting into the swing of my new station, huh?$32",
+"CT.Mateo.MateoIntegrity": "I feel like admitting Krobus to the guild is a good start, but there's still a lot more I can do. Just have to figure out what.$37#$b#It's a bridge in progress, but we'll get there - I'm sure of it.$36",
+"CT.Mateo.MateoRomance": "I'm so grateful you feel the same way about me, @... I wasn't going to say anything and risk our friendship.$27",
+"CT.Mateo.MateoForest": "Can't help but feel like something was watching us in those woods. Might've been imagining it, though.$34",
+"CT.Mateo.MateoDate": "The other night was...amazing, @. You really are my Sunshine.$28#$b#Let's... let's go down there again sometime soon, huh?$31",
+"CT.Mateo.MateoDeclaration": "I love seeing you in that pendant, Sunshine. It was difficult to make.$30#$b#There's not a lot of that material it's forged from avaliable.$28",
+
+"CT.Mateo.SterlingDrugs": "Sterling's been off. If you're close with him, you should check in on him, @.$37",
+"CT.Mateo.SterlingRelapse": "I haven't seen Sterling at the market. I hope everything is alright. He's not been having an easy time of things, by the sounds of it.$37",
+"CT.Mateo.SterlingApology": "Saw Sterling back at work. Good for him! Poor guy really went through the wringer.$1",
+"CT.Mateo.SterlingRiver": "Sobriety doesn't come easy... it's difficult to claw your way up from the bottom. But I'm glad he did.$32",
+"CT.Mateo.JunaBeachBallet": "I saw a woman dancing beautifully on the beach... honestly, I was a little enamored.$4",
+"CT.Mateo.LucikielArrives": "Are you serious-!? A demon!? And everyone's content to just... let him hang out!? With Clint, no less-? What if he hurts someone?$6",
+"CT.Mateo.ReputationIncreased": "...Lucikiel told me a little bit about how he's working with Clint, and clearing monsters in the mines...$37#$b#I tentatively feel like I've misjudged him. He mentioned I'd make a better adventurer if I could work on my own equipment...I might look into that.$36",
+"CT.Mateo.JasperGone2": "...Where's Jasper gone off to?...I went to visit, but he wasn't around.$2",
+"CT.Mateo.JasperHomeA": "Gunther mentioned Jasper was back, I should go say hi!$1",
+"CT.Mateo.PTJ03": "So...many...crabs...why?...I...hate...crabs...$9#$b#Actually, though, Joja might be the one thing I hate more than crabs. It's a toss up.$16",
+"CT.Mateo.MeetTheCats": "Not to be dramatic, but if anything happened to Jorts and Jean I'd commit another felony.$13",
+"CT.Mateo.ButteredJorts": "Pam did what? I'm not sure if that's mischief or if it's just ... uh, misguided, let's go with misguided.$10",
+"CT.Mateo.JortsZoomies": "Jorts makes for an excellent union representative, in my opinion.$0",
+"CT.Mateo.wedding": "Congrats on getting hitched, @! Wishing you many happy years!$1",
+"CT.Mateo.luauBest": "That soup was so good... I got seconds, and then thirds...$36",
+"CT.Mateo.Baby": "'Grats on the kid, @! ...Is that what you're supposed to say? Alternatively, good job on the s-$36",
+"CT.Mateo.jojaMartStruckByLightning": "Smells like burnt plastic over by the Jojamart ruin...$34",
+"CT.Mateo.willyBoatRepaired": "Getting to Ginger Island will be so much easier now! ...How was I getting there before? It's a secret.$13",
+"CT.Mateo.islandResortUnlocked": "I don't know about you, but a remote beach vacation sounds pretty great.$1",
+"CT.Mateo.leoValleyArrival": "Hopefully Leo's adjusting well.$32",
+"CT.Mateo.railroadEarthquake": "Was there an earthquake or something? What the hell?$25",
+"CT.Mateo.AnewCoupleInTown": "I met the new couple, Trace and Anew - total sweethearts, the both of them.$32",
+"CT.Mateo.AnewBookClub": "Did you know Anew's running a little book club? How sweet, I'm glad they're coming out of their shell.$0",
+"CT.Mateo.EliIntro": "That Eli sounds like quite a fella. Wonder how he got up on the roof... did he climb? You could hear Lewis shouting from the beach.$36",
+"CT.Mateo.MeetDND": "Have you visited the Cat Cafe? Those are some of the best treats I've ever had - and the residents are so cute!$1",
+"CT.Mateo.AideenGarden": "Aideen really outdid herself, didn't she? The garden looks amazing. She's brilliant, everything she touches winds up so... radiant.$4",
+
+// MARLON
+"CT.Marlon.MateoCaution": "Hm... I suppose you've met the folks down in East Scarp then, aye?",
+"CT.Marlon.MateoLibrary": "I heard Mateo's back around these parts... best have a chat with 'em, soon.",
+"CT.Marlon.MateoAdmission": "Gonna have to corner that kid when I get the chance, they're so damn flighty... The next time they're up this way, Gunther and I will be ready.",
+"CT.Marlon.MateoConfrontation": "Glad we were able to get that whole thing sorted with Mateo. I feel a bit bad, though. Like Gunther and I scared the pants off of 'em.",
+"CT.Marlon.MateoWyatt": "Wyatt, that old bastard... that's the power of greed for ya, I suppose.",
+"CT.Marlon.MateoAcceptance": "Another member added to our ranks. A right skilled one, too. Mateo's abilities go beyond just talent. Can't help but wonder if there's something else to 'em.",
+"CT.Marlon.MateoPain": "That fuckin' kid, going and getting themselves hurt like that... they're no amateur! What were they thinking?#$b#They'll bounce back, I'm just... worried. I've known them since they were knee high.",
+"CT.Marlon.MateoRecovery": "Mateo's back!#$b#I should get Gunther, let 'em know...#$b#Hope they're not doing too poorly.",
+"CT.Marlon.CGuildConstruction": "I'm glad Mateo's starting to pull everything together...s'bout time.#$b#Thank you for helping them.",
+"CT.Marlon.CGuildComplete": "Hey, listen. I appreciate everything you've done for Mateo...#$b#You really set them on the right path. Not nearly the straight and narrow, but... they're far better off than they were before.#$bHah! Maybe with another branch, me and Gil can really start takin' it easy. We're not youngins anymore!",
+"CT.Marlon.MateoDate": "Hm... you and Mateo, eh? ...Figured. Good for you, kids. S'abit obvious with how late you two came out of the mines.",
+"CT.Marlon.MateoIntegrity": "You n' Mateo are really coming into your own. Good for you. Keep fighting for change, kid.",
+"CT.Marlon.MateoDeclaration": "Feels a lot like I'm gonna leave this world a lot better than I found it... I'm so proud of you kids.",
+
+// GUNTHER
+"CT.Gunther.MateoCaution": "Don't mind me, @. I've just had a case of the nerves lately. Nothing to fret about.",
+"CT.Gunther.MateoLibrary": "The previous curator? Oh, his name was Wyatt.#$b#With his apprentice being back in town, I'll have to have a word with Marlon and Lewis.",
+"CT.Gunther.MateoAdmission": "I spoke with Marlon. He and I are going to have to have a chat with Mateo.#$b#I am not willing to take chances with the collection in progress if they have any lasting ties with their previous teacher...#$b#Lewis assured me of Mateo's character, and that the situation was very likely a result of manipulation on Wyatt's part... but I need to make a judgement for myself.",
+"CT.Gunther.MateoConfrontation": "I hoped for the best, and it would appear that it worked out. Mateo's more well-read than I expected, hardly the criminal a man like Wyatt would've raised them to be.#$b#I think they'll make a fine addition to the academic community; I'm looking forward to whatever contributions they look to make.",
+"CT.Gunther.MateoWyatt": "I misjudged Mateo. I'm grateful everything seems to be worked out.",
+"CT.Gunther.MateoAcceptance": "It was good of Marlon to take Mateo under his wing, though they hardly need it. They're a storied adventurer of their own right.#$b#They mentioned they've been doing this for years, with a number of close encounters.#$b#I can't help but worry when you lot do your thing. I know it's necessary, but... I do fret about it often.",
+"CT.Gunther.MateoPain": "Mateo, in this hospital... first Marlon's eye, and now - oh, dear.",
+"CT.Gunther.MateoRecovery": "Mateo has returned! Thank goodness. They're looking a little worse for wear, though. You should check on them.",
+"CT.Gunther.CGuildConstruction": "I'm working on getting the license paperwork ready for Mateo and Marlon's little project. I understand Mateo's desire to skew towards academics over swordplay after what happened.",
+"CT.Gunther.CGuildComplete": "Mateo has grown so much since I've known them. Honestly, I almost wish... they'd fallen under my care all those years ago, instead of ending up with Wyatt.#$b#I feel as though I could've spared them some of the emotional adversity. I...#$b#I wouldn't have let them build all the self-resentment that they did.#$b#Seeing the guild there on the beach felt like... well, quite the fairy-tale ending, didn't it? I was very excited to discuss Mateo's pursuits...#$b#...And then I saw all of the tabletop bits and pieces on the table, and the documentation on the bookshelves...",
+"CT.Gunther.MateoDate": "I can't say I'm surprised to see you and Mateo together. Some stories have predictable outcomes, do they not?",
+"CT.Gunther.MateoIntegrity": "Mateo borrowed several books for 'a friend' the other day. Who was it, if not you?... I suppose it doesn't matter, they get returned on time.",
+"CT.Gunther.MateoDeclaration": "Mateo's pitch for a new research paper was quite impressive. I'm looking forward to their academic pursuits.",
+
+// KROBUS
+"CT.Krobus.MateoLibrary": "Huh... was there another Shadow wandering around the library the other night? It was... strange.$3",
+"CT.Krobus.MateoConfrontation": "I saw someone wandering around with a sword... it made me nervous.$2",
+"CT.Krobus.MateoPain": "I heard that the sword-person had to be taken away to the hospital... oh, no...$3",
+"CT.Krobus.MateoRecovery": "The hurt person came back...I wonder...#$b#Should I try and see what happened?$3",
+"CT.Krobus.MateoIntegrity": "Mateo's my friend now...and I think...maybe, with more friends like them, things will get better for us Shadow Folk.$4",
+"CT.Krobus.MateoDeclaration": "Mateo has met all my Shadow friends! They got to meet Sen and Ebb and Skrell... I was nervous, but it was so fun.$4#$b#They're proud of me for being in the guild.",
+
+// PIERRE
+"CT.Pierre.MateoLibrary": "Mateo's back in town? I wonder if they brought their awful jokes with them.$2",
+"CT.Pierre.MateoConfrontation": "Mateo's stopped in here a few times. It's been good to catch up; I haven't seen them around since they were a kid.$1",
+"CT.Pierre.MateoPain": "Mateo stumbled by the other day and I haven't seen them since...$2",
+"CT.Pierre.MateoRecovery": "Sounds like Mateo is back from Zuzu, looking a little worse for wear.#$b#I tried to tell Abigail this is why the mines are so dangerous, but she wasn't having any of it.$2",
+
+// CAROLINE
+"CT.Caroline.MateoLibrary": "I saw Mateo pass by, but they didn't say anything. They used to be so sociable.$2",
+"CT.Caroline.MateoConfrontation": "I had to tell Mateo not to bring their sword inside. We have enough trouble keeping Abigail out of the mines...$2",
+"CT.Caroline.MateoRecovery": "Mateo is back from the hospital. I hope Abigail learns something from this...$2",
+
+// GUS
+"CT.Gus.MateoLibrary": "Was that Mateo outside the other night? It's been years since they've been around. I'm surprised they didn't stop in. $2",
+"CT.Gus.MateoConfrontation": "Mateo's hardly changed a bit. That kid can put down more pumpkin than anyone else I've ever met.$1",
+"CT.Gus.MateoAcceptance": "Mateo came by for lunch the other day, and you bet I sent them off with the biggest pumpkin pie I could throw together. $1",
+"CT.Gus.MateoPain": "I'm making Mateo a spread of pumpkin desserts for when they get out of the hospital.$0#$b#That'll cheer them right up!",
+"CT.Gus.MateoRecovery": "Mateo's back! I knew they'd be alright. Time to go drop off all the snacks I made while they were gone.$1",
+
+// HALEY
+"CT.Haley.MateoLibrary": "Someone walked past me with a sword covered in slime! They smelled absolutely disgusting. $3",
+"CT.Haley.MateoConfrontation": "Mateo doesn't seem so bad once you get to know them.#$b#I can relate.$2",
+
+// HARVEY
+"CT.Harvey.MateoLibrary": "Mateo walked by the other day, sword in hand. It's been quite some time.",
+"CT.Harvey.MateoAdmission": "I caught Mateo looking like they'd taken quite a beating. I tried to patch them up, but they ... very politely refused and went on their way. $2",
+"CT.Harvey.MateoConfrontation": "Mateo was in my office the other day. They bought tonics and remedies before heading up into the mountains.#$b#It was nice to have someone else to talk to about the difficulties of a PhD program, though I'm surprised they don't call themselves Dr. Luis! They earned it!$1#$b# They're warming up to people again. It's a notable improvement to the state of their mental health.$1",
+"CT.Harvey.MateoPain": "I understand you might be a bit worried, @.$2#$b#But Mateo's safely at the hospital getting better treatment than I could give them here in the clinic. They'll be okay - just give them some time.$0",
+"CT.Harvey.MateoRecovery": "I checked up on Mateo as soon as they got back to town. They've recovered brilliantly, considering how bad the damage was.$1#$b#I'm no... adventurer, but I feel like that sort of encounter would've ended much more poorly for an ordinary person.$2",
+
+// ROBIN
+"CT.Robin.MateoAdmission": "Mateo stopped by the other day on their way to the mines! It was so nice to see them. $1",
+"CT.Robin.MateoAcceptance": "Is Mateo going to live in that tent on the beach forever? I should help them...$2",
+"CT.Robin.CGuildConstruction": "Thanks for helping with the guild, @!$1 It's a big project, but I'm excited for it.",
+"CT.Robin.CGuildComplete": "I'm very proud of how the guild looks. Some of my best work! I'm not sure what Mateo wanted the trapdoor on the roof for, though.$1",
+
+// WILLY
+"CT.Willy.MateoAdmission": "Ol' Mateo was on the pier the other day. I haven't seen that kid in years. They look like they've come around just fine. $1",
+"CT.Willy.MateoConfrontation": "Lil' ol Matty got so big since I last saw 'em. They may have learned their way around a sword, but they couldn't handle a fishing rod to save their lives. $1",
+
+// LEWIS
+"CT.Lewis.MateoLibrary": "Mateo's living in East Scarp, I hear. Why didn't they let me know they were coming home?... $2",
+"CT.Lewis.MateoConfrontation": "Mateo was all smiles the other day. They cut through the square instead of crossing the bridge and heading north, and they waved at Marnie and I. $1",
+"CT.Lewis.MateoPain": "Mateo's at the hospital... I hope this discourages people from going too far into the mines.#$b#...I'm worried about them.$2",
+"CT.Lewis.MateoRecovery": "Sounds like Mateo is right as rain and ready to cause trouble like they always have!$1",
+"CT.Lewis.CGuildConstruction": "Robin's building a place for Mateo? About time!$1",
+"CT.Lewis.CGuildComplete": "Wait a second, they built another guild branch? I didn't authorize this.$3#$b#I suppose it makes sense to have a branch of the guild a little closer to home. Besides, there's that old mine that collapsed... and we don't know what's in there.$2",
+
+// ABIGAIL
+"CT.Abigail.MateoAdmission": "I saw someone new walking around with a sword on their back...who are they? $4",
+"CT.Abigail.MateoConfrontation": "Mateo's so cool ... I wonder if they'd teach me about adventuring.$4",
+
+// MARNIE
+"CT.Marnie.MateoConfrontation": "I saw Mateo outside yesterday, petting cows through the fence like when they were a kid. I guess they haven't changed very much! $1",
+"CT.Marnie.MateoPain": "Oh, Mateo. I've known them since they were a nugget; hearing they got hurt like that is devastating. I hope they're back soon.$2",
+"CT.Marnie.MateoRecovery": "I caught Mateo having picked the barn door lock to come and visit the livestock, so it seems they've made a full recovery!$1",
+
+}

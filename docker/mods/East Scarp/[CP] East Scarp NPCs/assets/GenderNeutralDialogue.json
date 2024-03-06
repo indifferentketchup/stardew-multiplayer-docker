@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Aideen",
+            "Entries": {
+                "Aideen_103": "Why, Mx @! Are you wishing to court me?$7#$b#Well, you do exude a quaint rural charm.$1#$1#$b#And I have certainly grown fond of you. But love? Well, perhaps our tale is a slow burn, rather than a quick spark, yes?$7",
+                "Ai2_2": "Oh, aren't you Mx. Cynical.#$b#You're right, of course. Pelican Town is hardly Paradise Bay.#$b#Yet the peace might be an attraction in itself, don't you think?"
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Rosa",
+            "Entries": {
+                "rejectNPCA": "Too soon, sunshine, I'd rather we got to know each other first.$1"
+            }
+        }
+    ]
+}

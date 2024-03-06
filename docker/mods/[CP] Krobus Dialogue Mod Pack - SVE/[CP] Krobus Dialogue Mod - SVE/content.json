@@ -1,0 +1,122 @@
+{
+"Format": "1.23.0",
+"Changes": [
+    {
+	"LogName": "Krobus Dialogue Mod for SVE",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Krobus",
+		
+        "Entries":
+        {
+            
+"Mon": "I sell goods and wares that I collect. I do change my stock regularly so come back in other days to see what I have.",
+ "Mon2": "...Have you encountered other shadow creatures like me while working for the Adventurer's Guild? I am sorry if they have been hostile. We've had...unpleasant experiences with humans.#$b# You haven't... slain any of them have you? Perhaps I rather not know.",
+ "Mon4": "I am trying to control my chaotic nature to understand more about other creatures including humans.#$b# I know that you monster hunters have to kill the bad ones but I still believe their lives are precious and should be respected.",
+ "Mon6": "Yes Marlon does check up on me regularly.#$b# I do hear that there are other adventurers but no one but Marlon comes to see me. #$e#I think Marlon is keeping me a secret just in case.",
+
+ "Mon8": "I have grown fond of you visiting here. I hope to see your home one day if you don't mind.",
+"Mon10": "No, I can't go out on most days - I fear what other humans might do. Marlon at least has kept his word and ensured my safety. #$e#Maybe when it's dark or rainy I might consider sneaking out.$h",
+
+"Tue": "'Krobus' means 'bridge-crosser' in my language.",
+ 
+ "Tue2": "So you farm for a living? I do carry something that might help you. Come back on Friday and see.",
+ "Tue4": "Us shadow creatures do eat. Our favourite plant is a spicy forage plant that grows wild in spring.#$b#I believe you humans call it a horseradish. If you can give me one, it'd make me so happy.",
+ "Tue6": "Yes, I have been trying to help other shadow creatures be friendlier to humans.#$b# It's not an easy job. There are still too much distrust. *sigh*$s",
+ "Tue8": "Magnus is the only human I come across whose beliefs aligned with mine regarding the world. #$b# There's much you can learn from him.",
+"Tue10": "How do you show friendship to a shadow creature? #$b# There's a special pendant that we shadow creatures like to share when we feel very close to one another but it would be very hard for a human to get a hold of.",
+"Wed": "I trust that Marlon told you to keep my presence here a secret. I don't know what he might do if my secret is exposed.",
+ 
+ "Wed2": "There was a thousand year war between dwarves and us shadow creatures. #$b# I oppose the violence, but alas both sides were devastated by the fighting. $s #$b#I escaped to the human world but was discovered by the Adventurer's Guild and put here. This is my home right now.",
+  "Wed4": "We shadow creatures are the ones that go bump into the night. #$b# Some of us even play tricks on children as they sleep at night.#$b# Of course I would never do that myself!$6",
+  "Wed6": "I have been trying to make peace with the other shadow creatures.$b Sadly many are still afraid of humans. $s",
+  "Wed8": "You've seen Junimos, too? I'm surprised. For a human, you seem to have quite a skill for dealing with elementals.",
+"Wed10": "Please keep my location a secret. I trust Magnus and Marlon but the fewer humans know, the better...",
+	"Thu": "On Fridays I stay silent out of respect for Yoba.",
+  
+  "Thu2": "No, we are not born from a mother like you humans are.$b Where do we come from, then? Well, when does any shadow begin to exist?#$b# Are the shadows under your feet somehow 'new' or simply less hidden by the light?#$b# #$e# That said, I do assign the start of winter as my day of birth of some sorts.",
+ "Thu4": "I don't think you will find any interesting fish in the sewers.#$b# There's carp and a mysterious fish that lurks in these waters but I have never saw it directly.",
+ "Thu6": "I have observed you humans for many years. It has given me great opportunity to learn your language.#$b# However, Magnus, Marlon and you are the only humans with whom I have had consistent interaction.",
+"Thu8": "Have you maxed your fishing skills yet? #$b#If you did, there's a treasure right off the cliff from the left sewer entrance. I know you'll love it if you can get it!$h",
+
+"Thu10": "No I have not met any of the other adventurers beside Marlon though I know that sometimes other adventurers come there as well.#$b# I know that they're fighting monsters even outside Stardew Valley. I just hope that they wouldn't come after me next...$s",
+ "Fri": "...",
+"Sat": "I am still wary of most humans. I do know that you like to eat though. Care to buy anything?",
+"Sat2": "Do you eat frogs? I heard they can be quite tasty. They're very common in the spring especially when it rains. If you want a frog recipe, I have one available for you.",
+"Sat4": "Marlon told me there's a Yoba service in the main shop on Sundays. How I wish I can attend!",
+ "Sat6": "Thank you for respecting my silence on Fridays. It's my hope at least that other shadow creatures and humans see how greatly they can benefit from Yoba's spiritual light.",
+ "Sat8": "Without a doubt, if I didn't have Yoba to guide me, I would have turned into a shadow brute like so many others and been killed by now.",
+ "Sat10": "I never thought I'd see the day that I would have to turn to monster hunters for protection but here I am.",
+"Sun": "You're not like other monster hunters are you?",
+ "Sun2": "Have you met any dwarves at the mines? I know they like underground places. Sadly hostilities still exist between our species so next time you see one don't mention me alright?",
+ "Sun4": "Next to the spicy plant I mentioned before, I am also fond of a gem found in the mines.#$b# It's the shiniest gem I came across. If you can give me one, I would be so happy.",
+"Sun6": "The dog statue? I found it not that long after I went down here but I couldn't access it. #$b# Maybe it's a human relic I simply can't use.",
+"Sun8": "Every time you come here, I get a strange feeling. No it's not a bad feeling...",
+"Sun10": "I would love to go out and see your farm. I always wonder what you grow...",
+
+	},
+},
+
+//Magnus Add-Ons
+
+{
+	"LogName": "Krobus Dialogue Mod - Magnus - Krobus Ten Hearts",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Magnus",
+		
+"Entries":
+        {
+
+winter_2: "If you desire more than just friendship with Krobus, let me know. You would need a void pendant. Visit the camel merchant in the desert and you should see one. Good luck!$1"
+},
+"When": {"HasMod": "FlashShifter.StardewValleyExpandedALL:true",
+		"Hearts:Krobus": "10"},
+},
+
+{
+	"LogName": "Krobus Dialogue Mod - Marlon - Krobus Ten Hearts",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarlonFay",
+		
+"Entries":
+        {
+
+winter_2: "I see that you're becoming very well acquainted with Krobus. We would have no objection if you decide that he moves in with you. Of course there may be certain conditions but I'll leave that to Magnus.$1"
+},
+"When": {"HasMod": "FlashShifter.StardewValleyExpandedALL:true",
+		"Hearts:Krobus": "10"},
+
+
+
+
+    
+},
+
+{
+	"LogName": "Krobus Dialogue Mod - Krobus - Post-Marriage: Magnus",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Krobus",
+		
+"Entries":
+        {
+
+Krobus: "I heard from Magnus that you are now married. Magnus was the one that brought me to Marlon so I owe him so much! I wish you both happiness in your new life!#$h#$1"
+},
+"When": {"HasMod": "FlashShifter.StardewValleyExpandedALL:true",
+		"Relationship:Magnus": "Married"},
+
+
+
+
+    
+},
+
+
+
+
+    
+]
+
+
+
+
+}

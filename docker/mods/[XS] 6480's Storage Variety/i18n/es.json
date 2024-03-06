@@ -1,0 +1,19 @@
+{
+    // Storages
+    "adventurers-pack.name": "Mochila de Aventurero",
+    "adventurers-pack.description": "¡Recorre oscuras mazmorras y cavernas con esta bolsa para guardar tesoros raros!",
+    "cigar-box.name": "Caja de Cigarros",
+    "cigar-box.description": "Una pequeña caja de madera para dejar tus objetos de valor.",
+    "dimensional-portal.name": "Portal Dimensional",
+    "dimensional-portal.description": "Puede almacenar objetos en una dimensión de bolsillo. ¡Que conveniente!",
+    "ice-cooler.name": "Hielera",
+    "ice-cooler.description": "¡Una hielera llena de hielo para mantener frescos los productos perecederos!",
+    "lumber-pile.name": "Pila de Madera",
+    "lumber-pile.description": "Un estante resistente para guardar todos tus materiales de construcción en un solo lugar.",
+    "mini-storage-shed.name": "Mini cobertizo de almacenamiento",
+    "mini-storage-shed.description": "Un pequeño cobertizo, sólo para guardar cosas.",
+    "wooden-cabinet.name": "Gabinete de Madera",
+    "wooden-cabinet.description": "Un gabinete alto de caoba con mucho espacio en su interior.",
+    "wrought-iron-cellar.name": "Bodega de hierro forjado",
+    "wrought-iron-cellar.description": "Esta escalera conduce a un sótano espacioso con mucho espacio para guardar objetos.",
+}

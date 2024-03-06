@@ -1,0 +1,11 @@
+{
+	"Name": "Fievel's Hat",
+	"Description": "A token of friendship from Fievel.",
+    "PurchasePrice": 5,
+    "PurchaseFrom": "STF.FievelShop",
+	"CanPurchase": "false",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true, 
+	"TranslationKey": "item.fievel's-hat"
+
+}

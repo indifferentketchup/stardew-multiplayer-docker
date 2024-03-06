@@ -1,0 +1,91 @@
+{
+   "Format": "1.13.0",
+   "Changes": [
+      { 
+        "LogName": "Move Marnie for Winter Star",
+        "Action": "EditMap",
+        "Target": "Maps/Town-Christmas",
+        "MapTiles": [
+            {
+               "Position": { "X": 23, "Y": 49 },
+               "Layer": "Set-Up",
+               "Remove": true
+            },
+
+            {   "Position": {"X":35, "Y": 56},
+                "Layer": "Set-Up", 
+                "SetTileSheet": "CharacterSheet",
+                 "SetIndex": "81"
+              }
+                    ]
+            },
+       {    
+        "LogName": "Move Marnie for Flower Festival",
+        "Action": "EditMap",
+        "Target": "Maps/Forest-FlowerFestival",
+        "MapTiles": [
+            {
+               "Position": { "X": 5, "Y": 24 },
+               "Layer": "MainEvent",
+               "Remove": true
+            },
+
+            {   "Position": {"X":23, "Y": 22},
+                "Layer": "MainEvent",
+                "SetTileSheet": "CharacterSheet",
+                "SetIndex": "82"
+        }
+         ]
+      },
+      {    
+        "LogName": "Move Marnie for Jellyfish",
+        "Action": "EditMap",
+        "Target": "Maps/Beach-Jellies",
+        "MapTiles": [
+            {
+               "Position": { "X": 24, "Y": 22 },
+               "Layer": "Set-Up",
+               "Remove": true
+            },
+
+            {   "Position": {"X":82, "Y": 25},
+                "Layer": "MainEvent",
+                "SetTileSheet": "CharacterSheet",
+                "SetIndex": 81
+        },
+        {   "Position": {"X":81, "Y": 25},
+                "Layer": "MainEvent",
+                "SetTileSheet": "CharacterSheet",
+                "SetIndex": 78
+        }
+         ]
+      },
+      {    
+        "LogName": "Brings Marlon to Luau",
+        "Action": "EditMap",
+        "Target": "Maps/Beach-Luau",
+        "MapTiles": [
+            {
+        "Position": {"X": 54, "Y": 7},
+        "Layer": "Set-Up",
+        "SetTileSheet": "CharacterSheet",
+        "SetIndex": 78
+     },
+     {  "Position": {"X":41, "Y": 11},
+        "Layer": "MainEvent",
+        "SetTileSheet": "CharacterSheet",
+        "SetIndex": 78
+ }
+
+
+    ]
+}
+
+
+
+
+
+
+
+   ]
+}

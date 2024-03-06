@@ -1,0 +1,10 @@
+{
+	"Name": "Lurking in the Dark - Farm Type Manager",
+	"Author": "7thAxis",
+	"Description": "Adds forage from LitD.",
+	"Version": "1.2.2",
+	"UniqueID": "7thAxis.LitD.FTM",
+	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"},
+	"Dependencies": [{"UniqueID": "7thAxis.LitD.CP", "IsRequired": true}],
+	"UpdateKeys": []
+}

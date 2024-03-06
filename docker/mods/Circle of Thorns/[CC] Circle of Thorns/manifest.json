@@ -1,0 +1,17 @@
+{
+    "Name": "[CC] Circle of Thorns - Book",
+    "Author": "DestyNova",
+    "Version": "1.0.2",
+    "Description": "Hector's silly little grimoire, Book.",
+    "UniqueID": "DestyNova.COTCC",
+    "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.CustomCompanions"
+    },
+    "Dependencies": [
+       {
+          "UniqueID": "PeacefulEnd.CustomCompanions",
+          "IsRequired": true,
+       }
+    ]
+  }

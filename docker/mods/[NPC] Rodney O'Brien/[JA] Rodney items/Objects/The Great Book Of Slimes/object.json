@@ -1,0 +1,25 @@
+{
+    "Name": "The Great Book Of Slimes",
+    "Description": "An adventurer's guide on how to approach, fight and raises slimes.", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+//    "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [ "Krobus", "SenS", "Marlon", "MarlonFey", "Lance", "Abigail", "EdwinaOBrien", "Wizard", "Dwarf", "Demetrius", "Sig" ], //"Mateo",
+        "Like": [ "Universal" ],
+        "Neutral": [ "Gudrun", "Gunnar", "MeredithOBrien", "Sondra", "Gudrun" ],
+        "Hate": [ "Justine", "RodneyOBrien", "Gunnar" ],
+    },
+    "TranslationKey": "object.the-great-book-of-slimes",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+// "SenS", "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley", "PlumForrest", "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

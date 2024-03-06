@@ -1,0 +1,26 @@
+(( TO THE PLAYERS ))
+Hey there, thank you for downloading and playing with my mods!
+
+This mod is a collection of tilesheets and festival patches to ensure that not only are all my mods working together but that my mods also do not conflict with other Custom npc's festival locations. 
+Over the years I've been told a few times that other newer npcs are standing ontop of mine during festivals. Well this mod will patch in a small area at the festivals for my npcs to attend.
+
+The patch will always apply and all my npcs will stand where theyre supposed. 
+
+Unforantely, to make sure this will work, I had to make this mod a requirement. 
+
+With the tilesheets, I am not giving anyone permisson to use these assets. However, you do have permission to make recolors of my assets and upload those. As long as you tell me first and when you've posted it. 
+So I can link your mod on the recommended secition of my mod pages!
+
+Installation Guide:
+
+This mod is installed like any other mod. You unzip the folder and put the unzipped folder into your mods folder.
+
+Do not install this mod repeated. Lets say you have this Npc installed and you want to install another npc of mine.
+
+You do not have to redownload and install this mod a second time. 
+
+If you have any questions, ask me in my comment section! I'm happy to help you figure things out.
+
+(( TO THE MOD CREATORS ))
+
+You are allowed to place your Npc's in my patched in areas. However, I request you do not overlap my npcs or make any changes to my patches design.

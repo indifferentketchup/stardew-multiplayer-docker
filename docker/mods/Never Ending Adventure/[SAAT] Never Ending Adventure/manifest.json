@@ -1,0 +1,11 @@
+{
+  "Name": "[SAAT] NEA & COT Themes",
+  "Author": "DestyNova",
+  "Version": "1.9.9",
+  "Description": "Music for NEA's events.",
+  "UniqueID": "DestyNova.NEA.SAAT",
+  "ContentPackFor": {
+    "UniqueID": "ZeroMeters.SAAT.Mod",
+    "MinimumVersion": "1.0.0"
+  }
+}

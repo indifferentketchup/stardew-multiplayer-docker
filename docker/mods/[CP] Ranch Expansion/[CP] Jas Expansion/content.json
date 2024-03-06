@@ -1,0 +1,224 @@
+{
+    "Format": "1.18.0",
+    "ConfigSchema": {
+        "PennySchedule": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Decription": "Adjusts Penny's schedule so she stays with Jas in the evenings"
+        },
+    },
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/JeremyJay",
+            "FromFile": "assets/Jeremy.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/BlueJay",
+            "FromFile": "assets/BlueJay.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/MrGinger",
+            "FromFile": "assets/MisterGSprites.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Jas_NoBow",
+            "FromFile": "assets/Jas_NoBow.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Jas_NoBow",
+            "FromFile": "assets/Jas_NoBowPortraits.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/MonaSpirit",
+            "FromFile": "assets/MonaGhost.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/MonaSpirit",
+            "FromFile": "assets/Mona-Ghost.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/ShadowPerson",
+            "FromFile": "assets/ShadowPerson.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Inigo",
+            "FromFile": "assets/Inigo.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/JasCustomSprites.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 96
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 224,
+                "Width": 64,
+                "Height": 96
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/SVE_JasWoodsPatch.tmx",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+            "ToArea": {
+                "X": 7,
+                "Y": 6,
+                "Width": 5,
+                "Height": 4
+            }
+        },
+ {
+            "Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+            "FromFile": "assets/AnimalShop_Edits.tmx",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 5,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 12,
+                "Y": 12,
+                "Width": 5,
+                "Height": 2
+            }
+        },
+        //DIALOGUE
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Translations/{{Language}}.json",
+            "When": {
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Translations/en.json",
+            "When": {
+                "HasFile:assets/Translations/{{language}}.json": false
+            }
+        },
+        //EVENTS
+        {
+            "LogName": "Jas 2,4,8-heart events",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "50706112/f Jas 500/w sunny/z winter/t 1000 1500": "spring_day_ambient/71 44/farmer 83 39 3 Jas 70 44 2 Marnie -100 -100 2/skippable/addTemporaryActor JeremyJay 16 32 70 45 2 false/showFrame Jas 3/pause 250/animate JeremyJay false true 450 0 1 2 3/TextAboveHead Jas \"{{i18n:2hearts.1}}\"/pause 250/emote farmer 8/pause 250/speed farmer 4/move farmer -12 0 3/move farmer 0 6 2/pause 250/faceDirection Jas 1/faceDirection farmer 3/speak Jas \"{{i18n:2hearts.2}}\"/faceDirection Jas 2/speak Jas \"{{i18n:2hearts.3}}\"/pause 250/stopAnimation JeremyJay/pause 250/animate JeremyJay false true 250 0 1 2 3/speak Jas \"{{i18n:2hearts.4}}\"/question fork1 \"{{i18n:2hearts.q1}}\"/fork NoHelpJeremyJay/pause 200/speak Jas \"{{i18n:2hearts.q1.1}}\"/stopAnimation JeremyJay/pause 250/move Jas 0 1 2/move JeremyJay 0 2 2/pause 250/emote Jas 28/pause 250/move Jas 0 1 2/showFrame JeremyJay 25/pause 750/playSound crow/pause 250/warp JeremyJay -100 -100/showFrame Jas 29/textAboveHead Jas \"{{i18n:2hearts.q1.2}}\"/pause 450/showFrame Jas 28/speak Jas \"{{i18n:2hearts.q1.3}}\"/pause 500/stopMusic/globalfade/viewport -1000 -1000/changeLocation AnimalShop/warp Jas 29 15/warp Marnie 30 16/warp farmer 28 16/faceDirection Marnie 3/faceDirection farmer 1/showFrame Jas 28/showFrame JeremyJay 16/viewport 24 17/showFrame Jas 29/pause 250/faceDirection Jas 2/warp JeremyJay 29 16 2/animate JeremyJay false true 500 23 10 23 10 0 1/pause 250/speak Jas \"{{i18n:2hearts.q1.4}}\"/pause 250/emote Marnie 40/pause 500/speak Marnie \"{{i18n:2hearts.q1.5}}\"/pause 250/emote Jas 16/Speak Jas \"{{i18n:2hearts.q1.6}}\"/pause 250/speak Marnie \"{{i18n:2hearts.q1.7}}\"/pause 250/TextAboveHead Jas \"{{i18n:2hearts.q1.8}}\"/pause 500/speak Jas \"{{i18n:2hearts.q1.9}}\"/pause 500/speak Marnie \"{{i18n:2hearts.q1.10 }}\"/pause 250/TextAboveHead Jas \"{{i18n:2hearts.q1.11 }}\"/pause 500/speak Marnie \"{{i18n:2hearts.q1.12 }}\"/pause 500/speak Jas \"{{i18n:2hearts.q1.13}}\"/pause 250/speak Marnie \"{{i18n:2hearts.q1.14}}\"/pause 500/speak Jas \"{{i18n:2hearts.q1.15}}\"/speak Marnie \"{{i18n:2hearts.q1.16}}\"/globalfade/viewport -1000 -1000/changeLocation Forest/warp Marnie 69 45/faceDirection Marnie 1/warp Jas 70 44/showFrame Jas 28/warp farmer 71 45/faceDirection farmer 3/addTemporaryActor BlueJay 16 32 90 40 3 false/PlayMusic spring_day_ambient/viewport 71 44/pause 250/speak Jas \"{{i18n:2hearts.q1.17}}\"/pause 250/showFrame Jas 28/emote farmer 32/pause 250/speak Jas \"{{i18n:2hearts.q1.18}}\"/showFrame Jas 0/warp JeremyJay 70 45 2/switchEvent ReleaseJeremyJay",
+                "NoHelpJeremyJay": "pause 500/speak Jas \"{{i18n:2hearts.q2.1}}\"/pause 250/speed Jas 5/move Jas 0 -3 1/speed Jas 5/move Jas 3 0 0/move farmer 2 0 0/globalfade/viewport -1000 -1000/warp Marnie 69 41 1/warp Jas 70 40 2/move farmer -2 0 3/addTemporaryActor BlueJay 16 32 90 40 3 false/viewport 71 44/pause 250/speed Jas 4/move Jas 0 4 2/move Marnie 0 4 1/speak Jas \"{{i18n:2hearts.q2.2}}\"/pause 250/speak Jas \"{{i18n:2hearts.q2.3}}\"/emote Jas 12/switchEvent ReleaseJeremyJay",
+                "ReleaseJeremyJay": "playSound crow/faceDirection Jas 2/animate JeremyJay false true 450 0 1 2 3/pause 250/speak Jas \"{{i18n:2hearts.q3.1}}\"/warp BlueJay 87 40 2/move BlueJay -15 0 3 false/playSound crow/faceDirection Jas 0/move Marnie 0 -1 0 false/faceDirection farmer 0/emote Jas 56/emote farmer 16/animate BlueJay false true 250 12 13 14 15 12 13 14 15/playSound crow/pause 250/stopAnimation JeremyJay/playSound crow/faceDirection Jas 2/TextAboveHead Jas \"{{i18n:2hearts.q3.2}}\"/pause 250/playSound crow/showFrame JeremyJay 10/pause 500/stopAnimation BlueJay/move BlueJay -3 0 3 true/playSound crow/pause 250/faceDirection Marnie 2/FaceDirection farmer 2/animate JeremyJay false false 350 16 17 18 19 12 13 14 15/pause 250/move JeremyJay -1 0 3 true/move BlueJay -1 0 3 true/pause 250/playSound crow/move BlueJay -3 0 3 true/move JeremyJay -3 0 3 true/faceDirection Jas 3/move BlueJay -3 0 3 true/move JeremyJay -3 0 3 true/playSound crow/faceDirection Marnie 3/pause 200/faceDirection farmer 3/playSound crow/pause 500/animate Jas false false 450 0 24/pause 250/move BlueJay -3 0 3 true/move JeremyJay -3 0 3 true/speak Jas \"{{i18n:2hearts.q3.3}}\"/emote Jas 56/pause 250/emote Marnie 20/pause 1000/globalFade/viewport -1000 -1000/end dialogue Jas \"{{i18n:2hearts.q3.4}}\"",
+                "50706113/f Jas 1000/w sunny/t 2000 2400": "nightTime/86 21/Jas 90 18 2 farmer 93 24 3 Marnie -100 -100 0/skippable/addLantern 735 87 18 2/AddTemporaryActor MrGinger 16 32 89 19 1 false/pause 500/speak Jas \"{{i18n:4hearts.1}}\"/shake Jas 250/pause 250/playSound cat/pause 250/animate MrGinger false false 120 16 17 18 18/pause 250/speak Jas \"{{i18n:4hearts.2}}\"/Pause 500/animate MrGinger false true 120 18/pause 2000/playSound cat/speak Jas \"{{i18n:4hearts.3}}\"/shake Jas 250/animate MrGinger false true 120 20 21 22 23/pause 450/move farmer -3 0 0/pause 250/emote Jas 16/TextAboveHead Jas \"{{i18n:4hearts.4}}\"/pause 250/stopAnimation MrGinger/playSound cat/move farmer 0 -1 0/jump Jas 3/faceDirection Jas 2/pause 250/speak Jas \"{{i18n:4hearts.5}}\"/animate MrGinger false true 120 20 21 22 23/playSound cat/move farmer 0 -3 3/move farmer -2 0 0/move farmer 0 -2 1/pause 250/stopAnimation MrGinger/faceDirection MrGinger 0/faceDirection Jas 3/playSound cat/speak Jas \"{{i18n:4hearts.6}}\"/question fork1 \"{{i18n:4hearts.q1}}\"/fork NoMonsters/pause 200/emote Jas 32/speak Jas \"{{i18n:4hearts.q1.1 }}\"/pause 250/emote farmer 32/pause 250/speak Jas \"{{i18n:4hearts.q1.2}}\"/question fork1 \"{{i18n:4hearts.q2}}\"/fork HappyThoughts/pause 250/speak Jas \"{{i18n:4hearts.q2.1}}\"/pause 350/animate MrGinger false false 120 16 17 18 18/speak Jas \"{{i18n:4hearts.q2.2}}\"/switchEvent JasMrGeventEnd",
+                "NoMonsters": "pause 250/emote Jas 40/speak Jas \"{{i18n:4hearts.q1.3}}\"/pause 250/animate MrGinger false false 120 16 17 18 18/playSound cat/switchEvent JasMrGeventEnd",
+                "HappyThoughts": "pause 250/speak Jas \"{{i18n:4hearts.q2.3}}\"/shake Jas 250/emote Jas 60/pause 250/speak Jas \"{{i18n:4hearts.q2.4}}\"/playSound cat/pause 250/speak Jas \"{{i18n:4hearts.q2.5}}\"/pause 350/playSound cat/speak Jas \"{{i18n:4hearts.q2.6}}\"/switchEvent JasMrGeventEnd",
+                "JasMrGeventEnd": "pause 500/speak Marnie \"{{i18n:4hearts.q3.1}}\"/pause 250/jump Jas 5/emote Jas 28/faceDirection Jas 0/speak Jas \"{{i18n:4hearts.q3.2}}\"/pause 250/speak Marnie \"{{i18n:4hearts.q3.3}}\"/pause 250/speak Jas \"{{i18n:4hearts.q3.4}}\"/pause 250/faceDirection Jas 3/speak Jas \"{{i18n:4hearts.q3.5}}\"faceDirection Jas 0/move Jas 0 -2 0/pause 250/warp Jas -100 -100/playSound doorOpen/playSound cat/pause 1000/end",
+                "50706115/f Jas 2000/e 50706113/w sunny/z spring/z summer/d Fri/t 2100 2400": "nightTime/86 23/farmer 93 24 3 Jas -100 -100 0/skippable/addLantern 735 87 18 2/pause 1000/addTemporaryActor MrGinger 16 32 89 16 2 false/pause 500/move MrGinger 0 3 0 false/pause 100/playSound cat/warp Jas 90 16/pause 250/textAboveHead Jas \"{{i18n:8hearts.1}}\"/pause 400/move Jas 0 3 3 false/faceDirection MrGinger 1/pause 250/speak Jas \"{{i18n:8hearts.2}}\"/faceDirection MrGinger 3/pause 250/animate MrGinger false false 250 32 33/pause 400/faceDirection MrGinger 1/move MrGinger -3 0 1/move Jas -3 0 3/pause 250/speak Jas \"{{i18n:8hearts.3}}\"/pause 350/animate MrGinger false false 250 32 33/playSound cat/pause 400/pause 250/speak Jas \"{{i18n:8hearts.4}}\"/pause 250/animate MrGinger false false 250 32 12 32 12/pause 500/move MrGinger -3 0 1/playSound cat/move Jas -3 0 3/pause 500/emote farmer 16/pause 250/message \"{{i18n:8hearts.5}}\"/pause 250/move farmer -3 0 3/switchEvent JasInTheWoods",
+                "JasInTheWoods": "pause 50/globalfade/viewport -1000 -1000/changeLocation Woods/playMusic woodsTheme/addTemporaryActor ShadowPerson 16 32 -100 -100 2 false/warp Jas 8 8/faceDirection Jas 0/warp MrGinger 9 8/faceDirection MrGinger 0/warp farmer -100 -100/viewport 14 11/pause 500/speak Jas \"{{i18n:8hearts.6}}\"/playSound leafrustle/pause 250/textAboveHead Jas \"{{i18n:8hearts.7}}\"/pause 500/playSound shadowpeep/textAboveHead Jas \"{{i18n:8hearts.8}}\"/pause 250/animate MrGinger false false 250 30 31/shake Jas 250/textAboveHead Jas \"{{i18n:8hearts.9}}\"/pause 500/playSound shadowpeep/warp ShadowPerson 10 7/pause 500/jump Jas 4/pause 500/textAboveHead Jas \"{{i18n:8hearts.10}}\"/pause 500/playSound shadowpeep/move MrGinger 2 0 0/speak Jas \"{{i18n:8hearts.11}}\"/pause 300/move Jas 2 0 0/pause 350/emote Jas 56/pause 250/playSound shadowpeep/pause 250/speak Jas \"{{i18n:8hearts.12}}\"/pause 250/playSound shadowpeep/pause 250/animate ShadowPerson false true 250 4 5 6 7/playSound cat/pause 250/emote Jas 28/pause 250/speak Jas \"{{i18n:8hearts.13}}\"/pause 250/playsound shadowpeep/pause 250/shake Jas 250/pause 350/speak Jas \"{{i18n:8hearts.14}}\"/stopAnimation ShadowPerson/pause 250/playsound shadowpeep/pause 250/playsound newRecipe/pause 250/speak Jas \"{{i18n:8hearts.15}}\"/pause 250/animate ShadowPerson false false 250 4 5 6 7 8 9 10 11 12 13/playSound shadowpeep/pause 1000/pause 250/animate ShadowPerson false true 250 10 11 12 13/pause 500/pause 250/speak Jas \"{{i18n:8hearts.16}}\"/playSound shadowpeep/warp farmer 8 16/move farmer 0 -3 0/pause 250/emote farmer 16/pause 200/speed farmer 4/move farmer 0 -5 1/pause 250/faceDirection Jas 3/faceDirection MrGinger 2/animate MrGinger false true 250 20 21 22 23/speak Jas \"{{i18n:8hearts.17}}\"/stopAnimation ShadowPerson 13/stopAnimation MrGinger 20/pause 250/textAboveHead ShadowPerson \"{{i18n:8hearts.18}}\"/pause 350/emote farmer 32/pause 500/textAboveHead Jas \"{{i18n:8hearts.19}}\"/pause 250/faceDirection Jas 0/animate Jas false false 250 34 35 33 32 36/pause 1250/playSound newRecipe/faceDirection Jas 2/showframe Jas 30/pause 500/showframe Jas 37/pause 500/animate Jas false false 250 37 38 37 38 37 38 37 38/pause 2500/pause 1000/textAboveHead Jas \"{{i18n:8hearts.20}}\"/showframe ShadowPerson 14/changeSprite Jas NoBow/changePortrait Jas NoBow/move Jas 0 1 2/animate ShadowPerson false true 250 14 15 16 17/speak Jas \"{{i18n:8hearts.21}}\"/pause 250/stopAnimation ShadowPerson/pause 250/textAboveHead ShadowPerson \"{{i18n:8hearts.22}}\"/pause 250/faceDirection Jas 2/pause 250/pause 250/faceDirection Jas 0/speak Jas \"{{i18n:8hearts.23}}\"/pause 250/textAboveHead ShadowPerson \"{{i18n:8hearts.24}}\"/pause 450/emote Jas 20/pause 250/speak Jas \"{{i18n:8hearts.25}}\"/pause 250/playSound shadowpeep/textAboveHead ShadowPerson \"{{i18n:8hearts.26}}\"/pause 500/move Jas -2 0 3/faceDirection farmer 1/pause 500/speak Jas \"{{i18n:8hearts.27}}\"/pause 250/move Jas 1 0 0/pause 250/emote farmer 28/pause 1000/end",
+            }
+        },
+        {
+            "LogName": "Part 2 of woods event with Dianna instead of Alice",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "When": {
+                "HasMod": "Rafseazz.LunnaCP"
+            },
+            "Entries": {
+                "JasInTheWoods": "pause 50/globalfade/viewport -1000 -1000/changeLocation Woods/addTemporaryActor Dianna 16 32 -100 -100 2 false/warp Jas 8 8/faceDirection Jas 0/warp MrGinger 9 8/faceDirection MrGinger 0/warp farmer -100 -100/playMusic woodsTheme/viewport 14 11/pause 500/speak Jas \"{{i18n:8hearts.6}}\"/playSound leafrustle/pause 250/textAboveHead Jas \"{{i18n:8hearts.7}}\"/pause 500/playSound shadowpeep/textAboveHead Jas \"{{i18n:8hearts.8}}\"/pause 250/animate MrGinger false false 250 30 31/shake Jas 250/textAboveHead Jas \"{{i18n:8hearts.9}}\"/pause 500/playSound shadowpeep/warp Dianna 10 7/pause 500/jump Jas 4/pause 500/textAboveHead Jas \"{{i18n:8hearts.10}}\"/pause 500/playSound shadowpeep/move MrGinger 2 0 0/speak Jas \"{{i18n:8hearts.11}}\"/pause 300/move Jas 2 0 0/pause 350/emote Jas 56/pause 250/playSound shadowpeep/pause 250/speak Jas \"{{i18n:8hearts.12}}\"/pause 250/playSound shadowpeep/pause 250/animate Dianna false true 250 20 21 22/playSound cat/pause 250/emote Jas 28/pause 250/stopAnimation Dianna 0/jump Dianna 5/textAboveHead Dianna \"{{i18n:JasInTheWoods.08}}\"/pause 250/jump Jas 2/emote Jas 16/pause 350/shake Jas 500/textAboveHead Jas \"{{i18n:JasInTheWoods.09}}\"/pause 250/shake Dianna 500/speak Dianna \"{{i18n:JasInTheWoods.10}}\"/emote Jas 8/pause 500/speak Jas \"{{i18n:JasInTheWoods.11}}\"/pause 500/emote Dianna 12/pause 500/speak Dianna \"{{i18n:JasInTheWoods.12}}\"/pause 500/warp farmer 8 16/move farmer 0 -4 0/emote farmer 16/speak Jas \"{{i18n:JasInTheWoods.13}}\"/pause 500/speak Dianna \"{{i18n:JasInTheWoods.14}}\"/pause 400/speak Jas \"{{i18n:JasInTheWoods.15}}\"/jump Dianna 3/speak Dianna \"{{i18n:JasInTheWoods.16}}\"/move farmer 0 -3 0/animate Dianna false true 250 20 21 22/animate MrGinger false true 250 20 21 22 23/pause 250/faceDirection Jas 2/stopAnimation MrGinger 20/speak Jas \"{{i18n:JasInTheWoods.17}}\"/move Jas -1 0 2/move Jas 0 1 3/faceDirection farmer 1/speak Jas \"{{i18n:JasInTheWoods.18}}\"/stopAnimation Dianna 0/jump Dianna 3/speed Dianna 5/move Dianna 0 1 2/speed Dianna 5/move Dianna -2 0 2/speak Dianna \"{{i18n:JasInTheWoods.19}}\"/move Jas 0 -1 3/faceDirection Dianna 1/pause 500/faceDirection farmer 0/speak Jas \"{{i18n:JasInTheWoods.20}}\"/pause 500/speak Dianna \"{{i18n:JasInTheWoods.21}}\"/pause 500/speak Jas \"{{i18n:JasInTheWoods.22}}\"/pause 500/textAboveHead Dianna \"{{i18n:JasInTheWoods.23}}\"/pause 500/emote Jas 32/pause 500/faceDirection Dianna 2/speak Dianna \"{{i18n:JasInTheWoods.24}}\"/emote farmer 28/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "7-heart Event (Shane 8-heart dependent)",
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "50706114/f Jas 1750/e 3900074/z winter/t 1000 1600": "distantBanjo/27 14/farmer 22 15 1 Marnie 30 16 1 Jas -1000 -1000 0 Shane -1000 -1000 0/skippable/pause 1000/faceDirection Marnie 3/pause 400/speak Marnie \"{{i18n:7hearts.1}}\"/pause 1500/speak Marnie \"{{i18n:7hearts.2}}\"/pause 250/move farmer 8 0 0/pause 800/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addObject 8 3 178 0/addObject 9 3 178 0/addObject 10 3 178 0/addObject 11 3 178 0/addTemporaryActor Inigo 16 16 8 4 3 false/addTemporaryActor White_Chicken 16 16 -100 -100 2 false Animal Charlie/addTemporaryActor Blue_Chicken 16 16 1 4 1 false Animal chicken1/addTemporaryActor Blue_Chicken 16 16 10 4 3 false Animal chicken2/addTemporaryActor Blue_Chicken 16 16 11 7 3 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 5 6 0 false Animal chicken4/addTemporaryActor Void_Chicken 16 16 14 4 2 false Animal Ebony/warp Shane 5 3/showFrame Shane 28/warp Jas 4 3/faceDirection Jas 2/viewport 5 7 true/pause 500/move Ebony -1 0 3 true/pause 1000/move Inigo -3 0 3 true/pause 1500/move chicken2 0 2 2 true/Animate chicken3 false true 500 16 17 16 17 16 17/Animate chicken4 false true 450 20 21 20 21/pause 1000/speak Shane \"{{i18n:7hearts.3}}\"/pause 200/speak Jas \"{{i18n:7hearts.4}}\"/pause 500/emote Shane 40/pause 250/speak Shane \"{{i18n:7hearts.5}}\"/pause 300/playSound cluck/pause 250/speak Jas \"{{i18n:7hearts.6}}\"/move Ebony -6 0 0/playSound cluck/pause 400/speak Shane \"{{i18n:7hearts.7}}\"/pause 250/speak Shane \"{{i18n:7hearts.8}}\"/pause 400/speak Jas \"{{i18n:7hearts.9}}\"/pause 250/move Inigo -1 0 0/faceDirection Jas 1/speak Jas \"{{i18n:7hearts.10}}\"/pause 250/emote Shane 28/pause 250/showFrame Shane 29/pause 500/warp Charlie 5 4 2/showFrame Shane 30/playSound cluck/pause 500/playMusic echos/pause 400/showFrame Shane 19/speak Shane \"{{i18n:7hearts.11}}\"/pause 500/speak Jas \"{{i18n:7hearts.12}}\"/pause 500/emote Shane 20/pause 500/speak Shane \"{{i18n:7hearts.13}}\"/pause 350/speak Jas \"{{i18n:7hearts.14}}\"/pause 250/speak Shane \"{{i18n:7hearts.15}}\"/pause 500/emote Jas 20/pause 250/speak Jas \"{{i18n:7hearts.16}}\"/pause 250/speak Shane \"{{i18n:7hearts.17}}\"/pause 250/playSound doorClose/stopMusic/faceDirection Jas 2/FaceDirection Shane 2/warp farmer 3 8/pause 500/jump Jas 1/jump Shane 1/emote Shane 28/pause 250/speak Shane \"{{i18n:7hearts.18}}\"/pause 250/move farmer 0 -4 1/pause 400/speak Shane \"{{i18n:7hearts.19}}\"/pause 400/speak Jas \"{{i18n:7hearts.20}}\"/pause 250/emote Shane 60/pause 400/speak Shane \"{{i18n:7hearts.21}}\"/pause 500/emote farmer 32/pause 500/speak Jas \"{{i18n:7hearts.22}}\"/textAboveHead Shane \"{{i18n:7hearts.23}}\"/pause 1000/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "50706116/f Jas 2500/e 50706115/e 50706114/d wed/t 2100 2400": "nightTime/44 91/farmer 51 95 3 Jas 33 91 1/skippable/addLantern 735 47 85 5/addTemporaryActor MonaSpirit 16 32 -100 -100 1 false/changeName MonaSpirit Mona/showFrame MonaSpirit 1/addTemporaryActor MrGinger 16 32 35 91 1 false/move MrGinger 5 0 3/playSound cat/pause 250/move Jas 5 0 1/pause 250/speak Jas \"{{i18n:10hearts.1}}\"/pause 250/move MrGinger 5 0 2/pause 250/playSound cat/move Jas 5 0 1/pause 250/faceDirection MrGinger 3/speak Jas \"{{i18n:10hearts.2}}\"/playSound leafrustle/pause 250/textAboveHead Jas \"{{i18n:10hearts.3}}\"/faceDirection Jas 0/pause 250/faceDirection Jas 2/speak Jas \"{{i18n:10hearts.4}}\"/move MrGinger -1 0 3/pause 250/playSound cat/pause 250/move MrGinger 4 0 3/pause 250/playSound cat/pause 250/move Jas 4 0 1/pause 250/speak Jas \"{{i18n:10hearts.5}}\"/pause 250/shake Jas 250/speak Jas \"{{i18n:10hearts.6}}\"/pause 250/playSound cat/move MrGinger 0 -3 3 true/pause 250/move Jas 0 -3 0 true/pause 500/pause 250/speak Jas \"{{i18n:10hearts.7}}\"/pause 100/playMusic echos/speak Jas \"{{i18n:10hearts.8}}\"/move Jas -1 0 1/pause 250/addObject 47 88 595 0/pause 250/speak Jas \"{{i18n:10hearts.9}}\"/pause 250/playSound cat/pause 250/animate MrGinger false true 240 20 21 22 23 20 20 20 20 20 20 20 20 20/pause 250/speak Jas \"{{i18n:10hearts.10}}\"/pause 250/move farmer -4 0 0 true/playSound leafrustle/pause 250/faceDirection Jas 2/pause 250/stopAnimation MrGinger/showFrame MrGinger 19/pause 500/animate MrGinger false true 240 20 21 22 23 20 20 20 20 20 20 20 20 20/faceDirection Jas 1/pause 250/speak Jas \"{{i18n:10hearts.11}}\"/pause 250/emote farmer 32/emote Jas 20/pause 350/speak Jas \"{{i18n:10hearts.12}}\"/pause 500/faceDirection Jas 0/pause 1000/faceDirection Jas 2/stopAnimation MrGinger 20/pause 500/move Jas 0 4 3/move MrGinger 0 3 3/pause 250/faceDirection MrGinger 0/animate MrGinger false true 350 8 10 8 10/pause 250/stopMusic/playSound cat/pause 250/faceDirection Jas 1/textAboveHead Jas \"{{i18n:10hearts.13}}\"/pause 250/playMusic moonlightJellies/faceDirection Jas 0/pause 250/textAboveHead Jas \"{{i18n:10hearts.14}}\"/warp MonaSpirit 47 87/animate MonaSpirit false false 350 1 2 3 4/pause 1250/showFrame MonaSpirit 4/pause 250/animate MonaSpirit false true 1000 0 4 0 4/textAboveHead Jas \"{{i18n:10hearts.15}}\"/emote farmer 8/pause 450/speak MonaSpirit \"{{i18n:10hearts.16}}\"/pause 250/speed Jas 3/move Jas 0 -4 1/pause 250/speak Jas \"{{i18n:10hearts.17}}\"/pause 250/speak MonaSpirit \"{{i18n:10hearts.18}}\"/pause 250/speak Jas \"{{i18n:10hearts.19}}\"/pause 450/speak MonaSpirit \"{{i18n:10hearts.20}}\"/stopAnimation MonaSpirit 0/pause 250/showFrame MonaSpirit 5/pause 250/textAboveHead Jas \"{{i18n:10hearts.21}}\"/pause 250/speak MonaSpirit \"{{i18n:10hearts.22}}\"/pause 250/emote Jas 8/pause 500/speak MonaSpirit \"{{i18n:10hearts.23}}\"/pause 500/speak Jas \"{{i18n:10hearts.24}}\"/pause 500/move Jas 0 -1 1/pause 500/textAboveHead Jas \"{{i18n:10hearts.25}}\"/pause 250/animate MonaSpirit false true 250 11 7 8 9 10 11 11 11 11/pause 1500/stopAnimation MonaSpirit 11/pause 1250/speak Jas \"{{i18n:10hearts.26}}\"/showFrame MonaSpirit 11/pause 500/shake Jas 350/pause 500/pause 1000/playSound pickUpItem/warp MonaSpirit -1000 -1000/pause 500/pause 1000/speak Jas \"{{i18n:10hearts.27}}\"/stopAnimation MrGinger 0/pause 2000/playSound newRecipe/move Jas 0 3 2/move MrGinger -2 0 3/pause 250/playSound cat/faceDirection Jas 2/speak Jas \"{{i18n:10hearts.28}}\"/playSound cat/pause 250/emote farmer 20/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Penny schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "Entries": {
+                "Tue": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 AnimalShop 16 13 2 penny_read/2030 Trailer 4 9 1 penny_sleep"
+            },
+            "When": {
+                "PennySchedule": true
+            }
+        },
+        //Just an "easter egg" to confuse people
+        {
+            "LogName": "Pink Wader Migration part 1",
+            "Action": "EditImage",
+            "Target": "TileSheets/Critters",
+            "FromFile": "assets/PinkWader.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 320,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 320,
+                "Height": 32
+            },
+            "When": {
+                "Season": "Summer",
+                "Day": "12, 13, 14"
+            }
+        },
+        {
+            "LogName": "Pink Wader Migration part 2",
+            "Action": "EditImage",
+            "Target": "TileSheets/Critters",
+            "FromFile": "assets/PinkWader.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 32,
+                "Width": 128,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 32,
+                "Width": 128,
+                "Height": 32
+            },
+            "When": {
+                "Season": "Summer",
+                "Day": "12, 13, 14"
+            }
+        }
+    ]
+}

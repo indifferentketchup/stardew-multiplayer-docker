@@ -1,0 +1,15 @@
+{
+   "Name": "Krobus Dialogue Mod",
+   "Author": "MelindaC",
+   "Version": "1.0.3",
+   "Description": "A mod that features more dialogue from our favourite shadow creature.",
+   "UniqueID": "MelindaC.KrobusDialogueMod",
+   
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+"Dependencies": [
+    { "UniqueID": "gizzymo.canonfriendlyexpansion",
+}
+  ],
+}

@@ -1,0 +1,27 @@
+﻿{
+	"Name": "[PFM] PFM rules for Rodney",
+	"Author": "TheFrenchDodo",
+	"Version": "1.0.0",
+	"Description": "Recycling rules for Rodney.",
+	"UniqueID": "TheFrenchDodo.RodneyOBrien.PFM",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		    {
+			"UniqueID": "TheFrenchDodo.RodneyOBrien", 
+		    },
+			{
+			"UniqueID": "TheFrenchDodo.RodneyOBrien.JA",
+			},
+			{
+            "UniqueID": "DIGUS.ProducerFrameworkMod"
+			},
+			{
+            "UniqueID": "DIGUS.PFMAutomate",
+            "IsRequired": false,
+			}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

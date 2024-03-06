@@ -1,0 +1,18 @@
+[
+    {
+        "Id": "RodneyTheme",
+        "Filepath": "Music/RodneysTheme.ogg",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true
+        }
+    },
+    {
+        "Id": "TheSadOne",
+        "Filepath": "Music/TheSadOne.ogg",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true
+        }
+    },
+]

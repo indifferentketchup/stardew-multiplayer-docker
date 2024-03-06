@@ -1,0 +1,35 @@
+{
+   "Name": "Marnie Immersive",
+   "Author": "Lemurkat",
+   "Version": "1.5.6",
+   "Description": "Overhaul of dialogue and cut scenes for Marnie",
+   "UniqueID": "lemurkat.MarnieRanchPack",
+   "UpdateKeys": [
+      "Nexus:5070"
+   ],
+   "Dependencies": [
+      {
+         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "flashshifter.GrandpasFarm",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Wolf.Marlon",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "gizzymo.canonfriendlyexpansion",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Rafseazz.RSVCP",
+         "IsRequired": false
+      }
+   ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,182 @@
+{
+        "The1stQuestMail": "Baby Steps",
+		"The1stQuestMail.text": "@,^Welcome again to Stardew Valley!^^I thought you might be feeling lost or overwhelmed deciding what to do first. One of the easiest crops for farmers just starting out is parsnips. The seeds are cheap, they grow very quickly, and they're in season! You can get started right away. Why don't you start growing some parsnips, seeing as I left a box of them for you in your cabin?^^-Mayor Lewis %item quest 5000001 
+%%",
+		
+		"The2stQuestMail": "Healthy Eel",
+        "The2stQuestMail.text": "Dear @,^^You can catch eels in the sea on rainy days in spring. Eel is tasty, and when cooked, they are quite replenishing. Could you be a dear and catch some for me? I'll treat you to a meal after an evening out in the rain.^^-Evelyn %item quest 5000002 %%",
+
+		"The3stQuestMail": "A Sculpture of Nature",
+        "The3stQuestMail.text": "Hello, @!^^I heard you know how to fish. Sometimes when you're fishing, you pick up some driftwood, right? Most people think of driftwood as useless, but as a sculptor, I've always found driftwood to be a wonderful material to work with. Unfortunately, I don't own a fishing rod and can't get any myself. I'd appreciate it if you could get some driftwood and sell it to me.^^-Leah %item quest 5000003 %%",
+
+		"The4stQuestMail": "Sublime Strawberries",
+        "The4stQuestMail.text": "Dear @,^^How's your new life as a farmer going? Well, I hope! Be careful not to go overboard, but if you do, the clinic where I work sells some tonics to help you recuperate.^^Speaking of selling, Pierre will be selling strawberry seeds at the Egg Festival in a few days. Strawberry seeds aren't available all spring, so that'll be your only chance to pick some up until next year. I wish Pierre could sell them all the time...but then again, we don't have enough space to grow as many as I would like!^^Why don't you buy some seeds at the Egg Festival and start farming strawberries? I'd be more than happy to buy some from you directly! I've heard that farming strawberries has good returns, so you have nothing to lose.^^-Maru %item quest 5000004 %%",
+
+		"The6stQuestMail": "Slime Problem",
+        "The6stQuestMail.text": "@,^^If you've been to the mines by now, I'm sure you've run into some slimes already. They're not deadly alone or in pairs, but any more than that can ruin your day.^^You've probably guessed I have to go the mines for my work, but those slimes are really starting to get in the way. If you have time and you're up for it, I'd appreciate you getting rid of them. Bring me some slime as proof. (That isn't weird, right?)^^-Clint %item quest 5000006 %%",
+
+		"The7stQuestMail": "Responsible Cattle Rancher",
+        "The7stQuestMail.text": "Dear @,^^I wanted to give you some advice in case you're interested in raising livestock. Animals cannot go out when it rains or during the winter, so you have to give them hay. You can buy some from me, but I'm not always working and the ranch is closed on holidays. You should build a silo and stock up on hay in advance by cutting some grass. Better safe than sorry!^^-Marnie %item quest 5000007 %%",
+
+		"The8stQuestMail": "Sisterly Birthday Present",
+        "The8stQuestMail.text": "@,^^Would you do me a favor? It's Emily's birthday in a few days. I want to give her some aquamarine as a gift, but I don't know where to find any. You know where to get that sort of thing, right? I'll be waiting for you.^^-Haley %item quest 5000008 %%",
+
+		"The9stQuestMail": "Jas' Request",
+        "The9stQuestMail.text": "Dear Farmer @,^^I would like to give Aunt Marnie a shell necklace as a present. But she asked me to help her bake a pink cake, so I don't think I have time to go to the beach. Could you pick up pretty clam shells for me? Pretty please?^^-Jas %item quest 5000009 %%",
+
+		"The10stQuestMail": "Pierre's Glasses",
+        "The10stQuestMail.text": "Dear @,^^I must've gone a bit overboard at the saloon last night because I couldn't find my glasses this morning! I'd look for them myself but I have to tend the storefront. I'd appreciate it if you could find them for me.^^-Pierre %item quest 5000010 %%",
+
+		"The11stQuestMail": "Fruit or Vegetable?",
+        "The11stQuestMail.text": "People are divided over whether tomatoes are fruits or vegetables, but everyone can agree that spaghetti with tomato sauce is delicious.^^Try growing some tomatoes on your farm. %item quest 5000011 %%",
+
+		"The12stQuestMail": "Garbage in the Water",
+        "The12stQuestMail.text": "Ahoy, @!^^I don't know if you've been fishing much, but if you have, I'm sure you've noticed there's a lot of trash gunking up the waterways. The Valley used to have real clean water, but these days, garbage keeps being dumped into our rivers and ocean. I keep finding fish caught up in plastic bags or with a bunch in their bellies. It's no good, and no fisher worth their salt can sell that with a clear conscience. I've been doing my best to pick 'em out but it's not enough for one fellow to do alone.^^You seem to love the sea and rivers and lakes as much as I do. Will you join me in clearing up the water for the fish?^^-Willy %item quest 5000012 %%",
+
+		"The13stQuestMail": "Dog Days",
+        "The13stQuestMail.text": "The kids in town don't seem to have the strength to play because of the heat.^^Why don't you buy them ice cream as a treat? %item quest 5000013 %%",
+
+		"The15stQuestMail": "An Unpleasant Smell",
+        "The15stQuestMail.text": "Dear @,^^I've run into a problem I can't quite solve myself. It might be that I'm overly sensitive, but I hate spice berries. In the summer, they're just all over the place! The smell is foul to me. Being so picky will set a bad example for my children, but I simply cannot get used to them. I've thought about it, and Robin seems to like spice berries. Could you collect all the ones around Pelican Town so I can give them to her?^^-Jodi %item quest 5000015 %%",
+
+		"The16stQuestMail": "Bat Infestation",
+        "The16stQuestMail.text": "Dear @,^^Bats have been overrunning the town late at night! As the number of adventurers from the guild has decreased, the number of bats has gone up. They pose a danger to the villagers and they keep hurting everyone's crops. I'll reward you if you deal with this nuisance and bring me their wings as proof.^^-Mayor Lewis %item quest 5000016 %%",
+
+		"The17stQuestMail": "Respect For Nature",
+        "The17stQuestMail.text": "Development is good, but if you want to do it sustainably, you have to make recycling a part of your life. Even things that seem useless can be valuable again.^^Make a 'Recycling Machine'.  %item quest 5000017 %%",
+
+		"The18stQuestMail": "High-Protein Routine",
+        "The18stQuestMail.text": "Hey @!^^I was watching TV yesterday and I heard that eating more than two eggs after weight training helps get those gains. Can I buy the biggest, freshest eggs on your farm?^^-Alex %item quest 5000018 %%",
+
+		"The19stQuestMail": "Sorcerer's Cauldron",
+        "The19stQuestMail.text": "Young @,^^I'm formulating a new healing concoction and I urgently need more purple mushrooms.^^I'll give you a generous reward if you bring them to me quickly.^^-Rasmodius %item quest 5000019 %%",
+
+		"The21stQuestMail": "Undying Love",
+        "The21stQuestMail.text": "Farmer @,^^I'm a little embarrassed, but I'm writing because I have something I'd like to discuss with you. The flower my wife loves the most is a 'Fairy Rose' and I want to give some to her as a gift. Can you grow enough of them for me to make a bouquet?^^-George %item quest 5000021 %%",
+
+		"The22stQuestMail": "To Make A Keg",
+        "The22stQuestMail.text": "Wine production can be a good choice if you want to make a lot of money.^^Try making a Keg to get started. %item quest 5000022 %%",
+
+		"The23stQuestMail": "Sweet Maple Syrup",
+        "The23stQuestMail.text": "Dear @,^These days, Vincent asks me to make pancakes every morning, but the 'Maple Syrup' from Joja just doesn't cut it. I don't want to buy any unless it's genuine maple syrup...^If it's from your farm, I think I can trust it. Could you bring some over?^^-Jodi %item quest 5000023 %%",
+
+		"The24stQuestMail": "Mill Construction",
+        "The24stQuestMail.text": "Hi @, It's Robin!^^Autumn is coming to an end. Have you farmed much wheat? If you have a mill on your farm, you can make your own flour using wheat and sugar using beets. It'll take a load off your wallet if you do it yourself.^^If you're interested in building a mill, come visit me with the materials and money!^^-Robin %item quest 5000024 %%",
+
+		"The25stQuestMail": "Special food for a Special Grandson",
+        "The25stQuestMail.text": "Dear Farmer @,^^It's getting quite chilly these days. Are you staying warm? It's easy to catch a cold during the change of seasons, so take care of your health!^^I don't want to burden you, but I have a little favor to ask of  you. Alex's favorite food is 'Salmon Dinner', and I want to cook it for him. If you have the time, could you bring me some fresh salmon?^^-Evelyn %item quest 5000025 %%",
+
+		"The26stQuestMail": "Bestie",
+        "The26stQuestMail.text": "Hey @!^^You know how Sebastian and I are really tight? I wanna give him a present, but Sebastian's a little...unique. He really likes bug steak, believe it or not. He's loved it ever since he was a kid!^^I'd give it to him myself, but you can only get bug meat from the mines, and you know how my mom is. Can you make some bug steak and give it to him?^^-Sam %item quest 5000026 %%",
+
+		"The29stQuestMail": "A Cozy Wool Blanket",
+        "The29stQuestMail.text": "Dear @,^How are you doing? I hope farming is going well!^^I have a request for you: I'm sensitive to cold and would really like a wool blanket this time of year. Emily is good at sewing, so I asked her to make one for me, but she lacks the wool. Could you bring Emily some?^^-Caroline %item quest 5000029 %%",
+
+		"The30stQuestMail": "Strong Caffeinated Stimulant",
+        "The30stQuestMail.text": "Dear @,^I've been staying up all night these days because I have an important paper to submit to some medical journals. Just coffee isn't cutting it anymore for me. I've definitely built up a tolerance for caffeine!^^Have you grown or cooked anything that's stronger than a normal cup of coffee? If you have, could you deliver some to me?^^-Dr. Harvey %item quest 5000030 %%",
+
+		"The31stQuestMail": "Classical Aesthetics",
+        "The31stQuestMail.text": "Dear @,^^I'm writing to make a special request.^^As you may have noticed, I prefer a classic approach to the sleek and modern styles of today. Ballpoint pens are easy enough to use, but it simply does not feel right. Thus I've taken to using quills, but mine is currently damaged for all my writing. I thought of ordering one from ZuZu City, but then it struck me to order from you instead of not knowing from whence the feather came. I will rest easy knowing my quill came from a sustainable farm with animals that are well cared for. Could you spare some for me? I will be waiting for you.^^Respectfully yours,^^Elliott %item quest 5000031 %%",
+
+		"The33stQuestMail": "Cunning Creature",
+        "The33stQuestMail.text": "@,^^Have you ever caught an octopus? They're usually only out during the summer, but they can be caught in that Night Market submarine in the winter. These creatures are so crafty and quick-witted that they're hard to catch, even for me with my lifetime of fishing.^^You're as skilled a fisher as I've ever seen, so I challenge you to give it a try!^^-Willy %item quest 5000033 %%",
+
+		"The34stQuestMail": "Precious Precious Minerals",
+        "The34stQuestMail.text": "@,^^Have you heard of iridium? It's a precious ore that I can't seem to find anywhere. I've always wanted to try making tools with iridium. If you find any, can you bring them to me? I'll buy at a high price. There are rumors of it being found in the desert, but I've never seen it myself so I can't be sure.^^-Clint %item quest 5000034 %%",
+
+		"The35stQuestMail": "Play Clay",
+        "The35stQuestMail.text": "Dear @,^^How have you been? Is farming going well? I'm teaching Jas and Vincent as usual. Since the weather's been chilly, I've been giving all my classes indoors, but I think the children are feeling cooped up. I have an idea for using clay to cultivate creativity and teach about pottery, but I need a lot of it and don't know where to get enough, so I thought I'd ask you. Of course, if you are too busy, you can refuse! But if you could help me...^^I'd really appreciate it.^^-Penny %item quest 5000035 %%",
+
+		"The36stQuestMail": "Lumberjack",
+        "The36stQuestMail.text": "As the fireplace burns day and night in the cold weather, a lot of firewood is needed. The more the better, so chop chop! %item quest 5000036 %%",
+
+		"The37stQuestMail": "Happy New Year",
+        "The37stQuestMail.text": "Your first year in Stardew Valley is almost over.^^Why don't you bake a Chocolate Cake today to celebrate the end of a successful year? %item quest 5000037 %%",
+
+		"The38stQuestMail": "King of Fish",
+        "The38stQuestMail.text": "@,^^Have you ever heard of the Legend? He's the king of all fish, caught just once every hundred years. Only my great-grandpappy ever got to catch it in my family. But I think you have a chance too.^^The stories say the Legend appears only on rainy days, southeast of the small island in the lake. That might be a good spot to start fishing.^^Best of luck.^^-Willy %item quest 5000038 %%",
+
+		"The39stQuestMail": "A General Cleaning",
+        "The39stQuestMail.text": "Dear @,^^I let myself take it easy this winter and you know what that means: spring cleaning!^^I want to scrub the dirty windows and mirrors, but I need newspaper. I know it sounds strange, but wet newspaper can be used to clean class, and I personally prefer it. Anyway, if you have extra newspapers, could you bring them to me?^^(You'd think old ones would be easy to find, but Pierre keeps throwing them away.)^^-Caroline %item quest 5000039 %%",
+
+		"The40stQuestMail": "New Crops In Spring",
+        "The40stQuestMail.text": "Hey @,^I hear Pierre's selling garlic seeds now. I've never amounted to much in the kitchen, but I want to try cooking with it. I'm all about that spice and garlic's supposed to go really well with peppers. Why don't you try growing them and bringing me some?^^-Shane %item quest 5000040 %%",
+
+		"The41stQuestMail": "Maru's Lost Item",
+        "The41stQuestMail.text": "@, I need your help!^^Some bird swooped in while my window was open and took my materials. I've heard that crows like sparkly things, but I didn't think it'd come into a house to steal my stuff! If you have some free time, could you help me recover them?^^-Maru %item quest 5000041 %%",
+
+		"The43stQuestMail": "Lucky Rabbit's Foot",
+        "The43stQuestMail.text": "Dear @,^^How are you doing? It's a little strange to be writing a letter to someone who lives so close to me, but I've been so busy I can't drop by.^^I've entered an art competition in the sculpting division. It's held in Zuzu City, and there must be a lot of outstanding sculptors who will participate. I'll do my best, but I can't help but feel terribly nervous...^^I could really use some moral support, so come visit me when you have the time?^^-Leah %item quest 5000043 %%",
+
+		"The44stQuestMail": "The Jewel And The Cactus",
+        "The44stQuestMail.text": "Farmer @,^^I know I have a reputation in town for being some good-for-nothing lush, but Penny's been working real hard around the house, and I might've snapped at her a little the other day. I want to make it up to her by getting her something nice, like an emerald. I mean, diamonds would be way better but they're too expensive. And I'd appreciate it if you gave it to her for me. I don't think I can show my face to her for a little while.^^-Pam %item quest 5000044 %%",
+
+		"The46stQuestMail": "Luxurious Delicacies",
+        "The46stQuestMail.text": "Dear @,^As mayor, I like to invite the governor and other officials to Pelican Town now and then. I like to showcase our community's absolute best at dinner. Last year's dinner featured truffles, but I can't serve the same thing twice in a row! So I thought about it and I think something like caviar would be suitable.^^Of course it's rather difficult to acquire, but I can think of no one better to do the job. Just think of it as an investment into our lovely town.^^I'll be waiting!^^-Lewis %item quest 5000046 %%",
+
+		"The47stQuestMail": "A Talented Designer",
+        "The47stQuestMail.text": "Hi, @!^^I had the wildest dream the other night where I was wearing a dress the most fabulous shade of pink. I was going to order some dye from Zuzu City, but they didn't have the right color. I've decided I'll make the dye myself out of all natural materials, and coral should work best. Could you get me some?^^-Emily %item quest 5000047 %%",
+
+		"The48stQuestMail": "Colorful Gem",
+        "The48stQuestMail.text": "The prismatic shard is the rarest jewel in the world. It's said to be so beautiful that many different cultures recognize and revere it.^^Why don't you try finding this precious mineral? %item quest 5000048 %%",
+
+		"The49stQuestMail": "For a Gentleman",
+        "The49stQuestMail.text": "@,^^The other day I caught myself in the mirror and almost didn't recognize myself. I know it's a little late for a New Year's resolution, but I need to take better care of myself.^^I overheard Emily saying that red cabbage is full of antioxidants. Since you're such a big-shot farmer, could I buy some off you?^^-Clint %item quest 5000049 %%",
+
+		"The50stQuestMail": "My Little Maple Tree",
+        "The50stQuestMail.text": "Deer Farmer @,^^I am writing a letter becus I hav a questun. Your a very very good farmer so you must now alot about trees. I plantd a mapul tree, and he is my new frend. But he hazint growed in a long tim. I think he mit be sik.^If you now how to help him, come see us in the forist!^^-Vincent %item quest 5000050 %%",
+
+		"The51stQuestMail": "Monkeys Love Bananas.",
+        "The51stQuestMail.text": "Dear @,^^I'm writing to ask you a favor.^^I usually avoid anything that suppresses life, but I've heard of a zoo that actively strives to protect endangered animals. The habitats are well-maintained and were created to be as true to their homes as possible. They also have a program for the animals that cannot be reintroduced into the wild where visitors can be educated about them close-up.^^I think Jodi and the kids would like to go, especially Vincent. That education program also allows people to feed animals, and I think monkeys are supposed to love bananas? Shipping costs make bananas too expensive to buy, but if you have any, I would like to buy some from you.^^-Kent %item quest 5000051 %%",
+
+		"The52stQuestMail": "Wedding Anniversary",
+        "The52stQuestMail.text": "@,^^I was looking at the calendar this morning and noticed it's our wedding anniversary in a few days. Robin's absolute favorite fruit is peaches. When she was young, her wish was to marry a man who owned a peach farm.^^I don't have a farm, but you do. So I'd like to order a crate of sweet peaches.^^-Demetrius %item quest 5000052 %%",
+
+		"The53stQuestMail": "Dwarf's Hat",
+        "The53stQuestMail.text": "@,^I explored the middle of town last night. I was wearing my helmet but it was hotter than I thought it would be. I guess I'm not familiar enough with the weather because I live in a nice, cool cave.^^Anyway, I took off my helmet because it was hot, but I must have dropped it somewhere because I realized I didn't have it when I returned home.^^It's too risky for me to search around for my helmet, so please find it for me.^^-Dwarf %item quest 5000053 %%",
+
+		"The54stQuestMail": "Electrical Necessity",
+        "The54stQuestMail.text": "Hey @.^I have an important project I'm working on, but my computer's power went out yesterday. I think something's wrong with the power supply or plug or something.^^I've ordered some new parts, but it means I can't work on that project until they've been delivered. Could you bring me some battery packs if you have some spares? I should be able to draw enough electricity from that.^^Thanks,^^Sebastian %item quest 5000054 %%",
+
+		"The55stQuestMail": "An Exotic Dish",
+        "The55stQuestMail.text": "Dear @,^^I recently learned about escargot while reading a cooking magazine. Making a dish of snails sounds very suspect, but now I'm really curious. If there were snails here in the desert, they would dry up right away, so I can't really get any myself.^^Emily mentioned you're good at cooking. Could you make some escargot for me? You know where to find me if you want to help a girl out!^^-Sandy %item quest 5000055 %%",
+
+		"The56stQuestMail": "A Taste of Remembrance",
+        "The56stQuestMail.text": "Hi, @!^^Hope you're doing okay, farming's going well, yadda yadda.^^You know how my dad came home this year? He's been keeping to himself a lot, but whenever I do catch him, he looks super down and stuff. I've been thinking a lot about what I can do for him, and I've settled on cooking him some baked hazelnuts (Mom mentioned grandma used to cook it for my dad a lot). I went around the woods with Vincent to find hazelnuts, but we couldn't find any because Vincent kept getting distracted and I had to make sure he didn't hurt himself somehow.^^Since you're like a master of all things Nature, I wanted to know if you had any extra hazelnuts you could sell to your pal Sam.^^Thanks in advance! %item quest 5000056 %%",
+
+		"The57stQuestMail": "Abigail's Ancient Sword",
+        "The57stQuestMail.text": "Dear @,^^The weirdest thing happened to me yesterday. I was chilling in the forest like ya do and I was passing by that creepy sewer south of Leah's house when I heard this noise! I was so surprised that I ran away, and I must've lost my sword somewhere in the scramble. Dad's been on my case about helping around the shop so I can't go back to look for it.^^You're pretty brave, so could you find it for me instead?^^-Abigail %item quest 5000057 %%",
+
+		"The58stQuestMail": "Big Hard Yellow Fruit",
+        "The58stQuestMail.text": "Hello, @.^With the weather being nice and cool I thought I'd get some fresh air during the night. I saw a very big yellowish, hard-skinned fruit. I don't know what it is, but it smelled so good that I nearly took a bite.^^You must know what it was, no? If you could please bring me some to try...^^-Krobus %item quest 5000058 %%",
+
+		"The59stQuestMail": "A Kind Doctor",
+        "The59stQuestMail.text": "Dear @,^^I have a request for you. Whenever children come to the clinic, they're always rather afraid. It's natural that children don't like it since they associate it with foul-tasting medicine and receiving shots. So I've taken to giving candy to reduce the children's fear of hospital. I've usually ordered candy at Jojamart or online shopping, and this is where you come in.^^I've been feeling guilty for giving these children such unhealthy, overprocessed sweets. I want to buy organic homemade candies. Needless to say, my skills aren't honed for such a thing, but I trust the food you make. If you could make some, I'd like a candy that's better for your health without sacrificing taste.^^-Harvey %item quest 5000059 %%",
+
+		"The61stQuestMail": "Green Food",
+        "The61stQuestMail.text": "Green food relaxes your body and mind. Among them, green tea is said to be the most representative of this aspect of relaxation.^^How about a cup of warm green tea after a long day of farming? %item quest 5000061 %%",
+
+		"The62stQuestMail": "Special Food In Autumn",
+        "The62stQuestMail.text": "Dear @,^^The best delicacies come from nature, and shad is a fish that does not disappoint. It's so good that it'd bring a runaway cat back home. Could you catch some fresh shad and bring it to me?^^-Linus %item quest 5000062 %%",
+
+		"The64stQuestMail": "Winterization",
+        "The64stQuestMail.text": "Hi, @!^^It's already winter, so I hope you've finished all the proper preparation for the cold. It's only going to get chillier from today onward, and I've received a lot of requests for boiler inspections. It's good to do it in advance in the fall, but I've gotten a bunch of the townspeople asking for me to do it. I thought people wouldn't put it off this year and didn't set aside enough materials to work with, so could I ask you to supply me with some coal and hardwood? I should be able to start working right away if you do.^^Thanks in advance!^^-Robin %item quest 5000064 %%",
+
+		"The66stQuestMail": "Bitter But Wholesome",
+        "The66stQuestMail.text": "@,^^My grandmother gets a sore throat in the middle of winter every year. I searched the Internet for something good to prevent a cold, and I heard that it's very healthy to make tea with honey in the water, along with 'Winter Root'. I bought a packet of honey from Pierre's General Store, but I don't know where to get the roots.^^@, you're pretty familiar with this kind of thing, so could you bring me some?^^-Alex  %item quest 5000066 %%",
+
+		"The67stQuestMail": "Hot Mead",
+        "The67stQuestMail.text": "Hey farmer,^^This winter's sure been unusually cold. The other day I was trying to watch TV, but it was so freezing that I couldn't concentrate!^^I'm gonna let you in on a secret: drinking hot mead is the best way to warm up! Sounds amazing just thinking about it. Heat up the mead, get under a blanket, turn on the old squawk box...^^Now, the mead needs to be made of real honey, not that trash with the fake honey smell. You've helped me out before, so I'm counting on you again. Be a good kid and bring ole Pam some good genuine mead.^^-Pam %item quest 5000067 %%",
+
+		"The68stQuestMail": "Squirrel's Emergency Food",
+        "The68stQuestMail.text": "@,^^Can you believe it's already been two years since you came to the Valley? A lot has happened and I've learned you're a warm person with a good heart.^^I was walking around the woods last night when I found squirrels nibbling on rotten tree roots. I don't know why, but there seems to be nothing for them to eat this winter. I shouldn't go against the way of nature, but my heart aches and I can't pretend I haven't noticed. I've been picking up any acorns I see and put them where I know the squirrels will find them, but I've found far from enough.^^Could you bring me as many acorns as you can? I don't have much money to repay you for your hard work, but if you help, we will save a lot of precious lives.^^-Linus %item quest 5000068 %%",
+
+		"The69stQuestMail": "Caroline's Tea Party",
+        "The69stQuestMail.text": "Dear @,^^There's a tea set from the Gotoro Empire that I've cherished since I was young. It's been passed down through my family for ages. A few days ago, I had a tea party with some friends at the community center and it's gone missing since then. I went back to the community center, but I couldn't find it...^^If you have time, could you please help me find my tea set? I have no way of replacing it and it'd break my heart to know a treasured heirloom is just gone.^^-Caroline %item quest 5000069 %%",
+
+		"The70stQuestMail": "The Biggest Egg in the World",
+        "The70stQuestMail.text": "Hi, @!^^Miss Penny is helping me write this letter. I wanted to give you a farming tip!^^There are people in your village who raise animals, especially chickens. Chickens are good animals, but people don't know that ostriches can be even better. Ostriches are tall and have wonderful wings, even though they can't fly! The ostrich lays eggs once every seven days and they are very big. I've tried ostrich eggs before and they're delicious!^^So the tip is that you should keep some ostriches. People should know how good ostriches and their eggs are. If you do, maybe you can bring me some leftovers!^^-Leo %item quest 5000070 %%",
+
+		"The71stQuestMail": "Lewis's Concern",
+        "The71stQuestMail.text": "Dear @,^^I'm writing to assign an important task to you. I was enjoying the winter sea at the beach last night when I dropped my bottle of wine and broke it. I've picked up all the visible fragments of glass, but I know I missed some pieces. The light was so dim that I could barely find any as it was. I'm very worried that someone might step on that glass and get hurt.^^@, please help me and find the rest of the shards! I can't have anyone getting hurt when the weather gets warm again. I trust you to take care of this!^^-Lewis %item quest 5000071 %%",
+}

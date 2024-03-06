@@ -1,0 +1,26 @@
+{
+    "Name": "The Tarot Revealed",
+    "Description": "A complete guide to the Ferngill-O'Brien-Smith Tarot by Edwina O'Brien", 
+    "Category": "ArtisanGoods", 
+    "CategoryTextOverride": "Book",
+    "Edibility": -300,
+    "CanSell": true,
+    "Price": 500,
+//	"PurchasePrice": 200,
+//    "PurchaseFrom": "STF.CharityBookShop",
+
+    "GiftTastes": 
+    {   
+		"Love": [ "SenS", "RodneyOBrien", "Wizard", "Emily", "MeredithOBrien", "Thompson" ],
+        "Like": [ "Universal" ],
+        "Neutral": [ "Dwarf", "Alex", "Sondra", "Gunnar" ],
+        "Dislike": [ "PlumForrest" ],
+        "Hate": [ "EdwinaOBrien", "Demetrius" ]
+    },
+    "TranslationKey": "object.the-tarot-revealed",
+    "HideFromShippingCollection": true,
+
+}
+
+//NPC names:
+//  "Anew", "Mateo", "Hector", "Dex", "Gabe", "Elliott", "Gus", "Gunther", "GuntherSilvian", "Leah", "OliverK", "Aziraphale", "Sophia", "Olivia", "Cambria", "Haley",  "Nova.Dylan", "Nova.Eli", "VivienneLK", "Susan", "Hawthorn", "Abigail", "Emily", "Evelyn", "George", "Harvey", "Jas", "Shane", "Vincent", "Alex", "Caroline", "Willy", "Linus", "Jodi", "Kent", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leo", "Apples", "Lewis", "RodneyOBrien", "Wizard", "Clint", "Pam", "Demetrius", "Dwarf", "MeredithOBrien", "EdwinaOBrien", "Marlon", "MarlonFey", "Andy", "Victor", "Lance"

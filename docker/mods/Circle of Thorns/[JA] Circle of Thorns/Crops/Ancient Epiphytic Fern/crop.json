@@ -1,0 +1,22 @@
+{
+	"Name": "Ancient Epiphytic Fern",
+	"Price": 300,
+    "Product": "Ancient Epiphytic Fern",
+	"SeedName": "Ancient Epiphytic Fern Seeds",
+	"SeedDescription": "Previously dormant. Grown in Spring and Summer. Takes fourteen days, regrows in seven.",
+	"Type": "Vegetable", 
+	"CropType": "Normal",
+	"Seasons": [ "spring", "summer" ],
+	"Phases": [1, 3, 3, 4, 3,],
+	"RegrowthPhase": 6,
+	"HarvestWithScythe": true, 
+	"TrellisCrop": false,
+	"Bonus": null,
+	"MinimumPerHarvest": 1,
+	"MaximumPerHarvest": 1,
+	"MaxIncreasePerFarmLevel": 40, 
+	"ExtraChance:": 0,
+	"TranslationKey": "crop.ancient.epiphytic.fern",
+	"SeedTranslationKey": "crop.ancient.epiphytic.fern.seed",
+
+}

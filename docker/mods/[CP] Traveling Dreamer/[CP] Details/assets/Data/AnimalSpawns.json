@@ -1,0 +1,36 @@
+{
+    "Changes": [
+              {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+          "When": {
+                 "Relationship:Barron": "Unmet,Friendly"
+            },
+         "MapTiles": [
+            {
+               "Position": { "X": 17, "Y": 11 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.BarronsAnimals.Jinx"
+               }
+            },
+         ]
+      },
+                    {
+         "Action": "EditMap",
+         "Target": "Maps/Farm",
+          "When": {
+                 "Relationship:Barron": "Married,Engaged"
+            },
+         "MapTiles": [
+            {
+               "Position": { "X": 71, "Y": 9},
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.BarronsAnimals.Jinx"
+               }
+            },
+         ]
+      }
+]
+}

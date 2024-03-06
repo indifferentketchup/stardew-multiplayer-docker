@@ -1,0 +1,15 @@
+{
+	"Name": "Ancient Glowing Polypore Mushroom",
+	"Price": 300,
+    "CanSell": true,
+	"Description": "A resilient, faintly glowing mushroom with an earthy smell to it.",
+	"Category": "Vegetable", 
+	"CategoryTextOverride": "Druidic",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"GiftTastes":
+    {
+        "Love": ["Hector"]
+    }
+
+}

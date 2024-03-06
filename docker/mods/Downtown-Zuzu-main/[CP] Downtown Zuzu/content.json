@@ -1,0 +1,948 @@
+{
+	"Format": "1.23.0",
+	"CustomLocations": [
+		// adding the custom locations
+		{
+			"Name": "Custom_DTZ_ZuzuCity1",
+			"FromMapFile": "assets/DowntownZuzuBusStop.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_PlaneSky",
+			"FromMapFile": "assets/PlaneSky.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Airport",
+			"FromMapFile": "assets/Airport.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ResortAirport",
+			"FromMapFile": "assets/AirportIsland.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ResortSouth",
+			"FromMapFile": "assets/ResortSouth.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaMini",
+			"FromMapFile": "assets/JojaMini.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuCityCrossroads1",
+			"FromMapFile": "assets/DowntownZuzuCrossroads.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_CrossNorth",
+			"FromMapFile": "assets/DowntownZuzuCrossNorth.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_CrossEast",
+			"FromMapFile": "assets/DowntownZuzuCrossEast.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaHQ",
+			"FromMapFile": "assets/JojaHQ.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaHQAppreciation",
+			"FromMapFile": "assets/JojaHQAppreciation.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuCityFreeway1",
+			"FromMapFile": "assets/DowntownZuzuFreewayTrans.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuCityOasis1",
+			"FromMapFile": "assets/DowntownZuzuBeach.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuCitySewer",
+			"FromMapFile": "assets/ZuzuCitySewer.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuCitySecretQi",
+			"FromMapFile": "assets/ZuzuQiSewer.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_SancInt",
+			"FromMapFile": "assets/DowntownZuzuSanctuaryInterior.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_DavidRoom",
+			"FromMapFile": "assets/DowntownZuzuDavidRoom.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_OasisCave",
+			"FromMapFile": "assets/DowntownZuzuOasisCave.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Forest2",
+			"FromMapFile": "assets/DowntownZuzuForest.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_TrainStation",
+			"FromMapFile": "assets/DowntownZuzuTS.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaOffices",
+			"FromMapFile": "assets/JojaHQOffices.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Apartment1a",
+			"FromMapFile": "assets/ZuzuApartment1a.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Apartment1b",
+			"FromMapFile": "assets/ZuzuApartment1b.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Apartment1c",
+			"FromMapFile": "assets/ZuzuApartment1c.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Apartment1d",
+			"FromMapFile": "assets/ZuzuApartment1d.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaElevHall",
+			"FromMapFile": "assets/JojaHQElevHall.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaCEO",
+			"FromMapFile": "assets/JojaCEO.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaCEOScattered",
+			"FromMapFile": "assets/JojaCEOScattered.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaCEOBetrayal",
+			"FromMapFile": "assets/JojaCEOBetrayal.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ApartmentLobby",
+			"FromMapFile": "assets/ApartmentLobby.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_OasisCaveUnder",
+			"FromMapFile": "assets/DowntownZuzuOasisCaveB.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_OasisCaveJungle",
+			"FromMapFile": "assets/DowntownZuzuOasisCaveC.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_OasisCaveDark",
+			"FromMapFile": "assets/DowntownZuzuOasisCaveD.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_OasisCaveLava",
+			"FromMapFile": "assets/DowntownZuzuOasisCaveE.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_OasisCaveHouse",
+			"FromMapFile": "assets/DowntownZuzuCaveHouse.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuCitySewerTunnel",
+			"FromMapFile": "assets/ZuzuCitySewerTunnel.tmx"
+		},
+    {
+      "Name": "Custom_DTZ_ZuzuCitySewerSecret",
+      "FromMapFile": "assets/ZuzuCitySewerSecret.tmx"
+    },
+		{
+			"Name": "Custom_DTZ_NightClubEntrance",
+			"FromMapFile": "assets/DowntownZuzuNightClubEntrance.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_NightClubBathrooms",
+			"FromMapFile": "assets/DowntownZuzuNightClubBathrooms.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_NightClubMain",
+			"FromMapFile": "assets/DowntownZuzuNightClub.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_JojaHQCafe",
+			"FromMapFile": "assets/JojaHQCafe.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_GasStation",
+			"FromMapFile": "assets/ZuzuCityGasStation.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_GasInt",
+			"FromMapFile": "assets/ZuzuCityGasInterior.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_BruisersHideout",
+			"FromMapFile": "assets/ZuzuCityBruisersHideout.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuBlockParty",
+			"FromMapFile": "assets/DowntownZuzuBusStopParty.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_ZuzuPermits",
+			"FromMapFile": "assets/ZuzuPermits.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_SadieRoomAirport",
+			"FromMapFile": "assets/SadieRoom.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Sawmill",
+			"FromMapFile": "assets/Sawmill.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Pharmacy",
+			"FromMapFile": "assets/ZuzuPharmacy.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Builders",
+			"FromMapFile": "assets/ZuzuBuilders.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Bakery",
+			"FromMapFile": "assets/PinkCakeBakery.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Barber",
+			"FromMapFile": "assets/ZuzuBarbers.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Mall",
+			"FromMapFile": "assets/ZuzuMall.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Furnisure",
+			"FromMapFile": "assets/ZuzuFurniture.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_BillRoom",
+			"FromMapFile": "assets/BillBackroom.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_Waterway",
+			"FromMapFile": "assets/Waterway.tmx"
+		},
+		{
+			"Name": "Custom_DTZ_University",
+			"FromMapFile": "assets/University.tmx"
+		}
+	],
+	// map properties (warps, etc)
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/Sewer",
+			"FromFile": "assets/Sewer.tmx",
+			"When": {
+				"HasMod |contains=LemurKat.CleanerSewer.CP": false
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/ZuzuMap",
+			"FromFile": "assets/Map.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/Cars",
+			"FromFile": "assets/Cars.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/ZuzuCar",
+			"FromFile": "assets/movingCar.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/ZuzuWallet",
+			"FromFile": "assets/WalletItems.png"
+		},
+		{ // fish stuff!!
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "assets/Fish/ZuzuCarpAquarium.png",
+			"ToArea": {
+				"X": 0,
+				"Y": 2400,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"Entries": {
+				"{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}}": "150/fish"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_CrossNorth",
+			"FromFile": "assets/DowntownZuzuCrossNorthNoDisp.tmx",
+			"FromArea": {
+				"X": 77,
+				"Y": 16,
+				"Width": 10,
+				"Height": 8
+			},
+			"ToArea": {
+				"X": 77,
+				"Y": 16,
+				"Width": 10,
+				"Height": 8
+			},
+			"When": {
+				"HasMod |contains=PelluxNetwork.StargrowValleyCP": "false"
+			}
+
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_JojaOffices",
+			"FromFile": "assets/JojaHQOfficesRestMode.tmx",
+			"FromArea": {
+				"X": 13,
+				"Y": 4,
+				"Width": 2,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 13,
+				"Y": 4,
+				"Width": 2,
+				"Height": 2
+			},
+			"When": {
+				"Hearts:Kristoff": "6, 7, 8, 9, 10, 11, 12, 13, 14"
+			}
+
+		},
+		{
+			"LogName": "Loading Sawmill...",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_Forest2",
+			"FromFile": "assets/ForestSawmillFixed.tmx",
+			"FromArea": {
+				"X": 3,
+				"Y": 45,
+				"Width": 33,
+				"Height": 21
+			},
+			"ToArea": {
+				"X": 3,
+				"Y": 45,
+				"Width": 33,
+				"Height": 21
+			},
+			"When": {
+				"HasFlag": "DTZ.SawmillFixed"
+			}
+		},
+		{
+			"LogName": "Stargrow",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_CrossNorth",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 81,
+						"Y": 24
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Warp 8 15 Custom_StargrowValley_ZuzuDispensaryInterior"
+					}
+				},
+				{
+					"Position": {
+						"X": 82,
+						"Y": 24
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Warp 8 15 Custom_StargrowValley_ZuzuDispensaryInterior"
+					}
+				}
+			],
+			"When": {
+				"HasMod": "PelluxNetwork.StargrowValleyCP",
+				"HasFlag": "weed.flag"
+			},
+			"Update": "OnLocationChange"
+		},
+		{ // obelisk
+			"LogName": "Obelisk Texture Load",
+			"Action": "Load",
+			"Target": "Buildings/Zuzu Obelisk",
+			"FromFile": "assets/Obelisk.png"
+		},
+		{
+			"LogName": "Patch Obelisk Blueprint",
+			"Action": "EditData",
+			"Target": "Data/Blueprints",
+			"Entries": {
+				"Zuzu Obelisk": "390 300 709 100 74 1/3/2/-1/-1/-2/-1/null/Zuzu Obelisk/Warps you to Downtown Zuzu City./Buildings/none/48/128/-1/null/Farm/10000/true"
+			}
+		},
+		{ // Runner mg
+			"LogName": "Load Runner Minigame Textures",
+			"Action": "Load",
+			"Target": "Minigames/DTZRunner",
+			"FromFile": "assets/RunnerMinigame.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SpouseRooms",
+			"Entries": {
+				"Callum": "Custom_DTZ_CalRoom/0",
+				"David": "Custom_DTZ_DavidRoom/0",
+				"Kristoff": "Custom_DTZ_KristoffRoom/0",
+				"Sadie": "Custom_DTZ_SadieRoom/0",
+				"Gwen": "Custom_DTZ_GwenRoom/0",
+				"Selena": "Custom_DTZ_SelenaRoom/0"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_CalRoom",
+			"FromFile": "assets/calRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_DavidRoom",
+			"FromFile": "assets/davidRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_SadieRoom",
+			"FromFile": "assets/sadieRoom(spouse).tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_GwenRoom",
+			"FromFile": "assets/gwenRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_KristoffRoom",
+			"FromFile": "assets/kristoffRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_PlaneSky",
+			"FromFile": "assets/PlaneSky.tmx",
+			"When": {
+				"Time": "{{Range: 0600, 1820}}",
+				"Weather |contains=rain, storm, snow": false
+			},
+			"Update": "OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_PlaneSky",
+			"FromFile": "assets/PlaneSkyRain.tmx",
+			"When": {
+				"Time": "{{Range: 0600, 1820}}",
+				"Weather |contains=rain, storm, snow": true
+			},
+			"Update": "OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_PlaneSky",
+			"FromFile": "assets/PlaneSkyNight.tmx",
+			"When": {
+				"Time": "{{Range: 1830, 2600}}",
+				"Weather |contains=rain, storm, snow": false
+			},
+			"Update": "OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_DTZ_PlaneSky",
+			"FromFile": "assets/PlaneSkyRainNight.tmx",
+			"When": {
+				"Time": "{{Range: 1830, 2600}}",
+				"Weather |contains=rain, storm, snow": true
+			},
+			"Update": "OnTimeChange"
+		},
+		{ //adds the purchasable apartment.
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_ApartmentLobby",
+			"MapTiles": [
+				{
+					"Layer": "Buildings",
+					"Position": {
+						"X": 29,
+						"Y": 5
+					},
+					"SetProperties": {
+						"Action": "Warp 20 36 Custom_DTZ_Apartment1d"
+					}
+				}
+			],
+			"When": {
+				"HasFlag": "DTZ.BoughtApartment"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_ApartmentLobby",
+			"MapTiles": [
+				{
+					"Layer": "Buildings",
+					"Position": {
+						"X": 22,
+						"Y": 26
+					},
+					"SetProperties": {
+						"Action": "Dialogue How's the apartment serving you?"
+					}
+				}
+			],
+			"When": {
+				"HasFlag": "DTZ.BoughtApartment"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_OasisCave",
+			"MapProperties": {
+				"Warp": "36 36 Custom_DTZ_ZuzuCityOasis1 40 9"
+			}
+		},
+		// add warp for NPCs to get into zuzu from valley
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"MapProperties": {
+				"NPCWarp": "15 10 Custom_DTZ_ZuzuCity1 40 9"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_NightClubMain",
+			"MapProperties": {
+				"Warp": "10 44 Custom_DTZ_NightClubEntrance 11 4 11 44 Custom_DTZ_NightClubEntrance 11 4"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_DTZ_ZuzuCityFreeway",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 25,
+						"Y": 42
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "LoadMap Custom_WTDR_Interchange 25 1"
+					}
+				}
+			],
+			"When": {
+				"HasMod": "Tarniyar.CP.WalkToDesert"
+			}
+		},
+		// map strings
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"DTZ.ApartmentLobby.1": "Bark, bark bark! (Xena is happy to see you).",
+				"DTZ.ApartmentLobby.2": "It's a nice little cozy area for reading.",
+				"DTZ.ApartmentLobby.3": "You attempt to call the elevator but nothing happens; it's out of order.",
+				"DTZ.ApartmentLobby.4": "It's locked...",
+				"DTZ.ApartmentLobby.5": "The door is locked, but a small note on the door reads 'FOR SALE. SEE RECEPTIONIST TO BUY.'",
+				"DTZ.Apartment1a.1": "It's a bookshelf. The books are all strange.",
+				"DTZ.Apartment1a.2": "A book sits on the end table. The book seems to be a travel guide.",
+				"DTZ.Apartment1a.3": "The small TV is playing some old show.",
+				"DTZ.Apartment1a.4": "Hey, this clock is actually ticking!",
+				"DTZ.Apartment1a.5": "It's a picture of Cal, Emerald and Gwen",
+				"DTZ.Apartment1a.6": "The bin is practically empty, bar a few wrappers.",
+				"DTZ.Apartment1a.7": "It seems Cal enjoys gaming.",
+				"DTZ.Apartment1a.8": "The TV is not turned on.",
+				"DTZ.Apartment1a.9": "This is quite a big speaker!",
+				"DTZ.Apartment1a.10": "'Conventions of Art' The book is to do with different art techniques.",
+				"DTZ.Apartment1a.11": "'How to be a Good Employee' By Kristoff Joja.",
+				"DTZ.Apartment1a.12": "The bin has a few cardboard food boxes in it.",
+				"DTZ.Apartment1a.13": "The fridge is full of food. You don't want to take any, though.",
+				"DTZ.Apartment1a.14": "The cabinet contains ornate china plates and bowls.",
+				"DTZ.Apartment1a.15": "It's an Employee of the Month award, signed K. Joja.",
+				"DTZ.Apartment1a.16": "It's a photo of a red-headed Emerald. She's with her Mom.",
+				"DTZ.Apartment1a.17": "It's Password-Protected.",
+				"DTZ.Apartment1a.18": "It's a list of places in the local area: Calico Desert, Pine Mesa City, Zuzu City, Ridgeside Village, East Scarpe, Pelican Town. Some of the places have been crossed out.",
+				"DTZ.Apartment1a.19": "'Long Lost Family: Stories of Family Reunions'",
+				"DTZ.Apartment1a.20": "'There's a bunch of crumpled up paper in the trash.'",
+				"DTZ.Apartment1a.21": "It's locked..",
+				"DTZ.Apartment1a.22": "It's a coffee cup that still has coffee in it. It looks like its been here a while. Ew.",
+				"DTZ.Apartment1a.23": "Books about travel, exercise, nature..",
+				"DTZ.Apartment1a.24": "The note on the wall reads 'Hey, Cal. I'm out of town for a while. I'll be back soon. See ya!'",
+				"DTZ.FreewayTrans.1": "An empty trash can.",
+				"DTZ.FreewayTrans.2": "What?",
+				"DTZ.FreewayTrans.3": "` Zuzu Desert and Sanctuary^> Downtown Zuzu City^@ Zuzu Forest",
+				"DTZ.ZuzuCity.1": "Me and my son are just waiting for the bus, aren't we?",
+				"DTZ.ZuzuCity.2": "Hi...",
+				"DTZ.ZuzuCity.3": "The fence seems to be plastered with notes and posters.",
+				"DTZ.ZuzuCity.4": "Dang, I'm still stuffed from that festival in Pelican Town...",
+				"DTZ.ZuzuCity.5": "It's an abandoned Joja Mart shopping cart.",
+				"DTZ.ZuzuCity.6": "` Joja Mini Mart and Zuzu Apartments^@ Zuzu Desert and Sanctuary^> Crossroads",
+				"DTZ.ZuzuCity.7": "It's a motorbike, parked on the sidewalk.",
+				"DTZ.ZuzuCity.8": "It's some type of garage. It's probably the Joja Mini Mart Warehouse.",
+				"DTZ.ZuzuCity.9": "'Zuzu Apartments' The place looks friendly enough.",
+				"DTZ.ZuzuCity.10": "It's a Joja Mart -- or rather, a Joja Mini. It reminds you of Morris.",
+				"DTZ.ZuzuCity.11": "The pizza place has been closed down. It looks grimy inside.",
+				"DTZ.ZuzuCity.12": "It is a generator, like the one outside Clint's. It seems to be turned off for now.",
+				"DTZ.ZuzuCity.13": "\"Here Lies S-1-m---m-y---y...\" That name makes no sense. The grave is all patchy and scratched.",
+				"DTZ.ZuzuCitySewerTunnel.1": "It's a sword leant against a barrel. The sword is too heavy to lift.",
+				"DTZ.ZuzuCitySewerTunnel.2": "It's a barrel filled with a weirdly coloured powder. You promptly close it.",
+				"DTZ.ZuzuCitySewerTunnel.3": "A pile of Joja rubble blocks your path.",
+				"DTZ.Oasis.1": "A few parked vehicles of Sanctuary patrons.",
+				"DTZ.Oasis.2": "An empty trash can.",
+				"DTZ.Oasis.3": "It's an empty mailbox.",
+				"DTZ.Oasis.4": "It's a fallen pillar...",
+				"DTZ.Oasis.5": "I'm just working here part time. I need more gold for the Claw Machine!",
+				"DTZ.Oasis.6": "Some cacti, they are very beautiful. Ouch!! I stuck my finger in, it hurts!",
+				"DTZ.Oasis.7": "A lot of barrels of water, wine, Joja Cola and other liquids.",
+				"DTZ.Oasis.8": "!DANGER! This cave is extremely dangerous and not to be entered by people unprepared. Only the bravest, strongest warriors should proceed. This is your warning.",
+				"DTZ.Oasis.9": "A haystack...",
+				"DTZ.Oasis.10": "A lot of garbage.",
+				"DTZ.OasisCave.1": "It looks like a snake statue.",
+				"DTZ.OasisCave.2": "This barrel seems to be full of Joja Cola.",
+				"DTZ.OasisCave.3": "The bones of an unknown creature.",
+				"DTZ.OasisCave.4": "It's a few bones.",
+				"DTZ.OasisCave.5": "This crystal is very shiny!",
+				"DTZ.OasisCave.6": "It's a ripped backpack.",
+				"DTZ.OasisCave.7": "It's a disabled cart.",
+				"DTZ.OasisCave.8": "It is a fossil of an ancient creature.",
+				"DTZ.OasisCave.9": "This vase is empty, but it looks very beautiful!...",
+				"DTZ.OasisCave.10": "This is your LAST WARNING. We (The Adventurers Guild) cannot be responsible for what happens next...",
+				"DTZ.OasisCaveB.1": "There are several sparkling multicolored jars and with incredible designs, in addition to a strange powder inside those jars, maybe it's toxic, I won't take it ...",
+				"DTZ.OasisCaveB.2": "It's a piece of a fossilized creature's skeleton. Gunther might know what creature this was, perhaps I should report this to him?",
+				"DTZ.OasisCaveB.3": "It's a skull of a fossilized creature, it's catastrophically big!",
+				"DTZ.OasisCaveB.4": "It's a skull of a fossilized creature!",
+				"DTZ.OasisCaveB.5": "Is This Really Water? It seems, but it's Pink!",
+				"DTZ.OasisCaveB.6": "This water seems to be frozen, but it moves very quickly, how strange!",
+				"DTZ.OasisCaveB.7": "This lava is very hot, better not even get close.",
+				"DTZ.OasisCaveB.8": "!DANGEROUS! DO NOT FOLLOW THE RAILS!",
+				"DTZ.OasisCaveB.9": "It's empty.",
+				"DTZ.OasisCaveB.10": "There are a lot of coal chunks here.",
+				"DTZ.OasisCaveB.11": "It's a rock ...",
+				"DTZ.OasisCaveB.12": "This water is very crystalline, I will drink a little ...",
+				"DTZ.OasisCaveB.13": "It's a ripped backpack, it gives me chills ...",
+				"DTZ.OasisCaveB.14": "Kulmar's Domain",
+				"DTZ.OasisCaveB.15": "One more heap of things! There are barrels, crystals, jars, pillars, stones, a backpack, screws and pieces of random things ... these monsters don't know how to organize things ?!",
+				"DTZ.OasisCaveB.16": "There's a lot of stuff heaped here, barrels full of strange liquid, shiny crystals, decaying bones, a lost mine cart and even a torn backpack ...",
+				"DTZ.OasisCaveB.17": "It's a big pillar, but it looks like a benches ...",
+				"DTZ.OasisCaveB.18": "The water evaporates as soon as it enters the surface of the lava, I think that's why it is so hot here!",
+				"DTZ.OasisCaveB.19": "Better not touch ...",
+				"DTZ.OasisCaveB.20": "It looks like an Altar Only broken ...",
+				"DTZ.OasisCaveB.21": "It's a big screw nut ...",
+				"DTZ.OasisCaveB.22": "It's a big screw ...",
+				"DTZ.OasisCaveB.23": "A brick ...",
+				"DTZ.OasisCaveB.24": "There are several pieces fallen from a wall ...",
+				"DTZ.OasisCaveB.25": "It's a fallen pillar ...",
+				"DTZ.OasisCaveB.26": "It's a broken pillar ...",
+				"DTZ.OasisCaveB.27": "A snake statue ...",
+				"DTZ.OasisCaveB.28": "It's a flashlight ...",
+				"DTZ.OasisCaveB.29": "The Plaque is too worn to read ...",
+				"DTZ.OasisCaveC.1": "This water is very crystalline, I will drink a little ...",
+				"DTZ.OasisCaveC.2": "It is a very beautiful tree, but it is not so special, because here there are many of it ...",
+				"DTZ.OasisCaveC.3": "This bush is full of cobwebs...",
+				"DTZ.OasisCaveC.4": "It's a rock full of moss ...",
+				"DTZ.OasisCaveC.5": "There are a lot of coals here ...",
+				"DTZ.OasisCaveC.6": "A dead fire, I wonder who made it ...",
+				"DTZ.OasisCaveC.7": "It's a fallen pillar ...",
+				"DTZ.OasisCaveC.8": "This crystal is very shiny!",
+				"DTZ.OasisCaveC.9": "The bones of an unknown creature.",
+				"DTZ.OasisCaveC.10": "That are several sparkling multicolored jars and with incredible designs, in addition to a strange powder inside those jars, maybe it's toxic, I won't take it ...",
+				"DTZ.OasisCaveD.1": "!DANGEROUS! DO NOT CONTINUE HERE, HAZARDOUS PLACE, RADIOACTIVE CRYSTALS, LOW OXYGEN ATMOSPHERE!",
+				"DTZ.OasisCaveD.2": "Empty Minecart, doesn't seem to lead anywhere...",
+				"DTZ.GasStation.1": "It's a sign displaying the gas prices at this gas station.",
+				"DTZ.GasStation.2": "It's a Joja gas truck. It carries fuel.",
+				"DTZ.GasStation.3": "An abandoned home lays here to rot. You hear creaking boards from inside.",
+				"DTZ.GasStation.4": "\"Here lies Joao\"... You have no idea who Joao is.",
+				"DTZ.GasStation.5": "Joja brand beans. They are just normal beans.",
+				"DTZ.GasStation.6": "A bottle of Joja cola.",
+				"DTZ.GasStation.7": "Various Joja products.",
+				"DTZ.GasStation.8": "It's locked...",
+				"DTZ.GasStation.9": "\"Here lies Y-ri\"... This tomb looks well worn.",
+				"DTZ.GasStation.10": "Better not come close, it looks like there's a dog, or some other wild animal in there.",
+				"DTZ.JojaMini.1": "Aw, they don't sell kupo nuts here. Kupo!",
+				"DTZ.JojaMini.2": "I can't reach this red cabbage! It's the only one that doesn't look rotten!!",
+				"DTZ.JojaMini.3": "Where are the dang beans??",
+				"DTZ.JojaCEO.1": "It's a billiards table. The fabric has worn slightly from use.",
+				"DTZ.JojaCEO.2": "Kristoff is showing off his wealth with this statue.",
+				"DTZ.JojaCEO.3": "It's locked, there must be important things there.",
+				"DTZ.JojaCEO.4": "'How to Boss 101' By Kristoff Joja",
+				"DTZ.JojaCEO.5": "'My Success' By Kristoff Joja",
+				"DTZ.JojaCEO.6": "'How I Conquered Every Market' By Kristoff Joja",
+				"DTZ.JojaCEO.7": "The books are extremely boring.",
+				"DTZ.JojaCEO.8": "The doors are locked...",
+				"DTZ.JojaCEO.9": "The huge TV is not turned on.",
+				"DTZ.JojaCEO.10": "A note nearby reads 'Stop trying to break into my vault. Sincerely, Kristoff.'",
+				"DTZ.JojaCEO.11": "'The Map Maker Has Run Out of Funny Book Names' ... Kristoff sure does like to break the 4th wall.",
+				"DTZ.JojaCEO.12": "'How to Use Nexus Mods'... wait, am I breaking the 4th wall here?",
+				"DTZ.JojaCEO.13": "'How to Setup a Discord Server' Huh? Why would Kristoff Joja need a Discord server?!",
+				"DTZ.JojaCEO.14": "'How to Mod Stardew Valley'.... wait a minute..",
+				"DTZ.JojaHQ.1": "Er, can I help you? You don't look very important, so... I don't know, go sit down, or something.",
+				"DTZ.JojaHQ.2": "The laptop screen is covered with tabs promoting Joja products.",
+				"DTZ.JojaHQCafe.1": "Wait... Am I on the wrong floor?",
+				"DTZ.JojaHQCafe.2": "I need the caffeine to keep my energy up!",
+				"DTZ.JojaHQCafe.3": "Popcorn is nice, okay?",
+				"DTZ.JojaHQCafe.4": "I only ordered this soda, I ain't hungry.",
+				"DTZ.JojaHQCafe.5": "Hmmmm, what should I order?",
+				"DTZ.JojaHQCafe.6": "The door is locked. A sign on the door reads 'EMPLOYEES ONLY'.",
+				"DTZ.JojaHQCafe.7": "...do you need something?",
+				"DTZ.JojaHQCafe.8": "This pizza is rubbery.",
+				"DTZ.JojaHQCafe.9": "This muffin isn't bad.",
+				"DTZ.JojaHQCafe.10": "This burger is delicious! ..huh? I didn't order it here...",
+				"DTZ.JojaHQOffices.1": "It's my allocated break time. I have 5 minutes to eat my lunch. I'm wasting it all, talking to you!!",
+				"DTZ.JojaHQOffices.2": "It's an ATM. You can't make a withdrawal because you don't have a bank account.",
+				"DTZ.JojaHQOffices.3": "You try to talk to them but they stare at the screen, focused on... nothing.",
+				"DTZ.JojaHQOffices.4": "What? What do you want? Do I have to report you to Kristoff?",
+				"DTZ.JojaHQOffices.5": "And who are you?",
+				"DTZ.JojaHQOffices.6": "Erm, are you supposed to be back here?",
+				"DTZ.JojaHQOffices.7": "You try to talk to them but they stare at the screen, focused on... nothing.",
+				"DTZ.JojaHQOffices.8": "This person appears to be dead.",
+				"DTZ.JojaHQOffices.9": "Kristoff Joja sits up there in his big office all day, doing nothing. And what do I get? A measly paycheck?",
+				"DTZ.JojaHQOffices.10": "This person's eyes are glazed over. They seem as if they're not even here.",
+				"DTZ.JojaHQOffices.11": "Hey, didn't you use to work here?",
+				"DTZ.JojaHQOffices.12": "This person is asleep.",
+				"DTZ.JojaHQOffices.13": "This person is working hard.",
+				"DTZ.JojaHQOffices.14": "You try to talk to them but they stare at the screen, focused on... nothing.",
+				"DTZ.JojaHQOffices.15": "This person is using Joja WiFi to browse their social medias... Wait, do they even work here?",
+				"DTZ.JojaHQOffices.16": "You try to talk to them but they stare at the screen, focused on... nothing.",
+				"DTZ.JojaHQOffices.17": "Have you been to the Sanctuary yet? I go there sometimes. It's nice.",
+				"DTZ.JojaHQOffices.18": "The sign reads: '2 - CEO Office, 1 Cafe, G - Ground Floor.' This is floor directions for the elevator.",
+				"DTZ.JojaHQElevHall.1": "The sign reads 'Zuzu at Night'.",
+				"DTZ.JojaHQElevHall.2": "The sign reads 'Pelican Town'.",
+				"DTZ.JojaHQElevHall.3": "The sign reads 'Sunny Day'.",
+				"DTZ.JojaHQElevHall.4": "The sign reads 'Ridgeside Village'.",
+				"DTZ.JojaHQElevHall.5": "It's locked, there must be important things there.",
+				"DTZ.JojaHQElevHall.6": "This plant is very big and beautiful.",
+				"DTZ.JojaHQElevHall.7": "The bin has Joja brand wrappers for various things inside it.",
+				"DTZ.JojaHQElevHall.8": "It appears to be fake.",
+				"DTZ.JojaHQElevHall.9": "A Joja machine, seems to be pretty new.",
+				"DTZ.TrainStation.1": "The Joja Cola machine is broken.",
+				"DTZ.TrainStation.2": "Erm, you can just step onto the train. Return tickets are free.",
+				"DTZ.TrainStation.3": "That dang Joja Cola machine is broken. I guess I'll just have to wait...",
+				"DTZ.TrainStation.4": "The Zuzu Forest is so peaceful. It's a shame I can't visit it much because of work.",
+				"DTZ.TrainStation.5": "The bin lid is stuck. Can you help me?",
+				"DTZ.OasisCaveHouse.1": "A basket with cobwebs inside, along with some insects...",
+				"DTZ.OasisCaveHouse.2": "A recycling bin with leftover food lying down.",
+				"DTZ.OasisCaveHouse.3": "An old broom.",
+				"DTZ.OasisCaveHouse.4": "An old two-burner stove. It's broken.",
+				"DTZ.OasisCaveHouse.5": "A sink, dripping small drops of water.",
+				"DTZ.OasisCaveHouse.6": "An empty and unplugged refrigerator.",
+				"DTZ.OasisCaveHouse.7": "'How to Smith Your Own Sword' By Krobus.",
+				"DTZ.OasisCaveHouse.8": "A large iron axe with a wooden handle.",
+				"DTZ.OasisCaveHouse.9": "A table with a paper. Written on it: Dear Diary, T-day its very c-ld here.. Sev--al slim-s began to ap-ear. I'm sc--ed. My s-ord -s too d-mag-d to f-ght! I th-nk I w-ll j-st h--e -o r-n... G--dbye.",
+				"DTZ.OasisCaveHouse.10": "A bookcase full of broken bottles and ripped books.",
+				"DTZ.OasisCaveHouse.11": "A dresser, with old clothes inside.",
+				"DTZ.OasisCaveHouse.12": "Some rare magical items. How did the owner of this house get them? ...and why do some of them shine purple?",
+				"DTZ.OasisCaveHouse.13": "The book is heavily worn, but this is what you can make out: T- m-ke a s-i-e ba-r--r y-u m-st u-e t-e fo-l-owi-g: Pr-s--tic s-ard, Ic- cr-st-l, Galv-nise-d b--ts, Eme--ld ne-k-ace. C-mbi-e i- a rit-al.",
+				"DTZ.OasisCaveHouse.14": "A stone axe with a patched wooden handle.",
+				"DTZ.OasisCaveHouse.15": "A clock, it seems the only thing that is intact in this house.",
+				"DTZ.OasisCaveHouse.16": "A sword and other tools with an anvil, probably to fix them.",
+				"DTZ.Crossroads.1": "It's a postal van.",
+				"DTZ.Crossroads.2": "It's a ticket machine.",
+				"DTZ.Crossroads.3": "I've heard that the DJ is taking requests. Just walk up to them on stage and talk to them. I'm sure they'll play the song you choose...",
+				"DTZ.Crossroads.4": "Have you been here before? It's lively inside...",
+				"DTZ.Crossroads.5": "I'm never gonna get in at this rate!",
+				"DTZ.Crossroads.6": "Have you met the Zuzu City Bruisers? ...I'm not supposed to talk about them.",
+				"DTZ.Crossroads.7": "Huh? You're a friend of Mr Qi's? Go right in.",
+				"DTZ.SancInt.1": "It seems to be unplugged.",
+				"DTZ.SancInt.2": "Even strong guys like me need to wind down.",
+				"DTZ.SancInt.3": "Have you been near the toilet that's out of order? There's something really strange over there...",
+				"DTZ.SancInt.4": "A pumpkin? Seriously? I said bring food, not a big orange ball...",
+				"DTZ.SancInt.5": "They have great food here...",
+				"DTZ.SancInt.6": "The Sanctuary is a really fitting name. It's a nice warm place, sheltered from the barren desert.",
+				"DTZ.SancInt.7": "Damn, my luck for love sure is low.",
+				"DTZ.SancInt.8": "WOO!",
+				"DTZ.SancInt.9": "These guys are great!",
+				"DTZ.SancInt.10": "I just can't stop eating...",
+				"DTZ.SancInt.11": "The band playing is great, right?",
+				"DTZ.SancInt.12": "I love the atmosphere in here!",
+				"DTZ.SancInt.13": "My son? Oh, he's at kindergarten, don't worry about him.",
+				"DTZ.SancInt.14": "David is a nice guy, he gives me free snacks sometimes.",
+				"DTZ.SancInt.15": "Hel- *hic* -lo...",
+				"DTZ.SancInt.16": "Have you met the owner, David?",
+				"DTZ.SancInt.17": "Oh boy, the governor is great, right?",
+				"DTZ.SancInt.18": "...what? Even I need a break some times...",
+				"DTZ.SancInt.19": "Oh hello there! I often visit the Sanctuary when there isn't much work to do. Tell Lewis I said hello, heh.",
+				"DTZ.SancInt.20": "It's a bin. ...what else do you want me to say?",
+				"DTZ.DavidRoom.1": "It's some type of cooking book...",
+				"DTZ.DavidRoom.2": "The books are all about adventuring and combat tactics.",
+				"DTZ.DavidRoom.3": "It's a grey backpack. You'd peek inside but there's a lock covering the latch.",
+				"DTZ.DavidRoom.4": "'How to Fix a Clock'...this one seems to have pages ripped out due to pure rage.",
+				"DTZ.DavidRoom.5": "'How to Start a Business'...this one seems to have worn slightly, from use.",
+				"DTZ.DavidRoom.6": "The clock seems to have stopped ticking. It's a shame.",
+				"DTZ.DavidRoom.7": "'How to Download Stardew Valley for Free'...HEY! This one shouldn't be here...",
+				"DTZ.DavidRoom.8": "'How to Read'... this one seems counterintuitive.",
+				"DTZ.DavidRoom.9": "'Stop looking in David's bins, for Yoba's sake!",
+				"DTZ.DavidRoom.10": "In the pictures are two men. One of the men has blue-ish skin.",
+				"DTZ.DavidRoom.11": "You attempt to climb the ladder but the hatch at the top is locked.",
+				"DTZ.DavidRoom.12": "It's filled with delicious food, a lot of it just leftovers.",
+				"DTZ.Forest.1": "A dilapidated train carriage, off the track. It's covered in graffiti, terrible!",
+				"DTZ.Forest.2": "An abandoned Joja truck, likely parked up here, and then covered un graffiti later...",
+				"DTZ.Forest.3": "A sign indicating the nearby train station.",
+				"DTZ.Forest.4": "A sign advertising Joja Cola to passengers of the trains that pass through here.",
+				"DTZ.Forest.5": "A small motor, possibly used to pump water or power.",
+				"DTZ.Forest.6": "A parked motorcycle, leaning beside the abandoned train carriage.",
+				"DTZ.Forest.7": "A trash can. It's empty.",
+				"DTZ.Forest.8": "A pitcher of plants on top of a square wooden table.",
+				"DTZ.Forest.9": "It's a tire.",
+				"DTZ.Forest.10": "An empty mailbox.",
+				"DTZ.Forest.11": "The meat looks delicious. Too bad it was abandoned here.",
+				"DTZ.Forest.12": "Apiaries, furnaces and barrels have been set up here. It looks like they were left here, will the owner come back?",
+				"DTZ.Forest.13": "Plenty of plants in this garden box. They look like they were looked after well.",
+				"DTZ.Forest.14": "A scarecrow to protect the nearby plants.",
+				"DTZ.Forest.15": "An abandoned building. Looks like it used to be a Sawmill. It's for sale, too.",
+				"DTZ.TrainStn.1": "The Joja Cola machine is broken.",
+				"DTZ.TrainStn.2": "Erm, you can just step onto the train. Return tickets are free.",
+				"DTZ.TrainStn.3": "That dang Joja Cola machine is broken. I guess I'll just have to wait...",
+				"DTZ.TrainStn.4": "The Zuzu Forest is so peaceful. It's a shame I can't visit it much because of work.",
+				"DTZ.TrainStn.5": "The bin lid is stuck. Can you help me?",
+				"DTZ.NightClub.1": "...",
+				"DTZ.NightClub.2": "SHOTS SHOTS SHOTS!",
+				"DTZ.NightClub.3": "HAVE YOU BEEN DOWN TO THAT VIP AREA? THE BOUNCER WOULDN'T LET ME IN.",
+				"DTZ.NightClub.4": "I'm only having a little break. I'll swig some cider then I'm BACK TO BOOGIEING! YEAH!",
+				"DTZ.NightClub.5": "I LOVE THE SINGER! WHO IS IT?",
+				"DTZ.NightClub.6": "I FEEL BAD FOR THE NEIGHBOURS, BUT WHO CARES?!",
+				"DTZ.NightClub.7": "THE DJ IS AMAZING! I HEARD HE TAKES REQUESTS! IF YOU HAVE A SONG, GO AND ASK HIM!",
+				"DTZ.NightClub.8": "*hic* WHAT? I CAN'T HEAR YOU! *hic* NO, I'M FINE.",
+				"DTZ.NightClub.9": "...How do I dance? L-like this...?",
+				"DTZ.NightClub.10": "WOOO! I LOVE IT IN HERE!",
+				"DTZ.NightClub.11": "MMM, time to get my boogie on!",
+				"DTZ.NightClub.12": "I wonder if I could talk to... a girl!",
+				"DTZ.NightClub.13": "Heya! Wanna boogie with me?",
+				"DTZ.NightClub.14": "...what? Am I not allowed to dance alone in a corner? Sorry...",
+				"DTZ.NightClub.15": "Too... many... shots... I think I'm starting to see blue chickens...",
+				"DTZ.NightClub.16": "Zuzu Underground is just... amazing. Go to the bar and order their 'Zuzu Signature Cocktail'. Trust me, you won't regret it!",
+				"DTZ.NightClub.17": "Me? Oh... I only come here for the alcohol. Not much into dancing.",
+				"DTZ.NightClub.18": "...so tired... dancing... all night...",
+				"DTZ.NightClub.19": "...nobody wants to dance with me.",
+				"DTZ.NightClub.20": "Hey, how's it going?",
+				"DTZ.NightClub.21": "Don'tcha just love it down here?",
+				"DTZ.NightClub.22": "A friend of Qi's, you say? ...okay, in you go.",
+				"DTZ.NightClub.23": "*hic* *snort* Hdfnfjfugsh? hHdffbe... *hic* *snort*",
+				"DTZ.NightClub.24": "Good day, sir. How are you on this fine day?",
+				"DTZ.NightClub.25": "Hey, what's up. You're a VIP? I wouldn't have thought it...",
+				"DTZ.NightClub.26": "I like to dance to the music over here, where it's a little quieter.",
+				"DTZ.NightClubEntrance.1": "Oh, hey! I like to come to the Zuzu Underground Club sometimes when the shop isn't very busy.",
+				"DTZ.Blockparty.1": "They are having a conversation about the clown.",
+				"DTZ.Blockparty.2": "The clown doesn't look very enthusiastic.",
+				"DTZ.Blockparty.3": "They're all dancing and having fun!",
+				"DTZ.Blockparty.4": "These people don't look very interested in the party.",
+				"DTZ.Blockparty.5": "I wish I had the courage to go and dance... there's a girl over there that I like!",
+				"DTZ.Blockparty.6": "They're enjoying the delicious array of food available.",
+				"DTZ.Blockparty.7": "I'm not particularly interested in the party. I'm just here to make sure my daughter stays out of trouble!",
+				"DTZ.Blockparty.8": "Look at the funny clown!",
+				"DTZ.Blockparty.9": "I like to travel around. This festival is always on my list every year.",
+				"DTZ.Blockparty.10": "The girls are chatting. You don't really want to disturb them.",
+				"DTZ.Blockparty.11": "They're just enjoying the music.",
+				"DTZ.Blockparty.12": "I'm not bothered about the party. I'm just here for the music. The band is awesome.",
+				"DTZ.Blockparty.13": "Ugh... the blue chickens are back...",
+				"DTZ.Blockparty.14": "Xena seems to be enjoying the party.",
+				"DTZ.Blockparty.15": "I like parties! Kupo!",
+				"DTZ.Blockparty.16": "Why am I looking through a telescope in the day? I don't know.",
+				"DTZ.Permit.1": "And the next step is to...",
+				"DTZ.Permit.2": "Going forward, we should...",
+				"DTZ.Permit.3": "A TV. It is flicking through many interesting programs.",
+				"DTZ.Permit.4": "A water dispenser offering free water.",
+				"DTZ.Permit.5": "A waste paper basket with crumpled notes and empty cups of water.",
+				"DTZ.Permit.6": "Sorry, I'm on the phone. Could you excuse me?",
+				"DTZ.Permit.7": "Hey. Have you ever been to the Zuzu Underground?",
+				"DTZ.Permit.8": "Ugh... such a delay.",
+				"DTZ.Permit.9": "They should have a vending machine in here... I'm starving!",
+				"DTZ.Permit.10": "A sign reads that this desk is desk 1A. It is currently occupied.",
+				"DTZ.Permit.11": "A sign reads that this desk is desk 1B. It is currently occupied.",
+				"DTZ.Permit.12": "A sign reads that this desk is desk 1C. It isn't occupied currently.",
+				"DTZ.Permit.13": "Several pamphlets and other informative notices are taped to the wall.",
+				"DTZ.Permit.14": "The door is locked. A sign reads 'Back entrance. Employees only.'",
+				"DTZ.Permit.15": "A coffee maker. It is still steaming, and the coffee pot is still filled to the brim.",
+				"DTZ.North.1": "You have no reason to enter the airport yet, but you feel hopeful that you might in the future.",
+				"DTZ.North.2": "It's a sign indicating the parking lot for the airport.",
+				"DTZ.East.1": "A sign is stuck to the door; 'TEMPORARY CLOSURE! WE WILL BE BACK SOON!'.",
+				"DTZ.East.2": "A plaque reads:^'Mantleby's^From our family to yours!'",
+				"DTZ.General.1": "This is a mailbox for 'Ferngill Postal Service'.",
+				"DTZ.Pharmacy.1": "Joja Cough Syrup: Fight off that winter flu!",
+				"DTZ.Pharmacy.2": "Parsnip flavoured cough medicine. Disgusting.",
+				"DTZ.Pharmacy.3": "A brand of headache medicine. Judging by the side-effects, you'd say it would CAUSE headaches.",
+				"DTZ.Pharmacy.4": "Super Awesome Magic Red Pills!#(You feel in control while looking at them.)",
+				"DTZ.Pharmacy.9": "Super Awesome Magic Blue Pills!#(You feel your control start to slip away while looking at them.)",
+				"DTZ.Pharmacy.5": "This cream appears to treat some rare kind of spots.",
+				"DTZ.Pharmacy.6": "Seratonin capsules.",
+				"DTZ.Pharmacy.7": "Slime-shaped vitamin gummies.",
+				"DTZ.Pharmacy.8": "'All-purpose Vitamin Pills! NOTE: Contains parsnips, iron ore, bananas and eggs.'... what the?",
+				"DTZ.Pharmacy.10": "Some very nicely coloured hair ties.",
+				"DTZ.Pharmacy.11": "Medical masks.",
+				"DTZ.Pharmacy.12": "Various makeup.",
+				"DTZ.Pharmacy.13": "You don't think this one is legal.",
+				"DTZ.Pharmacy.14": "'Hello World' Pills. Glorified caffeine.",
+				"DTZ.Pharmacy.15": "'Prismatic Gel-ly' Hair Gel: with prismatic jelly extract.",
+				"DTZ.Pharmacy.16": "Shampoo with vanilla extract.",
+				"DTZ.Pharmacy.17": "Shampoo with blueberry extract.",
+				"DTZ.Pharmacy.18": "The door is locked. This is the pharmacy's medicine storage.",
+				"DTZ.Pharmacy.19": "I'm here to get some cough syrup for my throat.",
+				"DTZ.Builders.1": "The door is locked. Probably goes upstairs.",
+				"DTZ.Builders.2": "The crate is labelled 'Brick Shipment no156532'.",
+				"DTZ.Builders.3": "The crate is labelled 'Wood Shipment no137319'.",
+				"DTZ.Builders.4": "The crate is labelled 'Concrete Compounds noAB3'.",
+				"DTZ.Builders.5": "The fridge is filled with beer and other cold beverages.",
+				"DTZ.Builders.6": "This man seems to be hard at work, chopping some wood.",
+				"DTZ.Bakery.1": "Row after row of delicious cakes are lined up.",
+				"DTZ.Bakery.2": "It's a drink station.",
+				"DTZ.Bakery.3": "It's locked. Perhaps it goes through to a larger kitchen.",
+				"DTZ.1c.1": "'A History of Ferngill' by K. Lantern.",
+				"DTZ.1c.2": "'Zuzu News Archives'. It's a book filled with all the old newspapers from the past 10 years or so.",
+				"DTZ.1c.3": "'Theories of Overpopulation' by M. Adoc.",
+				"DTZ.1c.4": "'Gadgets of Time Past' by -------. The author's name has been redacted.",
+				"DTZ.1c.5": "'Dwarfs: Fallacy, Folklore, or True Race?' by S. Kell.",
+				"DTZ.1c.6": "'A Brief History of Modern Medicines' by Dr. Jens Klopp.",
+				"DTZ.1c.7": "'Doc 101: How to Pass Your MD' by H.L.",
+				"DTZ.1c.8": "A collection of murder mystery books. They look untouched.",
+				"DTZ.1c.9": "A collection of adventure books.",
+				"DTZ.1c.10": "It's Buddy and Selena as kids. They're laughing and smiling at the camera.",
+				"DTZ.Airport.1": "The man's blocking the ticket booth.",
+				"DTZ.Airport.2": "Hey, what can I help with? Ticket booths are over on the left.",
+				"DTZ.Airport.3": "The guard stares sternly.",
+				"DTZ.ResortSouth.1": "It's a parasol for keeping in the shade.",
+				"DTZ.ResortSouth.2": "A large pile of wooden rubble blocks the path. You feel hopeful that this will be cleared soon.",
+				"DTZ.ResortSouth.3": "'Kahuna Airport'",
+				"DTZ.Waterway.1": "It's locked. A note attached to the door says 'Out for lunch.'",
+				"DTZ.Waterway.2": "The gate is locked up.",
+				"DTZ.Waterway.3": "There's no reason to go into the hotel yet."
+			}
+		},
+		// fishing locations
+		{
+			"LogName": "Fishing Locations",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Custom_DTZ_Forest1": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 153 -1 145 -1 143 -1 137 -1 132 -1 706 -1 702 -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 153 -1 145 -1 144 -1 138 -1 132 -1 706 -1 704 -1 702 -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 143 -1 153 -1 140 -1 139 -1 137 -1 132 0 706 -1 702 -1 699 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 699 -1 143 -1 153 -1 144 -1 141 -1 140 -1 132 -1 707 -1 702 -1 269 1/-1",
+				"Custom_DTZ_ZuzuCityOasis1": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 153 -1 164 -1 165 -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 153 -1 164 -1 165 -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 153 -1 164 -1 165 -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1 153 -1 164 -1 165 -1/-1",
+				"Custom_DTZ_Waterway": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1/{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}} -1/-1",
+				"Custom_DTZ_ResortSouth": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/791 .05 292 .05 774 .1 749 1"
+
+			}
+		},
+		// new fish
+		{
+			"LogName": "Fish Info",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{spacechase0.JsonAssets/ObjectId:Zuzu Carp}}": "Zuzu Carp/30/smooth/7/30/0600 2600/spring summer fall winter/both/null/2/.3/.5/0"
+			}
+		}
+	]
+}

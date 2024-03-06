@@ -1,0 +1,386 @@
+{
+    "Shops": [
+        {
+            "ShopName": "RodneyShop",
+            "CategoriesToSellHere": [],
+            "PortraitPath": "assets/RodneyHomeShop.png",
+            "Quote": "My shop has wares, if you have coin.",
+            "LocalizedQuote": {
+                //"es": "Placeholder",
+                //"ko": "Placeholder",
+                //"de": "Placeholder",
+                //"fr": "Placeholder",
+                //"hu": "Placeholder",
+                //"it": "Placeholder",
+                //"ja": "Placeholder",
+                //"pt": "Placeholder",
+                //"ru": "Placeholder",
+                //"tr": "Placeholder",
+                //"zh": "Placeholder",
+            },
+            "MaxNumItemsSoldInStore": 12,
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 500,
+                    "ItemNames": [
+                        "Banana"
+                    ],
+                    "Stock": 10,
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 200,
+                    "ItemNames": [
+                        "An autographed photo",
+                    ],
+                    "Stock": 100,
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 10000,
+                    "ItemNames": [
+                        "A genuine autograph",
+                    ],
+                    "Stock": 10,
+                },
+            ],
+            "ClosedMessage": "Rodney's shop is closed at the moment.",
+            "LocalizedClosedMessage": {
+                //"es": "Placeholder",
+                //"ko": "Placeholder",
+                //"de": "Placeholder",
+                //"fr": "Placeholder",
+                //"hu": "Placeholder",
+                //"it": "Placeholder",
+                //"ja": "Placeholder",
+                //"pt": "Placeholder",
+                //"ru": "Placeholder",
+                //"tr": "Placeholder",
+                //"zh": "Placeholder",
+            },
+        },
+        {
+            "ShopName": "RodneyHouseShop",
+            "CategoriesToSellHere": [],
+            "PortraitPath": "assets/RodneyHomeShop.png",
+            "Quote": "My shop has wares, if you have coin.",
+            "LocalizedQuote": {
+                //"es": "Placeholder",
+                //"ko": "Placeholder",
+                //"de": "Placeholder",
+                //"fr": "Placeholder",
+                //"hu": "Placeholder",
+                //"it": "Placeholder",
+                //"ja": "Placeholder",
+                //"pt": "Placeholder",
+                //"ru": "Placeholder",
+                //"tr": "Placeholder",
+                //"zh": "Placeholder",
+            },
+            "MaxNumItemsSoldInStore": 12,
+            "ItemStocks": [
+                {
+                    "ItemType": "Hat",
+                    "StockPrice": 3000,
+                    "ItemNames": [
+                        "Prunus Crown",
+                    ],
+                    //   "Stock": 100,
+                },
+                {
+                    "ItemType": "Hat",
+                    "StockPrice": 2000,
+                    "ItemNames": [
+                        "Pink Summer Hat",
+                    ],
+                    //   "Stock": 100,
+                },
+                {
+                    "ItemType": "Hat",
+                    "StockPrice": 2000,
+                    "ItemNames": [
+                        "Egg Hat",
+                    ],
+                    //   "Stock": 100,
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Rodney Winter Star (Scarecrow)",
+                    ],
+                    "Stock": 2,
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Rodney Summer Outfit (Scarecrow)",
+                    ],
+                    "Stock": 2,
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Rodney Cosplay (Scarecrow)",
+                    ],
+                    "Stock": 2,
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Rodney Egg Festival (Scarecrow)",
+                    ],
+                    "Stock": 2,
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Rodney Beach Outfit (Scarecrow)",
+                    ],
+                    "Stock": 2,
+                },
+            ],
+            "When": [
+                "e 134371004",
+            ],
+            "ClosedMessage": "Rodney's shop is closed at the moment.",
+            "LocalizedClosedMessage": {
+                //"es": "Placeholder",
+                //"ko": "Placeholder",
+                //"de": "Placeholder",
+                //"fr": "Placeholder",
+                //"hu": "Placeholder",
+                //"it": "Placeholder",
+                //"ja": "Placeholder",
+                //"pt": "Placeholder",
+                //"ru": "Placeholder",
+                //"tr": "Placeholder",
+                //"zh": "Placeholder",
+            },
+        },
+        {
+            "ShopName": "RodneyBookShop",
+            "CategoriesToSellHere": [],
+            "PortraitPath": "assets/BookExchangePortrait.png",
+            "Quote": "Exchange your autographed photos for books!",
+            "LocalizedQuote": {
+                //"es": "Placeholder",
+                //"ko": "Placeholder",
+                //"de": "Placeholder",
+                //"fr": "Placeholder",
+                //"hu": "Placeholder",
+                //"it": "Placeholder",
+                //"ja": "Placeholder",
+                //"pt": "Placeholder",
+                //"ru": "Placeholder",
+                //"tr": "Placeholder",
+                //"zh": "Placeholder",
+            },
+            "MaxNumItemsSoldInStore": 5,
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "An Essay on why Pepper Rexes are the Best",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Arcana Catcher Prunus",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Artifact or cutlery",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Beginner's guide to sculpting with gold",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Crabs and Why I Hate Them",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Deference Arlington The Complete Saga",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Fishing for dumb dumbs",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Getting Chicks To Love You",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Goblins",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Lunarkin Troll Tales Book One",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Mysteries of the Dwarves",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Pepper Rexes",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "The Book Of Yoba",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "The Great Book Of Slimes",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "The Great Tome of Mayonnaise",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "The Herpetology of The Ferngill Republic",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "The Joja Conspiracy",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "The Tarot Revealed",
+                    ],
+                    "StockCurrencyStack": 1,
+                    "StockItemCurrency": "An autographed photo",
+                    "Stock": 1,
+                    "StockPrice": 0,
+                },
+            ],
+            "When": [
+                "e 134371019",
+            ],
+            "ClosedMessage": "The shop is closed at the moment.", //not used
+            "LocalizedClosedMessage": {
+                //"es": "Placeholder",
+                //"ko": "Placeholder",
+                //"de": "Placeholder",
+                //"fr": "Placeholder",
+                //"hu": "Placeholder",
+                //"it": "Placeholder",
+                //"ja": "Placeholder",
+                //"pt": "Placeholder",
+                //"ru": "Placeholder",
+                //"tr": "Placeholder",
+                //"zh": "Placeholder",
+            },
+        }
+    ]
+}

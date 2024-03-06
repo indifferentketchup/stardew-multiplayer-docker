@@ -1,0 +1,110 @@
+{
+  "Format": "1.28.0",
+  "ConfigSchema": {
+    "EnableAdventurersPack": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableCigarBox": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableDimensionalPortal": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableIceCooler": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableLumberPile": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableMiniStorageShed": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableWoodenCabinet": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "EnableWroughtIronCellar": {
+      "AllowValues": "true, false",
+      "Default": true
+    }
+  },
+  "Changes": [
+    // Adventurer's Pack
+    {
+      "Action": "Include",
+      "FromFile": "includes/adventurers-pack.json",
+      "When": {
+        "EnableAdventurersPack": true
+      }
+    },
+
+    // Cigar Box
+    {
+      "Action": "Include",
+      "FromFile": "includes/cigar-box.json",
+      "When": {
+        "EnableCigarBox": true
+      }
+    },
+
+    // Dimensional Portal
+    {
+      "Action": "Include",
+      "FromFile": "includes/dimensional-portal.json",
+      "When": {
+        "EnableDimensionalPortal": true
+      }
+    },
+
+    // Ice Cooler
+    {
+      "Action": "Include",
+      "FromFile": "includes/ice-cooler.json",
+      "When": {
+        "EnableIceCooler": true
+      }
+    },
+
+    // Lumber Pile
+    {
+      "Action": "Include",
+      "FromFile": "includes/lumber-pile.json",
+      "When": {
+        "EnableLumberPile": true
+      }
+    },
+
+    // Mini Storage Shed
+    {
+      "Action": "Include",
+      "FromFile": "includes/mini-storage-shed.json",
+      "When": {
+        "EnableMiniStorageShed": true
+      }
+    },
+
+    // Wooden Cabinet
+    {
+      "Action": "Include",
+      "FromFile": "includes/wooden-cabinet.json",
+      "When": {
+        "EnableWoodenCabinet": true
+      }
+    },
+
+    // Wrought-Iron Cellar
+    {
+      "Action": "Include",
+      "FromFile": "includes/wrought-iron-cellar.json",
+      "When": {
+        "EnableWroughtIronCellar": true
+      }
+    }
+  ] 
+}

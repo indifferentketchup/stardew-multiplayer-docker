@@ -1,0 +1,31 @@
+{
+  "Name": "Fievel Goes East Scarp",
+   "Author": "DestyNova & ES Dev Team",
+   "Description": "Fievel goes to East Scarp to find family and friends!",
+   "Version": "1.1.2", 
+   "UniqueID": "EastScarp.FGES",
+ 
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "1.18.4"
+    },
+   "UpdateKeys": [ "Nexus:17315" ],
+   "Dependencies": [  
+		{
+		  "UniqueID": "LemurKat.EastScarpe.CP",
+		  "IsRequired": true
+		},
+      {
+         "UniqueID": "spacechase0.JsonAssets",
+         "IsRequired": true
+      },
+      {
+         "UniqueID": "spacechase0.SpaceCore",
+         "IsRequired": true
+      },
+      {
+         "UniqueID": "Cherry.ShopTileFramework",
+         "IsRequired": true
+      }, 
+   ]   
+}

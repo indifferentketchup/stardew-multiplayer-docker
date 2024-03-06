@@ -1,0 +1,30 @@
+{ 
+"Entries": {
+//East Scarpe schedule
+"rain":"0900 Custom_ESHouse1 20 19 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/1900 Custom_ESHouse1 24 7 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"spring_28": "900 Custom_ESHouse1 20 19 0/1200 Town 56 21 0/1700 Town 47 88 0/2000 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"summer_Mon": "MAIL Tristan_ImmShane/GOTO summer_Mon_Jas/800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1730 AnimalShop 17 16 0/1800 Forest 33 25 2/1930 AdventureGuild 9 16 1",
+"summer_Mon_Jas":"800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1800 AnimalShop 17 16 0/1830 AdventureGuild 9 16 1",
+"Mon":"MAIL Tristan_ImmShane/GOTO Mon_Jas/800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1730 AnimalShop 17 16 0/1800 Forest 33 25 2/1930 AdventureGuild 9 16 1",
+"Mon_Jas": "0800 Forest 36 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 16 13 2 misterginger_knit/2000 AdventureGuild 9 16 1",
+"Tue": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1200 Custom_EastScarpe 30 117 2/1400 Custom_EastScarpe 55 40 2 misterginger_knit/1700 Saloon 20 19 3/2200 AdventureGuild 9 16 1",
+"Wed": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1300 Custom_EastScarpe 30 117 2/1600 AnimalShop 3 7 2/2100 AdventureGuild 9 16 1",
+"spring_Thu":"GOTO Mon",
+"summer_Thu":"800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1800 AnimalShop 16 17 0/1830 WizardHouse 2 17 2",
+"fall_Thu":"GOTO Mon",
+"winter_Thu":"GOTO Mon",
+"winter_15":"0800 Forest 36 10 2/1300 Town 39 57 2/1600 Beach 22 24 2 \"Strings\\schedules\\MisterGinger:winter_15.001\"/2330 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"winter_18":"GOTO Tue",
+"Fri": "800 Custom_ESHouse1 20 19 0/1100 Custom_EastScarpe 26 60 2/1300 Custom_EastScarpe 30 117 2/1600 AnimalShop 5 6 2/2100 AnimalShop 3 7 2/2120 AdventureGuild 9 16 1",
+"Sat": "700 Forest 92 23 0/1030 Town 31 89 2/1200 Custom_EastScarpe 55 84 misterginger_knit/1640 Custom_EastScarpe 14 90 2/1900 Custom_ESHouse1 22 22 3/2100 Custom_ESHouse1 13 4 1/2200 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"Sun": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"Thu": "GOTO Mon",
+"summer_Sun": "800 Town 48 87 0/1200 Custom_EastScarpe 55 84 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/1900 Custom_ESHouse1 7 19 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"spring_Sun": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"fall_Sun": "800 Town 48 87 0/1200 Custom_ESHouse1 7 18 misterginger_knit/1600 Custom_ESHouse1 20 19 0/1700 Custom_ESHouse1 21 20 2/2050 Custom_ESHouse1 16 4 3/2150 Custom_ESHouse1 9 19 0/2300 Custom_ESHouse1 23 4 2 misterginger_sleep",
+"marriage_Fri:": "900 Forest 21 29 2/1300 Town 86 103 2/1620 Town 18 94 0/1750 AnimalShop 7 16 2/2430 BusStop -1 23 3"	
+	
+
+}
+
+}

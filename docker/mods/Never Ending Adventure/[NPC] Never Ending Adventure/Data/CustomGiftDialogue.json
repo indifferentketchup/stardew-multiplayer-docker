@@ -1,0 +1,90 @@
+{
+    "Changes": [
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Mateo",
+        "Entries": { // CUSTOM GIFT DIALOGUE
+
+            // FISH
+            "GiftReactionCategory_-4":"{{i18n:Gifts.Mateo.GiftReaction.CategoryFish}}",
+            "GiftReaction_Sea_Urchin":"{{i18n:Gifts.Mateo.GiftReaction.SeaUrchin}}",
+            "GiftReaction_Crab":"{{i18n:Gifts.Mateo.GiftReaction.Crab}}",
+            "GiftReaction_Crab_Cakes":"{{i18n:Gifts.Mateo.GiftReaction.CrabCakes}}",
+
+            // ARTISANAL GOODS
+            "GiftReactionCategory_-26":"{{i18n:Gifts.Mateo.GiftReaction.CategoryArtisanalGoods}}",
+
+            // TRASH
+            "GiftReactionCategory_-20":"{{i18n:Gifts.Mateo.GiftReaction.CategoryTrash}}",
+
+            // MINERALS & GEMS
+            "GiftReactionCategory_-2":"{{i18n:Gifts.Mateo.GiftReaction.CategoryMinerals}}",
+            "GiftReactionCategory_-12":"{{i18n:Gifts.Mateo.GiftReaction.CategoryGems}}",
+            
+            // LOVES
+            "GiftReaction_Prismatic_Shard":"{{i18n:Gifts.Mateo.GiftReaction.PrismaticShard.{{MateoRomance}}}}",
+            "GiftReaction_Pumpkin":"{{i18n:Gifts.Mateo.GiftReaction.Pumpkin.{{MateoRomance}}}}",
+            "GiftReaction_Jack-O-Lantern":"{{i18n:Gifts.Mateo.GiftReaction.JackOLantern.{{MateoRomance}}}}",
+            "GiftReaction_Golden_Pumpkin":"{{i18n:Gifts.Mateo.GiftReaction.GoldenPumpkin.{{MateoRomance}}}}",
+            "GiftReaction_Fairy_Rose":"{{i18n:Gifts.Mateo.GiftReaction.FairyRose.{{MateoRomance}}}}",
+            "GiftReaction_Honey":"{{i18n:Gifts.Mateo.GiftReaction.Honey.{{MateoRomance}}}}",
+            "GiftReaction_Rainbow_Shell":"{{i18n:Gifts.Mateo.GiftReaction.RainbowShell}}",
+            "GiftReaction_Maple_Bar":"{{i18n:Gifts.Mateo.GiftReaction.MapleBar}}",
+            "GiftReaction_An_autographed_photo":"{{i18n:Gifts.Mateo.GiftReaction.AutographedPhoto}}",
+
+                   
+            // LIKES
+            "GiftReaction_Pumpkin_Soup":"{{i18n:Gifts.Mateo.GiftReaction.PumpkinSoup}}",
+            "GiftReaction_Pumpkin_Pie":"{{i18n:Gifts.Mateo.GiftReaction.PumpkinPie}}",
+            "GiftReaction_Spaghetti":"{{i18n:Gifts.Mateo.GiftReaction.Spaghetti}}",
+            "GiftReaction_Clam":"{{i18n:Gifts.Mateo.GiftReaction.Clam}}",   
+
+            // ALCOHOL 
+            "GiftReaction_Beer":"{{i18n:Gifts.Mateo.GiftReaction.Beer.{{MateoRomance}}}}",  
+            "GiftReaction_Pale_Ale":"{{i18n:Gifts.Mateo.GiftReaction.PaleAle.{{MateoRomance}}}}",
+            "GiftReaction_Wine":"{{i18n:Gifts.Mateo.GiftReaction.Wine.{{MateoRomance}}}}",
+           
+            // ARTIFACTS
+            "GiftReaction_Dwarf_Scroll_I":"{{i18n:Gifts.Mateo.GiftReaction.DwarfScrollI}}",
+            "GiftReaction_Dwarf_Scroll_II":"{{i18n:Gifts.Mateo.GiftReaction.DwarfScrollII}}",
+            "GiftReaction_Dwarf_Scroll_III":"{{i18n:Gifts.Mateo.GiftReaction.DwarfScrollIII}}",
+            "GiftReaction_Dwarf_Scroll_IV":"{{i18n:Gifts.Mateo.GiftReaction.Dwarf_ScrollIV}}",
+            "GiftReaction_Chipped_Amphora":"{{i18n:Gifts.Mateo.GiftReaction.ChippedAmphora}}",
+            "GiftReaction_Arrowhead":"{{i18n:Gifts.Mateo.GiftReaction.Arrowhead}}",
+            "GiftReaction_Lost_Book":"{{i18n:Gifts.Mateo.GiftReaction.LostBook}}",
+            "GiftReaction_Ancient_Doll":"{{i18n:Gifts.Mateo.GiftReaction.AncientDoll}}",
+            "GiftReaction_Elvish_Jewelry":"{{i18n:Gifts.Mateo.GiftReaction.ElvishJewelry}}",
+            "GiftReaction_Chewing_Stick":"{{i18n:Gifts.Mateo.GiftReaction.ChewingStick}}",
+            "GiftReaction_Ornamental_Fan":"{{i18n:Gifts.Mateo.GiftReaction.OrnamentalFan}}",
+            "GiftReaction_Dinosaur_Egg":"{{i18n:Gifts.Mateo.GiftReaction.DinosaurEgg}}",
+            "GiftReaction_Rare_Disc":"{{i18n:Gifts.Mateo.GiftReaction.RareDisc}}",
+            "GiftReaction_Ancient_Sword":"{{i18n:Gifts.Mateo.GiftReaction.AncientSword}}",
+            "GiftReaction_Rusty_Spoon":"{{i18n:Gifts.Mateo.GiftReaction.RustySpoon}}",
+            "GiftReaction_Rusty_Spur":"{{i18n:Gifts.Mateo.GiftReaction.RustySpur}}",
+            "GiftReaction_Rusty_Cog":"{{i18n:Gifts.Mateo.GiftReaction.RustyCog}}",
+            "GiftReaction_Chicken_Statue":"{{i18n:Gifts.Mateo.GiftReaction.ChickenStatue}}",
+            "GiftReaction_Ancient_Seed":"{{i18n:Gifts.Mateo.GiftReaction.AncientSeed}}",
+            "GiftReaction_Prehistoric_Tool":"{{i18n:Gifts.Mateo.GiftReaction.PrehistoricTool}}",
+            "GiftReaction_Dried_Starfish":"{{i18n:Gifts.Mateo.GiftReaction.DriedStarfish}}",
+            "GiftReaction_Anchor":"{{i18n:Gifts.Mateo.GiftReaction.Anchor}}",
+            "GiftReaction_Glass_Shards":"{{i18n:Gifts.Mateo.GiftReaction.GlassShards}}",
+            "GiftReaction_Bone_Flute":"{{i18n:Gifts.Mateo.GiftReaction.BoneFlute}}",
+            "GiftReaction_Prehistoric_Handaxe":"{{i18n:Gifts.Mateo.GiftReaction.PrehistoricHandaxe}}",
+            "GiftReaction_Dwarvish_Helm":"{{i18n:Gifts.Mateo.GiftReaction.DwarvishHelm}}",
+            "GiftReaction_Dwarf_Gadget":"{{i18n:Gifts.Mateo.GiftReaction.DwarfGadget}}",
+            "GiftReaction_Ancient_Drum":"{{i18n:Gifts.Mateo.GiftReaction.AncientDrum}}",
+            "GiftReaction_Golden_Mask":"{{i18n:Gifts.Mateo.GiftReaction.GoldenMask}}",
+            "GiftReaction_Golden_Relic":"{{i18n:Gifts.Mateo.GiftReaction.GoldenRelic}}",
+            "GiftReaction_Strange_Doll":"{{i18n:Gifts.Mateo.GiftReaction.StrangeDoll}}",
+
+            // BIRTHDAY
+            "GiftReaction_Pumpkin_Birthday":"{{i18n:Gifts.Mateo.GiftReaction.Pumpkin.Birthday.{{MateoRomance}}}}",
+            "GiftReaction_Jack-o-Lantern_Birthday":"{{i18n:Gifts.Mateo.GiftReaction.Jack-o-Lantern.Birthday.{{MateoRomance}}}}",
+            "GiftReaction_Pumpkin_Pie_Birthday":"{{i18n:Gifts.Mateo.GiftReaction.PumpkinPie.Birthday.{{MateoRomance}}}}",
+            "GiftReaction_Pumpkin_Soup_Birthday":"{{i18n:Gifts.Mateo.GiftReaction.PumpkinSoup.Birthday.{{MateoRomance}}}}",
+            "GiftReaction_Fairy_Rose_Birthday":"{{i18n:Gifts.Mateo.GiftReaction.FairyRose.Birthday.{{MateoRomance}}}}"
+  
+      }
+	}
+  ]
+}

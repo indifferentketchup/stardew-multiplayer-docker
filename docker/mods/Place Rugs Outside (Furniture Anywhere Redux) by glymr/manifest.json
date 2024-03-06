@@ -1,0 +1,13 @@
+{
+  "Name": "Place Rugs and Floor Dividers Outside (Furniture Anywhere Redux) by glymr",
+  "Author": "glymr",
+  "Version": "1.0.0",
+  "Description": "Allows you to place rug and Floor Divider furniture outside.",
+  "UniqueID": "glymr.RugsOutside",
+  "UpdateKeys": [
+    "Nexus:18798",
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

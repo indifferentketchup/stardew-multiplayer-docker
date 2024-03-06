@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Wide Wallpaper Pack",
+    "Author": "aedenthorn",
+    "Version": "0.1.0",
+    "Description": "Wide Wallpaper Pack.",
+    "UniqueID": "aedenthorn.WideWallpaperPack",
+    "MinimumApiVersion": "3.13.0",
+	"UpdateKeys": ["Nexus:12534"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

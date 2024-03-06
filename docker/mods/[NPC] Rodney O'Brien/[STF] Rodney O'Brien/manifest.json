@@ -1,0 +1,16 @@
+{
+   "Name": "Rodney O'Brien shop extravaganza",
+   "Author": "TheFrenchDodo",
+   "Version": "1.0.0",
+   "Description": "Adds Rodney's shop (Shop Tile Framework)",
+   "UniqueID": "TheFrenchDodo.RodneyOBrien.STF",
+   "MinimumApiVersion": "3.0.0",
+   "ContentPackFor": {
+	  "UniqueID": "Cherry.ShopTileFramework",
+  },
+  "Dependencies": [
+    {
+       "UniqueID": "TheFrenchDodo.RodneyOBrien"
+    },
+  ],
+}

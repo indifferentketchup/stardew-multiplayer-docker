@@ -1,0 +1,55 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/WroughtIronCellar",
+      "FromFile": "assets/wrought-iron-cellar.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "WroughtIronCellar": {
+          "DisplayName": "{{i18n: wrought-iron-cellar.name}}",
+          "Description": "{{i18n: wrought-iron-cellar.description}}",
+          "Image": "6480.StorageVariety/WroughtIronCellar",
+          "PlayerColor": true,
+          "OpenNearby": 1,
+          "OpenSound": "doorCreak",
+          "Height": 48,
+          "Width": 32,
+          "Depth": 32,
+          "BetterChestsData": {
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 96
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "WroughtIronCellar": "335 10/Home/232/true/null/{{i18n: wrought-iron-cellar.name}}"
+      }
+    },
+    
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "WroughtIronCellar": {
+          "ShopID": "Carpenter",
+          "Price": 15000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

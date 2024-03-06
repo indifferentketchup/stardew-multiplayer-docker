@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "sitfront": "16/16 16 17 17 18 18 16/16",
+        "sitleft": "19/19/19",
+        "sitright": "20/20/20",
+        "sitback": "21/21/21",
+        "eatcheese": "22/22 23 23 24 24 25 25 25 26 26 27 27 28 28 29 29/22",
+        "sleep": "30/30/30",
+        "liedown": "31/31/31",
+      }
+    }
+  ]
+}

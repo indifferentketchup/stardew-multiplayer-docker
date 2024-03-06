@@ -1,0 +1,137 @@
+{
+    "Format": "1.27.0",
+"Changes": [
+        {
+            "LogName": "Map Strings Edit",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "EggFest.1": "{{i18n:EggFest.1}}",
+                "EggFest.2": "{{i18n:EggFest.2}}",
+                "EggFest.3": "{{i18n:EggFest.3}}",
+              
+            }
+        },
+  
+         {
+   "Action": "EditMap",
+   "Target": "Maps/Town-EggFestival",
+   "FromFile": "assets/Festival Patches/Town-EggFestival-Patch.tbin",
+   "Update": "OnLocationChange",
+   "ToArea": { "X": 10, "Y": 30, "Width":20, "Height": 24 },
+     "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": false,
+                "HasMod |contains=Rafseazz.RidgesideVillage": false
+            }
+    },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Town-EggFestival",
+   "FromFile": "assets/Festival Patches/Town-EggFestival-SVE-Patch.tbin",
+   "Update": "OnLocationChange",
+   "ToArea": { "X": 13, "Y": 31, "Width":17, "Height": 24 },
+      "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": true,
+                "HasMod |contains=Rafseazz.RidgesideVillage": false
+            }
+        },
+                 {
+   "Action": "EditMap",
+   "Target": "Maps/Town-EggFestival",
+   "FromFile": "assets/Festival Patches/Town-EggFestival-RSV&SVE-Patch.tbin",
+   "Update": "OnLocationChange",
+   "ToArea": { "X": 43, "Y": 20, "Width":15, "Height": 13 },
+     "When": {
+                "HasMod |contains=Rafseazz.RidgesideVillage": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": true,
+            }
+        },
+                                                   {
+   "Action": "EditMap",
+   "Target": "Maps/Town-EggFestival",
+   "FromFile": "assets/Festival Patches/Town-EggFestival-RSV&SVE-Patch.tbin",
+   "Update": "OnLocationChange",
+   "ToArea": { "X": 43, "Y": 20, "Width":15, "Height": 13 },
+     "When": {
+                "HasMod |contains=Rafseazz.RidgesideVillage": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": false,
+            }
+        },
+                           {
+   "Action": "EditMap",
+   "Target": "Maps/Forest-FlowerFestival",
+   "FromFile": "assets/Festival Patches/FlowerFestival-Patch.tbin",
+   "Update": "OnLocationChange",
+   "ToArea": { "X": 0, "Y": 12, "Width":25, "Height": 8 }
+        },
+                   {
+"Action": "Load",
+"Target": "Maps/spring_Fellowclown_Outdoors,Maps/summer_Fellowclown_Outdoors,Maps/fall_Fellowclown_Outdoors,Maps/winter_Fellowclown_Outdoors,Maps/spring_Fellowclown_Indoors,Maps/summer_Fellowclown_Indoors,Maps/fall_Fellowclown_Indoors,Maps/winter_Fellowclown_Indoors",
+"FromFile": "assets/TD/{{TargetWithoutPath}}.png",
+   "When":
+            {
+             "HasMod: |contains=Fellowclown.TravelingDreamer": true, 
+            }
+        },
+        
+   {
+            "Action": "Load",
+            "Target": "Maps/Fellowclown_FestivalPatches",
+            "FromFile": "assets/Festival Patches/{{TargetWithoutPath}}.png",
+        },
+             {
+            "Action": "Load",
+            "Target": "Maps/John_MapSheet",
+            "FromFile": "assets/John/John_MapSheet.png",
+            "When":
+            {
+             "HasMod: |contains=Fellowclown.JohnNpc": true, 
+            }
+        },
+
+                 {
+            "Action": "Load",
+            "Target": "Maps/Spring_Nik_MapSheet,Maps/Summer_Nik_MapSheet,Maps/Fall_Nik_MapSheet,Maps/Winter_Nik_MapSheet",
+            "FromFile": "assets/Nikolai/{{season}}_Nik_MapSheet.png",
+            "When":
+            {
+             "HasMod: |contains=Fellowclown.Nikolai": true, 
+            }
+        },
+                 {
+            "Action": "Load",
+            "Target": "Maps/Spring_FellowValsSheet,Maps/Summer_FellowValsSheet,Maps/Fall_FellowValsSheet,Maps/Winter_FellowValsSheet",
+            "FromFile": "assets/Magical Family/{{season}}_FellowValsSheet.png",
+              "When":
+            {
+              "HasMod: |contains=Fellowclown.MagicalFamily": true,
+            }
+        },
+{
+"Action": "EditImage",
+"PatchMode": "Replace",
+"Target": "Maps/Spring_FellowValsSheet,Maps/Summer_FellowValsSheet,Maps/Fall_FellowValsSheet,Maps/Winter_FellowValsSheet",
+"FromFile": "assets/Magical Family/Yri's Project Yellog.png",
+"FromArea": {"X":0, "Y":0, "Width":112, "Height":192},
+"ToArea": {"X":0, "Y":0, "Width":112, "Height":192},
+"When": 
+      {"HasMod: |contains=yri.ProjectYellogTownOverhaul": true,},
+},
+{
+  "Action": "EditImage",
+  "PatchMode": "Replace",
+  "Target": "Maps/Yri_Animated_WizardOwl",
+  "FromFile": "assets/Magical Family/Valerie_Animated_WizardOwl.png",
+        },  
+                 {
+            "Action": "Load",
+            "Target": "Maps/spring_FellowsTileSheet,Maps/summer_FellowsTileSheet,Maps/fall_FellowsTileSheet,Maps/winter_FellowsTileSheet,Maps/spring_Fellow_FlashBackTilesheet, Maps/summer_Fellow_FlashBackTilesheet, Maps/fall_Fellow_FlashBackTilesheet, Maps/winter_Fellow_FlashBackTilesheet",
+            "FromFile": "assets/The Wayfarer/{{season}}_FellowsTileSheet.png",
+             "When":
+            {
+             "HasMod: |contains=Fellowclown.Lyell": true,
+            }
+        },
+    
+  ]
+}

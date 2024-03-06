@@ -1,0 +1,77 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney House",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_RodneysHouse",
+            "FromFile": "Assets/Maps/RodneyHouse_patch.tmx",
+            "PatchMode": "Replace",
+            "AddWarps": [
+                "10 35 Custom_RodneysBasement 20 1",
+                "7 35 Custom_EastScarpe 88 32",
+            ],
+        },
+        {
+            "LogName": "Sleepover at Rodney's House",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_RodneysHouse",
+            "MapTiles": [
+                {
+                    "Position": { "X": 12, "Y": 13 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "Bed": "t",
+                        "NoFurniture": "T",
+                        "TouchAction": "Sleep",
+                    }
+                }
+            ],
+			"When": {
+				"Relationship:RodneyOBrien |contains=Dating": true
+			}
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "FromFile": "Assets/Maps/Silo_Outdoor.tmx",
+            //"PatchMode": "Overlay",
+            "ToArea": {
+                "X": 86,
+                "Y": 23,
+                "Width": 7,
+                "Height": 11,
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown.Nikolai_Marketpalooza",
+            "FromFile": "Assets/Maps/Marketpalooza_patch.tbin",
+            "PatchMode": "Overlay",
+            "ToArea": {
+                "X": 9,
+                "Y": 4,
+                "Width": 3,
+                "Height": 5,
+            },
+            "When": {
+                "HasMod": "Fellowclown.Nikolai"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "Assets/Maps/Town_LibraryPatch.tmx",
+            "PatchMode": "Overlay",
+            "ToArea": {
+                "X": 96,
+                "Y": 90,
+                "Width": 3,
+                "Height": 3,
+            },
+            "When": {
+                "HasFlag": "AutographCleanupComplete",
+            },
+            //   "Update": "OnLocationChange",
+        }
+    ]
+}

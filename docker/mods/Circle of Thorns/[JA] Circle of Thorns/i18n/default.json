@@ -1,0 +1,27 @@
+{
+    "crop.ancient-amaranth.name": "Ancient Amaranth",
+    "crop.ancient-amaranth.description": "An unusual grain, unique in color and texture.",
+    "crop.ancient-amaranth.seed.name": "Ancient Amaranth Seeds",
+    "crop.ancient-amaranth.seed.description": "Previously dormant. Grown in Summer and Fall, takes seven days. Does not regrow.",
+
+    "crop.ancient-epiphytic-fern.name": "Ancient Epiphytic Fern",
+    "crop.ancient-epiphytic-fern.description": "A resilient fern that grew straight from stone.",
+    "crop.ancient-epiphytic-fern.seed.name": "Ancient Epiphytic Fern Seeds",
+    "crop.ancient-epiphytic-fern.seed.description": "Previously dormant. Grown in Spring and Summer. Takes fourteen days, regrows in seven.",
+
+    "crop.ancient-glowing-polypore-mushrooms.name": "Ancient Glowing Polypore Mushrooms",
+    "crop.ancient-glowing-polypore-mushrooms.description": "A resilient, faintly glowing mushroom with an earthy smell to it.",
+    "crop.ancient-glowing-polypore-mushrooms.seed.name": "Ancient Glowing Polypore Mushroom Seeds",
+    "crop.ancient-glowing-polypore-mushrooms.seed.description": "A very resilient species of mushroom. Grown in Fall and Winter. Takes twenty eight days, regrows in seven.",
+
+    "crop.ancient-wild-fairy-rose.name": "Ancient Wild Fairy Rose",
+    "crop.ancient-wild-fairy-rose.description": "A resilient precursor to the common Fairy Rose.",
+    "crop.ancient-wild-fairy-rose.seed.name": "Ancient Wild Fairy Rose Seeds",
+    "crop.ancient-wild-fairy-rose.seed.description": "A very resilient Fairy Rose. Grown in Spring, Summer and Fall. Takes twenty eight days, regrows in seven.",
+
+    "crop.ancient-glowing-huckleberry.name": "Ancient Glowing Huckleberry Vine",
+    "crop.ancient-glowing-huckleberry.description": "A massive, juicy berry that faintly glows.",
+    "crop.ancient-glowing-huckleberry.seed.name": "Ancient Glowing Huckleberry Seed",
+    "crop.ancient-glowing-huckleberry.seed.description": "Previously dormant. Takes 28 days to produce a mature berry vine. Bears Huckleberries in the Summer and Fall. Only grows if the 8 surrounding 'tiles' are empty.",
+
+}

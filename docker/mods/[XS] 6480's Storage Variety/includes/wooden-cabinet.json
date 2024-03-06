@@ -1,0 +1,51 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/WoodenCabinet",
+      "FromFile": "assets/wooden-cabinet.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "WoodenCabinet": {
+          "DisplayName": "{{i18n: wooden-cabinet.name}}",
+          "Description": "{{i18n: wooden-cabinet.description}}",
+          "Image": "6480.StorageVariety/WoodenCabinet",
+          "PlayerColor": true,
+          "OpenSound": "doorCreak",
+          "BetterChestsData": {
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 60
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "WoodenCabinet": "709 30/Home/232/true/null/{{i18n: wooden-cabinet.name}}"
+      }
+    },
+    
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "WoodenCabinet": {
+          "ShopID": "Carpenter",
+          "Price": 4000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

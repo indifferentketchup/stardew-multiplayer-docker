@@ -1,0 +1,12 @@
+"Sat6": "Relationships are complicated, aren't they, @?$4#$e#Do you believe in soulmates? I'm pleased I found mine.$1",
+"Mon8": "Spring is the time for lovers, and romance. I hope you find your special someone, @, just like I found mine.$1",
+"spring_Fri8": "It took Shane a little while to warm to Lewis.#$b#He's worried Lewis is trying to win Jas over with bribes and treats. But I think Lewis is just happy to finally have a family of his own.",
+"summer_Tue8": "Lewis took me up to the summit to watch the sunset last night. I guess you're never too old for romance.$1",
+ "summer_Fri8": "Sorry I seem to be talking about Lewis all the time. I feel like a teenager again.#$b#It's ridiculous, I know.$1",
+"fall_Mon8": "*sighs* I wish Pierre would stop muttering about my 'special privileges' and incenuating I'm getting tax cuts.$2#$b#It seems everyone in town accepts us, except for him. Maybe that's why Lewis was reluctant about going public.",
+"fall_Fri8": "I enjoy chatting with Lewis, I do! He's great company.#$e#But recently he's started to have certain... expectations...every time we're alone.$2#$b#Oh, I don't mind! Well, not really... but I'm not a teenager anymore.$1",
+"winter_Fri6": "Am I dating the Mayor? Well, I'm not sure I'd call what we're doing 'dating', exactly, if you know what I mean!$1"
+"winter_Tue8": "It's almost the end of another year. I need to make a New Year's resolution. Have you got any goals for the year, @?",
+"When": {
+"HasSeenEvent": "59020016"
+}

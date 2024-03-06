@@ -1,0 +1,21 @@
+{
+	"Name": "Ancient Wild Fairy Rose",
+	"Price": 300,
+    "Product": "Ancient Wild Fairy Rose",
+	"SeedName": "Ancient Wild Fairy Rose Seeds",
+	"SeedDescription": "A very resilient Fairy Rose. Grown in Spring, Summer and Fall. Takes twenty eight days, regrows in seven.",
+	"Type": "Flower", 
+	"CropType": "Normal",
+	"Seasons": [ "spring", "summer", "fall"],
+	"Phases": [2, 7, 7, 7, 5,],
+	"RegrowthPhase": 5,
+	"HarvestWithScythe": false, 
+	"TrellisCrop": false,
+	"MinimumPerHarvest": 1,
+	"MaximumPerHarvest": 3,
+	"MaxIncreasePerFarmLevel": 40, 
+	"ExtraChance:": 0.05,
+	"TranslationKey": "crop.ancient-wild-fairy-rose",
+	"SeedTranslationKey": "crop.ancient-wild-fairy-rose.seed",
+
+}

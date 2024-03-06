@@ -1,0 +1,612 @@
+{ //Events ********************************************************
+    //Dwarf caught "Collecting" in town
+    //2 hearts
+    "96420002.01": "Ah, dillut. You startled me.$5", //Dwarf
+    "96420002.02": "Sorry. It was an accident.",
+    "96420002.03": "Are you stealing from Lewis?",
+    "96420002.04": "It was ugly anyway. No big loss.$1#$b#But hey? Maybe watch where you're going next time.", //Dwarf
+    "96420002.05": "Stealing? You say that like it's bad.#$b#It was lying around, no one was using it.$5", //Dwarf
+    "96420002.06": "And now it's broken... poor thing. Hmmm, maybe I can fix it.$3", //Dwarf
+    "96420002.07": "Stay safe, friend.", //Dwarf
+    "96420002.08": "Hello friend. Hey, I fixed the pot.$1#$b#It's still very ugly. You can have it.[461]", //Dwarf
+    //Spirit's Eve: Krobus and Dwarf encounter each other after the festival
+    //3 hearts
+    "96420003.01": "Yum.", //Dwarf
+    "96420003.02": "So much food left. Sundwellers are so wasteful.$3", //Dwarf
+    "96420003.03": "Good Grub.", //Dwarf
+    "96420003.04": "Hah. Skeletons. You think you're so scary.$1", //Dwarf
+    "96420003.05": "What do you think will happen to them?$2", //Krobus
+    "96420003.06": "You again?", //Dwarf
+    "96420003.07": "They'd put us in a cage too, you know.", //Krobus
+    "96420003.08": "Not me they wouldn't. I'm not a monster.$1", //Dwarf
+    "96420003.09.vanilla": "Nor were they. Once they were people.$2", //Krobus
+    "96420003.09.SVE": "Nor were they. Some were people, some ARE people.$2", //Krobus
+    "96420003.10": "And if they can put people in a cage for entertainment... imagine what they might do to us.$3", //Krobus
+    "96420003.11": "Hah.", //Dwarf
+    "96420003.12": "I'll imagine what they might do to you. It'll help me sleep well.$1", //Dwarf
+    "96420003.13": "Friend.", //Dwarf (to farmer)
+    "96420003.14": "Seems to be the night for skulking around. You coming for leftovers too?", //Dwarf
+    "96420003.15": "...",
+    "96420003.16": "That was really mean. Krobus was being friendly.",
+    "96420003.17": "Shadowkin are fiends, not friends. Now if you'll excuse me, I'm busy.$5",
+    "96420003.18": "Thanks for trying, @.$4", //Krobus
+    "96420003.19": "What do you think will happen to them?$2",
+    //Dwarf 4-heart (bombs and vengence)
+    "96420004.01": "Take that, suckers.", //Dwarf
+    "96420004.02": "And good riddance too.$1", //Dwarf
+    "96420004.03": "Hello friend. It's been a long night.$2#$b#Just cleaning out some pesky vermin.$3", //Dwarf
+    "96420004.04": "Oh, don't worry about me. Just had a run in with a couple of shadow-punks.$5#$b#Nasty things, but I showed them who's boss. As long as they stay down there, it's all good yes?$3", //Dwarf
+    "96420004.05": "Hey friend.", //Dwarf
+    "96420004.06": "I just had a brilliant idea.$1", //Dwarf
+    "96420004.07": "I've still got a few bombs left.$3", //Dwarf
+    "96420004.08": "We should go and pay a visit to that foe in the sewer.$1#$b#What do you say, friend?", //Dwarf
+    "96420004.09": "Don't forget your promise to the Wizard.",
+    "96420004.10": "No. Krobus is my friend too.",
+    "96420004.11": "You know, Krobus was willing for a truce. Why aren't you?",
+    "96420004.12": "Ugh, don't remind me... I don't want to feel that fire tickle my toes again.$5",
+    "96420004.13": "You're lucky you're my best customer, friend.$5#$b#Or I'd be highly suspicious of your association with that... that fiend.$2", //Dwarf
+    "96420004.14": "Why should I? Him wanting to be nice won't change the past.#$b#Won't change the fact that my seto and my liepu are dead.$2", //Dwarf
+    //"96420004.14.sve": "Why should I? Them wanting to be nice won't change the past.#$b#Won't change the fact that my seto and my liepu are dead.$2", //Dwarf
+    "96420004.15": "Fine...", //Dwarf
+    "96420004.16": "But you've no idea what his people did to mine...$5#$b#Mr. Big-hat sparkly-hands-man might make me keep his 'seal of promise' but he can't make me change my mind.$3#$b#And neither can you.#$b#Shadowfiends and Smoluanu are enemies. End of story.", //Dwarf
+    //"96420004.16.SVE": "But you've no idea what his people did to mine...$5#$b#Mr. Big-hat sparkly-hands-man might make me keep his 'seal of promise' but he can't make me change my mind.$3#$b#And neither can you.#$b#Shadowfiends and Smoluanu are enemies. End of story.", 
+    //Dwarf receives a lemon stone from Krobus
+    // 6 hearts part 2
+    "96420004.17": "Good Day.", //Dwarf
+    "96420008.01": "That shadowfiend from the sewer sent me this, friend.#$b#But I can't understand why he'd do such a thing?$3", //Dwarf
+    //"96420008.01.SVE": "That shadowfiend from the sewer sent me this, friend.#$b#But I can't understand why they wouldd do such a thing?$3", //Dwarf
+    "96420008.02": "Do you think it's poisoned?$2#$b#Or perhaps it might explode?", //Dwarf
+    "96420008.03": "It's numasnau. We prepare it using secret smoluanu recipes, to make numasonn.#$b#Which is very tasty when sprinkled on cave carrot stew.$1", //Dwarf
+    "96420008.04": "But how does the enemy of our people know this? Why does he give this to me?", //Dwarf
+    //"96420008.04.SVE": "But how does the enemy of our people know this? Why would they give this to me?", //Dwarf
+    "96420008.05": "A gift?", //Dwarf
+    "96420008.06": "That fiendish creature is trying to make me forget what his kind have done to mine.$5#$b#Well, if he's giving me gifts... then I'll also give him a gift.$1#$b#A gift he won't forget...$3", //Dwarf
+    "96420008.07": "You know him, friend. So tell me, what's something that monster despises?$2", //Dwarf
+    //"96420008.06.SVE": "That fiendish creature is trying to make me forget what their kind have done to mine.$5#$b#Well, if they're giving me gifts... then I'll also give them a gift.$1#$b#A gift they won't forget...$3", //Dwarf
+    //"96420008.07.SVE": "You know them, friend. So tell me, what's something that monster despises?$2", //Dwarf
+    "96420008.08": "Horseradish.",
+    "96420008.09": "The same things as you",
+    "96420008.10": "The war between your people",
+    "96420008.11": "Hmmm, horseradish... That's like a spicy cave carrot, right?#$b#I've seen some of those around.", //Dwarf
+    "96420008.12": "Ridiculous. How can we possibly both hate the same things? We're nothing alike.$5", //Dwarf
+    "96420008.13": "Hah", //Dwarf
+    "96420008.14": "True... but I can't give that as a gift. I'll have to think of something else...", //Dwarf
+    "96420008.15": "Thanks for giving me the idea, friend. This is going to be fun.$1", //Dwarf
+    // Krobus and Dwarf meet on the Mountain
+    //5 heart event - late at night
+    "96420005.01": "You promised you'd stay in the sewers.", //Dwarf
+    "96420005.02": "No, I didn't. I've as much right to be here as you. Shrimpy.$a", //Krobus
+    "96420005.03": "Don't call me that... dung-breath.", //Dwarf
+    "96420005.04": "DUNG Breath?", //Krobus
+    "96420005.05": "I'll get you.", //Dwarf
+    "96420005.06": "Pah, meddling wizards.... and their stupid seals.", //Dwarf
+    "96420005.07": "I'm not here to fight, smoluanu.$2", //Krobus
+    "96420005.08": "No? Why else would you be on my mountain then?", //Dwarf
+    "96420005.09": "YOUR mountain?", //Krobus
+    "96420005.10": "Are they dead?", //Krobus
+    "96420005.11": "No... sleeping. It's a very strange thing.#$b#When it gets late, farmer just falls asleep.#$b#One minute standing, next minute asleep.", //Dwarf
+    "96420005.12": "Humans are weird.", //Dwarf
+    "96420005.13": "What do we do now?$2", //Krobus
+    "96420005.14": "Hmmm, sometimes I look in their pockets.#$b#You'd be amazed how much stuff friend carries.", //Dwarf
+    "96420005.15": "What?", //Krobus
+    "96420005.16": "We could poke them with a stick?$1", //Krobus
+    "96420005.17": "Tried that once. Didn't work. Tipped water over their head too. No luck.#$b#Our friend sleeps like the dead.", //Dwarf
+    "96420005.18": "Hmmm. We can't leave them here. Something might eat them.$2", //Krobus
+    "96420005.19": "What? Like one of your kind?", //Dwarf
+    "96420005.20": "Speak for yourself, shrimpy.", //Krobus
+    "96420005.21": "No, my people aren't the danger, they're happier underground. It's the other things...", //Krobus
+    "96420005.22": "Ugh", //Dwarf
+    "96420005.23": "I 'spose we'd better carry them home... I'll take the arms, you take the legs.", //Dwarf
+    "96420005.24": "You want us to... work together?$3", //Krobus
+    "96420005.25": "Yes. To help a mutual friend. Don't make a big deal about it, okay?", //Dwarf
+    "96420005.26": "Ooof, they're kinda heavy.", //Krobus
+    "96420005.27": "Now into the bed. Watch their head.", //Dwarf
+    "96420005.28": "Huh, weird, they never even twitched an eye.", //Krobus
+    "96420005.29": "A shadowkin and smoluanu working together, who would've seen that coming?$1", //Krobus
+    "96420005.30": "We shall never speak of this again.", //Dwarf
+    "96420005.31": "We'll see", //Krobus
+    "96420005.32": "Well, at least you're getting a good night's sleep ('skip' now to wake up.)",
+    //Sewer event with Krobus - 
+    //6 hearts
+    "96420006.02": "It's good to see you again, @.$1#$b#I hope things are well on the surface?", //Krobus
+    "96420006.03": "That's good to hear. There's been something I wish to talk to you about.", //Krobus
+    "96420006.04": "This is difficult for me...$3", //Krobus
+    "96420006.05": "It's about your friend, Dwarf.", //Krobus
+    "96420006.06": "The smoluanu and shadowkin have long been enemies.$2#$b#Humans also, are no friend to shadowkin. They have hunted us, killed us.$5#$b#As we, in turn, have slain them.$2", //Krobus
+    "96420006.07": "My mother named me Krobus, 'Bridge Crosser', and tasked me to build the bridges burned by our ancestors.", //Krobus
+    "96420006.08": "And despite our people's animosity, we became friends, you and I.$1", //Krobus
+    "96420006.09": "Now, I want to build that bridge between us and them. The smoluanu.", //Krobus
+    "96420006.10": "Dwarf only knows the hate fed to them by their sires.$2#$b#Tell me, @, how did you become their friend?", //Krobus
+    "96420006.11": "I impressed them with my mining skills.",
+    "96420006.12": "I gave them shiny rocks.",
+    "96420006.13": "I think they mostly enjoy having someone who understands them.",
+    "96420006.14": "Oh... I don't think that'll work for me.#$b#I'm not exactly designed for mining...", //Krobus
+    "96420006.15": "Oh. I can probably find a few of those. You'd be amazed at what washes up in the sewers.$1", //Krobus
+    "96420006.16": "Me too, we shadowkin have a knack for languages, so it's really nice to have someone to talk to.#$b#Only... whenever Dwarf and I talk we end up fighting.$2", //Krobus
+    "96420006.17": "It won't be easy, @ - it's hard to change years of anger.$2#$b#But I have to try. We can't continue our ancestors' war forever.", //Krobus
+    //Dwarf tries to prank Krobus and fails
+    //6 heart part 3
+    "96420010.01": "shhhh", //Dwarf
+    "96420010.02": "Friend, look. I've placed these horrible spicy-roots outside Krobus's house.#$b#When he comes out and sees them, he'll know how I feel about his gift.$1", //Dwarf
+    //"96420010.02.SVE": "Friend, look. I've placed these horrible spicy-roots outside Krobus's house.#$b#When they come out and sees them, they'll know how I feel about their gift.$1", //Dwarf
+    "96420010.03": "Actually, it was quite delicious... but that's not the point.$5", //Dwarf
+    "96420010.04": "How do I know he's coming out soon?#$b#Oh, I've been watching him. It's good to know your enemy's habits.$3", //Dwarf
+    "96420010.05": "He's coming.", //Dwarf
+    "96420010.06": "(What's he doing? Does he hate them? I can't see. Stupid bush...)", //Dwarf
+    //"96420010.04.SVE": "How do I know they're coming out soon?#$b#Oh, I've been watching them. It's good to know your enemy's habits.$3", //Dwarf
+    //"96420010.05.SVE": "They're coming.", //Dwarf
+    //"96420010.06.SVE": "(What are they doing? Do they hate it? I can't see. Stupid bush...)", //Dwarf
+    "96420010.07": "Hello?", //Krobus
+    "96420010.08": "@? Is that you?", //Krobus
+    "96420010.09": "(Don't answer.)", //Dwarf
+    "96420010.10": "Dwarf?", //Krobus
+    "96420010.11": "Ugh", //Dwarf
+    "96420010.12": "@. So you are behind this. It's wonderful.$1", //Krobus
+    "96420010.13": "Wonderful?", //Dwarf
+    "96420010.14": "Are you telling me this fiend actually likes these wretched spicy roots?$5", //Dwarf
+    "96420010.15": "Ugh... you mean I did something nice?$2", //Dwarf
+    //Dwarf stargazing event
+    //8 hearts has reached caldera
+    "96420099.01": "Friend.", //Dwarf
+    "96420099.02": "Seto and I used to visit the grand cavern and we'd stand beneath the glow-worms.#$b#Seto told me of the constellations. Said one day they'd show me the star that was 'home'.#$b#They never got the chance.$2#$b#These stars, the real stars. They make me feel so small. So... nothing.$5#$b#Sometimes I wonder, friend, are there more like me out there?", //Dwarf
+    "96420099.03": "There are?", //Dwarf
+    "96420099.04": "You must take me friend. Take me to visit.$3", //Dwarf
+    "96420099.05": "...",
+    "96420099.06": "Of course I will.",
+    "96420099.07": "I'd love to.",
+    "96420099.08": "Sure, if you insist.",
+    "96420099.09": "Meet you on the beach tomorrow at dusk?$3#$b#Of course friend, yes, I will.$4", //Dwarf
+    "96420099.10": "Did Dwarf come from somewhere up there?",
+    //Dwarf goes to visit the island
+    "96420098.01": "Hey kid, are you lost?", //Alex
+    "96420098.02": "Cool hat.", //Alex
+    "96420098.03": "Friend.", //Dwarf
+    "96420098.04": "Friend. I'm so glad to see you.#$b#Come on, let's go.", //Dwarf
+    "96420098.05": "So this is what you people call a 'boat'?#$b#It's moving up and down. This is weird.$2", //Dwarf
+    "96420098.06": "Not long now young'un, you'll be okay.", //Willy
+    "96420098.07": "The ground's still moving.$2", //Dwarf
+    "96420098.08": "Thank you Mr. Captain.", //Dwarf
+    "96420098.09": "Have fun, @. Look after the young'un.$1#$b#I'll be doing some night-fishing, but be back before midnight if you want a ride home.", //Willy
+    "96420098.10": "Let's go.", //Dwarf
+    "96420098.11": "This is an ancient Smoluanu stronghold, I can feel it.$3", //Dwarf
+    "96420098.12": "It is filled with monsters? I came prepared, yes.$1", //Dwarf
+    "96420098.13": "This is fun.$1", //Dwarf
+    "96420098.14": "Who goes there?", //Sentinel Dwarf
+    "96420098.15": "Oh, it is you, farmer. You have come to buy wares for your journey through the mines?", //Sentinel Dwarf
+    "96420098.16": "Greetings young one. From where have you come?", //Sentinel Dwarf
+    "96420098.17": "We've much to talk about, friend. You should go home before you fall asleep on your feet.#$b#I think I can find the way back to my cave.", //Dwarf
+    "96420098.18": "Wait, human from the Mainland.$1", //Sentinel Dwarf
+    "96420098.19": "Thank you for bringing this young one to meet me.#$b#It has been long years since I've seen any of my kin.", //Sentinel Dwarf
+    //Caldera event
+    "96420000.01": "'Our ancestors came from the sky'", //Dwarf
+    "96420000.02": "'...and made a new home beneath the stone.'", //Dwarf
+    "96420000.03": "And you were there, Sentinel?$3", //Dwarf
+    "96420000.04": "I was.", //Sentinel Dwarf
+    "96420000.05": "Our planet was dying; we were on a voyage to find a new world, a new home.#$b#We arrived here. And found war.", //Sentinel Dwarf
+    "96420000.06": "Not from the humans; they were busy fighting amongst themselves, but from... those who lived within the stone.", //Sentinel Dwarf
+    "96420000.07": "The shadowfolk.", //Dwarf
+    "96420000.08": "Yes, the shadowfolk.#$b#A rot had set in, poisoning their people. They cast their blame upon us.", //Sentinel Dwarf
+    "96420000.09": "And so they must die.$5", //Dwarf
+    "96420000.10": "No.", //Sentinel Dwarf
+    "96420000.11": "I have been here a long time, young one, keeping vigil over our last stronghold, this forge.#$b#It has given me much time for contemplation.", //Sentinel Dwarf
+    "96420000.12": "Fear leads to anger and death. It is a slippery incline.", //Sentinel Dwarf
+    "96420000.13": "Our future, I believe, lies not in hatred, but in unity and hope.", //Sentinel Dwarf
+    "96420000.14": "Friend.", //Dwarf
+    "96420000.15": "Greetings, farmer from the Mainland, who has decided to drop by and eavesdrop.", //Sentinel Dwarf
+    "96420000.16": "Hah.", //Dwarf
+    "96420000.17": "You have learned our language, survived our traps and purchased our wares.#$b#Please, friend, join us.", //Sentinel Dwarf
+    //9 heart event
+    "96420012.01": "Marvellous, isn't she?$4", //Dwarf
+    "96420012.02": "She looks great!",
+    "96420012.03": "Well, she's very green.",
+    "96420012.04": "Looks like junk to me.",
+    "96420012.05": "I know, friend. I was so delighted to find her.$4", //Dwarf
+    "96420012.06": "She is, isn't she. It's a good color, like moss.", //Dwarf
+    "96420012.07": "I think your eyes need testing, friend, if you can't tell junk from treasure.$5", //Dwarf
+    "96420012.08": "I found her lying in long grass behind the Guild house.#$b#No one loves her anymore.$2#$b#Well, no one except me. I'm going to help her fly again.$1", //Dwarf
+    "96420012.09": "Again?",
+    "96420012.10": "But bath tubs don't fly.",
+    "96420012.11": "They don't?", //Dwarf
+    "96420012.12": "Well, this one will, you'll see.$1", //Dwarf
+    //10 heart event 
+    //Dwarf and Krobus
+    "96420011.01": "Friend.", //Dwarf
+    "96420011.02": "Lovely evening, isn't it.$1", //Dwarf
+    "96420011.03": "Oh, thought I'd pay that fiend, Krobus a visit. There's a lot of water coming down the mountain.", //Dwarf
+    "96420011.04": "Don't be foolish. I'm not concerned about him.$5#$b#I'm hoping he might drown.", //Dwarf
+    //"96420011.04.SVE": "Don't be foolish. I'm not concerned about them.$5#$b#I'm hoping they might drown.", //Dwarf
+    "96420011.05": "Hello? Is someone there?", //Krobus
+    "96420011.06": "Help?", //Krobus
+    "96420011.07": "Krobus.", //Dwarf
+    "96420011.08": "Krobus?", //Dwarf
+    "96420011.09": "Can shadowfolk swim?$2", //Dwarf
+    "96420011.10": "Can you swim?$2", //Dwarf
+    "96420011.11": "There's a strong undertow.",
+    "96420011.12": "Hello? @? anyone?#$b#It's getting quite wet here...$2", //Krobus
+    "96420011.13": "I'm coming.", //Dwarf
+    "96420011.14": "Jump in.", //Dwarf
+    "96420011.15": "You came to help me.$1", //Krobus
+    "96420011.16": "Yeh, well, who else would I argue with, Dungbreath?$1#$b#Now, get in before I change my mind.", //Dwarf
+    "96420011.17": "Ooof, watch your elbows.$1", //Dwarf
+    "96420011.18": "What elbows?$3", //Krobus
+    "96420011.19": "Thank you for saving me, Dwarf.$4", //Krobus
+    "96420011.20": "Well... Who else could ever be my mortal enemy?$4", //Dwarf
+    //14 heart event
+    //Invitation
+    "96420013.01": "Milk?",
+    "96420013.02": "Friend. You've returned.$1#$b#Did you bring me something fun?",
+    "96420013.03": "That's okay. I found neat stuff around the house anyway.$1",
+    "96420013.04": "We've been living together a while now, friend...$4",
+    "96420013.05": "And I'd like to take you somewhere special to me... There's something I want to give you.$3",
+    "96420013.06": "You can't hold it, touch it, or eat it - so it might seem a silly little thing to you...#$b#...but to me, it's kinda a big deal, okay?",
+    "96420013.07.false": "Meet me by the iron road late at night, okay?$1#$b#And don't bring Krobus. Not yet...$5",
+    "96420013.07.true": "Meet me by the iron road late at night, okay? You can bring Jasper, if you want.#$b#I'd like him to have it too.$1#$b#But don't bring Krobus. Not yet...$5",
+    "96420013.07.true.spouse": "Meet me by the iron road late at night, okay? And Jasper should come too.$1#$b#He'd be upset if he missed out.#$b#But don't bring Krobus. Not yet...$5",
+    "96420013.08": "See you tonight, friend.$4",
+    //Multiple versions for if Jasper is and is not installed.
+    "96420014.01": "Friend.", //Dwarf
+    "96420014.02": "So pleased you made it.", //Dwarf
+    "96420014.03": "But there's no time to waste. We've quite a climb ahead of us.$1#$b#Keep up if you can.", //Dwarf
+    "96420014.04": "Almost there.",
+    "96420014.DwarfSummitEvent.01": "This is as close to my ancestral home as I can get.$2", //Dwarf
+    "96420014.DwarfSummitEvent.02": "I was born on this world, grew up with Mother Earth... but yet my heart still sang for Father Sky.$2", //Dwarf
+    "96420014.DwarfSummitEvent.03": "The Fracturing stole my clan from me, and filled my heart with anger.$5", //Dwarf
+    "96420014.DwarfSummitEvent.04": "I came here, seeking answers, but found only fear, loneliness. And monsters.$2#$b#And then I met you, @.", //Dwarf
+    "96420014.DwarfSummitEvent.06": "And Krobus too... I guess...$2", //Dwarf
+    "96420014.DwarfSummitEvent.07": "We smoluanu are secretive about our names, and share them only with our family.#$b#But you? You are my family now.$4", //Dwarf
+    "96420014.DwarfSummitEvent.08": "My seto and liepu chose my name... they chose it because they hoped for a brighter future.#$b#A future free of fear and darkness.$2", //Dwarf
+    "96420014.DwarfSummitEvent.09": "The name they chose for me, 'Dteluotu'... 'Bringer of Peace'.$1#$b#And now, with you, I can truly call this planet, 'Home'", //Dwarf
+    //with Jasper
+    "96420014.DwarfSummitEvent.05": "...And was introduced to Professor Jasper.$1#$b#A sundweller who risked everything to learn the truth of my people.$4", //Dwarf
+    "96420014.DwarfSummitEvent.10": "Jasper", //Dwarf
+    //Changes Dwarf's name
+    "DwarfName": "Dteluotu",
+    //*********************************************************************
+    //Roommate stuff ******************************************************
+    //If Jasper not installed
+    "96420097.01.gunther": "Hello!",
+    "96420097.02.gunther": "This? Oh, it's the latest issue of 'Cryptozoology Today'. I have a subscription.#$b#Most of it is pulp, but sometimes my old colleague, Professor Jasper, writes for it.#$b#And today he has outdone himself!",
+    "96420097.03.gunther": "He's written an article describing how one might invite a dwarf to live with them.",
+    "96420097.04.gunther": "...",
+    "96420097.05.gunther": "That sounds fascinating! I'd love to know more.",
+    "96420097.06.gunther": "I don't think that's a very good idea.",
+    "96420097.07.gunther": "No, I can't imagine it would be. Besides, they've been none reported in decades.#$b#If there are any still out there, they're keeping very much to themselves.",
+    "96420097.DwarfRoommate_1.01.gunther": "You would?",
+    "96420097.DwarfRoommate_1.02.gunther": "Oh, want me to send you the article?#$b#I'll run off a copy, and pop it into your mailbox. Sound good?",
+    //With Jasper installed
+    //Event if not married to Jasper (Jasper in game)
+    "96420097.01": "Oh ", //please do not remove the space //Jasper
+    "96420097.02": "My apologies, I was lost in thought.$2",
+    "96420097.03": "Oh, some scrolls that our friend, Dwarf, gave to me. We were hoping they might cast enlightment upon their past - but instead I have found much more.$1",
+    "96420097.04": "They speak of an ancient Smoluanu tradition.#$b#A gift given between two friends who wish to pursue a life-long bond of cohabitation and friendship.$1",
+    "96420097.05": "Oh, it is not marriage. Smoluanu, it appears, do not form romantic partnerships in the manner of we humans.#$b#Their bonds are developed on friendship, trust, loyalty: all elements of love, if not the urm... romantic kind.$4",
+    "96420097.06": "Would you like to know the recipe?",
+    "96420097.07": "That sounds amazing. I'd love to have Dwarf come and live with me.",
+    "96420097.08": "You could invite them to live with you.",
+    "96420097.09": "Oh @. As fascinating as that would be, I'm only renting this apartment.$2#$b#And I am not sure Gunther would approve of me taking on a room-mate, especially one with a perchant for being a little... sticky-fingered.$1",
+    "96420097.DwarfRoommate_1.01": "I too am fascinated. There is still some translation I need to do and I'm afraid it may take a few days.#$b#I'll send you the information, shall I?",
+    //event if married to Jasper AND Free Love installed
+    "96420096.01": "Oh ",
+    "96420096.02": "My apologies, beloved, I was quite lost in thought.$2",
+    "96420096.03": "Oh, some scrolls that our friend, Dwarf, gave to me. We were hoping they might cast enlightment upon their past - but instead I have found much more.$1",
+    "96420096.04": "They speak of an ancient Smoluanu tradition.#$b#A gift given between two friends who wish to pursue a life-long bond of cohabitation and friendship.$1",
+    "96420096.05": "Oh, it is not marriage. Smoluanu, it appears, do not form romantic partnerships in the manner of we humans.#$b#Their bonds are developed on friendship, trust, loyalty: all elements of love, albeit not of a romantic nature.$4#$b#And my love, Dwarf often seems isolated and lonely, so...",
+    "96420096.06": "...I was wondering if we could invite them to live with us?",
+    "96420096.07": "That sounds amazing. Let's do it.",
+    "96420096.08": "No thanks. They're better off in their cave.",
+    "96420096.09": "Very well then. That does make sense.$2#$b#It is closer to their natural habitat, after all.",
+    "96420096.DwarfRoommate_1.01": "Thank you, my love.$4#$b#Now, there is still some translation to do. I'm afraid it may take a few days.#$b#I shall let you know what I discover.",
+    //If married to Jasper
+    "96420094.01": "Good morning my love! I've finished translating the scroll.$1",
+    "96420094.02": "To invite one of the smoluanu into your home and hearth, gift them an item of jewellery, crafted by your own hands.#$b#It's described as a covering of the forearm - a bracer - cast from gold and decorated with gemstones.",
+    "96420094.03": "For our friend, Dwarf, I have determined that a topaz, an aquamarine and a ruby will form the most pleasing combination.$1",
+    "96420094.04": "I trust you have some of those around?$3",
+    "96420094.05": "You have learned how to craft 'Dwarf Bracer'",
+    //Dwarf "engagement" dialogue
+    "dwarfroommate.engaged": "You have lots of stuff, yes? I think I'll enjoy living with you.",
+    "dwarfroommate.0": "Just getting my stuff together. I'm going to need a few more sacks.",
+    "dwarfroommate.1": "I need to sort out my shop. Won't be long now.",
+    "dwarfroommate.no": "A house? I'm happy in my cave, thank you very much.",
+    //***********************************************************************
+    //strings ***************************************************************
+    "strings.dwarfcave.1": "It's locked",
+    "strings.dwarfcave.2": "It looks like it's been crumpled heavily:^\"Dearest Marnie,^I have wanted to tell you how I feel for the longest time, but my tongue grows tangled. I fear I have been too long without company, and can no longer find the words.\" It's unsigned, but you're fairly certain it wasn't written by Dwarf.",
+    "strings.dwarfcave.3": "It's heavily scuffed and worn, and semi-deflated. Someone probably threw it out.",
+    "strings.dwarfcave.4": "Looks fairly well made, and has a name written in ink along the side: Elliot? Maybe it belonged to him once.",
+    "strings.dwarfcave.5": "The stuffing is leaking out of its ears, and the fur has been chewed by moths.",
+    "strings.dwarfcave.6": "It doesn't work. In fact, it looks like it's been gutted for parts.",
+    "strings.dwarfspouse.1": "Wow, there's a lot of stuff in here. And most of it's junk: broken toys, marbles, feathers and shells. Seems like Dwarf is quite the collector.",
+    "strings.dwarfspouse.2": "It's a gold-painted vase and an array of costume jewellery. Kind of tacky.",
+    "strings.dwarfspouse.3": "It's a copy of M.Jasper's unpublished 'Secrets of the Smouluanu'. I wonder where Dwarf found this?",
+    //*************************************************************************
+    //Events from Jasper Mod if not installed *********************************
+    //Dwarf given milk
+    "55990007.01": "Greetings sundweller. What treasure have you brought me today?", //Dwarf
+    "55990007.q0": "#The juice from a cow.#The thick creamy liquid we call \"milk\"#A beverage rich in calcium",
+    "55990007.q1": "Ah, cow juice. A beverage that has long intrigued me.", //Dwarf
+    "55990007.q2": "Ah, milk. My curiosity's about to be sated.", //Dwarf
+    "55990007.q3": "It is made of powdered bone...or teeth?#$b#That sounds ...gritty.", //Dwarf
+    "55990007.02": "Tell me... how is it extracted?", //Dwarf
+    "55990007.03": "That does not sound very hygenic.#$b#Oh, but yet, I am still curious.", //Dwarf
+    "55990007.04": "There's stuff floating on it.", //Dwarf
+    "55990007.q4": "#That's the cream. It's the best bit.#That's how you know it's fresh.#Look, do you want to drink it or not? I can make good money from this.",
+    "55990007.q5": "Cream? Yes, I think I would like to try this very much.", //Dwarf
+    "55990007.q6": "Oh. I thought that meant it was old. Surface food is weird.", //Dwarf
+    "55990007.q7": "You sell this... cow juice? Well, I'm grateful that you would bring it to me.", //Dwarf
+    "55990007.05": "This... this cow juice... it is delicious.#$b#I would like to try more. You will bring me more, yes?", //Dwarf
+    //************************************************************************ 
+    //Mail *******************************************************************
+    "mail.dwarfcraftingrecipe.jasper": "Dear @,^To invite one of the smoluanu to share your home and hearth, you must craft them an item of jewelry. It is described as a covering of the forearm, cast from gold and decorated with gemstones. The gemstones selected should be personalized specifically for the intended recepient. For our friend, Dwarf, I have determined that a topaz, an aquamarine and a ruby will form the most pleasing combination.^^A word of caution, however: Whilst smoluanu bonds are entirely platonic, the gifting of such an item will be considered significant and binding - it should not be undertaken lightly.^^Should you change your mind about inviting Dwarf, I would welcome a bracer as a gift, and promise that I shall not regard it as an invitation.  -Professor Jasper",
+    "mail.dwarfcraftingrecipe.gunther": "The smoluanu, or 'dwarves' as they are commonly misnamed, establish long-term partnerships based on friendship, loyalty and trust. These are not romantic partnerships; smoluanu seek what we humans might consider a platonic life companion.^^When an individual seeks to invite another to share their hearth and home, they present them with a hand-crafted item of jewelry. Traditionally, this is a bracer, smelted from gold ore and decorated with gemstones specifically chosen for the recepient.^^These longterm companionship bonds are considered significant and binding, and should not be undertaken lightly.",
+    "krobuslemonstone": "@, Rasmodius and I have spoken about my plans. He has cautioned me against being too hopeful, but also offered support.^I've heard smoluanu are especially fond of a yellow rock called a 'lemon stone' and wondered if you could please bring me one?^^   -Krobus",
+    "krobuslemonstone.title": "Request from Krobus",
+    "DwarfKrobusGift": "(A message scrawled in Smoluanu)^^I've got a surprise for Krobus.^^Next time it rains, meet me by the sewer grate at midnight.",
+    "DwarfKrobusGift.title": "A 'surprise' for Krobus?",
+    //LemonStone Request
+    "quest.964201.1": "Krobus requests Lemon Stone",
+    "quest.964201.2": "Krobus wishes to befriend Dwarf, and needs your help to find them a gift.",
+    "quest.964201.3": "Deliver a Lemon Stone to Krobus.",
+    "quest.964201.4.notSunday": "Thank you, @. I hope Dwarf'll accept this gift.",
+    "quest.964201.4.Sunday": "%Krobus accepts the lemon stone solemnly, and offers a nod of thanks.",
+    //Dwarf Invitation Quest
+    "quest.964202.1": "Meet Dwarf in the Forest",
+    "quest.964202.2": "Dwarf has planned a 'surprise' for Krobus.",
+    "quest.964202.3": "Meet Dwarf above the Cindersap sewer grate at midnight.",
+    //Dwarf Invitation to the Railroad
+    "quest.964203.1": "Dwarf has a gift for you?",
+    "quest.964203.2": "Dwarf wants to give you something, and has invited you to meet them by the 'iron road'.",
+    "quest.964203.3": "Meet Dwarf in the Railroad around midnight on a clear night.",
+    //*************************************************************************
+    //DIALOGUE and GIFT TASTE RESPONSES ***************************************
+    //Dwarvish words: Seto (sire) and Liepu (mentor) - change as you see fit.
+    //Dteluotu = bringer of peace (shortened)
+    //*************************************************************************
+    "dialogue.giftreaction.milk": "Ah, delicious. A fine vintage, yes?",
+    "dialogue.giftreaction.largemilk": "This cow juice certainly hits the spot.",
+    "Introduction": "Hey, you're pretty good at mining, for a human.",
+    "Mon": "I got all this stuff from the surface. I just take it from your people during the night.$1#$e#Hmm? What is this concept you call \"private property\"?$2",
+    "Mon2": "It's weird what people leave lying around. I don't know what most of it's for, but... do you like my collection?$1",
+    "Mon6": "Sometimes I dream of the sky. How high do you think it goes, friend?",
+    "Mon8": "My people are gone. Lost. What if I'm the last?$2",
+    "Mon10": "Hey friend, seeing you makes me feel happier than looking over my hoard.#$b#Is that weird?",
+    "Tue": "Ah... cave carrot stew, cave carrot roast, cave carrot soup and cave carrots au gratin.#$e#...And a ramekin of cave carrot brulee to sweeten the night.$1#$e#What?",
+    "Tue2": "Finest bombs this side of the Cascade Mountains. They'll make all the rocks go boom.",
+    "Tue6": "My seto told stories of the shadowfolk. Scary stories that kept sleep away.#$b#I can feel them here, deep in the mines: Broken, lost, and filled with anger.$2",
+    "Tue4": "Have you see my portable noise-making device, friend?#$b#I've been tinkering with it, but all it says is hisssss, hisssss, hisssss.$2",
+    "Tue10": "Do you think Krobus gets lonely too?$2",
+    "Wed": "Hey, wanna buy something?$1",
+    "Wed2": "Pretty dangerous place, these mines. You're gonna need some supplies.#$b#I've got bombs and I've got lollipops. Best kind. Candied cave carrot.$1",
+    "Wed6": "Long ago, my people knew the secrets of advanced tech. Archaeological evidence proves that.#$e#But where did it came from? And where did it all go? Some questions will never be answered...$2",
+    "Wed10": "Have you ever heard or seen any more of my kin, friend? If you find any sign... you'd tell me, wouldn't you?",
+    "Thu": "You're not a spy sent by the Shadow People, are you?#$e#I'm keeping my eye on you.$5",
+    "Thu4": "I feel most comfortable underground.#$e#The deeper underground the better.$1",
+    "Thu6": "My sibling fell in love with the sun; it burned their eyes. Remember friend, the sun cannot be trusted.",
+    "Thu8": "Sometimes at night I wander through town. Humans have the weirdest stuff.#$b#And they just leave it lying around like it doesn't matter.",
+    "Thu10": "The human with the silly hat keeps watch. I don't think he trusts me.$2#$b#You trust me, don't you friend?",
+    "Fri": "You've never seen a smoluanu before, have you?",
+    "Fri2": "Most humans fear the unknown... that's why I've hidden my shop here.#$e#Your mining skills prove you're trustworthy.",
+    "Fri4": "My seto taught me bombcraft. Do you know the tricks?#$b#Ah, but why make them yourself, when you can buy them from me.",
+    "Fri6": "I had a name, but I hid it so no-one could hurt me.#$b#Names are powerful, friend, be careful who you trust with yours.",
+    "Fri10": "I'll tell you a secret, friend. I made this shop for you. Who else is gonna buy my stuff?$1",
+    "Sat": "It's dangerous in the mines. Why don't you buy a few things from my shop to ensure your safety?$1",
+    "Sat4": "The mines can be treacherous. Be careful, sundweller.$2#$b#My wares will help you stay alive.$1",
+    "Sat6": "The mines can be a treacherous place. Be careful, friend.",
+    "Sat8": "I came from mountains far away. Escaped from... No, you don't need to hear my sad story.#$b#The valley called me home. The end.",
+    "Sat10": "The Elemental Wars were terrible. My seto told stories about the carnage.$2#$b#They made sure I remember the crimes of those shadowfiend.",
+    "Sun": "$1 Dwarf_Milk#One day you'll have to tell me about this beverage you call \"milk\".$1$k#$e#Human food intrigues me. Is it true you drain the juices from other animals to drink?",
+    "Sun8": "That female human with the wire-frame eyes, the one that smells of metal and oil. I watch her stare at the stars.#$b#Seto said we came from the stars. I'm not sure I believe them.",
+    "Sun10": "You're a good friend. I'm glad I trusted you.$1",
+    "summer_Mon": "Ugh, a bug got in here the other day. Buzzz buzzz buzzz... it wouldn't shut up for hours.$5",
+    "summer_Tue": "Saw two sundwellers out in the late-dark, laughing like cubs and rustling in the bushes.$1#$b#Why are they outside when they have perfectly good dens? Sundwellers are weird.",
+    "summer_Wed": "You ever looked up at the stars and felt very small, friend?$2#$b#They make me feel lonely. It's better underground.",
+    "summer_Thu": "Hey, if you find any smoluanu stuff in the mines, can you bring it to me, friend?",
+    "summer_Thu4": "It's nice and cool in here, yes?#$b#Perhaps you would like to stay a while?$3",
+    "summer_Fri": "Sundwellers call us 'Dwarves' because we're smaller than them, and live underground.#$b#It is not my name, but it is all I can give you. For now.",
+    "summer_Sat": "That greybeard on the mountain? The one who wears rags?#$b#Do you think he's a spy for the shadow-people?$5",
+    "summer_Sun": "There's something made of gold behind the big manor house. I tried to collect it... but it was too heavy.$2",
+    "summer_Mon4": "The sun is no friend to my kind, sundweller. His gaze burns our skin.",
+    "summer_Mon10": "I think one day, yes, I will trust you with my true name.#$b#But that day is... not today, friend.$1",
+    "summer_Tue4": "The earth is our Mother and our guardian, sundweller. I feel safest in her embrace.",
+    "summer_Tue8": "Do you hear the song of the earth, friend? No, of course you don't. Human ears aren't very good.",
+    "summer_Wed10": "Sorry I'm a bit grubby, friend. I've been doing a little tinkering.$1#$b#Heh, I'm better at taking apart than putting back together. It's fun though.",
+    "summer_Wed2": "Seen any smoluanu scrolls around, friend?#$b#Liepu spoke of a ship filled with knowledge. It crashed here, many eons ago.",
+    "summer_Wed4": "The warrior came snooping around last night, smelling of death and sorrow.#$b#I hid from him, sundweller - there was blood on his blade.$2",
+    "summer_Sat6": "Do you have siblings, friend?#$b#I must have, once, I think. They were lost during The Fracturing. Everyone was lost.$2#$b#And now, there is just me, I fear.$2",
+    "summer_Mon8": "My liepu filled my heart with tales of our old kingdom. Vataku, the city in the sky.#$b#And now here, we hide beneath the dirt. This world hasn't been kind to us, friend.$2",
+    "summer_Thu10": "I'm glad you're my friend. It's good to have someone to talk to. Thank you.$1",
+    "summer_Fri10": "My parents? Hmmm...#$b#Earth is our Mother and Sky is our Father, friend.#$b#Biologically? Oh, I'm not sure what you mean.$2",
+    "fall_Mon": "Last night I was liberating loot from a shed, and someone yelled 'thief.'$5#$b#Sundwellers are so possessive of stuff.",
+    "fall_Tue": "Why is the sundweller with wheels always staring at his moving picture box?#$b#Is he hypnotized?",
+    "fall_Wed": "It's harder to sneak around in the orange season.#$b#The ground makes too much noise.$2",
+    "fall_Thu": "Do you go through the trash cans, friend?#$b#It's amazing what sundwellers toss away.$1",
+    "fall_Sat": "Can I interest you in my wares?#$b#A bomb a day keeps the monsters away.$1",
+    "fall_Sun": "Earth is mother, Sky is father. Dwarf is... smoluanu.#$b#I'm not sure I understand the question?$2",
+    "fall_Wed2": "Found any pretty rocks lately, friend?#$b#There's good stuff in these mines.",
+    "fall_Tue4": "My clan used to trade tech for seeds and supplies, so they could live on your world.#$b#The sundwellers betrayed them, and used our weapons to fight each other.$2#$b#You wouldn't betray me, would you, friend?",
+    "fall_Sat6": "You are a good to me, friend, for this is a lonely place.#$b#If you ever see more of my people, you will let me know, yes?",
+    "fall_Mon8": "Have you ever been to the Cascade Mountains, friend?#$b#I was born there, in the cave of stars.$1#$b#My people... we live underground, but dream of the sky.",
+    "fall_Thu10": "Hello friend. Want to join me for a while? I could rustle you up a cave carrot smoothie.$1",
+    "fall_Fri6": "Some of the villagers leave stuff out for me, friend.$1#$b#Bowls of milk, baked bread. I overheard the blue-haired one talking, once... what does 'offering for the fae' mean?$1",
+    "fall_Fri10": "I wonder friend... could you teach me your language?",
+    "fall_Fri8": "Sometimes when it rains, I sneak out to listen to the female with the amethyst hair.#$b#There's magic in her music... it makes me think of home.",
+    "winter_24_2": "I hear there's some sort of party tomorrow? Where humans eat, drink and be cheery.$1#$b#It seems... pleasant...$2#$b#Will you maybe come and see me, please friend?$3",
+    "winter_25_2": "I heard it's customary to give gifts today, friend.#$b#So, here's something for you.[330 535 72 74 80 60 62 64]#$b#I hope you like it.$1",
+    "winter_Mon": "That wolf in town is scary, friend. I'm glad it's in a cage.",
+    "winter_Tue": "Oh, that rock wall? That was a test. I wasn't trapped here.$1#$b#Congratulations, you passed.$1",
+    "winter_Wed": "Ugh, I hate snow... you're lucky you've got long legs.$2",
+    "winter_Mon8": "It wasn't just your skill at mining that proved you trustworthy, friend. The Mother thinks highly of you.",
+    "winter_Tue8": "We didn't mean to hurt the shadowfolk and blow open their home.$2#$b#It was an accident. A terrible, horrible accident.$5",
+    "winter_Wed8": "I find things in the mines that make me think of my people. It makes me sad.$2#$b#Where are my kin, friend?",
+    "winter_Sun": "I saw a shadowy figure out last night while out collecting.$2#$b#I bet it's one of those nasty shadowfiends. If you see it, you'll kill it, right friend?$1",
+    "winter_Thu": "You learned my language from a book? No wonder your accent's atrocious.#$b#Still, it's nice to have someone to talk to.$1",
+    "winter_Fri": "Be careful in the mines. Lots of dangerous things down there.#$b#You'd better buy some stuff for protection.$1",
+    "winter_Sat": "Birds are strange. I wonder... what are they thinking?",
+    "winter_Wed2": "I found some magazines in the bin outside the ranch today...#$b#I don't know the symbols, but the pictures are pretty.$1",
+    "winter_Tue4": "Have you heard of M.Jasper, friend?#$b#Apparently he's some sort of expert on my kind. Somehow, I doubt it.",
+    "winter_Sat6": "Krobus seems strange for a shadowfiend, doesn't he, friend?#$b#The others are all malevolent fiends, but he actually talks to me.#$b#It's weird.$3",
+    "winter_Thu10": "Seto spoke often of Vataku: towers of glistening glass, and flying machines that hummed like bees.#$b#It must've been a marvellous sight.$1",
+    "winter_Wed6": "There's a spider made a nest in the corner of my cave.#$b#Please don't hurt her.$2",
+    "winter_Fri10": "Do you need any help on the farm?#$b#What? It gets boring here, okay? Plus I'm sure you've got heaps of cool stuff you don't need, right?$1",
+    //**********************************************************
+    // ROOM MATE DIALOGUE
+    //**********************************************************
+    "spouseRoom_Dwarf": "Hey friend. I thought I might make some bombs today.#$b#Oh, don't look so worried - I never accidentally blow anything up.$2#$b#Well, ALMOST never.",
+    "Rainy_Day_0": "Ugh, there's water dripping from the sky-ceiling. Why do you wanna go out in that?",
+    "Rainy_Day_1": "That water splattering on the roof sound was really annoying at first. But I'm kind of getting used to it right now.",
+    "Rainy_Day_2": "Hey, can you leave your axe behind today? I want to make a fire-pit. It's a good day to cook.",
+    "Rainy_Day_3": "It's horrible out there. Rain's weird. Hey, I've got a great idea.$1#$b#You can stay home with me and we can learn stuff about my people. Doesn't that sound fun?",
+    "Rainy_Day_4": "Have fun outside today. Here's something so you don't die in the mines. [286 287 205 732]",
+    "patio_Dwarf": "So this is the 'Great Outdoors' then. Well... it's big. And full of bugs.#$b#You know, I'd rather be inside.$2",
+    "Rainy_Day_Dwarf": "Hey, friend, do you have any ore and coal I can use?$1#$b#No reason...",
+    "Rainy_Night_0": "I looked through all your chests today. There's a lot of good stuff.#$b#Great hoard, friend.$1",
+    "Rainy_Night_1": "Oh hey, you're home. I spent all day watching that picture box in the corner, and now I'm tired. Weird.",
+    "Rainy_Night_2": "Been thinking, friend. You're great and all, but there must be others of my kin around too. How would I find them?",
+    "Rainy_Night_3": "There was a movie on, something about some dwarves and a pale sundweller.#$b#It got everything wrong. I've never sung 'Hi ho. Hi hi.' in my life.$3",
+    "Rainy_Night_4": "Hey, did you know dwarves really like gold? I heard that somewhere. It's wrong.#$b#I mean, gold's okay and all that, but I wouldn't write a song about it.$2",
+    "Rainy_Night_5": "Did you kill lots of shadow people today? They're mean. Well... except for Krobus, I guess. He seems okay. Maybe not kill him",
+    "Rainy_Night_Dwarf": "You can have this, friend @. You can suck it for hours and hours and hours.[554]#$b#Just don't bite it, or you'll crack your teeth.$2",
+    "Indoor_Day_0": "Do you want to play a traditional game of my kin? It's called 'Nhip'.#$b#It's fun. You just need a dozen cherry bombs and... why are you looking at me like that?",
+    "Indoor_Day_1": "Are you going to the mines today? Wanna bring me back some cave carrots?#$b#I could make a stew. That's what housemates do, right? Cook for each other?",
+    "Indoor_Day_2": "Today I will be very helpful. I will cook. I will clean.#$b#Haha, I'm kidding... I'll probably watch the magic talking box instead.$1",
+    "Indoor_Day_3": "Have you got any wood you're not using, friend?#$b#I want to make a stepladder.$1",
+    "Indoor_Day_4": "Hey, if you're headed into town tomorrow, can you bring me back something?#$b#Like what? Oh, I don't know... something fun?$1",
+    "Indoor_Day_Dwarf": "I got up early and made you something, friend. This is good food for breaking your fast, right? [199 218 219 727 730]",
+    "Indoor_Night_0": "Sorry about the mess. There was a mouse.$2#$b#It was %pet, not me. They chased it. Well... maybe it was me, just a little.",
+    "Indoor_Night_1": "I washed the dishes today. In completely unrelated news, we're gonna need some new eating saucers.",
+    "Indoor_Night_2": "I hope you had a great day, friend. Look how tidy and clean the house is.#$b#I dusted and everything. It's what good housemates do, isn't it?$1",
+    "Indoor_Night_3": "Stars are really nice. Setu always said we came from the stars.#$b#But they look like they're a really long way away. I don't think I'll ever be going back there.$2",
+    "Indoor_Night_4": "Did you have an adventure today, friend? I certainly didn't spend all day trying on your clothes.#$b#No, that'd be weird. Just a lazy, boring day here.",
+    "Indoor_Night_Dwarf": "Oh, you're looking for the bristly stick thing?#$b#I used it to clean my toenails. That's what it's for, right?",
+    "Outdoor_0": "Hey friend. I found something you might like. [768 767 769 428 66 82]#$b#What? It's not my fault if people just leave stuff lying around where anyone could find it.", // choose from a pool of items
+    "Outdoor_1": "This daystar? He's really bright, isn't he? He makes my eyes leak.$2",
+    "Outdoor_2": "There's lots of fun stuff on your farm.#$b#You've just got to learn how to look for it.",
+    "Outdoor_3": "Got plans for today? Yeh, me too. %pet and me have got something to do.#$b#What is it? It's a secret.",
+    "Outdoor_4": "Your cave's pretty cool. Not as roomy as mine, of course - but less chance of being eaten by monsters. So that's a win.",
+    "Outdoor_Dwarf": "There's so many colors out here. Your daywalker world is so bright and garish.",
+    "funLeave_Dwarf": "Hah, yeah, it's not like I can go anywhere. The daystar burns, so I'm away while you sleep.",
+    //"funReturn_Dwarf": "",
+    "OneKid_0": "Your human cub was grumbly today. I gave them one of those blue cans of liquid.#$b#They seemed to like it.",
+    "OneKid_1": "Your sundweller language is so primitive. Want me to teach your cub a proper one?",
+    "OneKid_2": "Don't worry, I'll make sure %kid1's fed today. They like cave carrot puree, right?.",
+    "OneKid_3": "Sundweller cubs are so boring. When's %kid1 gonna do more than make weird babbling noises and even weirder smells?",
+    "TwoKids_0": "Hey friend. I've been teaching the cubs how to make bombs, just like my setu taught me when I was their age.",
+    "TwoKids_1": "The cubs and me are playing hide and sneak.#$b#You can't play. You're far too big.",
+    "TwoKids_2": "Your cubs tell the best stories. I'm teaching them some of my own.",
+    "TwoKids_3": "I made the fast-breaking food for your cubs. %kid1 mashed theirs into %kid2's hair. Waste of good porridge.",
+    "Good_0": "Your house is great, friend.$1#$b#And I'm quite fond of you too!",
+    "Good_1": "Thanks for letting me live with you, friend.#$b#This is so much more interesting than my hole in the ground.#$b#Less chance of getting eaten by bats too. Ugh.",
+    "Good_2": "Life with you is never boring, friend.",
+    "Good_3": "Would you tell me a story, friend? Do you know 'Mysteries of the Dwarves'? I hear it's hilarious.",
+    "Good_4": "Hey, you know my language... I was thinking, could you teach me a little of yours?",
+    "Good_5": "It is good to have friends. Even ones as big as you. Perhaps one day I will tell you my true name.#$b#But today is not that day, friend.",
+    "Good_6": "Hmmm... Oh, I was bored, so I tidied your stuff. I hope that was okay.",
+    "Good_7": "Please try not to die in the mines, friend. I would miss you too much.",
+    "Good_8": "Don't worry about me... I'm fine in here by myself.$1#$b#I won't blow anything up, I promise.",
+    "Good_9": "Bored? Hah, not likely. Not when you've got so much cool stuff to poke through.#$b#You go out and have fun. And bring me something shiny.",
+    "Neutral_0": "Sometimes I miss my cave. Then I remember it was lonely and sometimes things would come up through the floor and try to eat me.#$b#Then I'm happy to be here instead.",
+    "Neutral_1": "Hey, do you think that shadow-guy in the sewer gets lonely too? I bet his house must smell really bad.",
+    "Neutral_2": "I hear you daywalkers trap words in books. That seems unkind.",
+    "Neutral_4": "Do you want me to wash any of your clothes?#$b#What? Oh, I'm not saying you stink, but you do smell a little... earthy.$3",
+    "Neutral_6": "Hah, you expect me to cook and clean? It's not like I can reach anything...#$b#This house was made for giants.",
+    "Neutral_7": "It wasn't me. I didn't do anything. It was %pet.$1",
+    "Neutral_8": "Hey, what's the best way to get stains out of the carpet?$2#$b#No reason. Just curious, is all.",
+    "Neutral_9": "What if I'm the last, friend? No more smouluanu?#$b#Oh... now I'm sad.$2",
+    "Bad_0": "...Sometimes I get the feeling you don't like having me around...$s",
+    "Bad_1": "*sigh*... Am I annoying you? Sorry I moved all your stuff... again.$s",
+    "Bad_2": "Are you still happy with me?$s",
+    "Bad_3": "Did I do something wrong? You've got your scowly face on.$s",
+    "Bad_4": "Do you ever wonder what else is out there?$s",
+    "Bad_5": "I used to think we were friends... but now you don't even wanna talk to me.$2",
+    "Bad_6": "Never thought I could feel lonelier than I did in my cave.$2#$b#I was wrong.",
+    "Bad_7": "Maybe I should go back to my cave. At least there I felt appreciated.",
+    "Bad_8": "I'm not behaving like a petulant child. I don't even know what that means.",
+    "Bad_9": "Hey friend, which of your many things would you miss the most?#$b#Why do I ask? Oh, no reason.",
+    "spring_1":"Everything's so green! Your outside world is so bright.$1",
+    "fall_14": "There's a fair tomorrow, right? I've heard sundwellers talking.#$b#Can you win me a prize, friend? Something shiny, perhaps?$1",
+    "fall_26": "I heard sundwellers dress up and stuff tomorrow and the wizard makes a magic maze.#$b#Can I come, friend? I'll be good. Honest.",
+    "summer_8": "Is it always so hot in here, friend?",
+    "summer_15": "Ugh, all I hear is buzz-buzz-buzz. Flies are nasty.$2#$e#But don't worry, friend! I'll take care of them...just like the ones in the mines.$a",
+    //********************************************************
+    //Jasper Dialogue etc
+    "jasper.invitejasperdwarf.true": "You and your house guest wish to invite me on an expedition?$1#$b#I'd be honored. Although I hope there's not too much climbing involved.$2",
+    "jasper.invitejasperdwarf.true.spouse": "I must say, I'm most excited about Dwarf's invitation.$1#$b#Although I hope there's not too much climbing involved.$2",
+    //********************************************************
+    //Festivals
+    "dwarf.festival.summer20": "They're launching bombs into the sky? Are they using a very large slingshot?",
+    "dwarf.festival.summer28": "The jellyfish? We had something like them back on our homeworld.#$b#Ours drifted through the sky and hunted naughty cubs.$1#$b#Well, that's what my liepu said, anyway.",
+    "dwarf.festival.fall27": "These skeletons have a bone to pick with you.$1#$b#Heh, that's a pune, or play on words. Jasper's been teaching me.",
+    //********************************************************
+    //Gift Dialogue
+    "dialogue.giftreaction.dwarfscrolli": "This scroll was passed between close companions.$2#$b#Thank you, I'll keep their memory safe.",
+    "dialogue.giftreaction.dwarfscrollii": "Oooh, sketches from our starhome. It seems ... marvellous.$1",
+    "dialogue.giftreaction.dwarfscrolliii": "Oooh, blueprints! Perfect.#$b#I'll have some fun with these.$1",
+    "dialogue.giftreaction.dwarfscrolliv": "This was once a very important scroll. The golden chain? That means it was penned by a master scribe.#$b#Now maybe, not worth much. But I'll look after it, promise.$1",
+    "dialogue.giftreaction.dwarfgadget": "Dwarf tech's pretty neat, isn't it? No, I don't know how it works either.#$b#If you figure it out, you'll let me know, right?",
+    "dialogue.giftreaction.raredisc": "This shouldn't be near organic beings. It can have... unpleasant side effects.$2#$b#Don't worry, I'll keep you safe from it.$1",
+    "dialogue.giftreaction.cavecarrot": "Oh, thank you. I was trying to decide what to make for dinner.#$b#Now what to make with it? Hmmm...",
+    "dialogue.giftreaction.lemonstone": "My favorite garnish!$1#$b#Thank you, I'll enjoy this with my dinner.",
+    "dialogue.giftreaction.ccbrulee": "Ooh! Rich and creamy, just the way I like it.$1#$b#Thank you, friend.$4",
+    "dialogue.giftreaction.ccroast": "My liepu cooked me this on the long cold nights, when white powder fell from the sky.#$b#This makes me think of home. Thank you, friend.$4",
+    "dialogue.giftreaction.ccsoup": "Spicy! This will certainly keep me warm.$1#$b#Thank you, friend.$1",
+    "dialogue.giftreaction.ccstew": "Seto used to prepare this when I was feeling sad. They called it 'comfort food'.#$b#Thank you, friend.$1",
+    "dialogue.giftreaction.ccaugratin": "This looks cheesy and scrumptious. Just how my seto prepared it.#$b#Thank you, friend.$4",
+    "dialogue.giftreaction.dwarvishhelm": "I wonder who this once belonged to? You can tell a lot about a smoluanu by their helmet.#$b#What does mine tell you, friend?",
+    "dialogue.giftreaction.plushdwarf": "A doll that looks like me? I love it.$4#$b#I had one like it as a cub; we had many adventures together.$1",
+    "dialogue.giftreaction.plushshadowspirit": "Why are you giving me this, an effigy of my mortal enemy?$5#$b#Perhaps I could stick pins into it?$1",
+    //***********************************************
+    //If married to Jasper and living with Dwarf 
+    //Jasper
+    "jasper.marriage.twokids0.spring": "Ah, beloved, apologies for the mess.$2#$b#I'm afraid we may have engaged in a bit of... err, kitchen science.#$b#Dwarf may have got a little carried away with our domestic volcano.$2",
+    "jasper.marriage.twokids0.summer": "What a glorious day today. I feel sad that Dwarf cannot join us on the beach...$2#$b#...but the children have promised to bring them back something shiny.$1",
+    "jasper.marriage.twokids0.fall": "Dwarf seems to take almost as much delight in romping in the leaves as the children do.#$b#I'm glad we've given them a chance for a family life.",
+    "jasper.marriage.twokids0.winter": "I caught Dwarf telling the children stories about their life back in the Cascade Mountains.#$b#They appear to be learning each others' language.$1",
+    "jasper.marriage.spouseroom.A": "Ah beloved, I've so much fresh insight on smoluanu culture and history.#$b#But I do wonder if anyone will believe me.$2",
+    "jasper.marriage.spouseroom.B": "Have you seen my special fountain pen, @? Oh dear... it appears Dwarf 'borrowed' it again...$2#$b#One day we shall have to teach them the meaning of 'personal property'.",
+    "jasper.marriage.spouseroom.C": "I have received another dismissive letter from Peasbody. Drat him.$a^I have received another dismissive letter from Peasbody. Drat her.$a#$b#Oh, do not fret beloved, I am not deeply upset.#$b#How can I be, with you standing beside me?",
+    "jasper.marriage.spouseroom.D": "Ah good morning, beloved.#$b#Dwarf and I were poring over scrolls for half the night...#$b#Inspiration and sleep are not good bedfellows.$2",
+    "jasper.marriage.spouseroom.spring": "Ah a place to call my own. The scent of ink and paper, @. That's the scent of home.$1#$b#But it wouldn't be a real home without you, my love.$4",
+    "jasper.marriage.spouseroom.summer": "Good morning, beloved. Just putting the last touches on my latest paper.",
+    "jasper.marriage.spouseroom.fall": "Good morning gorgeous. I've been up since dawn, too inspired to sleep.$1#$b#Why is it that epiphanies always come in the wee small hours?",
+    "jasper.marriage.spouseroom.winter": "These chilly mornings have awoken my inspiration! Today, paperwork. Tomorrow, the world!$1",
+    "jasper.marriage.outdoor.spring": "Another glorious morning, my love. Oh, Dwarf and I were up before the dawn.#$b#They said something about patrolling for shadowfolk spies?$2",
+    "jasper.marriage.outdoor.summer": "Dwarf insisted we get up early to dig for treasure... I found this.#$b#It's kind of fun, isn't it? The people who used to live here must've really loved chickens.[113].",
+    "jasper.marriage.outdoor.winter": "Dwarf and I attempted our morning walk, beloved, but I'm afraid the snow was too deep.$2",
+    "jasper.marriage.outdoor.fall": "Dwarf and I watched the sunrise. Perhaps you would care to join us on the morrow?#$b#It is a truly glorious sight.$1",
+    //Dwarf
+    "dwarf.marriage.twokids0.spring": "Jasper and the cubs are doing this thing called 'kitchen science'.#$b#It's like bombcraft, only messier.$1",
+    "dwarf.marriage.twokids0.summer": "Ugh, the daystar's too bright to go outside.$2#$b#Oh, don't worry about me, friend.#$b#Your cubs have offered to bring me treasure.$1",
+    "dwarf.marriage.twokids0.fall": "Your mate had us creating what is called a 'collage' today, friend.#$b#It involves glueing leaves to paper.#$b#I don't get it? What's the point?$2",
+    "dwarf.marriage.twokids0.winter": "The cubs introduced me today to something called a 'snow fight'.#$b#It was fun; your cubs are fierce fighters, friend.$1#$b#I approve.",
+    "dwarf.marriage.spouseroom.A": "Hey friend. I thought I might make some bombs today.#$b#Oh, don't look so worried - I never accidentally blow anything up.#$b#Well, ALMOST never.",
+    "dwarf.marriage.spouseroom.B": "Your mate's asked me if he can 'pick my brain' today...$2#$b#What does that mean, friend? It sounds painful.",
+    "dwarf.marriage.spouseroom.C": "Jasper is so curious about my people. But I have many questions about yours, friend.#$b#Like... why do you worship cats?$1",
+    "dwarf.marriage.spouseroom.D": "I am making a lexicon of all the long words your mate uses, friend.$1#$b#It's only fair that if he knows my language, I know his.#$b#Would you like to borrow it?",
+    "dwarf.marriage.outdoor.spring": "Jasper and I were out early, looking for shadowfolk spies.#$b#He talks so much, your mate, he must've scared them all away.$a",
+    "dwarf.marriage.outdoor.summer": "Your mate and I went hunting for treasure.#$b#We didn't find any.$2",
+    "dwarf.marriage.outdoor.winter": "Jasper and I tried to go for a walk. Bad idea.$2#$b#He had to lift me out of a snowdrift. So humiliating.$a",
+    "dwarf.marriage.outdoor.fall": "Your mate suggested I watch the sunrise.#$b#The daystar is very pretty, although he does hurt my eyes.",
+    //strings
+    "NPC.cs.4462": "Hey, I poured some water on the crops for you. That helps, right?$1",
+    "NPC.cs.4463": "#$e#Oh, and I put some water in {0}'s bowl too. They looked thirsty.",
+    "NPC.cs.4474": "Hey friend! I've been playing with your farm animals. I think they enjoyed it. Maybe?",
+    "NPC.cs.4481": "Friend! There was a gap in the fence so I nailed it up. That should keep the monsters out.$1",
+    "NPC.cs.4500": "Oh hey friend! I'm a bit stuck here... You sure do have a lot of stuff.$2",
+    "NPC.cs.4488": "I found this last night. Nobody seemed to want it, so I figured you might.#$b#Do you like it?$1",
+    "NPC.cs.4440": "Hey friend! I hear there's a human-cub coming. I'm looking forward to being their liepu.$l",
+    "NPC.cs.4441": "Friend! I hope our human-cub arrives soon. I'm excited to meet them.$l",
+    "movieinvite_spouse_dwarf":"A mo-vee?! You'll buy me a treat too, right? Let's go!$1",
+    //
+    "96420015.01": "Don't worry, friend! Almost finished!$1",
+    "96420015.02": "Done!",
+    "96420015.03": "Friend! You're finally awake. I've been waiting for hours and hours...$1#$b#I wanted to make you something too, to celebrate us living together.",
+    "96420015.04": "And I thought... what does @ need? Hmm...#$b#Something to protect their soft human head!$1#$b#I really hope you like it.$2",
+    "96420015.05": "Like it? I love it!",
+    "96420015.06": "I'm going to wear it everyday!",
+    "96420015.07": "My head's not soft!",
+    "96420015.08": "It's great, thank you.",
+    "96420015.09": "I'm so glad!$1",
+    "96420015.10": "Is that a promise? Cos I'm going to hold you to it!$1",
+    "96420015.11": "It's softer than mine! And I want to keep you safe, okay?$4",
+    "96420015.12": "That's good!",
+    "96420015.13": "You try on the helmet. It fits perfectly... well, almost."
+}

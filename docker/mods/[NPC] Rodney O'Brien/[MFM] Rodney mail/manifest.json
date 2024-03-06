@@ -1,0 +1,19 @@
+﻿{
+	"Name": "[MFM] Rodney mail",
+	"Author": "TheFrenchDodo",
+	"Version": "1.0.0",
+	"Description": "Adds custom mail for Rodney.",
+	"UniqueID": "TheFrenchDodo.RodneyOBrien.MFM",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "TheFrenchDodo.RodneyOBrien",
+			"UniqueID": "TheFrenchDodo.RodneyOBrien.JA"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.10.1"
+	}
+}

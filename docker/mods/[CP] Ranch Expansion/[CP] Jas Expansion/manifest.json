@@ -1,0 +1,14 @@
+{
+   "Name": "Jas expansion",
+   "Author": "Lemurkat",
+   "Version": "1.5.6",
+   "Description": "Additional cutscenes for Jas",
+   "UniqueID": "lemurkat.Jasmineno",
+   "ContentPackFor": {	"UniqueID": "Pathoschild.ContentPatcher"   },
+   "Dependencies": [
+	{ "UniqueID": "Tanpoponoko.SeasonalOutfits",        "IsRequired": false     },
+	{ "UniqueID": "DSVTeam.DiverseSeasonalOutfits",     "IsRequired": false	    },
+        {"UniqueID": "gizzymo.canonfriendlyexpansion",     "IsRequired": false	},
+        {"UniqueID": "farmerjack.dialogue_expansions",     "IsRequired": false	}
+	]
+}

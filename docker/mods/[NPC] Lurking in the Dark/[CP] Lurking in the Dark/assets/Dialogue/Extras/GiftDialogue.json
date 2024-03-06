@@ -1,0 +1,98 @@
+{
+	"Changes": [
+	{
+		"LogName": "Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/SenS",
+		"Entries": 	{
+                //Gift Taste
+                    //Reveals
+                    "Reveal": "{{i18n:Gifts.SenS.Reveals}}",
+                    "Reveal_Krobus4": "{{i18n:Gifts.SenS.Reveals.Krobus.1}}", 
+                    "Reveal_Krobus4~1": "{{i18n:Gifts.SenS.Reveals.Krobus.2}}",
+                    "Reveal_Krobus4~2": "{{i18n:Gifts.SenS.Reveals.Krobus.3}}",
+                    "Reveal_Krobus4~3": "{{i18n:Gifts.SenS.Reveals.Krobus.4}}",
+    
+                    //Category Gift Response
+                    "GiftReactionCategory_-80": "{{i18n:Gifts.SenS.GiftReaction.Cat.Flowers}}", 
+                    "GiftReactionCategory_-2": "{{i18n:Gifts.SenS.GiftReaction.Cat.Gems}}", 
+    
+                    //Specific Gift Response
+                    "GiftReaction_Crocus": "{{i18n:Gifts.SenS.GiftReaction.Crocus}}",
+                    "GiftReaction_Strange_Bun": "{{i18n:Gifts.SenS.GiftReaction.StrangeBun}}",
+                    "GiftReaction_Void_Mayonaise": "{{i18n:Gifts.SenS.GiftReaction.VoidMayo}}",
+                    "GiftReaction_Rare_Disc": "{{i18n:Gifts.SenS.GiftReaction.RareDisc}}",
+                    "GiftReaction_Obsidian": "{{i18n:Gifts.SenS.GiftReaction.Obi}}",
+                    "GiftReaction_Fire_Opal": "{{i18n:Gifts.SenS.GiftReaction.FireOpal}}",
+                    "GiftReaction_Golden_Mask": "{{i18n:Gifts.SenS.GiftReaction.GoldenMask}}",
+                    "GiftReaction_Duck_Feather": "{{i18n:Gifts.SenS.GiftReaction.DuckFeather}}",
+                    "GiftReaction_Cloth": "{{i18n:Gifts.SenS.GiftReaction.Cloth}}",
+                    "GiftReaction_Bug_Steak": "{{i18n:Gifts.SenS.GiftReaction.BugSteak}}",
+                    "GiftReaction_Squid_Ink": "{{i18n:Gifts.SenS.GiftReaction.SquidInk}}",
+                    "GiftReaction_Snail": "{{i18n:Gifts.SenS.GiftReaction.Snail}}",
+                    "GiftReaction_Slime": "{{i18n:Gifts.SenS.GiftReaction.Slime}}",
+                    "GiftReaction_Wool": "{{i18n:Gifts.SenS.GiftReaction.Wool}}",
+                    "GiftReaction_Pumpkin": "{{i18n:Gifts.SenS.GiftReaction.Pumpkin}}",
+                    "GiftReaction_Golden_Pumpkin": "{{i18n:Gifts.SenS.GiftReaction.GoldenPumpkin}}",
+                    "GiftReaction_Iridium_Bar": "{{i18n:Gifts.SenS.GiftReaction.IridiumBar}}",
+                    "GiftReaction_Diamond": "{{i18n:Gifts.SenS.GiftReaction.Diamond}}",
+                    "GiftReaction_Void_Essence": "{{i18n:Gifts.SenS.GiftReaction.VoidEssence}}",
+                    "GiftReaction_Cave_Carrot": "{{i18n:Gifts.SenS.GiftReaction.CaveCarrot}}",
+                    "GiftReaction_Garlic": "{{i18n:Gifts.SenS.GiftReaction.Garlic}}",
+                    "GiftReaction_Oil_of_Garlic": "{{i18n:Gifts.SenS.GiftReaction.Garlic}}",
+                    "GiftReaction_Dwarvish_Helm": "{{i18n:Gifts.SenS.GiftReaction.DwarfHelm}}",
+                    "GiftReaction_Dwarf_Scroll_I": "{{i18n:Gifts.SenS.GiftReaction.DwarfScroll}}",
+                    "GiftReaction_Dwarf_Scroll_II": "{{i18n:Gifts.SenS.GiftReaction.DwarfScroll}}",
+                    "GiftReaction_Dwarf_Scroll_III": "{{i18n:Gifts.SenS.GiftReaction.DwarfScroll}}",
+                    "GiftReaction_Dwarf_Scroll_IV": "{{i18n:Gifts.SenS.GiftReaction.DwarfScroll}}",
+                    "GiftReaction_Dwarf_Gadget": "{{i18n:Gifts.SenS.GiftReaction.DwarfGadget}}",
+                    "GiftReaction_Lemon_Stone": "{{i18n:Gifts.SenS.GiftReaction.LemonStone}}",
+                    "GiftReaction_Void_Egg": "{{i18n:Gifts.SenS.GiftReaction.VoidEgg}}",
+                    "GiftReaction_Bat_Wing": "{{i18n:Gifts.SenS.GiftReaction.BatWing}}",
+                    "GiftReaction_Prismatic_Shard": "{{i18n:Gifts.SenS.GiftReaction.PrismaticShard}}",
+                    "GiftReaction_Magic_Rock_Candy": "{{i18n:Gifts.SenS.GiftReaction.MagicRockCandy}}",
+                    "GiftReaction_Pumpkin_Soup": "{{i18n:Gifts.SenS.GiftReaction.PumpkinSoup}}",
+                    "GiftReaction_Ice_Cream": "{{i18n:Gifts.SenS.GiftReaction.IceCream}}",
+                    "GiftReaction_Pink_Cake": "{{i18n:Gifts.SenS.GiftReaction.Cake}}",
+                    "GiftReaction_Chocolate_Cake": "{{i18n:Gifts.SenS.GiftReaction.Cake}}",
+                    "GiftReaction_Pumpkin_Pie": "{{i18n:Gifts.SenS.GiftReaction.PumpkinPie}}",
+                    "GiftReaction_Cranberry_Candy": "{{i18n:Gifts.SenS.GiftReaction.CranberryCandy}}",
+                    "GiftReaction_Miner's_Treat": "{{i18n:Gifts.SenS.GiftReaction.MinersTreat}}",
+                    "GiftReaction_Glazed_Yams": "{{i18n:Gifts.SenS.GiftReaction.GlazedYams}}",
+                    "GiftReaction_Pancakes": "{{i18n:Gifts.SenS.GiftReaction.Pancakes}}",
+                    "GiftReaction_Cookie": "{{i18n:Gifts.SenS.GiftReaction.Cookie}}",
+                    "GiftReaction_Rhubarb_Pie": "{{i18n:Gifts.SenS.GiftReaction.RhubarbPie}}",
+                    "GiftReaction_Blueberry_Tart": "{{i18n:Gifts.SenS.GiftReaction.BlueberryTart}}",
+                    "GiftReaction_Cranberry_Sauce": "{{i18n:Gifts.SenS.GiftReaction.CranberrySauce}}",
+                    "GiftReaction_Plum_Pudding": "{{i18n:Gifts.SenS.GiftReaction.PlumPudding}}",
+                    "GiftReaction_Fruit_Salad": "{{i18n:Gifts.SenS.GiftReaction.FruitSalad}}",
+                    "GiftReaction_Blackberry_Cobbler": "{{i18n:Gifts.SenS.GiftReaction.BlackberryCobbler}}",
+                    "GiftReaction_Poppyseed_Muffin": "{{i18n:Gifts.SenS.GiftReaction.PoppyseedMuffin}}",
+                    "GiftReaction_Maple_Bar": "{{i18n:Gifts.SenS.GiftReaction.MapleBar}}",
+                    "GiftReaction_Banana_Pudding": "{{i18n:Gifts.SenS.GiftReaction.BananaPudding}}",
+                    "GiftReaction_Mango_Sticky_Rice": "{{i18n:Gifts.SenS.GiftReaction.MandoStickyRice}}",
+                    "GiftReaction_Coffee": "{{i18n:Gifts.SenS.GiftReaction.Coffee}}",
+                    "GiftReaction_Triple_Shot_Espresso": "{{i18n:Gifts.SenS.GiftReaction.Coffee}}",
+                    "GiftReaction_Void_Ghost_Pendant": "{{i18n:Gifts.SenS.GiftReaction.VoidPendant}}",
+    
+                    //birthday
+                    "GiftReaction_Crocus_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Crocus.Birthday}}",
+                    "GiftReaction_Cloth_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Cloth.Birthday}}",
+                    "GiftReaction_Golden_Pumpkin_Birthday": "{{i18n:Gifts.SenS.GiftReaction.GoldenPumpkin.Birthday}}",
+                    "GiftReaction_Diamond_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Diamond.Birthday}}",
+                    "GiftReaction_Rare_Disc_Birthday": "{{i18n:Gifts.SenS.GiftReaction.RareDisc.Birthday}}",
+                    "GiftReaction_Garlic_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Garlic.Birthday}}",
+                    "GiftReaction_Oil_of_Garlic_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Garlic.Birthday}}",
+                    "GiftReaction_Void_Essence_Birthday": "{{i18n:Gifts.SenS.GiftReaction.VoidEssence.Birthday}}",
+                    "GiftReaction_Void_Ghost_Pendant_Birthday": "{{i18n:Gifts.SenS.GiftReaction.VoidPendant.Birthday}}",
+                    "GiftReaction_Pink_Cake_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Cake.Birthday}}",
+                    "GiftReaction_Chocolate_Cake_Birthday": "{{i18n:Gifts.SenS.GiftReaction.Cake.Birthday}}",
+                    "GiftReaction_Pumpkin_Pie_Birthday": "{{i18n:Gifts.SenS.GiftReaction.PumpkinPie.Birthday}}",
+                    
+                    //Json Assets
+                    "GiftReaction_An_autographed_photo": "{{i18n:Gifts.SenS.GiftReaction.RodneyAutograph}}",
+                    "GiftReaction_Sen's_Crocus": "{{i18n:Gifts.SenS.GiftReaction.SensCrocus}}"
+        }
+    }
+    ]
+}

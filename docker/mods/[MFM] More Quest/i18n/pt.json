@@ -1,0 +1,181 @@
+{
+        "The1stQuestMail": "Primeiros Passos",
+		"The1stQuestMail.text": "@.^Bem-vindo ao Vale do Orvalho.^Uma das culturas mais fáceis de se cultivar para os fazendeiros novatos é a chirívia.^Estas sementes são baratas e crescem muito rápido.^^-Prefeito Lewis %item quest 5000001 %%",
+		
+		"The2stQuestMail": "Enguia Saudável",
+        "The2stQuestMail.text": "Querido(a) @.^Você pode pegar enguias no mar em dias chuvosos na primavera.^As enguiad são gostosa e também é boa para renovar as suas energias.^Se você estiver pescando, poderia pegar algumas delas para mim?^Eu gostaria de convidá-lo(a) para uma refeição.^^-Evelyn %item quest 5000002 %%",
+
+		"The3stQuestMail": "Escultura da Natureza",
+        "The3stQuestMail.text": "@^Eu ouvi dizer que você sabe pescar.^Às vezes, quando você está pescando, você recebe um gravetos, certo?^A maioria das pessoas pensam que os gravetos são inúteis, mas para um escultor, o graveto é um material de escultura muito bom.^Mas infelizmente, eu não sou nada boa em pesca, então é difícil consegui-los...^Eu agradeceria se você conseguisse obter alguns gravetos e os vendesse para mim.^^-Leah %item quest 5000003 %%",
+
+		"The4stQuestMail": "Morango Muito Doce",
+        "The4stQuestMail.text": "Ei, como está sua vida na fazenda?^Não exagere e se você ficar exausto, o hospital onde trabalho está vendendo alguns tipos de remédios, então venha buscá-los!^Oh, e por acaso você sabe que o Pierre está vendendo sementes de morango no Festival do Ovo em poucos dias?^Estranhamente, as sementes de morango não estão disponíveis durante toda a primavera, mas somente nesse dia.^Queria que o Sr. Pierre pudesse vendê-las o tempo todo... Mesmo assim, não é fácil cultivar morangos porque não tenho um campo.^Por que você não compra algumas sementes no Festival do Ovo e começa a cultivar morangos?^Eu gostaria que você me vendesse alguns!^Eu ouvi dizer que o cultivo de morangos também é bom para ganhar dinheiro. Portanto, você não vai perder nada.^^-Maru %item quest 5000004 %%",
+
+		"The6stQuestMail": "A Gosma Irritante",
+        "The6stQuestMail.text": "@.^Você já se sentiu desconfortável com as gosmas na mina alguma vez?^Elas não são muito intimidadoras, mas são muito irritantes porque continuam te atacam o tempo todo, certo?^Como você sabe, eu tenho muitos motivos para ir à mina, mas as gosmas estão dificultando muito o meu trabalho.^Se você tiver tempo (e um pouco de coragem!), eu apreciaria se você pudesse se livrar delas.^E traga muco da gosma como prova, e eu lhe pagarei pelo serviço.^^-Clint %item quest 5000006 %%",
+
+		"The7stQuestMail": "Rancheiro de Gado Responsável",
+        "The7stQuestMail.text": "@, Está tudo bem com você?^Queria lhe dar alguns conselhos depois de ouvir que você está interessado na pecuária hoje em dia.^Animais não podem sair quando chove.^Então você tem que lhes dar feno, mas pode ser embaraçoso se você ficar sem feno.^Você pode comprá-lo de mim, mas lembre-se que será difícil se for feriado.^Eu sugiro que você construa um silo e estoque o feno com antecedência. Melhor prevenir do que remediar!^^-Marnie %item quest 5000007 %%",
+
+		"The8stQuestMail": "Presente de Aniversário à Irmã",
+        "The8stQuestMail.text": "Ei, @!^Faça-me um favor. Em alguns dias, será o aniversário da Emily.^Eu gostaria de lhe dar a ela uma 'Água-marinha' como presente, você pode me dar uma?^Você vai me ajudar, certo? Eu estarei esperando!^^-Haley %item quest 5000008 %%",
+
+		"The9stQuestMail": "Pedido da Jas",
+        "The9stQuestMail.text": "Olá, @.^Eu gostaria de presentear a tia Marnie com um colar de moluscos.^Mas ela me pediu para ajudá-la a fazer um bolo rosa, então eu acho que não tenho tempo para ir à praia.^Você pode pegar um lindo 'molusco' para mim?^Por favor!^^-Jas %item quest 5000009 %%",
+
+		"The10stQuestMail": "Os Óculos do Pierre",
+        "The10stQuestMail.text": "@.^Eu bebi demais no bar ontem porque era uma sexta-feira. Mas quando acordei, perdi os meus óculos!^Não posso sair da loja, então eu agradeceria se você pudesse encontrá-los.^^-Pierre %item quest 5000010 %%",
+
+		"The11stQuestMail": "É uma Fruta ou um Vegetal?",
+        "The11stQuestMail.text": "As pessoas estão divididas sobre se os tomates são frutas ou vegetais,^Mas todos concordam que o esparguete com molho de tomate é muito bom.^Tente colher alguns tomates e dê uma chance ao prato. %item quest 5000011 %%",
+
+		"The12stQuestMail": "Lixo, Ameaça aos Peixes",
+        "The12stQuestMail.text": "@.^Você sabia que o lixo indiscriminadamente descartado na cidade ameaça a vida dos peixes?^O Vale do Orvalho originalmente era uma área limpa com boa água e ar, mas hoje em dia, o lixo continua derramando através de rios e oceanos.^Quando vou pescar, muitas vezes encontro peixes presos em sacos plásticos e sufocados enquanto se debatem.^É uma pena... Você não acha? ^Eu estou pegando o lixo mas não é o suficiente para fazer isso sozinho.^Você parece amar a natureza tanto quanto a mim...^Você vai se juntar a mim? Por favor.^^-Willy %item quest 5000012 %%",
+
+		"The13stQuestMail": "Dias de Cão",
+        "The13stQuestMail.text": "As crianças da cidade não parecem ter força para brincar por causa do calor.^Por que você não compra sorvete para elas como um presente? %item quest 5000013 %%",
+
+		"The15stQuestMail": "Um cheiro desagradável",
+        "The15stQuestMail.text": "Ei, @!^Como você está? Infelizmente, eu não me sinto tão bem nestes dias...^Não queria que você pensasse que eu sou sensível...^Odeio 'Cafés de Jardim'. Mas como é verão, eles estão em todo lugar...^O cheiro é muito peculiar para mim.^Não quero mostrar aos meus filhos como sou exigente, mas não consigo me acostumar com isso... Não mesmo.^Pensei sobre isso e a Robin parece gostar muito do 'Cafés de Jardim'.^Então eu acho que seria bom dar a Robin um presente para o 'Café de Jardim'.^É muito desagradável para eu mesmo pegá-lo... Então, você pode coletá-los para mim?^^-Jodi %item quest 5000015 %%",
+
+		"The16stQuestMail": "Problemas com Morcegos",
+        "The16stQuestMail.text": "@.^Os morcegos se tornaram mais presentes na cidade hoje em dia.^Como o número de aventureiros da guilda diminuiu, o número de morcegos parece ter aumentado.^O dano é enorme, pois eles continuam prejudicando as colheitas de todos.^Eu o recompensarei se você exterminar esses bastardos e me trouxer suas asas como prova.^^-Prefeito Lewis %item quest 5000016 %%",
+
+		"The17stQuestMail": "Respeito Pela Natureza",
+        "The17stQuestMail.text": "O desenvolvimento é bom, mas se você quer cuidar da natureza ao seu redor, você tem que fazer da reciclagem uma parte de sua vida.^Mesmo coisas que parecem inúteis podem ser valiosas novamente.^Faça uma 'Máquina de Reciclagem'.  %item quest 5000017 %%",
+
+		"The18stQuestMail": "Rotina de Alta Proteína",
+        "The18stQuestMail.text": "Eu estava assistindo TV ontem e ouvi dizer que comer mais de dois ovos após o treinamento de peso é útil.^Eu gostaria de comprar alguns dos maiores e mais frescos ovos da sua fazenda.^^-Alex %item quest 5000018 %%",
+
+		"The19stQuestMail": "Caldeirão do Feiticeiro",
+        "The19stQuestMail.text": "Jovem @.^Eu estou desenvolvendo uma nova poção de cura e eu preciso urgentemente de mais cogumelos roxos.^Eu lhe darei uma generosa recompensa se você os trouxer até mim rapidamente.^^-Wizard %item quest 5000019 %%",
+
+		"The21stQuestMail": "Amor Eterno",
+        "The21stQuestMail.text": "Sou eu.^Estou um pouco constrangido, mas estou escrevendo porque tenho algo que gostaria de discutir com você.^A flor que minha esposa mais ama é uma 'Rosa de Fada' e eu quero dar a ela de presente.^Você pode colher o suficiente delas para que eu possa fazer um buquê?^^-George %item quest 5000021 %%",
+
+		"The22stQuestMail": "Fazendo um Barril",
+        "The22stQuestMail.text": "A produção de vinho pode ser uma boa escolha se você quiser ganhar muito dinheiro.^Tente fazer um barril para começar. %item quest 5000022 %%",
+
+		"The23stQuestMail": "Xarope de Ácer Doce",
+        "The23stQuestMail.text": "Querido(a) @.^Nestes últimos dias, o Vincent vem me pedindo para fazer panquecas todas as manhãs, mas o 'xarope de ácer' da Joja não é muito bom.^Eu quero que seja xarope de ácer orgânico...^Se for da sua fazenda, acho que posso confiar nele.^Se você estiver disposto a me vender, vou pedir encomendar.^^-Jodi %item quest 5000023 %%",
+
+		"The24stQuestMail": "Construindo um Moinho",
+        "The24stQuestMail.text": "Olá, é a Robin!^O outono está chegando ao fim. Você fez já alguma cultura de 'trigo'?^Se você tem um moinho em sua fazenda, você pode não só fazer sua própria farinha usando trigo, você também pode fazer açúcar usando beterraba.^Eu acho que será bom para sua saúde e sua carteira se você mesmo puder fazer isso!^Se você está interessado em construir um moinho, venha me visitar com os materiais e o dinheiro!^^-Robin %item quest 5000024 %%",
+
+		"The25stQuestMail": "Prato Especial para o Neto",
+        "The25stQuestMail.text": "Querido(a), está muito frio hoje em dia. Você está indo bem? Você pegou um resfriado? ^É fácil pegar um resfriado durante a mudança de estação, então cuide de sua saúde!^Eu não quero lhe sobrecarregar. Mas tenho um pequeno favor a lhe pedir.^A comida favorita do Alex é 'jantar de salmão', e eu quero cozinhar para ele.^Se você tiver tempo, poderia me trazer um pouco de salmão fresco?^^-Evelyn %item quest 5000025 %%",
+
+		"The26stQuestMail": "Melhores Amigos",
+        "The26stQuestMail.text": "@, Como você está? Você sabe que o Sebastian e eu somos muito próximos, certo? Falando nisso, eu gostaria de dar um presente a ele.^Sebastian é um pouco único, certo? ^Ele gosta muito de 'bife de insetos'.^Acredite ou não, é verdade! Ele adora desde criança!^Eu mesmo quero dar a ele, mas só posso pegar 'carne de inseto' das minas...^Você não pode dar isso a ele?^^-Sam %item quest 5000026 %%",
+
+		"The29stQuestMail": "Um Cobertor de Lã Aconchegante",
+        "The29stQuestMail.text": "Oi, como você está indo?^Sou tão sensível ao frio que preciso de um cobertor de pele nesta época do ano.^A Emily é boa em costura, então pedi para ela fazer isso para mim. Você poderia trazer os materiais à Emily?^^-Caroline %item quest 5000029 %%",
+
+		"The30stQuestMail": "Estimulante Forte Cafeinado",
+        "The30stQuestMail.text": "@. Como você está?Aqui é o Dr. Harvey.^Estou acordado a noite toda estes dias porque tenho documentos para submeter a revistas médicas.^O café não funciona mais para mim, mesmo que eu beba muito.^Eu preciso de algo mais forte que seja cafeinado.^Se você souber de algo assim, poderia me fazer um favor e fazer isso?^^-Harvey %item quest 5000030 %%",
+
+		"The31stQuestMail": "Estética Clássica",
+        "The31stQuestMail.text": "Para @.^Estou escrevendo para fazer um pedido especial para você.^Como você deve ter notado, prefiro o clássico e sofisticado ao moderno.^A caneta tinteiro e a esferográfica são confortáveis quando escrevo, mas não consegui me livrar da sensação difícil. Por isso uso uma caneta de penas, mas está muito danificada porque já faz muito tempo que não a uso.^Então vou comprar uma nova, mas quero encomendar de você.^Apenas olhando para sua personalidade calorosa, posso ver como você é bom para criar patos.^Então eu estarei esperando.^^-Elliott %item quest 5000031 %%",
+
+		"The33stQuestMail": "Criatura Astuta",
+        "The33stQuestMail.text": "@, Você já pescou um 'polvo'? ^São geralmente vistos apenas nas manhãs de verão.^Mas podem ser comprados no mercado noturno que será realizado hoje.^Essas criaturas são tão astutas e rápidas que eu não posso pegá-las facilmente, mesmo depois da minha experiência de vida de pesca.^Você é um pescador tão habilidoso quanto eu, então experimente.^^-Willy %item quest 5000033 %%",
+
+		"The34stQuestMail": "Precisos, Metais Preciosos",
+        "The34stQuestMail.text": "Você já ouviu falar do 'minérios de irídio'?^É um mineral precioso que só pode ser visto nas profundezas da 'Caverna do CAveira' do deserto.^Eu também quero fazer ferramentas com irídio.^Se você encontrar muitos 'minérios de irídio', você pode trazê-los até mim?^Eu os comprarei a um preço alto.^^-Clint %item quest 5000034 %%",
+
+		"The35stQuestMail": "Brincando com Argila",
+        "The35stQuestMail.text": "Querido(a) @.^Como você tem estado?^Eu estou ensinando as crianças como sempre.^Desde que o tempo está frio hoje em dia, eu frequentemente tenho aulas em ambientes fechados, por isso acho que as crianças estão entediadas^Então vou usar o barro numa aula especial.^Preciso de muito barro, posso contar com a você, @?^Obviamente, se você estiver com problemas, você pode recusar!^Mas se você puder me ajudar... Eu agradeceria muito.^^-Penny %item quest 5000035 %%",
+
+		"The36stQuestMail": "Lenhador",
+        "The36stQuestMail.text": "Ao ligarmos a lareira de dia e de noite com o tempo frio, usamos muita lenha.^Traga-me alguma madeira. Quanto mais, melhor, então corte muito! %item quest 5000036 %%",
+
+		"The37stQuestMail": "Feliz Ano Novo",
+        "The37stQuestMail.text": "O seu primeiro ano no Vale do Orvalho está quase terminando. Por que você não faz um belo bolo de chocolate para celebrar um ano de sucesso? Faça um 'Bolo de Chocolate'. %item quest 5000037 %%",
+
+		"The38stQuestMail": "Rei dos Peixes",
+        "The38stQuestMail.text": "@, Você já ouviu falar da 'Lenda'?^Ele é o rei de todos os peixes, capturado apenas uma vez a cada cem anos.^Só o meu bisavô o pegou na minha família.^Mas você também tem uma chance.^Certifique-se que você o pegue. Eu também gostaria de vê-lo capturado...^Uma pessoa perto da velha mina disse que ele o viu aparecer num dia de chuva, a sudeste da pequena ilha no lago. Esse poderia ser um bom lugar para começar a pescar.^^-Willy %item quest 5000038 %%",
+
+		"The39stQuestMail": "Uma Limpeza Geral",
+        "The39stQuestMail.text": "Olá! É uma bela manhã cheia de aromas de flores.^Estava um pouco preguiçosa, mas relaxada durante o inverno, mas agora é hora de trabalhar duro novamente.^Primeiro de tudo, estou pensando em fazer uma limpeza de primavera.^Eu preciso de um ambiente limpo para que eu possa estar motivada não importa o que eu faça!^Eu quero esfregar as janelas e os espelhos, mas preciso de muitos jornais molhados. ^Jornais molhados são mais úteis que a maioria dos esfregões.^Os jornais sugam menos água que os esfregões.^Tambem, a tinta dos jornais é boa para remover eficazmente as manchas do vidro!^Ainda, se você tiver jornais extras, poderia vendê-los para mim?^É muito difícil encontrá-los em minha casa porque eu não assinei o jornal.^^-Caroline %item quest 5000039 %%",
+
+		"The40stQuestMail": "Novos Colheitas na Primavera",
+        "The40stQuestMail.text": "Ei, a loja do Pierre está vendendo novas sementes de alho a partir deste ano. ^Ouvir dizer que ele tem um sabor amarco e picante, então eu quero tentar cozinhar com ele. ^Eu sou louco por comida picante, sabe.^Por que você não tenta cultivar um pouco?^^-Shane %item quest 5000040 %%",
+
+		"The41stQuestMail": "O Item Perdido da Maru",
+        "The41stQuestMail.text": "@.^Sabe, enquanto eu deixava a janela aberta, um corvo entrou e levou alguns dos meus materiais de invenção.^Ouvia corvos como animais brilhantes...^Não entendo como isso pôde acontecer comigo...^Se você tiver algum tempo livre, pode me ajudar a encontrá-los?^^-Maru %item quest 5000041 %%",
+
+		"The43stQuestMail": "Pé de Coelho da Sorte",
+        "The43stQuestMail.text": "Para @.^Estou me preparando para um competição de esculturas em madeira nestes dias.^É um concurso realizado na cidade Zuzu, por isso acho que muitos escultores excelentes participarão.^Farei o meu melhor, mas não consigo deixar o nervosismo de lado...Ha ha.^@, me deseje sorte.^^-Leah %item quest 5000043 %%",
+
+		"The44stQuestMail": "A Jóia e o Cacto",
+        "The44stQuestMail.text": "Ei garoto(a), faça-me um favor.^Eu tenho bebido muito, e não ando fazendo muitos trabalhos domésticos, e sinto tanta pena da Penny.^Então eu quero compensá-la dando-lhe a 'esmeralda' que ela queria.^Diamantes são bons, mas são muito caros, então eu comprarei uma esmeralda.^Eu quero que você dê à Penny porque tenho vergonha de dar a ela pessoalmente...^Eu lhe peço, por favor faça isso por mim.^^-Pam %item quest 5000044 %%",
+
+		"The46stQuestMail": "Delícias Luxuosas",
+        "The46stQuestMail.text": "Ei, @.^Gostaria de convidar o governador e outras autoridades para uma refeição.^Eu servi trufa da última vez, mas desta vez quero preparar algo diferente.^Não algo comum ou barato, mas algo luxuoso.^Então pensei nisso e acho que o caviar seria o melhor opção.^E com a melhor qualidade!^E claro que é um preço muito alto... Acho que vale a pena o investimento se for para nossa Vila Pelicanos.^O senhor aceitaria este tipo de pedido difícil? Eu estarei esperando por você!^^-Lewis %item quest 5000046 %%",
+
+		"The47stQuestMail": "Um Designer Talentoso",
+        "The47stQuestMail.text": "Oi, @. Como você está?^Eu consegui uma inspiração para um lindo vestido em meu sonho.^Eu ia pedir o corante da loja de tecidos da Cidade Zuzu, mas estava tudo esgotado.^Então estou pensando em fazer o corante 'coral' com materiais naturais, você pode me arranjar alguns?^^-Emily %item quest 5000047 %%",
+
+		"The48stQuestMail": "Minério Colorido",
+        "The48stQuestMail.text": "Um 'Fragmento Prismático' é o minério mais raro do mundo.^Dizem que este minério é bonito o suficiente para ser reconhecido de longe.^Por que você não tenta encontrar este mineral precioso? %item quest 5000048 %%",
+
+		"The49stQuestMail": "Para o Gentleman",
+        "The49stQuestMail.text": "@.^Há alguns dias, olhei no espelho e encontrei rugas ao redor dos meus olhos.^Não sou jovem, mas não posso parecer mais velho do que sou.^Vi numa revista que o 'repolho roxo' é cheio de antioxidantes.^Então gostaria de comprar alguns de suas safras porque ouvi dizer que as suas são de qualidade muito alta.^^-Clint %item quest 5000049 %%",
+
+		"The50stQuestMail": "Meu Pequeno Ácer",
+        "The50stQuestMail.text": "@.^eu estou te escrevendo uma carta porque tenho uma pergunta urgente...^ Você é um fazendeiro muito, muito bom. Você tem conhecimento sobre árvores, certo? ^Eu plantei um ácereiro, e seu nome é 'Minguinho'!^Mas ele não cresce mais.^ Você acha que ele está doente ou algo assim? Ele é meu amigo precioso e eu estou muito preocupado...^Se você tiver algum conselho para mim e meu amigo, por favor, faça alguma coisa!^^-Vincent %item quest 5000050 %%",
+
+		"The51stQuestMail": "Macacos Amam Bananas.",
+        "The51stQuestMail.text": "@. como você está?^O tempo está frio e o céu de outono está limpo, então acredito que você esteja bem.^Estou escrevendo para lhe pedir um favor.^Há um bom zoológico com certificação ecológica, então estou planejando levar a minha família comigo.^Não costumo gostar desse tipo de coisa,^Mas o zoológico se esforça ativamente para procriar animais em extinção.^E ouvi dizer que foi decorado muito parecido com o habitat natural para a máxima satisfação dos animais, então eu queria ir lá.^Oh, a introdução está ficando mais longa. Eu gostaria de pedir uma fruta chamada nanana, é possível? Ouvi dizer que podemos nos comunicar com os macacos e dar-lhes comida.^Oh, claro que o Sam vai gostar, mas especialmente o jovem Vincent.^Se você puder traze-las, eu agradeceria?^Muito obrigado.^^-Kent %item quest 5000051 %%",
+
+		"The52stQuestMail": "Aniversário de Casamento",
+        "The52stQuestMail.text": "@,^Eu estava olhando para o calendário esta manhã e notei que é nosso aniversário de casamento em poucos dias.^A Robin gosta muito de pêssegos. Quando era criança, seu desejo era casar com um homem dono de uma fazenda de pêssegos.^Eu não tenho uma fazenda, mas você tem. Portanto, gostaria de encomendar um grande carregamento de pêssegos doces.^^-Demetrius %item quest 5000052 %%",
+
+		"The53stQuestMail": "Capacete de Anão",
+        "The53stQuestMail.text": "@.^Eu explorei o centro da cidade ontem à noite. ^Eu usei um chapéu bonito, mas estava mais quente do que eu pensava. Acho que não conhecia bem o tempo porque eu geralmente moro em uma caverna fria.^Ainda, eu tirei meu chapéu porque estava quente, mas acho que não o truxe comigo quando vim para casa!^É demais para mim procurar em todos os lugares, por favor encontre meu chapéu!^^-Dwarf %item quest 5000053 %%",
+
+		"The54stQuestMail": "Necessidade Elétrica",
+        "The54stQuestMail.text": "@.^Eu tenho um projeto importante no qual estou trabalhando nestes dias. Ontem, a energia do meu computador se esgotou enquanto eu estava trabalhando nele, acho que algo está errado com o fornecimento de energia.^Eu pedi uma peça nova, mas é difícil continuar trabalhando até que ela seja entregue.^Você poderia me trazer algumas baterias sobressalentes se você tiver algumas peças sobressalentes?^Eu devo ser capaz de retirar eletricidade suficiente disso.^^-Sebastian %item quest 5000054 %%",
+
+		"The55stQuestMail": "Um Prato Exótico",
+        "The55stQuestMail.text": "Meu(inha) querido(a) @.^Recentemente tomei conhecimento do Escargô enquanto lia uma revista de culinária.^Ele tem caracóis, por isso é muito suspeito, mas estou muito curiosa!^Não consigo colocar os materiais no deserto, se houvesse caracóis aqui eles secariam imediatamente.^Você é bom em cozinhar, você pode fazer um e dar para mim? Venha falar comigo quando você terminar, mal posso esperar!^^-Sandy %item quest 5000055 %%",
+
+		"The56stQuestMail": "O Gosto da Lembrança",
+        "The56stQuestMail.text": "Oi, @!^Eu lhe escrevi uma carta para lhe perguntar algo.^Bem... meu pai voltou para casa este ano.^Ele não gosta muito de se abrir, mas ele parece deprimido por alguma razão^Eu tenho pensado no que eu posso fazer por ele.^Estou pensando em lhe cozinhar uma avelã assada. Ouvi dizer que é um prato que minha avó costumava cozinhar muito para o meu pai.^Fui ao bosque com o Vincent para encontrar avelãs, mas não encontramos nada.^Sei que você é mestre em colecionar, estou escrevendo para ver se você tem alguma sobra.^Se você tem uma 'avelã' a mais, por favor, a venda para mim!^^-Sam %item quest 5000056 %%",
+
+		"The57stQuestMail": "Espada Antiga da Abigail",
+        "The57stQuestMail.text": "@-^Ontem eu estava passeando na floresta.^Você sabe aquele esgoto arrepiante ao sul da casa da Leah? Eu estava passando e ouvi um barulho estranho!^Fiquei tão supresa que fugi e depois perdi minha espada em algum lugar.^Mas estou um pouco assustada de ir procurá-la agora...^Você é tão corajoso, por que não a encontra para mim em vez disso?^^-Abigail %item quest 5000057 %%",
+
+		"The58stQuestMail": "A Fruta Dura, Grande e Amarela",
+        "The58stQuestMail.text": "Oi, aqui é o Krobus.^Saí da cidade a noite, vi uma fruta laranja muito grande, de casca dura.^Não sei o que é, mas cheira tão bem.^Você sabe o que é isso, não sabe? ^@, quero experimenta-la!^^-Krobus %item quest 5000058 %%",
+
+		"The59stQuestMail": "Um Médico Simpático",
+        "The59stQuestMail.text": "@. Eu estou escrevendo para lhe pedir um favor.^Ás vezes as crianças vêm ao hospital e sempre têm medo.^Desde que o hospital cheira como um remédio terrível e realiza injeções, é natural que as crianças não gostem.^Por isso, eu dou doces sempre que venho para reduzir o medo dos meus jovens do hospital. Entretanto, eu costumava encomendar doces na Jojamart ou em compras on-line.^Tenho pensando nisso, sou médico, então senti pena de dar doces pouco saudáveis às crianças.^Então, quero comprar doces orgânicos caseiros.^Sem dúvida, confio nos produtos que você faz.^Eu gostaria de um doce que fosse bom para a saúde e que não perdesse o sabor.^^-Harvey %item quest 5000059 %%",
+
+		"The61stQuestMail": "Comida Verde",
+        "The61stQuestMail.text": "A comida verde relaxa seu corpo e sua mente. Entre elas, dizem que o chá verde é o mais representativo deste aspecto de relaxamento.^Que tal uma xícara de chá verde morno depois de um dia de trabalho duro na fazenda? %item quest 5000061 %%",
+
+		"The62stQuestMail": "A Comida Especial no Outono",
+        "The62stQuestMail.text": "Olá, @. É Linus.^Você sabe sobre o peixe que é uma iguaria quando comido no outono?^Dizem que é bom o suficiente para trazer um gato fugitivo para casa.^Você pode pegar dois 'alocines' frescos?^^-Linus %item quest 5000062 %%",
+
+		"The64stQuestMail": "Invernização",
+        "The64stQuestMail.text": "Oi, @!^Já é inverno, você ainda não está com frio? ^Desde que está ficando frio a partir de hoje, recebi muitos pedidos de inspeção de chaminés.^É bom fazer isso com antecedência no outono, mas muitas vezes recebemos pedidos mesmo no início do inverno.^Ainda, não temos materiais suficientes para trabalhar agora, então eu poderia pedir a você para trazer 'carvão' e 'madeira de lei' suficiente?^Traga isso para mim, e eu poderei começar a trabalhar imediatamente.^Agradeço antecipadamente.^^-Robin %item quest 5000064 %%",
+
+		"The66stQuestMail": "Amargo, mas Saudável",
+        "The66stQuestMail.text": "Para @^Minha avó costuma ficar com dor de garganta no meio do inverno todos os anos.^Então, eu pesquisei na Internet algo bom para prevenir um resfriado e ouvi dizer que é muito saudável fazer chá com mel na água, junto com 'raíz de inverno'.^Comprei um pote de mel no Armazém Geral do Pierre, mas não sei onde tirar as raízes.^@, você está familiarizado com essas coisas, então pode me arranjar algumas raízes?^^-Alex  %item quest 5000066 %%",
+
+		"The67stQuestMail": "Hidromel Quente",
+        "The67stQuestMail.text": "Ei, garoto.^Acho que este inverno está excepcionalmente frio. ^ Tentei assistir TV, mas estava tão frio que não consegui me concentrar!^Então, você sabe qual é a melhor maneira de vencer o frio?^É bebendo 'hidromel' quente enquanto assiste à TV!^Não é maravilhoso só de pensar nisso?^Aqueça o hidromel e beba, e ele vai aquecê-lo!^Para fazer isso, você precisa de mel de verdade, não daquele lixo falso com um vago aroma de mel.^Conto com você, garoto(a)!^^-Pam %item quest 5000067 %%",
+
+		"The68stQuestMail": "Emergência dos Esquilos",
+        "The68stQuestMail.text": "Já se passaram dois anos desde que você chegou aqui, @.^Muita coisa aconteceu, mas sei que você é uma pessoa calorosa.^Eu estava caminhando pela floresta ontem à noite quando encontrei esquilos mordiscando raízes podres de árvores.^Não sei por quê, mas parece que não há nada para comer, especialmente neste inverno.^Não devo ir contra as regras da natureza, mas meu coração dói e não posso fingir que não sei.^Então eu pegue as nozes conforme são mostradas e coloque-as no caminho dos esquilos, mas elas estão longe de ser suficientes.^Você poderia me trazer muitas bolotas? Por favor.^É claro que não tenho muito dinheiro para retribuir seu trabalho árduo.^Mas se você me ajudar, podemos salvar muitas vidas pequenas, mas preciosas.^^-Linus %item quest 5000068 %%",
+
+		"The69stQuestMail": "Caroline's Tea Party",
+        "The69stQuestMail.text": "Dear @^I wrote you a letter because I had a favor to ask.^There's a tea set from the Empire that I cherish.^I had a tea party with my friends at the community center a few days ago, but I haven't seen the tea sets since then.^I went back to the community center, but I couldn't find it...^ If you have time, can you help me find my tea set?^I'd really appreciate it.^^-Caroline %item quest 5000069 %%",
+
+		"The70stQuestMail": "O Maior Ovo do Mundo",
+        "The70stQuestMail.text": "Oi, @!^Estou-lhe escrevendo uma carta para lhe dar uma pequena dica!^Aparentemente, há muitas pessoas na sua cidade criando gado.^Ouvi dizer que muitas pessoas criam galinhas.^Claro, galinhas são bons animais, mas as pessoas não sabem disso, os avestruzes são animais muito, muito legais.^Os avestruzes são altos e têm asas maravilhosas, embora não possam voar!^E o avestruz põe ovos uma vez a cada sete dias, o que é mais eficiente do que os ovos normais! De vez em quando eles são tão grandes que ficam deliciosos!^De qualquer forma, estou avisando porque quero que mais pessoas saibam que avestruzes são legais.^Que tal criar um avestruz e coletar ovos de avestruz?^É melhor se você me trouxer algumas sobras!^^-Leo %item quest 5000070 %%",
+
+		"The71stQuestMail": "Preocupações do Lewis",
+        "The71stQuestMail.text": "Sou eu.^@, estou com uma grande preocupação.^Eu estava curtindo o mar de inverno na praia ontem à noite quando derrubei minha garrafa de vinho e a quebrei.^Eu tenho recolhido os fragmentos visíveis de vidro, mas estão faltando alguns pedaços. A luz estava tão fraca que mal consegui encontrar o que tenho agora.^Estou muito preocupado que alguém pise naquele vidro e se machuque.^@, por favor me ajude, confio em você para cuidar disso!^^-Lewis %item quest 5000071 %%",
+}

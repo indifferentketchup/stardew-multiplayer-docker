@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "BookInside",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ESDruidTower",
+            "MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 16 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 DestyNova.COTCC.BookInside"
+                    }
+                }
+            ],
+            "Update": "OnLocationChange",
+            "EnableFarmerCollision": true, 
+            "TravelSpeed": 1, 
+            "EnableShadow": true
+        }
+        
+    ]
+}
+

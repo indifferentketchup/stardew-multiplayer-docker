@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Spirit's Eve at East Scarp Inn Music",
+  "Author": "LemurKat and Aubrianna",
+  "Version": "1.0",
+  "Description": "Adds soundtracks to the inn",
+  "UniqueID": "Lemurkat.ESSpiritsEve.SAAT",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor": {
+    "UniqueID": "ZeroMeters.SAAT.Mod",
+    "MinimumVersion": "1.0.0"
+	
+  }
+}

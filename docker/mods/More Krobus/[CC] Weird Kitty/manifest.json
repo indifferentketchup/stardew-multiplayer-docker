@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Blinky the Cat",
+  "Author": "yuhvy",
+  "Version": "1.1.0",
+  "Description": "Adds Blinky as a companion to Krobus.",
+  "UniqueID": "Yuhvy.WeirdKittyBlinky.CC",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "1.4.3"
+  }
+}

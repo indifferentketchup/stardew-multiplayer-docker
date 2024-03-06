@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] East Scarp",
+   "Author": "LemurKat",
+   "Version": "2.0",
+   "Description": "Catch a bus to East Scarp",
+   "UniqueID": "Lemurkat.EastScarpe.BL-beta",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:???" ],
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", 
+   }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Name": "Rodney Beach Outfit (Scarecrow)",
+    "Price": 500,
+    "IsDefault": false,
+    "CanPurchase": true,
+    "PurchaseRequirements": null,
+    "PurchaseFrom": "STF.RodneyShop",
+    "PurchasePrice": 2500,
+    "TranslationKey": "craftables.rodney-beach-outfit"
+}

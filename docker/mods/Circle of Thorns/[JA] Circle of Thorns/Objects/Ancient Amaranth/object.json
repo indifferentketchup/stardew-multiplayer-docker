@@ -1,0 +1,15 @@
+{
+	"Name": "Ancient Amaranth",
+	"Price": 400,
+    "CanSell": true,
+	"Description": "An unusual grain, unique in color and texture.",
+	"Category": "Vegetable", 
+	"CategoryTextOverride": "Druidic",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"GiftTastes":
+    {
+        "Love": ["Hector"]
+    }
+
+}

@@ -1,0 +1,831 @@
+{
+/************************************************
+** Generic text         … vs ... >: LAST EDITED: SEPT 21, 2023
+************************************************/
+// NPC info
+"npc-display-Barron":"Barron",
+   
+
+// gift taste dialogue
+"Barron.gift.love":"This is so thoughtful of you, thank you so much!",
+"Barron.gift.like":"Oh, hey, this is pretty great.#$b#Thanks, @!",
+"Barron.gift.dislike":"Oh, um, thanks. This is sweet...",
+"Barron.gift.hate":"I’m sorry, but this is... Terrible.",
+"Barron.gift.neutral":"Thanks, @! I think I can find a use for this.",
+
+// Marriage scene
+"Barron.Utility.cs.5367":"@, Barron... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners for life!$h",
+"Barron.Utility.cs.5369":"@, Barron... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal,  I now pronounce you partners for life!$h",
+"Barron.Utility.cs.5371":"When @ first arrived in Pelican Town, no one knew if they would fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Barron in the bonds of marriage.",
+"Barron.Utility.cs.5377":"When @ first arrived in Pelican Town, no one knew if they would fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Barron in the bonds of marriage.",
+
+// player killed dialogue
+"Barron.player-killed.not.spouse":"@?!#$b#Say something, would you?#$b#Are you alive?$2",
+"Barron.player-killed.spouse":"Wake up...#$b#Wake up @, are you okay?$2",
+
+// engagement dialogue
+"Barron.engagement.0":"You..You really want to?$4#$b#Wow, I mean.#$b#Yes!$4",
+"Barron.engagement.1":"Oh, you really mean it?$4#$b#Yes, of course, @!$4",
+
+
+ //MissCoriel's Courtship dialogue
+"Barron.courtship.give_flowersA": "I had no idea you felt the same.$4#$b#I'd love to be a couple.$1",
+"Barron.courtship.give_flowersB": "This is so sweet, we'll make a really cute couple won't we?$4",
+"Barron.courtship.give_pendant": "You... You really want to?$4#$b#Wow, I mean.#$b#Yes!$4",
+"Barron.courtship.stardrop_gift": "You've been wonderful to me.$1#$b#I wanted to give you this to show my gratitude.$4",
+"Barron.courtship.rejectNPCA": "Oh, I'm so sorry  but I don't share your feelings.$2",
+"Barron.courtship.rejectNPCB": "This is sweet but I don't feel the same way.$2",
+"Barron.courtship.reject_two_heartA": "We barely know each other, maybe if we were closer.$2",
+"Barron.courtship.reject_two_heartB": "This is way too fast for me.$2#$b#I'm sorry, @.$2",
+"Barron.courtship.reject_four_heartA": "That's sweet, but I'm not ready for anything like that.$4",
+"Barron.courtship.reject_four_heartB": "It's too soon for me, I'm sorry, @.$2",
+"Barron.courtship.engageA": "Aren't you already engaged?$2#$b#You're sickening!$5",
+"Barron.courtship.engageB": "What an awful thing to do to someone - you're already engaged!$5",
+"Barron.courtship.marriedA": "If you ask me again, I'll throw you into a trashcan.$5",
+"Barron.courtship.marriedB": "If you don't back off, I'll toss you into the ocean.$5",
+"Barron.courtship.refusal_no_heartsA": "That's incredibly uncomfortable, go away.$2",
+"Barron.courtship.refusal_no_heartsB": "Do you even know my favorite color?$2#$b#No way.$5",
+"Barron.courtship.refusal_knownA": "Oh...No, I don't think so.$2",
+"Barron.courtship.refusal_knownB": "@, that's sweet but no way.$2",
+"Barron.courtship.refusal_botherA": "Okay, buddy, you're being creepy now.$5#$b#It's a no from me.$5",
+"Barron.courtship.refusal_botherB": "I have pepper spray!51#$b#So back off.$5",
+"Barron.courtship.birthdayLoveA": "Oh, wow, this is so awesome!$1#$b#Thank you so much!$1",
+"Barron.courtship.birthdayLoveB": "This is just what I wanted! Thank you so much!$1",
+"Barron.courtship.birthdayLikeA": "Hey, this is great, thank you, @.$1",
+"Barron.courtship.birthdayLikeB": "This is so sweet of you, thank you.$1",
+"Barron.courtship.birthdayDislikeA": "Oh, uh...Hey, thanks, you're so thoughtful.$2",
+"Barron.courtship.birthdayDislikeB": "This is...Very thoughtful...$2",
+"Barron.courtship.birthdayNeutralA": "Thanks, this is pretty neat.$1",
+"Barron.courtship.birthdayNeutralB": "This should be helpful, thank you.$1",
+"Barron.courtship.baby_anxiety": "I hope...$2#$b#I hope the baby likes me...$2",
+"Barron.courtship.adopt_excitedA": "It's only days away, we're gonna be parents!$1",
+"Barron.courtship.adopt_excitedB": "I hope the baby likes us, I'm so excited.$1",
+"Barron.courtship.morningsick": "Oh, Arah, I feel so sick...$2",
+"Barron.courtship.moodyPregnant": "Please, just... leave me alone, okay?$2#$b#I'm feeling really sensitive today.$2",
+"Barron.courtship.informPregnancyA": "@, this is going to be a little jarring...#$b#But, I'm Pregnant.$1",
+"Barron.courtship.informPregnancyB": "I talked to the doctor, we're going to be parents!",
+"Barron.courtship.annoyedParent": "I really regret ever buying toys that make actual sounds. It really does get annoying after an hour of 'The cow says moo.' ",
+"Barron.courtship.aloneTime": "I think I need to decompress, I've been feeling really crowded lately.",
+"Barron.courtship.giftquestion_yes": "That’s wonderful, it always feels good to give presents to people.$1",
+"Barron.courtship.giftquestion_lie": "Hm, you know...It’s okay if you did, you don’t need to lie to me.$",
+
+
+// Marketpalooza (from Fellowclown.Nikolai mod)
+"Barron.fall3.Unmet": "Oh, hey there. Fancy seeing you here.$1#$b#I'm here for Nikolai's honey. His Lava Honey is the only honey I like.",
+"Barron.fall3.friendly": "If you see Boxy running around try giving him a lick of Seafoam Honey.#$b#Little dude adores the stuff.$1",
+"Barron.fall3.dating": "Have fun, okay? There's so much browsing to do.$1",
+"Barron.fall3.married": "I found the prettiest pink stone for sale, but it was way too expensive.$2",
+"Barron.fall3.divorced": "You#$b#You look nice, been thinking about you recently...$2", 
+
+"Barron.spring24.Unmet": "I love coming from the Scarp to watch people dance.$1#$b#They all look so happy and sometimes you get a look at someone having a genuine moment.$4#$b#That’s what I like to see, genuine interactions.$1",
+"Barron.spring24.friendly": "I wish that friends could dance with the happy couples.$2#$b#I love this festival, but I wish that platonic love could be celebrated too.$2",
+"Barron.spring24.dating": "Happy dancing, Agapi! Feel free to dance with whomever you like, okay?#$b#You know I’m not the jealous type.$1",
+"Barron.spring24.married": "Who are you going to dance with?#$b#Do have anyone new in mind?$1",
+"Barron.spring24.divorced": "It’s good to see you. Have fun today, okay?$2",
+
+"Barron.fall27.Unmet": "Oh, hey there, haven't seen you before - I'm Barron! Hope you have fun tonight!#$b#Get some candy, maybe.$1",
+"Barron.fall27.friendly": "I've eaten way too much candy...$2",
+"Barron.fall27.dating": "This maze is impossible, I keep ending up right back at this spot.$2",
+"Barron.fall27.married": "I love all the candy, but I gotta control myself.$2",
+"Barron.fall27.divorced": "This is a great holiday...It's good to see you.$2",
+
+/************************************************
+** Movie reactions
+************************************************/
+"Barron.movies.0.before": "I just know this movie is going to make me sad.$1#$b#But I can't wait for it.$1", 
+"Barron.movies.0.during": "Oh no, that's heartbreaking.$2",   //sapling
+"Barron.movies.0.after": "I'm glad the movie ended happily.$1#$b#And the music when his little plant grows - it was so pretty!$1",
+
+"Barron.movies.1.before": "The poster looked so interesting.#$b#I've always loved documentaries.$1", 
+"Barron.movies.1.during": "I love racoons!$1",   //Natural Wonders
+"Barron.movies.1.after": "That was such a great watch, I loved seeing all the little animals.$1",
+
+"Barron.movies.2.before": "I love a good Western!$1#$b#I'm so excited for the movie.$1",
+"Barron.movies.2.during": "The villain kind of looks like my uncle.$1",   //Prairie King
+"Barron.movies.2.after": "That was great, I gotta get ahold of that soundtrack!$1",
+
+"Barron.movies.3.before": "I don't know about this one...$2#$b#Looks sort of weird...$2",
+"Barron.movies.3.during": "He looks so weird...$2",   //Wumbus
+"Barron.movies.3.after": "I don't think I liked that movie, it was pretty weird.$2",
+
+"Barron.movies.4.before": "This looks pretty creepy, hope it's good.$2",
+"Barron.movies.4.during": "Can you tell what this is about?$2",   //Mysterium
+"Barron.movies.4.after": "I feel weird after seeing that movie, like I've seen something I wasn't supposed to.$2",
+
+"Barron.movies.5.before": "I've seen his one!$1#$b#It's pretty awesome too.$1",
+"Barron.movies.5.during": "She's watching with wide eyes.",  //It Howls In The Rain
+"Barron.movies.5.after": "Every time I watch that one I get so scared.#$b#It was great!$1",
+
+"Barron.movies.6.before": "I've heard of this movie, but I'm a little worried about watching it.$2",
+"Barron.movies.6.during": "Barron is smiling softly.",   //Miracle At Coldstar Ranch
+"Barron.movies.6.after": "That actually wasn't so bad, it was kind of sweet.$1",    
+
+"Barron.movies.7.before": "I'm not sure if I'll like this one...#$b#But I'll give it a shot!$1",
+"Barron.movies.7.during": "She doesn't look impressed.",    //Zuzu City Express
+"Barron.movies.7.after": "That was kind of boring...$2#$b#Never did like romances, though.",
+
+   /************************************************
+** Schedule Dialogue Default
+************************************************/
+"Barron_Es.spring.001": "I need to get up soon, but my bed is so comfy.$1",
+"Barron_Es.spring.002": "If you’re hungry I could cook you something, but no promises on taste.$1",
+"Barron_Es.spring.003": "I got this plant from Turnabout Grove, it’s a pretty remote neighborhood near Pelican Town.#$e#I think they’re called Arka Tubes?$3",
+"Barron_Es.spring.004": "%She’s very focused, wonder what she’s typing?",
+"Barron_Es.spring.005": "There’s plenty of reading material, you just have to search through our catalogues.$1#$e#Personally, I love the mythos and mystery sections.$3",
+"Barron_Es.spring.006": "%She’s out of breath, but she’s determined to keep exercising.",
+"Barron_Es.spring.007": "After a hot bath, I really love sitting down and reading a good mystery.#$e#Plus, being wet from washing cools me off a ton.$1",
+"Barron_Es.spring.008": "%She’s dozing in and out of sleep.",
+"Barron_Es.summer.001": "I woke up feeling like I was starving.$2#$e#Summer does that to me though, I get so hungry during this season for some odd reason.$1",
+"Barron_Es.summer.002": "A sweet lady named Tilly has been teaching me how to cook Arka Tub.#$e#They taste really good, almost like an extra sweet cream cheese.$3", // is “TubBarron_Es” a typo in this line? 
+
+"Barron_Es.summer.003": "We got some brand new editions written by Rodney O'Brien.#$e#He’s such an amazing writer, I’m a big fan.#$e#Don’t...Tell him though...$2",
+"Barron_Es.summer.004": "%She’s so enthralled by her book that she doesn’t notice you standing there.",
+"Barron_Es.summer.005": "If you’ve got a moment, you should take a look at the book ‘Aggie the Loved’.#$e#It’s a sweet little romance.$1",
+"Barron_Es.summer.006": "Oh this?#$e#It’s just some ginger ale, I always get a little queasy around this time.$2",
+"Barron_Es.summer.007": "I don’t really exercise to lose weight, I just want legs strong enough to punt someone into space.$1#$e#%She’s focused on exercising now.",
+"Barron_Es.summer.008": "Wha-Huh?$2#$e#Hey, it’s late, are you okay?$2",
+"Barron_Es.fall.001": "I don’t drink coffee too often, but right now I feel like I need the pick-me-up.$2#$e#It's no worries though, I just slept poorly last night.$1",
+"Barron_Es.fall.002": "I keep finding people’s bookmarks in between the pages of the books.#$e#So sad, those bookmarks are homeless now.$2",
+"Barron_Es.fall.003": "I think I’ll make pancakes today! I’m in the mood for carbs with way too much sugar.$1",
+"Barron_Es.fall.004": "%You sneak a peek at what she’s typing. Is that... Fanfiction?",
+"Barron_Es.fall.005": "Did you know that people used to use stone tablets to document things?#$e#And funnily enough, they carved their words in the form of picture symbols.$3",
+"Barron_Es.fall.006": "You should join me, a good session of exercise is good for your mind and body.$1",
+"Barron_Es.fall.007": "%You sneak another peek at what she’s typing... Looks like she writing poetry.",
+"Barron_Es.fall.008": "@?#$e#You should go home and rest when you can...$1#$e#Or is something wrong?",
+"Barron_Es.winter.001": "I’m so sleepy, I wish I could sleep all day.$2",
+"Barron_Es.winter.002": "I can’t tell if this plant is thriving or not...$2#$e#I hope it is.",
+"Barron_Es.winter.003": "%She’s inputting book titles into some type of database.",
+"Barron_Es.winter.004": "%She’s reading a novel by two time award-winning author Rodney O’Brien.",
+"Barron_Es.winter.005": "%She’s organizing the books at cutthroat speeds.",
+"Barron_Es.winter.006": "I’ve been glued to this book, it’s really good.#$e#But most books by Mister O’Brien are.$1",
+"Barron_Es.winter.007": "A hot bath and a good exercise session is just the best when it’s cold out.$3",
+"Barron_Es.winter.008": "%You can hear her snoring softly.",
+"Barron_Es.rain.001": "Whenever it rains, I make fresh banana bread.#$e#It’s the best with some tea later in the evening.$3",
+"Barron_Es.rain.002": "Maybe I should just...Put this plant outside today.$1#$e#Think it’ll enjoy the rain water?$3",
+"Barron_Es.rain.003": "%She’s organizing a section of books dedicated to stories about rabbits",
+"Barron_Es.rain.004": "%She’s reading but Barron appears to be dozing off at the same time.",
+"Barron_Es.rain.005": "We got a new collection of books this season; I’ve been sorting through them.#$e#I give some of the books to the Scarp Library, too.$1",
+"Barron_Es.rain.006": "%She pauses and smiles at you and then starts exercising again.",
+"Barron_Es.rain.007": "I really love visiting the Inn, it’s so pretty here.$1#$e#The style is so comfy and cozy.$3",
+"Barron_Es.rain.008": "I’m pretty tired. Could you let me sleep, please?$2",
+
+/************************************************
+** Barrons Dialogue
+************************************************/
+"intro.Barron.spring.1": "Oh!#$b#I’ve not seen you before, I’m Barron.#$b#I run the Bookworm Mobile, but I’m not here all the time.#$b#Since I travel from town to town. $1",
+"intro.Barron.summer.1": "Hey there, you look new!$1#$b#I’m Barron, if you like to read the Bookworm Mobile is perfect for you!$1#$b#Plus, I keep the bus very cool during the summer.$1",
+"intro.Barron.fall.1": "You seem familiar but I can’t quite remember, have you visited the Bookworm Mobile before?$1#$b#We’re getting ready for spirits eve currently, I love dressing up and decorating for the spooky season.$1",
+"intro.Barron.winter.1": "This part of Ferngill has such cold winters.#$b#My name is Barron, but don't be a stranger. Stop by to my place to warm up if you need to.",
+
+"intro.Barron.spring.2": "Spring is an inspirational season, I get my best ideas around this time.$1#$b#Oh, right!$1#$b#My name is Barron, local book fanatic and bus dweller.$1#$b#Welcome to East Scarp!$1",
+"intro.Barron.summer.2": "Hey stranger, you're not looking so good.#$2#Do you need to cool off?#$e#Oh right, I'm Barron - I run the Bookworm Mobile.$1",
+"intro.Barron.fall.2": "I go by Barron, but this season call me The Count.$1#$b#Haha, just playing.$1",
+"intro.Barron.winter.2": "Never liked winter all that much, but it's a pretty season. Rarely see new faces though, usually it's too cold...#$b#Well, I'm Barron. I'm the town's unhinged bus librarian. $1",
+
+"rejection.Barron.1": "That's incredibly sweet, but I don't think I'm the best fit.$4",
+"rejection.Barron.2": "I just don't know you well enough, maybe after I know you better.$4",
+"rejection.Barron.3": "I'm sorry, maybe ask someone else.#$b#I just don't feel like dancing, I'd rather watch.$2",
+"rejection.Barron.4": "It's very sweet of you to ask, but maybe next time...$4",
+
+"breakup.Barron.1": "Oh...$2#$b#Well, I'm happy we tried to make it.$2",
+"breakup.Barron.2": "I thought things were going well...$2#$b#But okay...$2",
+
+"divorced.Barron.1": "You look nice today, @...$2#$e#We can still be friends, but I need time...$2",
+"divorced.Barron.2": "It's still hard seeing you around, but I'm still happy to see you when I do.$1#$e#Try to stay cool, this summer heat is dangerous.$2",
+"divorced.Barron.3": "It's already spooky season!$1#$b#Hope you have a fun Spirit's Eve.$1",
+"divorced.Barron.4": "I can't do this today, I'm sorry...$2#$e#Seeing you right now just hurts too much, let's talk later.$2",
+
+"divorced.Barron.5": "You know, I always thought that when a couple splits apart they stop talking completely.#$b#Guess we're different, huh?$1",
+"divorced.Barron.6": "It's been crazy at the mobile lately, getting more book donations than I can handle.$1#$b#Considering adding some more shelves if I can squeeze them in.",
+"divorced.Barron.7": "I've been attempting to get into pottery, but gods it's difficult.$2#$b#Everything I make looks like a school project.$1",
+"divorced.Barron.8": "I ran into Rodney the other day.#$b#He's kind of weird but...Pretty cute too.$1",
+
+"mon.Barron.spring.1": "Mondays are always interesting, Pelican Town has a lot of interesting people.",
+"mon.Barron.spring.2": "If I was told years ago that I would be traveling in a bus for a living...#$b#I think I would have cried, actually.$1",
+
+"mon.Barron.summer.1": "Be careful outside today! If you start feeling overheated, the saloon and my bus both have air conditioning.#$b#So, don't be a stranger.$1",
+"mon.Barron.summer.2": "Whew, it's really hot.$2#$b#But at least it's not cold!$1",
+
+"mon.Barron.fall.1": "Did you know that a Tyrannosaurus is theorized to have a more robust sense of maternal instincts than the Brachiosaurus?#$b#Isn't it interesting that it's always depicted the other way around in movies?#$b#Makes ya think.$1",
+"mon.Barron.fall.2": "I was reading the other day that other species of cavemen didn't go extinct because of conflict.#$b#They died out because of love.#$b#Cross-species relationships were common, but many could not have children because they were so different biologically.$2#$b#I do wonder if life found a way though and imagine that there's a little of a different species in us all.",
+
+"mon.Barron.winter.1": "Arkánia never got this cold. I'm missing the islands more than a hairless cat misses its fur.$2",
+"mon.Barron.winter.2": "I always get the urge to bake when the weather gets cold.$1#$b#I guess, in a way, it brings me back to my childhood.#$b#Mama always baked during cold weather.",
+
+"tue.Barron.spring.1": "Lately I've been binge watching videos about pirates and sea nomads.#$b#You're probably wondering, 'what's the difference?'#$b#Well, pirates usually weren't the nicest or morally sound bunch.#$b#Sea nomads were just regular people that lived life at sea.",
+"tue.Barron.spring.2": "My family came here from Arkánia when I was just a girl. I know the island isn't what it used to be but it was still beautiful there as I remember it.#$b#When the Great Tsunami hit all those centuries ago, before I was even born, it had totally submerged the two other sister islands on either side of the mainland. Can you believe there were two other entire land masses there at some point?$2 ",
+
+"tue.Barron.summer.1": "Oh, hey! Come to hear another fun factoid?$1#$b#I'm drawing a blank, though... Been distracted all day.$2#$e#It's nothing bad, I just found a really old journal and I can't put it down...$2#$b#In my defense, it's like a hundred years old.$1",
+"tue.Barron.summer.2": "Before the rise of Yoba, the people of Arkánia, my people, they worshiped Arah, Liphuem and Alua.#$b#Each goddess was worshiped individually on each one of the three islands. I wish I could meet a follower...#$e#My ancestors hailed from Arah's land, before the island was washed away...$2",
+
+"tue.Barron.fall.1": "Fall really is one of the best seasons.$1#$b#Not too hot or too cold, just perfect.$2#$e#Only thing I dislike is the allergies I deal with...$2",
+"tue.Barron.fall.2": "When I was little, I used to play the saxophone for my dad.#$b#Been thinking about picking the music back up lately. No clue why I ever gave it up.$3",
+
+"tue.Barron.winter.1": "I never liked winter...$2#$b#Something about it feels weirdly familiar but in a really depressing way?$2#$e#It's weird, though, cause I don't remember anything traumatic ever happening.$3",
+"tue.Barron.winter.2": "I've been really wanting to know more about where my family came from...#$b#It's hard finding information, but so far I've managed to learn the name of one of my ancestors!$1#$b#Her name was Agata. Isn't that neat? Just like the book!$1",
+
+"wed.Barron.spring.1": "It's incredible what you can discover by following the footsteps of the past.#$e#Like, did you know the islanders of Arkánia referred to themselves as Kaya Arká, which means 'mothers fruit'?$1#$b#Very interesting if you ask me!$1",
+"wed.Barron.spring.2": "I was walking by George and that old fart ran right over my foot.#$b#Didn't hurt too bad but it sure was rude of him.$2",
+
+"wed.Barron.summer.1": "Jodi and Vincent have to be the cutest ma and son combo I've seen.#$b#Vincent really does love her to pieces! It's adorable.$1",
+"wed.Barron.summer.2": "I've always wanted a little son of my own, Jodi is so lucky to have two kids that love her.$2",
+
+"wed.Barron.fall.1": "I'm not the best at gardening but I've managed to keep my Arka Tubes alive for a year.$1#$e#A year is a pretty long time, you know...",
+"wed.Barron.fall.2": "My ma has been blowing up my phone all day today.#$b#It's okay though, she's just excited.$1#$b#Apparently, she's inherited something cool.$1",
+
+"wed.Barron.winter.1": "I wanted to test how supportive my ma is of me...#$b#So I gave her a potato and told her it's a part of my art project.#$b#She looked at it and went, 'Wow', I think that's pretty neat.#$b#I sure do love her.$3",
+"wed.Barron.winter.2": "When I was a kid, me and my big brother were best friends.#$b#But ever since he started dating girls, he sort of just builds his whole world around them, you know?$2#$b#It's so bad, he starts treating his girlfriends' families better than ours...$2",
+
+"thu.Barron.spring.1": "I've always wanted to go cave exploring, but it seems so scary.#$b#Plus, knowing me, I'd try to hug a bat and end up with rabies.$1",
+"thu.Barron.spring.2": "Did you know that the capybara is such a chill animal that in the wild it's observed to babysit other species' babies?#$b#It's adorable!$1",
+
+"thu.Barron.summer.1": "So, it turns out that a red panda is not an actual panda...#$e#Wonder why they're called that then.$3",
+"thu.Barron.summer.2": "I may look nuts, but I definitely believe in monsters.#$b#I saw this weird looking dusty creature the other day...#$b#Looked like a ball of ash or dust bunnies.$1",
+
+"thu.Barron.fall.1": "Everyone in town is so photogenic.#$b#I try to take a selfie and I look like I've discovered a horrible smell.$1#$e#Luckily, I rarely have to worry about being photographed.",
+"thu.Barron.fall.2": "I travel to Turn About Grove as well, so if my bus is missing then I'm likely over there.#$e#Turn About Grove is really a magical place too, they have fairies buzzing all over the place.$1",
+
+"thu.Barron.winter.1": "Did you know that when water freezes over, the water beneath it actually warms up enough not to freeze?#$b#Otherwise, the ice would be extremely thick, of course. That's how ice fishing is possible.",
+"thu.Barron.winter.2": "If you've a chance, you should go give Jinx some attention. #$b#She's a bit shy but she's the sweetest tazzy around.$1",
+
+"fri.Barron.spring.1": "When it comes to spirituality, I tend to stay away from it.#$b#But I gotta admit, spring really feels like a holy season. $1",
+"fri.Barron.spring.2": "Isn't it beautiful out?#$b#Well, I think most days are nice, haha.$1",
+
+"fri.Barron.summer.1": "It's so hot out, It's hard to even breathe.$2#$e#I'll be fine, just need some ice water and cool place to catch my breath.",
+"fri.Barron.summer.2": "I've been exercising as much as I can, but I still can't seem to lose any weight.$2#$b#In fact, I gained four pounds.$5",
+
+"fri.Barron.fall.1": "If you ever see a shadowy creature roaming around, don't be scared of them.#$b#I've been leaving treats out for them, actually.$1",
+"fri.Barron.fall.2": "I would love to star in a movie someday; I've always liked the idea of acting. But I've been told you can't be an actor without professional training...$2",
+
+"fri.Barron.winter.1": "Did you know, a long time ago, there was a flower called a Moon Fairy?#$b#It's extinct now, but legends say it's where faeries originated from. $1",
+"fri.Barron.winter.2": "I saw a bird of some kind this morning, just standing there....menacingly...$2#$b#It was taller than I am...$2",
+
+"sat.Barron.spring.1": "East Scarp should throw a ball. I'd love a good reason to dress up nicely.$1",
+"sat.Barron.spring.2": "Have you ever heard of the Hidebehind?#$b#It's one of my favorite cryptics.#$e#I don't really know why, I guess I just like the concept of it.$1",
+
+"sat.Barron.summer.1": "If you enjoy swimming, this season is the best time for it.#$b#Just make sure you wear sunscreen! Sunburn is pretty annoying.$1",
+"sat.Barron.summer.2": "I can't seem to focus on anything but this WeTube series I've been watching.#$b#It's some type of VHS-style horror.$3",
+
+"sat.Barron.fall.1": "As the owner and only employee of the Bookworm Mobile, I've taken it upon myself to learn basic first aid.#$e#I want to make sure I can keep people safe when they visit.$1",
+"sat.Barron.fall.2": "I've been feeling pretty sick today, I'd stay at a distance if I were you.$2#$e#Really, I would. I'm feeling queasy.$2",
+
+"sat.Barron.winter.1": "%She lets out a yawn and then sleepily acknowledges you with a nod.",
+"sat.Barron.winter.2": "It's freezing right now, my bus heater is still being fixed too. This really sucks.$2",
+
+"sun.Barron.spring.1": "I was invited to some kind of meet-up.#$b#I want to go but I'm a bit anxious.$2#$e#I'm worried no one will like me, I guess.$2",
+"sun.Barron.spring.2": "Do you think anyone would come to a documentary marathon at the Bookworm Mobile?#$b#I love watching stuff like that with good people, it's fun!$1",
+
+"sun.Barron.summer.1": "%She’s smiling, but there's a sad look to her gaze.",
+"sun.Barron.summer.2": "%Barron looks visibly upset, wonder what's wrong.",
+
+"sun.Barron.fall.1": "%She smells strongly of coffee and vanilla.",
+"sun.Barron.fall.2": "%Barron brushes dirt from your shirt.#$e#Oh, sorry, I should have asked before touching you.$2",
+
+"sun.Barron.winter.1": "%She’s deep in thought, so deep she doesn't notice you.",
+"sun.Barron.winter.2": "I've been reading a lot about the goddess Arah.#$b#She's a really interesting goddess.$1",
+
+"saloon.Barron.spring.1": "I don't drink much alcohol, but I do love the coffee here.",
+"saloon.Barron.spring.2": "Be careful if you drink today - too much can get you very sick.$2",
+
+"saloon.Barron.summer.1": "Summer is probably the only time I actually drink wine.#$e#It just hits differently. $1",
+"saloon.Barron.summer.2": "%Her eyes are bloodshot and she looks exhausted#$e#Hm? Oh, I'm fine, just tired...",
+
+"saloon.Barron.fall.1": "I’m starving, I wonder what the special is today.$1#$e#Are you hungry too? You should eat something.$1",
+"saloon.Barron.fall.2": "I wonder if I could talk Gus into making a candy dessert to sell for Spirit's Eve.#$b#Wouldn’t that be neat?$1",
+
+"saloon.Barron.winter.1": "It’s so nice visiting the saloon on such a cold day.#$e#Gus has great coffee and a hot cup is super nice during the cold season.$1",
+"saloon.Barron.winter.2": "You should stick around and relax, you're looking pretty tired and very cold...$2",
+
+"saloonentry.Barron.spring.1": "Wonder what the special is?",
+"saloonentry.Barron.spring.2": "I hope there's fresh coffee made...",
+
+"saloonentry.Barron.summer.1": "Jeez, it’s hot outside.",
+"saloonentry.Barron.summer.2": "Finally some cool air....",
+
+"saloonentry.Barron.fall.1": "I want something sweet.",
+"saloonentry.Barron.fall.2": "Wonder if there’s any hot tea.",
+
+"saloonentry.Barron.winter.1": "It’s freezing, I can’t feel my nose.",
+"saloonentry.Barron.winter.2": "Gus, do you have fresh coffee made?",
+
+"trailer.Barron.spring.1": "Make yourself at home and pick out of book to read if you like!$1",
+"trailer.Barron.spring.2": "We’ve got a new collection of books this season, you should go check it out!$1",
+
+"trailer.Barron.summer.1": "You look really overheated, stay and cool off if you like.",
+"trailer.Barron.summer.2": "There’s cold water in the fridge if you need it; stay hydrated this summer.",
+
+"trailer.Barron.fall.1": "I’ve been expanding my Spirit’s Eve decor, hope you like it.$3",
+"trailer.Barron.fall.2": "You should stick around a relax with a book, we've got a big donation of spooky books this season!$1",
+
+"trailer.Barron.winter.1": "It’s pretty cold out, maybe sit and read for a while? I’ll crank up the heater.$1",
+"trailer.Barron.winter.2": "I can make coffee if you like, it’s pretty cold today.$3",
+
+"trailerentry.Barron.spring.1": "Hey there, @!",
+"trailerentry.Barron.spring.2": "Welcome!",
+
+"trailerentry.Barron.summer.1": "You’re looking thirsty...",
+"trailerentry.Barron.summer.2": "You doing okay?",
+
+"trailerentry.Barron.fall.1": "Check out our new books!",
+"trailerentry.Barron.fall.2": "You want some coffee?",
+
+"trailerentry.Barron.winter.1": "Come in and warm up!",
+"trailerentry.Barron.winter.2": "It’s freezing out, isn’t it?",
+
+"enter.Barron.1": "Wow, it's beautiful here.",
+"enter.Barron.2": "Is that a crab!?",
+
+"leave.Barron.1": "The island is so wonderful, I would love to live here.$1",
+"leave.Barron.2": "I thought I saw a crab but it ended up being a red plastic cup...$2",
+
+"shore.Barron.1": "If you see any sea glass washed ashore, could you collect them for me?#$b#I'm planning on giving them to a friend of mind.",
+"shore.Barron.2": "I found this jellyfish on the shore. If you pick it up carefully and avoid its tentacles, you can throw it back into the ocean.",
+
+"umbrella.Barron.1": "I love sea life! Did you know that reptiles used to dominate the sea? They were pretty scary, actually.$1",
+"umbrella.Barron.2": "Wanna stand under the umbrella with me?#$b#You’re looking pretty overheated, you know.$2",
+
+"wander.Barron.1": "Keep an eye out - I’m searching for a little crab.$1#$b#I spotted him from the umbrella and I wanna see him up close.",
+"wander.Barron.2": "If you happen to find any old keys buried in the sand, you think I could have one?#$b#I like collecting them for a friend of mine.$1",
+
+"bar.Barron.1": "They serve really nice juices here!#$b#Way better than nasty beer.$1",
+"bar.Barron.2": "You should sit and relax!#$b#You look like you really need a drink.",
+
+"resort.Barron.1": "I wonder if I can park my bus somewhere. I would love to share the bus's books with the people here.$1",
+"resort.Barron.2": "I wonder if there’s any public libraries here.#$b#I’d love to see the native literature here.$1",
+
+"patio.Barron.1": "Isn't the farm beautiful?$1#$b#You've done such a good job.",
+"patio.Barron.2": "Jinx really seems to love it here.$1#$b#She's been so playful.",
+"spouseroom.Barron.1": "This little room of mine, it's really great having it.#$b#I never really had a bedroom before...#$b#Well, inside an actual house.",
+"spouseroom.Barron.2": "Oh, I'm just relaxing a bit.#$b#I woke up this morning feeling tense.$1",
+"rainyday_0.Barron.1": "Isn't this rain relaxing?$1#$b#This best time for a hot drink.",
+"rainyday_0.Barron.2": "Usually I'm fine, but storm today really has me on edge.$2",
+"rainyday_1.Barron.1": "I've always wondered what it must have been like for our ancestors on a rainy day #$b#Think this weather still had fans.$1",
+"rainyday_1.Barron.2": "This weather puts me in such an affectionate mood $4#$b#We should cuddle and read together.",
+"rainyday_2.Barron.1": "Is it safe to be working out in this weather?#$b#You could get sick.$2",
+"rainyday_2.Barron.2": "I'll make sure there's hot tea for you later tonight.$1#$b#Hopefully you don't get sick out there.$2",
+"rainyday_3.Barron.1": "I've been considering getting my nose pierced, but I'm pretty scared of needles.$2",
+"rainyday_3.Barron.2": "I know it's not that late, but I'm so tired. I could use a nap.$1",
+"rainyday_4.Barron.1": "In highschool I actually was on the wrestling team, it was fun.#$b#But I didn't like how the other girls started teasing me when I joined $2#$b#Kids can be real jerks.$5",
+"rainyday_4.Barron.2": "I've a lot of books about paleobiology, it's always an interesting read if you're ever curious.",
+"rainynight_0.Barron.1": "Rainy night's make me feel so drowsy.#$b#I should sleep well tonight.$1",
+"rainynight_0.Barron.2": "I'm happy there's not been any flooding.#$b#With how the rain has been coming down I thought for sure it would.",
+"rainynight_1.Barron.1": "I could use a hot cup of coffee, but I think it might be too late for that.$1",
+"rainynight_1.Barron.2": "Do you think the fields will be okay, I know rain is great for the crops but can't too much water hurt them?$2",
+"rainynight_2.Barron.1": "So apparently, my family tree has a long history of farmers!$1#$b#My mother said farming can be traced all the way back to the bronze age of Arkánia.#$b#Isn't that interesting?$1",
+"rainynight_2.Barron.2": "I have to admit, being here with you?$1#$b#It just feels right.$4",
+"rainynight_3.Barron.1": "I'm glad I found my biological mother, I just wish she'd be willing to meet my adoptive parents…$2#$b#I think she's scared.$2",
+"rainynight_3.Barron.2": "I've been plenty of places, but the stars are way prettier here in Pelican Town.$1",
+"rainynight_4.Barron.1": "I've been struggling lately with my diet.$2#$b#It feels not worth it, sweets just are so good.$1",
+"rainynight_4.Barron.2": "I hope I don't look like a mess, this wet weather has my hair frizzing right up.$1",
+"rainynight_5.Barron.1": "If I ever catch you outside in the rain, I will be pushing you into a muddy puddle.$1#$b#It cannot be avoided, I must.$1",
+"rainynight_5.Barron.2": "Do you feel like…#$b#I mean, rainy night's are a great time to snuggle…$4",
+"indoorday_0.Barron.1": "I really gotta clean up today, it's getting too dusty in here.",
+"indoorday_0.Barron.2": "I wonder if we can install an attic.#$b#I've always wanted a attic office.$1",
+"indoorday_1.Barron.1": "I need to expand my music collection, I'm getting sort of tired of the stuff I have.",
+"indoorday_1.Barron.2": "Hey, it's been so nice out.#$b#We should have a picnic soon.$1",
+"indoorday_2.Barron.1": "Aguula Tah means my love in Arkánian.$1#$b#But it's both romantic and platonic depending on context.#$b#Very interesting right!$1",
+"indoorday_2.Barron.2": "There's this species of raptor that has managed to escape extinction, they're from Arkánia, during the submersion of two of the Islands. They were assumed all gone..$1#$b#Recently though, they were rediscovered on a totally different island.",
+"indoorday_3.Barron.1": "I'd love to own my own Raptor, but Jinx can get pretty jealous.$1",
+"indoorday_3.Barron.2": "You'd think I would like writing poetry, but honestly I just like reading it.$1#$b#I’d get too embarrassed writing stuff like that.$1",
+"indoorday_4.Barron.1": "Whenever it’s this pretty outside, I find myself wanting to explore the deeper parts of the forest.#$b#I’m very curious to see what’s out there.$1",
+"indoorday_4.Barron.2": "I heard a while back, that there’s something interesting hidden in the mountain’s of Pelican Town.#$b#Something Ancient even, wonder what it could be.",
+"indoornight_0.Barron.1": "If you research the past, you start to notice the cultural importance the moon has within many civilization’s.#$b#But interestingly enough, the moon always seems to be labeled a woman.#$b#Such a curious thing isn’t it?$1",
+"indoornight_0.Barron.2": "I heard that a new species of rat has come over from Gotoro.#$b#I feel bad, but they’re a big problem for our ecosystem.#$b#Invasive species usually are honestly.$2",
+"indoornight_1.Barron.1": "I hope you’ve been taking care of yourself @.$2#$b#I see you work so hard everyday, please don’t over do it…$2",
+"indoornight_1.Barron.2": "I’ve never been a fan of classical instrumental, but for some reason Danse Macabre hits me differently.#$b#It’s such a good piece of music.",
+"indoornight_2.Barron.1": "I watched a documentary today, it wasn’t the most stimulating topic, but for some reason the history of the hairbrush really captured my attention.$1",
+"indoornight_2.Barron.2": "My father, he wasn’t very good at affection.#$b#Neither was my adoptive mother, but they made up for it I think.#$b#In their own way.$1",
+"indoornight_3.Barron.1": "Do you think plants really grow better when stimulated by music?#$b#Maybe that’s something we can test.$1",
+"indoornight_3.Barron.2": "The stamina you show everyday amazes me.#$b#I lose my breath by just power walking.$1",
+"indoornight_4.Barron.1": "You’ve always such a thoughtful expression, I’d love to know what you’re thinking more often.$4",
+"indoornight_4.Barron.2": "Mister O'brien sometimes visit’s the Book Mobile.#$b#I try not to, but it’s really exciting seeing one of my favorite authors.$1",
+"outdoor_0.Barron.1": "The wind feels nice, sort of reminds me of traveling.#$b#I used to drive with my window rolled all the way down.$1#$b#The breeze kept me pretty alert.$1",
+"outdoor_0.Barron.2": "Be careful, I saw a pretty grumpy looking skunk this morning.#$b#It’d be something awful if you came home stinking.$3",
+"outdoor_1.Barron.1": "I was talking to Leah early this morning.#$b#I think you were still sleeping?$2#$b#I don’t know how you managed when she had me howling with laughter over the phone.$1",
+"outdoor_1.Barron.2": "Lewis isn’t the worst guy in town, he’s still a political figure though.#$b#So of course, I don’t trust him.$5#$b#But at least he’s respectful whenever he comes over for your shipments.",
+"outdoor_2.Barron.1": "I was researching the cost of living in Gotoro; it’s really expensive over there right now. It’s like every country in the empire is dealing with serious inflation problems.",
+"outdoor_2.Barron.2": "The birds have been absolutely losing their minds this morning.$1#$b#I like a good bird song though, it’s just sort of funny how wild they got.$1",
+"outdoor_3.Barron.1": "You know, I wanted to be a teacher at one point.#$b#But I realized that I wanted to travel more than I wanted to teach.",
+"outdoor_3.Barron.2": "I’ve never been one for country music, but there’s something really enchanting about southern gothic bands.$1",
+"outdoor_4.Barron.1": "I wonder where I get my height from..$2#$b#Phoebe is really short and she swears that my biological father was just as short…#$b#Wonder who in the family was as tall as me.$1#$e#Hm? Oh, I’m six foot eight…Did I never tell you that?#$b#Well, I’m pretty tall.$3",
+"outdoor_4.Barron.2": "I was feeling bad about myself this morning, but I heard this pretty silly song that made it better.$1",
+"funleave.Barron.1": "I’ll be heading out today, was gonna meet up with some friends and have a bit of fun!$1",
+"funleave.Barron.2": "Me and Leah are going to hang out today.#$b#She really is a sweetheart, you should talk to her.$1",
+"funreturn.Barron.1": "I’m happy to be home, it was fun being out and about but I get tired pretty quickly.",
+"funreturn.Barron.2": "My social battery is in the negatives now, but I’m glad I got to go out today.$1",
+"onekids_0.Barron.1": "%kid1 woke up really hollering this morning, sounded just like a screaming rabbit.$6#$b#Scared me half to death!$1",
+"onekids_0.Barron.2": "Been reading %kid1 some bedtime stories and they’re already quoting some of the stories.$1#$b#Our baby is so smart!$1",
+"onekids_1.Barron.1": "%kid1 look a whole lot like you, but I have a feeling they’re gonna end up tall like myself.%1",
+"onekids_1.Barron.2": "I didn’t realize how much I would love being a mother, but I have to admit I’ve never been happier.$1 ",
+"onekids_2.Barron.1": "I’ve been thinking…Wouldn’t having another baby be nice?#$b#I really think %kid1 would be happier with a sibling.$1",
+"onekids_2.Barron.2": "There must be a reason behind %kid1 weirder drawings…It’s really concerning.%2",
+"onekids_3.Barron.1": "Have you seen %kid1 recently?#$b#They were running around in one of your shirts it was really cute.$1",
+"onekids_3.Barron.2": "%kid1 said their first big word today.#$b#But i don’t think they realize a bird is not a homosapien.$1",
+"twokids_0.Barron.1": "I would love to have a family outing soon, maybe we could go to a carnival or something.$1",
+"twokids_0.Barron.2": "%kid2 seems really interested in plants.$1#$b#They’ve even started naming some.",
+"twokids_1.Barron.1": "%kid2 has asked for a cactus for their birthday…I’m considering it but I don’t want them to get pricked too much.$3",
+"twokids_1.Barron.2": "%kid1 and %kid2 really love this candy my mom brought over. It was some type of spicy lollipops.",
+"twokids_2.Barron.1": "Do you think it’d be a better idea to replace the kids beds with a bunk bed?#$b#It would make more room for them to play in their room.$1",
+"twokids_2.Barron.2": "I was thinking of sending the kids to visit their grandparents. Or maybe mom and dad can visit us.$1#$b#Hm, I wonder if they’ll get confused though. Cause Phoebe is grandma too…$3",
+"twokids_3.Barron.1": "I wonder when we can start sending %kid1 and %kid2 to school?#$b#I think Penny does lessons, maybe I could talk to her about it.$1",
+"twokids_3.Barron.2": "%kid2 told me that the sun is a sunflower.$1#$b#They’re so cute I swear.",
+"good_0.Barron.1": "Our little life together is so perfect, I wouldn’t change a thing.#$b#Well, except maybe a bigger bed.$1",
+"good_0.Barron.2": "I was considering buying a piano for the house, but I’m not sure.#$b#I used to play as a kid but it’s been a pretty long time since.#$b#Wonder if I can remember any pieces to begin with.$1",
+"good_1.Barron.1": "I hope I didn’t wake you this morning with my music.#$b#I love metal, but I know it can get pretty loud.$1",
+"good_1.Barron.2": "I would love a chance to hang out, maybe we could have a date night soon.$4",
+"good_2.Barron.1": "You know, I hear that married couples use pets names a lot of the time.#$b#But, I don’t know.#$b#My name is Barron not Honey.$1",
+"good_2.Barron.2": "Pelican Town seems pretty heavily influenced by Yoba’s teaching’s.#$b#Personally I’m more interested in Animism.$1",
+"good_3.Barron.1": "I was asked if I would change myself if I could and weirdly enough.#$b#I don’t think I would.#$b#I actually sort of like me now.$1",
+"good_3.Barron.2": "I know I don’t say it often, but I love you.#$b#You’re really important to me and I don’t want you to feel otherwise.$3",
+"good_4.Barron.1": "%Barron playfully pats your bicep.#$b#Wow, I always forget how strong you are.$4",
+"good_4.Barron.2": "%You can hear her singing softly, but when Barron notices you there she stops.#$b#@, you’ll embarrass me listening in like that.$4",
+"good_5.Barron.1": "There’s that thoughtful expression again-Wonder what’s on your mind.%4",
+"good_5.Barron.2": "I’m really craving something sour today.#$b#I don’t even like sour things, but for some reason it sounds pretty good right now.$1",
+"good_6.Barron.1": "Phoebe has been acting just a bit restless these days.#$b#I think she misses traveling the world.%3",
+"good_6.Barron.2": "We need some type of tub, one big enough for two people.$4",
+"good_7.Barron.1": "I hope my ancestors are proud of me, I'm really living a dream right now.$1",
+"good_7.Barron.2": "I wouldn't kiss me right now, I've had the sniffles all morning.$3#$b#I don't get sick often but when I do it's usually pretty bad.$2",
+"good_8.Barron.1": "To make brownies or not, that's the most important question today.$1",
+"good_8.Barron.2": "I love our life together, it's just a dream come true.",
+"good_9.Barron.1": "I think after being on the road for so long, being able to settle down really does feel like a blessing.$1",
+"good_9.Barron.2": "I never imagined anyone would love me.#$b#Im happy you've proved me wrong.$4",
+"neutral_0.Barron.1": "%She yawns loudly and then looks surprised when she notices you standing there.",
+"neutral_0.Barron.2": "Today I was thinking of French toast sticks for breakfast.#$e#I sort of have a bad sweet tooth.$1",
+"neutral_1.Barron.1": "Every day I notice this book about how bubble gum is made and every day I wonder who would read this?$1#$e#Answer is, me. I’ve read it multiple times.$1",
+"neutral_1.Barron.2": "Whenever I get stuck organizing a whole lot of books. I just imagine I’m an ancient scholar setting up my library for generations to come.$1",
+"neutral_2.Barron.1": "I love a good, cheesy holiday book.#$e#Would be nice if there wasn’t always a romance though.",
+"neutral_2.Barron.2": "I woke up famished, I can’t wait to eat something filling.$1",
+"neutral_3.Barron.1": "I wonder if I should get more plants in here. It’s really nice having nature around me.$1",
+"neutral_3.Barron.2": "Sometimes I really wish that I liked beer, I would love to have a fun night out like other girls.$2",
+"neutral_4.Barron.1": "Gus gave me this book, it’s about a cowboy who falls in love with an alien...#$e#It’s weird but cute.#1",
+"neutral_0.Barron.1": "Is it just me or is the day sort of dragging by today?#$b#Feels like everything is moving in slow motion.$3#$b#Maybe I'm just bored.$1",
+"neutral_0.Barron.2": "I'm so bored today, I've done basically everything I needed to do this morning and now I've nothing to do.#$b#I suppose I could read but I've got goldfish-brain going on right now.$3",
+"neutral_1.Barron.1": "I got the most uncomfortable text from my mom last night.#$b#I really wish the woman could learn to look things up instead of asking me all the time.#$b#I am certainly not an all-knowing source of knowledge.$2",
+"neutral_1.Barron.2": "You know, when I was young, I skipped every single school dance.#$b#I don't regret it either, rubbing elbows with awkward and sweaty people still sounds awful to me.$3",
+"neutral_2.Barron.1": "%She's humming softly to herself; the song sounds peppy and uplifting.#$e#It's been a good day so far, a little slow, but it was needed.$1",
+"neutral_2.Barron.2": "My father and mother have been sort of fighting lately. My mom will not stop complaining about their disagreements.$2#$b#People disagree all the time, not a big deal...$5",
+"bad_0.Barron.1": "Sorry, I feel pretty down today...$2#$e#I guess I just-- Feel homely today...$2",
+"bad_0.Barron.2": "I can barely look at myself in the mirror lately...#$e#%Barron looks very depressed, but she doesn't want to talk about it.",
+"bad_1.Barron.1": "%Barron appears upset, but she's being nonverbal and distant.",
+"bad_1.Barron.2": "I could use a night out, maybe I could visit East Scarp...$2",
+"bad_2.Barron.1": "I miss being on the road, I've been feeling really cooped up lately.$5",
+"bad_2.Barron.2": "The understimulation is driving me completely crazy.%2#$b#Farm life isn't what I thought it would be.",
+
+/************************************************
+** Generic text
+************************************************/
+// NPC info
+"npc-display-Phoebe":"Phoebe",
+   
+
+// gift taste dialogue
+"Phoebe.gift.love":"Are you sure?#$b#This is so awesome, thank you!",
+"Phoebe.gift.like":"This is great, thanks a bunch!",
+"Phoebe.gift.dislike":"Hm?#$b#Are you making fun of me?",
+"Phoebe.gift.hate":"Oh, okay, so you think you're funny, then?#$b#More on the trashy side, if I'm honest.",
+"Phoebe.gift.neutral":"Hm, I think I could actually use this.#$b#Thanks, @.",
+
+
+// player killed dialogue
+"Phoebe.player-killed.not.spouse":"@?!#$b#You look awful, for a second I thought you were dead.$2",
+
+
+// Marketpalooza (from Fellowclown.Nikolai mod)
+"Phoebe.fall3.Unmet": "Oh, hey there, I'm Barron's mother. Well, her biological one, at least.#$B#Anyway, the name's Phoebe.$1#$b#I suggest trying the food here, Marketpalooza has some good eats.$1",
+"Phoebe.fall3.friendly": "Evening @, nice to see you.#$b#Nikolai is selling some honey variations, I really loved the Sunshine Honey.$1",
+
+"Phoebe.spring24.Unmet": "Have you seen Barron?#$b#She looks so beautiful, doesn't she?$1#$b#Just like I was when I was her age!$1",
+"Phoebe.spring24.friendly": "If I could nab a date, I would join in on the dancing.#$b#I love to dance, it's always been a passion of mine.$1",
+
+"Phoebe.fall27.Unmet": "Isn't it fun here?#$b#I'm glad I showed up when I did. The festival is really something!$1",
+"Phoebe.fall27.friendly": "I can't really eat the candy but I do love spending time outside with Barron. It's pretty fun!",
+
+
+/************************************************
+** Movie reactions
+************************************************/
+"Phoebe.movies.0.before": "Been a hot second since I watched a movie.$1#$b#Hoping it’s a good one.", 
+"Phoebe.movies.0.during": "Oh...#$b#That’s unexpected...$2",   //sapling
+"Phoebe.movies.0.after": "Um, sorry.$2#$b#I just need a minute, I guess. The movie was pretty sad.$4",
+
+"Phoebe.movies.1.before": "I love a good documentary!#$b#Can’t wait to watch.$1", 
+"Phoebe.movies.1.during": "Oh hey!#$b#I’ve been there before, it’s a great area!$4",   //Natural Wonders
+"Phoebe.movies.1.after": "That was great, really bought back some good memories too.$4",
+
+"Phoebe.movies.2.before": "Westerns, huh?#$b#Alright, I’ll give it a shot.$3",
+"Phoebe.movies.2.during": "Whoah!#$b#Look at that guy!$4#$b#What a cutie.$5",   //Prairie King
+"Phoebe.movies.2.after": "That was a pretty great movie. Westerns aren’t usually my thing but this one's not bad!$4",
+
+"Phoebe.movies.3.before": "Wumbus?#$b#Sounds like some type of disease.$4",
+"Phoebe.movies.3.during": "She looks confused but enthralled by the movie.",   //Wumbus
+"Phoebe.movies.3.after": "I feel weirdly enlightened...$3",
+
+"Phoebe.movies.4.before": "Ooh, I love this one.#$b#It’s a bit weird, but that’s why I like it!$5",
+"Phoebe.movies.4.during": "Oh, this is my favorite part!$4",   //Mysterium
+"Phoebe.movies.4.after": "Wasn't that awesome? I love a good thought-provoking movie.$1",
+
+"Phoebe.movies.5.before": "Barron warned me about this one...$2#$b#I’ll give it a chance, though.",
+"Phoebe.movies.5.during": "Jeez, what the heck.$2",  //It Howls In The Rain
+"Phoebe.movies.5.after": "That was...Kind of disturbing.$3",
+
+"Phoebe.movies.6.before": "A holiday movie?#$b#Hm, never been into those...$2",
+"Phoebe.movies.6.during": "She looks pretty unimpressed...$3",   //Miracle At Coldstar Ranch
+"Phoebe.movies.6.after": "Well, that was okay.#$b#Could go a few years without seeing it again, honestly.$2",    
+
+"Phoebe.movies.7.before": "A romance?#$b#Didn’t take you for the soft type.$4",
+"Phoebe.movies.7.during": "She starts giggling.",    //Zuzu City Express
+"Phoebe.movies.7.after": "I’m sorry for giggling in there, romances just really makes me laugh sometimes...$5",
+
+/************************************************
+** Phoebes Dialogue
+************************************************/
+"intro.Phoebe.spring.1": "Spring is so nice. The  flowers and the vibrant colors all around is so nice!$1#$b#Oh!$4#$b#Right, my name is Phoebe!#$b#I'm from out of the country, and came this way to meet my daughter.#$b#Don't be a stranger, I'm staying at Barron’s mobile library.$1",
+"intro.Phoebe.summer.1": "Feel that summer heat?#$b#It's so nice isn't it?#$b#I'm Phoebe, Barron's mother...Well, the biological one, at least. $2",
+"intro.Phoebe.fall.1": "Oh, hey there, I'm Phoebe.$1#$b#I heard this season is the Spirit's Eve festival.#$b#I'm excited for it!$1",
+"intro.Phoebe.winter.1": "Arah above, it's freezing today.#$b#I'm not used to this weather at all...$2#$b#Oh, right - I'm Phoebe. Don't take offense but I gotta go warm up.",
+
+"intro.Phoebe.spring.2": "Hey, I'm Phoebe!#$b#Nice to meet ya.$1",
+"intro.Phoebe.summer.2": "You look overheated, you should find somewhere to cool off...$2#$b#Hm, I'm Phoebe, I'm staying with Barron. Maybe you should hang out in the bus and cool down a bit?$2",
+"intro.Phoebe.fall.2": "All this candy, it's hard not binging all the sweets this season...$2",
+"intro.Phoebe.winter.2": "Oh, I'm Phoebe.#$b#I can't recall if we've met before...",
+
+"mon.Phoebe.spring.1": "It's a pretty day, but I have to admit I really prefer the cooler weather. Even spring can get a bit too hot for me.$2",
+"mon.Phoebe.spring.2": "I hope that Barron enjoys having me around.#$b#So far she's been great company for me.$1",
+
+"mon.Phoebe.summer.1": "Back home, I owned a little children's store near the ocean.#$b#I love children, honestly...$2#$b#I never thought I would though, I used to be too impatient for them...$2",
+"mon.Phoebe.summer.2": "I bought a bunch of different ice creams for Barron and me to try.$1#$b#She said she's trying to lose weight, but I think she's just fine.$1#$b#If anyone shouldn't have sweets, it's me, considering what happens to my blood sugar.$2",
+
+"mon.Phoebe.fall.1": "It's that time of year!#$b#Get your costume and candy ready.$1#$b#I'm very excited for Spirit's Eve. ",
+"mon.Phoebe.fall.2": "I wonder if I can get away with dressing up Jinx...#$b#Think she'll let me?$1",
+
+"mon.Phoebe.winter.1": "I've noticed the valley sure is Yoba crazy.#$b#My family has always worshiped Arah, but I am from a different country so...Guess it's expected that I'd have different beliefs.$1",
+"mon.Phoebe.winter.2": "I was reading up on the whole Winter Star festival.#$b# It's very reminiscent of a festival I would celebrate back home.$3",
+
+"tue.Phoebe.spring.1": "I saw Barron sniffing a book this morning...$3#$b$I don't think I get it, but she swears it just smells good.#$b#Smells like dust to me, though.$1",
+"tue.Phoebe.spring.2": "I was working on the mobile yesterday.#$b#The oil tank has a hole in it and the sparks are just covered in rust.#$b#Good thing I know my way around a motor.$1",
+
+"tue.Phoebe.summer.1": "I took Jinx to the vet the other day and well...#$b#I was shocked to discover that Jinx isn't a dog at all.#$b#Who would have thought my daughter would be raising a Thylacine.$1",
+"tue.Phoebe.summer.2": "I got an interesting letter in the mail.$3#$b#Someone wrote to me, claiming to be related to Barron and me.#$b#Don't know if I'm buying it, though.$3",
+
+"tue.Phoebe.fall.1": "There's some pretty interesting people in this town.#$b#I overheard an interesting conversation between some bald dude and Barron and, let me just say... #$b#He was sort of weird $1",
+"tue.Phoebe.fall.2": "Last night something caught my attention, but when I looked back out the bus window, it had vanished.$2#$b#Weird, it sort of looked like a small shadowy baby...$3",
+
+"tue.Phoebe.winter.1": "Winter is objectively the best season.#$b#When else can a person go outside and bombard a stranger with fluffy, frozen water.$1#$b#Any other season and you'd get in trouble.$1",
+"tue.Phoebe.winter.2": "Have you ever considered modeling?#$b#You have very pretty skin.$1",
+
+"wed.Phoebe.spring.1": "Pelican Town is a weird place...$2#$b#Something felt so off about it that I couldn't bear to stay for more than half an hour.$3",
+"wed.Phoebe.spring.2": "I hope Barron likes me - I just can't seem to get a read on her.$2",
+"wed.Phoebe.summer.1": "When the moon is full, I like to go to the beach and watch the waves.#$b#The sea has always called to me, just like traveling has.#$b#I belong out there~$2",
+"wed.Phoebe.summer.2": "For generations, people on my mother's side of the family have lived nomadic lives.#$b#At least until they marry and settle down, then it's all about raising the kids.$1#$b#Wish I had done that for Barron.$2",
+
+"wed.Phoebe.fall.1": "Realizing that Barron and I are very similar has been extremely rewarding.#$b#She really does seem to get me.$2",
+"wed.Phoebe.fall.2": "I'm about ready to set traps outside the bus at night.#$b#I swear there's something out there $3",
+
+"wed.Phoebe.winter.1": "I had the worst sleep of my life last night.#$b#Too many nightmares.$3#$b#Not sure why it was so bad though, usually it's not an issue.$2",
+"wed.Phoebe.winter.2": "Excuse me?#$b#Oh, I thought you said something.#$b#My hearing isn't very good these days #$b#I blame all those metal concerts I've attended.$1",
+
+"thu.Phoebe.spring.1": "This little girl in Pelican Town asked if I have grandkids.#$b#Broke my heart, honestly... Am I that wrinkled up now?$2",
+"thu.Phoebe.spring.2": "I wonder if Barron will ever have kids, she really is very good with them $1",
+
+"thu.Phoebe.summer.1": "I’ve always thought I had rather good intuition, but recently I’ve been questioning that about myself.$2",
+"thu.Phoebe.summer.2": "I used to dream of traveling to a far-off land to discover the secrets of ancient civilizations.#$b#In a way, I did accomplish that dream, but I really wish I had brought Barron along with me.$2",
+
+"thu.Phoebe.fall.1": "I decided to get a pack of cookies last night and I really regret it.$5#$b#My blood sugar was out of control this morning, so now I have to be careful all day.$2",
+"thu.Phoebe.fall.2": "Spirit’s Eve is such a cute festival, but I can’t stop myself from comparing it to the Autumn Night’s festival back home.$1#$b#It’s very similar, except the Autumn festival lasts for three days and starts on the thirteenth instead of the twenty-seventh.$1",
+
+"thu.Phoebe.winter.1": "Considering the amount of times I’ve slipped on ice and fallen right on my butt, I am extremely surprised I still have cheeks to cushion my fall..!$1",
+"thu.Phoebe.winter.2": "Have you ever seen Barron’s bad side?$1#$b#Well, let’s say the apple doesn’t fall far from the tree.#$b#She really took after me in that regard, her father was the calmer one between us.$1",
+
+"fri.Phoebe.spring.1": "Hey bud, you’re a bit close there.$4#$b#No worries though, I’ve met a few close talkers in my life.$1",
+"fri.Phoebe.spring.2": "Barron has been very interested in our heritage.$1#$b#I never thought much of it, other cultures have always interested me more;  but her enthusiasm is very infectious.$4",
+
+"fri.Phoebe.summer.1": "Whoa, coming in hot!#$b#You look close to suffering heat exhaustion. Go cool down, yeah?$2#$e#Jeez, well, if anything, get something cold to drink...$",
+"fri.Phoebe.summer.2": "",
+
+"fri.Phoebe.fall.1": "For a long time, I’ve always felt like a villain for letting Barron go as a baby...$3#$b#But her kindness and understanding...It’s really helped me learn to forgive myself.",
+"fri.Phoebe.fall.2": "I’ve noticed something a bit weird about the Republic.$3#$b#People here seem to think that the Gotoro Empire is one place with one culture.$2#$b#That’s so weird, isn’t it?#$b#The Empire has a lot of different people and places within it.$4",
+
+"fri.Phoebe.winter.1": "It’s freezing out, but shockingly not the coldest I’ve dealt with.$4#$b#You should visit the Arctic Circle.#$b#Now that was cold - your spit would freeze before hitting the ground, you know!$1",
+"fri.Phoebe.winter.2": "Barron is out of her mind!#$b#She really comes out here and reads a book in this weather.$4#$b#Reminds me of her father.$1",
+
+"sat.Phoebe.spring.1": "Barron and I went to Zuzu City last night and I tell you what...#$b#I’ve never seen anyone throw a whole person into a trash bin before.$4#$b#Funniest thing I’ve ever seen!$1#$b#Remind me never to piss off my daughter.$5",
+"sat.Phoebe.spring.2": "I saw the weirdest fish for sale in Pelican Town...#$b#This older gentleman called it a Blobfish.$2#$b#Poor thing, had a face only a mother could love.$3",
+
+"sat.Phoebe.summer.1": "I saw this weird little crab yesterday, sort of looked like my grandmother.#$b#Well, except my grandmother looked way crabbier.$4",
+"sat.Phoebe.summer.2": "I saw Barron staring at that bald-headed fellow, what’s his face?$3#$b#Roddy? Roadey?$2#$b#Eh, anyway, she has weird taste in writers.$1",
+
+"sat.Phoebe.fall.1": "Read this book about pronouns.#$b#Don’t understand a bit of it, but honestly, good for people for figuring things out.$1#$b#Wish I had a chance to do that as a younger woman.$5",
+"sat.Phoebe.fall.2": "Sometimes I miss being in a relationship, but in the end, I realize I don’t like dating much.#$b#Just never could relate to the desire, guess it’s a ‘me thing’, though.$3",
+
+"sat.Phoebe.winter.1": "In Tuuwe, there’s a saying...#$b#’The shadow of death is a warm one’.#$b#For me, it’s always been comforting, but every time I mention the saying to others they look at me strangely.$3",
+"sat.Phoebe.winter.2": "I’ve searched for a long time for paradise but, you know, I’m starting to think maybe it’s more complicated than finding a physical place#$b#I’ve never been as happy as I am right now.$3#$b#Now that my daughter is back in my life.$1",
+
+"sun.Phoebe.spring.1": "I’ve been thinking of picking up the saxophone again.$1#$b#I’ve really been missing playing music.$4",
+"sun.Phoebe.spring.2": "Barron is so much better with money than I am.$5#$b#She’s like a little bank, she’s so frugal.$1",
+
+"sun.Phoebe.summer.1": "Joja seems like a much smarter place to shop, but something feels pretty off about the whole giant mega company situation.$3",
+"sun.Phoebe.summer.2": "There’s way too many good looking people in this town.$1#$b#When I was younger like that, I looked like a baby.$3",
+
+"sun.Phoebe.fall.1": "You know, this town has a pretty wide variety of people in it.#$b#I’ve never seen so many interesting personalities in one place before.$1",
+"sun.Phoebe.fall.2": "Jinx is such a weird animal. But I really am starting to love her.$1#$b#Plus, she’s such a pretty and gentle animal, can’t help but to love her.$1",
+
+"sun.Phoebe.winter.1": "I noticed there's not really a place of worship here.#$b#I’m not religious myself, but usually there’s some type of place to pray to some type of god in town.#$b#Sort of an interesting difference compared to other places.$4",
+"sun.Phoebe.winter.2": "Sorry  bud, my energy is totally unavailable today.$2#$b#I am just too tired to socialize...$3#$e#%She lifts a brow and then starts ignoring you.",
+
+"enter.Phoebe.1": "Whoa, this place has changed a lot.",
+"enter.Phoebe.2": "Wonder if the bar’s open?",
+
+"leave.Phoebe.1": "I’m so tired, I think it’s time I head back to the scarp.#$b#Besides, I bet Barron is cooking, it’s around that time.$1",
+"leave.Phoebe.2": "Found a bunch of weird rocks today, can’t wait to toss them into my collection!$1",
+
+"shore.Phoebe.1": "I remember visiting this place a while back, it really has changed since.#$b#Hopefully it’s for the better.$4",
+"shore.Phoebe.2": "I love a nice day at the beach, but I really am getting fed up with getting sand all up in my orifices.$3#$b#What? Is that TMI? It’s the truth!",
+
+"umbrella.Phoebe.1": "I should bring Barron here, she really loves swimming at the Inn, so maybe the ocean will be even better.$1",
+"umbrella.Phoebe.2": "I should have brought some lotion, my skin is feeling dry and uncomfortable right now.$3#$b#But hey, the beach is sort of worth it!$1",
+
+"wander.Phoebe.1": "I could have sworn I heard this bird talking to me.$3#$b#Maybe I need to cool down a bit before my brain fries.$4",
+"wander.Phoebe.2": "",
+
+"bar.Phoebe.1": "%Her cheeks are dark red, she’s been drinking a while.",
+"bar.Phoebe.2": "%Her mouth is full, Phoebe can’t talk right now.",
+
+"resort.Phoebe.1": "Wow, I would love to move here permanently.$1",
+"resort.Phoebe.2": "There should be some type of club here, I love dancing.$1",
+
+"PlayHouse.Title": "Come Visit the Play House!",
+"Mail.PlayHouse": "Starting every Tuesday, Thursday,Saturday and Sunday. The Play House toystore will be open and ready for buiness!^Come visit next to the inn.^We're the secondary door attached to the building!^Hope to see you around.^-Phoebe Halkias",
+/************************************************
+** Event dialogue
+************************************************/
+"barron.intro.0":"Huh...Is that smoke you smell?",
+"barron.intro.1":"Help! Fire!$6",
+"barron.intro.2":"Oh Yoba...$6#$b#I can't believe I just froze up like that.$6",
+"barron.intro.3":"That's never happened before either..$6",
+"barron.intro.4":"Goodness...$2#$b#That's so embarrassing too...#$b#I'm Barron, by the way.$3",
+"barron.intro.5":"This is the Bookworm Mobile, the first traveling library this side of East Scarp.$1#$b#Feel free to stick around and read a book.#$b#I'll be cleaning up the stove...$3",
+
+"heart2_platonic.4": "From a distance you hear someone mutter, 'Where are you?'",
+"heart2_platonic.0":"@, nice to see you around.$3",
+"heart2_platonic.1":"It's nothing bad, not really.$3#$b#I just...$2#$b#I guess, I just, am a little bit fustrated...$5",
+"heart2_platonic.2":"If I can be honest, one of the reasons I started traveling was because...$3#$b#Well...I wanted to find my birth mother.",
+"heart2_platonic.3":"When I was a baby, my mother gave me up for adoption...#$b#My adopted parents are amazing. They're incredible, really...#$b#But I want to know where my family comes from, my birth family.#$b#So, my mother, I feel, is the best place to start.$3#$b#She's just been really had to find.$5",
+"heart2_platonic.question": "I've been looking for a while, trying to track her down...Maybe finding her just isn't worth the stress...?$3",
+"heart2_platonic_answer.0": "Why not just enjoy the journey? You can look for your mother and have fun too.",
+"heart2_platonic_answer.1": "It might take a while to find her, but you can do it. But you should take a break maybe, being stressed is bad for your health.",
+"heart2_platonic_react.1": "Hm...$2#$b#You know what...$3#$b#I think you're right.$1#$b#I'm in my prime, I should be having fun!$1#$b#Maybe tomorrow I'll go for a swim at the Pelican Town beach and then grab a few drinks at the saloon.$1",
+"heart2_platonic_react.2": "I guess all this stress is bad for me.$1#$b#Thanks for the support, @, I think I might take a break for a week or so and just destress for a while.$1",
+
+"heart4.0": "You shouldn't be here...",
+"heart4.1": "I know...It's too dangerous.$3",
+"heart4.2": "I just...$3",
+"heart4.3": "How did you find this place",
+"heart4.4": "Well, I...$2#$b#I followed you here last week...$2#$b#I know the way now...$3",
+"heart4.5": "Not many people can pull that off.",
+"heart4.6": "Pull what off?$2",
+"heart4.7": "Following me without my realizing it.",
+"heart4.8": "Is there a reason you've been trailing me?",
+"heart4.9": "Well, Gunther told me you might know something about my mother...?$2#$b#Her name was Phoebe?$2",
+"heart4.10": "Oh, yes I knew a Phoebe.",
+"heart4.11": "She was an interesting character...",
+"heart4.12": "Didn't realize she had a daughter.",
+"heart4.13": "Oh, she didn't raise me.$3#$b#I was adopted later on.$2",
+"heart4.14": "But I'm trying to find her. I want to ask her about my family history.$3",
+"heart4.15": "Hey, @...$3",
+"heart4.16": "Is everyone following me today?",
+"heart4.17": "Barron, I haven't seen your mother in years now.",
+"heart4.18": "But...I'll ask around.",
+"heart4.19": "I hope she can answer your questions.",
+"heart4.20": "I do too...I'm worried she might not want to even talk to me.$3",
+"heart4.21": "She's your mother, she'll want to talk to you.",
+"heart4.22": "It'll be okay; no matter what happens, you're not alone.",
+"heart4.23": "I hope you're right, @.$3",
+"heart4.24": "You really mean that?$6",
+"heart4.25": "Thank you, @, that means a lot to me.$1",
+
+"heart5.0": "Hey!$5#$b#You're driving the wrong direction!$5",
+"heart5.1": "Ah hell, I totally forgot the roads are different here...$2#$b#Sorry about that, I was heading towards Scarp.$3#$b#I'm opening up a toy store next to the Inn.$5",
+"heart5.2": "That's okay, good thing I was going the speed limit.$1",
+"heart5.3": "Say, you look a little familiar...$2",
+"heart5.4": "Wait!$6#$b#You can't be?!$6",
+"heart5.5": "Something wrong?$2",
+"heart5.6": "Are...Are you Phoebe?$6#$b#I'm Barron...$2#$b#Do you know that name?$2",
+"heart5.7": "Barron...$1#$b#I can't believe it...$3#$b#Marlon called me earlier and I was heading this way to find you.$1#$b#And then I learned there was a storefront for rent...$4#$b#This is pretty wild!$1",
+"heart5.8": "You!$6#$b#You really mean that?$2#$b#You came this way to find me first?$1",
+"heart5.9": "Of course I do.$1#$b#Wow, how embarrassing, huh.#$b#Our first time meeting and I nearly crash into you.$1",
+"heart5.10": "If you turn around and follow me, I'll take you to East Scarp.$1#$b#I was already heading that way.",
+"heart5.11": "That would be awesome!$1#$b#Thank you, really.",
+
+ /************************************************
+** Map Text
+************************************************/
+"Patio.JinxHouse": "This is where Jinx sleeps at night.",
+"TravelingLibrary.Unmet": "You can hear someone moving around inside, but the door is locked.",
+"TravelingLibrary.Sign": "Bookworm Mobile",
+"Bookcase.Book_AdventuresOfJumba": "Adventures Of Jumba: A Shrimp with a Taste for Adventure.",
+"Bookcase.DevelopingConfidence": "Ultimate Guide to: Developing Confidence.",
+"Bookcase.WolfsBane": "WolfsBane: A Tale of a Pair of Lovers Stranded on a Remote Island.",
+"Bookcase.Cyclops": "Cyclops: The Hidden Race.",
+"Bookcase.RockCrab": "Oh no! My Baby's a Rock Crab! - by Lee Johnson.",
+"Bookcase.Book_OneEyedMan": "One-Eyed Man: by Dollie Smithston",
+"Bookcase.Bubblegum": "The Process of Bubblegum: How It’s Made!",
+"Bookcase.OldestMan": "The Oldest: How to Live as Long as Possible!",
+"Bookcase.Book_FoliageOfArkánia": "The Foliage of Arkánia: A Guide to Ancient Botany.",
+"Bookcase.RogerLovejoy": "Out of the Farm into Space: by RogerLovejoy",
+"Bookcase.Book_RodneyOBrien": "The Stretch, Volume 1: The Mammoth's Awakening by Two Time Award-Winning Author, Rodney O'Brien.",
+"TravelingLibrary.PC1": "The computer is in sleep mode.",
+"TravelingLibrary.PC2": "A screensaver bounces across the monitor's screen.",
+"TravelingLibrary.WayfarerPlant.spring": "What a weird plant; it smells so sweet.",
+"TravelingLibrary.WayfarerPlant.summer": "Is this some type of fruit?",
+"TravelingLibrary.WayfarerPlant.fall": "Why are the berries so fuzzy?",
+"TravelingLibrary.WayfarerPlant.winter": "Looks like Barron put up a holiday tree!",
+"TravelingLibrary.Icebox": "There's plenty of snacks, food and drinks in here.",
+"TravelingLibrary.Sink": "The sink has a chemical smell; was it just cleaned?",
+"TravelingLibrary.Stove": "The burners are blackened.",
+"TravelingLibrary.Counter": "The counter is clean, but the surface is scratched up pretty badly.", 
+"BarronSpouseRoomPC.01": "There’s a program open with unfinished fanfiction waiting to be completed.",
+"BarronSpouseRoomPlanter.01": "Barron’s weird plant, she loves this thing.",
+"BarronSpouseRoomCrow.01": "Where did this crow come from?",
+"TravelingLibrary.Bunkbeds": "Oh, Barron and her mother must sleep in this bunk bed.",
+
+"Bookcase.Book_Arkania.Cover": "The Three Sisters: Arkánia’s Lost Islands",
+"Bookcase.ArkaniaMap.01": "While most of the geographical information regarding Arkánia are educational guesses at best.",
+"Bookcase.ArkaniaMap.02": " The general shape of the land and locations of the main villages have been confirmed, thanks to the recent discovery of an Anicent Map of the Sister Islands. ",
+"Bookcase.ArkaniaMap.03": "The rest of the information that is known was documented from the natives occupying the remaining island of Tuuwe.",
+
+"Bookcase.ArkaniaAnimals.01": "The fauna of Arkánia is largely a mystery, much like the land itself. ",
+"Bookcase.ArkaniaAnimals.02": "It was due to the submersion of the two most populated islands, Rauul and Suuwe, that  the extinction of multiple species located within this tropical ecosystem occurred.",
+"Bookcase.ArkaniaAnimals.03":"Out of the once massive population of animals, only nine different species have survivied since the fall of Arkána during the start of the Iron Age.",
+
+
+"Bookcase.ArkaniaBuildings.01": "Thanks to the remaining natives of Tuuwe, which is considered the second sister of the three,",
+"Bookcase.ArkaniaBuildings.02": "Some of the culture of the Bronze Age Arkánese and architecture was saved and has continued to develop. ",
+"Bookcase.ArkaniaBuildings.03": "According to those remaining, it was and is still common for family units to live together.",
+"Bookcase.ArkaniaBuildings.04": "There can be multiple generations living under one roof at a time. It's considered unusual for children of the Arkánese to move out, even after marriage.",
+
+
+"Bookcase.ArkaniaObjects.01": "Due to the continued surivial of Tuuwe, researchers have documented a number of important artifacts, some of which are still being used today.",
+"Bookcase.ArkaniaObjects.02": "The Arkánia flag is still flown today and despite the recent decline of Echisian, it is still common for the people of Tuuwe to pray and give offerings to the gods of said ancient religion.",
+"Bookcase.ArkaniaObjects.03": "Horses or Bulls are commonly used to pull wagons, while some residents take to the seas in boats. Sailing and fishing are very common; in fact, fishing is the main source of income for the island.",
+"Bookcase.ArkaniaObjects.04": "They do this via Shrines that can be found throughout the island in seemingly inconspicuous locations. Among other important symbols are the warrior and lucky hare totems of Arlo. These totems are said to not only protect what's left of the island, but also said to guard the child goddess Arlo.",
+"Bookcase.ArkaniaObjects.05": " Transportation has remained primative and non-industrialized as well; this is because the residents of Tuuwe believe in the power and importance of nature.",
+
+
+"Bookcase.Book_Cover": "Birth of Arah: The Spirit of Motherhood.",
+"Bookcase.Liphum_Embrace.Book": " She was given the stars to keep her company as she grew, so she would not be lonely. But the stars were not enough, because they were not of the same intelligence or awareness as herself. ",
+"Bookcase.Arah_Awareness.book":"Then one day, a star's light flickered out completely, leaving behind just a rock. The goddess was saddened by its death. So with all her might, she reached out to the burned out star and embraced  it to say goodbye. ",
+"Bookcase.Arah_Embedded_Book": "Her very touch reignited the star, but only on the inside. The goddess's power filled the star's core.",
+"Bookcase.Arah_Birth_Book": "She had put a part of herself into it, and with that power, the star became just as intelligent and aware as the goddess. And with that, Arah was born.",
+
+"Bookcase.LovedAggie.Cover": "Aggie The Love",
+"Bookcase.LovedAggie.01": "Once upon a time, there was a woman that towered above even the tallest of warriors. Her hands were rough like leather, and her limbs as thick as the trunk of a tree. She was strong and sturdy like the very forest of Arkánia. But she was also just as lonely as she was powerful. But then from over the waters came someone new. He stood smaller than most and equally as thin. His skin was dark and aged but youth shined in his brown eyes.",
+"Bookcase.LovedAggie.02": "With a graceful stride, he passed her by, somehow oblivious to her presence. The woman was enthralled by him and as he walked away, her dark gaze stayed locked to his back.Immediately, she wanted this man to notice her, but as months went by, he never quite did.",
+"Bookcase.LovedAggie.03": " She was determined to change that fact, and one night at the village watering hole, she made an approach. Distracted by his friends and groggy from wine, the stranger didn’t see her at first. But once she scooped him up into her arms, he had no choice but to notice her.",
+"Bookcase.LovedAggie.04": " The woman walked away from his friends with him clinging to her neck, having been frightened by the prospect of being dropped. Back at her favorite spot, the woman carefully placed the man down. ",
+"Bookcase.LovedAggie.05": "She grinned wide and goofy before patting his shoulder. 'Talk to me now?' she asked with a hum, and the stranger found himself smiling right back. His cheeks grew warm and his gaze brightened. No one had ever demanded his attention quite like the way she had.",
+"Bookcase.LovedAggie.06": "As off-putting as it was, he was smitten with her assertiveness. It was after that night that the woman was no longer alone. And the stranger, who was just as different as she was, found a love he had not been expecting.",
+
+"Bookcase.LillyPirates.Cover": "The Death Lily Pirates",
+"Bookcase.LillyPirates.01": "The Death Lily Pirates are an infamous group known across the Gem Sea. However, despite their reputation, not much is known about the crew. The spider lily motif on their Jolly Roger sparks fear, but almost every person who has crossed paths with the group has lived to tell the tale.",
+"Bookcase.LillyPirates.02": "Many a merchant ship has fallen victim to the Death Lily Pirates. The victims tell of supernatural beings ranging from magic-wielding humans to grotesque goblins heard of only in books. Some have even claimed to see elves and mermaids amongst the attackers.",
+"Bookcase.LillyPirates.03": "Even still, the biggest mystery of the crew isn't their non-violence or the origin of its members; it lies with the captain. Among all the stories told about the pirates, very few ever make mention of their leader. Even fewer mention her by name.",
+"Bookcase.LillyPirates.04": "Calypso the Siren Song. She is theorized to be the daughter of the previous captain, Claudia the Endsinger.",
+"Bookcase.LillyPirates.05": "The only known fact about Claudia is at the peak of her career she disappeared, and Calypso took her place.",
+
+
+"Bookcase.Lyell.Cover": "Looks like an old journal, you manage to pry the lock open.",
+"Bookcase.Lyell.01": "Dearest Journal, I write to you with great happiness in my heart. I am  full of joy, because my wife Constatina has given birth to a beautiful little girl.",
+"Bookcase.Lyell.02": "We have agreed to name her Lyza, and while my little girl looks different, I still love her more than anything in this world. Constantina is frightened of Lyza, though. I am confused why she can't look past our little girl’s malformation.",
+"Bookcase.Lyell.03": "Her upper lip may be split, but she's still our child. I hope my dear wife can let go of her fear...She still hasn't held Lyza. I've been feeding her goat's milk in place of her mother's. -LH",
+"Bookcase.Lyell.04": "Journal, it's been years since I wrote. In fact, since our daughter Lyza was born. Constantina has grown to love our little girl. Her cleft lip no longer scares her, and for that, I am grateful.",
+"Bookcase.Lyell.05": "However, Constantina is unbearably protective and her disdain towards the residents of the neighboring island truly disturbs me. She calls them evil because they worship Arah instead of Liphum.",
+"Bookcase.Lyell.06":"I'm worried... She doesn't know that I worship both deities. I fear she'll leave if she ever finds out. Therefore, I'm keeping it secret. I can't let her know. -LH",
+"Bookcase.Lyell.07":"Constantina left and she took Lyza. I am heartbroken, but I knew deep down this would happen.",
+"Bookcase.Lyell.08":"I searched for them for many seasons and I did find them. But...Constantina had already moved on; she has found a new father for Lyza.",
+"Bookcase.Lyell.09":"They both looked very happy with this man. I can't bring myself to approach, I don't want to ruin their happiness. My sweet Lyza... I hope she grows and has a family that is stronger than what ours was...And I pray her mother is more accepting than mine was...-LH",
+"Bookcase.Lyell.10":  "Dearest Journal, life at sea has been wonderful. I love waking up each morning and watching the sun rise over the ocean. The crew of the ship has become like a family to me as well, and even though the captain and I have our differences, she is both accepting and kind.",
+"Bookcase.Lyell.11":  "Even though I will always miss my family - my sweet Lyza - I am finally building a new life for myself. It's a relief, in a way, not having to worry about love anymore.",
+"Bookcase.Lyell.12":  "When I am lonely I tell stories to the crew and when I need comfort, the captain is there to drink with. I am happy again and all is well. -LH",
+
+"Bookcase.Goblins.Cover": "Goblins",
+"Bookcase.Goblins.01": "The Bluemire Goblins have proved to be most courteous hosts, and have welcomed me into their village. A clan of musicians and storytellers, they build instruments and puppets from bones, twigs and other natural objects.",
+"Bookcase.Goblins.02": "Indeed, I am amongst a small number of humans blessed to have witnessed the most astonishing of goblin plays: a grandiose epic of tragedy and heartbreak, which brought tears to this humble anthropologist's eyes. - an extract from M. Jasper's 'Goblins' ",
+"Bookcase.Spells": "Before getting started, collect the following to put together your spell bag.^Spell One: Protecting Your Energy^1 Brown candle.^1 Leather bag the size of your palm.^1 Handmade parchment^1 Quartz crystal.^1 Tigerseye.^To begin, write out your symbol of protection onto your parchment paper. Then, fold it up - make sure you can tuck it nicely into your leather bag. After adding your parchment into the bag, add your two crystals.^On a full moon, burn your brown candle with your bag next to it; be sure to intentionally call protective energy to the bag. The candle is a conduit.^After the spell bag is infused with the energy, carry the bag with you in your pocket to protect your own energies.^-GR",
+"Bookcase.BigBookOfArt.00": "Big Book Of Art: A collection of unknown artist.",
+"Bookcase.BigBookOfArt.01": "The Autumn Festival: 1902",
+"Bookcase.BigBookOfArt.02": "Gentle Grip: 1901",
+"Bookcase.BigBookOfArt.03": "Creator's Touch: 1912",
+"Bookcase.BigBookOfArt.04": "Over-Thinking: 1930",
+"Bookcase.BigBookOfArt.05": "Soap Fairies: 1950",
+"Bookcase.BigBookOfArt.06": "Mother Of Water: 1812",
+"Bookcase.BigBookOfArt.07": "Eyes Of The Seer: 1820",
+"Bookcase.BigBookOfArt.08": "Unknown Sea Nomad: 1713",
+"Bookcase.BigBookOfArt.09": "A Fellowclown: 1994",
+"Bookcase.BigBookOfArt.10": "Brother Of Autumn: 1903",
+"Bookcase.BigBookOfArt.11": "Criminal Mastermind: 1910 ",
+"Bookcase.BigBookOfArt.12": "The Homestead: 1890",
+"Bookcase.BigBookOfArt.13": "Nature's Vision: 1970",
+"Bookcase.BigBookOfArt.14": "The Mother: 1740",
+}
+
+

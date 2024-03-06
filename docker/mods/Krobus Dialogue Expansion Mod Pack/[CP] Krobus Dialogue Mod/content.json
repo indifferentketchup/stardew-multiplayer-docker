@@ -1,0 +1,69 @@
+{
+"Format": "1.19.0",
+"Changes": [
+    {
+	"LogName": "Krobus Dialogue Mod",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Krobus",
+		
+        "Entries":
+        {
+            
+"Mon": "I sell goods and wares that I collect. I do change my stock regularly so come back in other days to see what I have.",
+ "Mon2": "...Have you encountered other shadow creatures like me? I am sorry if they have been hostile. We've had...unpleasant experiences with humans.#$b# You haven't... slain any of them have you? Perhaps I rather not know.",
+ "Mon4": "I am trying to control my chaotic nature to understand more about other creatures including humans.#$b# But I cannot declare myself superior to the violent ones. Even their lives are precious and should be preserved.",
+ "Mon6": "Have you met any dwarves yet?#$b# They slew us all, even the peaceful ones. #$e#If not, I rather not talk about this any further.",
+ "Mon8": "No, I can't go out on most days but rainy days are perfect for me. I still prefer staying here since some humans still go out even when raining.",
+"Mon10": "I have grown fond of you visiting here. I hope to see your home one day if you don't mind.$h",
+"Tues": "'Krobus' means 'bridge-crosser' in my language.",
+ 
+ "Tue2": "So you farm for a living? I do carry something that might help you. Come back on Friday and see.",
+ "Tue4": "Us shadow creatures do eat. Our favourite plant is a spicy forage plant that grows wild in spring.#$b# How shall I describe the taste to you? It's just too good to describe it fully to you.",
+ "Tue6": "Yes, this is where I live now.#$b# I settled here after many searches for the perfect place.",
+ "Tue8": "Rasmodius is the only human I come across whose beliefs aligned with mine regarding the world. #$b# There's much you can learn from him.",
+"Tues10": "How do you show friendship to a shadow creature? #$b# There's a special pendant that we shadow creatures like to share when we feel very close to one another but it would be very hard for a human to get a hold of.",
+"Wed": "Please keep my location a secret. Most humans only heard bad things about us and I fear what may happen if they knew.",
+ 
+ "Wed2": "There was a thousand year war between dwarves and shadow creatures. #$b# I oppose the violence, but alas both sides were devastated $s. #$b#I sought refuge in the human world but humans are just as violent so I am stuck here for now.",
+  "Wed4": "We shadow creatures are the ones that go bump into the night. #$b# Some of us even play tricks on children as they sleep at night.#$b# Of course I would never do that myself!$u",
+  "Wed6": "A while ago, two human children sought to find a way in here.#$b# Thankfully, the sewers were locked or I would had to scare them away. There are too innocent to understand abour real monsters right now and don't want them to be scared of me.$s",
+  "Wed8": "You've seen Junimos, too? I'm surprised. For a human, you seem to have quite a skill for dealing with elementals.",
+"Wed10": "What else do I like?#$b# I love void eggs. I always sell them. I heard some monsters love void mayo but I prefer not to harm the would-be chicks.",
+	"Thu": "On Fridays I stay silent out of respect for Yoba so please don't mind.",
+  
+  "Thu2": "No, we are not born from a mother like you humans are.$b Where do we come from, then? Well, when does any shadow begin to exist?#$b# Are the shadows under your feet somehow 'new' or simply less hidden by the light?#$b# #$e# That said, I do assign the start of winter as my day of birth of some sorts.",
+ "Thu4": "I don't think you will find any interesting fish in the sewers.#$b# There's carp and a mysterious fish that lurks in these waters but I have never saw it directly.",
+ "Thu6": "I have observed you humans for many years. It has given me great opportunity to learn your language.#$b# However, Rasmodius and you are the only humans with whom I have had consistent interaction.",
+"Thu8": "Your constant visits intrigues me. Are you after my wares or something else?",
+"Thu10": "It's good to see that you still visit me even knowing how different I am to your kind.#$b# It gives me great pleasure to see you again!$h",
+ "Fri": "...",
+"Sat": "I am still wary of most humans. I do know that you like to eat though. Care to buy anything?",
+"Sat2": "I do have a few crafting recipes in case you haven't noticed. Visit me some more and I may give you a secret crafting recipe of mine.",
+"Sat4": "I know it may seem silly, but even us shadow creatures need some enlightenment.",
+ "Sat6": "Thank you for respecting my silence on Fridays. It's my hope at least that other shadow creatures and humans see how greatly they can benefit from Yoba's spiritual light.",
+ "Sat8": "Without a doubt, if I didn't have Yoba to guide me, I would have turned into a shadow brute like so many others.",
+ "Sat10": "You seemed to travel a lot. I heard about a tropical island to the south of here. Oh how I wish I could visit it! $h",
+"Sun": "You're not like other humans are you?",
+ "Sun2": "Have you met any dwarves at the mines? I know they like underground places. Sadly hostilities still exist so next time you see one don't mention me alright?",
+ "Sun4": "Next to the spicy plant I mentioned before, I am also fond of a gem found in the mines.#$b# It's the shiniest gem I came across. If you can give me one, I would be so happy.",
+"Sun6": "The dog statue? I found it not that long after I went down here but I couldn't access it. #$b# Maybe it's a human relic I simply can't use.",
+"Sun8": "Every time you come here, I get a strange feeling. No it's not a bad feeling...",
+"Sun10": "I do have an urge to go out and see your home. It should be interesting to see what's it like...",
+
+	},
+
+},
+
+    
+
+
+
+
+
+    
+]
+
+
+
+
+}

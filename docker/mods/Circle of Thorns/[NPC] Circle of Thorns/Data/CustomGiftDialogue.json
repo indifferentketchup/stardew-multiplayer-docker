@@ -1,0 +1,60 @@
+{
+    "Changes": [
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Hector",
+        "Entries": { // CUSTOM GIFT DIALOGUE
+
+            // FISH
+            "GiftReactionCategory_-4":"{{i18n:Gifts.Hector.GiftReaction.CategoryFish}}",
+            "GiftReaction_Sea_Urchin":"{{i18n:Gifts.Hector.GiftReaction.SeaUrchin}}",
+            "GiftReaction_Crab":"{{i18n:Gifts.Hector.GiftReaction.Crab}}",
+            "GiftReaction_Crab_Cakes":"{{i18n:Gifts.Hector.GiftReaction.CrabCakes}}",
+
+            // ARTISANAL GOODS
+            "GiftReactionCategory_-26":"{{i18n:Gifts.Hector.GiftReaction.CategoryArtisanalGoods}}",
+
+            // TRASH
+            "GiftReactionCategory_-20":"{{i18n:Gifts.Hector.GiftReaction.CategoryTrash}}",
+
+            // MINERALS & GEMS
+            "GiftReactionCategory_-2":"{{i18n:Gifts.Hector.GiftReaction.CategoryMinerals}}",
+            "GiftReactionCategory_-12":"{{i18n:Gifts.Hector.GiftReaction.CategoryGems}}",
+            
+            // LOVES
+            "GiftReaction_Prismatic_Shard":"{{i18n:Gifts.Hector.GiftReaction.PrismaticShard}}",
+            "GiftReaction_Fiddlehead_Fern":"{{i18n:Gifts.Hector.GiftReaction.FiddleheadFern}}",
+            "GiftReaction_Fiddlehead_Risotto":"{{i18n:Gifts.Hector.GiftReaction.FiddleheadRisotto}}",
+            "GiftReaction_Amaranth":"{{i18n:Gifts.Hector.GiftReaction.Amaranth}}",
+                   
+            // LIKES
+            "GiftReaction_Maple_Bar":"{{i18n:Gifts.Hector.GiftReaction.MapleBar}}",
+            "GiftReaction_Solar_Essence":"{{i18n:Gifts.Hector.GiftReaction.SolarEssence}}",
+            "GiftReaction_Void_Essence":"{{i18n:Gifts.Hector.GiftReaction.VoidEssence}}",  
+
+            // ALCOHOL 
+            "GiftReaction_Beer":"{{i18n:Gifts.Hector.GiftReaction.Beer}}",  
+            "GiftReaction_Pale_Ale":"{{i18n:Gifts.Hector.GiftReaction}}",
+            "GiftReaction_Wine":"{{i18n:Gifts.Hector.GiftReaction.Wine}}",
+
+            // BIRTHDAY
+            "GiftReaction_Fiddlehead_Fern_Birthday":"{{i18n:Gifts.Hector.GiftReaction.FiddleheadFern.Birthday}}",
+            "GiftReaction_Fiddlehead_Risotto_Birthday":"{{i18n:Gifts.Hector.GiftReaction.FiddleheadRisotto.Birthday}}",
+            "GiftReaction_Maple_Bar_Birthday":"{{i18n:Gifts.Hector.GiftReaction.MapleBar.Birthday}}",
+            "GiftReaction_Solar_Essence_Birthday":"{{i18n:Gifts.Hector.GiftReaction.SolarEssence.Birthday}}",
+            "GiftReaction_Void_Essence_Birthday":"{{i18n:Gifts.Hector.GiftReaction.VoidEssence.Birthday}}",  
+
+            // HATES 
+            "GiftReaction_Rabbits_Foot":"{{i18n:Gifts.Hector.GiftReaction.RabbitsFoot}}",  
+            "GiftReaction_Chocolate_Cake":"{{i18n:Gifts.Hector.GiftReaction.ChocolateCake}}",
+
+            // ANCIENT CROPS
+            "GiftReaction_Ancient_Amaranth": "{{i18n:Gifts.Hector.GiftReaction.AncientAmaranth}}",
+            "GiftReaction_Ancient_Epiphytic_Fern": "{{i18n:Gifts.Hector.GiftReaction.AncientFern}}",
+            "GiftReaction_Ancient_Glowing_Huckleberry":"{{i18n:Gifts.Hector.GiftReaction.AncientHuckleberry}}",
+            "GiftReaction_Ancient_Glowing_Polypore_Mushroom":"{{i18n:Gifts.Hector.GiftReaction.AncientMushroom}}",
+            "GiftReaction_Ancient_Wild_Fairy_Rose":"{{i18n:Gifts.Hector.GiftReaction.AncientRose}}",
+      }
+	}
+  ]
+}

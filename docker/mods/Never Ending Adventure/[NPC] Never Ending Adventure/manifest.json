@@ -1,0 +1,46 @@
+{
+	"Name": "[NPC] Never Ending Adventure",
+	"Author": "DestyNova",
+	"Version": "1.9.9",
+	"Description": "Adds Mateo, East Scarp's very own roguish hero!",
+	  "UniqueID": "DestyNova.Mateo.CP",
+	  "MinimumApiVersion": "3.15.0",
+	  "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher"
+	  },
+	  "UpdateKeys": ["Nexus:12369"],
+	  "Dependencies": [  
+		{
+		  "UniqueID": "LemurKat.EastScarpe.CP",
+		  "IsRequired": true
+		},  
+		{
+		  "UniqueID": "atravita.SpecialOrdersExtended",
+		  "IsRequired": true
+		},  
+		{
+		  "UniqueID": "PurrplingCat.CustomGiftDialogue",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "aedenthorn.CustomFixedDialogue",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "Esca.EMP",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "ZeroMeters.SAAT.Mod",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "spacechase0.JsonAssets",
+		  "IsRequired": true
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		}
+	 ]
+  }

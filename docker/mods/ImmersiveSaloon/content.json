@@ -1,0 +1,457 @@
+{
+    "Format": "1.19.0",
+	"ConfigSchema":
+	{
+		"LewisErrantBarstool":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"Description": "Removes the stool next to Lewis to make navigation around the saloon easier."
+		},
+		"ErrantPoolChair":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"Description": "Removes the chair by the left side of the pool table, for easier access to the back."
+		},
+		"ByeByeBooths":
+		{
+			"AllowValues": "top, bottom, half, all, none",
+			"Default": "none",
+			"AllowBlank": false,
+			"Description": "Removes the top booth, bottom booth, the left half of both, both, or leaves it be."
+		},
+	},
+	
+	"Changes": [
+		// Thank you Lemur for letting me shamelessly steal your code <3
+		{ 
+			"LogName": "Lewis's Errant Bar Stool",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"When": {
+				"LewisErrantBarstool": true,
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 9,
+						"Y": 21
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+			]
+		},
+		
+		{ 
+			"LogName": "(Ysa's) Errant Pool Chair",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"When": {
+				"ErrantPoolChair": true,
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 35,
+						"Y": 22
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 35,
+						"Y": 21
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{ 
+			"LogName": "Begone, foul booths! - top",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"When": {
+				"ByeByeBooths |contains=top": true,
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 27,
+						"Y": 18
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 16
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 18
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 16
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{ 
+			"LogName": "Begone, foul booths! - bottom",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"When": {
+				"ByeByeBooths |contains=bottom": true,
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 27,
+						"Y": 22
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 21
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 20
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 21
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 20
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{ 
+			"LogName": "Begone, foul booths! - half",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"When": {
+				"ByeByeBooths |contains=half": true,
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 27,
+						"Y": 18
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 16
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 22
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 21
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 20
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{ 
+			"LogName": "Begone, foul booths! - DESTROY THEM ALL!",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"When": {
+				"ByeByeBooths |contains=all": true,
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 27,
+						"Y": 18
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 16
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 18
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 16
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 22
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 21
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 20
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 21
+					},
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": {
+						"X": 28,
+						"Y": 20
+					},
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Willy",
+			"Entries": 
+			{
+				"Fri.000": "{{Random: Handling salty fish all day makes me real thirsty. && There's a long tradition of sailors and booze.$h && One time, my grandpappy ran out of water on a trip, so they had to make do with ale.#$b#Made for an interesting return trip home.$h && You ever tried any drinks from the Gem Islands, @? Each region has its own flavor. && Saw a pod of orcas out on the waters today that got a bit curious. Took a few years off my life, that did! && The saloon's swayin'. Not sure if that's my sea legs, or the drink.$h && Clint don't say much, but he's a good drinking partner. Always listens to my tales.$h && You should've seen the one that got away today, @. && Gus asked if I can get him some imports from Gotoro. I'm no trader, but I know a few folks. && Doctor says my liver looks good, even with the drink. That's a fisherman's bloodline for you.$h && Sailors and booze go way back. When you're on the open ocean, it's easy for water to go bad, but booze stays safe to drink.#$b#Also good for cutting the salt in rations and disinfectin'.$h|inputSeparator=&&}}",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Pierre",
+			"Entries": 
+			{
+				"Fri.000": "{{Random: I've been working hard all week. I deserve a little relaxation on a Friday night. && This is how you know I've had too much to drink, @.#$b#A round of drinks, on me!$h && %Pierre is muttering to himself.#$b#Morris!!$3 && I could see if I can source that from that Amethyne conglomerate.#$b#It'd be good to cut out Joja... but the price has got to be right.$2 && Oh, my aching feet. I need to look into a stool.$2 && Oh, Abigail... why couldn't you have been a shopkeep like your father...$s && I'm only here for a little bit. I need to help Caroline balance the books later tonight. && I thought about being a corporate store manager once, like Morris. You don't have to think about every little thing.$2#$b#But there's no freedom, no room to grow. I just... couldn't. && Hi, @! Come by the store a little more often, would you?$h#$b#No, it's not JUST because I want you to buy things!$4 && I wish Caroline would join me here sometimes. But she's never been big on crowds.$2 |inputSeparator=&&}}",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sebastian",
+			"Entries": 
+			{
+				"Fri.000": "{{Random: Should I let Sam win for once? ...nah.$h && I did try and teach Sam to be better at pool, but it's a lot of math.$h && Hey @, watch this.$h && I've been watching some videos on trick shots lately. Think Sam would be impressed?$h && Hm... shouldn't be a problem if I go for a bank shot... && I invited Abigail to play, but she says she likes watching and doesn't want to interrupt our 'bonding time'.#$b#I still invite her every time anyway.$h && Huh, this is a tricky angle. Sam almost got me here.#$b$Almost.$h && You'd think doing mental calculations wouldn't be relaxing after a day of programming, but it is.#$b#I guess I'm just wired for math.$h && It's not the most exciting of Friday nights, but who wants to be in a big crowd anyway?$h && Sam's not that good at precise shots, but he's really good at power. He always manages to win the lag. |inputSeparator=&&}}",
+			},
+			},				{
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": 
+			{
+				"sam_pool": "{{Random: $c .5#Hmm... If I give the cue ball a bit of a top spin, maybe I could...$7#$e#*Sigh*... I'm not very good.$s && Abby's pretty good when she picks up a stick, did you know?$h#$b#Better than me, anyway.$10 && Seb, what the heck's an 'English'? Are you making that up?$8 && Gus found this pool table in a flea market years ago. Refurbished and all. He's really good at finding stuff like this. && I'm pretty bad at pool, but it's better than just playing video games all the time, you know?$h && It's not whether you win or lose, it's how you play the game!#$b#I... don't play very well!$10 && Dang it, there goes the cue ball again....$2 && Hey Seb, I think you should try playing with a handicap sometime.#$b#Like a blindfold maybe?$1 && Yeah, but if we were shooting for distance, then I'd win.$h && I lost count of the number of times I've lost against Seb. I do have two wins on him though!$h && Giving the pool cue that nice smooth movement is so satisfying. I don't mind if I'm not that good.$h |inputSeparator=&&}}",
+				"robin_dance": "{{Random: %Robin is busy. && %Robin is teaching Demetrius some new steps. && It's okay if you step on my feet, really!$4 && %Robin is demonstrating a shimmy. && I'll take the lead, honey.#$b#Gender roles in dance are outdated anyway!$h && Time to put all this theory to practice, right? Can't have a hypothesis without a test!$h && Think you're up to trying some of those Bollywood steps? They're pretty fast!$h && %Robin is busting a move. She's pretty good! && %Robin is deftly pulling Demetrius through the dance. && %Robin beams at Demetrius as he gets confident with a few steps. |inputSeparator=&&}}",
+				"demetrius_dance": "{{Random: %Demetrius is busy. && %Demetrius's attention is on his feet, not his wife. && %Demetrius is going through the steps very carefully. && %Demetrius is mumbling to himself.#$b#It's just memorization. You can do this. && I think I have this one down. Do you want to try to... uh, freestyle a bit, dear? && I read the most interesting thing on dance and the center of gravity. Do you want to hear it, dear?$h && Don't wear me out too much, dear... I'd still like to do some exercise with you later.$h && Sorry! I guess my cerebellum hasn't properly encoded this skill memory yet. && %Demetrius is doing his best to keep up with Robin. && %Demetrius is sweaty, but he looks like he's having fun. |inputSeparator=&&}}",
+			},
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"Saloon": "{{Random: Good evening! It's nice to see you socializing with the townsfolk.#$b#It's good to stop by once in a while and see what the latest news is.$h && Taxes?$3#$b#Come, let's not discuss such a dull topic over drinks.$h && If you have need of anything, I'm all ears, @. && Any problems with your sales report, @? Just because I'm here doesn't mean I don't still have my mayor hat on.$h && ...$2#$b#...$3#$b#...$5#$b#You saw that fly, right? |inputSeparator=&&}}",
+				"Saloon4": "{{Random: Good evening, @! I'm glad to see you relaxing at the saloon. It's good for you to take a break now and then.$h#$b#Your grandfather always worked himself too hard... I'll have an extra beer in his honor tonight. && There were plenty of young folk in town when I was young, but somehow I only had eyes for your grandfather, @.#$b#I felt like part of me died, too, when I had to bury him. But I still have the town to keep me going. && Everything in moderation, @.#$B#Including moderation.$h && Ah, don't mind me, @. I'm just trying to think of ways to put Pelican Town on the map.#$B#I want this town to be big enough to last for generations, so that our children and our children's children never have to worry. && You can never stand still as mayor, @. You're always having to look to improve on anything you can.#$b#I imagine your farm is the same way. No matter how good one harvest is, once it's gone, you have to do more.$h && Your grandfather had amazing charm, @. He could have had his pick of ladies--or men!#$b#And your grandmother was just as impressive, to be able to catch his eye.$h && Did you ever get to see your grandfather before he died, @? I wish you could have seen him when he was younger.$s#$b#He just... lost so much, after his wife died, his children moved away. I think being too sick to work the farm, though, was what really did him in.$s|inputSeparator=&&}}",
+			},
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"Saloon": "{{Random: Now that I'm here I can finally relax and socialize a bit. && Why don't you pull up a stool and chat for a bit, @? I'd love to hear about your farm. && Thanks for listening to me ramble, @. I'm always happy to hear about you in return! |inputSeparator=&&}}",
+				"Saloon_Tue": "{{Random: There aren't very many people here today...$s && Tuesdays seem to be the low point of the week, don't you think, @? && There are so many pretty women in town, and then there's me...$s#$b#No, I can still hold my own! I just need to go a little harder next week! |inputSeparator=&&}}",
+				"Saloon_Wed": "{{Random: #$1 marnieAnimalSal#I spilled a whole bucket of milk on the floor today, it was horrible. And such a waste of my poor Belinda's hard work.$k$s#$e#It's nice of you to show up! It's a little more lively now. && It's pretty quiet in here on the weekdays. I guess everyone just goes straight home after work.$2 && Gus, surely you've heard something juicy as of late. Share with us!$h |inputSeparator=&&}}",
+				"Saloon_Thu": "{{Random: Phew! It sure feels good to kick back after a hard day's work. && I really love living in the countryside, but it does mean it's hard to just run into friends since there's so few people around. && Sorry, I don't mean to be complaining all the time, @. Even here, not a lot of people understand the struggles of animal husbandry.$s  |inputSeparator=&&}}",
+				"Saloon_Fri": "{{Random: Hi, @! Lewis and I were just talking about...#$b#um...$2#$b#...business matters! Yes. && I'm always happy to chat with Lewis. We get along quite well, don't you think? && @, you've got to hear this! You'll never guess what Lewis found in the town square.$h && Oh, I spilled the tea!$4#$b#Sorry about that! I didn't get you, did I?$h && I heard that Jodi and Caroline had a bit of a tiff, but I don't know why.#$b#I don't want to be involved, but I do admit I'm quite curious as to what happened! && I always appreciate you coming over to talk to me, @. Join in the conversation anytime!$h && So there I am, covered in goat poop and no skirt, holding a screaming kid at arm's length.$3#$b#I think I've scared Leah off from ever asking to borrow a cup of milk, the poor girl!$h && Lewis always has the best stories about Pelican Town. Do you want to hear one, @? && Did you hear what happened to Willy the other day? You're not going to believe it, @.$h && %Marnie is sharing gossip for whoever is listening. |inputSeparator=&&}}",
+				"Saloon_Sun": "{{Random: *sigh*... I wasn't very productive today. && Do you ever have problems understanding people that aren't your age, @? I feel like I'm out of touch with all the younger folk.$s && They told me I was supposed to have life all figured out twenty five years ago, @.$3#$b#How very wrong they were! I still haven't figured out a thing!$h |inputSeparator=&&}}",
+				"Saloon_Sat": "{{Random: I always see Clint here but he won't talk to anyone. He just glances over his shoulder now and then.$s I'd like to be better friends with Pam. We're close to the same age.#$b#But I can't pull her out of her mug long enough to succeed....$s && @, do you ever think that Lewis...$3#$b#...no, it's nothing.$s|inputSeparator=&&}}",
+			},
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+				"Saloon": "{{Random: Good evening. Can I get you anything? && Welcome to the Stardrop Saloon. Just let me or Emily know when you're ready to order. && Good evening. Have a seat wherever you like, nothing's reserved here.$h && Our menu rotates on a daily basis, so keep that in mind if you decide you've got a favorite.$h && If you'd like a drink, be sure to let Emily know.  |inputSeparator=&&}}",
+				"Saloon4": "{{Random: Good evening. Make yourself at home. && I'll be right with you, @, just let me turn the stove down. && What would you like today, @? && If you've a desire to learn cooking, @, I might be willing to teach you a few recipes.#$b#My lessons are pretty reasonably priced, too.$h && If you have a request, let me know and I'll see what I can do for you.$h |inputSeparator=&&}}",
+				"Saloon8": "{{Random: Hi there, @. I'm glad to see you! You're always welcome here. && Let me know if you want a to-go drink.  Wouldn't want you getting dehydrated on that farm! && Evening, @. What are you in the mood for today? && Hey, @, try this and tell me what you think. [199 218 219 236 730] |inputSeparator=&&}}",
+				"Saloon_Tue": "{{Random: Hi! Please relax and enjoy yourself. && You probably don't want to get too close... I'm processing onions for a casserole today. && Tuesdays are pretty quiet, so it's good for long-term prep ahead of the weekend rush. &&|inputSeparator=&&}}",
+				"Saloon_Thu": "{{Random: Hey, you look like you could use a beverage. && Nothing like a good homemade yogurt, @. Ever tried your hand at it? && I need to make a trip to Zuzu soon. I have a friend there that I get all my flavored olive oils from. |inputSeparator=&&}}",
+				"Saloon_Fri": "{{Random: Business has been really good tonight. I'm pleased. && This is my favorite day of the week. Not just from a business angle, mind.$h && It's always so lively here on Fridays. I guess everyone looks forward to the weekend, huh? && I made my special bezelye for the crowd tonight.#$b#What is it? Only the best pea stew you'll ever have!$h && How do you like the smell of those spices in the air, @? It's my own blend!$h && Emily, can you pass me that spatula? I'm tethered to this pot right now. && Whether it's busy or not, there's never a moment to rest.#$b#That's the life of a restaurateur!$h && I never thought about being anything other than a chef. There's no better way to care for people than to feed them.$h && If you're heading to the mountains, can you take this to Linus? It's supposed to get cold tonight. [242] && I've enjoyed working with your produce from the farm, @. The conditions of the valley make food here much better than other areas. |inputSeparator=&&}}",
+			},
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"When": {  "HasMod |contains= atravita.CP.PamTries": false, },
+			"Entries": {
+				"Saloon": "{{Random: Nothin' like a sip o' the good stuff to warm these old bones...$h && Ow... I'm getting old, kid.$2#$b#You better be careful with that farm work so you don't wear out by the time you're my age. && Penny... I wish I could give you the world, my girl.$s|inputSeparator=&&}}",
+				"Saloon6": "{{Random: Hey, kid. I'd buy you a drink if I could afford it! && You can always come sit with me, kid. Don't worry, I can hold my drink.$h && I don't have much to give, but if you ever want advice from an old woman, it's yours, @. |inputSeparator=&&}}",
+				"Saloon_Tue": "{{Random: Hey Gus! Gimme another round! *hic*$h && Sigh... Wasn't this glass just full?$s && You ever play checkers, @? I used to be pretty good, I bet I could teach you a thing or two.$h |inputSeparator=&&}}",
+				"Saloon_Wed": "{{Random: *Sigh*... Hey, kid. You're too young to be moping around in a place like this. && Come to hang out with the old fogeys, kid? The younguns won't be in til the end of the week. && %Pam has her head on the counter as she stares morosely at her drink. |inputSeparator=&&}}",
+				"Saloon_Thu": "{{Random: *gulp* ... I've been looking forward to this beverage all afternoon. Heh heh. && How're the fish biting, @? Thinking about grabbing a stick and some string. && Penny's such a good kid. Don't know how I managed it, other than being an example of what NOT to do.$s |inputSeparator=&&}}",
+				"Saloon_Fri": "{{Random: Oi, Gus! Gimme another pint of your strongest! && Oh Penny...we used to play checkers together all the time....$2#$b#Mommy promises she'll get better if you keep playing, don't feel bad....$s && You see the latest thing on TV?#$B#Yeah, me neither.$h && Gush... yer mah best frien'....$h#$b#Not jus' cause yeh give me booze... yeh don't judge....$h#$b# && %Pam is asleep at the bar, her face relaxed and content. && Kid, yer a good'un...got ambition and talent...$h#$b#Don't you end up like yer Auntie Pam, y'understand? && Mm... No, no, Penny, yeh gotta be aggressive when it's checkers... take th' center 'n push ahead....$h && Hey, kid! Come sit with your Auntie Pam a spell 'n tell me somethin' good.$h && Gus, I ever tell you the one about the time I met the fake carjackers outside of Zuzu?$h && I feel like I've already lived such a long life, @.$s#$b#Still, I wanna see my little girl grow up and succeed at life, y'know?$h && Mmm... you hand me that rod, ol' Pam'll show you how to reel a big'un in... zzz...$h |inputSeparator=&&}}",
+				"Saloon_Sat": "{{Random: %Pam isn't responding. && Gus, you know what we need here? A checkerboard. And maybe one of those little peg games.$h#$b#Ah... Penny loved those when she was a kid. && %Pam chugs through half her drink without stopping. Must've been a rough day. |inputSeparator=&&}}",
+				"Saloon_Sun": "{{Random: %Pam seems out of it. Better leave her alone right now. && Now don' you worry, Gush, I'mma good drunk. Won't make no big fuss.$h && I'm no good, kid....$2#$b#But I guess it could be worse. I'm no evil, either. |inputSeparator=&&}}",
+			},
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"When": {  "HasMod |contains= DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent": false, },
+			"Entries": {
+				"Saloon_Fri": "{{Random: %Kent is staring into his beverage, lost in his thoughts. && Hello, @. Coming for some refreshment after a hard week? && I like how noisy this place gets. It helps me drown out my thoughts. && The alcohol helps me relax, keeps me less hypervigilant.#$b#It's difficult to return to a place where danger isn't constant.$5 && Sometimes I think about sitting at the bar and making conversation, but...$5#$b#I wasn't a very good talker before, how would I do now? && How are things, @? If you need an open ear, I can listen, at least.#$b#I'm sure the problems of a farm aren't easy to deal with, but they'd be a change of pace for me. && Jodi...#$b#You do so much...you're amazing.$5 && %Kent is watching the saloon going-ons, but his thoughts seem elsewhere. && Sorry, @, I'm not good company right now... I barely slept last night. && %Kent is mumbling under his breath. It sounds like a prayer.#$b#May those who are no longer with us find peace....$5 |inputSeparator=&&}}",
+			},
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"When": {  "HasMod |contains= DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent": true, },
+			"Entries": {
+				"Saloon": "{{Random: %Kent is staring into his beverage, lost in his thoughts. && Hello, @. Coming for some refreshment after a hard week? && I like how noisy this place gets. It helps me drown out my thoughts. && The alcohol is tempting, but I gave that all up when I married Jodi.#$b#It's difficult trying to be less hypervigilant without it, though.$5 && Sometimes I think about sitting at the bar and making conversation, but...$5#$b#I wasn't a very good talker before, how would I do now? && How are things, @? If you need an open ear, I can listen, at least.#$b#I'm sure the problems of a farm aren't easy to deal with, but they'd be a change of pace for me. && Jodi...#$b#You do so much...you're amazing.$5 && %Kent is watching the saloon going-ons, but his thoughts seem elsewhere. && Sorry, @, I'm not good company right now... I barely slept last night. && %Kent is mumbling under his breath. It sounds like a prayer.#$b#May those who are no longer with us find peace....$5 |inputSeparator=&&}}",
+			},
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"Saloon_Fri": "{{Random: When you're mixing drinks, the mixes really tend to be the big flavors.#$b#I guess no one really likes the taste of alcohol by itself.$h && Did you know different liquids have different weights, @? I'm using some to create striped drinks right now. && Hi @! Want to try my latest mix? && Mixing drinks is so much fun. Blending the smells and the tastes... it's almost like weaving fabric. && I've been studying up on some mocktail recipes. Everyone deserves to have a fun drink, even if they can't drink alcohol.$h && Did you know, @? A shaken drink will be cloudier and have a different texture due to the air introduced and the ice chipping.#$b#But a stirred drink has more antioxidants. Isn't that fascinating?$h && If everyone was a drink, what do you think you'd be, @? && I really enjoy getting to serve everyone their own special drink. It expresses my love for everyone.$h && @, if you make any homemade alcohol, be careful. If you distill it wrong, it can really affect your health!$s && What do you think the most interesting kind of drink would be, @? I'd love to make something with a stardrop. |inputSeparator=&&}}",
+			},
+		},	
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+				"Saloon": "{{Random: I thought about being a jewelry maker. Good money. But no, Dad said my hands were too big and clumsy for that.$2 && Look, folding iron doesn't make it magically amazing! It just makes bad ore average instead of bad!$33#$b#Ugh, nerds!$3 && @, temperature is suuuuper important in smelting! Each metal--and its impurities--have different temperatures at which they melt or burn!$4#$b#You can't just throw a bunch of coal and ore into a hole and expect it works!$4 && Morris once offered me money to consult with their smelting factories for higher quality metal.#$b#Who do they think I am? I may be a good-for-nothing but I'm no traitor!$3 && Hey @, if you could summon a genie to grant you a wish, what would you wish for? I can't think of anything good.$2 && I'm scared of monsters, @... but they keep me in business...$2#$b#Is this life's great paradox?$4 && I love blue... it's so soothing... Emily, how did you know it's my favorite color...$3 && I'm taking a night off the booze. Want one, @?$5 && Be honest, @. If I didn't have my apron on, would you even recognize me?$2 && Emily made a new drink for me to try! Today is a good day.$h |inputSeparator=&&}}",
+			},
+		},
+	],
+}

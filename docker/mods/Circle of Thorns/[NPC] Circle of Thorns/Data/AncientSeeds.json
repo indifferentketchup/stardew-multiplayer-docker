@@ -1,0 +1,83 @@
+{
+    "Changes": [
+		{
+            "LogName": "Hector's Ancient Seeds - MAIL - Ancient Amaranth",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {"AncientAmaranth":"{{i18n:Mail.Hector.Letter3}}"},
+			"When": {"HasSeenEvent |contains=12369029": "true"},
+        },
+		{
+            "LogName": "Hector's Ancient Seeds - MAIL - Ancient Epiphytic Fern",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {"AncientFern":"{{i18n:Mail.Hector.Letter4}}"},
+            "When": {"HasSeenEvent |contains=16032004": "true"},
+
+        },
+        {
+            "LogName": "Hector's Ancient Seeds - MAIL - Ancient Glowing Polypore Mushrooms",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {"AncientMushrooms":"{{i18n:Mail.Hector.Letter5}}"},
+            "When": {"HasSeenEvent |contains=16032005": "true"},
+
+        },
+        {
+            "LogName": "Hector's Ancient Seeds - MAIL - Ancient Glowing Huckleberry Vine",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {"AncientHuckleberry":"{{i18n:Mail.Hector.Letter6}}"},
+            "When": {"HasSeenEvent |contains=16032006": "true"},
+
+        },
+        {
+            "LogName": "Hector's Ancient Seeds - MAIL - Ancient Wild Fairy Roses",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {"AncientFairyRoses":"{{i18n:Mail.Hector.Letter7}}"},
+            "When": {"HasSeenEvent |contains=16032007": "true"},
+        },
+        {
+			"LogName": "Hector's Ancient Seeds - SILENT EVENT - Ancient Epiphytic Fern",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {"16032004/e 12369029/A AncientSeeds1/t 610 2500": "none/-100 -100/farmer -999 -999 2/addConversationTopic AncientSeeds2 3/mail AncientFern/end"}
+	  
+		},
+        {
+			"LogName": "Hector's Ancient Seeds - SILENT EVENT - Ancient Glowing Polypore Mushrooms",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {"16032005/e 16032004/A AncientSeeds2/t 610 2500": "none/-100 -100/farmer -999 -999 2/addConversationTopic AncientSeeds3 3/mail AncientMushrooms/end"}
+	  
+		},
+        {
+			"LogName": "Hector's Ancient Seeds - SILENT EVENT - Ancient Glowing Huckleberry Vine",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {"16032006/e 16032005/A AncientSeeds3/t 610 2500": "none/-100 -100/farmer -999 -999 2/addConversationTopic AncientSeeds4 3/mail AncientHuckleberry/end"}
+	  
+		},
+        {
+			"LogName": "Hector's Ancient Seeds - SILENT EVENT - Ancient Wild Fairy Roses",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {"16032007/e 16032006/A AncientSeeds4/t 610 2500": "none/-100 -100/farmer -999 -999 2/mail AncientFairyRoses/end"}
+	  
+		},
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries":
+            {
+            "Ancient Amaranth Seeds": "{{spacechase0.JsonAssets/ObjectId: Druidic Essence}} 5/what is this for?/{{spacechase0.JsonAssets/ObjectId: Ancient Amaranth Seeds}} 1/false/null/{{i18n:AncientSeed.Hector.Amaranth}}",
+            "Ancient Epiphytic Fern Seeds": "{{spacechase0.JsonAssets/ObjectId: Druidic Essence}} 5/what is this for?/{{spacechase0.JsonAssets/ObjectId: Ancient Epiphytic Fern Seeds}} 1/false/null/{{i18n:AncientSeed.Hector.Fern}}",
+            "Ancient Glowing Huckleberry Seeds": "{{spacechase0.JsonAssets/ObjectId: Druidic Essence}} 5/what is this for?/{{spacechase0.JsonAssets/ObjectId: Ancient Glowing Huckleberry Seed}} 1/false/null/{{i18n:AncientSeed.Hector.Huckleberry}}",
+            "Ancient Glowing Polypore Mushroom Spores": "{{spacechase0.JsonAssets/ObjectId: Druidic Essence}} 5/what is this for?/{{spacechase0.JsonAssets/ObjectId: Ancient Glowing Polypore Mushroom Spores}} 1/false/null/{{i18n:AncientSeed.Hector.Mushroom}}",
+            "Ancient Wild Fairy Rose Seeds": "{{spacechase0.JsonAssets/ObjectId: Druidic Essence}} 5/what is this for?/{{spacechase0.JsonAssets/ObjectId: Ancient Wild Fairy Rose Seeds}} 1/false/null/{{i18n:AncientSeed.Hector.FairyRose}}",
+            }
+        }
+        
+    ]
+}

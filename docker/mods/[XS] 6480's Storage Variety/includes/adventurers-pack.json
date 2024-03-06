@@ -1,0 +1,56 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/AdventurersPack",
+      "FromFile": "assets/adventurers-pack.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "AdventurersPack": {
+          "DisplayName": "{{i18n: adventurers-pack.name}}",
+          "Description": "{{i18n: adventurers-pack.description}}",
+          "Image": "6480.StorageVariety/AdventurersPack",
+          "PlayerColor": false,
+          "OpenSound": "Ship",
+          "IsPlaceable": false,
+          "BetterChestsData": {
+            "CollectItems": "Enabled",
+            "CustomColorPicker": "Disabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList": [
+              "category_artifact",
+              "category_gem",
+              "category_monster_loot",
+              "item_geode",
+              "item_frozen_geode",
+              "item_magma_geode",
+              "item_omni_geode",
+              "category_minerals"
+            ],
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 12
+          }
+        }
+      }
+    },
+
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "AdventurersPack": {
+          "ShopID": "AdventureShop",
+          "Price": 4000
+        }
+      }
+    }
+  ] 
+}

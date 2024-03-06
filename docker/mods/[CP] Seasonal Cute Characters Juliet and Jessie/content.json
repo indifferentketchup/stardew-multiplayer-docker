@@ -1,0 +1,444 @@
+{
+    "Format": "1.28.0",
+
+    "ConfigSchema": {
+        "NoNose": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+
+        "FestivalOutfits": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+
+        "CuteJuliet": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+		
+        "CuteJessie": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+		
+        "ExtraNPC": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+
+    },
+
+    "DynamicTokens": [
+        {
+            "Name": "IndoorVariant", // Indoors
+            "Value": "_Indoor"
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "_Outdoor",
+            "When": {
+                "IsOutdoors": "true"
+            }
+        },
+
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When": {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, Custom_EastScarpeInn, Custom_EastScarpe, temp"
+            }
+        },
+
+    ],
+
+    "Changes": [
+//Juliet
+
+
+        {
+            "LogName": "Juliet Season",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet, Portraits/Juliet",
+            "FromFile": "assets/{{Target}}/Juliet_{{Season}}.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+        },
+
+        {
+            "LogName": "Juliet Festival",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet, Portraits/Juliet",
+            "FromFile": "assets/{{Target}}/Juliet_{{Festival}}.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+                "FestivalOutfits": "true",			
+            }
+        },
+ 
+		 {
+		  "LogName": "Theater Juliet",
+		  "Action": "EditImage",
+		  "Target": "Characters/Juliet, Portraits/Juliet",
+		  "FromFile": "assets/{{Target}}/Juliet_Theater.png",
+		  "Update": "OnLocationChange",
+		  "When": {
+			"LocationName": "Custom_LK_TheaterBreakroom",
+			"HasFile:{{FromFile}}": true,
+            "CuteJuliet": "true",
+		  }
+		},
+
+    {
+      "LogName": "JojaMart Juliet",
+      "Action": "EditImage",
+      "Target": "Characters/Juliet, Portraits/Juliet",
+      "FromFile": "assets/{{Target}}/Juliet_Joja.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "JojaMart",
+		"HasFile:{{FromFile}}": true,
+        "CuteJuliet": "true",
+      }
+    },		
+
+        {
+            "LogName": "Juliet Nose overlay",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet",
+            "FromFile": "assets/Characters/Juliet/Juliet_Nose.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",				
+                "NoNose": "false",			
+            }
+        },
+ 
+ // Loaded images
+ 
+        {
+            "LogName": "Juliet Beach",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet_Beach",
+            "FromFile": "assets/Characters/Juliet/Juliet_Beach.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+        },
+
+        {
+            "LogName": "Juliet Beach Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Juliet_Beach",
+            "FromFile": "assets/Portraits/Juliet/Juliet_Beach.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+        },
+        {
+            "LogName": "Juliet Beach Nose",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet_Beach",
+            "PatchMode": "Overlay",
+            "FromFile": "assets/Characters/Juliet/Juliet_Nose.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+        },
+
+    {
+      "LogName": "JojaMart Juliet Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Juliet_Joja",
+      "FromFile": "assets/Portraits/Juliet/Juliet_Joja.png",
+	  "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+    },
+
+    {
+      "LogName": "JojaMart Juliet sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Juliet_Joja",
+      "FromFile": "assets/Characters/Juliet/Juliet_Joja.png",
+	  "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+    },
+
+        {
+            "LogName": "Juliet Joja Nose",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet_Joja",
+            "PatchMode": "Overlay",
+            "FromFile": "assets/Characters/Juliet/Juliet_Nose.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+        },
+
+   {
+      "LogName": "Fortuneteller Juliet Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Juliet_FortuneTeller",
+      "FromFile": "assets/Portraits/Juliet/Juliet_FortuneTeller.png",
+	  "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+    },
+
+    {
+      "LogName": "FortuneTeller Juliet sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Juliet_FortuneTeller",
+      "FromFile": "assets/Characters/Juliet/Juliet_FortuneTeller.png",
+	  "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+    },
+
+        {
+            "LogName": "Juliet FortuneTeller Nose",
+            "Action": "EditImage",
+            "Target": "Characters/Juliet_FortuneTeller",
+            "PatchMode": "Overlay",
+            "FromFile": "assets/Characters/Juliet/Juliet_FortuneTeller_Nose.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJuliet": "true",
+            }
+        },
+
+
+
+
+
+
+//Jessie
+
+        {
+            "LogName": "Jessie Season",
+            "Action": "EditImage",
+            "Target": "Characters/Jessie, Portraits/Jessie",
+            "FromFile": "assets/{{Target}}/Jessie_{{Season}}.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJessie": "true",
+            }
+        },
+
+        {
+            "LogName": "Juliet Festival",
+            "Action": "EditImage",
+            "Target": "Characters/Jessie, Portraits/Jessie",
+            "FromFile": "assets/{{Target}}/Jessie_{{Festival}}.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJessie": "true",
+                "FestivalOutfits": "true",			
+            }
+        },
+ 
+
+
+    {
+      "LogName": "JojaMart Jessie",
+      "Action": "EditImage",
+      "Target": "Characters/Jessie, Portraits/Jessie",
+      "FromFile": "assets/{{Target}}/Jessie_Joja.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "JojaMart",
+		"HasFile:{{FromFile}}": true,
+        "CuteJessie": "true",
+      }
+    },		
+
+ {
+            "LogName": "Jessie Beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Jessie, Characters/Jessie",
+            "FromFile": "assets/{{Target}}/Jessie_Beach.png",          
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJessie": "true",
+				"LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth",
+				"Time": "{{Range: 1130, 1820}}",
+            },
+            "Update": "OnTimeChange, OnLocationChange",			
+			
+        },
+
+        {
+            "LogName": "Jessie Nose overlay",
+            "Action": "EditImage",
+            "Target": "Characters/Jessie",
+            "FromFile": "assets/Characters/Jessie/Jessie_Nose.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "CuteJessie": "true",				
+                "NoNose": "false",			
+            }
+        },
+
+//Extra
+
+
+
+    {
+      "LogName": "parent and extra Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ms.Donaghue, Characters/Mr.Donaghue, Portraits/Ms.Donaghue, Portraits/Mr.Donaghue, ClintMagician",
+      "FromFile": "assets/{{target}}.png",
+	  "When": {
+                "HasFile:{{FromFile}}": true,			  
+				"ExtraNPC": "true",				
+            }	          
+			  
+	
+    },
+
+        {
+            "LogName": "Parent Nose",
+            "Action": "EditImage",
+            "Target": "Characters/Ms.Donaghue, Characters/Mr.Donaghue",
+            "PatchMode": "Overlay",
+            "FromFile": "assets/{{target}}_Nose.png",          
+            "When": {
+                "HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+				"ExtraNPC": "true",	
+            }
+        },
+
+
+// idk what this is 
+    //Concessions Clerk
+    {
+      "LogName": "Places Juliet into Theater",
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/img/JulietTheaterPatch.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 32
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 160,
+        "Width": 64,
+        "Height": 32
+      },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday",
+		"CuteJuliet": "true",	
+      }
+    },
+    {
+      "LogName": "Places Kevin into Theater",
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/img/JulietTheaterPatch.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 32,
+        "Width": 64,
+        "Height": 32
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 160,
+        "Width": 64,
+        "Height": 32
+      },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "DayOfWeek": "Friday, Saturday, Sunday",
+		"ExtraNPC": "true",
+      }
+    },
+    {
+      "LogName": "Places Kevin into Theater",
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/img/JulietTheaterPatch.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 32,
+        "Width": 64,
+        "Height": 32
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 160,
+        "Width": 64,
+        "Height": 32
+      },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "DayOfWeek": "Tuesday, Thursday, Friday, Saturday, Sunday",
+        "spouse": "Juliet",
+		"ExtraNPC": "true",
+      }
+    },
+    {
+      "LogName": "Places Kevin into Theater",
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/img/JulietTheaterPatch.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 32,
+        "Width": 64,
+        "Height": 32
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 160,
+        "Width": 64,
+        "Height": 32
+      },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "Weather": "rain",
+		"ExtraNPC": "true",
+      }
+    },
+
+       		
+    ]
+}

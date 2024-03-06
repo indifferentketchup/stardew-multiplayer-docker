@@ -1,0 +1,15 @@
+{
+	"Name": "Ancient Epiphytic Fern",
+	"Price": 300,
+    "CanSell": true,
+	"Description": "A resilient fern that grew straight from stone.",
+	"Category": "Vegetable", 
+	"CategoryTextOverride": "Druidic",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"GiftTastes":
+    {
+        "Love": ["Hector"]
+    }
+
+}

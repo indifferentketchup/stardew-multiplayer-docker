@@ -1,0 +1,18 @@
+{
+    "Changes": [
+
+	{
+		"LogName": "Fievel Gifts",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Fievel",
+        "Entries": {
+
+            //Loves
+			
+			"GiftReaction_Cheese": "{{i18n:Fievel.GiftReaction.Cheese}}$1",
+            "GiftReaction_Goat_Cheese": "{{i18n:Fievel.GiftReaction.Cheese}}$1"
+
+		}
+	}
+]
+}

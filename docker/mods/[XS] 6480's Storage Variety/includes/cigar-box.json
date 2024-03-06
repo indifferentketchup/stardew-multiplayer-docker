@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "6480.StorageVariety/CigarBox",
+      "FromFile": "assets/cigar-box.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "CigarBox": {
+          "DisplayName": "{{i18n: cigar-box.name}}",
+          "Description": "{{i18n: cigar-box.description}}",
+          "Image": "6480.StorageVariety/CigarBox",
+          "PlayerColor": true,
+          "Capacity": 12
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "CigarBox": "709 10 428 1/Home/232/true/null/{{i18n: cigar-box.name}}"
+      }
+    },
+    
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "CigarBox": {
+          "ShopID": "Carpenter",
+          "Price": 5000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

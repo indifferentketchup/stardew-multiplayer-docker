@@ -1,0 +1,60 @@
+{ //Autographs
+	"object.an-autographed-photo.name": "An autographed photo",
+	"object.an-autographed-photo.description": "An autographed photo of two-time award winner, author Rodney O'Brien.",
+	"object.a-genuine-autograph.name": "A genuine autograph",
+	"object.a-genuine-autograph.description": "This looks like an original autographed photo of two-time award winner, author Rodney O'Brien.",
+	//Rodney's Shop
+	"craftables.rodney-beach-outfit.name": "Rodney Beach Outfit (Scarecrow)", //added in 2.0.0
+	"craftables.rodney-beach-outfit.description": "A cardboard cutout of Rodney wearing a beach outfit. It can probably work as a scarecrow.", //added in 2.0.0
+	"craftables.rodney-egg-festival.name": "Rodney Egg Festival (Scarecrow)", //added in 2.0.0
+	"craftables.rodney-egg-festival.description": "A cardboard cutout of Rodney wearing an egg hat. It can probably work as a scarecrow.", //added in 2.0.0
+	"craftables.rodney-winter-star.name": "Rodney Winter Star (Scarecrow)", //added in 2.0.0
+	"craftables.rodney-winter-star.description": "A cardboard cutout of Rodney wearing a Winter Star outfit. It can probably work as a scarecrow.", //added in 2.0.0
+	"craftables.rodney-summer-outfit.name": "Rodney Summer Outfit (Scarecrow)", //added in 2.0.0
+	"craftables.rodney-summer-outfit.description": "A cardboard cutout of Rodney wearing his signature Summer pink outfit. It can probably work as a scarecrow.", //added in 2.0.0
+	"craftables.rodney-cosplay.name": "Rodney Cosplay (Scarecrow)", //added in 2.0.0
+	"craftables.rodney-cosplay.description": "A cardboard cutout of Rodney wearing a cosplay of Captain Pierre-Jean Breton from Stellar Gallivant: The Second Genesis. It can probably work as a scarecrow.", //added in 2.0.0
+	"item.egg-hat.name": "Egg Hat", //added in 2.0.0
+	"item.egg-hat.description": "Vincent made this hat. Can't you tell?", //added in 2.0.0
+	"item.pink-summer-hat.name": "Pink Summer Hat", //added in 2.0.0
+	"item.pink-summer-hat.description": "Rodney has the exact same hat.", //added in 2.0.0
+	"item.prunus-crown.name": "Prunus Crown", //added in 2.0.0
+	"item.prunus-crown.description": "An official replica of the Crown worn by Arcana Catcher Prunus in a novel by author Rodney O'Brien.", //added in 2.0.0
+	//BOOKS
+	"object.an-essay-on-pepper-rexes.name": "Why Pepper Rexes are the Best", //added in 2.0.0
+	"object.an-essay-on-pepper-rexes.description": "When the Pepper Rex goes Zoom Zoom it makes my Heart go Boom Boom: An Essay on why Pepper Rexes are the Best, by Dr Mateos Luis", //added in 2.0.0
+	"object.arcana-catcher-prunus.name": "Arcana Catcher Prunus", //added in 2.0.0
+	"object.arcana-catcher-prunus.description": "A novel about a young girl who captures magical tarot cards to save her father, by Rodney O'Brien", //added in 2.0.0
+	"object.artifact-or-cutlery.name": "Artifact or cutlery", //added in 2.0.0
+	"object.artifact-or-cutlery.description": "A guide for the scholar to distinguish a genuine artifact from old and rusty cutlery, by Gunther.", //added in 2.0.0
+	"object.guide-to-sculpting-gold.name": "Beginner's guide to sculpting with gold", //added in 2.0.0
+	"object.guide-to-sculpting-gold.description": "A guide to getting started with sculpting gold statues, by Mayor Lewis.", //added in 2.0.0
+	"object.crabs-and-why-i-hate-them.name": "Crabs and Why I Hate Them", //added in 2.0.0
+	"object.crabs-and-why-i-hate-them.description": "The Collective Works of Dr Mateo Luis ft. Zuzu City Times Bestseller, 'Crabs, and Why I Hate Them.'", //added in 2.0.0
+	"object.deference-arlington-the-completa-saga.name": "Deference Arlington The Complete Saga", //added in 2.0.0
+	"object.deference-arlington-the-completa-saga.description": "The Complete Deference Arlington Saga (Volumes 1 to 14), an epic space opera series by Rodney O'Brien", //added in 2.0.0
+	"object.fishing-for-dumb-dumbs.name": "Fishing for dumb dumbs", //added in 2.0.0
+	"object.fishing-for-dumb-dumbs.description": "A guide for the amateur angler.", //added in 2.0.0
+	"object.getting-chicks-to-love-you.name": "Getting Chicks To Love You", //added in 2.0.0
+	"object.getting-chicks-to-love-you.description": "Tips and tricks for raising chickens by Shane.", //added in 2.0.0
+	"object.goblins.name": "Goblins", //added in 2.0.0
+	"object.goblins.description": "A book about the species commonly known as 'Goblin', by M.Jasper.", //added in 2.0.0
+	"object.mysteries-of-the-dwarves.name": "Mysteries of the Dwarves", //added in 2.0.0
+	"object.mysteries-of-the-dwarves.description": "A book compiling the research of M.Jasper about the Dwarves, also known as the Smoluanu.", //added in 2.0.0
+	"object.pepper-rexes-what-where.name": "Pepper Rexes", //added in 2.0.0
+	"object.pepper-rexes-what-where.description": "Peper Rexes, What they are, and where they've come from: A research paper about the mighty Pepper Rexes, by Dr Mateos Luis.", //added in 2.0.0
+	"object.book-of-yoba.name": "The Book Of Yoba", //added in 2.0.0
+	"object.book-of-yoba.description": "A religious book about the creation of the world.", //added in 2.0.0
+	"object.the-great-book-of-slimes.name": "The Great Book Of Slimes", //added in 2.0.0
+	"object.the-great-book-of-slimes.description": "An adventurer's guide on how to approach, fight and raises slimes.", //added in 2.0.0
+	"object.the-great-tome-of-mayo.name": "The Great Tome of Mayonnaise", //added in 2.0.0
+	"object.the-great-tome-of-mayo.description": "Are the pages covered in mayonnaise???", //added in 2.0.0
+	"object.the-tarot-revealed.name": "The Tarot Revealed", //added in 2.0.0
+	"object.the-tarot-revealed.description": "A complete guide to the Ferngill-O'Brien-Smith Tarot by Edwina O'Brien", //added in 2.0.0
+	"object.the-joja-conspiracy.name": "The Joja Conspiracy", //added in 2.0.0
+	"object.the-joja-conspiracy.description": "An anonymous author makes some very serious accusations against JojaCorp.", //added in 2.0.0
+	"object.herpetology.name": "Herpetology of Ferngill", //added in 2.0.0
+	"object.herpetology.description": "A publication about the many reptiles and amphibians of the Ferngill Republic, by Nora Chambers.", //added in 2.0.0
+	"object.lunarkin-troll-tales.name": "Lunarkin Troll Tales Book One", //added in 2.0.0
+	"object.lunarkin-troll-tales.description": "The first installment of the critically acclaimed children's' books series by author Vivienne Trenton.", //added in 2.0.0
+}

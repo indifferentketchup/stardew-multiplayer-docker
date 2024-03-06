@@ -1,0 +1,11 @@
+{
+	"Name": "Egg Hat",
+	"Description": "Vincent made this hat. Can't you tell?",
+	"PurchasePrice": 2000,
+    "PurchaseFrom": "STF.RodneyShop",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+    "PurchaseRequirements": null,
+	"TranslationKey": "item.egg-hat"
+
+}

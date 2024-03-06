@@ -1,0 +1,15 @@
+{
+	"Name": "Ancient Glowing Huckleberry",
+	"Price": 400,
+    "CanSell": true,
+	"Description": "A massive, juicy berry that faintly glows.",
+	"Category": "Fruit", 
+	"CategoryTextOverride": "Druidic",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"GiftTastes":
+    {
+        "Love": ["Hector"]
+    }
+
+}

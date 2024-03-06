@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Fellowclown_TravelingTrailer",
+            "FromFile": "assets/empty.json"
+        },
+
+/************************************************
+  Platonic Events
+ ************************************************/
+
+  {
+"Action": "EditData",
+"Target": "Data/Events/Custom_EastScarpe",
+"Entries": {
+  ////Intro////
+"800020/d Mon/d Wed/d Fri/t 600 2300": "ragtime/-1000 -1000/farmer 0 71 1 Barron -3000 -3000 1/viewport 12 71 clamp true/skippable/move farmer 6 0 1/pause 400/message \"{{i18n:barron.intro.0}}\"/faceDirection farmer 2/pause 300/emote farmer 12/pause 300/speak Barron \"{{i18n:barron.intro.1}}\"/pause 200/faceDirection farmer 0/emote farmer 16/speed farmer 4/faceDirection farmer 0/changeLocation Custom_Fellowclown_TravelingTrailer/viewport 15 14 0/warp Barron 4 18/warp farmer 10 18/faceDirection Barron 1/faceDirection farmer 0/addTemporaryActor FlamesTrailer 16 32 5 16 2 false Character/animate FlamesTrailer false true 350 1 2 0 1 2 0 1 2 0 1 2 0/showFrame Barron 29/shake Barron 15000/pause 300/faceDirection farmer 3/emote farmer 16/speed farmer 5/move farmer -5 0 0/startJittering/showFrame farmer 22/pause 250/playSound wateringCan/pause 1000/stopAnimation FlamesTrailer 3/faceDirection farmer 3/pause 900/emote Barron 28/pause 200/showFrame Barron 4/pause 300/speak Barron \"{{i18n:barron.intro.2}}\"/pause 300/speak Barron \"{{i18n:barron.intro.3}}\"/pause 400/speak Barron \"{{i18n:barron.intro.4}}\"/pause 400/speak Barron \"{{i18n:barron.intro.5}}\"/friendship Barron 10/pause 500/end",
+
+////2 heart events///
+"800021/z spring/z winter/z fall/d Mon/d Wed/d Fri/f Barron 500/t 600 1400": "ocean/-1000 -1000/farmer -3000 -3000 1 Barron -3000 -3000 1/viewport 3 3 clamp true/skippable/changeToTemporaryMap Custom_Fellowclown_Heart2_Platonic/viewport 6 5/warp farmer -3000 -3000 1/warp Barron -3000 -3000 1/message \"{{i18n:heart2_platonic.4}}\"/pause 2850/faceDirection Barron 2/faceDirection farmer 2/changeLocation Custom_EastScarpe/viewport 94 111 clamp true/stopMusic/playMusic Cloth/addTemporaryActor Jinx 32 32 96 109 3 false Character/warp Barron 94 109/warp farmer 91 104/emote Barron 12/pause 300/emote farmer 8/move farmer 0 5 1/pause 400/emote Barron 40/faceDirection Barron 3/pause 500/speak Barron \"{{i18n:heart2_platonic.0}}\"/pause 300/move farmer 1 0 1/emote farmer 8/pause 500/faceDirection Barron 2/speak Barron \"{{i18n:heart2_platonic.1}}\"/pause 500/faceDirection Barron 3/pause 200/speak Barron \"{{i18n:heart2_platonic.2}}\"/pause 400/speak Barron \"{{i18n:heart2_platonic.3}}\"/pause 800/faceDirection Barron 2/speak Barron \"{{i18n:heart2_platonic.question}}\"/pause 500/question fork1 \"#{{i18n:heart2_platonic_answer.0}}#{{i18n:heart2_platonic_answer.1}}.\"/fork heart2platonic/emote Barron 20/pause 500/speak Barron \"{{i18n:heart2_platonic_react.2}}\"/pause 200/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship Barron 20/end",
+"heart2platonic":"pause 300/speak Barron \"{{i18n:heart2_platonic_react.1}}\"/pause 200/emote Barron 20/pause 200/viewport move 1 1 6000000/globalFade/viewport 1000 1000/friendship Barron 60/end",       
+ }
+},
+  {
+"Action": "EditData",
+"Target": "Data/Events/Mine",
+"Entries": {
+/////4 hearts
+
+"800022/f Barron 1000/d Tue/d Thu/d Sat/d Sun/t 1200 1900": "communityCenter/-1000 -1000/farmer -3000 -3000 0 Marlon -3000 -3000 1 Barron -3000 -3000 3/viewport 10 8 clamp true/skippable/changeToTemporaryMap Custom_Fellowclown_SecretMineRoom/viewport 10 8 clamp true/warp farmer 6 6/warp Barron 7 9/warp Marlon 10 9/faceDirection Marlon 2/faceDirection Barron 1/faceDirection farmer 2/pause 400/emote Marlon 8/pause 300/speak Marlon \"{{i18n:heart4.0}}\"/pause 600/move Barron 2 0 2/speak Barron \"{{i18n:heart4.1}}\"/pause 300/showFrame Barron 30/positionOffset Barron 0 30/showFrame Barron 31/speak Barron \"{{i18n:heart4.2}}/pause 400/showFrame Barron 32/pause 600/showFrame Barron 30/pause 300/speak Marlon \"{{i18n:heart4.3}}\"/pause 300/speak Barron \"{{i18n:heart4.4}}\"/pause 400/speak Marlon \"{{i18n:heart4.5}}\"/pause 300/showFrame Barron 32/pause 300/speak Barron \"{{i18n:heart4.6}}\"/pause 300/speak Marlon \"{{i18n:heart4.7}}\"/pause 400/speak Marlon \"{{i18n:heart4.8}}\"/pause 300/pause 300/showFrame Barron 30/speak Barron \"{{i18n:heart4.9}}\"/pause 600/speak Marlon \"{{i18n:heart4.10}}\"/pause 400/speak Marlon \"{{i18n:heart4.11}}\"/pause 200/move farmer 0 3 1/speak Marlon \"{{i18n:heart4.12}}\"/pause 300/speak Barron \"{{i18n:heart4.13}}\"/pause 100/speak Barron \"{{i18n:heart4.14}}\"/pause 600/move farmer 2 0 2/pause 400/speak Barron \"{{i18n:heart4.15}}\"/pause 400/speak Marlon \"{{i18n:heart4.16}}\"/pause 400/showFrame Barron 32/pause 400/speak Marlon \"{{i18n:heart4.17}}\"/pause 300/emote Barron 28/showFrame Barron 30/pause 500/speak Marlon \"{{i18n:heart4.18}}\"/pause 400/speak Marlon \"{{i18n:heart4.19}}\"/pause 400/speak Barron \"{{i18n:heart4.20}}\"/pause 400/question fork1 \"#{{i18n:heart4.21}}#{{i18n:heart4.22}}\"/fork SecretMine/pause 800/emote Barron 20/pause 300/speak Barron \"{{i18n:heart4.23}}\"/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship Barron 20/end"  }
+},
+  {
+"Action": "EditData",
+"Target": "Data/Events/BusStop",
+"Entries": {
+/////6 hearts
+
+"800023/f Barron 1500/z spring/z summer/z fall/d Tue/d Thu/d Sat/d Sun/t 1500 1900": "junimoKart_mushroomMusic/-1000 -1000/farmer -3000 -3000 0 Phoebe -3000 -3000 1 Barron -3000 -3000 3/viewport 10 8 clamp true/skippable/changeToTemporaryMap Custom_Fellowclown_LoresRoad/viewport 31 20 clamp true/warp farmer -3000 -3000/warp Barron -3000 -3000/addTemporaryActor BarronsBus 144 80 43 21 3 false Character/addTemporaryActor PhoebesCar 112 64 19 21 1 false Character/speed BarronsBus 4/advancedMove BarronsBus false -10 0 3 10 -1 0 3 10/speed PhoebesCar 5/move PhoebesCar 4 0 1/pause 6100/warp Barron 35 22/playSound busDoorOpen/move Barron -3 0 3/pause 400/Speak Barron \"{{i18n:heart5.0}}\"/pause 700/emote Barron 12/warp Phoebe 29 22/playSound doorClose/faceDirection Phoebe 1/pause 500/faceDirection Phoebe 3/faceDirection Phoebe 2/faceDirection Phoebe 1/pause 200/emote Phoebe 28/pause 200/speak Phoebe \"{{i18n:heart5.1}}\"/pause 100/move Barron -1 0 3/speak Barron \"{{i18n:heart5.2}}\"/pause 300/pause 300/speak Barron \"{{i18n:heart5.3}}\"/pause 600/emote Barron 16/pause 500/speak Barron \"{{i18n:heart5.4}}\"/pause 400/showFrame Barron 40/pause 1200/showFrame Barron 41/pause 600/speak Phoebe \"{{i18n:heart5.5}}\"/pause 400/speak Barron \"{{i18n:heart5.6}}\"/pause 500/emote Phoebe 16/jump Phoebe 2/speak Phoebe \"{{i18n:heart5.7}}\"/pause 400/showFrame Barron 12/emote Barron 20/pause 500/speak Barron \"{{i18n:heart5.8}}\"/pause 600/speak Phoebe \"{{i18n:heart5.9}}\"/pause 600/speak Barron \"{{i18n:heart5.10}}\"/pause 200/emote Phoebe 20/speak Phoebe \"{{i18n:heart5.11}}\"/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end"  }
+},
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Temp",
+            "Entries": {
+            "SecretMine": "pause 800/emote Barron 20/pause 400/speak Barron \"{{i18n:heart4.24}}\"/pause 300/speak Barron \"{{i18n:heart4.25}}\"/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship Barron 60/end",       
+      }
+        },
+/************************************************
+ Romantic Events
+ ************************************************/
+    ]
+}

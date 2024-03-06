@@ -1,0 +1,19 @@
+{
+    "Changes": [
+    
+   	 {
+   		 "LogName": "Fievel",
+   		 "Action": "EditData",
+   		 "Target": "Characters/Dialogue/Fievel",
+   		 "Entries": {
+
+   			 "joja_Begin": "{{i18n:Fievel.Ct.joja_Begin}}$5",
+   		 	"cc_Begin": "{{i18n:Fievel.Ct.cc_Begin}}$2",
+   		 	"cc_Bus": "{{i18n:Fievel.Ct.cc_Bus}}$1",
+   		 	"cc_Minecart": "{{i18n:Fievel.Ct.cc_Minecart}}$1",
+   		 	"cc_Complete": "{{i18n:Fievel.Ct.cc_Complete}}$1",
+   		 	"movieTheater": "{{i18n:Fievel.Ct.movieTheater}}$1"
+   		 }
+   	 }
+    ]
+}

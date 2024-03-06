@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        { //Adds Dialogue to Jasper
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jasper",
+            "When": {
+                "Jasper_DwarfFriend": true
+            },
+            "Entries": {
+                "InviteJasperDwarf": "{{i18n:jasper.invitejasperdwarf.{{Jasper_DwarfFriend}}}}"
+            }
+        },
+        { //Adds Dialogue to Jasper if married to him and living with Dwarf
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueJasper",
+            "When": {
+                "Relationship:Dwarf": "married",
+                "Relationship:Jasper": "married"
+            },
+            "Entries": {
+                "TwoKids_3": "{{i18n:jasper.marriage.twokids0.{{season}} }}",
+                "spouseRoom_Jasper": "{{i18n:jasper.marriage.spouseroom.{{random:{{season}},A,B,C,D}} }}",
+                "Outdoor_4": "{{i18n:jasper.marriage.outdoor.{{season}} }}",
+            }
+        },
+        { //Adds Dialogue to Dwarf if married to Jasper and living with Dwarf
+        "LogName": "Dialogue",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueDwarfRoommate",
+        "When": {
+            "Relationship:Dwarf": "married",
+            "Relationship:Jasper": "married"
+        },
+        "Entries": {
+            "TwoKids_0": "{{i18n:dwarf.marriage.twokids0.{{season}} }}",
+            "spouseRoom_Dwarf": "{{i18n:dwarf.marriage.spouseroom.{{random:A,B,C,D,}} }}",
+            "Outdoor_1": "{{i18n:dwarf.marriage.outdoor.{{season}} }}",
+        }
+    }
+    ]
+}

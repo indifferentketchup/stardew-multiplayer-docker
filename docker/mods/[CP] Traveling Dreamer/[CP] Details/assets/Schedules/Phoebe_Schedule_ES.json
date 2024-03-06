@@ -1,0 +1,19 @@
+{
+"spring": "700 Custom_ES_TNPCWaitingWarpRoom 10 8 2/1000 Custom_ES_TNPCWaitingWarpRoom 8 12 2",
+
+"Mon": "700 Custom_ES_TNPCWaitingWarpRoom 10 8 2/1000 Custom_ES_TNPCWaitingWarpRoom 8 12 22",
+
+"Tue": "700 Custom_Fellowclown_PlayHouse 3 4 2/1630 Custom_Fellowclown_TravelingTrailer 18 14 0/1930 Custom_Fellowclown_TravelingTrailer 12 12 2/2200 Custom_Fellowclown_TravelingTrailer 18 14 0",
+
+"Wed": "700 Custom_ES_TNPCWaitingWarpRoom 10 8 2/1000 Custom_ES_TNPCWaitingWarpRoom 8 12 22",
+
+"Thu":"700 Custom_Fellowclown_PlayHouse 3 4 2/1600 Custom_EastScarpe 23 62 2/1930 Custom_Fellowclown_TravelingTrailer 21 12 3/2200 Custom_Fellowclown_TravelingTrailer 18 14 0",
+
+"Sat": "700 Custom_Fellowclown_PlayHouse 3 4 2/1260 Custom_EastScarpe 46 13 3/1600 Custom_Fellowclown_TravelingTrailer 20 12 2/1930 Custom_ESInnBath 29 8 1/2200 Custom_Fellowclown_TravelingTrailer 18 14 0",
+
+"Fri": "700 Custom_ES_TNPCWaitingWarpRoom 10 8 2/1000 Custom_ES_TNPCWaitingWarpRoom 8 12 2",
+
+"Sun":"700 Custom_Fellowclown_PlayHouse 3 4 2/1600 Custom_Fellowclown_TravelingTrailer 12 12 2/1700 Custom_EastScarpe 87 67 1/1930 Custom_ESInnBath 29 8 1/2200 Custom_Fellowclown_TravelingTrailer 18 14 0",
+
+"rain":"700 Custom_Fellowclown_TravelingTrailer 12 12 2/1200 Custom_Fellowclown_TravelingTrailer 13 17 1/1600 Custom_Fellowclown_TravelingTrailer 18 14 0/1930 Custom_Fellowclown_TravelingTrailer 12 12 2/2200 Custom_Fellowclown_TravelingTrailer 18 14 0",
+}

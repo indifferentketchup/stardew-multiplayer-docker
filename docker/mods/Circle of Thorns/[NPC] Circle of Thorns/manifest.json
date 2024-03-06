@@ -1,0 +1,46 @@
+{
+	"Name": "[NPC] Circle of Thorns",
+	"Author": "DestyNova",
+	"Version": "1.0.2",
+	"Description": "Adds Hector, who brings mischief and mayhem to East Scarp!",
+	  "UniqueID": "DestyNova.Hector.CP",
+	  "MinimumApiVersion": "3.7.0",
+	  "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher"
+	  },
+	  "UpdateKeys": ["Nexus:16032"],
+	  "Dependencies": [  
+		{
+		  "UniqueID": "LemurKat.EastScarpe.CP",
+		  "IsRequired": true
+		},  
+		{
+		  "UniqueID": "DestyNova.Mateo.CP",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "atravita.SpecialOrdersExtended",
+		  "IsRequired": true
+		},   
+		{
+		  "UniqueID": "PurrplingCat.CustomGiftDialogue",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "aedenthorn.CustomFixedDialogue",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "ZeroMeters.SAAT.Mod",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "spacechase0.JsonAssets",
+		  "IsRequired": true
+		},
+		{
+		  "UniqueID": "spacechase0.SpaceCore",
+		  "IsRequired": true
+		}
+	 ]
+  }

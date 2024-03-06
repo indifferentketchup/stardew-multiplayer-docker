@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "Lavril": "child/polite/shy/positive/female/non-datable/null/Other/spring 28/Void 'brother'/Custom_ESOrchardHouse 998 999 2/Lavril",
+        "Void": "child/rude/neutral/negative/male/non-datable/null/Other/spring 28/Lavril 'sister'/Custom_ESOrchardHouse 999 999 2/Void"
+      }
+    }
+  ]
+}

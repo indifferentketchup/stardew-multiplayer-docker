@@ -1,0 +1,40 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {
+    "Secret Cave": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_LK_FairyPool",
+      "Name": null,
+      "Tile": "6, 31",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_LK_SecretCave",
+      "Name": null,
+      "Tile": "6, 10",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Fairy Stone",
+            "Stack": 1
+          }
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

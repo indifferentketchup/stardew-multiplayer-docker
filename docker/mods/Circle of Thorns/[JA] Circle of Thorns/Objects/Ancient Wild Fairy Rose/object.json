@@ -1,0 +1,15 @@
+{
+	"Name": "Ancient Wild Fairy Rose",
+	"Price": 300,
+    "CanSell": true,
+	"Description": "A resilient precursor to the common Fairy Rose.",
+	"Category": "Flower", 
+	"CategoryTextOverride": "Druidic",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"GiftTastes":
+    {
+        "Love": ["Hector", "Mateo"]
+    }
+
+}

@@ -1,0 +1,1759 @@
+{
+"Format": "1.29.0",
+  // add a custom in-game location
+ "CustomLocations": [
+ {
+"Name": "Custom_Fellowclown_TravelingTrailer",
+"FromMapFile": "assets/Maps/Location Maps/TravelingTrailer.Tbin",
+"MigrateLegacyNames": [
+                "Traveling Library"
+            ]
+        },
+         {
+"Name": "Custom_Fellowclown_PlayHouse",
+"FromMapFile": "assets/Maps/Location Maps/Custom_Fellowclown_PlayHouse.tbin",
+"MigrateLegacyNames": [
+                "East Scarp Toy Store"
+            ]
+        },
+         {
+"Name": "Custom_Fellowclown_Heart2_Platonic",
+"FromMapFile": "assets/Maps/Event Maps/Heart2_Platonic.tbin",
+"MigrateLegacyNames": [
+                "Heart2_FC"
+            ]
+        },
+                {
+"Name": "Custom_Fellowclown_SecretMineRoom",
+"FromMapFile": "assets/Maps/Event Maps/SecretMineRoom.tbin",
+"MigrateLegacyNames": [
+                "SecretMineRoom"
+            ]
+        },
+                     {
+"Name": "Custom_Fellowclown_LoresRoad",
+"FromMapFile": "assets/Maps/Event Maps/LoresRoad.tbin",
+"MigrateLegacyNames": [
+                "Lores Road"
+            ]
+        },
+],
+"Changes": [
+      {
+"LogName": "Events",
+"Action": "Include",
+"FromFile": "assets/Data/Festivals.json"
+ },
+ {
+"LogName": "Events",
+"Action": "Include",
+"FromFile": "assets/Data/events.json"
+ },
+  {
+"LogName": "animals",
+"Action": "Include",
+"FromFile": "assets/Data/AnimalSpawns.json",
+},
+       {
+"Action": "Load",
+"Target": "Maps/Fellowclown_mine_frost_dangerous,Maps/Heart2_Platonic",
+"FromFile": "assets/Maps/Tilesheets/{{TargetWithoutPath}}.png",
+},
+   {
+// Loading old Image
+"Action": "Load",
+"Target": "Mods/Fellowclown/ArkaniaAnimals,Mods/Fellowclown/ArkaniaBuildings,Mods/Fellowclown/ArkaniaObjects,Mods/Fellowclown/ArkaniaMap,Mods/Fellowclown/Book_Cover_RodneyOBrien,Mods/Fellowclown/Book_Cover_WolfsBane,Mods/Fellowclown/Book_Cover_RogerLovejoy,Mods/Fellowclown/Book_Cover_RockCrab,Mods/Fellowclown/Book_Cover_OneEyedMan,Mods/Fellowclown/Book_Cover_OldestMan,Mods/Fellowclown/Book_Cover_DevelopingConfidence,Mods/Fellowclown/Book_Cover_Cyclops,Mods/Fellowclown/Book_Cover_Arkania,Mods/Fellowclown/Book_Cover_Bubblegum,Mods/Fellowclown/Book_Cover_AdventuresOfJumba,Mods/Fellowclown/Painting1,Mods/Fellowclown/Painting2,Mods/Fellowclown/Painting3,Mods/Fellowclown/Painting4,Mods/Fellowclown/Painting5,Mods/Fellowclown/Painting6,Mods/Fellowclown/Painting7,Mods/Fellowclown/Painting8,Mods/Fellowclown/Painting9,Mods/Fellowclown/Painting10,Mods/Fellowclown/Painting11,Mods/Fellowclown/Painting12,Mods/Fellowclown/Painting13,Mods/Fellowclown/Painting14,Mods/Fellowclown/Book_Cover_BigBook,Mods/Fellowclown/Book_Cover_Goblins,Mods/Fellowclown/Book_Cover_Lyell,Mods/Fellowclown/Book_Cover_LillyPirates,Mods/Fellowclown/Banner,Mods/Fellowclown/Book_Cover_Arah,Mods/Fellowclown/Book_Cover_AggieTheLoved,Mods/Fellowclown/Liphum_Embrace.Book,Mods/Fellowclown/Arah_Awareness.book,Mods/Fellowclown/Arah_Embedded_Book,Mods/Fellowclown/Arah_Birth_Book",
+"FromFile": "assets/Image/Books/{{TargetWithoutPath}}.png"
+},
+       {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Arkania",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_Arkania.Cover}}",
+
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/ArkaniaMap",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.ArkaniaMap.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/ArkaniaMap",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.ArkaniaMap.02}}",
+                          "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/ArkaniaMap",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.ArkaniaMap.03}}",
+
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/ArkaniaAnimals",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.ArkaniaAnimals.01}}",
+                        "MEEP_CloseupInteraction_Image_6": "Mods/Fellowclown/ArkaniaAnimals",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:Bookcase.ArkaniaAnimals.02}}",
+                        "MEEP_CloseupInteraction_Image_7": "Mods/Fellowclown/ArkaniaAnimals",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:Bookcase.ArkaniaAnimals.03}}",
+
+                        "MEEP_CloseupInteraction_Image_8": "Mods/Fellowclown/ArkaniaBuildings",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:Bookcase.ArkaniaBuildings.01}}",
+                        "MEEP_CloseupInteraction_Image_9": "Mods/Fellowclown/ArkaniaBuildings",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:Bookcase.ArkaniaBuildings.02}}",
+                        "MEEP_CloseupInteraction_Image_10": "Mods/Fellowclown/ArkaniaBuildings",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:Bookcase.ArkaniaBuildings.03}}",
+                        "MEEP_CloseupInteraction_Image_11": "Mods/Fellowclown/ArkaniaBuildings",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:Bookcase.ArkaniaBuildings.04}}",
+
+                        "MEEP_CloseupInteraction_Image_12": "Mods/Fellowclown/ArkaniaObjects",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:Bookcase.ArkaniaObjects.01}}",
+                        "MEEP_CloseupInteraction_Image_13": "Mods/Fellowclown/ArkaniaObjects",
+                        "MEEP_CloseupInteraction_Text_13": "{{i18n:Bookcase.ArkaniaObjects.02}}",
+                        "MEEP_CloseupInteraction_Image_14": "Mods/Fellowclown/ArkaniaObjects",
+                        "MEEP_CloseupInteraction_Text_14": "{{i18n:Bookcase.ArkaniaObjects.03}}",
+                        "MEEP_CloseupInteraction_Image_15": "Mods/Fellowclown/ArkaniaObjects",
+                        "MEEP_CloseupInteraction_Text_15": "{{i18n:Bookcase.ArkaniaObjects.04}}",
+                        "MEEP_CloseupInteraction_Image_16": "Mods/Fellowclown/ArkaniaObjects",
+                        "MEEP_CloseupInteraction_Text_16": "{{i18n:Bookcase.ArkaniaObjects.05}}",
+                      
+                    }
+                }
+            ]
+        },
+ {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+             "When": {
+                  "Relationship:Barron": "Friendly,Unmet"
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 13
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Lyell",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Lyell.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.Lyell.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Lyell.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.Lyell.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.Lyell.05}}",
+                         "MEEP_CloseupInteraction_Image_6": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:Bookcase.Lyell.06}}",
+                         "MEEP_CloseupInteraction_Image_7": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:Bookcase.Lyell.07}}",
+                         "MEEP_CloseupInteraction_Image_8": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:Bookcase.Lyell.08}}",
+                         "MEEP_CloseupInteraction_Image_9": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:Bookcase.Lyell.09}}",
+                         "MEEP_CloseupInteraction_Image_10": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:Bookcase.Lyell.10}}",
+                         "MEEP_CloseupInteraction_Image_11": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:Bookcase.Lyell.11}}",
+                         "MEEP_CloseupInteraction_Image_12": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:Bookcase.Lyell.12}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_BigBook",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.BigBookOfArt.00}}",
+
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Painting1",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.BigBookOfArt.01}}",
+
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Painting2",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.BigBookOfArt.02}}",
+
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Painting3",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.BigBookOfArt.03}}",
+
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Painting4",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.BigBookOfArt.04}}",
+
+                        "MEEP_CloseupInteraction_Image_6": "Mods/Fellowclown/Painting5",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:Bookcase.BigBookOfArt.05}}",
+
+                        "MEEP_CloseupInteraction_Image_7": "Mods/Fellowclown/Painting6",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:Bookcase.BigBookOfArt.06}}",
+
+                        "MEEP_CloseupInteraction_Image_8": "Mods/Fellowclown/Painting7",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:Bookcase.BigBookOfArt.07}}",
+
+                        "MEEP_CloseupInteraction_Image_9": "Mods/Fellowclown/Painting8",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:Bookcase.BigBookOfArt.08}}",
+
+                        "MEEP_CloseupInteraction_Image_10": "Mods/Fellowclown/Painting9",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:Bookcase.BigBookOfArt.09}}",
+
+                        "MEEP_CloseupInteraction_Image_11": "Mods/Fellowclown/Painting10",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:Bookcase.BigBookOfArt.10}}",
+
+                        "MEEP_CloseupInteraction_Image_12": "Mods/Fellowclown/Painting11",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:Bookcase.BigBookOfArt.11}}",
+
+                        "MEEP_CloseupInteraction_Image_13": "Mods/Fellowclown/Painting12",
+                        "MEEP_CloseupInteraction_Text_13": "{{i18n:Bookcase.BigBookOfArt.12}}",
+
+                        "MEEP_CloseupInteraction_Image_14": "Mods/Fellowclown/Painting13",
+                        "MEEP_CloseupInteraction_Text_14": "{{i18n:Bookcase.BigBookOfArt.13}}",
+
+                            "MEEP_CloseupInteraction_Image_14": "Mods/Fellowclown/Painting14",
+                        "MEEP_CloseupInteraction_Text_14": "{{i18n:Bookcase.BigBookOfArt.14}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 13
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Goblins",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Goblins.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.Goblins.01}}",
+                         "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Goblins.02}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_RogerLovejoy",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.RogerLovejoy}}",
+                    }
+                }
+            ]
+        },
+             {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_OldestMan",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.OldestMan}}",
+                    }
+                }
+            ]
+        },
+              {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Bubblegum",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Bubblegum}}",
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_DevelopingConfidence",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.DevelopingConfidence}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Book_Cover_WolfsBane",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.WolfsBane}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Book_Cover_Cyclops",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Cyclops}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Book_Cover_RockCrab",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.RockCrab}}",
+                    }
+                }
+            ]
+        },
+
+           {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_OneEyedMan",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_OneEyedMan}}",
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_AdventuresOfJumba",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_AdventuresOfJumba}}",
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_RodneyOBrien",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_RodneyOBrien}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_FoliageOfArkánia",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_FoliageOfArkánia}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 13
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Arah",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Liphum_Embrace.Book",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.Liphum_Embrace.Book}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Arah_Awareness.book",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Arah_Awareness.book}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Arah_Embedded_Book",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.Arah_Embedded_Book}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Arah_Birth_Book",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.Arah_Birth_Book}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 13
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_AggieTheLoved",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.LovedAggie.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.LovedAggie.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.LovedAggie.02}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.LovedAggie.03}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.LovedAggie.04}}",
+                        "MEEP_CloseupInteraction_Image_6": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:Bookcase.LovedAggie.05}}",
+                        "MEEP_CloseupInteraction_Image_7": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:Bookcase.LovedAggie.06}}",
+               
+              
+                    }
+                }
+            ]
+        },
+     {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 13
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_LillyPirates",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.LillyPirates.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.LillyPirates.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.LillyPirates.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.LillyPirates.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.LillyPirates.05}}",
+                    }
+                }
+            ]
+        },
+        /////MARRIED
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/BarronsRoom",
+            "When": {
+"Relationship:Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 2
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Lyell",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Lyell.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.Lyell.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Lyell.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.Lyell.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.Lyell.05}}",
+                         "MEEP_CloseupInteraction_Image_6": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:Bookcase.Lyell.06}}",
+                         "MEEP_CloseupInteraction_Image_7": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:Bookcase.Lyell.07}}",
+                         "MEEP_CloseupInteraction_Image_8": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:Bookcase.Lyell.08}}",
+                         "MEEP_CloseupInteraction_Image_9": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:Bookcase.Lyell.09}}",
+                         "MEEP_CloseupInteraction_Image_10": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:Bookcase.Lyell.10}}",
+                         "MEEP_CloseupInteraction_Image_11": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:Bookcase.Lyell.11}}",
+                         "MEEP_CloseupInteraction_Image_12": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:Bookcase.Lyell.12}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/BarronsRoom",
+                     "When": {
+"Relationship:Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y": 2
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Goblins",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Goblins.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.Goblins.01}}",
+                         "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Goblins.02}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/BarronsRoom",
+"When": {
+"Relationship:Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 2
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_Arah",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.Book_Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Liphum_Embrace.Book",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.Liphum_Embrace.Book}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Arah_Awareness.book",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.Arah_Awareness.book}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Arah_Embedded_Book",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.Arah_Embedded_Book}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Arah_Birth_Book",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.Arah_Birth_Book}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/BarronsRoom",
+                     "When": {
+"Relationship:Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X":3,
+                        "Y": 2
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_AggieTheLoved",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.LovedAggie.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.LovedAggie.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.LovedAggie.02}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.LovedAggie.03}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.LovedAggie.04}}",
+                        "MEEP_CloseupInteraction_Image_6": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:Bookcase.LovedAggie.05}}",
+                        "MEEP_CloseupInteraction_Image_7": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:Bookcase.LovedAggie.06}}",
+               
+              
+                    }
+                }
+            ]
+        },
+     {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/BarronsRoom",
+                     "When": {
+"Relationship:Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 4
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image_1": "Mods/Fellowclown/Book_Cover_LillyPirates",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:Bookcase.LillyPirates.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:Bookcase.LillyPirates.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:Bookcase.LillyPirates.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:Bookcase.LillyPirates.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "Mods/Fellowclown/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:Bookcase.LillyPirates.05}}",
+                    }
+                }
+            ]
+        },
+              {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_Letter": "{{i18n:Bookcase.Spells}}",
+                        "MEEP_Letter_Type": "1"
+                    }
+                }
+            ]
+        },
+                {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Barron": "TownEvent",
+       "Phoebe": "TownEvent",
+      }
+    },
+ /************************************************
+ ** Map edits
+ ************************************************/
+ //adds a custom spouse room map
+  {
+  "LogName": "Load  room",
+  "Action": "Load",
+  "Target": "Maps/BarronsRoom", //include the s, should look like JohnsRoom
+  "FromFile": "assets/Maps/Location Maps/{{TargetWithoutPath}}.tbin",
+},
+
+//Adds custom spouse room to game data
+ {
+"LogName": " Spouse room",
+"Action": "EditData",
+"Target": "Data/SpouseRooms",
+"Entries": {
+"Barron": "BarronsRoom/0",
+}
+ },
+
+//adds a custom patio data
+  {
+"LogName": "SpousePatios",
+"Action": "EditData",
+"Target": "Data/SpousePatios",
+"Entries": {
+"Barron": "Fellowclown.Barron_BarronPatio/0/22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21/0 0",
+
+
+}
+ },
+
+ //adds custom paito map to the game
+ {
+ "LogName": "Load patio",
+ "Action": "Load",
+ "Target": "Maps/Fellowclown.Barron_BarronPatio",
+ "FromFile": "assets/Maps/Location Maps/{{TargetWithoutPath}}.tbin"
+},
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_EastScarpe",
+    "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["MapProperties", "NPCWarp"],
+         "Value": "49 63 Custom_Fellowclown_PlayHouse 4 14",
+         "Delimiter": " "
+      }
+  ]
+},
+ //////map edits
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_Fellowclown_PlayHouse",
+    "FromFile": "assets/Maps/Patches/PlayHouseOpen.tbin",
+    "ToArea": { "X":2, "Y": 3, "Width": 3, "Height":4 },
+     "Update": "OnTimeChange",
+    "When": {
+          "DayOfWeek": "Tuesday, Thursday,Saturday,Sunday",
+          "HasSeenEvent |contains=800023": "true",
+            }
+        },
+          {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+    "FromFile": "assets/Maps/Patches/TravelingTrailerMarried.tbin",
+    "ToArea": { "X":20, "Y": 13, "Width": 3, "Height":4 },
+     "Update": "OnTimeChange",
+    "When": {
+         "Relationship:Barron": "Married,Engaged",
+         "Time": "{{Range: 800,1600}}"
+            }
+        },
+ //////map edits
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_EastScarpe",
+    "FromFile": "assets/Maps/Patches/PlayHouse.tbin",
+    "ToArea": { "X":48, "Y": 62, "Width": 3, "Height":3 },
+     "Update": "OnTimeChange",
+    "When": {
+  "HasSeenEvent |contains=800023": "true",
+            }
+        },
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_Fellowclown_TravelingTrailer",
+    "FromFile": "assets/Maps/Patches/PhoebeBed.tbin",
+    "ToArea": { "X":3, "Y": 8, "Width": 5, "Height": 5 },
+    "Update": "OnTimeChange",
+    "When": {
+          "HasSeenEvent |contains=800023": "true"
+            }
+        },
+ /////Trailer is in east scarpe before event is seen
+ {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_EastScarpe",
+    "FromFile": "assets/Maps/Patches/Library_overlay_unmet.tmx",
+    "PatchMode":"overlay",
+    "ToArea": { "X": 3, "Y": 65, "Width": 9, "Height": 5 },
+    "Update": "OnTimeChange",
+    "When": {
+          "DayOfWeek": "Tuesday, Thursday,Saturday,Sunday",
+            }
+        },
+         /////Trailer is in east scarpe after event is seen
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Custom_EastScarpe",
+    "FromFile": "assets/Maps/Patches/Library_overlay.tmx",
+    "PatchMode":"overlay",
+    "ToArea": { "X": 3, "Y": 65, "Width": 9, "Height": 5 },
+      "Update": "OnTimeChange",
+    "When": {
+          "DayOfWeek": "Tuesday, Thursday,Saturday,Sunday",
+          "HasSeenEvent |contains=800020": "true"
+            }
+        }, 
+    {
+"Action": "EditMap",
+"Target": "Maps/FarmHouse,Maps/FarmHouse2, Maps/FarmHouse2_marriage, Maps/FarmHouse1_marriage",
+"FromFile": "assets/Maps/Patches/farmhouse-tilesheets.tbin",
+"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+"ToArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+   "PatchMode": "Overlay"
+},
+  {
+"LogName": "Map Strings Edit",
+"Action": "EditData",
+"Target": "Strings/StringsFromMaps",
+"Entries": {
+"Patio.JinxHouse": "{{i18n:Patio.JinxHouse}}",
+"TravelingLibrary.Sign": "{{i18n:TravelingLibrary.Sign}}",
+"TravelingLibrary.Book1": "{{i18n:TravelingLibrary.Book1}}",
+"TravelingLibrary.Book2": "{{i18n:TravelingLibrary.Book2}}",
+"TravelingLibrary.Book3": "{{i18n:TravelingLibrary.Book3}}",
+"TravelingLibrary.Book4": "{{i18n:TravelingLibrary.Book4}}",
+"TravelingLibrary.Book5": "{{i18n:TravelingLibrary.Book5}}",
+"TravelingLibrary.Book6": "{{i18n:TravelingLibrary.Book6}}",
+"TravelingLibrary.Book7": "{{i18n:TravelingLibrary.Book7}}",
+"TravelingLibrary.Book8": "{{i18n:TravelingLibrary.Book8}}",
+"TravelingLibrary.Book9": "{{i18n:TravelingLibrary.Book9}}",
+"TravelingLibrary.Book10": "{{i18n:TravelingLibrary.Book10}}",
+"TravelingLibrary.Book11": "{{i18n:TravelingLibrary.Book11}}",
+"TravelingLibrary.Book12": "{{i18n:TravelingLibrary.Book12}}",
+"TravelingLibrary.Book13": "{{i18n:TravelingLibrary.Book13}}",
+"TravelingLibrary.PileOBooks": "{{i18n:TravelingLibrary.PileOBooks}}",
+"TravelingLibrary.PC1": "{{i18n:TravelingLibrary.PC1}}",
+"TravelingLibrary.PC2": "{{i18n:TravelingLibrary.PC2}}",
+"TravelingLibrary.WayfarerPlant": "{{i18n:TravelingLibrary.WayfarerPlant.{{season}}}}",
+"TravelingLibrary.Icebox": "{{i18n:TravelingLibrary.Icebox}}",
+"TravelingLibrary.Sink": "{{i18n:TravelingLibrary.Sink}}",
+"TravelingLibrary.Stove": "{{i18n:TravelingLibrary.Stove}}",
+"TravelingLibrary.Counter": "{{i18n:TravelingLibrary.Counter}}",
+"BarronSpouseRoomBooks.01": "{{i18n:BarronSpouseRoomBooks.01}}",
+"BarronSpouseRoomBooks.02": "{{i18n:BarronSpouseRoomBooks.02}}",
+"BarronSpouseRoomBooks.03": "{{i18n:BarronSpouseRoomBooks.03}}",
+"BarronSpouseRoomBooks.04": "{{i18n:BarronSpouseRoomBooks.04}}",
+"BarronSpouseRoomPC.01": "{{i18n:BarronSpouseRoomPC.01}}",
+"BarronSpouseRoomPlanter.01": "{{i18n:BarronSpouseRoomPlanter.01}}",
+"BarronSpouseRoomCrow.01": "{{i18n:BarronSpouseRoomCrow.01}}",
+"Farm.Jinx": "{{i18n:Farm.Jinx}}",
+"TravelingLibrary.Unmet": "{{i18n:TravelingLibrary.Unmet}}",
+"TravelingLibrary.Bunkbeds": "{{i18n:TravelingLibrary.Bunkbeds}}",
+}
+ },
+  //Spawns your Npc into the game
+ {
+"LogName": "Npc Dispositions",
+"Action": "EditData",
+"Target": "Data/NPCDispositions",
+"Entries": {
+"Barron": "adult/polite/outgoing/neutral/female/datable/null/town/winter 16//Custom_Fellowclown_TravelingTrailer 20 13 2/{{i18n:npc-display-Barron}}",
+}
+ },
+  {
+"LogName": "Npc Dispositions",
+"Action": "EditData",
+"Target": "Data/NPCDispositions",
+"Update": "OnTimeChange",
+"Entries": {
+"Phoebe": "adult/rude/outgoing/neutral/female/not-datable/null/town/summer 6//Custom_Fellowclown_TravelingTrailer 12 11 1/{{i18n:npc-display-Phoebe}}",
+},
+ "When": {
+        "HasSeenEvent |contains=800023": "true",
+            },
+        },
+
+//Create likes and dislikes for your Barron
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"Barron": "{{i18n:Barron.gift.love}}/60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+"Phoebe": "{{i18n:Phoebe.gift.love}}/86 90 110/{{i18n:Phoebe.gift.like}}/149 202 205/{{i18n:Phoebe.gift.dislike}}/215 218 224/{{i18n:Phoebe.gift.hate}}/239 397 307/{{i18n:Phoebe.gift.neutral}}/303 346/ ",
+}
+ },
+
+ /************************************************
+ ** Movies
+ ************************************************/
+ ///This patch lets you assigns movie theater concession preferences for you Barron
+ {
+"Action": "EditData",
+"Target": "Data/ConcessionTastes",
+"Entries": { 
+"Barron": {
+ "Name": "Barron",
+"LovedTags": [ "Apple Slices", "Jasmine Tea" ],
+ "LikedTags": [ "Ice Cream Sandwich" ],
+ "DislikedTags": [ "fatty" ]
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/ConcessionTastes",
+"Entries": { 
+"Barron": {
+ "Name": "Phoebe",
+"LovedTags": [ "Black Licorice", "Sour Slimes" ],
+ "LikedTags": [ "Ice Cream Sandwich" ],
+ "DislikedTags": [ "fatty" ]
+}
+}
+},
+ /************************************************
+ ** Dialogue Extras
+ ************************************************/
+
+ ///Adds dialogue your  Barron says if you die in mines.Its set up for easy translation. The actual dialgoue goes into the translation file.
+ {
+"Action": "EditData",
+"Target": "Data/ExtraDialogue",
+"Entries": {
+"Mines_PlayerKilled_{{TargetWithoutPath}}_NotSpouse": "{{i18n:{{TargetWithoutPath}}.player-killed.not-spouse}}",
+"Mines_PlayerKilled_{{TargetWithoutPath}}_Spouse": "{{i18n:{{TargetWithoutPath}}.player-killed.spouse}}",
+}
+ },
+
+ //Loads dialgoue, but keep json empty for easy editing and translations.Its set up for easy translation. The actual dialgoue goes into the translation file.
+{
+"Action": "Load",
+"Target": "Characters/Dialogue/Barron,Characters/Dialogue/Phoebe",
+"FromFile": "assets/empty.json"
+ },
+  /************************************************
+ ** Dialogues
+ ************************************************/
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring24,Data/Festivals/fall27",
+"Entries": {
+// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+"Barron": "{{i18n:Barron.{{TargetWithoutPath}}.{{Relationship:Barron}} |default={{i18n:Barron.{{TargetWithoutPath}} |default={{i18n:Barron.festival-default}} }} }}",
+"Phoebe": "{{i18n:Phoebe.{{TargetWithoutPath}}.{{Relationship:Phoebe}} |default={{i18n:Phoebe.{{TargetWithoutPath}} |default={{i18n:Phoebe.festival-default}} }} }}",
+} 
+ },
+
+
+ ///Barron Movie reactions and dialogue
+  //spring_movie_0 Brave Little Sapling - family, comedy
+//spring_movie_1 NAtural Wonders - documentary, family
+//summer_movie_0 Prairie King - action
+//summer_movie_1 Wumbus - sci-fi, comedy, family
+//fall_movie_0 Mysterium - horror, art
+//fall_movie_1 Howls in the rain - horror
+//winter_movie_0 Miracle at Coldstar Ranch - family, romance
+//winter_movie_1 Zuzu City Express - classic, romance
+{
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+"Barron": { //Substitute with your NPC's internal name.
+    "NPCName": "Barron", //Substitute with your NPC's internal name.
+    "Reactions": [
+{
+"Tag": "spring_movie_0", //Brave Little Sapling
+"Response": "love", //Responses are love/like/hate.
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": { //What the NPC says in the lobby.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.0.before}}"
+},
+"DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:BarrBarronon.movies.0.during}}",
+},
+"AfterMovie": { //What the NPC says in the lobby after the movie.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.0.after}}"
+}
+},
+"ID": "spring0_4" //Each reaction has its own ID. But since I've done this for you, you shouldn't need to change it. I hope.
+
+//Repeat for the other movies.
+
+},
+{
+"Tag": "spring_movie_1", //Natural Wonders
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": { 
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.1.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.1.during}}"
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.1.after}}"
+}
+},
+"ID": "spring0_6"
+},
+{
+"Tag": "summer_movie_0", //Prairie King
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.2.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Barron.movies.2.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.2.after}}"
+} 
+},
+"ID": "summer0_3"
+},
+{
+"Tag": "summer_movie_1", //Wumbus
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.3.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.3.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.3.after}}" 
+}
+
+},
+"ID": "summer0_2"
+},
+{
+"Tag": "fall_movie_0", //Mysterium
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.4.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.4.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.4.after}}"
+}
+},
+"ID": "fall0_4"
+},
+{
+"Tag": "fall_movie_1", //It Howls In The Rain
+"Response": "love", 
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Barron.movies.5.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.6.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Barron.movies.5.after}}"
+}
+},
+"ID": "fall0_6",
+},
+{
+"Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+"Response": "like",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.6.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Barron.movies.6.during}}\"/",
+"Text": ""
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.6.after}}"
+}
+},
+"ID": "winter0_8",
+    },
+    {
+"Tag": "winter_movie_1", //Zuzu City Express
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.7.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Barron.movies.7.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.7.after}}"
+}
+},
+"ID": "winter0_5",
+    }
+ ]
+  }
+}
+}, 
+{
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+"Phoebe": { //Substitute with your NPC's internal name.
+    "NPCName": "Phoebe", //Substitute with your NPC's internal name.
+    "Reactions": [
+{
+"Tag": "spring_movie_0", //Brave Little Sapling
+"Response": "hate", //Responses are love/like/hate.
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": { //What the NPC says in the lobby.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.0.before}}"
+},
+"DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:BarrPhoebeon.movies.0.during}}",
+},
+"AfterMovie": { //What the NPC says in the lobby after the movie.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.0.after}}"
+}
+},
+"ID": "spring0_4" //Each reaction has its own ID. But since I've done this for you, you shouldn't need to change it. I hope.
+
+//Repeat for the other movies.
+
+},
+{
+"Tag": "spring_movie_1", //Natural Wonders
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": { 
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.1.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.1.during}}"
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.1.after}}"
+}
+},
+"ID": "spring0_6"
+},
+{
+"Tag": "summer_movie_0", //Prairie King
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.2.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Phoebe.movies.2.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.2.after}}"
+} 
+},
+"ID": "summer0_3"
+},
+{
+"Tag": "summer_movie_1", //Wumbus
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.3.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Phoebe.movies.3.during}}\"/",
+"Text": null,
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.3.after}}" 
+}
+
+},
+"ID": "summer0_2"
+},
+{
+"Tag": "fall_movie_0", //Mysterium
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.4.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.4.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.4.after}}"
+}
+},
+"ID": "fall0_4"
+},
+{
+"Tag": "fall_movie_1", //It Howls In The Rain
+"Response": "hate", 
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Phoebe.movies.5.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.6.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Phoebe.movies.5.after}}"
+}
+},
+"ID": "fall0_6",
+},
+{
+"Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.6.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Phoebe.movies.6.during}}\"/",
+"Text": ""
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.6.after}}"
+}
+},
+"ID": "winter0_8",
+    },
+    {
+"Tag": "winter_movie_1", //Zuzu City Express
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.7.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Phoebe.movies.7.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Phoebe.movies.7.after}}"
+}
+},
+"ID": "winter0_5",
+    }
+ ]
+  }
+}
+}, 
+///This is the dialgoue that appears during the Barron scheule, Its set up for easy translation. The actual dialgoue goes into the translation file. 
+{
+"LogName": "Barron Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/Barron",
+  "Entries": {
+"{{TargetWithoutPath}}_Es.spring.001": "{{i18n:{{TargetWithoutPath}}_Es.spring.001}}",
+"{{TargetWithoutPath}}_Es.spring.002": "{{i18n:{{TargetWithoutPath}}_Es.spring.002}}",
+"{{TargetWithoutPath}}_Es.spring.003": "{{i18n:{{TargetWithoutPath}}_Es.spring.003}}",
+"{{TargetWithoutPath}}_Es.spring.004": "{{i18n:{{TargetWithoutPath}}_Es.spring.004}}",
+"{{TargetWithoutPath}}_Es.spring.005": "{{i18n:{{TargetWithoutPath}}_Es.spring.005}}",
+"{{TargetWithoutPath}}_Es.spring.006": "{{i18n:{{TargetWithoutPath}}_Es.spring.006}}",
+"{{TargetWithoutPath}}_Es.spring.007": "{{i18n:{{TargetWithoutPath}}_Es.spring.007}}",
+"{{TargetWithoutPath}}_Es.spring.008": "{{i18n:{{TargetWithoutPath}}_Es.spring.008}}",
+"{{TargetWithoutPath}}_Es.summer.001": "{{i18n:{{TargetWithoutPath}}_Es.summer.001}}",
+"{{TargetWithoutPath}}_Es.summer.002": "{{i18n:{{TargetWithoutPath}}_Es.summer.002}}",
+"{{TargetWithoutPath}}_Es.summer.003": "{{i18n:{{TargetWithoutPath}}_Es.summer.003}}",
+"{{TargetWithoutPath}}_Es.summer.004": "{{i18n:{{TargetWithoutPath}}_Es.summer.004}}",
+"{{TargetWithoutPath}}_Es.summer.005": "{{i18n:Es.summer.005}}",
+"{{TargetWithoutPath}}_Es.summer.006": "{{i18n:{{TargetWithoutPath}}_Es.summer.006}}",
+"{{TargetWithoutPath}}_Es.summer.007": "{{i18n:{{TargetWithoutPath}}_Es.summer.007}}",
+"{{TargetWithoutPath}}_Es.summer.008": "{{i18n:{{TargetWithoutPath}}_Es.summer.008}}",
+"{{TargetWithoutPath}}_Es.fall.001": "{{i18n:{{TargetWithoutPath}}_Es.fall.001}}",
+"{{TargetWithoutPath}}_Es.fall.002": "{{i18n:{{TargetWithoutPath}}_Es.fall.002}}",
+"{{TargetWithoutPath}}_Es.fall.003": "{{i18n:{{TargetWithoutPath}}_Es.fall.003}}",
+"{{TargetWithoutPath}}_Es.fall.004": "{{i18n:{{TargetWithoutPath}}_Es.fall.004}}",
+"{{TargetWithoutPath}}_Es.fall.005": "{{i18n:{{TargetWithoutPath}}_Es.fall.005}}",
+"{{TargetWithoutPath}}_Es.fall.006": "{{i18n:{{TargetWithoutPath}}_Es.fall.006}}",
+"{{TargetWithoutPath}}_Es.fall.007": "{{i18n:{{TargetWithoutPath}}_Es.fall.007}}",
+"{{TargetWithoutPath}}_Es.fall.008": "{{i18n:{{TargetWithoutPath}}_Es.fall.008}}",
+"{{TargetWithoutPath}}_Es.winter.001": "{{i18n:{{TargetWithoutPath}}_Es.winter.001}}",
+"{{TargetWithoutPath}}_Es.winter.002": "{{i18n:{{TargetWithoutPath}}_Es.winter.002}}",
+"{{TargetWithoutPath}}_Es.winter.003": "{{i18n:{{TargetWithoutPath}}_Es.winter.003}}",
+"{{TargetWithoutPath}}_Es.winter.004": "{{i18n:{{TargetWithoutPath}}_Es.winter.004}}",
+"{{TargetWithoutPath}}_Es.winter.005": "{{i18n:{{TargetWithoutPath}}_Es.winter.005}}",
+"{{TargetWithoutPath}}_Es.winter.006": "{{i18n:{{TargetWithoutPath}}_Es.winter.006}}",
+"{{TargetWithoutPath}}_Es.winter.007": "{{i18n:{{TargetWithoutPath}}_Es.winter.007}}",
+"{{TargetWithoutPath}}_Es.winter.008": "{{i18n:{{TargetWithoutPath}}_Es.winter.008}}",
+"{{TargetWithoutPath}}_Es.rain.001": "{{i18n:{{TargetWithoutPath}}_Es.rain.001}}",
+"{{TargetWithoutPath}}_Es.rain.002": "{{i18n:{{TargetWithoutPath}}_Es.rain.002}}",
+"{{TargetWithoutPath}}_Es.rain.003": "{{i18n:{{TargetWithoutPath}}_Es.rain.003}}",
+"{{TargetWithoutPath}}_Es.rain.004": "{{i18n:{{TargetWithoutPath}}_Es.rain.004}}",
+"{{TargetWithoutPath}}_Es.rain.005": "{{i18n:{{TargetWithoutPath}}_Es.rain.005}}",
+"{{TargetWithoutPath}}_Es.rain.006": "{{i18n:{{TargetWithoutPath}}_Es.rain.006}}",
+"{{TargetWithoutPath}}_Es.rain.007": "{{i18n:{{TargetWithoutPath}}_Es.rain.007}}",
+
+"{{TargetWithoutPath}}_Pt.spring.001": "{{i18n:{{TargetWithoutPath}}_Pt.spring.001}}",
+"{{TargetWithoutPath}}_Pt.spring.002": "{{i18n:{{TargetWithoutPath}}_Pt.spring.002}}",
+"{{TargetWithoutPath}}_Pt.spring.003": "{{i18n:{{TargetWithoutPath}}_Pt.spring.003}}",
+"{{TargetWithoutPath}}_Pt.spring.004": "{{i18n:{{TargetWithoutPath}}_Pt.spring.004}}",
+"{{TargetWithoutPath}}_Pt.spring.005": "{{i18n:{{TargetWithoutPath}}_Pt.spring.005}}",
+"{{TargetWithoutPath}}_Pt.spring.006": "{{i18n:{{TargetWithoutPath}}_Pt.spring.006}}",
+"{{TargetWithoutPath}}_Pt.spring.007": "{{i18n:{{TargetWithoutPath}}_Pt.spring.007}}",
+"{{TargetWithoutPath}}_Pt.spring.008": "{{i18n:{{TargetWithoutPath}}_Pt.spring.008}}",
+"{{TargetWithoutPath}}_Pt.summer.001": "{{i18n:{{TargetWithoutPath}}_Pt.summer.001}}",
+"{{TargetWithoutPath}}_Pt.summer.002": "{{i18n:{{TargetWithoutPath}}_Pt.summer.002}}",
+"{{TargetWithoutPath}}_Pt.summer.003": "{{i18n:{{TargetWithoutPath}}_Pt.summer.003}}",
+"{{TargetWithoutPath}}_Pt.summer.004": "{{i18n:{{TargetWithoutPath}}_Pt.summer.004}}",
+"{{TargetWithoutPath}}_Pt.summer.005": "{{i18n:{{TargetWithoutPath}}_Pt.summer.005}}",
+"{{TargetWithoutPath}}_Pt.summer.006": "{{i18n:{{TargetWithoutPath}}_Pt.summer.006}}",
+"{{TargetWithoutPath}}_Pt.summer.007": "{{i18n:{{TargetWithoutPath}}_Pt.summer.007}}",
+"{{TargetWithoutPath}}_Pt.summer.007": "{{i18n:{{TargetWithoutPath}}_Pt.summer.008}}",
+"{{TargetWithoutPath}}_Pt.fall.001": "{{i18n:{{TargetWithoutPath}}_Pt.fall.001}}",
+"{{TargetWithoutPath}}_Pt.fall.002": "{{i18n:{{TargetWithoutPath}}_Pt.fall.002}}",
+"{{TargetWithoutPath}}_Pt.fall.003": "{{i18n:{{TargetWithoutPath}}_Pt.fall.003}}",
+"{{TargetWithoutPath}}_Pt.fall.004": "{{i18n:{{TargetWithoutPath}}_Pt.fall.004}}",
+"{{TargetWithoutPath}}_Pt.fall.005": "{{i18n:{{TargetWithoutPath}}_Pt.fall.005}}",
+"{{TargetWithoutPath}}_Pt.fall.006": "{{i18n:{{TargetWithoutPath}}_Pt.fall.006}}",
+"{{TargetWithoutPath}}_Pt.fall.007": "{{i18n:{{TargetWithoutPath}}_Pt.fall.007}}",
+"{{TargetWithoutPath}}_Pt.fall.008": "{{i18n:{{TargetWithoutPath}}_Pt.fall.008}}",
+"{{TargetWithoutPath}}_Pt.winter.001": "{{i18n:{{TargetWithoutPath}}_Pt.winter.001}}",
+"{{TargetWithoutPath}}_Pt.winter.002": "{{i18n:{{TargetWithoutPath}}_Pt.winter.002}}",
+"{{TargetWithoutPath}}_Pt.winter.003": "{{i18n:{{TargetWithoutPath}}_Pt.winter.003}}",
+"{{TargetWithoutPath}}_Pt.winter.004": "{{i18n:{{TargetWithoutPath}}_Pt.winter.004}}",
+"{{TargetWithoutPath}}_Pt.winter.005": "{{i18n:{{TargetWithoutPath}}_Pt.winter.005}}",
+"{{TargetWithoutPath}}_Pt.winter.006": "{{i18n:{{TargetWithoutPath}}_Pt.winter.006}}",
+"{{TargetWithoutPath}}_Pt.winter.007": "{{i18n:{{TargetWithoutPath}}_Pt.winter.007}}",
+"{{TargetWithoutPath}}_Pt.winter.008": "{{i18n:{{TargetWithoutPath}}_Pt.winter.008}}",
+"{{TargetWithoutPath}}_Pt.rain.001": "{{i18n:{{TargetWithoutPath}}_Pt.rain.001}}",
+"{{TargetWithoutPath}}_Pt.rain.002": "{{i18n:{{TargetWithoutPath}}_Pt.rain.002}}",
+"{{TargetWithoutPath}}_Pt.rain.003": "{{i18n:{{TargetWithoutPath}}_Pt.rain.003}}",
+"{{TargetWithoutPath}}_Pt.rain.004": "{{i18n:{{TargetWithoutPath}}_Pt.rain.004}}",
+"{{TargetWithoutPath}}_Pt.rain.005": "{{i18n:{{TargetWithoutPath}}_Pt.rain.005}}",
+"{{TargetWithoutPath}}_Pt.rain.006": "{{i18n:{{TargetWithoutPath}}_Pt.rain.006}}",
+"{{TargetWithoutPath}}_Pt.rain.007": "{{i18n:{{TargetWithoutPath}}_Pt.rain.007}}",
+}
+ },
+/////This is Barrons Default Dialogue
+{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Barron,Characters/Dialogue/Phoebe",
+    "Update": "OnTimeChange",
+      "Entries": {
+        "Introduction": "{{i18n:intro.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "danceRejection": "{{i18n:rejection.{{TargetWithoutPath}}.{{Random:1,2,3,4}}}}",
+        "divorced": "{{i18n:divorced.{{TargetWithoutPath}}.{{Random:1,2,3,4,5,6}}}}",
+        "breakUp": "{{i18n:breakup.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+       "Mon": "{{i18n:mon.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "Tue": "{{i18n:tue.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",    
+        "Wed": "{{i18n:wed.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "Thu": "{{i18n:thu.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "Fri": "{{i18n:fri.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "Sat": "{{i18n:sat.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "Sun": "{{i18n:sun.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+        "Resort_Entering": "{{i18n:enter.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+        "Resort_Leaving": "{{i18n:leave.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+        "Resort_Shore": "{{i18n:shore.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+        "Resort_Umbrella": "{{i18n:umbrella.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+        "Resort_Wander": "{{i18n:wander.{{TargetWithoutPath}}{{Random:1,2}}}}",
+        "Resort_Bar": "{{i18n:bar.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+        "Resort": "{{i18n:resort.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+      }
+        },
+/*//Marriage Dialogue*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueBarron",
+      "Entries": {
+        "patio_Barron": "{{i18n:patio.Barron.{{season}}.{{Random:1,2}}}}",
+        "spouseRoom_Barron": "{{i18n:spouseroom.Barron.{{season}}.{{Random:1,2}}}}",
+        "Rainy_Day_0": "{{i18n:rainyday_0.Barron.{{Random:1,2}}}}",
+        "Rainy_Day_1": "{{i18n:rainyday_0.Barron.{{Random:1,2}}}}",
+        "Rainy_Day_2": "{{i18n:rainyday_0.Barron.{{Random:1,2,}}}}",
+        "Rainy_Night_0": "{{i18n:rainynight_0.Barron.{{Random:1,2}}}}",
+        "Rainy_Night_1": "{{i18n:rainynight_1.Barron.{{Random:1,2}}}}",
+        "Rainy_Night_2": "{{i18n:rainynight_2.Barron.{{Random:1,2}}}}",
+        "Indoor_Day_0": "{{i18n:indoorday_0.Barron.{{Random:1,2}}}}",
+        "Indoor_Day_1": "{{i18n:indoorday_1.Barron.{{Random:1,2}}}}",
+        "Indoor_Day_2": "{{i18n:indoorday_2.Barron.{{Random:1,2,}}}}",
+        "Indoor_Night_0": "{{i18n:indoornight_0.Barron.{{Random:1,2}}}}",
+        "Indoor_Night_1": "{{i18n:indoornight_1.Barron.{{Random:1,2}}}}",
+        "Indoor_Night_2": "{{i18n:indoornight_2.Barron.{{Random:1,2}}}}",
+        "Outdoor_0": "{{i18n:outdoor_0.Barron.{{Random:1,2}}}}",
+        "Outdoor_1": "{{i18n:outdoor_1.Barron.{{Random:1,2}}}}",
+        "Outdoor_2": "{{i18n:outdoor_3.Barron.{{Random:1,2}}}}",
+        "funLeave_Barron": "{{i18n:funleave.Barron.{{Random:1,2}}}}",
+        "funReturn_Barron": "{{i18n:funreturn.Barron.{{Random:1,2}}}}",
+        "jobLeave_Barron": "{{i18n:jobleave.Barron.{{Random:1,2}}}}",
+        "jobReturn_Barron": "{{i18n:jobreturn.Barron.{{Random:1,2}}}}",
+        "OneKid_0": "{{i18n:onekids_0.Barron.{{Random:1,2}}}}",
+        "OneKid_1": "{{i18n:onekids_1.Barron.{{Random:1,2}}}}",
+        "OneKid_2": "{{i18n:onekids_2.Barron.{{Random:1,2}}}}",
+        "TwoKids_0": "{{i18n:twokids_0.Barron.{{Random:1,2}}}}",
+        "TwoKids_1": "{{i18n:twokids_0.Barron.{{Random:1,2}}}}",
+        "TwoKids_2": "{{i18n:twokids_0.Barron.{{Random:1,2}}}}",
+        "Good_0": "{{i18n:good_0.Barron.{{Random:1,2}}}}",
+        "Good_1": "{{i18n:good_1.Barron.{{Random:1,2}}}}",
+        "Good_2": "{{i18n:good_2.Barron.{{Random:1,2}}}}",
+        "Neutral_0": "{{i18n:neutral_0.Barron.{{Random:1,2}}}}",
+        "Neutral_1": "{{i18n:neutral_1.Barron.{{Random:1,2}}}}",
+        "Neutral_2": "{{i18n:neutral_2.Barron.{{Random:1,2}}}}",
+        "Bad_0": "{{i18n:bad_0.Barron.{{Random:1,2}}}}",
+        "Bad_1": "{{i18n:bad_1.Barron.{{Random:1,2}}}}",
+        "Bad_2": "{{i18n:bad_2.Barron.{{Random:1,2}}}}",
+        }
+    }, 
+     {
+"LogName": "Marriage Dialogue",
+"Action": "Load",
+"Target": "Characters/Dialogue/MarriageDialogueBarron",
+"FromFile": "assets/empty.json",
+ },
+    // Creates engagement dialgoue, you need this to marry them.Its set up for easy translation. The actual dialgoue goes into the translation file.
+ {
+"LogName": "Engagement Dialogue",
+"Action": "EditData",
+"Target": "Data/EngagementDialogue",
+"Entries": {
+"Barron0": "{{i18n:Barron.engagement.0}}",
+"Barron1": "{{i18n:Barron.engagement.1}}",
+
+}
+ },
+  {
+"LogName": "Barron Coriel Courtship",
+"Action": "EditData",
+"Target": "Characters/Dialogue/Barron",
+"When": {
+"HasMod |contains=misscoriel.courtship": true
+},
+"Entries": {
+"give_flowersA": "{{i18n:{{TargetWithoutPath}}.courtship.give_flowersA}}",
+"give_flowersB": "{{i18n:{{TargetWithoutPath}}.courtship.give_flowersB}}",
+"give_pendant": "{{i18n:{{TargetWithoutPath}}.courtship.give_pendant}}",
+"stardrop_gift": "{{i18n:{{TargetWithoutPath}}.courtship.stardrop_gift}}",
+"rejectLyellA": "{{i18n:{{TargetWithoutPath}}.courtship.rejectLyellA}}",
+"rejectLyellB": "{{i18n:{{TargetWithoutPath}}.courtship.rejectLyellB}}",
+"reject_two_heartA": "{{i18n:{{TargetWithoutPath}}.courtship.reject_two_heartA}}",
+"reject_two_heartB": "{{i18n:{{TargetWithoutPath}}.courtship.reject_two_heartB}}",
+"reject_four_heartA": "{{i18n:{{TargetWithoutPath}}.courtship.reject_four_heartA}}",
+"reject_four_heartB": "{{i18n:{{TargetWithoutPath}}.courtship.reject_four_heartB}}",
+"engageA": "{{i18n:{{TargetWithoutPath}}.courtship.engageA}}",
+"engageB": "{{i18n:{{TargetWithoutPath}}.courtship.engageB}}",
+"marriedA": "{{i18n:{{TargetWithoutPath}}.courtship.marriedA}}",
+"marriedB": "{{i18n:{{TargetWithoutPath}}.courtship.marriedB}}",
+"refusal_no_heartsA": "{{i18n:{{TargetWithoutPath}}.courtship.refusal_no_heartsA}}",
+"refusal_no_heartsB": "{{i18n:{{TargetWithoutPath}}.courtship.refusal_no_heartsB}}",
+"refusal_knownA": "{{i18n:{{TargetWithoutPath}}.courtship.refusal_knownA}}",
+"refusal_knownB": "{{i18n:{{TargetWithoutPath}}.courtship.refusal_knownB}}",
+"refusal_botherA": "{{i18n:{{TargetWithoutPath}}.courtship.refusal_botherA}}",
+"refusal_botherB": "{{i18n:{{TargetWithoutPath}}.courtship.refusal_botherB}}",
+"birthdayLoveA": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayLoveA}}",
+"birthdayLoveB": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayLoveB}}",
+"birthdayLikeA": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayLikeA}}",
+"birthdayLikeB": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayLikeB}}",
+"birthdayDislikeA": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayDislikeA}}",
+"birthdayDislikeB": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayDislikeB}}",
+"birthdayNeutralA": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayNeutralA}}",
+"birthdayNeutralB": "{{i18n:{{TargetWithoutPath}}.courtship.birthdayNeutralB}}",
+"baby_anxiety": "{{i18n:{{TargetWithoutPath}}.courtship.baby_anxiety}}",
+"adopt_excitedA": "{{i18n:{{TargetWithoutPath}}.courtship.adopt_excitedA}}",
+"adopt_excitedB": "{{i18n:{{TargetWithoutPath}}.courtship.adopt_excitedB}}",
+"morningsick": "{{i18n:{{TargetWithoutPath}}.courtship.morningsick}}",
+"moodyPregnant": "{{i18n:{{TargetWithoutPath}}.courtship.moodyPregnant}}",
+"informPregnancyA": "{{i18n:{{TargetWithoutPath}}.courtship.informPregnancyA}}",
+"informPregnancyB": "{{i18n:{{TargetWithoutPath}}.courtship.informPregnancyB}}",
+"yourePregnantA": "{{i18n:{{TargetWithoutPath}}.courtship.yourePregnantA}}",
+"yourePregnantB": "{{i18n:{{TargetWithoutPath}}.courtship.yourePregnantB}}",
+"annoyedParent": "{{i18n:{{TargetWithoutPath}}.courtship.annoyedParent}}",
+"aloneTime": "{{i18n:{{TargetWithoutPath}}.courtship.aloneTime}}",
+"giftquestion_yes": "{{i18n:{{TargetWithoutPath}}.courtship.giftquestion_yes}}",
+"giftquestion_lie": "{{i18n:{{TargetWithoutPath}}.courtship.giftquestion_lie}}",
+}
+ },
+ /************************************************
+ ** Schedules
+ ************************************************/
+  {
+"LogName": "load schedules",
+"Action": "Load",
+"Target": "Characters/schedules/Phoebe",
+ "Update": "OnTimeChange, OnLocationChange",
+"FromFile": "assets/Schedules/Phoebe_Schedule_ES.json", ///keep the json as empty so you can edit it and use tokens
+        },
+          {
+"LogName": "load schedules",
+"Action": "Load",
+"Target": "Characters/schedules/Barron",
+"FromFile": "assets/Schedules/Barron_Schedule_ES.json", ///keep the json as empty so you can edit it and use tokens
+        },
+ {
+"LogName": "Schedule strings",
+"Action": "Load",
+"Target": "Strings/schedules/Barron,Strings/schedules/Phoebe",
+"FromFile": "assets/empty.json", ///keep the json as empty so you can edit it and use tokens
+ },
+
+///Mail and Quest patches
+ {
+"LogName": "Mail",
+"Action": "EditData",
+"Target": "data/mail",
+"Entries": {
+"Fellowclown.TD_PlayHouse.Mail": "{{i18n:Mail.PlayHouse}}[#]{{i18n:PlayHouse.Title}}",
+}
+},
+         {
+            "LogName": "Farm Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "98821/e 800023/x Fellowclown.TD_PlayHouse.Mail": "null",
+      
+            }
+        },
+
+
+///To make the mail spawn in the farm mailbox, you must write an Event for it in your Event file, that is located in your mod folder under assets/data
+
+ /************************************************
+ ** Sprites and portraits
+ ************************************************/
+ // animations for your schedules and the resort
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"Barron_sleep": "16/16/16",
+"Barron_Type": "16/16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17/17",
+"Barron_Cook": "18/18 18 18 18 18 19 19 19 19 19 20 20 20 20 20 20 19 19 19 19 19/19",
+"Barron_Bath": "17/17 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 20 20 20 20 20 19 19 19 19 20 20 20 20 20 19 19 19 19 20 20 20 20 20 19 19 19 19/17",
+"Barron_Water": "26/26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27/27",
+"Barron_Bench_Sit": "21/21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22/22",
+"Barron_Bench_Drink1": "23/24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23/23",
+"Barron_Read": "12/22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 21/21",
+}
+ },
+ // Everyday sprites and Portraits
+  {
+"LogName": "Barron, NpcTwo Portraits",
+"Action": "Load",
+"Target": "Portraits/Barron,Portraits/Jinx,Portraits/Phoebe",
+"FromFile": "assets/Image/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png", ///The base loads first to avoid load errors in smapi
+"Update": "OnLocationChange"
+ },
+ {
+"LogName": "Barron, NpcTwo Sprites",
+"Action": "Load",
+"Target": "Characters/Barron,Characters/Jinx,Characters/Phoebe",
+"FromFile": "assets/Image/Sprites/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png",///The base loads first to avoid load errors in smapi
+  },
+   {
+"LogName": "Barron, NpcTwo Sprites",
+"Action": "Load",
+"Target": "Characters/FlamesTrailer,Characters/BarronsBus,Characters/PhoebesCar",
+"FromFile": "assets/Image/TempActors/Sprites/{{TargetWithoutPath}}.png",///The base loads first to avoid load errors in smapi
+  },
+{
+"LogName": "Barron, NpcTwo seasional portraits",
+"Action": "EditImage",
+"Target": "Portraits/Barron,Portraits/Phoebe",
+"FromFile": "assets/Image/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{season}}.png", // This patch adds a seasonal and weather edit, so your Barron changes clothing during the seasons an weather
+ },
+ {
+"LogName": "Barron, NpcTwo seasional Sprites",
+"Action": "EditImage",
+"Target": "Characters/Barron,Characters/Phoebe",
+"FromFile": "assets/Image/Sprites/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{season}}.png", // This patch adds a seasonal and weather edit, so your Barron changes clothing during the seasons an weather
+ }, 
+   {
+"LogName": "Barron, NpcTwo Festivals portraits",
+"Action": "EditImage",
+"Target": "Characters/Barron",
+"Update": "OnLocationChange",
+"FromFile": "assets/Image/Sprites/Barron/Festivals/flower dance.png", // This patch adds a seasonal and weather edit, so your Barron changes clothing during the seasons an weather
+ "When":
+{
+"LocationName": "Temp",
+"HasFile:{{FromFile}}": true,
+"DayEvent": "flower dance",
+}
+ },
+ {
+"LogName": "Barron, NpcTwo Festivals portraits",
+"Action": "EditImage",
+"Target": "Portraits/Barron",
+"Update": "OnLocationChange",
+"FromFile": "assets/Image/Portraits/Barron/Festivals/flower dance.png", // This patch adds a seasonal and weather edit, so your Barron changes clothing during the seasons an weather
+ "When":
+{
+"LocationName": "Temp",
+"HasFile:{{FromFile}}": true,
+"DayEvent": "flower dance",
+}
+ },
+   {
+"LogName": "Barron, NpcTwo Festivals portraits",
+"Action": "EditImage",
+"Target": "Characters/Barron",
+"FromFile": "assets/Image/Sprites/Barron/Festivals/spirit's eve.png", // This patch adds a seasonal and weather edit, so your Barron changes clothing during the seasons an weather
+ "Update": "OnLocationChange",
+ "When":
+{
+"LocationName": "Temp",
+"HasFile:{{FromFile}}": true,
+"DayEvent": "spirit's eve",
+}
+ },
+ {
+"LogName": "Barron, NpcTwo Festivals portraits",
+"Action": "EditImage",
+"Target": "Portraits/Barron",
+"Update": "OnLocationChange",
+"FromFile": "assets/Image/Portraits/Barron/Festivals/spirit's eve.png", // This patch adds a seasonal and weather edit, so your Barron changes clothing during the seasons an weather
+ "When":
+{
+"LocationName": "Temp",
+"HasFile:{{FromFile}}": true,
+"DayEvent": "spirit's eve",
+}
+ },
+  {
+"LogName": "Barron, NpcTwo Sleep Portraits",
+"Action": "EditImage",
+"Target": "Portraits/Barron",
+"FromFile": "assets/Image/Portraits/{{TargetWithoutPath}}/SleepWear.png",
+"Update": "OnTimeChange, OnLocationChange",
+"When":
+{
+"LocationName": "Custom_Fellowclown_TravelingTrailer", //you can add custom locations
+"Time": "{{Range: 2300, 2600}}"
+}
+ },
+ {
+"LogName": "Barron, NpcTwo sleep sprites",
+"Action": "EditImage",
+"Target": "Characters/Barron",
+"FromFile": "assets/Image/Sprites/{{TargetWithoutPath}}/SleepWear.png",
+ "Update": "OnTimeChange, OnLocationChange",
+
+"When":
+{
+"LocationName": "Custom_Fellowclown_TravelingTrailer", //you can add custom locations
+"Time": "{{Range: 2200, 2600}}"
+}
+ },
+   {
+"LogName": "Barron, NpcTwo Swimsuits",
+"Action": "EditImage",
+"Target": "Portraits/Barron",
+"FromFile": "assets/Image/Portraits/{{TargetWithoutPath}}/SwimWear.png",
+"When":
+{
+"LocationName": "Custom_ESInnBath", //you can add custom locations and Vanilla ones
+},
+"Update": "OnLocationChange"
+ },
+   {
+"LogName": "Barron, NpcTwo Swimsuits ",
+"Action": "EditImage",
+"Target": "Characters/Barron",
+"FromFile": "assets/Image/Sprites/{{TargetWithoutPath}}/SwimWear.png",
+"When":
+{
+"LocationName": "Custom_ESInnBath", //you can add custom locations and Vanilla ones
+},
+"Update": "OnLocationChange"
+ },
+]
+}

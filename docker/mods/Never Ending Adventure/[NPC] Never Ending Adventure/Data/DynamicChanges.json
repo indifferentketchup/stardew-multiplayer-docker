@@ -1,0 +1,117 @@
+{
+  "Changes":
+  [
+
+// ARMOR EQUIPPED IN THE MINES 
+
+{
+  "LogName": "Adventure Gear",
+  "Action": "EditImage",
+  "Target": "Portraits/Mateo",
+  "FromFile": "assets/{{Target}}/{{MateoArmor}}",
+  "When": {"LocationName": "Mine"},
+  "Update": "OnLocationChange"
+},
+
+{
+  "LogName": "Adventure Gear",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo",
+  "FromFile": "assets/{{Target}}/armored_mateo.png",
+  "When": {"LocationName": "Mine"},
+  "Update": "OnLocationChange"
+},
+
+// FESTIVAL OUTFITS
+
+{
+  "LogName": "Egg Festival Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo, Portraits/Mateo",
+  "FromFile": "Assets/{{Target}}/eggfair_mateo.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "egg festival",
+  "LocationName": "Temp"
+  }
+},
+{
+  "LogName": "Flower Dance (Single) Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo, Portraits/Mateo",
+  "FromFile": "Assets/{{Target}}/flowerdance_winterstar_mateo.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "flower dance",
+  "LocationName": "Temp"
+  }
+},
+{
+  "LogName": "Flower Dance (Married) Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo, Portraits/Mateo",
+  "FromFile": "Assets/{{Target}}/flowerdance_married_mateo.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "flower dance",
+  "LocationName": "Temp",
+  "Relationship:Mateo": "Married"
+  }
+},
+{
+  "LogName": "Luau Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo, Portraits/Mateo",
+  "FromFile": "Assets/{{Target}}/luau_moonlight_mateo.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "luau",
+  "LocationName": "Temp"
+  }
+},
+{
+  "LogName": "Dance of the Moonlight Jellies Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo, Portraits/Mateo",
+  "FromFile": "Assets/{{Target}}/mateo_beach.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "dance of the moonlight jellies",
+  "LocationName": "Temp"
+  }
+},
+{
+  "LogName": "SDV Fair Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo, Portraits/Mateo",
+  "FromFile": "Assets/{{Target}}/eggfair_mateo.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "stardew valley fair",
+  "LocationName": "Temp"
+  }
+},
+{
+  "LogName": "Spirit's Eve Sprites/Portraits",
+  "Action": "EditImage",
+  "Target": "Characters/Mateo",
+  "FromFile": "Assets/{{Target}}/spiriteve_mateo.png",
+  "Update": "OnLocationChange",
+  "When": {
+  "DayEvent": "spirit's eve",
+  "LocationName": "Temp"
+  }
+},
+{
+ "LogName": "Feast of the Winter Star Sprites/Portraits",
+ "Action": "EditImage",
+ "Target": "Characters/Mateo, Portraits/Mateo",
+ "FromFile": "Assets/{{Target}}/flowerdance_winterstar_mateo.png",
+ "Update": "OnLocationChange",
+ "When": {
+ "DayEvent": "feast of the winter star",
+ "LocationName": "Temp"
+  }
+}
+]
+}

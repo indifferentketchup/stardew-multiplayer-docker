@@ -1,0 +1,13 @@
+{
+  "Name": "Dwarf Portrait Replacement",
+  "Author": "LavenderSkelly",
+  "Version": "1.0.3",
+  "Description": "Replaces Dwarfs Portrait. has two options, Static and Emotions.",
+  "UniqueID": "LavenderSkelly.DwarfPortraitReplacement",
+  "MinimumApiVersion": "2.9",
+  "UpdateKeys": [ "Nexus:14916" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.6.1"
+  }
+}

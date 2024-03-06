@@ -1,0 +1,521 @@
+{
+    "Format": "1.25",
+    "ConfigSchema": {
+        "14HWithoutPerfection": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "If you don't want to wait until you've reached perfection to see the 14H, select 'true'."
+        },
+        "ActivateAltSpiritsEvent": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "If you are using an edited farm map or just worried, select 'true'."
+        }
+    },
+    "DynamicTokens": [
+        //Is SVE installed
+        {
+            "Name": "HasSVE",
+            "Value": "vanilla",
+        },
+        {
+            "Name": "HasSVE",
+            "Value": "SVE",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        //Adjust Spirit's Eve event trigger
+        {
+            "Name": "AltSpiritsEvent",
+            "Value": "false",
+        },
+        {
+            "Name": "AltSpiritsEvent",
+            "Value": "true",
+            "When": {
+                "ActivateAltSpiritsEvent": "true"
+            }
+        },
+        {
+            "Name": "AltSpiritsEvent",
+            "Value": "true",
+            "When": {
+                "FarmType": "Standard",
+                "HasMod": "flashshifter.GrandpasFarm",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        //Trigger for the 14 heart event
+        {
+            "Name": "Trigger14Event",
+            "Value": "false"
+        },
+        {
+            "Name": "Trigger14Event",
+            "Value": "true",
+            "When": {
+                "14HWithoutPerfection": true
+            }
+        },
+        {
+            "Name": "Trigger14Event",
+            "Value": "true",
+            "When": {
+                "HasFlag": "Farm_Eternal"
+            }
+        },
+        //Stops Krobus talking on certain days
+        {
+            "Name": "DayOfSilence",
+            "Value": "notSunday",
+        },
+        {
+            "Name": "DayOfSilence",
+            "Value": "Sunday",
+            "When": {
+                "DayOfWeek": "Sunday"
+            }
+        },
+        //Sets where Gunther stands
+        {
+            "Name": "GuntherPosition",
+            "Value": "Gunther 3 8 2",
+        },
+        {
+            "Name": "GuntherPosition",
+            "Value": "Gunther 4 8 2",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        //Is Jasper installed?
+        {
+            "Name": "guntherorjasper",
+            "Value": "gunther",
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": false
+            }
+        },
+        {
+            "Name": "guntherorjasper",
+            "Value": "jasper",
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": true
+            }
+        },
+        //HasFlag Dwarf_Friend
+        {
+            "Name": "Jasper_DwarfFriend",
+            "Value": "false",
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": false
+            }
+        },
+        {
+            "Name": "Jasper_DwarfFriend",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": true,
+                "HasFlag": "Dwarf_Friend"
+            }
+        },
+        {
+            "Name": "Jasper_DwarfFriend",
+            "Value": "true.spouse",
+            "When": {
+                "HasMod |contains=Lemurkat.NPCJasper": true,
+                "HasFlag": "Dwarf_Friend",
+                "Relationship:Jasper": "married"
+            }
+        },
+        //For SVE compatability
+        {
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
+        {
+            "Name": "JustAddMonsters",
+            "Value": "addTemporaryActor Skeleton 16 32 30 59 2 false Monster/advancedMove Skeleton true 0 1 3 4000 2 0 0 -1 4 2000 -1 0 3 1000 2 2000 0 -1 4 4000 -1 0 0 1 2 5000/addTemporaryActor Skeleton 16 32 35 58 2 false Monster",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Name": "JustAddMonsters",
+            "Value": "addTemporaryActor Skeleton 16 32 30 59 2 false Monster/advancedMove Skeleton true 0 1 3 4000 2 0 0 -1 4 2000 -1 0 3 1000 2 2000 0 -1 4 4000 -1 0 0 1 2 5000/addTemporaryActor Skeleton 16 32 35 58 2 false Monster/addTemporaryActor Shadow_Brute 16 32 46 59 2 false Monster/addTemporaryActor Shadow_Brute 16 32 43 58 2 false Monster/advancedMove Shadow_Brute true -4 0 3 5000 4 0 2 5000 1 3000 2 1000/addTemporaryActor Skeleton_Mage 16 32 51 32 2 false Monster/advancedMove Skeleton_Mage true -2 0 0 2 1 6000 0 -2 2 0 2 5000/addTemporaryActor Wilderness_Golem 16 24 63 25 3 false Monster/advancedMove Wilderness_Golem true -9 0 0 2 2 1000 0 -2 9 0 2 1500/addTemporaryActor Stone_Golem 16 24 54 32 1 false Monster/advancedMove Stone_Golem true 9 0 4 1000 -9 0 4 400/addTemporaryActor Shadow_Shaman 16 24 68 23 2 false Monster/advancedMove Shadow_Shaman true 1 1500 2 2000 3 3000 2 5000 4 1000/addTemporaryActor Metal_Head 16 16 74 27 2 false Monster/advancedMove Metal_Head true -4 0 2 200 4 0 4 100/addTemporaryActor Mummy 16 32 74 24 2 false Monster/advancedMove Mummy true -2 0 3 200 2 0 2 6000",
+            "When": {
+                "IsOddYear": true,
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+        },
+        {
+            "Name": "JustAddMonsters",
+            "Value": "addTemporaryActor Mummy 16 32 28 71 2 false Monster/advancedMove Mummy true 4 12000 -2 0 4 5000 2 0 1 2000 2 4000 1 300 4 1000/addTemporaryActor Skeleton 16 32 23 70 0 false Monster/advancedMove Skeleton true 4 9000 1 0 0 -1 4 12000 1 500 2 1000 0 1 2 600 -1 0 3 500 4 500/addTemporaryActor Wilderness_Golem 16 24 25 73 2 false Monster/advancedMove Wilderness_Golem true 4 5000 8 0 4 7000 1 2000 4 400 3 500 -8 0 3 500 4 500/addTemporaryActor Shadow_Shaman 16 24 30 69 2 false Monster/advancedMove Shadow_Shaman true 4 8000 1 4000 4 3000 2 6000 -1 0 2 4000 4 3000 2 500 3 0 1 6000 4 6000 3 2000 -2 0 3 500 4 2000/addTemporaryActor Stone_Golem 16 24 31 72 2 false Monster/advancedMove Stone_Golem true 4 4000 1 4000 4 3000 1 3500 4 2000 0 -1 4 4000 1 3000 -1 0 3 3000 4 5000 1 500 1 0 1 4000 0 1 2 1000 3 500 4 1000/addTemporaryActor Shadow_Brute 16 32 33 71 1 false Monster/advancedMove Shadow_Brute true 1 3000 4 600 0 -2 4 500 1 10000 4 5000 1 2000 2 700 0 2 2 600 1 4000",
+            "When": {
+                "IsOddYear": false,
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        }
+    ],
+    "Changes": [
+        //Loads Character sprite (contains 'hug' sprite image)
+        {
+            "Action": "Load",
+            "Target": "Characters/Dwarf",
+            "FromFile": "assets/sprites/Dwarf.png"
+        },
+        {
+            "LogName": "New lines of dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue.json"
+        },
+        //Temporary Maps and sprites ****************************
+        {
+            "Action": "Load",
+            "Target": "Characters/CinderDwarf",
+            "FromFile": "assets/sprites/Sprites_CinderDwarf.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/CinderDwarf",
+            "FromFile": "assets/sprites/Portrait_CinderDwarf.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/FlyingDwarfMachine",
+            "FromFile": "assets/sprites/DwarfKrobusFlying.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/DwarfBathtub",
+            "FromFile": "assets/sprites/Bathtub.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/SmoluanuFriendshipHelm",
+            "FromFile": "assets/sprites/smoluanuHelm.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/VolcanoDwarfShop",
+            "FromFile": "assets/maps/VolcanoDwarfShop.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/NightBGDwarf",
+            "FromFile": "assets/maps/NightBGDwarf.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FloodedSewerMap",
+            "FromFile": "assets/maps/FloodedSewer.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Summit_Night",
+            "FromFile": "assets/maps/Summit_Night_{{HasSVE}}.tmx"
+        },
+        {
+            "LogName": "Loads blank data/event file (if other mods aren't doing so)",
+            "Action": "Load",
+            "Target": "Data/Events/Caldera",
+            "FromFile": "assets/blank.json",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP, Lemurkat.NPCJasper": false
+            }
+        },
+        /*{
+            "LogName": "Loads blank data/event file (if other mods aren't doing so)",
+            "Action": "Load",
+            "Target": "Data/Events/Summit",
+            "FromFile": "assets/blank.json",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },*/
+        //Heart Events --------------------------------------------------------------------------------------
+        {
+            "LogName": "Town Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                //2 heart event
+                "96420002/f Dwarf 500/t 2200 2600/w sunny": "nightTime/54 81/farmer 49 81 1 Dwarf 54 88 0/skippable/pause 100/advancedMove farmer false 5 0 4 1000/speed Dwarf 4/advancedMove Dwarf false 0 -10 4 1000/pause 2500/emote farmer 8/jump Dwarf 5/faceDirection Dwarf 2/emote Dwarf 16/playSound potterySmash/addObject 54 79 100 0/speak Dwarf \"{{i18n:96420002.01}}\"/emote farmer 60/quickQuestion #{{i18n:96420002.02}}#{{i18n:96420002.03}}(break)emote Dwarf 32\\speak Dwarf \"{{i18n:96420002.04}}\"(break)emote Dwarf 28\\speak Dwarf \"{{i18n:96420002.05}}\"/pause 100/emote farmer 12/pause 500/speak Dwarf \"{{i18n:96420002.06}}\"/pause 500/playSound pickUpItem/removeSprite 54 79/pause 500/emote Dwarf 40/pause 500/speak Dwarf \"{{i18n:96420002.07}}\"/advancedMove Dwarf false 0 -7 6 0 0 -5/pause 500/emote Dwarf 56/pause 500/emote farmer 8/addConversationTopic DwarfPot 7/pause 2000/end",
+                //10 heart event
+                "96420011/w rainy/e 96420012/e 96420010/t 2350 2600/f Krobus 2500/f Dwarf 2500": "rain/34 99/Krobus -1000 -1000 2 Dwarf 40 101 3 farmer 29 101 1/skippable/addTemporaryActor FlyingDwarfMachine 32 32 34 97 3 false/addLantern 735 41 99 3/move farmer 5 0 1 true/move Dwarf -5 0 3 true/pause 2000/textAboveHead Dwarf \"{{i18n:96420011.01}}\"/emote farmer 32/pause 500/speak Dwarf \"{{i18n:96420011.02}}\"/faceDirection farmer 2/pause 50/faceDirection farmer 3/pause 50/faceDirection farmer 0/pause 50/faceDirection farmer 1/pause 500/emote farmer 8/speak Dwarf \"{{i18n:96420011.03}}\"/emote farmer 16/pause 500/jump Dwarf 5/emote Dwarf 12/speak Dwarf \"{{i18n:96420011.04}}\"/pause 500/textAboveHead FlyingDwarfMachine \"{{i18n:96420011.05}}\"/faceDirection Dwarf 0 true/faceDirection farmer 0 true/pause 2000/textAboveHead FlyingDwarfMachine \"{{i18n:96420011.06}}\"/pause 500/jump Dwarf 5 true/jump farmer 5 true/warp FlyingDwarfMachine -1000 -1000/speed farmer 4/move farmer 0 -4 0 true/speed Dwarf 4/move Dwarf 0 -4 0 true/pause 500/textAboveHead Dwarf \"{{i18n:96420011.07}}\"/pause 1000/fade/viewport -100 -100/playSound doorCreak/pause 500/playSound stairsdown/stopMusic/changeToTemporaryMap FloodedSewerMap/viewport -100 -100/warp Krobus 27 17/advancedMove Krobus true 0 2 -1 0 0 -2 1 0/warp Dwarf 12 12/faceDirection Dwarf 2/playMusic Overcast/viewport 12 11 clamp true/pause 500/warp farmer 12 9/playSound stoneStep/shake Dwarf 250/pause 250/emote Dwarf 16/playSound stoneStep/advancedMove Dwarf false 0 2 0 1/positionOffset farmer 0 16/pause 500/playSound stoneStep/positionOffset farmer 0 16/pause 500/jump Dwarf 5/pause 1000/textAboveHead Dwarf \"{{i18n:96420011.08}}\"/pause 500/faceDirection Dwarf 0/move farmer 0 4 2/faceDirection Dwarf 2/move farmer -1 0 2/move farmer 0 2 2/showFrame farmer 96/emote farmer 16/speak Dwarf \"{{i18n:96420011.09}}\"/emote farmer 40/pause 500/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420011.10}}\"/showFrame farmer 0/pause 500/jump farmer 2/move farmer 0 1 2/faceDirection Dwarf 2/swimming farmer/speed farmer 1/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/pause 40/positionOffset farmer 0 4/message \"{{i18n:96420011.11}}\"/faceDirection farmer 0/emote farmer 28/pause 1000/jump Dwarf 5/speed Dwarf 6/advancedMove Dwarf false 0 -6/pause 1500/fade/viewport -100 -100/warp Dwarf -1000 -1000/pause 1000/playSound waterSlosh/pause 80/playSound waterSlosh/stopSwimming farmer/pause 500/speak Krobus \"{{i18n:96420011.12}}\"/animate FlyingDwarfMachine false true 100 0 1 2 3 4/playSound clank/pause 100/playSound clank/warp FlyingDwarfMachine 11 9/warp farmer 13 14/faceDirection farmer 0/viewport 11 13 clamp true/playMusic crane_game/pause 500/textAboveHead FlyingDwarfMachine \"{{i18n:96420011.13}}\"/stopAdvancedMoves/jump farmer 5/emote farmer 16/pause 500/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/faceDirection farmer 3 true/emote farmer 32 true/pause 5/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/pause 20/positionOffset FlyingDwarfMachine 0 16/fade/viewport -100 -100/faceDirection farmer 2 true/warp Krobus 28 19/warp FlyingDwarfMachine 26 19/viewport 27 19 clamp true/textAboveHead FlyingDwarfMachine \"{{i18n:96420011.14}}\"/faceDirection Krobus 3/jump Krobus 5/emote Krobus 20/pause 500/speak Krobus \"{{i18n:96420011.15}}\"/pause 500/speak Dwarf \"{{i18n:96420011.16}}\"/fade/viewport -100 -100/playSound shadowHit/pause 500/playSound thudStep/speak Dwarf \"{{i18n:96420011.17}}\"/pause 500/speak Krobus \"{{i18n:96420011.18}}\"/pause 500/playSound clank/pause 500/playSound clank/stopMusic/warp Krobus -1000 -1000/animate FlyingDwarfMachine false true 100 7 8 9 10 11/warp FlyingDwarfMachine 27 22/playMusic crane_game_fast/viewport 20 22 clamp true/pause 500/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/pause 20/positionOffset FlyingDwarfMachine -16 0/fade/viewport -100 -100/showFrame Krobus 0/warp FlyingDwarfMachine -1000 -1000/changeLocation Town/stopMusic/viewport -100 -100/warp farmer 34 100 true/warp Dwarf 35 101 true/warp Krobus 33 101 true/faceDirection Dwarf 3/faceDirection Krobus 1/playMusic Overcast/addLantern 735 41 99 3/viewport 34 102 clamp true/pause 500/speak Krobus \"{{i18n:96420011.19}}\"/pause 500/emote Dwarf 60/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420011.20}}\"/speed Krobus 5/advancedMove Krobus false 1 0/pause 1000/positionOffset Krobus 4 0/positionOffset Krobus 4 0/showFrame Krobus 16/positionOffset Krobus 4 0/positionOffset Krobus 4 0/pause 1000/emote Dwarf 60/pause 2000/positionOffset Dwarf 4 0/showFrame Dwarf 30/pause 2000/emote farmer 20/pause 2000/end"
+            }
+        },
+        {
+            "LogName": "Spirits Eve Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "AltSpiritsEvent": "false"
+            },
+            "Entries": {
+                //post spirit's eve event: teleports you back into town after main event
+                //3 heart event (3 hearts with Dwarf and 3 hearts with Krobus) ONLY triggers on Spirit's Eve
+                "96420003/e 691039/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer 25 55 2 Dwarf 24 69 2 Krobus 35 62 0/changeToTemporaryMap Town-Halloween/skippable/warp Dwarf 24 69 true/warp Krobus 35 62 true/warp farmer 25 55 true/faceDirection Dwarf 2 true/{{JustAddMonsters}}/viewport 29 66/pause 2000/jump Dwarf 5/emote Dwarf 12/pause 1000/move Dwarf 3 0 2/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.01}}\"/pause 1000/playSound eat/pause 1000/move Dwarf 1 0 1/pause 500/speak Dwarf \"{{i18n:96420003.02}}\"/pause 500/move Dwarf 0 -5 3 true/viewport move 0 -1 2000 true/pause 3000/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.03}}\"/playSound eat/faceDirection Krobus 3/emote Krobus 8/pause 500/move Dwarf 4 0 2 true/pause 1000/faceDirection Krobus 2/pause 1500/jump Dwarf 5/pause 500/playSound skeletonHit/faceDirection Dwarf 0/emote Dwarf 16/move Dwarf 0 -2 0/advancedMove farmer false 0 7 1 1000/faceDirection Krobus 3/speak Dwarf \"{{i18n:96420003.04}}\"/pause 1000/speak Krobus \"{{i18n:96420003.05}}\"/jump Dwarf 6/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420003.06}}\"/pause 1000/shake Dwarf 1000/pause 1000/move Krobus -1 0 3/pause 500/speak Krobus \"{{i18n:96420003.07}}\"/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420003.08}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420003.09.{{HasSVE}}}}\"/faceDirection Krobus 3/speak Krobus \"{{i18n:96420003.10}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420003.11}}\"/pause 500/speak Dwarf \"{{i18n:96420003.12}}\"/pause 500/move Dwarf -6 0 3 true/emote Krobus 28/viewport move -2 0 1500/textAboveHead Dwarf \"{{i18n:96420003.13}}\"/speak Dwarf \"{{i18n:96420003.14}}\"/emote farmer 36/pause 1000/question null \"{{i18n:96420003.15}}#{{i18n:96420003.16}}#\"/faceDirection Dwarf 1/pause 1000/emote Dwarf 40/move Krobus -5 0 3/emote Krobus 60/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420003.17}}\"/pause 500/speed Dwarf 4/advancedMove Dwarf false 0 -12 4 4000/pause 2000/move Krobus -3 0 3/speak Krobus \"{{i18n:96420003.18}}\"/pause 500/emote farmer 20/pause 2000/faceDirection Krobus 1/pause 1000/speak Krobus \"{{i18n:96420003.19}}\"/emote farmer 28/pause 2000/end",
+            }
+        },
+        //sends mail
+        {
+            "LogName": "Spirits Eve Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "96420007/e 96420006/x Krobus_LemonStoneRequest": "null",
+                "96420009/e 96420008/x Dwarf_GiftingKrobus": "null"
+            }
+        },
+        //With SVE but not Grandpa's map - odd year
+        {
+            "LogName": "Spirits Eve Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "IsOddYear": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "AltSpiritsEvent": "false"
+            },
+            "Entries": {
+                "96420003/e 691039/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer 25 55 2 Dwarf 24 69 2 Krobus 43 62 0/changeToTemporaryMap Town-Halloween/skippable/warp Dwarf 24 69 true/warp Krobus 35 62 true/warp farmer 25 55 true/faceDirection Dwarf 2 true/{{JustAddMonsters}}/viewport 29 66/pause 2000/jump Dwarf 5/emote Dwarf 12/pause 1000/move Dwarf 3 0 2/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.01}}\"/pause 1000/playSound eat/pause 1000/move Dwarf 1 0 1/pause 500/speak Dwarf \"{{i18n:96420003.02}}\"/pause 500/move Dwarf 0 -5 3 true/viewport move 0 -1 2000 true/pause 3000/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.03}}\"/playSound eat/faceDirection Krobus 3/emote Krobus 8/pause 500/move Dwarf 4 0 2 true/pause 1000/faceDirection Krobus 2/pause 1500/jump Dwarf 5/pause 500/playSound skeletonHit/faceDirection Dwarf 0/emote Dwarf 16/move Dwarf 0 -2 0/advancedMove farmer false 0 7 1 1000/faceDirection Krobus 3/speak Dwarf \"{{i18n:96420003.04}}\"/move Krobus -7 0 3/speak Krobus \"{{i18n:96420003.05}}\"/jump Dwarf 6/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420003.06}}\"/move Krobus -2 0 3/shake Dwarf 1000/pause 1000/move Krobus -1 0 3/pause 500/speak Krobus \"{{i18n:96420003.07}}\"/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420003.08}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420003.09.{{HasSVE}}}}\"/faceDirection Krobus 3/speak Krobus \"{{i18n:96420003.10}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420003.11}}\"/pause 500/speak Dwarf \"{{i18n:96420003.12}}\"/pause 500/move Dwarf -6 0 3 true/emote Krobus 28/viewport move -2 0 1500/textAboveHead Dwarf \"{{i18n:96420003.13}}\"/speak Dwarf \"{{i18n:96420003.14}}\"/emote farmer 36/pause 1000/question null \"{{i18n:96420003.15}}#{{i18n:96420003.16}}#\"/faceDirection Dwarf 1/pause 1000/emote Dwarf 40/move Krobus -5 0 3/emote Krobus 60/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420003.17}}\"/pause 500/speed Dwarf 4/advancedMove Dwarf false 0 -12 4 4000/pause 2000/move Krobus -3 0 3/speak Krobus \"{{i18n:96420003.18}}\"/pause 500/emote farmer 20/pause 2000/faceDirection Krobus 1/pause 1000/speak Krobus \"{{i18n:96420003.19}}\"/emote farmer 28/pause 2000/end",
+            }
+        },
+        { //with SVE but not Grandpa's farm - even year
+            "LogName": "SVE Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "IsOddYear": false,
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+                "AltSpiritsEvent": "false"
+            },
+            "Entries": {
+                "96420003/e 691039/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer 25 55 2 Dwarf 24 69 2 Krobus 35 62 2/changeToTemporaryMap Town-Halloween/skippable/warp Dwarf 32 59 true/warp Krobus 32 66 true/warp farmer 25 54 true/faceDirection Dwarf 2 true/faceDirection Krobus 2 true/{{JustAddMonsters}}/viewport 31 60/pause 2000/jump Dwarf 5/emote Dwarf 12/pause 1000/move Dwarf -3 0 3/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.01}}\"/pause 1000/playSound eat/pause 1000/faceDirection Dwarf 1/pause 500/speak Dwarf \"{{i18n:96420003.02}}\"/pause 500/move Dwarf 0 3 3 true/viewport move 0 1 2000 true/pause 3000/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.03}}\"/playSound eat/faceDirection Krobus 3/emote Krobus 8/pause 500/move Dwarf 1 0 1 true/pause 1000/faceDirection Krobus 0/pause 1500/jump Dwarf 5/pause 500/playSound skeletonHit/faceDirection Dwarf 2/emote Dwarf 16/move Dwarf 0 4 0/advancedMove farmer false 0 11 1 1000/faceDirection Krobus 3/speak Dwarf \"{{i18n:96420003.04}}\"/pause 1000/speak Krobus \"{{i18n:96420003.05}}\"/jump Dwarf 6/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420003.06}}\"/pause 1000/shake Dwarf 1000/pause 1000/move Krobus -1 0 3/pause 500/speak Krobus \"{{i18n:96420003.07}}\"/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420003.08}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420003.09.{{HasSVE}}}}\"/faceDirection Krobus 3/speak Krobus \"{{i18n:96420003.10}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420003.11}}\"/pause 500/speak Dwarf \"{{i18n:96420003.12}}\"/pause 500/move Dwarf 0 -1 1/move Dwarf -4 0 3 true/emote Krobus 28/viewport move -2 0 1500/textAboveHead Dwarf \"{{i18n:96420003.13}}\"/speak Dwarf \"{{i18n:96420003.14}}\"/emote farmer 36/pause 1000/question null \"{{i18n:96420003.15}}#{{i18n:96420003.16}}#\"/faceDirection Dwarf 1/pause 1000/emote Dwarf 40/move Krobus 0 -1 3/move Krobus -3 0 3/emote Krobus 60/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420003.17}}\"/pause 500/speed Dwarf 4/advancedMove Dwarf false 0 2 -1 0 0 -9 3 4000/pause 2000/move Krobus -4 0 3/speak Krobus \"{{i18n:96420003.18}}\"/pause 500/emote farmer 20/pause 2000/faceDirection Krobus 2/faceDirection farmer 2/pause 1000/speak Krobus \"{{i18n:96420003.19}}\"/emote farmer 28/pause 2000/end",
+            }
+        },
+        //Since the above event won't work with Grandpa's farm:
+        { //Triggers a little event to prompt you to return to town
+            "LogName": "SVE Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "AltSpiritsEvent": "true"
+            },
+            "Entries": {
+                "96420003/e 691039/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer -100 -100 2/message \"You feel a strong urge to head back into town tonight.\"/pause 100/end"
+            }
+        },
+        { //return to town and trigger the non-SVE event
+            "LogName": "Spirits Eve Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "AltSpiritsEvent": "true"
+            },
+            "Entries": {
+                //post spirit's eve event: teleports you back into town after main event
+                //3 heart event (3 hearts with Dwarf and 3 hearts with Krobus) ONLY triggers on Spirit's Eve
+                "96420053/e 96420003/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer 25 55 2 Dwarf 24 69 2 Krobus 35 62 0/changeToTemporaryMap Town-Halloween/skippable/warp Dwarf 24 69 true/warp Krobus 35 62 true/warp farmer 25 55 true/faceDirection Dwarf 2 true/{{JustAddMonsters}}/viewport 29 66/pause 2000/jump Dwarf 5/emote Dwarf 12/pause 1000/move Dwarf 3 0 2/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.01}}\"/pause 1000/playSound eat/pause 1000/move Dwarf 1 0 1/pause 500/speak Dwarf \"{{i18n:96420003.02}}\"/pause 500/move Dwarf 0 -5 3 true/viewport move 0 -1 2000 true/pause 3000/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.03}}\"/playSound eat/faceDirection Krobus 3/emote Krobus 8/pause 500/move Dwarf 4 0 2 true/pause 1000/faceDirection Krobus 2/pause 1500/jump Dwarf 5/pause 500/playSound skeletonHit/faceDirection Dwarf 0/emote Dwarf 16/move Dwarf 0 -2 0/advancedMove farmer false 0 7 1 1000/faceDirection Krobus 3/speak Dwarf \"{{i18n:96420003.04}}\"/pause 1000/speak Krobus \"{{i18n:96420003.05}}\"/jump Dwarf 6/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420003.06}}\"/pause 1000/shake Dwarf 1000/pause 1000/move Krobus -1 0 3/pause 500/speak Krobus \"{{i18n:96420003.07}}\"/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420003.08}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420003.09.{{HasSVE}}}}\"/faceDirection Krobus 3/speak Krobus \"{{i18n:96420003.10}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420003.11}}\"/pause 500/speak Dwarf \"{{i18n:96420003.12}}\"/pause 500/move Dwarf -6 0 3 true/emote Krobus 28/viewport move -2 0 1500/textAboveHead Dwarf \"{{i18n:96420003.13}}\"/speak Dwarf \"{{i18n:96420003.14}}\"/emote farmer 36/pause 1000/question null \"{{i18n:96420003.15}}#{{i18n:96420003.16}}#\"/faceDirection Dwarf 1/pause 1000/emote Dwarf 40/move Krobus -5 0 3/emote Krobus 60/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420003.17}}\"/pause 500/speed Dwarf 4/advancedMove Dwarf false 0 -12 4 4000/pause 2000/move Krobus -3 0 3/speak Krobus \"{{i18n:96420003.18}}\"/pause 500/emote farmer 20/pause 2000/faceDirection Krobus 1/pause 1000/speak Krobus \"{{i18n:96420003.19}}\"/emote farmer 28/pause 2000/end",
+            }
+        },
+        { //return to town and trigger the SVE event odd year
+            "LogName": "Spirits Eve Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "IsOddYear": true,
+                "AltSpiritsEvent": "true",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            },
+            "Entries": {
+                "96420053/e 96420003/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer 25 55 2 Dwarf 24 69 2 Krobus 43 62 0/changeToTemporaryMap Town-Halloween/skippable/{{JustAddMonsters}}/viewport 29 66/pause 2000/jump Dwarf 5/emote Dwarf 12/pause 1000/move Dwarf 3 0 2/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.01}}\"/pause 1000/playSound eat/pause 1000/move Dwarf 1 0 1/pause 500/speak Dwarf \"{{i18n:96420003.02}}\"/pause 500/move Dwarf 0 -5 3 true/viewport move 0 -1 2000 true/pause 3000/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.03}}\"/playSound eat/faceDirection Krobus 3/emote Krobus 8/pause 500/move Dwarf 4 0 2 true/pause 1000/faceDirection Krobus 2/pause 1500/jump Dwarf 5/pause 500/playSound skeletonHit/faceDirection Dwarf 0/emote Dwarf 16/move Dwarf 0 -2 0/advancedMove farmer false 0 7 1 1000/faceDirection Krobus 3/speak Dwarf \"{{i18n:96420003.04}}\"/move Krobus -7 0 3/speak Krobus \"{{i18n:96420003.05}}\"/jump Dwarf 6/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420003.06}}\"/move Krobus -2 0 3/shake Dwarf 1000/pause 1000/move Krobus -1 0 3/pause 500/speak Krobus \"{{i18n:96420003.07}}\"/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420003.08}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420003.09.{{HasSVE}}}}\"/faceDirection Krobus 3/speak Krobus \"{{i18n:96420003.10}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420003.11}}\"/pause 500/speak Dwarf \"{{i18n:96420003.12}}\"/pause 500/move Dwarf -6 0 3 true/emote Krobus 28/viewport move -2 0 1500/textAboveHead Dwarf \"{{i18n:96420003.13}}\"/speak Dwarf \"{{i18n:96420003.14}}\"/emote farmer 36/pause 1000/question null \"{{i18n:96420003.15}}#{{i18n:96420003.16}}#\"/faceDirection Dwarf 1/pause 1000/emote Dwarf 40/move Krobus -5 0 3/emote Krobus 60/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420003.17}}\"/pause 500/speed Dwarf 4/advancedMove Dwarf false 0 -12 4 4000/pause 2000/move Krobus -3 0 3/speak Krobus \"{{i18n:96420003.18}}\"/pause 500/emote farmer 20/pause 2000/faceDirection Krobus 1/pause 1000/speak Krobus \"{{i18n:96420003.19}}\"/emote farmer 28/pause 2000/end",
+            }
+        },
+        { //return to town and trigger the SVE event even year
+            "LogName": "SVE Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "IsOddYear": false,
+                "AltSpiritsEvent": "true",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            },
+            "Entries": {
+                //Even year "Monsters"
+                "96420053/e 96420003/f Dwarf 750/f Krobus 750/t 2350 2600/z winter/z summer/z spring/u 27": "spirits_eve/-1000 -1000/farmer 25 54 2 Dwarf 32 59 2 Krobus 32 66 2/changeToTemporaryMap Town-Halloween/skippable/{{JustAddMonsters}}/viewport 31 60/pause 2000/jump Dwarf 5/emote Dwarf 12/pause 1000/move Dwarf -3 0 3/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.01}}\"/pause 1000/playSound eat/pause 1000/faceDirection Dwarf 1/pause 500/speak Dwarf \"{{i18n:96420003.02}}\"/pause 500/move Dwarf 0 3 3 true/viewport move 0 1 2000 true/pause 3000/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420003.03}}\"/playSound eat/faceDirection Krobus 3/emote Krobus 8/pause 500/move Dwarf 1 0 1 true/pause 1000/faceDirection Krobus 0/pause 1500/jump Dwarf 5/pause 500/playSound skeletonHit/faceDirection Dwarf 2/emote Dwarf 16/move Dwarf 0 4 0/advancedMove farmer false 0 11 1 1000/faceDirection Krobus 3/speak Dwarf \"{{i18n:96420003.04}}\"/pause 1000/speak Krobus \"{{i18n:96420003.05}}\"/jump Dwarf 6/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420003.06}}\"/pause 1000/shake Dwarf 1000/pause 1000/move Krobus -1 0 3/pause 500/speak Krobus \"{{i18n:96420003.07}}\"/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420003.08}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420003.09.{{HasSVE}}}}\"/faceDirection Krobus 3/speak Krobus \"{{i18n:96420003.10}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420003.11}}\"/pause 500/speak Dwarf \"{{i18n:96420003.12}}\"/pause 500/move Dwarf 0 -1 1/move Dwarf -4 0 3 true/emote Krobus 28/viewport move -2 0 1500/textAboveHead Dwarf \"{{i18n:96420003.13}}\"/speak Dwarf \"{{i18n:96420003.14}}\"/emote farmer 36/pause 1000/question null \"{{i18n:96420003.15}}#{{i18n:96420003.16}}#\"/faceDirection Dwarf 1/pause 1000/emote Dwarf 40/move Krobus 0 -1 3/move Krobus -3 0 3/emote Krobus 60/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420003.17}}\"/pause 500/speed Dwarf 4/advancedMove Dwarf false 0 2 -1 0 0 -9 3 4000/pause 2000/move Krobus -4 0 3/speak Krobus \"{{i18n:96420003.18}}\"/pause 500/emote farmer 20/pause 2000/faceDirection Krobus 2/faceDirection farmer 2/pause 1000/speak Krobus \"{{i18n:96420003.19}}\"/emote farmer 28/pause 2000/end",
+            }
+        },
+        //691039 = pact with Krobus event
+        {
+            "LogName": "Mine events",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                //Dwarf 4-heart event - we get it Dwarf, you hate the shadow people! Move on already.
+                "96420004/f Dwarf 1000/e 691039/t 610 1100": "EarthMine/-100 -100/Dwarf -1000 -1000 2 farmer 18 13 0/skippable/viewport 23 9 clamp true/pause 500/move farmer 0 -5 0/pause 500/playSound stairsdown/pause 100/faceDirection farmer 1/emote farmer 8/warp Dwarf 23 9/jump Dwarf 3/move Dwarf 0 -1 2/animate Dwarf false true 150 16 17 18 19 18 17 16 16 16 17 18 19 18 17 16/emote farmer 28/pause 2000/textAboveHead Dwarf \"{{i18n:96420004.01}}\"/stopAnimation Dwarf 16/jump Dwarf 3/pause 500/showFrame Dwarf 0/playSound explosion/faceDirection farmer 2/showFrame farmer 94/jump farmer 5/screenFlash 1/pause 1500/showFrame farmer 0/faceDirection farmer 1/pause 500/speak Dwarf \"{{i18n:96420004.02}}\"/pause 500/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420004.03}}\"/move Dwarf -4 0 3/emote farmer 28/pause 500/speak Dwarf \"{{i18n:96420004.04}}\"/pause 500/faceDirection Dwarf 1/pause 500/move Dwarf 1 0 1/jump Dwarf 3/emote Dwarf 16/faceDirection Dwarf 3/textAboveHead Dwarf \"{{i18n:96420004.05}}\"/pause 2500/emote farmer 8/pause 500/speak Dwarf \"{{i18n:96420004.06}}\"/animate Dwarf false true 150 16 17 18 19 18 17 16 16 16 17 18 19 18 17 16/speak Dwarf \"{{i18n:96420004.07}}\"/emote farmer 28/speak Dwarf \"{{i18n:96420004.08}}\"/quickQuestion #{{i18n:96420004.09}}#{{i18n:96420004.10}}#{{i18n:96420004.11}}(break)pause 500\\emote Dwarf 12\\speak Dwarf \"{{i18n:96420004.12}}\"(break)speak Dwarf \"{{i18n:96420004.13}}\"(break)speak Dwarf \"{{i18n:96420004.14}}\"/pause 1000/textAboveHead Dwarf \"{{i18n:96420004.15}}\"/pause 500/playSound shwip/stopAnimation Dwarf 0/pause 500/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420004.16}}\"/faceDirection Dwarf 1/pause 500/textAboveHead Dwarf \"{{i18n:96420004.17}}\"/move Dwarf 12 0 1 true/pause 1000/emote farmer 28/pause 2000/end",
+                "96420008/e 96420007/n Krobus_LemonStone": "Of Dwarves/-100 -100/Dwarf 43 7 2 farmer 35 8 1/addObject 43 8 554 0/viewport 43 8 clamp true/move farmer 7 0 1 true/emote Dwarf 12/pause 2000/emote farmer 8/pause 500/speak Dwarf \"{{i18n:96420008.01}}\"/pause 500/emote Dwarf 40/move Dwarf 1 0 2/move Dwarf 0 1 3/pause 500/speak Dwarf \"{{i18n:96420008.02}}\"/emote farmer 40/pause 1000/move Dwarf 0 -1 3/move Dwarf -1 0 2/pause 500/speak Dwarf \"{{i18n:96420008.03}}\"/pause 500/emote Dwarf 8/speak Dwarf \"{{i18n:96420008.04}}\"/pause 500/emote farmer 40/pause 500/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420008.05}}\"/pause 500/speak Dwarf \"{{i18n:96420008.06}}\"/removeSprite 43 8/playSound pickUpItem/pause 500/move Dwarf 0 1 3/pause 500/speak Dwarf \"{{i18n:96420008.07}}\"/quickQuestion #{{i18n:96420008.08}}#{{i18n:96420008.09}}#{{i18n:96420008.10}}(break)pause 500\\speak Dwarf \"{{i18n:96420008.11}}\"(break)emote Dwarf 12\\speak Dwarf \"{{i18n:96420008.12}}\"(break)textAboveHead Dwarf \"{{i18n:96420008.13}}\"\\pause 500\\speak Dwarf \"{{i18n:96420008.14}}\"/pause 500/speak Dwarf \"{{i18n:96420008.15}}\"/pause 500/emote farmer 60/pause 1500/end",
+                "96420012/e 96420010/f Dwarf 2250": "EarthMine/-100 -100/Dwarf 43 7 3 farmer 18 13 0/skippable/addTemporaryActor DwarfBathtub 32 32 41 7 2 false/animate Dwarf false true 100 20 21 22 23 23 23 23 23 23 23 23/viewport 18 8 clamp true/move farmer 0 -5 0/playSound crafting/emote farmer 8/pause 1200/playSound crafting/faceDirection farmer 1/move farmer 5 0 1/fade/viewport -100 -100/warp farmer 36 8/playSound crafting/pause 1200/playSound crafting/viewport 43 8 clamp true/move farmer 4 0 1/playSound crafting/emote farmer 8/pause 800/playSound crafting/emote farmer 16/stopAnimation Dwarf 12/jump Dwarf 5/speed Dwarf 4/advancedMove Dwarf false 0 1 -1 0 3 100 4 2000/emote Dwarf 20/pause 500/move farmer 1 0 0/speak Dwarf \"{{i18n:96420012.01}}\"/pause 1000/emote farmer 40/pause 2000/faceDirection farmer 1/faceDirection Dwarf 3/quickQuestion #{{i18n:96420012.02}}#{{i18n:96420012.03}}#{{i18n:96420012.04}}(break)emote Dwarf 20\\speak Dwarf \"{{i18n:96420012.05}}\"(break)emote Dwarf 32\\speak Dwarf \"{{i18n:96420012.06}}\"(break)emote Dwarf 12\\speak Dwarf \"{{i18n:96420012.07}}\"/pause 500/speak Dwarf \"{{i18n:96420012.08}}\"/pause 500/faceDirection farmer 0/emote farmer 8/pause 500/faceDirection farmer 1/question null \"{{i18n:96420012.09}}#{{i18n:96420012.10}}#\"/textAboveHead Dwarf \"{{i18n:96420012.11}}\"/speak Dwarf \"{{i18n:96420012.12}}\"/pause 1000/emote farmer 32/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Events in the Mountains",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                //5 heart event (4 hearts Krobus) *Ends newDay*
+                "96420005/e 691039/f Krobus 1000/f Dwarf 1250/d Fri/t 2430 2600": "nightTime/40 23/Krobus 34 23 1 Dwarf 41 18 2 farmer 40 10 2/skippable/addLantern 735 44 23 3/move Dwarf 0 5 3 true/move Krobus 5 0 1 true/pause 1500/emote Dwarf 16 true/emote Krobus 16 true/pause 500/speak Dwarf \"{{i18n:96420005.01}}\"/speak Krobus \"{{i18n:96420005.02}}\"/speak Dwarf \"{{i18n:96420005.03}}\"/textAboveHead Krobus \"{{i18n:96420005.04}}\"/shake Dwarf 3000 true/shake Krobus 3000 true/move farmer 0 10 2/emote farmer 8/textAboveHead Dwarf \"{{i18n:96420005.05}}\"/jump Dwarf/pause 500/animate Krobus false true 50 4 5 6 7/jump Krobus/pause 500/animate Dwarf false true 50 12 13 14 15/pause 1000/emote farmer 16/speed farmer 5/move farmer 0 3 2/jump farmer 5/stopAnimation Krobus/stopAnimation Dwarf/emote farmer 36/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 1000/emote Dwarf 12 true/emote Krobus 12 true/speak Dwarf \"{{i18n:96420005.06}}\"/speak Krobus \"{{i18n:96420005.07}}\"/faceDirection farmer 3/pause 500/speak Dwarf \"{{i18n:96420005.08}}\"/faceDirection farmer 1/pause 500/textAboveHead Krobus \"{{i18n:96420005.09}}\"/faceDirection farmer 3/pause 1500/faceDirection farmer 2/startJittering/emote farmer 28/pause 500/stopJittering/animate farmer false false 200 16 16 16 16 16 0 0 16 16 16 16 16 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5/pause 1500/jump Dwarf/jump Krobus/emote Dwarf 16 true/emote Krobus 16 true/pause 1500/stopAnimation farmer/showFrame farmer 5/emote farmer 24/pause 1000/textAboveHead Krobus \"{{i18n:96420005.10}}\"/speak Dwarf \"{{i18n:96420005.11}}\"/textAboveHead Krobus \"{{i18n:96420005.12}}\"/speak Krobus \"{{i18n:96420005.13}}\"/speak Dwarf \"{{i18n:96420005.14}}\"/emote Krobus 16/textAboveHead Dwarf \"{{i18n:96420005.15}}\"/speak Krobus \"{{i18n:96420005.16}}\"/emote farmer 24/speak Dwarf \"{{i18n:96420005.17}}\"/speak Krobus \"{{i18n:96420005.18}}\"/speak Dwarf \"{{i18n:96420005.19}}\"/emote Krobus 12/jump Krobus 5/speak Krobus \"{{i18n:96420005.20}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420005.21}}\"/pause 500/playSound dogs/pause 1000/textAboveHead Dwarf \"{{i18n:96420005.22}}\"/pause 500/speak Dwarf \"{{i18n:96420005.23}}\"/faceDirection Krobus 1/speak Krobus \"{{i18n:96420005.24}}\"/speak Dwarf \"{{i18n:96420005.25}}\"/emote Krobus 32/pause 1000/fade/viewport -100 -100/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound stairsdown/speak Krobus \"{{i18n:96420005.26}}\"/pause 500/playSound doorOpen/pause 500/playSound woodyStep/pause 500/playSound woodStep/speak Dwarf \"{{i18n:96420005.27}}\"/pause 500/playSound Ship/speak Krobus \"{{i18n:96420005.28}}\"/changeLocation BusStop/viewport -100 -100/warp Dwarf 16 23/warp Krobus 14 23/viewport 14 23 clamp true/pause 1000/speak Krobus \"{{i18n:96420005.29}}\"/emote Dwarf 12/pause 1000/speak Dwarf \"{{i18n:96420005.30}}\"/pause 500/faceDirection Dwarf 1/move Dwarf 14 0 1 true/pause 2000/textAboveHead Krobus \"{{i18n:96420005.31}}\"/pause 1000/message \"{{i18n:96420005.32}}\"/pause 2000/end newDay",
+                // 8 heart event - must have reached the caldera
+                "96420099/f Dwarf 2000/n reachedCaldera/t 2100 2600": "nightTime/-100 -100/Dwarf 19 29 3 farmer 12 29 1/skippable/changeToTemporaryMap NightBGDwarf/viewport 19 29 clamp true/emote farmer 16/move farmer 6 0 1/pause 500/textAboveHead Dwarf \"{{i18n:96420099.01}}\"/pause 1000/speak Dwarf \"{{i18n:96420099.02}}\"/emote farmer 56/pause 500/jump Dwarf 5/emote Dwarf 16/pause 1000/textAboveHead Dwarf \"{{i18n:96420099.03}}\"/speak Dwarf \"{{i18n:96420099.04}}\"/question null \"{{i18n:96420099.05}}#{{i18n:96420099.06}}#{{i18n:96420099.07}}#{{i18n:96420099.08}}#\"/pause 500/emote Dwarf 32/pause 1000/emote farmer 40/pause 1000/jump Dwarf 5/speak Dwarf \"{{i18n:96420099.09}}\"/playMusic spaceMusic/pause 1000/viewport move 0 -2 8000/pause 8000/globalFade .003/viewport -1000 -1000/pause 500/message \"{{i18n:96420099.10}}\"/pause 1000/stopAnimation farmer/changeLocation Mountain/end"
+            }
+        },
+        {
+            "LogName": "Sewer events",
+            "Action": "EditData",
+            "Target": "Data/Events/Sewer",
+            "Entries": {
+                "96420006/f Dwarf 1500/f Krobus 1500/e 96420004/e 96420003/d Fri": "Overcast/-100 -100/Krobus 31 17 2 farmer 32 22 0/skippable/viewport 31 17 clamp true/pause 500/move farmer 0 -5 3/faceDirection Krobus 1/textAboveHead Krobus \"{{playername}}\"/speak Krobus \"{{i18n:96420006.02}}\"/pause 500/emote farmer 32/pause 1000/speak Krobus \"{{i18n:96420006.03}}\"/pause 500/emote farmer 8/pause 1000/speak Krobus \"{{i18n:96420006.04}}\"/pause 500/faceDirection Krobus 2/emote Krobus 28/pause 1000/faceDirection Krobus 1/speak Krobus \"{{i18n:96420006.05}}\"/pause 500/jump farmer 5/emote farmer 16/pause 500/faceDirection Krobus 2/speak Krobus \"{{i18n:96420006.06}}\"/emote farmer 28/pause 500/faceDirection Krobus 2/pause 500/speak Krobus \"{{i18n:96420006.07}}\"/faceDirection Krobus 1/speak Krobus \"{{i18n:96420006.08}}\"/pause 500/emote farmer 32/pause 1000/speak Krobus \"{{i18n:96420006.09}}\"/pause 500/emote farmer 16/pause 500/speak Krobus \"{{i18n:96420006.10}}\"/quickQuestion #{{i18n:96420006.11}}#{{i18n:96420006.12}}#{{i18n:96420006.13}}(break)speak Krobus \"{{i18n:96420006.14}}\"(break)jump Krobus 5\\speak Krobus \"{{i18n:96420006.15}}\"(break)speak Krobus \"{{i18n:96420006.16}}\"/pause 500/emote Krobus 40/pause 500/speak Krobus \"{{i18n:96420006.17}}\"/pause 500/emote farmer 20/pause 1000/end",
+            }
+        },
+        {
+            "LogName": "Forest events",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "96420010/n Dwarf_GiftingKrobus/t 2300 2600/w rainy/d Fri": "rain/-100 -100/Krobus -1000 -1000 2 Dwarf 98 92 2 farmer 97 86 2/skippable/ignoreCollisions farmer/removeQuest 964202/addLantern 735 95 94 3/addObject 95 100 16 0/addObject 97 100 16 0/addObject 99 99 16 0/addObject 98 97 16 0/addObject 99 95 16 0/viewport 98 97 clamp true/move farmer 0 6 1 true/pause 500/emote farmer 56/jump Dwarf 5/faceDirection Dwarf 0/textAboveHead Dwarf \"{{i18n:96420010.01}}\"/pause 1000/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420010.02}}\"/emote Dwarf 40/pause 1000/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420010.03}}\"/pause 500/emote farmer 8/faceDirection Dwarf 3/pause 500/speak Dwarf \"{{i18n:96420010.04}}\"/emote farmer 12/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/textAboveHead Dwarf \"{{i18n:96420010.05}}\"/speed Dwarf 4/advancedMove Dwarf false 4 0 0 1 2 1000/pause 500/jump farmer 5/speed farmer 4/advancedMove farmer false 4 0 0 1 2 1000/pause 1000/playSound doorCreak/pause 1000/warp Krobus 94 100/pause 1000/showFrame farmer 4/faceDirection Krobus 1/jump Krobus 5/emote Krobus 8/pause 2000/playSound pickUpItem/removeSprite 95 100/pause 1000/move Krobus 2 0 1/pause 1000/emote Krobus 32/playSound pickUpItem/removeSprite 97 100/move Krobus 2 0 0/playSound leafrustle/speak Dwarf \"{{i18n:96420010.06}}\"/pause 500/textAboveHead Krobus \"{{i18n:96420010.07}}\"/pause 500/move Krobus 0 -1 1/playSound pickUpItem/removeSprite 99 99/pause 1000/move Krobus 1 0 0/pause 500/speak Krobus \"{{i18n:96420010.08}}\"/pause 500/emote farmer 60/pause 1000/textAboveHead Dwarf \"{{i18n:96420010.09}}\"/pause 500/move Krobus 0 -2 3/playSound pickUpItem/removeSprite 98 97/pause 500/move Krobus 0 -1 0/textAboveHead Krobus \"{{i18n:96420010.10}}\"/playSound pickUpItem/removeSprite 99 95/pause 1000/textAboveHead Dwarf \"{{i18n:96420010.11}}\"/pause 500/playSound leafrustle/positionOffSet farmer -2 0/pause 5/positionOffSet farmer -2 0/pause 5/playSound leafrustle/positionOffSet farmer -2 0/positionOffSet farmer -2 0/pause 5/playSound leafrustle/positionOffSet farmer -2 0/positionOffSet farmer -2 0/pause 5/playSound leafrustle/positionOffSet farmer -2 0/positionOffSet farmer -2 0/pause 5/playSound leafrustle/positionOffSet farmer -2 0/positionOffSet farmer -2 0/pause 5/playSound leafrustle/positionOffSet farmer -2 0/positionOffSet farmer -2 0/pause 5/pause 500/showFrame farmer 3/emote farmer 60/pause 50/jump Krobus 5/emote Krobus 16/speak Krobus \"{{i18n:96420010.12}}\"/showFrame farmer 0/textAboveHead Dwarf \"{{i18n:96420010.13}}\"/advancedMove farmer false -2 0 1 1000/pause 1000/move Krobus 0 -2 0/emote farmer 56/pause 1500/speed Dwarf 2/advancedMove Dwarf false -2 0 3 1000/pause 2000/speak Dwarf \"{{i18n:96420010.14}}\"/pause 1000/faceDirection Dwarf 2/emote Krobus 20/pause 500/emote Dwarf 28/speak Dwarf \"{{i18n:96420010.15}}\"/animate farmer false true 200 102 103/pause 2000/emote Dwarf 12/pause 1000/end",
+            }
+        },
+        {
+            "LogName": "Trip to the Island Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                //8 heart part 2
+                "96420098/e 96420099/t 1800 2600/w sunny": "ocean/32 10/Dwarf 32 10 2 farmer -1000 -1000 2 Alex 26 6 1 Willy -1000 -1000 1/skippable/advancedMove Dwarf false 4 0 4 500 -3 0 4 2000/move Alex 8 0 2/speak Alex \"{{i18n:96420098.01}}\"/emote Dwarf 28/warp farmer 38 0/pause 1000/textAboveHead Alex \"{{i18n:96420098.02}}\"/move farmer 0 9 3/emote farmer 56/pause 500/faceDirection Dwarf 1/faceDirection Alex 1/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420098.03}}\"/speed Dwarf 5/advancedMove Dwarf false 5 0 4 1000/emote Alex 8/pause 1000/faceDirection farmer 2/advancedMove Alex false 4 0 0 -6 2 1000/speak Dwarf \"{{i18n:96420098.04}}\"/emote farmer 32/pause 1000/faceDirection farmer 3/faceDirection Dwarf 3/advancedMove farmer false -7 0/speed Dwarf 3/advancedMove Dwarf false -8 0/pause 2000/fade/viewport -100 -100/warp Alex -1000 -1000/stopAdvancedMoves/speak Dwarf \"{{i18n:96420098.05}}\"/pause 500/speak Willy \"{{i18n:96420098.06}}\"/changeLocation IslandSouth/viewport 21 43 clamp true/faceDirection Dwarf 1/stopMusic/playMusic IslandMusic/pause 1000/warp farmer 22 43/faceDirection farmer 3/pause 1000/emote farmer 56/warp Dwarf 19 43/emote Dwarf 12/pause 500/speak Dwarf \"{{i18n:96420098.07}}\"/advancedMove Dwarf false 2 0 3 1000/pause 500/warp Willy 19 43/speak Dwarf \"{{i18n:96420098.08}}\"/pause 500/speak Willy \"{{i18n:96420098.09}}\"/emote farmer 32/pause 500/faceDirection Dwarf 1/textAboveHead Dwarf \"{{i18n:96420098.10}}\"/pause 500/faceDirection Dwarf 0/faceDirection farmer 0/advancedMove farmer false 0 -8/advancedMove Dwarf false 0 -8/pause 500/move Willy 2 0 0/pause 1000/fade/viewport -100 -100/stopAdvancedMoves/changeLocation IslandNorth/warp farmer 40 25/warp Dwarf 41 25/viewport 40 25/playMusic VolcanoMines/pause 1000/faceDirection farmer 0/speak Dwarf \"{{i18n:96420098.11}}\"/faceDirection farmer 1/faceDirection Dwarf 3/emote farmer 40/pause 1000/speak Dwarf \"{{i18n:96420098.12}}\"/showFrame Dwarf 16/animate Dwarf false false 150 16 17 18 19 18 17 16 16 16 17 18 19 18 17 16/emote farmer 28/pause 2000/fade/viewport -100 -100/pause 500/playSound explosion/screenFlash 1/pause 500/speak Dwarf \"{{i18n:96420098.13}}\"/pause 1000/changeToTemporaryMap VolcanoDwarfShop/viewport -100 -100/addTemporaryActor CinderDwarf 16 32 12 7 2 false/changeName CinderDwarf Sentinel/viewport 8 9/pause 500/playSound stairsdown/warp farmer 8 13/textAboveHead CinderDwarf \"{{i18n:96420098.14}}\"/advancedMove farmer false 0 -6 2 2000/speak CinderDwarf \"{{i18n:96420098.15}}\"/emote farmer 32/pause 1500/warp Dwarf 8 13/advancedMove Dwarf false 0 -5 1 2000/pause 500/emote CinderDwarf 16/jump CinderDwarf 5/move CinderDwarf 0 1 3/pause 1000/speak CinderDwarf \"{{i18n:96420098.16}}\"/advancedMove Dwarf false 3 0 1 1000/pause 500/advancedMove farmer false 0 1 1 2000/emote Dwarf 40/pause 1000/emote CinderDwarf 40/pause 2000/faceDirection Dwarf 3/pause 500/speak Dwarf \"{{i18n:96420098.17}}\"/pause 500/emote farmer 32/advancedMove farmer false 0 3 2 1000/pause 1500/faceDirection Dwarf 2/faceDirection CinderDwarf 2/pause 150/speak CinderDwarf \"{{i18n:96420098.18}}\"/jump farmer 5/faceDirection farmer 1/speak CinderDwarf \"{{i18n:96420098.19}}\"/pause 1000/emote farmer 20/faceDirection farmer 2/faceDirection Dwarf 1/faceDirection CinderDwarf 3/advancedMove farmer false 0 3 2 2000/emote CinderDwarf 40/pause 1500/warp farmer -1000 -1000/emote Dwarf 16/pause 1000/end",
+            }
+        },
+        {
+            "LogName": "Caldera Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Caldera",
+            "Entries": {
+                //8 heart part 3
+                "96420000/e 96420098": "caldera/23 13/farmer -100 -100 0 Dwarf 22 29 0/addTemporaryActor CinderDwarf 16 32 23 29 0 false/changeName CinderDwarf Sentinel/pause 1000/speak Dwarf \"{{i18n:96420000.01}}\"/pause 1000/viewport move 0 2 7500 true/speak Dwarf \"{{i18n:96420000.02}}\"/pause 2500/faceDirection Dwarf 1/faceDirection CinderDwarf 3/pause 500/speak Dwarf \"{{i18n:96420000.03}}\"/pause 500/textAboveHead CinderDwarf \"{{i18n:96420000.04}}\"/pause 500/faceDirection CinderDwarf 0/faceDirection Dwarf 0/speak CinderDwarf \"{{i18n:96420000.05}}\"/warp farmer 21 38/move farmer 0 -2 0/emote farmer 8/faceDirection CinderDwarf 3/faceDirection Dwarf 1/speak CinderDwarf \"{{i18n:96420000.06}}\"/pause 500/textAboveHead Dwarf \"{{i18n:96420000.07}}\"/speak CinderDwarf \"{{i18n:96420000.08}}\"/emote Dwarf 12/pause 500/shake Dwarf 240/speak Dwarf \"{{i18n:96420000.09}}\"/pause 500/textAboveHead CinderDwarf \"{{i18n:96420000.10}}\"/pause 100/jump Dwarf 5/speak CinderDwarf \"{{i18n:96420000.11}}\"/pause 500/faceDirection CinderDwarf 0/speak CinderDwarf \"{{i18n:96420000.12}}\"/faceDirection CinderDwarf 3/speak CinderDwarf \"{{i18n:96420000.13}}\"/pause 1000/faceDirection CinderDwarf 2/faceDirection Dwarf 2/jump Dwarf 5/textAboveHead Dwarf \"{{i18n:96420000.14}}\"/speak CinderDwarf \"{{i18n:96420000.15}}\"/emote farmer 60/pause 500/textAboveHead CinderDwarf \"{{i18n:96420000.16}}\"/pause 500/speak CinderDwarf \"{{i18n:96420000.17}}\"/pause 500/move farmer 0 -7 0 true/viewport move 0 -2 3500 true/faceDirection Dwarf 0/faceDirection CinderDwarf 0/pause 5000/viewport move 0 -1 8000 true/pause 12000/end"
+                //Special credit to N8crafter for the translation of the glyphs at the Forge, see: https://www.reddit.com/r/StardewValley/comments/kjvjz0/15_spoilers_here_mural_glyph_translation/ for details.
+            }
+        },
+        {
+            "LogName": "Event for setting Dwarf Roommate flag",
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "HasMod |contains=spacechase0.jsonAssets": true
+            },
+            "Entries": {
+                "96420015/O Dwarf/t 600 800/L": "none/-100 -100/farmer 35 15 1 Dwarf 38 14 0/viewport 36 15 clamp true/playSound crafting/pause 1250/emote farmer 8/playSound crafting/pause 1250/playSound crafting/pause 1250/speak Dwarf \"{{i18n:96420015.01}}\"/pause 1000/playSound crafting/pause 1250/move farmer 2 0 1/pause 1000/textAboveHead Dwarf \"{{i18n:96420015.02}}\"/pause 1000/faceDirection Dwarf 2/pause 500/speak Dwarf \"{{i18n:96420015.03}}\"/pause 500/addTemporaryActor SmoluanuFriendshipHelm 20 20 38 15 2 false/playSound achievement/pause 500/emote farmer 16/pause 500/speak Dwarf \"{{i18n:96420015.04}}\"/pause 500/emote farmer 20/quickQuestion #{{i18n:96420015.05}}#{{i18n:96420015.06}}#{{i18n:96420015.07}}#{{i18n:96420015.08}}(break)friendship Dwarf 500\\emote Dwarf 20\\speak Dwarf \"{{i18n:96420015.09}}\"(break)friendship Dwarf 500\\emote Dwarf 20\\speak Dwarf \"{{i18n:96420015.10}}\"(break)emote Dwarf 60\\speak Dwarf \"{{i18n:96420015.11}}\"(break)friendship Dwarf 250\\emote Dwarf 32\\speak Dwarf \"{{i18n:96420015.12}}\"/pause 500/fade/viewport -100 -100/giveHat {{spacechase0.JsonAssets/HatId:Smoluanu Friendship Helm}}/message \"{{i18n:96420015.13}}\"/pause 500/end"
+            }
+        },
+        {
+            "LogName": "Event for setting Dwarf Roommate flag",
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "HasMod |contains=spacechase0.jsonAssets": true,
+                "FarmhouseUpgrade": "1"
+            },
+            "Entries": {
+                "96420015/O Dwarf/t 600 800": "none/-100 -100/farmer 29 6 1 Dwarf 32 5 0/viewport 36 15 clamp true/playSound crafting/pause 1250/emote farmer 8/playSound crafting/pause 1250/playSound crafting/pause 1250/speak Dwarf \"{{i18n:96420015.01}}\"/pause 1000/playSound crafting/pause 1250/move farmer 2 0 1/pause 1000/textAboveHead Dwarf \"{{i18n:96420015.02}}\"/pause 1000/faceDirection Dwarf 2/pause 500/speak Dwarf \"{{i18n:96420015.03}}\"/pause 500/addTemporaryActor SmoluanuFriendshipHelm 20 20 32 6 2 false/playSound achievement/pause 500/emote farmer 16/pause 500/speak Dwarf \"{{i18n:96420015.04}}\"/pause 500/emote farmer 20/quickQuestion #{{i18n:96420015.05}}#{{i18n:96420015.06}}#{{i18n:96420015.07}}#{{i18n:96420015.08}}(break)friendship Dwarf 500\\emote Dwarf 20\\speak Dwarf \"{{i18n:96420015.09}}\"(break)friendship Dwarf 500\\emote Dwarf 20\\speak Dwarf \"{{i18n:96420015.10}}\"(break)emote Dwarf 60\\speak Dwarf \"{{i18n:96420015.11}}\"(break)friendship Dwarf 250\\emote Dwarf 32\\speak Dwarf \"{{i18n:96420015.12}}\"/pause 500/fade/viewport -100 -100/giveHat {{spacechase0.JsonAssets/HatId:Smoluanu Friendship Helm}}/message \"{{i18n:96420015.13}}\"/pause 500/end"
+            }
+        },
+        // 14-heart event
+        {
+            "LogName": "Start of Dwarf Event",
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "Trigger14Event": true
+            },
+            "Entries": {
+                "96420013/O Dwarf/f Dwarf 3500/t 0700 1600/L": "Of Dwarves/12 14/Dwarf 9 14 0 farmer 12 20 0/ignoreCollisions farmer/addConversationTopic InviteJasperDwarf 1/skippable/playSound doorOpen/pause 500/textAboveHead Dwarf \"{{i18n:96420013.01}}\"/pause 500/move farmer 0 -6 3/jump Dwarf 4/facedirection Dwarf 1/speak Dwarf \"{{i18n:96420013.02}}\"/pause 500/emote farmer 36/pause 500/speak Dwarf \"{{i18n:96420013.03}}\"/pause 500/faceDirection Dwarf 2/pause 50/faceDirection Dwarf 3/pause 50/faceDirection Dwarf 1/pause 50/move Dwarf 2 0 1/speak Dwarf \"{{i18n:96420013.04}}\"/pause 500/speak Dwarf \"{{i18n:96420013.05}}\"/pause 500/emote farmer 16/pause 1500/speak Dwarf \"{{i18n:96420013.06}}\"/pause 500/emote farmer 8/pause 500/speak Dwarf \"{{i18n:96420013.07.{{Jasper_DwarfFriend}}}}\"/addQuest 964203/speak Dwarf \"{{i18n:96420013.08}}\"/pause 500/emote farmer 32/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Summit Event - without Jasper",
+            "Action": "EditData",
+            "Target": "Data/Events/Railroad",
+            "Entries": {
+                "96420014/e 96420013/O Dwarf/t 2200 2600/w sunny": "nightTime/30 47/Dwarf 30 47 2 farmer 29 51 0/skippable/removeQuest 964203/move farmer 0 -4 1 true/pause 2000/faceDirection Dwarf 3/textAboveHead Dwarf \"{{i18n:96420014.01}}\"/speak Dwarf \"{{i18n:96420014.02}}\"/emote farmer 32/pause 500/speak Dwarf \"{{i18n:96420014.03}}\"/faceDirection Dwarf 0/faceDirection farmer 0/advancedMove farmer false 0 -3 4 1000/advancedMove Dwarf false 0 -3 4 1000/pause 1500/fade/viewport -100 -100/stopAdvancedMoves/changeToTemporaryMap Summit_Night/viewport -100 -100/pause 50/stopMusic/pause 500/warp farmer 12 23/warp Dwarf 11 23/speak Dwarf \"{{i18n:96420014.04}}\"/playMusic sappypiano/viewport 11 23 clamp true/pause 500/advancedMove Dwarf false 0 -1 4 1000/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.01}}\"/pause 500/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.02}}\"/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.03}}\"/emote Dwarf 28/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.04}}\"/pause 500/pause 500/emote farmer 20/move farmer 0 -1 3/faceDirection Dwarf 1/emote Dwarf 32/pause 500/positionOffset Dwarf 4 0/pause 50/positionOffset Dwarf 4 0/showFrame Dwarf 28/animate farmer true true 1000 101/pause 2000/stopAnimation farmer 0/positionOffset Dwarf -8 0/showFrame Dwarf 4/faceDirection Dwarf 2/faceDirection Dwarf 1/textAboveHead Dwarf \"{{PlayerName}}\"/pause 1000/emote farmer 32/pause 2000/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.06}}\"/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.07}}\"/emote farmer 20/pause 500/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.08}}\"/pause 500/stopMusic/playMusic spaceMusic/fade/viewport -100 -100/warp Dwarf -1000 -1000 true/warp farmer -1000 -1000 true/changeToTemporaryMap NightSceneMaruMap2/viewport 15 16 clamp true/pause 1000/viewport move 0 -2 6000 true/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.09}}\"/pause 2000/end"
+            }
+        },
+        {
+            "LogName": "Summit Event - with Jasper",
+            "Action": "EditData",
+            "Target": "Data/Events/Railroad",
+            "When": {
+                "HasFlag": "Dwarf_Friend",
+                "HasMod": "Lemurkat.NPCJasper"
+            },
+            "Entries": {
+                "96420014/e 96420013/O Dwarf/t 2200 2600/w sunny": "nightTime/30 47/Dwarf 30 47 2 farmer 29 51 0 Jasper 28 52 0/skippable/removeQuest 964203/move farmer 0 -4 1 true/move Jasper 0 -4 1 true/pause 2000/faceDirection Dwarf 3/textAboveHead Dwarf \"{{i18n:96420014.01}}\"/speak Dwarf \"{{i18n:96420014.02}}\"/emote farmer 32/pause 500/speak Dwarf \"{{i18n:96420014.03}}\"/faceDirection Dwarf 0/faceDirection farmer 0/faceDirection Jasper 0/advancedMove Jasper false 0 -3 4 1000/advancedMove farmer false 0 -3 4 1000/advancedMove Dwarf false 0 -3 4 1000/pause 1500/fade/viewport -100 -100/stopAdvancedMoves/changeToTemporaryMap Summit_Night/viewport -100 -100/pause 50/stopMusic/pause 500/warp farmer 12 23/warp Dwarf 11 23/warp Jasper 10 23/speak Dwarf \"{{i18n:96420014.04}}\"/playMusic sappypiano/viewport 11 23 clamp true/pause 500/advancedMove Dwarf false 0 -1 4 1000/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.01}}\"/pause 500/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.02}}\"/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.03}}\"/emote Dwarf 28/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.04}}\"/pause 500/pause 500/emote farmer 20/move farmer 0 -1 3/faceDirection Dwarf 1/emote Dwarf 32/pause 500/positionOffset Dwarf 4 0/pause 50/positionOffset Dwarf 4 0/showFrame Dwarf 28/animate farmer true true 1000 101/pause 2000/stopAnimation farmer 0/positionOffset Dwarf -8 0/showFrame Dwarf 4/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.05}}\"/emote Jasper 60/pause 500/move Jasper 0 -1 1/pause 500/positionOffset Dwarf -4 0/pause 50/positionOffset Dwarf -4 0/showFrame Dwarf 30/showFrame Jasper 28/pause 2000/showFrame Jasper 4/positionOffset Dwarf 8 0/showFrame Dwarf 0/pause 500/faceDirection Dwarf 1/textAboveHead Dwarf \"{{PlayerName}}\"/pause 2000/emote farmer 32/pause 2000/faceDirection Dwarf 3/textAboveHead Dwarf \"{{i18n:96420014.DwarfSummitEvent.10}}\"/pause 2000/emote Jasper 32/pause 2000/faceDirection Dwarf 2/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.06}}\"/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.07}}\"/emote Jasper 20 true/emote farmer 20 true/pause 500/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.08}}\"/pause 500/stopMusic/playMusic spaceMusic/fade/viewport -100 -100/warp Jasper -1000 -1000 true/warp Dwarf -1000 -1000 true/warp farmer -1000 -1000 true/changeToTemporaryMap NightSceneMaruMap2/viewport 15 16 clamp true/pause 1000/viewport move 0 -2 6000 true/pause 1000/speak Dwarf \"{{i18n:96420014.DwarfSummitEvent.09}}\"/pause 2000/end"
+            }
+        },
+        { //Changes Dwarf's name
+            "LogName": "NPC Manifestation - changes Dwarf's name",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Fields": {
+                "Dwarf": {
+                    "11": "{{i18n:DwarfName}}"
+                }
+            },
+            "When": {
+                "HasSeenEvent": "96420014"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Krobus_LemonStoneRequest": "{{i18n:krobuslemonstone}}%item quest 964201 %%[#]{{i18n:krobuslemonstone.title}}",
+                "Dwarf_GiftingKrobus": "{{i18n:DwarfKrobusGift}}%item quest 964202 %%[#]{{i18n:DwarfKrobusGift.title}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "964201": "ItemDelivery/{{i18n:quest.964201.1}}/{{i18n:quest.964201.2}}/{{i18n:quest.964201.3}}/Krobus 554 1/-1/200/-1/true/$1 Krobus_LemonStone#{{i18n:quest.964201.4.{{dayofsilence}}}}",
+                "964202": "Basic/{{i18n:quest.964202.1}}/{{i18n:quest.964202.2}}/{{i18n:quest.964202.3}}/null/-1/0/-1/false",
+                "964203": "Basic/{{i18n:quest.964203.1}}/{{i18n:quest.964203.2}}/{{i18n:quest.964203.3}}/null/-1/0/-1/false"
+            }
+        },
+        //ROOMMATE STUFF  ********************************************************************
+        {
+            "LogName": "Roommate stuff",
+            "Action": "Include",
+            "FromFile": "assets/RoommateDwarf.json"
+        },
+        //For those that don't have Jasper installed, a few edits ****************************
+        {
+            "LogName": "Stuff that came with Jasper mod",
+            "Action": "Include",
+            "FromFile": "assets/NoJasper.json",
+            "When": {
+                "HasMod |Contains=Lemurkat.NPCJasper": false
+            }
+        },
+        //And bonus stuff for those that DO have Jasper! ****************************
+        {
+            "LogName": "Compatibility with Jasper mod",
+            "Action": "Include",
+            "FromFile": "assets/JasperCompat.json",
+            "When": {
+                "HasMod |Contains=Lemurkat.NPCJasper": true
+            }
+        },
+    ]
+}

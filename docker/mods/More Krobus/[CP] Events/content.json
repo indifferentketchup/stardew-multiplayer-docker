@@ -1,0 +1,312 @@
+{
+"Format": "1.24.0",
+"ConfigSchema": { 
+  
+        "PermaBlinky": {
+			"AllowValues": "True, False",
+			"Description": "Blinky accompanies Krobus",
+			"Default": "True"},
+},
+
+"Changes": [
+//---------------
+//D I A L O G U E
+//---------------
+
+{            
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries":{
+"winter_24": "Tomorrow humans all gather together to feast and exchange items, don't they?#$b#In that case, please take this.[308 203 456 457]#$b#I made it myself. I hope you'll like it.$h",
+                        "KrobusInsultRensponse": "Don't worry about the carp, @.#$b#Dwarf will be fine, we just wounded their pride a little.#$b#I would never ask you to do anything actually harmful... you know that, right?#$e#You want to know why dwarves hate carps so much?#$b#It's a funny story involving a dwarven holiday, cave carrot stew, and a lot of mud...#$b#And, of course, a few shadow people looking to cause some mischief.$7#$b#I'll tell you sometime.$7",
+                        "kr_night1": "Precisely!#$b#On nights like this, it feels as if the forest was singing.#$b#It's beautiful.#$b#...I really wanted to share something beautiful with you.$h",
+                        "kr_night2": "Oh... Heh. Right.#$b#Sorry for dragging you out here so late.#$b#I thought this moment would be something special...$s",
+			"kr_ten": "I am relieved to see you well, @.#$b#It was the first time I'd seen a human do... that.#$b#Please don't scare me like that again.#$q 1778/1779 null#...okay?#$r 1778 50 kr_ten1#I'll be more careful.#$r 1779 -50 kr_ten2#It was partially your fault.",
+"kr_ten1": "Thank you. I too promise to be more mindful of human needs in the future.$h#$b#Here. I have observed humans drink this beverage when they look... The way you do. Perhaps it will help you feel better.[253]",
+"kr_ten2": "I know... Please don't be angry with me.$s#$b#I promise to be more mindful of human needs in the future.",
+			"Krow": "A most extraordinary thing happened the other night, @!#$b#I met a crow prince.#$b#Yes, I am positive he was a real prince, he had a crown and everything.#$b#And he was enormous, I'm sure even you have never seen a crow this big.#$b#He really liked that hazelnut you brought me, so thank you again.#$b#I think he liked me as well... We spoke for a while, it was all very thrilling.$h#$b#You must meet him, @. I'm sure you're going to like each other.",
+            }
+},
+
+
+{            
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueKrobus",
+	    "When": { "HasSeenEvent": "177556" },
+            "Entries":{
+"Good_2": "I've learned to overcome my bias against humans... but Dwarves still disgust me.$a#$b#Well, except for our Dwarf, I suppose.#$b#...some things Dwarf does ARE disgusting, though. They told me they bathe in fermented bug meat sludge, do you think that's true?"
+}
+},
+
+
+{
+            "Action":"EditData",
+            "Target":"Characters/Dialogue/Dwarf",
+            "Entries":{
+                        "DwarfInsultResponse": "What?#$q 17785 null#Ah. It's you again, @.#$r 17785 100 insultresponse#You look... contemplative.",
+                        "insultresponse": "...Hmph. I gave some thought to what you said before.#$b#You and that shadow person were right, after all.#$b#I shouldn't have said those things about his people.#$b#I made a promise to the Wizard and us dwarves, we keep our word.#$b#Besides, the war has ended. I should try to be a better person than my ancestors.",
+                    }
+},
+
+
+//-------
+//M A I L
+//-------
+{
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "Krobusinvite": "@,^I hope all is well on your farm.^Next time it rains, could you please make sure to pass through the forest at night? Thank you.^^   -Krobus[#]Krobus' Invitation",
+                "Krobusnext": "@!^Last night you suddenly fell to the ground and became completely unresponsive, I was so worried! I know humans require something you call \"sleep\", was that what it was? It was probably my fault for keeping you up so late...^I hope I didn't overstep any boundaries, but I transported you home. I am really, really sorry.^^  -Krobus^^P.S. I have also left you a small apology gift. It's not much, but making these is one of the few pieces of shadow culture still available to me. I would like you to have it.%item bigobject 83 %%[#]Apology Letter",
+		"Krobussummer": "@,^I have heard that humans consume \"iced cream\" to decrease their body temperature this time of year, is that correct?^I hope the iced cream I obtained is the correct one. Please take care of your body temperature.^^   -Krobus%item object 233 %%[#]Summer Gift",
+		"Krobushzl": "@,^thank you again for all your help. I'm waiting for a nice, dark evening to try feeding the crows... I'm really looking forward to it!^I also sent you some of the soup I had made for Blinky, since there's no one here to eat it anymore. I hope it didn't spill all over your mailbox.^^   -Krobus%item object 457 %%[#]New Friends II",
+            }
+        },
+
+
+//-----------
+//E V E N T S
+//-----------
+
+{
+"Action": "EditData",
+"Target": "Data/Events/Farm",
+"Entries": {
+
+//6 HEARTS
+            "177529/f Krobus 1500/t 2200 2500/d Fri": "nightTime/64 15/farmer 64 15 2 Krobus 64 17 0/skippable/makeInvisible 66 17 3 15/playSound doorClose/pause 300/playSound owl/pause 400/emote Krobus 16/jump Krobus 10/pause 200/speak Krobus \"Aaah!$3\"/pause 800/speak Krobus \"...Um.#$b#Sorry for shouting.#$b#I haven't ventured outside in a very long time. I suppose I'm a little jumpy.$0#$b#Being outside is scary...\"/pause 500/faceDirection Krobus 3/pause 100/faceDirection Krobus 0/pause 100/faceDirection Krobus 1/pause 100/faceDirection Krobus 0/pause 500/speak Krobus \"...but also a little exciting, because I can finally visit you.$h#$b#You're my first human friend.$0#$b#In fact, you are my only friend.#$b#W-we are friends, aren't we?$3\"/pause 600/emote farmer 32/pause 1300/speak Krobus \"...human friends exchange gifts as tokens of appreciation for one another, don't they?#$b#In that case, I would like you to have this.[94]\"/playSound getNewSpecialItem/message \"You received a small token of friendship from Krobus.\"/pause 1500/speak Krobus \"For my people it is an item of great importance.#$b#The dark flame never goes out.#$b#We used to place these torches by the entrance to our dens, so our loved ones would always find their way back home.\"/pause 1500/playSound cricketsAmbient/pause 1500/speak Krobus \"Um... I must go now.#$b#Coming here at all was dangerous enough.#$b#Have a good night, @.#$b#I hope you'll come visit soon.\"/pause 1000/move Krobus 0 1 2/speed Krobus 8/move Krobus 20 0 1/pause 1500/emote farmer 8/pause 1000/end dialogue Krobus \"I am glad that I visited you the other night.#$b#Going outside after hiding in the sewers for so long felt like an adventure.#$b#Your farm looks very pretty.$h\"",
+            
+
+//LETTERS
+"177530/f Krobus 2500/e 177532/x Krobusinvite": "null"
+}
+},
+			
+{
+"Action": "EditData",
+"Target": "Data/Events/Farm",
+"When": { "HasMod |contains=haywrites.mpno, haywrites.KrobusNarrative": true },
+"Entries": {			
+	    "177534/f Krobus 1750/z spring/z fall/z winter/w sunny/x Krobussummer": "null",
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Events/Farm",
+"When": { "HasMod |contains=haywrites.mpno, haywrites.KrobusNarrative": false },
+"Entries": {			
+	    "177534/f Krobus 1250/z spring/z fall/z winter/w sunny/x Krobussummer": "null",
+}
+},
+
+//8 HEARTS
+{
+            "Action": "Load",
+            "Target": "Characters/weirdcat",
+            "FromFile": "assets/weirdcat.png"
+        },
+
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Sewer",
+"When": { "Weather": "Rain, Snow, Storm" },
+			"Entries": {
+						"177532/f Krobus 2000/d Fri/t 1700 2100/e 177529": "none/16 13/farmer 16 8 0 Krobus 6 22 1/skippable/addTemporaryActor weirdcat 32 32 8 22 1 false/addObject 7 22 457/showFrame weirdcat 18/animate farmer false true 500 13 14/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/positionOffset farmer 0 16/playSound stoneStep/pause 450/warp farmer 16 11/faceDirection farmer 2/pause 500/playSound cat/playSound ghost/pause 800/playSound slimedead/pause 400/playSound eat/pause 300/emote farmer 16/pause 500/speed farmer 4/move farmer 0 3 2/move farmer -1 0 3/viewport move 0 2 3500/showFrame weirdcat 18/animate weirdcat false true 500 18 19/move farmer 0 8 2/speed farmer 3/faceDirection farmer 3/pause 100/viewport move -1 0 3500/pause 1000/speak Krobus \"...you were really hungry, weren't you?#$b#Poor kitty.\"/pause 1500/playSound cat/playSound ghost/pause 800/speak Krobus \"Hello, @. Look!\"/stopAnimation weirdcat/pause 100/move weirdcat 5 0 1/pause 500/animate weirdcat false false 500 4 20/pause 250/playSound cat/playSound ghost/pause 300/stopAnimation weirdcat/pause 100/animate weirdcat false false 500 16 17 18/pause 300/animate weirdcat false true 500 18 19/speak Krobus \"This cat appeared here out of nowhere this morning.#$b#She looked hungry, and tired, so I made her soup.#$b#She's been keping me company all day.#$b#Isn't she the most polite cat you've seen, @?\"/pause 300/playSound cat/playSound ghost/emote weirdcat 20/pause 900/speak Krobus \"I rarely see any living creatures here in the sewer, let alone ones that are so friendly and polite.#$b#All animals obviously avoid this place.\"/pause 3000/speak Krobus \"...Crows fly through these parts sometimes, have you noticed?#$b#It would be nice to have a crow friend, I think.#$b#I know that humans can domesticate them, so once I tried to do it too.#$b#I gathered wild seeds in the forest and spread them near the sewer entrance, but the crows never came.#$b#They probably didn't like the seeds.#$b#Or shadow people.\"/pause 2000/stopAnimation weirdcat/pause 100/move weirdcat -3 0 3/move weirdcat -2 0 3 true/move farmer -4 0 3 false/pause 100/animate weirdcat false true 500 12 24/pause 400/speak Krobus \"I think she's headed somewhere. The kitty.#$b#She has very determined eyes, doesn't she?\"/pause 1500/playSound cat/playSound ghost/pause 2000/speak Krobus \"Are you a traveler, kitty?\"/pause 800/playSound cat/playSound ghost/pause 1000/speak Krobus \"...I understand.#$b#I wish you'd stay, I'm sure we would become great friends.#$b#It felt nice today, to not be all alone down here.#$#But you wouldn't be happy here, would you? You have somewhere to be.\"/pause 2500/speak Krobus \"Maybe I could at least give you a name before you leave...? Just so you'll have something to remember me by.#$b#Do you think that would be okay, @?\"/pause 800/emote farmer 32/pause 500/playSound cat/playSound ghost/pause 800/faceDirection Krobus 1/pause 100/animate weirdcat false false 500 16 17 18/pause 100/animate weirdcat false true 500 19 18/pause 1800/speak Krobus \"I'm going to call you Blinky, then.$h\"/pause 500/playSound cat/playSound ghost/emote weirdcat 20/pause 2000/stopAnimation weirdcat/move weirdcat -6 0 3/pause 500/showFrame weirdcat 16/animate weirdcat false false 400 16 17 18/pause 500/animate weirdcat false true 400 18 19/pause 100/playSound cat/playSound ghost/pause 1000/faceDirection Krobus 3/pause 800/speak Krobus \"You're in a real hurry, aren't you?#$b#It can't be helped, I suppose.#$b#But, um. I know it can feel lonely to go on a journey with no one to see you off...#$b#That's why @ and I will walk you to the path, all right?$h\"/pause 1500/stopAnimation weirdcat/globalFade/viewport -1000 -1000/changeLocation Forest/addLantern 735 95 52 1/warp Krobus 96 53 1/warp farmer 96 52 1/faceDirection farmer 1/faceDirection Krobus 1/warp weirdcat 98 53 3/pause 500/speak Krobus \"Goodbye, Blinky. Travel safe.#$b#And don't forget about @ and me, okay?$h\"/pause 500/playSound cat/playSound ghost/globalFade/viewport 97 54 true/pause 2000/move weirdcat 3 0 1/pause 200/move weirdcat 0 -2 0/pause 100/move weirdcat 5 0 1/pause 100/playSound cat/playSound ghost/pause 100/move weirdcat 3 0 1/pause 2000/speak Krobus \"@, do you- I just wonder...#$b#Will Blinky even remember me? If we meet again?\"/pause 200/faceDirection farmer 2/pause 300/question fork0 \"#Cats recognize people's scent even after years.#It's unlikely that Blinky will return.\"/fork scent/pause 100/friendship Krobus -100/speak Krobus \"...Oh. Yes, you are probably right.$s\"/pause 2000/speak Krobus \"But I miss her already, @...$s\"/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation Sewer/warp farmer 33 22/warp Krobus 34 23/playMusic Cavern/showFrame farmer 54/showFrame Krobus 17/viewport 27 19 true/animate Krobus false true 500 17 18 17 19/pause 2000/speak Krobus \"It's a shame that Blinky had to leave so soon.#$b#I thought it was unfair at first, we only became friends this morning...#$b#But I'm sure that wherever she's going, it's important. I hope she gets there safely.#$b#I am thankful to Yoba that our paths crossed today, even if it was just this once.#$b#And I'm glad that she had the chance to meet you too.\"/pause 2000/speak Krobus \"...It is hard to part with friends, but I still have a wonderful friend with me right here.$h#$b#I am very fortunate.$h\"/pause 2000/end warpOut",
+}
+},
+
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+"scent": "pause 100/friendship Krobus 100/speak Krobus \"Would you say I qualify as 'people'?#$b#And, wait, @- Do I even have a scent?$3#$b#Shadow people don't have a sense of smell, I can't tell!$3#$b#What if Blinky won't be able to recognize me then?\"/pause 1500/emote farmer 40/pause 1000/positionOffset farmer 0 8/playSound dwop/pause 500/positionOffset farmer 0 8/playSound dwop/faceDirection Krobus 0/pause 100/emote Krobus 8/pause 500/positionOffset farmer 0 8/playSound dwop/pause 250/pause 250/positionOffset farmer 0 8/playSound dwop/pause 250/positionOffset farmer 0 8/playSound dwop/pause 500/positionOffset farmer 0 8/playSound dwop/pause 500/positionOffset farmer 0 8/playSound dwop/pause 500/pause 800/message \"*sniff*\"/pause 1000/message \"The metallic tang of ozone, sulfur, and damp earth fills your nose.#It's a strange smell, but not entirely unpleasant.#It reminds you of how the air tastes on your farm after a thunderstorm...\"/pause 3000/globalFade/viewport -1000 -1000/pause 1000/changeLocation Sewer/playMusic Cavern/warp farmer 33 22/warp Krobus 34 23/showFrame farmer 54/showFrame Krobus 17/animate Krobus false true 500 17 18 17 19/viewport 27 19 true/pause 2000/speak Krobus \"It's a shame that Blinky had to leave so soon.#$b#I thought it was unfair at first, we only became friends this morning...#$b#But I'm sure that wherever she's going, it's important. I hope she gets there safely.#$b#I am thankful to Yoba that our paths crossed today, even if it was just this once.#$b#And I'm glad that she had the chance to meet you too.\"/pause 2000/speak Krobus \"...It is hard to part with friends, but I still have a wonderful friend with me right here.$h#$b#I am very fortunate.$h\"/pause 3500/end warpOut",
+						}
+						},
+
+//10 HEARTS
+{
+"Action": "EditData",
+"Target": "Data/Events/Forest",
+"Entries": {
+
+            "177533/f Krobus 2500/t 2200 2600/d Fri/n Krobusinvite/w rainy/e 177532": "continue/97 93/Krobus 99 95 0 farmer 84 89 2/mail Krobusnext/skippable/addLantern 735 96 94 1/addLantern 735 95 94 1/addLantern 735 96 93 1/addLantern 735 92 93 1/addLantern 735 92 94 2/addLantern 735 91 94 2/move farmer 6 0 2/jump Krobus/emote Krobus 16/pause 100/speak Krobus \"@, you're here!\"/pause 200/move Krobus 0 -3 0/move Krobus -3 0 0 true/move farmer 3 0 1/move farmer 0 2 2/emote farmer 32/pause 200/speak Krobus \"I'm happy to see you too.$h#$b#Sorry, I know it's very late...#$b#This is the safest hour for me to leave the sewers.\"/pause 500/move Krobus -3 0 3/move Krobus 0 2 2/pause 200/viewport move 0 1 2700/move farmer -2 0 2/move farmer 0 3 2/pause 1000/faceDirection farmer 1/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 3/pause 100/faceDirection farmer 2/pause 100/faceDirection farmer 3/pause 300/emote farmer 8/pause 150/faceDirection Krobus 3/pause 100/faceDirection Krobus 2/pause 100/faceDirection Krobus 1/pause 100/faceDirection Krobus 2/pause 800/speak Krobus \"...Ah.#$b#I am well aware that human vision is limited at night.#$b#I didn’t know how many light sources you require, so I brought all the lanterns I had.\"/pause 800/speak Krobus \"Or rather, all the lanterns Dwarf had.#$b#I asked them to lend me some.#$b#I think Dwarf steals them from somewhere.#$b#I hope this is enough?\"/pause 200/faceDirection farmer 2/pause 300/animate farmer false true 100 102 103/pause 250/emote Krobus 8/pause 800/stopAnimation farmer/pause 1500/faceDirection Krobus 1/pause 100/faceDirection farmer 3/pause 100/faceDirection Krobus 2/pause 100/speak Krobus \"...Um.\"/pause 800/speak Krobus \"You always work so hard, @.#$b#W-what I mean to say is...\"/pause 1500/faceDirection Krobus 1/pause 200/speak Krobus \"I know it must be inconvenient sometimes, to go all that way just to visit me... but you do it anyway.#$b#I'm very grateful.#$b#And. U-um.#$b#You always bring me such generous gifts and I wanted to do the same for you so#$b#I made this. For you.\"/pause 800/emote Krobus 40/pause 150/speak Krobus \"...oh.$s#$b#It's... a little squished.#$b#I hope you don't mind. Here.[203]\"/playSound getNewSpecialItem/message \"Looks like Krobus made this especially for you!\"/pause 1500/speak Krobus \"I don't understand human diet very well, but Dwarf says humans love these.#$b#Y-you don't have to eat it right now, if you don't want to!\"/pause 800/emote farmer 20/pause 800/faceDirection Krobus 2/pause 200/faceDirection farmer 2/pause 1000/speak Krobus \"Thank you. For spending this evening with me.#$b#I'm still a little nervous being outside alone.#$b#Your world is full of danger, especially to my kind...#$b#I will never fully adapt to it.#$b#Being outside usually hurts me in some way, and there's little I can do to change it.\"/pause 300/faceDirection farmer 2/pause 2000/speak Krobus \"But... it is worth it.#$b#There are so many fascinating things here, waiting for someone to notice them.\"/pause 2000/speak Krobus \"...I like this forest a lot. It's calm and quiet, and nothing here wants to hurt me.#$b#Recently I've been coming here after dark, just to look.#$b#I've learned that I love it most when it rains.$h#$q 17753 null#What do you think, @?#$r 17753 50 kr_night1#Rainy nights are strangely comforting.#$r 17753 -50 kr_night2#I'm tired and soaked... I don't think I like rain very much.\"/pause 2500/globalFade 0.007/viewport -1000 -1000/warp Krobus 77 96/warp farmer 76 96/showFrame farmer 54/faceDirection Krobus 2/addLantern 735 75 96 2/fade/viewport 74 94/pause 500/playSound owl/pause 4000/shake Krobus 300/pause 100/speak Krobus \"*sigh*\"/pause 250/emote farmer 8/pause 1000/speak Krobus \"I wish the sun would never rise, you know?\"/pause 800/speak Krobus \"It is a silly thing to wish for.#$b#I know humans require direct exposure to sunlight to function.#$b#But...\"/pause 2000/speak Krobus \"If the sunrise never came, we could sit here forever. Talk in the rain.$h#$b#You'd tell me all about humans and your culture, wouldn't you?#$b#There is so much I want to know.#$b#And if you'd like, I could tell you about Shadow People, too.#$b#We're really not as bad as humans think.\"/pause 1500/emote farmer 40/pause 1500/speak Krobus \"We are an ancient race, yes.#$b#We created extraordinary things in our time.#$b#I wish I could show you...#$b#Unfortunately, most of them were destroyed in the war, or hidden away.#$b#The shadow people who survived guard them very closely now.#$b#Either way, I don't have access to them.\"/pause 2800/speak Krobus \"Y-you know, @...#$b#I may no longer be welcome among my people...#$b#But I am still a shadow person, whether they approve of me or not.#$b#And I know that asking this of you is a lot, but...#$b#Please don't hate us.\"/pause 3200/speak Krobus \"There has been a lot of hostility between our races, historically speaking.#$b#Shadow people's encounters with humans generally aren't very... pleasant.#$b#But we could learn so much from each other.#$b#You taught me that friendship between our species is possible after all...#$b#We just have to try a little harder than everyone else.$h\"/pause 1000/speak Krobus \"I'm... truly grateful for your friendship, @.$4\"/pause 100/emote Krobus 32/pause 200/emote farmer 32/pause 2000/positionOffset farmer 4 0/pause 200/playSound dwop/pause 250/positionOffset farmer 4 0/pause 200/playSound dwop/pause 250/positionOffset farmer 4 0/pause 200/playSound dwop/pause 250/positionOffset farmer 4 0/pause 200/playSound dwop/pause 250/positionOffset farmer 4 0/pause 200/playSound dwop/pause 250/positionOffset farmer 4 0/pause 200/playSound dwop/pause 1000/playSound thunder_small/pause 3000/emote farmer 24/pause 3000/fade/viewport -1000 -1000/pause 800/speak Krobus \"@...?\"/fade/viewport 74 94/pause 1000/fade/viewport -1000 -1000/speak Krobus \"@!!!\"/pause 1000/addConversationTopic kr_ten 2/end newDay",
+        }
+},
+
+//CROW PRINCE
+{
+            "Action": "Load",
+            "Target": "Characters/Krow",
+            "FromFile": "assets/krows3.png"
+        },
+
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+						"177555/d Fri/n Krobushzl/e 177532/t 2000 2500": "echos/101 93/farmer 90 89 1 Krobus 107 91 2/addObject 110 94 408/addLantern 735 110 89 4/skippable/viewport move 1 0 3500/move farmer 3 0 1/pause 3500/shake Krobus 400/pause 200/textAboveHead Krobus \"*sigh*\"/pause 2000/faceDirection Krobus 0/pause 1000/emote Krobus 28/speed Krobus 1/move Krobus 0 -2 0/playSound leafrustle/pause 200/jump Krobus/addTemporaryActor Krow 32 32 103 94 1 false/faceDirection Krobus 2/pause 800/move Krow 5 0 1/pause 1000/showFrame Krow 0/pause 200/showFrame Krow 1/playSound axe/pause 200/showFrame Krow 0/pause 200/showFrame Krow 1/playSound axe/pause 200/showFrame Krow 0/pause 200/showFrame Krow 1/playSound axe/removeObject 110 94/pause 200/showFrame Krow 0/pause 800/speak Krobus \"...Woah.#$b#You must be the biggest crow in the entire forest.\"/pause 500/showFrame Krow 3/playSound crow/pause 800/speed Krow 5/move Krow -6 0 3/speak Krobus \"No, wait!#$b#I didn't mean to offend you.\"/pause 2000/speak Krobus \"I know you're still hiding in that bush. Please come out.\"/pause 2000/playSound leafrustle/speed Krow 1/move Krow 5 0 1/showFrame Krow 3/playSound crow/pause 1500/speed Krobus 2/move Krobus 0 4 2/pause 500/speak Krobus \"Hello. My name is Krobus.#$b#I live in the sewer nearby.#$b#It is a pleasure to meet you.\"/pause 1000/speak Krobus \"Um, is that a crown? On your head?\"/pause 150/playSound crow/pause 200/animate Krow false false 500 0 1/pause 1000/showFrame Krow 3/emote Krow 8/pause 800/speak Krobus \"Oh... You're still hungry?#$b#That was the only hazelnut I had... I'm sorry.#$b#I do have, um, these.\"/pause 500/playSound coin/addObject 106 93 770/pause 800/emote Krow 12/pause 1000/speak Krobus \"Sorry, I know it's not much...#$b#Could you come here again some other evening? I will have more food then.#$b#And maybe @ will want to come with me and meet you, too.\"/pause 1500/playSound crow/emote Krow 8/pause 1500/speak Krobus \"@ is my- a friend.#$b#We're... very different, @ and I. I'm sure you would find our friendship difficult to believe.#$b#My people certainly wouldn't approve of it, if they knew.#$b#But @ really is very special, you see.#$b#I simply must introduce you.#$b#Don't worry, everyone loves @. I'm sure you will too.$h\"/pause 1500/playSound crow/pause 2000/speak Krobus \"I better go now...#$b#Please visit again. I promise to bring more hazelnuts next time.#$b#And don't worry, your secret is safe with me.#$b#I know what it's like to have to keep your existence hidden.#$b#...I will tell @, though.#$b#There is no one I trust as much as him.^There is no one I trust as much as her.#$b#I really can't wait for you two to meet.$h\"/pause 3000/addConversationTopic Krow 7/end warpOut",
+						}
+},
+
+//BLINKY RETURNS FT. DWARF
+
+{
+	"LogName" :"Load SP1 portraits",
+	"Action": "Load",
+	"Target": "Portraits/ShadowPerson1",
+	"FromFile": "assets/shadowpr.png"
+},
+
+{
+	"LogName" :"Load SP1 sprites",
+	"Action": "Load",
+	"Target": "Characters/ShadowPerson1",
+	"FromFile": "assets/shadowpr_sprite0.png"
+},
+
+{
+	"LogName" :"Load SP2 portraits",
+	"Action": "Load",
+	"Target": "Portraits/ShadowPerson2",
+	"FromFile": "assets/shadowpr3.png"
+},
+
+{
+	"LogName" :"Load SP2 sprites",
+	"Action": "Load",
+	"Target": "Characters/ShadowPerson2",
+	"FromFile": "assets/shadowpr_sprite2.png"
+},
+
+{
+	
+	"Action": "Load",
+	"Target": "Characters/Blinky",
+	"FromFile": "assets/weirdcat.png"
+},
+
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Mine",
+"Entries": {
+						"177556/d Fri/e 177532/f Krobus 2250 Dwarf 1500/t 2100 2330":"Upper_Ambient/18 18/farmer 2000 2000 1 Krobus 18 13 0 Dwarf 22 9 2/skippable/addTemporaryActor ShadowPerson1 16 32 -801 -800 2 false/addTemporaryActor ShadowPerson2 16 32 -801 -801 2 false/addTemporaryActor Blinky 32 32 -600 -600 1 false/viewport 18 18/viewport move 0 -2 4000/pause 500/move Krobus 0 -4 0/pause 500/faceDirection Krobus 1/pause 100/faceDirection Dwarf 3/speak Dwarf \"The letter said 'come at midnight'. Don't you know how to read?\"/speak Krobus \"Well, your handwriting certainly could use improvement...#$b#Also, there are no clocks in the sewer.\"/pause 2500/speak Krobus \"So, um. Didn't your letter say it was important? I'd rather not stand here all night, you know.\"/pause 200/speak Dwarf \"Hmph. Still no manners, then. You shadow brutes never learn a thing, do you?#$b#Follow me.\"/move Dwarf 0 -1 0/move Dwarf 6 0 1 true/move Krobus 0 -1 0 true/textAboveHead Dwarf \"*grumbles*\"/move Krobus 2 0 1/speak Dwarf \"...a shadow person in my own lair... if my parents could see... unbelievable...\"/pause 100/speak Krobus \"Excuse me! You told me to come, you shrimpy little...!\"/pause 200/playSound cat/playSound ghost/pause 500/emote Krobus 16/pause 500/faceDirection Dwarf 3/speak Dwarf \"I found this... feline-looking creature, passed out in the mines. It has your smell all over it.#$b#Did you send it to spy on me?#$b#I know it's some kind of scheme, so better start explaining yourself now.\"/pause 100/speak Krobus \"It's not a-\"/playSound shadowpeep/pause 500/playSound shadowpeep/pause 200/emote Dwarf 16/pause 600/speak ShadowPerson1 \"Krobus? Is that really you?\"/pause 200/speak Krobus \"Oh no.\"/warp ShadowPerson1 17 3 2/warp ShadowPerson2 16 4 2/faceDirection Krobus 3/viewport move 0 -1 4000/pause 4000/move ShadowPerson1 0 3 2 true/move ShadowPerson2 0 3 1 true/move ShadowPerson1 1 0 1/pause 100/move Krobus 1 0 3/pause 200/pause 500/speak ShadowPerson2 \"It is you!#$b#We knew you'd come to your senses!\"/pause 700/viewport move 0 1 3000/pause 800/speak Krobus \"Um. What do you mean by that exactly?\"/speak ShadowPerson2 \"You know, the stuff you said before you left? All that rambling about going pacifist, making amends, and so on...#$b#We knew that eventually you'd understand how stupid it all sounded and come back.$1\"/speak Krobus \"But I still-\"/speak ShadowPerson1 \"I admit, we were getting worried... We haven't heard from you in decades.#$b#Decades!!!$1#$b#And some... very concerning rumours have reached us.\"/speak ShadowPerson2 \"Yeah, crazy stuff. Something about you living in a filthy sewer.#$b#Under a human settlement.#$b#And hanging out with humans. Ugh.\"/shake ShadowPerson2 800/speak Krobus \"Well, I'll have you know that-\"/speak ShadowPerson1 \"But you're back. And it's about time, I'll say!#$b#Those ridiculous rumours weren't true... Honestly, what a relief.#$b#Come, let's get you home.\"/speak ShadowPerson2 \"The others will be so happy to see you.#$b#And don't worry, we're ready to forgive you everything!$1\"/emote Krobus 12/speak ShadowPerson1 \"Of course. Many of us did foolish things when we were your age...#$b#We do understand how it is to be young.\"/speak Krobus \"NO!$5#$b#That is... Ahem. You don't understand at all, actually.#$b#I am not coming back, you see. Now or ever.#$b#I should think I made that part very clear when I left.#$b#I will not live like that, ever again. #$b#I'm only here to visit a friend, that is all.\"/pause 1500/speak Krobus \"It was... good, to see you two. I am glad to know you're well.#$b#But please leave us alone now.\"/pause 300/speak ShadowPerson1 \"Oh, come now. Don't be a fool!$1\"/speak ShadowPerson2 \"Right, are you crazy? Let's go home!\"/pause 200/viewport move 1 0 2000/move Krobus 2 0 3/shake Krobus 800/faceDirection Dwarf 1/pause 400/faceDirection Dwarf 3/pause 200/emote Dwarf 12/speed Dwarf 4/move Dwarf -3 0 3/speak Dwarf \"Are you deaf? He said he doesn't want to!\"/emote ShadowPerson1 16/speak ShadowPerson1 \"A dwarf!$1\"/pause 200/speak ShadowPerson2 \"So it was true...#$b#Honestly though, a dwarf? How can you associate with such-\"/speak Krobus \"Do not finish that!\"/pause 200/playSound ghost/playSound cat/warp Blinky 33 8 3/speed Blinky 4/move Blinky -9 0 0/move Blinky 0 -2 0/move Blinky -1 0 3 true/emote Blinky 12/pause 400/animate Blinky false true 600 12 24/pause 800/speak ShadowPerson2 \"Bwah! What is this thing!\"/speak ShadowPerson1 \"How are you not ashamed of yourself? This is a disgrace to all of our kind...$1\"/stopMusic/screenFlash 3/playSound explosion/pause 400/speak Dwarf \"Hey, pinhead! One more word and I'll start throwing bombs at you!\"/addObject 24 7 288/playSound coin/pause 100/addObject 24 8 288/playSound coin/pause 100/addObject 24 9 288/playSound coin/pause 3000/speak ShadowPerson1 \"...fine.$1#$b#Goodbye, Krobus. Don't bother looking for us.$1\"/pause 800/move ShadowPerson1 0 -2 0/move ShadowPerson1 -2 0 0/pause 200/warp ShadowPerson1 -500 -500 1/playSound crystal/pause 800/move ShadowPerson2 0 -1 1/pause 500/faceDirection ShadowPerson2 1/pause 1500/speak ShadowPerson2 \"So, maybe... Well, I mean...#$b#Uh. Nevermind.\"/move ShadowPerson2 1 0 0/move ShadowPerson2 0 -2 0/pause 100/warp ShadowPerson2 -500 -500 1/playSound crystal/pause 500/playSound ghost/playSound cat/showFrame Blinky 16/animate Blinky false false 400 16 17 18/pause 400/animate Blinky false true 800 18 19/pause 2500/speak Dwarf \"Ha. Idiots.\"/removeObject 24 7 288/playSound coin/pause 200/removeObject 24 8 288/playSound coin/pause 200/removeObject 24 9 288/playSound coin/pause 500/faceDirection Dwarf 1/speak Dwarf \"Don't let them disrespect you like that, family or not.#$b#You're better than every one of them.\"/pause 3000/speak Dwarf \"...well, are you going to stand there all night? Let's go.#$b#What you need right now is a steaming mug of dwarven ale. That'll cheer you right up.\"/pause 600/speak Dwarf \"And take your creature as well. I still have some leftover stew.#$b#No respectable dwarf will let their friends go hungry in their own home.\"/pause 2500/emote Krobus 32/pause 500/end warpOut/",
+
+}
+}, 
+
+
+//-----------
+//B L I N K Y
+//-----------
+
+
+//SEWER
+{
+      "LogName": "Adds Blinky to Sewer",
+      "Action": "EditMap",
+      "Target": "Maps/Sewer",
+	  "When": { 
+				"HasSeenEvent":"177556",
+				"PermaBlinky": "True",
+				"Roommate |contains=Krobus": "false",
+				"Spouse |contains=Krobus": "false",
+				},
+      "MapTiles": [
+        {
+          "Position": { "X": 31, "Y": 22 },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Yuhvy.WeirdKittyBlinky.CC.WeirdKitty"
+          }
+        }
+      ]
+    },
+
+//FARM
+{
+      "LogName": "Adds Blinky to Farm",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+	  "When": { 
+				"HasSeenEvent":"177556",
+				"PermaBlinky": "True",
+				"Merge: {{Roommate}}, {{Spouse}}": "Krobus",
+				"Weather": "Rain, Storm",
+				},
+      "MapTiles": [
+        {
+          "Position": { "X": 64, "Y": 17 },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Yuhvy.WeirdKittyBlinky.CC.WeirdKitty"
+          }
+        }
+      ]
+    },
+
+{
+      "LogName": "Adds Blinky to Farm on Krobus bday",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+	  "When": { 
+				"HasSeenEvent":"177556",
+				"PermaBlinky": "True",
+				"Merge: {{Roommate}}, {{Spouse}}": "Krobus",
+				"Day |contains=1": true,
+				"Season": "Winter",
+"HasMod |contains= PeacefulEnd.CustomCompanions": true,
+				},
+      "MapTiles": [
+        {
+          "Position": { "X": 64, "Y": 17 },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Yuhvy.WeirdKittyBlinky.CC.WeirdKitty"
+          }
+        }
+      ]
+    },
+//CC Blinky inspection dialogue
+	
+	{
+      "Action": "EditData",
+      "Target": "{{PeacefulEnd.CustomCompanions/Companions:Yuhvy.WeirdKittyBlinky.CC.WeirdKitty}}",
+	  "When": { "Merge: {{Roommate}}, {{Spouse}}": "Krobus",
+"HasMod |contains= PeacefulEnd.CustomCompanions": true, "Weather": "Rain, Storm" },
+      "Entries": {
+        "Companion": {
+		"InspectionDialogue": "{{Random: Blinky seems to be feeling right at home, snooping around every nook and cranny of {{FarmName}} Farm.#You know that Krobus only encourages her adventurous spirit. @@For a split second you see lightning crackle in Blinky's eyes.#She blinks back at you, and it's gone.@@As you peer into Blinky's eyes, strange visions start filling your head... |inputSeparator=@@}}"
+},
+	  },
+	},
+
+{
+      "Action": "EditData",
+      "Target": "{{PeacefulEnd.CustomCompanions/Companions:Yuhvy.WeirdKittyBlinky.CC.WeirdKitty}}",
+	  "When": { "Roommate |contains=Krobus": "false", "Spouse |contains=Krobus": "false",
+"HasMod |contains= PeacefulEnd.CustomCompanions": true,
+"Weather": "Snow", },
+      "Entries": {
+        "Companion": {
+		"InspectionDialogue": "{{Random:Blinky's fur is sprinkled with snow. She must have gone exploring quite recently., There is a fresh trail of wet paw prints all around Krobus.#He doesn't seem to mind.}}"}
+	  }
+},
+
+{
+      "Action": "EditData",
+      "Target": "{{PeacefulEnd.CustomCompanions/Companions:Yuhvy.WeirdKittyBlinky.CC.WeirdKitty}}",
+	  "When": { 
+"Day |contains=1": true,
+"Season": "Winter",
+"HasMod |contains= PeacefulEnd.CustomCompanions": true, },
+      "Entries": {
+        "Companion": {
+		"InspectionDialogue": "{{Random:Looking into Blinky's eyes, you can almost hear faint tones of a happy birthday song...#A curious collection of items flashes before your eyes:#Diamonds and iridium bars, pumpkins and wild horseradish, and finally a void egg which morphs into void mayonnaise.#Blinky meows at you pointedly.@@Earlier you saw Blinky carring a gigantic bag of black licorice and looking very pleased with herself.#That probably explains the delighted expression on Krobus' face. |inputSeparator=@@}}"
+	  }
+}
+}
+
+
+
+    ]
+}

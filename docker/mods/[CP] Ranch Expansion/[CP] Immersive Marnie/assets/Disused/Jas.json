@@ -1,0 +1,21 @@
+ { "Entries": {
+    "Mon6": "We've got lots neat animals at the farm, you should come meet them sometime!",
+    "Wed6": "Sometimes %pet comes over at night to see me.#$e#She chases the scary dreams away.",
+    "Sun6": "My toys have lots of adventures, and one day I hope to have adventures of my own!#$e#Aunt Marnie says I'm not allowed to until I'm all grown up though.$1",
+    "spring_Wed8": "Aunt Marnie didn't believe me when I told her about the Ju... the Ju-min-o.#$e#She said she did, but I could see she was just pretending.#$e#You believe me though, don't you?",
+    "spring_25": "Vinny wants to be Flower Queen one day, but his mom says that he can't, because he's a boy.$3#$e#That seems mean. Why can't a boy be the Flower Queen?$4",
+    "summer_Mon8": "Uncle Lewis always talks to me like I'm a little kid.#$b#I'm glad you don't talk to me like that, Mr. @^I'm glad you don't talk to me like that, Mrs. @.$4",
+    "summer_Wed8": "Shane took me to see the Wumbus movie. It was really, really, really good!#$e#Will you take me to the movies one day?",
+    "summer_Thu6": "We went to the beach today! It's fun hanging out with Vinny and Sam.#$e#He always lets us have an ice cream and never says it'll spoil our dinner!$1",
+    "summer_ Fri6": "I love the library. Miss Penny lets me read any story I like.$1#$e$Not like Aunt Marnie. She says I'm too young to read *her* books.$3#$e#There's too much kissing in them, anyway. They're boring.$1",
+    "fall_Fri6": "Did you know how Pelican Town got its name, Mr. @?^Did you know how Pelican Town got its name, Ms. @?#$b#It's cos explorers found bones of a giant bird called a Pelagorni-thingy.#$e#I learned that from a book. Books tell us lots of things.",
+    "winter_Tue10": "I wish Aunt Marnie would talk about my mom. But when I ask, she makes a super-sad face.#$e#I think it must hurt Aunt lots to remember her.$2",
+    "winter_Fri6": "I showed Leah one of my pictures today. She said it was really good.#$e#What do you think, Mr. @?^What do you think, Ms. @?",
+    "Fall_18": "Me and Shane made a pink cake for Aunt Marnie's birthday.$1#$e#I think we did something wrong though, cos it exploded! Aunt wasn't very happy...$3",
+    "spring_Mon_inlaw_Shane": "Shane's taught me heaps about looking after chickens.#$b#We've got lots of baby chicks this year!$1",
+    "spring_Fri_inlaw_Shane": "Can I come over and visit you sometime? I'd love to play with your animals!#$e#You have given them names, haven't you?$4",
+    "summer_Tue_inlaw_Shane": "I drew you a picture, Mr. @.^I drew you a picture, Ms. @.$2#$e#It's you and Shane and Charlie and %pet, of course!",
+    "summer_4": "Today's my birthday, but I know you won't have forgotten!$4"
+  
+    }
+}

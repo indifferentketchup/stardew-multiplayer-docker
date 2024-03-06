@@ -1,0 +1,85 @@
+{
+	"Format": "1.0", // this is required
+	"Quests": [
+		{
+			"Name": "DTZGoSeeBuilder", // No id needed, will be automatically generated
+			"Type": "Location", // Vanilla quest type
+			"Title": "Bill",
+			"Description": "You've bought the sawmill, now you need to go see Bill and his builders about getting it fixed up.",
+			"Objective": "Visit Bill's Builders building company in the city.",
+			"Reward": 0,
+			"RewardType": "Money",
+			"Cancelable": false,
+			"Trigger": "Custom_DTZ_Builders",
+			"AddMailOnComplete": "DTZ.SpokeToBuilderInitial noletter",
+			"NextQuests": [ "DTZGetSawmillPermit" ]
+		},
+		{
+			"Name": "DTZGetSawmillPermit", // No id needed, will be automatically generated
+			"Type": "Location", // Vanilla quest type
+			"Title": "Sawmill Permit",
+			"Description": "Bill has offered to help repair the sawmill, but you need a permit for it.",
+			"Objective": "Go and get a construction permit from the Zuzu Permits Office",
+			"Reward": 0,
+			"RewardType": "Money",
+			"Cancelable": false,
+			"Trigger": "Custom_DTZ_ZuzuPermits",
+			"NextQuests": [ "DTZFixUpSawmill" ]
+		},
+		{
+			"Name": "DTZFixUpSawmill", // No id needed, will be automatically generated
+			"Type": "Location", // Vanilla quest type
+			"Title": "Fix Up The Sawmill",
+			"Description": "Now you have your permit, go back and speak to Bill about fixing up the sawmill.",
+			"Objective": "Visit Bill's Builders building company in the city.",
+			"Reward": 0,
+			"RewardType": "Money",
+			"Cancelable": false,
+			"Trigger": "Custom_DTZ_Builders"
+		},
+    {
+      "Name": "DTZUpgradeApartment", // No id needed, will be automatically generated
+      "Type": "Location", // Vanilla quest type
+      "Title": "Apartment Renovations",
+      "Description": "Bill says he can renovate your apartment for you!",
+      "Objective": "Visit Bill's Builders building company in the city.",
+      "Reward": 0,
+      "RewardType": "Money",
+      "Cancelable": false,
+      "Trigger": "Custom_DTZ_Builders"
+    }
+
+	],
+	"Offers": [
+		{
+			"QuestName": "DTZGoSeeBuilder",
+			"OfferedBy": "Mail",
+			"OfferDetails": {
+				"Topic": "The Sawmill...",
+				"Text": "Hello, @!^I heard you bought that old sawmill in the Zuzu Forest. Head down to my shop in the city and I can help you fix that place up.^      - Bill"
+			},
+			"When": {
+				"MailReceived": "DTZ.BoughtMill",
+				"QuestNeverAccepted": "Yes"
+			}
+		},
+    {
+      "QuestName": "DTZUpgradeApartment",
+      "OfferedBy": "Mail",
+      "OfferDetails": {
+        "Topic": "The Sawmill...",
+        "Text": "Hello, @!^I've been doing a bit of thinking... I can renovate your apartment for you! Come see me at some point.^      - Bill"
+      },
+      "When": {
+        "MailReceived": "DTZ.CanUpgradeApartment",
+        "QuestNeverAccepted": "Yes"
+      }
+    }
+	],
+	"CustomBoards": [
+		// (optional) define your custom quest or special order boards here
+	],
+	"CustomDropBoxes": [
+		// (optional) define your custom drop boxes for your special orders here
+	]
+}

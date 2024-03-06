@@ -1,0 +1,113 @@
+{
+  "Format": "1.25.0",
+  "ConfigSchema": {
+    "DwarfFace": {
+      "AllowValues": "Emotions, Static",
+      "Default": "Emotions"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Portraits/Dwarf",
+      "FromFile": "Assets/Dwarf_{{DwarfFace}}.png"
+    },
+    { //Volcano Dwarf
+      "Action": "EditImage",
+      "Target": "Portraits/CinderDwarf",
+      "FromFile": "Assets/CinderFace.png",
+      "When": {
+        "HasMod |contains=Lemurkat.Dwarf.cp": true
+      }
+    },
+    { //Highlands Dwarf
+      "Action": "EditImage",
+      "Target": "Portraits/HighlandsDwarf",
+      "FromFile": "Assets/HighlandFace.png",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    //Stoffton Dwarves
+    { //Pxurk
+      "Action": "EditImage",
+      "Target": "Characters/DwarfAFS",
+      "FromFile": "Assets/TeddaBody.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Tedda means Ribbon
+      "Action": "EditImage",
+      "Target": "Portraits/DwarfAFS",
+      "FromFile": "Assets/TeddaFace.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Emalik
+      "Action": "EditImage",
+      "Target": "Characters/DwarfBFS",
+      "FromFile": "Assets/EtayBody.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Etay means Crown
+      "Action": "EditImage",
+      "Target": "Portraits/DwarfBFS",
+      "FromFile": "Assets/EtayFace.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Gfvol
+      "Action": "EditImage",
+      "Target": "Characters/DwarfCFS",
+      "FromFile": "Assets/UnemuBody.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Unemu means Slime
+      "Action": "EditImage",
+      "Target": "Portraits/DwarfCFS",
+      "FromFile": "Assets/UnemuFace.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Filosoof
+      "Action": "EditImage",
+      "Target": "Characters/DwarfDFS",
+      "FromFile": "Assets/DinnBody.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Dinn means Bull
+      "Action": "EditImage",
+      "Target": "Portraits/DwarfDFS",
+      "FromFile": "Assets/DinnFace.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Zsopk
+      "Action": "EditImage",
+      "Target": "Characters/DwarfEFS",
+      "FromFile": "Assets/DinnuthnolBody.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    },
+    { //Dinnuthnol means Butterfly
+      "Action": "EditImage",
+      "Target": "Portraits/DwarfEFS",
+      "FromFile": "Assets/DinnuthnolFace.png",
+      "When": {
+        "HasMod |contains=Lizzie.Stoffton": true
+      }
+    }
+  ]
+  }

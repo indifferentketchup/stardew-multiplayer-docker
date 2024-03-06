@@ -1,0 +1,13 @@
+{
+  "Name": "Place Dressers, Fireplaces, TVs Outside (Furniture Anywhere Redux) by glymr",
+  "Author": "glymr",
+  "Version": "1.0.0",
+  "Description": "Allows you to place Dresser, Fireplace, and TV furniture outside. Everything still works!",
+  "UniqueID": "glymr.DressersOutside",
+  "UpdateKeys": [
+    "Nexus:19109",
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

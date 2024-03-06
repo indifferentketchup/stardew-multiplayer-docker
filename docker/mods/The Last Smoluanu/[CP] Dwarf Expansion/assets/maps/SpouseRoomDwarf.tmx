@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="7">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="333">
+   <animation>
+    <frame tileid="325" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="333" duration="250"/>
+    <frame tileid="333" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="342" duration="250"/>
+    <frame tileid="344" duration="250"/>
+    <frame tileid="345" duration="250"/>
+    <frame tileid="387" duration="250"/>
+    <frame tileid="388" duration="250"/>
+    <frame tileid="389" duration="250"/>
+    <frame tileid="390" duration="250"/>
+    <frame tileid="391" duration="250"/>
+    <frame tileid="392" duration="250"/>
+    <frame tileid="393" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1075">
+   <animation>
+    <frame tileid="1075" duration="250"/>
+    <frame tileid="1075" duration="250"/>
+    <frame tileid="1075" duration="250"/>
+    <frame tileid="1081" duration="250"/>
+    <frame tileid="1081" duration="250"/>
+    <frame tileid="1081" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1076">
+   <animation>
+    <frame tileid="1076" duration="250"/>
+    <frame tileid="1076" duration="250"/>
+    <frame tileid="1076" duration="250"/>
+    <frame tileid="1082" duration="250"/>
+    <frame tileid="1082" duration="250"/>
+    <frame tileid="1082" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1096">
+   <animation>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1098" duration="250"/>
+    <frame tileid="1098" duration="250"/>
+    <frame tileid="1098" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1100">
+   <animation>
+    <frame tileid="1100" duration="250"/>
+    <frame tileid="1100" duration="250"/>
+    <frame tileid="1100" duration="250"/>
+    <frame tileid="1106" duration="250"/>
+    <frame tileid="1106" duration="250"/>
+    <frame tileid="1106" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1101">
+   <animation>
+    <frame tileid="1101" duration="250"/>
+    <frame tileid="1101" duration="250"/>
+    <frame tileid="1101" duration="250"/>
+    <frame tileid="1107" duration="250"/>
+    <frame tileid="1107" duration="250"/>
+    <frame tileid="1107" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1121">
+   <animation>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1123" duration="250"/>
+    <frame tileid="1123" duration="250"/>
+    <frame tileid="1123" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="z_lemurfurniture" tilewidth="16" tileheight="16" tilecount="2624" columns="32">
+  <image source="lemurfurniture.png" width="512" height="1312"/>
+ </tileset>
+ <tileset firstgid="4801" name="z_WitchHutTiles" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source="WitchHutTiles.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="4929" name="z_mine" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="5217" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+4837,4838,4837,4838,4837,4838,
+4837,4838,4850,4851,4852,4837,
+4837,4837,4858,4859,4860,4838,
+4837,4838,4837,4838,4837,4838,
+4837,4838,4837,4838,4837,4838,
+4837,4838,4837,4838,4837,4845,
+4837,4838,4837,4838,4837,4838
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+4806,4806,4806,4806,4806,4806,
+4814,4814,4814,4814,4814,4814,
+4822,4822,4822,4822,4822,4822,
+2846,5168,5167,0,5166,2858,
+0,0,0,0,0,5168,
+0,0,0,0,0,0,
+0,0,0,0,0,887,
+0,0,0,0,4913,4914,
+0,0,0,887,4921,4922
+</data>
+ </layer>
+ <objectgroup id="7" name="Buildings">
+  <object id="4" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DwarfSpouse.1&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DwarfSpouse.2&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DwarfSpouse.3&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="11" name="Paths" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,5224,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Paths"/>
+ <layer id="3" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,965,0,0,1339,0,
+0,997,0,0,1371,0,
+2814,0,5151,0,0,2826,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,4905,4906,
+0,0,0,0,4867,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+</map>

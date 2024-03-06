@@ -1,0 +1,37 @@
+{
+  // Storages
+  "adventurers-pack.name": "冒险家背包",
+  "adventurers-pack.description": "在黑暗的地牢和洞穴里搜寻珍宝！可在掌上打开，不能放在地上，自动收集古物、矿物和怪物战利品。带着这个袋子在黑暗的地牢和洞穴里搜寻珍宝吧！",
+  "cigar-box.name": "雪茄盒",
+  "cigar-box.description": "用于存放贵重物品的小木箱。",
+  "dimensional-portal.name": "口袋维度门",
+  "dimensional-portal.description": "可以在口袋维度中存储物品。可以在手上打开，十分方便~",
+  "ice-cooler.name": "便携式冰箱",
+  "ice-cooler.description": "可容纳农作物、鱼类、食品、手工艺品、动物产品的小冰箱，使易腐烂的食材保持新鲜！",
+  "lumber-pile.name": "便携料堆",
+  "lumber-pile.description": "坚固的架子，用于存放建筑材料。（收容木材、石材、矿物等）",
+  "mini-storage-shed.name": "小型储藏室",
+  "mini-storage-shed.description": "一个用于放东西的小型储藏室。",
+  "wooden-cabinet.name": "木柜子",
+  "wooden-cabinet.description": "高大的硬木橱柜，里面有宽阔的空间。",
+  "wrought-iron-cellar.name": "锻铁地窖",
+  "wrought-iron-cellar.description": "楼梯通向一个地下室，有宽敞的空间存放物品。",
+
+  // Config
+  "config.EnableAdventurersPack.name": "启用冒险家背包",
+  "config.EnableAdventurersPack.description": "在游戏中加入冒险家背包。",
+  "config.EnableCigarBox.name": "启用雪茄盒",
+  "config.EnableCigarBox.description": "在游戏中加入雪茄盒。",
+  "config.EnableDimensionalPortal.name": "启用口袋维度门",
+  "config.EnableDimensionalPortal.description": "在游戏中加入口袋维度门。",
+  "config.EnableIceCooler.name": "启用便携式冰箱",
+  "config.EnableIceCooler.description": "在游戏中加入便携式冰箱。",
+  "config.EnableLumberPile.name": "启用料堆",
+  "config.EnableLumberPile.description": "在游戏中加入料堆。",
+  "config.EnableMiniStorageShed.name": "启用小型储藏室",
+  "config.EnableMiniStorageShed.description": "在游戏中加入小型储藏室。",
+  "config.EnableWoodenCabinet.name": "启用木柜子",
+  "config.EnableWoodenCabinet.description": "在游戏中加入木柜子。",
+  "config.EnableWroughtIronCellar.name": "启用锻铁地窖",
+  "config.EnableWroughtIronCellar.description": "在游戏中加入锻铁地窖。"
+}

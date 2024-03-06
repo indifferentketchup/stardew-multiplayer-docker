@@ -1,0 +1,11 @@
+{
+	"Name": "Ancient Glowing Huckleberry Vine",
+	"Price": 400,
+    "Product": "Ancient Glowing Huckleberry",
+	"SaplingName": "Ancient Glowing Huckleberry Seed",
+	"SaplingDescription": "Previously dormant. Takes 28 days to produce a mature berry vine. Bears Huckleberries in the Summer and Fall. Only grows if the 8 surrounding 'tiles' are empty.",
+	"Seasons": [ "summer" ],
+	"EnableWithMod": "DestyNova.Hector.CP",
+	"TranslationKey": "crop.ancient-glowing-huckleberry"
+
+}

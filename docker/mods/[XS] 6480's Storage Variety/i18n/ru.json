@@ -1,0 +1,18 @@
+{
+    "adventurers-pack.name": "Рюкзак авантюриста",
+    "adventurers-pack.description": "Отправляйтесь в темные подзмелья и пещеры с рюкзаком для хранения редких сокровищ!",
+    "cigar-box.name": "Коробка для сигар",
+    "cigar-box.description": "Небольшая деревянная коробка для хранения ценных вещей.",
+    "dimensional-portal.name": "Пространственный портал",
+    "dimensional-portal.description": "Вы можете складывать предметы в карманное измерение. Как удобно!",
+    "ice-cooler.name": "Сумка-холодильник",
+    "ice-cooler.description": "Содержит лед, чтобы скоропортящиеся продукты оставались свежими!",
+    "lumber-pile.name": "Поленница",
+    "lumber-pile.description": "Прочная полленица для хранения всех строительных ресурсов в одном месте.",
+    "mini-storage-shed.name": "Мини-сарай",
+    "mini-storage-shed.description": "Маленький сарай только для хранения вещей.",
+    "wooden-cabinet.name": "Деревянный шкаф",
+    "wooden-cabinet.description": "Высокий шкаф из красного дерева, внутри много места.",
+    "wrought-iron-cellar.name": "Металлический погреб",
+    "wrought-iron-cellar.description": "Лестница уходит вниз в вместительный погреб с достаточным количеством места для хранения вещей.",
+}
