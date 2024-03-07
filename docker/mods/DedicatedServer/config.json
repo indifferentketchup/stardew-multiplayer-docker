@@ -11,11 +11,31 @@
   "CommunityCenterBundles": "normal",
   "GuaranteeYear1Completable": false,
   "MineRewards": "normal",
-  "SpawnMonstersOnFarmAtNight": true,
   "RandomSeed": null,
   "PetSpecies": "dog",
   "PetBreed": 0,
   "PetName": "Apples",
   "MushroomsOrBats": "Mushrooms",
-  "MoveBuildPermission": "on"
+  "SpawnMonstersOnFarmAtNight": true,
+  "MoveBuildPermission": "on",
+  "TryActivatingInviteCode": true,
+  "Password": null,
+  "PasswordProtected": {
+    "Pause": true,
+    "Build": true,
+    "Demolish": true,
+    "LetMePlay": true,
+    "TakeOver": true,
+    "SafeInviteCode": true,
+    "InviteCode": true,
+    "ForceInviteCode": true,
+    "Invisible": true,
+    "Sleep": true,
+    "ForceSleep": true,
+    "ForceResetDay": true,
+    "ForceShutdown": true,
+    "Wallet": true,
+    "SpawnMonster": true,
+    "MoveBuildPermission": true
+  }
 }
