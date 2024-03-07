@@ -27,7 +27,7 @@
       },
       {
 	    "UniqueID": "grapeponta.VibrantPastoralSVE",
-	    "IsRequired": true
+	    "IsRequired": false
       },		  
       {
         "UniqueID": "Hesper.RusticCountrysideTownInterior",
@@ -43,7 +43,7 @@
       },
       {
         "UniqueID": "Poltergeister.SeasonalCuteCharacters",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "UniqueID": "Poltergeister.CuteSprites",
