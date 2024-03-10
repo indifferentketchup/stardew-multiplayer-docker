@@ -19,7 +19,7 @@
   "SpawnMonstersOnFarmAtNight": true,
   "MoveBuildPermission": "on",
   "TryActivatingInviteCode": true,
-  "Password": stardew,
+  "Password": "stardew",
   "PasswordProtected": {
     "Pause": false,
     "Build": false,
