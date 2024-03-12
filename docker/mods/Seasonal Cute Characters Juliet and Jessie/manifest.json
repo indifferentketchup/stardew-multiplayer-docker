@@ -1,0 +1,18 @@
+{
+   "Name": "Seasonal Cute Characters Juliet and Jessie",
+   "Author": "Poltergeister",
+   "Version": "1.0.2",
+   "Description": "Makes the characters of the Juliet and Jessie the Joja Clerks expansion slightly cuter and gives them seasonal outfits.",
+   "UniqueID": "Poltergeister.SeasonalCuteSpritesJojaClerks",
+   "UpdateKeys": [ "Nexus:16045@JojaClerks" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+        "UniqueID": "LemurKat.JulietHouse.NPC",
+        "IsRequired": true
+      },
+
+   ]
+}

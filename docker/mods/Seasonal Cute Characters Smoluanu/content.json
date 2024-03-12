@@ -1,0 +1,49 @@
+{
+    "Format": "1.28.0",
+
+ 
+    "Changes": [
+
+        {
+            "LogName": "Dwarf sprite with hug",
+            "Action": "EditImage",
+            "Target": "Characters/Dwarf",
+            "FromFile": "assets/Dwarf.png",     
+            "When": {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+        {
+            "LogName": "Cinder dwarf sprite",			
+            "Action": "EditImage",
+            "Target": "Characters/CinderDwarf",
+            "FromFile": "assets/Sprites_CinderDwarf.png",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+            }			
+        },
+        {
+            "LogName": "Flying Machine sprite",			
+            "Action": "EditImage",
+            "Target": "Characters/FlyingDwarfMachine",
+            "FromFile": "assets/DwarfKrobusFlying.png",
+			"When": {
+                "HasFile:{{FromFile}}": true,
+            }	
+        }, 
+
+        {   
+			"LogName": "Volcano Dwarf",
+            "Action": "EditImage",
+            "Target": "Maps/Mines/volcano_dungeon",
+            "FromFile": "assets/VolcanoDwarf.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 20 },
+            "ToArea": { "X": 208, "Y": 60, "Width": 16, "Height": 20  },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},		
+    ]
+}
