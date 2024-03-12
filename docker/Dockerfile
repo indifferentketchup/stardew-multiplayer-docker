@@ -63,10 +63,6 @@ RUN chmod +x /etc/services.d/utils/run
 # Copy custom xorg.conf file
 COPY xorg.conf /etc/X11/xorg.conf
 
-# Set VNC protocol version to 3.8
-COPY starttiger.sh /starttiger.sh
-RUN chmod +x starttiger.sh
-
 COPY docker-entrypoint.sh /startapp.sh
 
 RUN apt-get clean \
