@@ -1,0 +1,18 @@
+{
+   "Name": "Seasonal Cute Characters Smoluanu",
+   "Author": "Poltergeister",
+   "Version": "1.0.0",
+   "Description": "Makes the characters of the Smoluanu Expansion slightly cuter.",
+   "UniqueID": "Poltergeister.SeasonalCuteSpritesSmoluanu",
+   "UpdateKeys": [ "Nexus:16045@Smoluanu" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+        "UniqueID": "Lemurkat.Dwarf.CP",
+        "IsRequired": true
+      },
+ 	      
+   ]
+}

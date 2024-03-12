@@ -1,13 +1,30 @@
 # Pull base image.
-FROM jlesage/baseimage-gui:debian-10
+FROM --platform=linux/386 jlesage/baseimage-gui:debian-11
+
+RUN install-glibc
 
 # Set the name of the application.
 ENV APP_NAME="StardewValley"
 
 RUN apt-get update
-RUN apt-get install -y wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio
+RUN apt-get install -y --no-install-recommends wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio build-essential \
+    && rm -rf /var/lib/apt/lists/*
 RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png && \
     install_app_icon.sh "$APP_ICON_URL"
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libxinerama1 \
+    xserver-xorg-video-intel xserver-xorg-core xserver-xorg-video-dummy \
+    x11proto-damage-dev x11-utils \
+    xauth xdpyinfo xrandr xset \
+    libgl1-mesa-glx \
+    libgl1-mesa-dri \
+    mesa-utils \
+    alsa-base alsa-utils \
+    fonts-dejavu-core \
+    libc6:i386 libstdc++6:i386 \
+    libc6 libpthread libgcc-s1 \
+    && rm -rf /var/lib/apt/lists/*
 
 # Game + ModLoader 1.5.6 3.18.2
 RUN mkdir -p /data/Stardew && \
@@ -16,8 +33,8 @@ RUN mkdir -p /data/Stardew && \
     tar xf /data/latest.tar.gz -C /data/Stardew && \
     rm /data/latest.tar.gz 
 
-RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/6788a5a5-1879-4095-948d-72c7fbdf350f/c996151548ec9f24d553817db64c3577/dotnet-sdk-5.0.402-linux-x64.tar.gz \
-#RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/95352809-7f41-40f3-974d-8d530321a8e4/0024d7bf0c872f176ceba7a63a34915b/dotnet-runtime-6.0.0-linux-musl-x64.tar.gz \
+RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/85bcc525-4e9c-471e-9c1d-96259aa1a315/930833ef34f66fe9ee2643b0ba21621a/dotnet-sdk-8.0.201-linux-x64.tar.gz \
+#RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/e57d7fe5-06c8-44ad-861b-e6b598adf5d3/d682ed25fe5bd0cedd8676d95603072d/dotnet-runtime-8.0.2-linux-musl-x64.tar.gz \
     && tar -zxf dotnet.tar.gz -C /usr/share/dotnet \
     && rm dotnet.tar.gz \
     && ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet 
@@ -39,5 +56,11 @@ RUN chmod +x /data/Stardew/Stardew\ Valley/StardewValley && \
 RUN mkdir /etc/services.d/utils && touch /etc/services.d/app/utils.dep
 COPY run /etc/services.d/utils/run 
 RUN chmod +x /etc/services.d/utils/run 
+
+# Disable Compiz (example for Ubuntu)
+RUN echo 'export SKIP_COMPIZ=1' >> /etc/profile
+
+RUN apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY docker-entrypoint.sh /startapp.sh

@@ -1,0 +1,27 @@
+{
+   "Name": "Seasonal Cute Swimwear",
+   "Author": "Poltergeister",
+   "Version": "1.0.0",
+   "Description": "Swimwear with the slightly cuter character aesthetic.",
+   "UniqueID": "Poltergeister.SeasonalCuteSwimwear",
+    "MinimumApiVersion": "3.2.1",
+"UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   },
+     "Dependencies": [
+      {
+	    "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+	    "IsRequired": false
+      },
+      {
+	    "UniqueID": "Poltergeister.Skirt",
+	    "IsRequired": false
+      },        
+      {
+	    "UniqueID": "Poltergeister.CuteSprites",
+	    "IsRequired": false
+      },
+                  
+ ]
+}

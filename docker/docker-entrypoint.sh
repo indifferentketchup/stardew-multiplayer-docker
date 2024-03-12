@@ -41,6 +41,8 @@ done
 
 # Ready to start!
 
+export DISPLAY=192.168.4.191:0.0
+
 export XAUTHORITY=~/.Xauthority
 TERM=
 sed -i -e 's/env TERM=xterm $LAUNCHER "$@"$/env SHELL=\/bin\/bash TERM=xterm xterm  -e "\/bin\/bash -c $LAUNCHER "$@""/' /data/Stardew/Stardew\ Valley/StardewValley
