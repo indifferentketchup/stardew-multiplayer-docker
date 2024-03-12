@@ -1,5 +1,5 @@
 # Pull base image.
-FROM --platform=linux/386 jlesage/baseimage-gui:debian-11
+FROM jlesage/baseimage-gui:alpine-3.19
 
 RUN install-glibc
 
