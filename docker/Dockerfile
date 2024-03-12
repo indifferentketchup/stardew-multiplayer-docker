@@ -59,8 +59,5 @@ RUN chmod +x /etc/services.d/utils/run
 
 COPY docker-entrypoint.sh /startapp.sh
 
-# Disable Compiz (example for Ubuntu)
-RUN echo 'export SKIP_COMPIZ=1' >> /etc/profile
-
 RUN apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
