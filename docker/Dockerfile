@@ -1,5 +1,5 @@
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.19
+FROM jlesage/baseimage-gui:alpine-3.19-v4.5.3
 
 RUN install-glibc
 
