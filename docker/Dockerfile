@@ -1,30 +1,34 @@
 # Pull base image.
 FROM jlesage/baseimage-gui:debian-11-v4.5.3
 
-RUN install-glibc
-
 # Set the name of the application.
 ENV APP_NAME="StardewValley"
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio build-essential \
     && rm -rf /var/lib/apt/lists/*
-RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png && \
-    install_app_icon.sh "$APP_ICON_URL"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libxinerama1 \
     xserver-xorg-video-intel xserver-xorg-core xserver-xorg-video-dummy \
-    x11proto-damage-dev x11-utils \
-    xauth xdpyinfo xrandr xset \
+    x11proto-damage-dev x11-utils  x11-xserver-utils \
     libgl1-mesa-glx \
     libgl1-mesa-dri \
     mesa-utils \
-    alsa-base alsa-utils \
     fonts-dejavu-core \
-    libc6:i386 libstdc++6:i386 \
-    libc6 libpthread libgcc-s1 \
+    libc6 libgcc-s1 \
+    tigervnc-standalone-server \
     && rm -rf /var/lib/apt/lists/*
+
+# Install locales package
+RUN apt-get update && apt-get install -y locales
+
+# Generate and set the desired locale (e.g., en_US.UTF-8)
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+
+RUN APP_ICON_URL=https://i.ibb.co/tJJjxsF/fern.png && \
+    install_app_icon.sh "$APP_ICON_URL"
 
 # Game + ModLoader 1.5.6 3.18.2
 RUN mkdir -p /data/Stardew && \
@@ -43,7 +47,6 @@ RUN wget https://github.com/Pathoschild/SMAPI/releases/download/3.18.6/SMAPI-3.1
     unzip /data/nexus.zip -d /data/nexus/ && \
     /bin/bash -c "SMAPI_NO_TERMINAL=true SMAPI_USE_CURRENT_SHELL=true echo -e \"2\n\n\" | /data/nexus/SMAPI\ 3.18.6\ installer/internal/linux/SMAPI.Installer --install --game-path \"/data/Stardew/Stardew Valley\"" || :
 
-
 # Add Mods & Scripts
 COPY ["mods/", "/data/Stardew/Stardew Valley/Mods/"]
 COPY scripts/ /opt/
@@ -56,6 +59,12 @@ RUN chmod +x /data/Stardew/Stardew\ Valley/StardewValley && \
 RUN mkdir /etc/services.d/utils && touch /etc/services.d/app/utils.dep
 COPY run /etc/services.d/utils/run 
 RUN chmod +x /etc/services.d/utils/run 
+
+# Copy custom xorg.conf file
+COPY xorg.conf /etc/X11/xorg.conf
+
+# Set VNC protocol version to 3.8
+RUN echo "rfbversion=3.8" >> /root/.vnc/config
 
 COPY docker-entrypoint.sh /startapp.sh
 
