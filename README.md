@@ -1,13 +1,12 @@
 # Stardew Valley Multiplayer Docker Compose (SVE Enabled)
 
 This project aims to autostart a Stardew Valley Multiplayer Server as easy as possible.
+This is a forked version of printfuck's docker.
+This is just for a friend and I to use with the mods we want. I've added a bunch of mods, and I've been continually changing the configuration to optimize things and fix log errors.
+It's not perfect and sometimes may break.
 
 ## Side Note
-
  - Updating to most recent version requires a rebuild: `docker-compose build --no-cache` 
- - Although I'm trying to put out updates, I don't have the time for testing, so I recommend forking and fixing things on your own.
- - Ansible and Terraform will not be supported anymore
- - Thanks to the brilliant configuration script from Novex and the genius baseimage from jlesage this now looks a bit better
 
 ## Setup
 
@@ -18,22 +17,6 @@ git clone https://github.com/indifferentketchup/stardew-multiplayer-docker
 
 docker-compose up
 ```
-### Ansible !deprecated!
-
-Create an inventory file with your hosts
-
-```
-ansible -i <your_inventori> playbook.yml
-```
-
-### Terraform (with Hetzner Cloud) !deprecated!
-
-Enter your API Token in `terraform/vars.auto.tfvars` and modify the resource section in `main.tf` to your liking, then run the following script:
-
-```
-./terra.sh
-```
-
 ## Game Setup
 
 Intially you have to create or load a game once via VNC or Web interface. After that the Autoload Mod jumps into the previously loaded savegame everytime you restart or rebuild the container. The AutoLoad Mod config file is by default mounted as a volume, since it keeps the state of the ongoing SaveGame, but you can also copy your existing SaveGame to the `Saves` volume and define the SaveGame's name in the environment variables.
