@@ -1,52 +1,44 @@
 #!/bin/bash
+
 export HOME=/config
 
-# start pulseaudio
+# Start PulseAudio
 pulseaudio -D --exit-idle-time=-1
 
-# create a virtual speaker output, otherwise SpaceCore will crash when trying
-# to find output device, and Stardew Valley Expanded will not load
+# Create a virtual speaker output
 pactl load-module module-null-sink \
     sink_name=SpeakerOutput \
     sink_properties=device.description="dummy"
-    
-for modPath in /data/Stardew/Stardew\ Valley/Mods/*/
-do
+
+# Configure mods in parallel
+for modPath in $(find /data/Stardew/Stardew\ Valley/Mods/* -maxdepth 0 -type d); do
   mod=$(basename "$modPath")
+  var="ENABLE_${mod//[^A-Z]/}_MOD"
 
-  # Normalize mod name ot uppercase and only characters, eg. "Always On Server" => ENABLE_ALWAYSONSERVER_MOD
-  var="ENABLE_$(echo "${mod^^}" | tr -cd '[A-Z]')_MOD"
-
-  # Remove the mod if it's not enabled
   if [ "${!var}" != "true" ]; then
     echo "Removing ${modPath} (${var}=${!var})"
-    rm -rf "$modPath"
-    continue
-  fi
-
-  if [ -f "${modPath}/config.json.template" ]; then
-    echo "Configuring ${modPath}config.json"
-
-    # Seed the config.json only if one isn't manually mounted in (or is empty)
-    if [ "$(cat "${modPath}config.json" 2> /dev/null)" == "" ]; then
-      envsubst < "${modPath}config.json.template" > "${modPath}config.json"
+    rm -rf "$modPath" &
+  else
+    if [ -f "${modPath}/config.json.template" ]; then
+      echo "Configuring ${modPath}config.json"
+      [ ! -s "${modPath}config.json" ] && envsubst < "${modPath}config.json.template" > "${modPath}config.json" &
     fi
   fi
 done
+wait
 
-# Run extra steps for certain mods
+# Run extra steps for certain mods (optimize these scripts if possible)
 /opt/configure-remotecontrol-mod.sh
-
 /opt/tail-smapi-log.sh &
 
 # Ready to start!
-
 export DISPLAY=192.168.4.191:0.0
-
 export XAUTHORITY=~/.Xauthority
 TERM=
-sed -i -e 's/env TERM=xterm $LAUNCHER "$@"$/env SHELL=\/bin\/bash TERM=xterm xterm  -e "\/bin\/bash -c $LAUNCHER "$@""/' /data/Stardew/Stardew\ Valley/StardewValley
 
-bash -c "/data/Stardew/Stardew\ Valley/StardewValley"
+# Modify the StardewValley launcher script using sed
+launcher_script="/data/Stardew/Stardew Valley/StardewValley"
+sed -i 's|exec env TERM=xterm $LAUNCH_FILE "$@"|exec env SHELL=/bin/bash TERM=xterm $LAUNCH_FILE "$@"|' "$launcher_script"
 
-sleep 233333333333333
+# Launch Stardew Valley and replace the current process
+exec "$launcher_script" "$@"

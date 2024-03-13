@@ -1,67 +1,96 @@
 # Stardew Valley Multiplayer Docker Compose (SVE Enabled)
 
-This project aims to autostart a Stardew Valley Multiplayer Server as easy as possible.
-This is a forked version of printfuck's docker.
-This is just for a friend and I to use with the mods we want. I've added a bunch of mods, and I've been continually changing the configuration to optimize things and fix log errors.
-It's not perfect and sometimes may break.
+This project aims to autostart a Stardew Valley Multiplayer Server as easily as possible using Docker Compose. It is a forked version of [printfuck/stardew-multiplayer-docker](https://github.com/printfuck/stardew-multiplayer-docker) with additional mods and optimizations for personal use.
 
-## Side Note
- - Updating to most recent version requires a rebuild: `docker-compose build --no-cache` 
+## Features
+
+- Easy setup and deployment using Docker Compose
+- Supports Stardew Valley Expanded (SVE) and other important mods
+- Autoload functionality to resume the last saved game
+- Accessible via VNC or web interface
+- Customizable settings through environment variables
+
+## Prerequisites
+
+- Docker and Docker Compose installed on your system
+- A copy of Stardew Valley (the game will be pulled from the server during the build process)
 
 ## Setup
 
-### Docker-Compose
- 
-```
-git clone https://github.com/indifferentketchup/stardew-multiplayer-docker
+1. Clone the repository:
 
-docker-compose up
-```
-## Game Setup
+   ```bash
+   git clone https://github.com/indifferentketchup/stardew-multiplayer-docker.git
+   ```
 
-Intially you have to create or load a game once via VNC or Web interface. After that the Autoload Mod jumps into the previously loaded savegame everytime you restart or rebuild the container. The AutoLoad Mod config file is by default mounted as a volume, since it keeps the state of the ongoing SaveGame, but you can also copy your existing SaveGame to the `Saves` volume and define the SaveGame's name in the environment variables.
+2. Navigate to the cloned directory:
+
+   ```bash
+   cd stardew-multiplayer-docker
+   ```
+
+3. Start the server using Docker Compose:
+
+   ```bash
+   docker-compose up
+   ```
+
+4. Access the game via VNC or the web interface (see the "Accessing the Game" section below).
+
+## Configuration
+
+You can customize the server settings by modifying the `docker-compose.yml` file. Some notable options include:
+
+- `VNCPASS`: Set the password for the VNC server (default: "insecure")
+- `AUTOLOAD_SAVE_NAME`: Specify the name of the save game to autoload (default: none)
+
+## Accessing the Game
 
 ### VNC
 
-Use a vnc client like `TightVNC` on Windows or plain `vncviewer` on any Linux distribution to connect to the server. You can modify the VNC Port and IP address and Password in the `docker-compose.yml` file like this:
+Use a VNC client like TightVNC on Windows or `vncviewer` on Linux to connect to the server. The VNC port and password can be modified in the `docker-compose.yml` file.
 
-Localhost:
-```
-   # Server is only reachable on localhost on port 2342...
-   ports:
-     - 127.0.0.1:2342:5900
-   # ... with the password "insecure"
-   environment:
-     - VNCPASS=insecure
-```
+### Web Interface
 
-### Web Interface 
+The server exposes a web interface on port 5800 inside the container. Although it requires the VNC password, it is not recommended to expose this port to the outside world.
 
-On port 5800 inside the container is a web interface. This is a bit easier and more accessible than just the VNC interface. Although you will be asked for the vnc password, I wouldn't recommend exposing the port to the outside world.
+## Important Mods
 
-![img](https://store.eris.cc/uploads/859865e1ab5b23fb223923d9a7e4806b.PNG)
+This project includes the following important mods:
 
-## How it works
+1. **Stardew Valley Expanded (SVE)**: A major expansion mod that adds new locations, NPCs, events, and more to the game.
+2. **East Scarp**: Adds a new eastern region to the game with unique locations and characters.
+3. **Always Raining in the Valley**: Makes it rain all the time in Stardew Valley, creating a unique atmosphere.
+4. **Downtown Zuzu**: Introduces a new city area called Downtown Zuzu with various shops and activities.
+5. **Adventurer's Guild Expanded**: Expands the Adventurer's Guild with new quests, rewards, and features.
+6. **Immersive Farm 2 Remastered**: Overhauls the standard farm layout to provide a more immersive and realistic farming experience.
+7. **StardewAquarium**: Allows players to build and manage their own aquarium, displaying various fish and aquatic creatures.
+8. **AnimalHusbandryMod**: Adds more depth to animal husbandry, including new animals, products, and interactions.
+9. **LoveOfCooking**: Introduces a cooking skill system and new recipes to the game.
+10. **Better Quarry Redux**: Improves the quarry area with new features and mining opportunities.
+11. **Always On Server**: Keeps the server running even when no players are connected.
+12. **AutomaticGates**: Automatically opens and closes gates when the player approaches them.
+13. **BetterChests**: Adds additional functionality and customization options for chests.
+14. **BetterRanching**: Improves the ranching experience with new features and quality of life improvements.
+15. **BetterWorkbenches**: Enhances the workbench functionality and adds new recipes.
+16. **ConsoleCommands**: Provides a set of console commands for server administrators.
+17. **DedicatedServer**: Optimizes the game for running as a dedicated server.
+18. **DeepWoodsMod**: Adds a new forest area to explore with unique features and challenges.
+19. **ExpandedStorage**: Increases the storage capacity of chests and other containers.
+20. **NPCMapLocations**: Shows the locations of NPCs on the map.
+21. **SaveBackup**: Automatically creates backups of save files to prevent data loss.
+22. **TimeSpeed**: Allows players to adjust the speed of time in the game.
+23. **UnlimitedPlayers**: Removes the player limit, allowing more than four players to join the server.
+24. **Seasonal Cute Characters**: Adds seasonal outfits and appearances for characters, enhancing the game's visual appeal.
 
-The game will be pulled from my servers (I'll assume you already own the game - since you're looking for a multiplayer - so please don't rip it from there) and the modloader (SMAPI) will be pulled from Github when building the container. You can control the mods's settings with environment variables in the `docker-compose.yml` file.
-
-## Used Mods
-
-* [AutoLoadGame](https://www.nexusmods.com/stardewvalley/mods/2509)
-* [Always On](https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/page-20#post-3353880)
-* [Unlimited Players](https://www.nexusmods.com/stardewvalley/mods/2213)
-* some more ...
+Please refer to each mod's documentation for specific installation, configuration, and usage instructions.
 
 ## Troubleshooting
 
-### Error Messages in Console
+- If you encounter any error messages in the console, look for messages like "cannot open display", which may indicate permission errors.
+- If the game doesn't start, access it via VNC to initially load or start a pre-generated save game.
+- For optimal performance, it is recommended to use a VPS/machine with at least four logical CPUs and 4GB RAM. The minimum playable configuration for 2-4 players is two logical CPUs and 1GB RAM.
 
-Usually you should be able to ignore any message there. If the game doesn't start or any errors appear, you should look for messages like "cannot open display", which would most likely indicate permission errors.
+## Contributing
 
-### VNC
-
-Access the game via VNC to initially load or start a pregenerated savegame. You can control the Server from there or edit the config.json files in the configs folder.
-
-### Performance
-
-I'd recomend a VPS/Machine with at least four logical CPUs and 4GB Ram, otherwise there will be horrible lags. The minimum configuration I'd consider playable with two to four players would be two logical CPUs and 1GB of Ram.
+Pull requests and suggestions for improvements are welcome! If you encounter any issues or have ideas for enhancements, please open an issue on the GitHub repository.
