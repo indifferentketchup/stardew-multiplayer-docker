@@ -6,21 +6,7 @@ ENV APP_NAME="StardewValley"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio \
-    xserver-xorg-video-intel xserver-xorg-core xserver-xorg-video-dummy \
-    libgl1-mesa-glx libgl1-mesa-dri libc6 libgcc-s1 \
-    mesa-utils \
-    fonts-dejavu-core \
-    tigervnc-standalone-server \
-    locales \
-    xfonts-base \
     && rm -rf /var/lib/apt/lists/*
-
-# Configure locales
-RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
-    dpkg-reconfigure --frontend=noninteractive locales && \
-    update-locale LANG=en_US.UTF-8
-
-ENV LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 RUN APP_ICON_URL=https://i.ibb.co/tJJjxsF/fern.png && \
     install_app_icon.sh "$APP_ICON_URL"
@@ -52,6 +38,10 @@ RUN chmod +x "/data/Stardew/Stardew Valley/StardewValley" && \
 # TigerVNC Security and Configuration
 COPY ["TigerVNC/Security/", "/etc/tigervnc/security/"]
 COPY ["TigerVNC/Config/", "/etc/tigervnc/config/"]
+
+RUN mkdir /etc/services.d/utils && touch /etc/services.d/app/utils.dep
+COPY run /etc/services.d/utils/run 
+RUN chmod +x /etc/services.d/utils/run 
 
 COPY docker-entrypoint.sh /startapp.sh
 
