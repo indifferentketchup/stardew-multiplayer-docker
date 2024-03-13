@@ -38,19 +38,19 @@ RUN wget https://github.com/Pathoschild/SMAPI/releases/download/3.18.6/SMAPI-3.1
     unzip /data/nexus.zip -d /data/nexus/ && \
     /bin/bash -c "SMAPI_NO_TERMINAL=true SMAPI_USE_CURRENT_SHELL=true echo -e \"2\n\n\" | /data/nexus/SMAPI\ 3.18.6\ installer/internal/linux/SMAPI.Installer --install --game-path \"/data/Stardew/Stardew Valley\"" || :
 
-# TigerVNC Security and Configuration
-COPY TigerVNC/Security /etc/tigervnc/security \
-     TigerVNC/Config/vncserver-config-defaults TigerVNC/Config/vncserver-config-mandatory /etc/tigervnc/config/
-
 # Add Mods & Scripts
-COPY --chown=1000:1000 mods/ /data/Stardew/Stardew\ Valley/Mods/
+COPY ["mods/", "/data/Stardew/Stardew Valley/Mods/"]
 COPY scripts/ /opt/
 
 RUN chmod +x /data/Stardew/Stardew\ Valley/StardewValley && \
     chmod -R 777 /data/Stardew/ && \
-    chmod +x /opt/*.sh && \
-    mkdir /etc/services.d/utils && touch /etc/services.d/app/utils.dep && \
-    chmod +x /etc/services.d/utils/run
+    chown -R 1000:1000 /data/Stardew && \
+    chmod +x /opt/*.sh
+
+# TigerVNC Security and Configuration
+RUN mkdir -p /etc/tigervnc/security /etc/tigervnc/config/
+COPY ["TigerVNC/Security/", "/etc/tigervnc/security/"]
+COPY ["TigerVNC/Config/", "/etc/tigervnc/config/"]
 
 COPY run /etc/services.d/utils/run
 COPY xorg.conf /etc/X11/xorg.conf
