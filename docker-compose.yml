@@ -1,45 +1,46 @@
-version: '3.9'
+version: '3.8'
 
 services:
   valley:
     build:
       context: ./docker
-    shm_size: '2g'
+      dockerfile: Dockerfile
+    image: stardewogserver:test
     container_name: stardew
-    deploy:
-      resources:
-        limits:
-          cpus: '7.5'
-          memory: 12G
-        reservations:
-          cpus: '4'
-          memory: 4G
-    ports:
-      # VNC
-      - 5902:5900
-      # NOVNC WEB
-      - 5801:5800
-      # Game
-      - 24642:24642/udp
-    volumes:
-      # Saves go here now
-      - ./valley_saves:/config/xdg/config/StardewValley/Saves
-      # TigerVNC Security Keys
-      - ./docker/TigerVNC/Security:/etc/tigervnc/security
-      - ./docker/TigerVNC/Config:/etc/tigervnc/config
-    environment:
-      - VNC_PASSWORD=stardew
-      - DISPLAY_HEIGHT=900
-      - DISPLAY_WIDTH=1200
-      - SECURITY_TYPES=X509Vnc,TLSVnc
-      - X509_CERT_FILE=/etc/tigervnc/security/cert.pem
-      - X509_KEY_FILE=/etc/tigervnc/security/key.pem
-      - PROTOCOL=3.8
-      - JPEG_QUALITY=70
-      - JPEG_COMPRESSION=6
+    shm_size: '2g'  # Shared memory size; important for applications that use shared memory intensively.
+    cpus: '0.75'  # Limit CPU to 75% of a single CPU core.
+    mem_limit: 12G  # Limit memory to ensure the container doesn't exhaust host resources.
 
-      ## Disable mods
-      - ENABLE_ALWAYSONSERVER_MOD=${ENABLE_ALWAYSONSERVER_MOD-false}
+    ports:
+      - 5902:5900  # VNC server port, allowing remote desktop functionality.
+      - 5801:5800  # noVNC web access port, for accessing the VNC session via a web browser.
+      - 24642:24642/udp  # Game server port, specific to Stardew Valley.
+
+    volumes:
+      # Persistent volume for game saves to ensure progress isn't lost on container recreation.
+      - ./valley_saves:/config/xdg/config/StardewValley/Saves
+      # Bind mounts for configuration, data, and etc directories to maintain state and facilitate configuration.
+      - /mnt/c/StardewValleyDocker/config:/config
+      - /mnt/c/StardewValleyDocker/data:/data
+      - /mnt/c/StardewValleyDocker/etc:/etc
+
+    environment:
+      - VNC_PASSWORD=stardew  # Define a password for VNC connections for security.
+      - DISPLAY_HEIGHT=900  # Set the height for the VNC display.
+      - DISPLAY_WIDTH=1200  # Set the width for the VNC display.
+      - SECURITY_TYPES=X509Vnc,TLSVnc  # Security types for VNC to enhance connection security.
+      - X509_CERT_FILE=/etc/tigervnc/security/cert.pem  # Path to the VNC certificate file.
+      - X509_KEY_FILE=/etc/tigervnc/security/key.pem  # Path to the VNC key file.
+      - PROTOCOL=3.8  # Specify the VNC protocol version to be used.
+      - JPEG_QUALITY=70  # Adjust JPEG quality for VNC to balance image quality and bandwidth.
+      - JPEG_COMPRESSION=6  # Adjust JPEG compression level for VNC for the same reason.
+
+      # Enables the Stardew Valley dedicated server mod to run automatically when the server starts.
+      # Provide a way to run a multiplayer server without the need for the game's host player to be actively present
+      - ENABLE_DEDICATEDSERVER_MOD=${ENABLE_DEDICATEDSERVER_MOD-true}
+    
+      ## Mods I personally don't use.
+      - ENABLE_ALWAYSONSERVER_MOD=${ENABLE_ALWAYSONSERVER_MOD-false} # Replaced by Dedicated Server Mod
       - ENABLE_UNLIMITEDPLAYERS_MOD=${ENABLE_UNLIMITEDPLAYERS_MOD-false}
       - ENABLE_CROPSANYTIMEANYWHERE_MOD=${ENABLE_CROPSANYTIMEANYWHERE_MOD-false}
       - ENABLE_FRIENDSFOREVER_MOD=${ENABLE_FRIENDSFOREVER_MOD-false}
@@ -102,7 +103,6 @@ services:
       - ENABLE_SHOPTILEFRAMEWORK_MOD=${ENABLE_SHOPTILEFRAMEWORK_MOD-true}
       - ENABLE_SPACECORE_MOD=${ENABLE_SPACECORE_MOD-true}
       - ENABLE_STARDEWVALLEYEXPANDED_MOD=${ENABLE_STARDEWVALLEYEXPANDED_MOD-true}
-      - ENABLE_DEDICATEDSERVER_MOD=${ENABLE_DEDICATEDSERVER_MOD-true}
       - ENABLE_CABINSTACKER_MOD=${ENABLE_CABINSTACKER_MOD-true}
       - ENABLE_BETTERRANCHING_MOD=${ENABLE_BETTERRANCHING_MOD-true}
       - ENABLE_ADVENTURERSGUILDEXPANDED_MOD=${ENABLE_ADVENTURERSGUILDEXPANDED_MOD-true}

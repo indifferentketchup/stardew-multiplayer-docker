@@ -1,5 +1,4 @@
 #!/bin/bash
-
 export HOME=/config
 
 # Start PulseAudio
@@ -9,8 +8,7 @@ pulseaudio -D --exit-idle-time=-1
 pactl load-module module-null-sink \
     sink_name=SpeakerOutput \
     sink_properties=device.description="dummy"
-
-# Configure mods
+    
 for modPath in /data/Stardew/Stardew\ Valley/Mods/*/
 do
   mod=$(basename "$modPath")
@@ -35,10 +33,11 @@ do
   fi
 done
 
-# Run extra steps for certain mods (optimize these scripts if possible)
+# Run extra steps for certain mods
 /opt/configure-remotecontrol-mod.sh
 /opt/tail-smapi-log.sh &
 
+# Ready to start!
 # Modify the StardewValley launcher script using sed
 launcher_script="/data/Stardew/Stardew Valley/StardewValley"
 sed -i 's|exec env TERM=xterm $LAUNCH_FILE "$@"|exec env SHELL=/bin/bash TERM=xterm $LAUNCH_FILE "$@"|' "$launcher_script"
