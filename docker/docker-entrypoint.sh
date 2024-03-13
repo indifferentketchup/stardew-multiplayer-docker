@@ -43,6 +43,11 @@ done
 export XAUTHORITY=~/.Xauthority
 TERM=
 
+# Set OpenGL environment variables
+export LIBGL_ALWAYS_INDIRECT=1
+export MESA_GL_VERSION_OVERRIDE=4.1
+export MESA_GLSL_VERSION_OVERRIDE=410
+
 # Modify the StardewValley launcher script using sed
 launcher_script="/data/Stardew/Stardew Valley/StardewValley"
 sed -i 's|exec env TERM=xterm $LAUNCH_FILE "$@"|exec env SHELL=/bin/bash TERM=xterm $LAUNCH_FILE "$@"|' "$launcher_script"

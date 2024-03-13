@@ -8,11 +8,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio \
     xserver-xorg-video-intel xserver-xorg-core xserver-xorg-video-dummy \
     libgl1-mesa-glx libgl1-mesa-dri libc6 libgcc-s1 \
+    mesa-utils \
     fonts-dejavu-core \
     tigervnc-standalone-server \
     locales \
     xfonts-base \
     && rm -rf /var/lib/apt/lists/*
+
+ENV LIBGL_ALWAYS_INDIRECT=1
+ENV MESA_GL_VERSION_OVERRIDE=4.1
+ENV MESA_GLSL_VERSION_OVERRIDE=410
 
 # Configure locales
 RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
