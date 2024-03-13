@@ -4,10 +4,6 @@ services:
   valley:
     build:
       context: ./docker
-      cache_from:
-        - type=local,src=../Image Cache
-      cache_to:
-        - type=local,dest=../Image Cache
     image: samkintop/stardew-valley-docker-image:latest
     shm_size: '2g'
     container_name: stardew
@@ -30,8 +26,8 @@ services:
       # Saves go here now
       - ./valley_saves:/config/xdg/config/StardewValley/Saves
       # TigerVNC Security Keys
-      - ./TigerVNC/Security:/etc/tigervnc/security
-      - ./TigerVNC/Config:/etc/tigervnc/config
+      - ./docker/TigerVNC/Security:/etc/tigervnc/security
+      - ./docker/TigerVNC/Config:/etc/tigervnc/config
     environment:
       - VNC_PASSWORD=stardew
       - DISPLAY_HEIGHT=900
