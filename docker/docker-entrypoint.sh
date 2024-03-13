@@ -42,13 +42,9 @@ done
 # Ready to start!
 export XAUTHORITY=~/.Xauthority
 TERM=
+sed -i -e 's/env TERM=xterm $LAUNCHER "$@"$/env SHELL=\/bin\/bash TERM=xterm xterm  -e "\/bin\/bash -c $LAUNCHER "$@""/' /data/Stardew/Stardew\ Valley/StardewValley
 
-# Modify the StardewValley launcher script using sed
-launcher_script="/data/Stardew/Stardew Valley/StardewValley"
-sed -i 's|exec env TERM=xterm $LAUNCH_FILE "$@"|exec env SHELL=/bin/bash TERM=xterm $LAUNCH_FILE "$@"|' "$launcher_script"
-
-# Launch Stardew Valley and replace the current process
-exec "$launcher_script" "$@"
+bash -c "/data/Stardew/Stardew\ Valley/StardewValley"
 
 while true; do
   # Perform any periodic tasks or checks if needed
