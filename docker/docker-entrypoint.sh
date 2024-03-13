@@ -1,6 +1,9 @@
 #!/bin/bash
 export HOME=/config
 
+# Set the DISPLAY environment variable
+export DISPLAY=:0
+
 # start pulseaudio
 pulseaudio -D --exit-idle-time=-1
 
@@ -47,4 +50,4 @@ sed -i -e 's/env TERM=xterm $LAUNCHER "$@"$/env SHELL=\/bin\/bash TERM=xterm xte
 
 bash -c "/data/Stardew/Stardew\ Valley/StardewValley"
 
-sleep 233333333333333
+tail -f /dev/null

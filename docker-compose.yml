@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   valley:
-    build:
+    build: 
       context: ./docker
       dockerfile: Dockerfile
-    image: stardewogserver:test
+    image: stardewogserver:stable
     container_name: stardew
     shm_size: '2g'  # Shared memory size; important for applications that use shared memory intensively.
     cpus: '0.75'  # Limit CPU to 75% of a single CPU core.
@@ -19,19 +19,11 @@ services:
     volumes:
       # Persistent volume for game saves to ensure progress isn't lost on container recreation.
       - ./valley_saves:/config/xdg/config/StardewValley/Saves
-      # Bind mounts for configuration, data, and etc directories to maintain state and facilitate configuration.
-      - /mnt/c/StardewValleyDocker/config:/config
-      - /mnt/c/StardewValleyDocker/data:/data
-      - /mnt/c/StardewValleyDocker/etc:/etc
 
     environment:
       - VNC_PASSWORD=stardew  # Define a password for VNC connections for security.
       - DISPLAY_HEIGHT=900  # Set the height for the VNC display.
       - DISPLAY_WIDTH=1200  # Set the width for the VNC display.
-      - SECURITY_TYPES=X509Vnc,TLSVnc  # Security types for VNC to enhance connection security.
-      - X509_CERT_FILE=/etc/tigervnc/security/cert.pem  # Path to the VNC certificate file.
-      - X509_KEY_FILE=/etc/tigervnc/security/key.pem  # Path to the VNC key file.
-      - PROTOCOL=3.8  # Specify the VNC protocol version to be used.
       - JPEG_QUALITY=70  # Adjust JPEG quality for VNC to balance image quality and bandwidth.
       - JPEG_COMPRESSION=6  # Adjust JPEG compression level for VNC for the same reason.
 
