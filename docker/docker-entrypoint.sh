@@ -1,10 +1,11 @@
 #!/bin/bash
 export HOME=/config
 
-# Start PulseAudio
+# start pulseaudio
 pulseaudio -D --exit-idle-time=-1
 
-# Create a virtual speaker output
+# create a virtual speaker output, otherwise SpaceCore will crash when trying
+# to find output device, and Stardew Valley Expanded will not load
 pactl load-module module-null-sink \
     sink_name=SpeakerOutput \
     sink_properties=device.description="dummy"
@@ -35,17 +36,15 @@ done
 
 # Run extra steps for certain mods
 /opt/configure-remotecontrol-mod.sh
+
 /opt/tail-smapi-log.sh &
 
 # Ready to start!
-# Modify the StardewValley launcher script using sed
-launcher_script="/data/Stardew/Stardew Valley/StardewValley"
-sed -i 's|exec env TERM=xterm $LAUNCH_FILE "$@"|exec env SHELL=/bin/bash TERM=xterm $LAUNCH_FILE "$@"|' "$launcher_script"
 
-# Launch Stardew Valley and replace the current process
-exec "$launcher_script" "$@"
+export XAUTHORITY=~/.Xauthority
+TERM=
+sed -i -e 's/env TERM=xterm $LAUNCHER "$@"$/env SHELL=\/bin\/bash TERM=xterm xterm  -e "\/bin\/bash -c $LAUNCHER "$@""/' /data/Stardew/Stardew\ Valley/StardewValley
 
-while true; do
-  # Perform any periodic tasks or checks if needed
-  sleep 60 # Sleep for 60 seconds before the next iteration
-done
+bash -c "/data/Stardew/Stardew\ Valley/StardewValley"
+
+sleep 233333333333333

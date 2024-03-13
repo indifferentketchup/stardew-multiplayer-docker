@@ -1,16 +1,12 @@
 # Pull base image.
-FROM jlesage/baseimage-gui:debian-10-v4.5.3
+FROM jlesage/baseimage-gui:debian-10
 
 # Set the name of the application.
 ENV APP_NAME="StardewValley"
 
 RUN apt-get update
-RUN apt-get install -y --fix-missing wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio \
-    xserver-xorg-video-intel xserver-xorg-core xserver-xorg-video-dummy \
-    libgl1-mesa-glx libgl1-mesa-dri libc6 \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN APP_ICON_URL=https://i.ibb.co/tJJjxsF/fern.png && \
+RUN apt-get install -y wget unzip tar strace mono-complete xterm gettext-base jq netcat procps pulseaudio
+RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png && \
     install_app_icon.sh "$APP_ICON_URL"
 
 # Game + ModLoader 1.5.6 3.18.2
@@ -30,6 +26,7 @@ RUN wget https://github.com/Pathoschild/SMAPI/releases/download/3.18.6/SMAPI-3.1
     unzip /data/nexus.zip -d /data/nexus/ && \
     /bin/bash -c "SMAPI_NO_TERMINAL=true SMAPI_USE_CURRENT_SHELL=true echo -e \"2\n\n\" | /data/nexus/SMAPI\ 3.18.6\ installer/internal/linux/SMAPI.Installer --install --game-path \"/data/Stardew/Stardew Valley\"" || :
 
+
 # Add Mods & Scripts
 COPY ["mods/", "/data/Stardew/Stardew Valley/Mods/"]
 COPY scripts/ /opt/
@@ -44,6 +41,3 @@ COPY run /etc/services.d/utils/run
 RUN chmod +x /etc/services.d/utils/run 
 
 COPY docker-entrypoint.sh /startapp.sh
-
-RUN apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
