@@ -10,29 +10,36 @@ pactl load-module module-null-sink \
     sink_name=SpeakerOutput \
     sink_properties=device.description="dummy"
 
-# Configure mods in parallel
-for modPath in $(find /data/Stardew/Stardew\ Valley/Mods/* -maxdepth 0 -type d); do
+# Configure mods
+for modPath in /data/Stardew/Stardew\ Valley/Mods/*/
+do
   mod=$(basename "$modPath")
-  var="ENABLE_${mod//[^A-Z]/}_MOD"
 
+  # Normalize mod name ot uppercase and only characters, eg. "Always On Server" => ENABLE_ALWAYSONSERVER_MOD
+  var="ENABLE_$(echo "${mod^^}" | tr -cd '[A-Z]')_MOD"
+
+  # Remove the mod if it's not enabled
   if [ "${!var}" != "true" ]; then
     echo "Removing ${modPath} (${var}=${!var})"
-    rm -rf "$modPath" &
-  else
-    if [ -f "${modPath}/config.json.template" ]; then
-      echo "Configuring ${modPath}config.json"
-      [ ! -s "${modPath}config.json" ] && envsubst < "${modPath}config.json.template" > "${modPath}config.json" &
+    rm -rf "$modPath"
+    continue
+  fi
+
+  if [ -f "${modPath}/config.json.template" ]; then
+    echo "Configuring ${modPath}config.json"
+
+    # Seed the config.json only if one isn't manually mounted in (or is empty)
+    if [ "$(cat "${modPath}config.json" 2> /dev/null)" == "" ]; then
+      envsubst < "${modPath}config.json.template" > "${modPath}config.json"
     fi
   fi
 done
-wait
 
 # Run extra steps for certain mods (optimize these scripts if possible)
 /opt/configure-remotecontrol-mod.sh
 /opt/tail-smapi-log.sh &
 
 # Ready to start!
-export DISPLAY=192.168.4.191:0.0
 export XAUTHORITY=~/.Xauthority
 TERM=
 
