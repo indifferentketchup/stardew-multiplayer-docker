@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     fonts-dejavu-core \
     tigervnc-standalone-server \
     locales \
+    xfonts-base \
     && rm -rf /var/lib/apt/lists/*
 
 # Configure locales

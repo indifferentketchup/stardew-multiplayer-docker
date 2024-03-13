@@ -42,3 +42,8 @@ sed -i 's|exec env TERM=xterm $LAUNCH_FILE "$@"|exec env SHELL=/bin/bash TERM=xt
 
 # Launch Stardew Valley and replace the current process
 exec "$launcher_script" "$@"
+
+while true; do
+  # Perform any periodic tasks or checks if needed
+  sleep 60 # Sleep for 60 seconds before the next iteration
+done
