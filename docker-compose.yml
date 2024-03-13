@@ -4,7 +4,6 @@ services:
   valley:
     build:
       context: ./docker
-    image: samkintop/stardew-valley-docker-image:latest
     shm_size: '2g'
     container_name: stardew
     deploy:
