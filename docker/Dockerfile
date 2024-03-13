@@ -49,7 +49,6 @@ RUN chmod +x "/data/Stardew/Stardew Valley/StardewValley" && \
     chmod +x /opt/*.sh
 
 # TigerVNC Security and Configuration
-RUN mkdir -p /etc/tigervnc/security /etc/tigervnc/config/
 COPY ["TigerVNC/Security/", "/etc/tigervnc/security/"]
 COPY ["TigerVNC/Config/", "/etc/tigervnc/config/"]
 
