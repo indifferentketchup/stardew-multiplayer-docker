@@ -39,10 +39,6 @@ RUN chmod +x "/data/Stardew/Stardew Valley/StardewValley" && \
 COPY ["TigerVNC/Security/", "/etc/tigervnc/security/"]
 COPY ["TigerVNC/Config/", "/etc/tigervnc/config/"]
 
-RUN mkdir /etc/services.d/utils && touch /etc/services.d/app/utils.dep
-COPY run /etc/services.d/utils/run 
-RUN chmod +x /etc/services.d/utils/run 
-
 COPY docker-entrypoint.sh /startapp.sh
 
 RUN apt-get clean && \
