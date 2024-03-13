@@ -22,19 +22,13 @@ This project aims to autostart a Stardew Valley Multiplayer Server as easily as 
    ```bash
    git clone https://github.com/indifferentketchup/stardew-multiplayer-docker.git
    ```
-
-2. Switch to the "docker-container" driver for better cache management and support for cache export:
-   ```bash
-   docker buildx create --use --driver docker-container
-   ```
-
-3. Navigate to the cloned directory:
+2. Navigate to the cloned directory:
 
    ```bash
    cd stardew-multiplayer-docker
    ```
 
-4. Start the server using Docker Compose:
+3. Start the server using Docker Compose:
 
    ```bash
    docker-compose up
